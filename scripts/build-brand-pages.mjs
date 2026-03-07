@@ -215,7 +215,7 @@ function renderBrandPage(brand) {
       </div>
     </section>
     <section class="brand-info-section">
-      <h2>Marka Hakkında</h2>
+      <h2>${escapeHtml(brand.name)} Hakkında</h2>
       ${renderLongInfo(brand)}
       <p>Bu sayfadaki görseller çevrimiçi kaynaklardan derlenmiştir. Marka temsilini güçlendirmek için yeni kaynaklar bulundukça güncellenir.</p>
     </section>
