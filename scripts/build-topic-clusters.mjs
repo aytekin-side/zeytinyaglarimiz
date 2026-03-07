@@ -93,6 +93,7 @@ function nav(prefix, topicActive = false) {
             <li><a href="${prefix}index.html">Ana Sayfa</a></li>
             <li><a href="${prefix}markalar.html">Markalar</a></li>
             <li><a href="${prefix}topic/index.html" class="${topicActive ? 'active' : ''}">Zeytinyağı Çeşitleri</a></li>
+            <li><a href="${prefix}rehber/index.html">Rehber</a></li>
             <li><a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a></li>
             <li><a href="${prefix}bolgeler.html">Bölgeler</a></li>
         </ul>
@@ -108,6 +109,7 @@ function nav(prefix, topicActive = false) {
     <a href="${prefix}index.html">Ana Sayfa</a>
     <a href="${prefix}markalar.html">Markalar</a>
     <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
+    <a href="${prefix}rehber/index.html">Rehber</a>
     <a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a>
     <a href="${prefix}bolgeler.html">Bölgeler</a>
 </div>`;
@@ -123,10 +125,11 @@ function footer(prefix) {
             <a href="${prefix}index.html">Ana Sayfa</a>
             <a href="${prefix}markalar.html">Markalar</a>
             <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
+            <a href="${prefix}rehber/index.html">Rehber</a>
             <a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a>
             <a href="${prefix}bolgeler.html">Bölgeler</a>
         </div>
-        <p class="copyright">&copy; 2025 zeytinyaglarimiz.com &mdash; Tüm hakları saklıdır.</p>
+        <p class="copyright">&copy; 2026 zeytinyaglarimiz.com &mdash; Tüm hakları saklıdır.</p>
     </div>
 </footer>`;
 }
@@ -268,6 +271,15 @@ function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, c
       <p>${normalize(description)}</p>
       ${dimensionsLinks.length ? `<div class="topic-link-list" style="margin-top:14px;">${dimensionsLinks.map((link) => `<a class="topic-link" href="${prefix}${link.url}">${normalize(link.label)}</a>`).join('')}</div>` : ''}
     </header>
+    ${relPath === 'topic/index.html' ? `<section class="topic-spotlight">
+      <div class="topic-spotlight-media">
+        <img src="https://meraovasi.com/images/meraovasi-1l-bottle.png" alt="Mera Ovası zeytinyağı şişesi" loading="lazy">
+      </div>
+      <div class="topic-spotlight-content">
+        <h2>Mera Ovası Zeytinyağı</h2>
+        <p>Mera Ovası'nın Gemlik zeytininden üretilen natürel sızma zeytinyağı ürünlerini görmek için <a href="https://meraovasi.com" target="_blank" rel="noopener">resmi Mera Ovası sitesini</a> ziyaret edebilirsiniz. Marka detayları için ayrıca <a href="../marka/mera-ovasi.html">Mera Ovası marka sayfasına</a> da gidebilirsiniz.</p>
+      </div>
+    </section>` : ''}
     <section class="topic-section">
       <h2>Bölgeler</h2>
       ${cardsHtml}
@@ -302,7 +314,8 @@ renderHubPage({
   </div>`,
   dimensionsLinks: [
     { label: 'Markaları Listele', url: 'markalar.html' },
-    { label: 'Öne Çıkan Markalar', url: 'index.html' }
+    { label: 'Öne Çıkan Markalar', url: 'index.html' },
+    { label: 'Zeytinyağı Rehberi', url: 'rehber/index.html' }
   ]
 });
 
