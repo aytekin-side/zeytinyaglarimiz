@@ -403,10 +403,10 @@ function nav(prefix, active = 'rehber') {
             <span>Zeytinyağlarımız</span>
         </a>
         <ul class="nav-links">
-            <li><a href="${prefix}markalar.html" class="${active === 'markalar' ? 'active' : ''}">Markalar</a></li>
+            <li><a href="${prefix}markalar.html" class="${active === 'markalar' ? 'active' : ''}">Zeytinyağları</a></li>
             <li><a href="${prefix}topic/index.html" class="${active === 'topic' ? 'active' : ''}">Zeytinyağı Çeşitleri</a></li>
+            <li><a href="${prefix}kalite-rehberi.html" class="${active === 'kalite' ? 'active' : ''}">Zeytinyağı Kalitesi</a></li>
             <li><a href="${prefix}rehber/index.html" class="${active === 'rehber' ? 'active' : ''}">Rehber</a></li>
-            <li><a href="${prefix}kalite-rehberi.html" class="${active === 'kalite' ? 'active' : ''}">Kalite Rehberi</a></li>
             <li><a href="${prefix}bolgeler.html" class="${active === 'bolgeler' ? 'active' : ''}">Bölgeler</a></li>
         </ul>
         <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
@@ -418,10 +418,10 @@ function nav(prefix, active = 'rehber') {
     <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
-    <a href="${prefix}markalar.html">Markalar</a>
+    <a href="${prefix}markalar.html">Zeytinyağları</a>
     <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
+    <a href="${prefix}kalite-rehberi.html">Zeytinyağı Kalitesi</a>
     <a href="${prefix}rehber/index.html">Rehber</a>
-    <a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a>
     <a href="${prefix}bolgeler.html">Bölgeler</a>
 </div>`;
 }
