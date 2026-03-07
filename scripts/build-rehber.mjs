@@ -699,18 +699,6 @@ function renderGuideCategoryCard(category, href = `kategori/${category.slug}.htm
   `;
 }
 
-function renderBrandLinks(items) {
-  if (!items.length) return '';
-  return `
-    <div class="guide-side-card">
-      <h3>İlgili Markalar</h3>
-      <div class="guide-side-links">
-        ${items.map((brand) => `<a href="../marka/${escapeHtml(brand.slug)}.html"><strong>${escapeHtml(brand.name)}</strong><span>${escapeHtml(brand.region)}</span></a>`).join('')}
-      </div>
-    </div>
-  `;
-}
-
 function renderTopicLinks(items) {
   if (!items.length) return '';
   return `
@@ -986,25 +974,6 @@ function relatedTopics(article) {
   }
 
   return items.slice(0, 5);
-}
-
-function suggestedBrands(article) {
-  if (article.kind === 'brand' && article.matchedBrand) {
-    return [article.matchedBrand, ...brands.filter((item) => item.id !== article.matchedBrand.id && (item.category === article.matchedBrand.category || item.regionCluster === article.matchedBrand.regionCluster)).slice(0, 3)].slice(0, 4);
-  }
-
-  const normalized = ascii(article.keyword);
-  let candidates = [];
-
-  if (/\bayvalik\b/.test(normalized)) candidates = brands.filter((brand) => (brand.oliveTypes || []).includes('ayvalik'));
-  else if (/\bmemecik\b/.test(normalized)) candidates = brands.filter((brand) => (brand.oliveTypes || []).includes('memecik'));
-  else if (/\bmut\b|\borganik\b/.test(normalized)) candidates = brands.filter((brand) => brand.category === 'organik');
-  else if (/\bsoguk\b|\bsizma\b|\bpolifenol\b|\ben iyi\b|\bhangi\b/.test(normalized)) candidates = brands.filter((brand) => brand.category === 'premium-butik');
-  else if (/\bfiyat|\bmigros\b|\bbimde\b|\bmarkalari\b/.test(normalized)) candidates = brands.filter((brand) => brand.category === 'market-endustriyel');
-  else if (/\bmarmara\b|\bgemlik\b|\btrilye\b/.test(normalized)) candidates = brands.filter((brand) => brand.regionCluster === 'marmara');
-  else candidates = brands.filter((brand) => brand.highlight);
-
-  return candidates.slice(0, 4);
 }
 
 function articleSources(article) {
@@ -1996,7 +1965,6 @@ function buildArticleRecord(raw) {
   article.figures = articleImages(article);
   article.sources = articleSources(article);
   article.topicLinks = relatedTopics(article);
-  article.brandLinks = suggestedBrands(article);
   return article;
 }
 
@@ -2038,7 +2006,6 @@ function renderArticlePage(article, allArticles) {
     article.matchedBrand
       ? `<div class="guide-side-card"><h3>Marka Sayfası</h3><div class="guide-side-links"><a href="../marka/${escapeHtml(article.matchedBrand.slug)}.html"><strong>${escapeHtml(article.matchedBrand.name)}</strong><span>Detay sayfasını aç</span></a></div></div>`
       : '',
-    renderBrandLinks(article.brandLinks),
     renderTopicLinks(article.topicLinks)
   ].filter(Boolean).join('');
 
