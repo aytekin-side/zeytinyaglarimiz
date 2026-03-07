@@ -197,6 +197,46 @@ const typeLabels = {
   equipment: 'Ekipman'
 };
 
+const guideCategoryLabels = {
+  general: 'Temel Rehberler',
+  price: 'Fiyat',
+  buying: 'Marka ve Seçim',
+  nutrition: 'Beslenme',
+  quality: 'Kalite',
+  varietal: 'Çeşit ve Üretim',
+  brand: 'Marka Rehberleri',
+  health: 'Sağlık ve Tüketim',
+  baby: 'Bebek ve Çocuk',
+  hair: 'Saç ve Kirpik',
+  skin: 'Cilt ve Vücut',
+  eye: 'Göz',
+  ear: 'Kulak',
+  cooking: 'Mutfakta Kullanım',
+  cleaning: 'Temizlik ve Bakım',
+  packaging: 'Ambalaj ve Saklama',
+  equipment: 'Ekipman ve Üretim'
+};
+
+const guideCategoryDescriptions = {
+  general: 'Zeytinyağı hakkında temel tanımlar, seçim mantığı ve başlangıç noktaları bu sayfada bir araya gelir.',
+  price: 'Fiyat, litre hesabı, market karşılaştırmaları ve satın alma kararları için rehber yazıları bir arada görün.',
+  buying: 'Marka seçimi, ürün karşılaştırması ve ilk satın alma kararlarını kolaylaştıran rehberleri keşfedin.',
+  nutrition: 'Kalori, gramaj, porsiyon ve günlük tüketim çerçevesinde hazırlanan beslenme odaklı yazıları inceleyin.',
+  quality: 'Kalite, doğrulama, saflık ve saklama mantığını anlatan rehber içeriklere buradan ulaşın.',
+  varietal: 'Ayvalık, Memecik ve benzeri çeşitlerle üretim farklarını anlatan rehberler bu başlık altında toplanır.',
+  brand: 'Belirli markaları araştırırken ürün sınıfı, köken ve karşılaştırma mantığını kuran yazıları görün.',
+  health: 'Sağlık, tüketim şekli ve günlük kullanım sınırlarıyla ilgili rehberleri aynı sayfada toplayın.',
+  baby: 'Bebek ve çocuklarda zeytinyağı kullanımıyla ilgili temkinli rehber yazıları buradan inceleyin.',
+  hair: 'Saç ve kirpik bakımında zeytinyağı kullanımına dair en çok aranan sorular aynı kategoride yer alır.',
+  skin: 'Cilt ve vücut kullanımına dair uygulama, sınır ve bakım odaklı rehberler bu sayfada listelenir.',
+  eye: 'Göz çevresi ve gözle ilgili riskli kullanımlar için güvenlik odaklı rehberlere buradan geçin.',
+  ear: 'Kulakla ilgili uygulamalarda güvenlik sınırlarını anlatan rehber içerikleri aynı yerde görün.',
+  cooking: 'Pişirme, kızartma ve mutfak kullanımında doğru yağ seçimini anlatan yazıları inceleyin.',
+  cleaning: 'Temizlik ve bakım odaklı pratik rehberleri bu kategori sayfasında bir arada bulun.',
+  packaging: 'Şişe, ambalaj ve saklama koşullarına dair kalite koruma rehberleri bu başlık altında toplanır.',
+  equipment: 'Ev tipi makine ve üretim ekipmanlarıyla ilgili rehber yazılara bu sayfadan ulaşın.'
+};
+
 const brandAliasMap = new Map();
 for (const brand of brands) {
   const baseAlias = ascii(brand.name);
@@ -248,6 +288,31 @@ function titleCase(value) {
 function groupKeyForKind(kind) {
   if (kind === 'eye' || kind === 'ear') return 'sensitive';
   return kind;
+}
+
+function guideCategoryForKind(kind) {
+  const label = guideCategoryLabels[kind] || typeLabels[kind] || titleCase(kind);
+  const slug = slugify(label);
+  return {
+    key: kind,
+    label,
+    slug,
+    path: `rehber/kategori/${slug}.html`,
+    href: `/rehber/kategori/${slug}.html`,
+    description: guideCategoryDescriptions[kind] || `${label} odaklı zeytinyağı rehberleri.`
+  };
+}
+
+function guideCategoriesFromArticles(articles) {
+  const categories = new Map();
+  for (const article of articles) {
+    const category = article.category || guideCategoryForKind(article.kind);
+    if (!categories.has(category.key)) {
+      categories.set(category.key, { ...category, count: 0 });
+    }
+    categories.get(category.key).count += 1;
+  }
+  return [...categories.values()].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'tr'));
 }
 
 function prettifyKeyword(value) {
@@ -454,7 +519,7 @@ function breadcrumb(prefix, items) {
   const html = items.map((item, index) => {
     const last = index === items.length - 1;
     if (last || !item.url) return `<span>${escapeHtml(item.label)}</span>`;
-    return `<a href="${item.url.startsWith('http') || item.url.startsWith('../') ? item.url : `${prefix}${item.url}`}">${escapeHtml(item.label)}</a><span aria-hidden="true">/</span>`;
+    return `<a href="${item.url.startsWith('http') || item.url.startsWith('../') || item.url.startsWith('/') ? item.url : `${prefix}${item.url}`}">${escapeHtml(item.label)}</a><span aria-hidden="true">/</span>`;
   }).join('');
   return `<div class="breadcrumbs-wrap"><nav class="breadcrumbs" aria-label="Breadcrumb">${html}</nav></div>`;
 }
@@ -471,6 +536,8 @@ function breadcrumbJson(canonicalPath, items) {
       item: item.url
         ? item.url.startsWith('http')
           ? item.url
+          : item.url.startsWith('/')
+            ? `${SITE_URL}${item.url}`
           : `${SITE_URL}/${item.url.replace(/^\.?\/?/, '')}`
         : `${SITE_URL}/${normalizedCanonical}`
     }))
@@ -592,6 +659,43 @@ function renderRelatedGuides(items) {
         ${items.map((item) => `<a class="guide-link-card" href="${escapeHtml(item.href)}"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.groupLabel)}</span></a>`).join('')}
       </div>
     </section>
+  `;
+}
+
+function renderGuideCards(items, { hrefBase = '', filterable = false } = {}) {
+  return items.map((article) => `
+    <a class="guide-card" href="${escapeHtml(`${hrefBase}${article.slug}.html`)}"${filterable ? ` data-group="${escapeHtml(article.groupKey)}" data-search="${escapeHtml(ascii(`${article.keyword} ${article.parentKeyword} ${article.title}`))}"` : ''}>
+      <div class="guide-card-media"><img src="${escapeHtml(article.figures[0].path)}" alt="${escapeHtml(article.figures[0].alt)}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+      <div class="guide-card-body">
+        <div class="guide-card-top"><span class="guide-card-tag">${escapeHtml(article.typeLabel)}</span></div>
+        <h2>${escapeHtml(article.title)}</h2>
+        <p>${escapeHtml(article.metaDescription)}</p>
+        <div class="guide-card-footer">
+          <span>${escapeHtml(article.groupLabel)}</span>
+          <span>${escapeHtml(article.parentDisplay || 'Detay rehber')}</span>
+        </div>
+      </div>
+    </a>
+  `).join('');
+}
+
+function renderGuideCategoryLinks(items, hrefBase = 'kategori/') {
+  if (!items.length) return '';
+  return `
+    <div class="topic-link-list">
+      ${items.map((item) => `<a class="topic-link" href="${escapeHtml(`${hrefBase}${item.slug}.html`)}">${escapeHtml(item.label)} (${escapeHtml(String(item.count))})</a>`).join('')}
+    </div>
+  `;
+}
+
+function renderGuideCategoryCard(category, href = `kategori/${category.slug}.html`) {
+  return `
+    <div class="guide-side-card">
+      <h3>Rehber Kategorisi</h3>
+      <div class="guide-side-links">
+        <a href="${escapeHtml(href)}"><strong>${escapeHtml(category.label)}</strong><span>Bu kategorideki tüm yazıları gör</span></a>
+      </div>
+    </div>
   `;
 }
 
@@ -1880,7 +1984,8 @@ function buildArticleRecord(raw) {
     parentDisplay: raw.parentKeyword ? prettifyKeyword(raw.parentKeyword) : '',
     groupKey: groupKeyForKind(kind),
     groupLabel: groupLabels[groupKeyForKind(kind)] || 'Rehber',
-    typeLabel: typeLabels[kind] || 'Rehber'
+    typeLabel: typeLabels[kind] || 'Rehber',
+    category: guideCategoryForKind(kind)
   };
   article.subkind = detectSubkind(article);
   const content = composeArticle(article);
@@ -1900,6 +2005,7 @@ function renderArticlePage(article, allArticles) {
   const breadcrumbItems = [
     { label: 'Zeytinyağlarımız', url: 'index.html' },
     { label: 'Rehber', url: 'rehber/index.html' },
+    { label: article.category.label, url: article.category.href },
     { label: article.displayKeyword }
   ];
 
@@ -1928,6 +2034,7 @@ function renderArticlePage(article, allArticles) {
   ];
 
   const sidebar = [
+    renderGuideCategoryCard(article.category),
     article.matchedBrand
       ? `<div class="guide-side-card"><h3>Marka Sayfası</h3><div class="guide-side-links"><a href="../marka/${escapeHtml(article.matchedBrand.slug)}.html"><strong>${escapeHtml(article.matchedBrand.name)}</strong><span>Detay sayfasını aç</span></a></div></div>`
       : '',
@@ -1986,31 +2093,17 @@ function renderArticlePage(article, allArticles) {
 }
 
 function renderHubPage(articles) {
+  const categories = guideCategoriesFromArticles(articles);
   const groups = Object.entries(groupLabels).map(([key, label]) => ({
     key,
     label,
     count: articles.filter((article) => article.groupKey === key).length
   })).filter((item) => item.count > 0);
 
-  const cards = articles.map((article) => `
-    <a class="guide-card" href="${escapeHtml(article.slug)}.html" data-group="${escapeHtml(article.groupKey)}" data-search="${escapeHtml(ascii(`${article.keyword} ${article.parentKeyword} ${article.title}`))}">
-      <div class="guide-card-media"><img src="${escapeHtml(article.figures[0].path)}" alt="${escapeHtml(article.figures[0].alt)}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
-      <div class="guide-card-body">
-        <div class="guide-card-top"><span class="guide-card-tag">${escapeHtml(article.typeLabel)}</span></div>
-        <h2>${escapeHtml(article.title)}</h2>
-        <p>${escapeHtml(article.metaDescription)}</p>
-        <div class="guide-card-footer">
-          <span>${escapeHtml(article.groupLabel)}</span>
-          <span>${escapeHtml(article.parentDisplay || 'Detay rehber')}</span>
-        </div>
-      </div>
-    </a>
-  `).join('');
-
   const content = `
 <main class="guide-hub-page">
   <section class="guide-hub-grid" id="guideHubGrid">
-    ${cards}
+    ${renderGuideCards(articles, { filterable: true })}
   </section>
 
   <section class="guide-hub-hero">
@@ -2020,9 +2113,13 @@ function renderHubPage(articles) {
       <p>Zeytinyağı ile ilgili en çok aranan sorular için hazırlanan 100 rehber sayfası. İçerikler benzer konular, markalar ve kategori sayfaları arasında güçlü geçişler kuracak şekilde düzenlendi.</p>
       <div class="guide-hub-stats">
         <div><strong>100</strong><span>rehber sayfası</span></div>
-        <div><strong>${escapeHtml(String(groups.length))}</strong><span>tema grubu</span></div>
+        <div><strong>${escapeHtml(String(categories.length))}</strong><span>rehber kategorisi</span></div>
         <div><strong>78</strong><span>marka bağlantısı</span></div>
       </div>
+      <section class="topic-section">
+        <h2>Rehber Kategorileri</h2>
+        ${renderGuideCategoryLinks(categories)}
+      </section>
     </div>
     <div class="guide-hub-panel">
       <label class="guide-search-box">
@@ -2080,6 +2177,65 @@ guideFilters.forEach((btn)=>btn.addEventListener('click', ()=>{
   });
 }
 
+function renderCategoryPage(category, categoryArticles, allCategories) {
+  const matchedBrandCount = categoryArticles.filter((article) => article.matchedBrand).length;
+  const sampleArticles = categoryArticles.slice(0, 3).map((article) => article.displayKeyword).join(', ');
+  const description = truncate(`${category.label} kategorisindeki zeytinyağı rehber yazıları. ${category.description} Bu sayfada ${categoryArticles.length} içerik yer alır: ${sampleArticles}.`, 160);
+  const siblingCategories = allCategories.filter((item) => item.key !== category.key);
+
+  const content = `
+<main class="guide-hub-page">
+  <section class="guide-hub-hero">
+    <div class="guide-hub-hero-copy">
+      <span class="guide-eyebrow">Rehber Kategorisi</span>
+      <h1>${escapeHtml(category.label)}</h1>
+      <p>${escapeHtml(category.description)}</p>
+      <p>${escapeHtml(`${categoryArticles.length} yazı ile ${category.label.toLocaleLowerCase('tr-TR')} odağındaki aramaları aynı sayfada topladık. Bu sayfadan ilgili makalelere geçip aynı kategori içindeki benzer soruları bir arada inceleyebilirsiniz.`)}</p>
+      <div class="guide-hub-stats">
+        <div><strong>${escapeHtml(String(categoryArticles.length))}</strong><span>yazı</span></div>
+        <div><strong>${escapeHtml(String(matchedBrandCount))}</strong><span>marka bağlantısı</span></div>
+        <div><strong>${escapeHtml(String(siblingCategories.length))}</strong><span>diğer kategori</span></div>
+      </div>
+    </div>
+    <div class="guide-hub-panel">
+      <label class="guide-search-box">
+        <span>Kategori</span>
+        <input type="text" value="${escapeHtml(category.label)}" readonly>
+      </label>
+      <div class="topic-section">
+        <h2>Diğer Rehber Kategorileri</h2>
+        ${renderGuideCategoryLinks(siblingCategories, '')}
+      </div>
+    </div>
+  </section>
+
+  <section class="guide-hub-grid">
+    ${renderGuideCards(categoryArticles, { hrefBase: '../' })}
+  </section>
+</main>`;
+
+  return pageShell({
+    prefix: '../../',
+    active: 'rehber',
+    title: `${category.label} | Zeytinyağı Rehberi`,
+    description,
+    canonicalPath: category.path,
+    breadcrumbItems: [
+      { label: 'Zeytinyağlarımız', url: 'index.html' },
+      { label: 'Rehber', url: 'rehber/index.html' },
+      { label: category.label }
+    ],
+    content,
+    structuredData: [{
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: `${category.label} | Zeytinyağı Rehberi`,
+      description,
+      url: `${SITE_URL}/${category.path}`
+    }]
+  });
+}
+
 function collectStaticPages() {
   const pages = [
     'index.html',
@@ -2112,6 +2268,7 @@ function buildSitemap() {
 }
 
 ensureDir('rehber');
+ensureDir('rehber/kategori');
 
 const topKeywords = parseCsv(KEYWORDS_CSV)
   .filter((row) => row.keyword)
@@ -2123,7 +2280,13 @@ for (const article of topKeywords) {
   writeFile(`rehber/${article.slug}.html`, renderArticlePage(article, topKeywords));
 }
 
+const guideCategories = guideCategoriesFromArticles(topKeywords);
+for (const category of guideCategories) {
+  const categoryArticles = topKeywords.filter((article) => article.category.key === category.key);
+  writeFile(category.path, renderCategoryPage(category, categoryArticles, guideCategories));
+}
+
 writeFile('rehber/index.html', renderHubPage(topKeywords));
 buildSitemap();
 
-console.log(`Generated rehber pages: ${topKeywords.length + 1}`);
+console.log(`Generated rehber pages: ${topKeywords.length + 1 + guideCategories.length}`);
