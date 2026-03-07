@@ -169,14 +169,18 @@ function renderBrandDetail() {
         : getFallbackBottles(brand);
 
     const facts = [
-        ['Kategori', categoryLongLabels[brand.category] || brand.category],
-        ['Bölge', brand.region],
-        ['Bölge Kümesi', brand.regionClusterLabel || brand.region]
+        { label: 'Kategori', value: categoryLongLabels[brand.category] || brand.category, url: brand.categoryTopicUrl },
+        { label: 'Bölge', value: brand.region, url: brand.regionTopicUrl },
+        { label: 'Bölge Kümesi', value: brand.regionClusterLabel || brand.region, url: brand.regionTopicUrl }
     ];
     if (Array.isArray(brand.oliveTypeLabels) && brand.oliveTypeLabels.length) {
-        facts.push(['Zeytin Çeşitleri', brand.oliveTypeLabels.join(', ')]);
+        facts.push({
+            label: 'Zeytin Çeşitleri',
+            value: brand.oliveTypeLabels.join(', '),
+            url: 'topic/zeytin-cesitleri/index.html'
+        });
     }
-    if (brand.founded) facts.push(['Kuruluş', brand.founded]);
+    if (brand.founded) facts.push({ label: 'Kuruluş', value: brand.founded, url: '' });
 
     document.title = `${brand.name} - Zeytinyağı Markası`;
     const canonicalHref = `https://zeytinyaglarimiz.com/marka/${brand.slug}.html`;
@@ -231,17 +235,11 @@ function renderBrandDetail() {
                 </div>
             </header>
 
-            <section class="brand-topic-links">
-                <h2>Konu Kümesi Geçişleri</h2>
-                <div class="topic-link-list">
-                    <a class="topic-link" href="${brand.categoryTopicUrl}">${categoryLongLabels[brand.category] || brand.category}</a>
-                    <a class="topic-link" href="${brand.regionTopicUrl}">${brand.regionClusterLabel || brand.region}</a>
-                    ${oliveTopicLinks.join('')}
-                </div>
-            </section>
-
             <section class="brand-facts-grid">
-                ${facts.map(([k, v]) => `<div class="brand-fact-card"><span>${k}</span><strong>${v}</strong></div>`).join('')}
+                ${facts.map((fact) => fact.url
+                    ? `<a class="brand-fact-card brand-fact-link" href="${fact.url}"><span>${fact.label}</span><strong>${fact.value}</strong></a>`
+                    : `<div class="brand-fact-card"><span>${fact.label}</span><strong>${fact.value}</strong></div>`
+                ).join('')}
             </section>
 
             <section class="brand-gallery-section">
@@ -271,6 +269,15 @@ function renderBrandDetail() {
                             <span class="topic-count">Detay Sayfası</span>
                         </a>
                     `).join('')}
+                </div>
+            </section>
+
+            <section class="brand-topic-links">
+                <h2>Konu Kümesi Geçişleri</h2>
+                <div class="topic-link-list">
+                    <a class="topic-link" href="${brand.categoryTopicUrl}">${categoryLongLabels[brand.category] || brand.category}</a>
+                    <a class="topic-link" href="${brand.regionTopicUrl}">${brand.regionClusterLabel || brand.region}</a>
+                    ${oliveTopicLinks.join('')}
                 </div>
             </section>
         </div>

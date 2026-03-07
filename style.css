@@ -910,6 +910,17 @@ a:hover { color: var(--olive-dark); }
     border-radius: var(--radius);
     padding: 14px;
 }
+.brand-fact-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+.brand-fact-link:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+    border-color: rgba(74, 103, 65, 0.28);
+}
 .brand-fact-card span {
     display: block;
     color: var(--text-light);
