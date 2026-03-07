@@ -216,7 +216,29 @@ a:hover { color: var(--olive-dark); }
     flex-wrap: wrap;
     position: relative;
 }
-.hero-stat { text-align: center; }
+.hero-stat {
+    text-align: center;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 16px 18px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.46);
+    border: 1px solid rgba(74,103,65,0.08);
+    min-width: 132px;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s, border-color 0.2s;
+}
+.hero-stat:hover {
+    color: inherit;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(44,62,45,0.08);
+    background: rgba(255,255,255,0.8);
+    border-color: rgba(74,103,65,0.18);
+}
+.hero-stat:focus-visible {
+    outline: 3px solid rgba(74,103,65,0.25);
+    outline-offset: 3px;
+}
 .hero-stat .num {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
