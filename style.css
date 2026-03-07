@@ -1456,10 +1456,6 @@ footer .copyright {
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
-.guide-card-volume {
-    font-size: 0.8rem;
-    color: var(--brown-light);
-}
 .guide-card-body h2 {
     font-size: 1.3rem;
     line-height: 1.28;

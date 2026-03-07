@@ -87,7 +87,7 @@ function htmlDecode(value) {
 
 function parseArticles() {
   const html = fs.readFileSync(HUB_PATH, 'utf8');
-  const pattern = /<a class="guide-card" href="([^"]+)\.html" data-group="([^"]+)" data-keyword="([^"]*)">[\s\S]*?<h2>([^<]+)<\/h2>/g;
+  const pattern = /<a class="guide-card" href="([^"]+)\.html" data-group="([^"]+)" data-search="([^"]*)">[\s\S]*?<h2>([^<]+)<\/h2>/g;
   const items = [];
   let match;
   while ((match = pattern.exec(html))) {

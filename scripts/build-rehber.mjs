@@ -863,7 +863,7 @@ function relatedTopics(article) {
     if (!items.some((item) => item.url === url)) items.push({ url, label, note });
   };
 
-  push('../rehber/index.html', 'Zeytinyağı Rehberi', '100 anahtar kelime sayfası');
+  push('../rehber/index.html', 'Zeytinyağı Rehberi', 'Tüm rehber yazıları');
 
   if (['quality', 'varietal', 'price', 'buying', 'cooking', 'packaging'].includes(article.kind)) {
     push('../kalite-rehberi.html', 'Kalite Rehberi', 'Etiket, saklama ve kalite kriterleri');
@@ -1914,8 +1914,7 @@ function renderArticlePage(article, allArticles) {
       author: { '@type': 'Organization', name: 'Zeytinyağlarımız' },
       publisher: { '@type': 'Organization', name: 'Zeytinyağlarımız' },
       image: article.figures.map((figure) => figure.path.startsWith('http') ? figure.path : `${SITE_URL}/${figure.path.replace(/^\.\.\//, '')}`),
-      mainEntityOfPage: `${SITE_URL}/rehber/${article.slug}.html`,
-      keywords: [article.keyword, article.parentKeyword].filter(Boolean).join(', ')
+      mainEntityOfPage: `${SITE_URL}/rehber/${article.slug}.html`
     },
     {
       '@context': 'https://schema.org',
@@ -1946,7 +1945,6 @@ function renderArticlePage(article, allArticles) {
         <p class="guide-summary">${escapeHtml(article.summary)}</p>
         <div class="guide-meta-row">
           <span class="guide-chip">${escapeHtml(article.typeLabel)}</span>
-          <span class="guide-chip">${escapeHtml(String(article.volume))} aylık hacim</span>
         </div>
       </div>
       <figure class="guide-hero-media">
@@ -1995,10 +1993,10 @@ function renderHubPage(articles) {
   })).filter((item) => item.count > 0);
 
   const cards = articles.map((article) => `
-    <a class="guide-card" href="${escapeHtml(article.slug)}.html" data-group="${escapeHtml(article.groupKey)}" data-keyword="${escapeHtml(ascii(`${article.keyword} ${article.parentKeyword} ${article.title}`))}">
+    <a class="guide-card" href="${escapeHtml(article.slug)}.html" data-group="${escapeHtml(article.groupKey)}" data-search="${escapeHtml(ascii(`${article.keyword} ${article.parentKeyword} ${article.title}`))}">
       <div class="guide-card-media"><img src="${escapeHtml(article.figures[0].path)}" alt="${escapeHtml(article.figures[0].alt)}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
       <div class="guide-card-body">
-        <div class="guide-card-top"><span class="guide-card-tag">${escapeHtml(article.typeLabel)}</span><span class="guide-card-volume">Vol ${escapeHtml(String(article.volume))}</span></div>
+        <div class="guide-card-top"><span class="guide-card-tag">${escapeHtml(article.typeLabel)}</span></div>
         <h2>${escapeHtml(article.title)}</h2>
         <p>${escapeHtml(article.metaDescription)}</p>
         <div class="guide-card-footer">
@@ -2049,7 +2047,7 @@ function filterGuideCards(){
   const term = (guideInput.value || '').toLowerCase('tr-TR').trim();
   guideCards.forEach((card)=>{
     const matchGroup = activeGroup === 'all' || card.dataset.group === activeGroup;
-    const matchTerm = !term || card.dataset.keyword.includes(term);
+    const matchTerm = !term || card.dataset.search.includes(term);
     card.style.display = matchGroup && matchTerm ? '' : 'none';
   });
 }
