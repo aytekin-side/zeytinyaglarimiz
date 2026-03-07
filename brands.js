@@ -77,7 +77,30 @@ const brands = [
     { id: 75, name: "Zeytinsan", desc: "Akhisar merkezli daha geniş ölçekli üretici. Farklı segmentlerde zeytinyağı ürünleri sunar.", region: "Akhisar, Manisa", category: "market-endustriyel", website: "https://www.zeytinsan.com.tr", founded: null, highlight: false, image: "https://www.zeytinsan.com.tr/wp-content/uploads/2021/10/zeytinsan-logo180.png" },
     { id: 76, name: "Anolive", desc: "Ayvalık bölgesinde premium natürel sızma zeytinyağı üretimi yapan marka.", region: "Ayvalık, Balıkesir", category: "premium-butik", website: "https://www.anolive.com.tr", founded: null, highlight: false, image: "https://www.anolive.com.tr/img/anolive-logo-header_1.png" },
     { id: 77, name: "Artem Oliva", desc: "Butik üretim odaklı natürel sızma zeytinyağı markası.", region: "Marmara", category: "premium-butik", website: "https://artemoliva.com", founded: null, highlight: false, image: "https://artemoliva.com/wp-content/uploads/2021/02/TIM_logo_W_rgb-2-e1614125470150.png" },
-    { id: 78, name: "OliveOilsLand", desc: "Zeytinyağı ürünlerinde premium ve butik segmentte yer alan marka.", region: "Ege Bölgesi", category: "premium-butik", website: "https://www.oliveoilsland.com", founded: null, highlight: false, image: "https://www.oliveoilsland.com/wp-content/themes/neve/olive/images/logo.png" }
+    { id: 78, name: "OliveOilsLand", desc: "Zeytinyağı ürünlerinde premium ve butik segmentte yer alan marka.", region: "Ege Bölgesi", category: "premium-butik", website: "https://www.oliveoilsland.com", founded: null, highlight: false, image: "https://www.oliveoilsland.com/wp-content/themes/neve/olive/images/logo.png" },
+    { id: 79, name: "Hatnar", desc: "Erzin, Hatay merkezli üretici marka. Soğuk sıkım natürel sızma zeytinyağı ve yöresel zeytin ürünleri sunar.", region: "Erzin, Hatay", category: "premium-butik", website: "https://www.hatnar.com", founded: null, highlight: true, image: "https://www.hatnar.com/wp-content/uploads/2021/10/hatnar-logo-H-8.png" },
+    { id: 80, name: "Zetiya", desc: "Hatay odaklı erken hasat natürel sızma serileriyle öne çıkan butik marka. Cam şişe ve teneke ambalajlı ürünler sunar.", region: "Hatay", category: "premium-butik", website: "https://zetiya.com", founded: null, highlight: true, image: "https://zetiya.com/cdn/shop/files/Logo.Zetiya4.png?v=1756152630&width=500" },
+    { id: 81, name: "Ece'den Sofranıza", desc: "Hatay merkezli aile markası. El hasadı ve natürel sızma odaklı teneke ve şişe ürünler sunar.", region: "Hatay", category: "bolgesel-yerel", website: "https://eceden.com.tr", founded: null, highlight: false, image: "https://eceden.com.tr/logo3.png" },
+    { id: 82, name: "Uygur Zeytinyağı", desc: "1972'den beri Gaziantep'te faaliyet gösteren üretici. Nizip tesislerinde natürel sızma zeytinyağı ve zeytinyağlı sabun üretir.", region: "Nizip, Gaziantep", category: "market-endustriyel", website: "https://uygurzeytinyagi.com", founded: "1972", highlight: true, image: "https://uygurzeytinyagi.com/images/logo.png" },
+    { id: 83, name: "Yalım Zeytin Yağları", desc: "Gaziantep merkezli köklü üretici. Günlük mutfak kullanımına ve natürel sızma serilerine yönelik geniş bir ürün gamı sunar.", region: "Gaziantep", category: "market-endustriyel", website: "https://www.yalimzeytinyaglari.com.tr", founded: "1997", highlight: false, image: "https://www.yalimzeytinyaglari.com.tr/assets/images/logo.png" },
+    { id: 84, name: "Zeytincir", desc: "Gaziantep odaklı natürel sızma üretici marka. Saf zeytinyağı ve filtreli-filtresiz ürün diliyle öne çıkar.", region: "Gaziantep", category: "bolgesel-yerel", website: "https://www.zeytincir.com.tr", founded: null, highlight: false, image: "https://www.zeytincir.com.tr/wp-content/uploads/2021/12/zeytinyagi-logo1-1.png" },
+    { id: 85, name: "Bazilika", desc: "Altınözü, Hatay merkezli yöresel üretici. Zeytin ve zeytinyağı ürünlerini Hatay köken vurgusuyla sunar.", region: "Altınözü, Hatay", category: "bolgesel-yerel", website: "https://www.bazilika.com.tr", founded: null, highlight: false, image: "https://www.bazilika.com.tr/upload/bazilika-zeytinyaglari-hatay-antakya-altinozu.png" },
+    { id: 86, name: "Arslan Zeytinyağı", desc: "Antakya, Hatay merkezli üretici. Cam şişe, pet ve teneke ambalajlı natürel sızma serileri sunar.", region: "Antakya, Hatay", category: "bolgesel-yerel", website: "https://arslanzeytinyagi.com.tr", founded: null, highlight: false, image: "https://arslanzeytinyagi.com.tr/upload//arslan-zeytinyagi10.png" },
+    { id: 87, name: "Hatay Tadında", desc: "Hatay yöresel ürünleri ve zeytinyağı satışı yapan yerel marka. Soğuk sıkım ve teneke zeytinyağı ürünleriyle öne çıkar.", region: "Hatay", category: "bolgesel-yerel", website: "https://www.hataytadinda.com", founded: null, highlight: false, image: "https://www.hataytadinda.com/wp-content/uploads/2019/04/hatay-tad%C4%B1nda-logo2.png" },
+    { id: 88, name: "Gemtar", desc: "Gemlik merkezli üretici marka. Gemlik zeytininden natürel sızma ve farklı hacimlerde zeytinyağı serileri sunar.", region: "Gemlik, Bursa", category: "market-endustriyel", website: "https://www.gemtar.com.tr", founded: null, highlight: true, image: "https://ideacdn.net/idea/ln/94/themes/selftpl_63c93921dff4b/assets/uploads/logo.png?revision=1761118145" },
+    { id: 89, name: "Gemlik Zeytincisi", desc: "Gemlik odaklı zeytin ve zeytinyağı üreticisi. Bölgesel kökeni öne çıkan natürel sızma ürünleri bulunur.", region: "Gemlik, Bursa", category: "bolgesel-yerel", website: "https://www.gemlikzeytincisi.com.tr", founded: null, highlight: false, image: "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/op.png" },
+    { id: 90, name: "Gemlik Zeytin Evi", desc: "Gemlik bölgesinde zeytin ve zeytinyağı ürünleri sunan yerel marka. Cam şişe ve teneke seçenekleriyle öne çıkar.", region: "Gemlik, Bursa", category: "bolgesel-yerel", website: "https://www.gemlikzeytinevi.com", founded: null, highlight: false, image: "https://www.gemlikzeytinevi.com/image/catalog/logohy.png" },
+    { id: 91, name: "Solive", desc: "Gemlik zeytini ve erken hasat zeytinyağı serileriyle öne çıkan bölgesel marka. Zeytin Ağacı mağaza yapısı içinde satış yapar.", region: "Gemlik, Bursa", category: "premium-butik", website: "https://www.zeytinagaci.com", founded: null, highlight: false, image: "https://www.zeytinagaci.com/shop/bu/35/themes/selftpl_61814615742ac/assets/uploads/logo.png?revision=1767075887" },
+    { id: 92, name: "Yelkenli", desc: "Mudanya merkezli üretim ve satış yapan marka. Teneke ve cam ambalajlı zeytinyağı ürünleri sunar.", region: "Mudanya, Bursa", category: "bolgesel-yerel", website: "https://yelkenlizeytinyagi.com.tr", founded: null, highlight: false, image: "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/logo-1.png" },
+    { id: 93, name: "Vivax Olea", desc: "Şarköy, Tekirdağ hattında üretim yapan marka. Kontinü sistem ve soğuk sıkım serileriyle Trakya'da öne çıkar.", region: "Şarköy, Tekirdağ", category: "premium-butik", website: "https://www.vivaxolea.com", founded: "2021", highlight: true, image: "https://www.vivaxolea.com/tema/kurumsal/uploads/logo/VivaxOlea_Logo.png" },
+    { id: 94, name: "Şarköy Çiftlik", desc: "Şarköy merkezli doğal ürünler markası. Coğrafi işaretli ve soğuk sıkım zeytinyağı ürünleriyle Trakya hattında dikkat çeker.", region: "Şarköy, Tekirdağ", category: "bolgesel-yerel", website: "https://sarkoyciftlik.com.tr", founded: null, highlight: true, image: "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/b83b2e19-7134-48e7-9e43-cd9f159202b8/image_1080.webp" },
+    { id: 95, name: "Mutuna", desc: "Mut, Mersin merkezli yerel üretici. Erken hasat ve soğuk sıkım Mut zeytinyağı serileri bulunur.", region: "Mut, Mersin", category: "bolgesel-yerel", website: "https://www.mutuna.com", founded: null, highlight: true, image: "https://www.mutuna.com/idea/if/09/themes/selftpl_65798a840c0eb/assets/uploads/logo.png?revision=1729753622" },
+    { id: 96, name: "Mutili", desc: "Mut merkezli modern üretici marka. Cam şişe ve teneke ambalajlı natürel sızma serileri sunar.", region: "Mut, Mersin", category: "premium-butik", website: "https://mutili.com.tr", founded: null, highlight: false, image: "https://mutili.com.tr/wp-content/uploads/2025/05/Mutili-Logo-2.png" },
+    { id: 97, name: "Mut İncisi", desc: "Mut yöresinden üretim yapan bölgesel marka. Farklı hacimlerde natürel sızma ve yemeklik seriler sunar.", region: "Mut, Mersin", category: "bolgesel-yerel", website: "https://mutincisi.com", founded: null, highlight: false, image: "https://mutincisi.com/assets/images/logo_1772443738.png" },
+    { id: 98, name: "Zeytinyağı Evi", desc: "Mut zeytinyağı ve sofralık zeytin odaklı satış yapan marka. Filtresiz, domat ve arbequina serileriyle dikkat çeker.", region: "Mut, Mersin", category: "bolgesel-yerel", website: "https://www.zeytinyagievi.com", founded: null, highlight: false, image: "https://www.zeytinyagievi.com/shop/rr/76/themes/selftpl_5de7a2fdcd356/assets/uploads/logo.png?revision=1767710058" },
+    { id: 99, name: "Sazak Zeytincilik", desc: "Mut merkezli üretici. Erken hasat, soğuk sıkım ve büyük hacimli teneke ürünlerde güçlü bir ürün gamı sunar.", region: "Mut, Mersin", category: "bolgesel-yerel", website: "https://www.sazakzeytincilik.com", founded: null, highlight: false, image: "https://www.sazakzeytincilik.com/idea/bf/61/themes/selftpl_65a925bc527ae/assets/uploads/logo.png?revision=1770703548" },
+    { id: 100, name: "Adrasos", desc: "Mut bölgesinden premium natürel sızma serileri sunan marka. Cam ve galon ambalajlı zeytinyağlarıyla öne çıkar.", region: "Mut, Mersin", category: "premium-butik", website: "https://www.adrasos.com", founded: null, highlight: false, image: "https://www.adrasos.com/idea/hd/67/themes/selftpl_5faad86c5cff0/assets/uploads/logo.jpg?revision=1728927645" },
+    { id: 101, name: "Mutolea", desc: "Mut merkezli zeytinyağı ve doğal ürün markası. Soğuk sıkım zeytinyağı ile bitkisel ürün portföyünü birlikte sunar.", region: "Mut, Mersin", category: "bolgesel-yerel", website: "https://mutolea.com", founded: null, highlight: false, image: "https://mutolea.com/Resim/mut-olea-3000-3000-piksel-pdf-1000-x-1000-piksel-14_tr_TR.png" }
 ];
 
 const categoryLabels = {
@@ -102,7 +125,8 @@ const oliveTypeLabels = {
     gemlik: 'Gemlik',
     trilye: 'Trilye',
     halhali: 'Halhalı',
-    nizip: 'Nizip Yağlık'
+    nizip: 'Nizip Yağlık',
+    'sari-ulak': 'Sarı Ulak'
 };
 
 const manualLogoOverrides = {
@@ -192,10 +216,10 @@ function getOliveTypeTopicUrl(oliveTypeKey) {
 function inferRegionCluster(regionText) {
     const text = (regionText || '').toLowerCase('tr-TR');
 
-    if (/(kilis|hatay|güneydoğu|guneydogu|nizip|gaziantep|mardin|şanlıurfa|sanliurfa)/.test(text)) return 'guneydogu';
-    if (/(edirne|trakya|tekirdağ|tekirdag|kırklareli|kirklareli)/.test(text)) return 'trakya';
+    if (/(kilis|güneydoğu|guneydogu|nizip|gaziantep|mardin|şanlıurfa|sanliurfa)/.test(text)) return 'guneydogu';
+    if (/(edirne|trakya|tekirdağ|tekirdag|kırklareli|kirklareli|şarköy|sarkoy)/.test(text)) return 'trakya';
     if (/(bursa|marmara|mudanya|gemlik|istanbul)/.test(text)) return 'marmara';
-    if (/(mersin|antalya|adana|akdeniz)/.test(text)) return 'akdeniz';
+    if (/(mersin|antalya|adana|akdeniz|hatay|antakya|altınözü|altinozu|erzin|samandağ|samandag)/.test(text)) return 'akdeniz';
     if (/(izmir|ege|ayvalık|ayvalik|balıkesir|balikesir|edremit|urla|ödemiş|odemis|milas|muğla|mugla|çanakkale|canakkale)/.test(text)) return 'ege';
     if (/(türkiye|turkiye)/.test(text)) return 'turkiye';
     return 'ege';
@@ -208,9 +232,10 @@ function inferOliveTypes(brand) {
     if (/(ayvalık|ayvalik|edremit|balıkesir|balikesir)/.test(text)) types.push('ayvalik');
     if (/(izmir|urla|ege|ödemiş|odemis|milas|muğla|mugla|memecik)/.test(text)) types.push('memecik');
     if (/(bursa|marmara|gemlik|mudanya)/.test(text)) types.push('gemlik');
-    if (/(trilye|trakya|edirne)/.test(text)) types.push('trilye');
-    if (/(kilis|hatay|halhalı|halhali|güneydoğu|guneydogu)/.test(text)) types.push('halhali');
-    if (/(nizip|gaziantep)/.test(text)) types.push('nizip');
+    if (/(trilye|trakya|edirne|tekirdağ|tekirdag|şarköy|sarkoy)/.test(text)) types.push('trilye');
+    if (/(hatay|antakya|altınözü|altinozu|erzin|samandağ|samandag|halhalı|halhali)/.test(text)) types.push('halhali');
+    if (/(nizip|gaziantep|kilis)/.test(text)) types.push('nizip');
+    if (/(\bmut\b|\bmersin\b|\bsilifke\b|sarı ulak|sari ulak)/.test(text)) types.push('sari-ulak');
 
     if (types.length === 0) {
         if (brand.category === 'bolgesel-yerel') types.push('ayvalik');

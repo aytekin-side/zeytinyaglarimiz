@@ -2081,7 +2081,7 @@ function renderHubPage(articles) {
       <div class="guide-hub-stats">
         <div><strong>100</strong><span>rehber sayfası</span></div>
         <div><strong>${escapeHtml(String(categories.length))}</strong><span>rehber kategorisi</span></div>
-        <div><strong>78</strong><span>marka bağlantısı</span></div>
+        <div><strong>${escapeHtml(String(brands.length))}</strong><span>marka bağlantısı</span></div>
       </div>
       <section class="topic-section">
         <h2>Rehber Kategorileri</h2>

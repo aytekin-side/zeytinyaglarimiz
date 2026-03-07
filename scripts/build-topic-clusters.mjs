@@ -47,7 +47,8 @@ const oliveTypeDescriptions = {
   gemlik: 'Gemlik zeytini, Marmara ve çevresinde yaygın olup yumuşak içimli ve dengeli zeytinyağı profilleri üretir.',
   trilye: 'Trilye tipi zeytinler, narin meyvemsilik ve orta yoğunlukta aromatik denge arayan tüketiciler için güçlü bir kategoridir.',
   halhali: 'Halhalı çeşidi, özellikle Hatay ve çevresinde yetişen, karakteristik ve belirgin duyusal profile sahip bir zeytin türüdür.',
-  nizip: 'Nizip Yağlık, Güneydoğu Anadolu’da öne çıkan, güçlü gövdeli ve belirgin tat profili sunan bir zeytin çeşididir.'
+  nizip: 'Nizip Yağlık, Güneydoğu Anadolu’da öne çıkan, güçlü gövdeli ve belirgin tat profili sunan bir zeytin çeşididir.',
+  'sari-ulak': 'Sarı Ulak, Mut ve Mersin hattında öne çıkan, yumuşak içim ile dengeli meyvemsiliği bir araya getiren yerel bir zeytin çeşididir.'
 };
 
 const normalize = (value) => String(value)
