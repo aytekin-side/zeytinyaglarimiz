@@ -1993,6 +1993,10 @@ function renderHubPage(articles) {
 
   const content = `
 <main class="guide-hub-page">
+  <section class="guide-hub-grid" id="guideHubGrid">
+    ${cards}
+  </section>
+
   <section class="guide-hub-hero">
     <div class="guide-hub-hero-copy">
       <span class="guide-eyebrow">Blog Ana Sayfası</span>
@@ -2014,10 +2018,6 @@ function renderHubPage(articles) {
         ${groups.map((group) => `<button class="guide-filter" data-group="${escapeHtml(group.key)}">${escapeHtml(group.label)} (${group.count})</button>`).join('')}
       </div>
     </div>
-  </section>
-
-  <section class="guide-hub-grid" id="guideHubGrid">
-    ${cards}
   </section>
 </main>`;
 
