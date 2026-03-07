@@ -9,18 +9,37 @@ const arrLiteral = src.slice(arrStart, arrEnd + 1);
 const brands = vm.runInNewContext(arrLiteral);
 
 const badDomains = [
-  'sikayetvar.com',
-  'nefisyemektarifleri.com',
-  'pinterest.',
-  'instagram.com',
-  'facebook.com',
-  'youtube.com',
-  'x.com',
-  'twitter.com',
-  'wikimedia.org',
-  'wikipedia.org',
-  'linktr.ee'
+  'sikayetvar',
+  'pinterest',
+  'instagram',
+  'facebook',
+  'youtube',
+  'twitter',
+  'reddit',
+  'wikipedia',
+  'wikimedia',
+  'shutterstock',
+  'dreamstime',
+  'freepik',
+  'linktr',
+  'stock',
+  'vector'
 ];
+
+const shoppingKeywords = [
+  'trendyol', 'hepsiburada', 'n11', 'ciceksepeti', 'migros', 'carrefoursa', 'a101', 'bim',
+  'sokmarket', 'happycenter', 'epttavm', 'pttavm', 'amazon', 'akakce', 'pazarama',
+  'ideacdn', 'sepeti', 'avm', 'market', 'gross', 'shop', 'store'
+];
+
+const oliveKeywords = ['zeytin', 'zeytinyagi', 'olive', 'yag', 'sizma', 'riviera'];
+const unrelatedKeywords = [
+  'haber', 'news', 'forum', 'video', 'map', 'restoran', 'restaurant', 'cat', 'dog', 'pokemon',
+  'dyson', 'kedi', 'canta', 'kolye', 'piercing', 'davetiye', 'takvim', 'oto', 'araba', 'yedek'
+];
+
+const genericBottleFallback =
+  'https://static.happycenter.com.tr/Uploads/taris-zeytinyagi-riviera-5-lt-13533-500x500.png';
 
 const normalize = (s) => (s || '')
   .toLowerCase('tr-TR')
@@ -37,8 +56,14 @@ const normalize = (s) => (s || '')
 
 const slugify = (s) => normalize(s).replace(/\s+/g, '-');
 
-const tokenStopwords = new Set(['zeytinyagi', 'zeytin', 'yagi', 'yaglari', 'sizma', 'naturel', 'natürel', 'marka']);
-const tokensFor = (name) => normalize(name).split(/\s+/).filter(t => t.length > 2 && !tokenStopwords.has(t));
+const tokenStopwords = new Set([
+  'zeytinyagi', 'zeytin', 'yagi', 'yaglari', 'sizma', 'naturel', 'natuerel', 'natürel',
+  'organik', 'premium', 'butik', 'market', 'endustriyel', 'birlik', 'olive'
+]);
+
+const tokensFor = (name) => normalize(name)
+  .split(/\s+/)
+  .filter(t => t.length > 2 && !tokenStopwords.has(t));
 
 const ua = {
   'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
@@ -55,6 +80,38 @@ const decodeMurl = (s) => s
   .replace(/%25/gi, '%')
   .replace(/%2b/gi, '+')
   .replace(/%20/gi, ' ');
+
+const hasAny = (text, arr) => arr.some(x => text.includes(x));
+
+function scoreImage(url, tokens, { logoMode = false } = {}) {
+  const n = normalize(url);
+
+  if (hasAny(n, badDomains)) return -100;
+  if (!url.startsWith('http://') && !url.startsWith('https://')) return -100;
+
+  const tokenMatch = tokens.length > 0 && tokens.some(t => n.includes(t));
+  const oliveMatch = hasAny(n, oliveKeywords);
+  const shoppingMatch = hasAny(n, shoppingKeywords);
+
+  let score = 0;
+  if (tokenMatch) score += 6;
+  if (oliveMatch) score += 5;
+  if (shoppingMatch) score += 3;
+
+  if (logoMode) {
+    if (n.includes('logo')) score += 3;
+    if (hasAny(n, ['icon', 'brand'])) score += 1;
+    if (!tokenMatch && !n.includes('logo')) score -= 4;
+  } else {
+    if (!tokenMatch) score -= 4;
+    if (!oliveMatch) score -= 6;
+  }
+
+  // Avoid obvious non-product content
+  if (hasAny(n, unrelatedKeywords)) score -= 8;
+
+  return score;
+}
 
 async function searchImageUrls(query) {
   const q = encodeURIComponent(query);
@@ -76,19 +133,33 @@ async function isImageUrl(url) {
   }
 }
 
-async function pickUrl(candidates, tokens, { requireLogoHint = false } = {}) {
-  const filtered = candidates.filter(u => {
-    if (badDomains.some(d => u.includes(d))) return false;
-    const n = normalize(u);
-    if (requireLogoHint && !n.includes('logo')) return false;
-    return tokens.length === 0 || tokens.some(t => n.includes(t));
-  }).slice(0, 20);
+async function pickBest(urls, tokens, opts = {}) {
+  const scored = urls
+    .map(url => ({ url, score: scoreImage(url, tokens, opts) }))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 20);
 
-  for (const url of filtered) {
-    if (await isImageUrl(url)) return url;
+  for (const item of scored) {
+    if (await isImageUrl(item.url)) return item.url;
   }
-
   return null;
+}
+
+async function pickBottles(urls, tokens, count = 3) {
+  const scored = urls
+    .map(url => ({ url, score: scoreImage(url, tokens, { logoMode: false }) }))
+    .filter(x => x.score > 1)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 50);
+
+  const out = [];
+  for (const item of scored) {
+    if (out.length >= count) break;
+    if (out.includes(item.url)) continue;
+    if (await isImageUrl(item.url)) out.push(item.url);
+  }
+  return out;
 }
 
 function logoFromWebsite(website) {
@@ -105,41 +176,52 @@ const media = {};
 
 for (const brand of brands) {
   const tokens = tokensFor(brand.name);
-  const websiteLogo = logoFromWebsite(brand.website);
 
-  let logo = websiteLogo;
+  const logoCandidatesA = await searchImageUrls(`${brand.name} zeytinyagi logo`);
+  const logoCandidatesB = await searchImageUrls(`${brand.name} zeytinyagi`);
+  const bottleCandidatesA = await searchImageUrls(`${brand.name} zeytinyagi sisesi`);
+  const bottleCandidatesB = await searchImageUrls(`${brand.name} naturel sizma zeytinyagi`);
+
+  let logo = logoFromWebsite(brand.website);
   if (!logo) {
-    const logoCandidates = await searchImageUrls(`${brand.name} zeytinyagi logo`);
-    logo = await pickUrl(logoCandidates, tokens, { requireLogoHint: true });
-    if (!logo) {
-      logo = await pickUrl(logoCandidates, tokens, { requireLogoHint: false });
+    logo = await pickBest([...logoCandidatesA, ...logoCandidatesB], tokens, { logoMode: true });
+  }
+
+  let bottles = await pickBottles([...bottleCandidatesA, ...bottleCandidatesB, ...logoCandidatesB], tokens, 3);
+
+  if (bottles.length === 0 && logo && logo.startsWith('http')) {
+    bottles = [logo];
+  }
+
+  if (!logo && bottles.length > 0) {
+    logo = bottles[0];
+  }
+
+  if (!brand.website) {
+    const logoNorm = normalize(logo || '');
+    const tokenMatch = tokens.length > 0 && tokens.some(t => logoNorm.includes(t));
+    const oliveMatch = hasAny(logoNorm, oliveKeywords);
+    if (!(tokenMatch && oliveMatch) && bottles.length > 0) {
+        logo = bottles[0];
     }
   }
 
-  const bottleCandidates = await searchImageUrls(`${brand.name} zeytinyagi sise`);
-  const bottles = [];
-  for (const candidate of bottleCandidates) {
-    if (bottles.length >= 3) break;
-    if (badDomains.some(d => candidate.includes(d))) continue;
-    const n = normalize(candidate);
-    if (tokens.length && !tokens.some(t => n.includes(t))) continue;
-    if (!await isImageUrl(candidate)) continue;
-    if (!bottles.includes(candidate)) bottles.push(candidate);
+  if (!logo) {
+    logo = genericBottleFallback;
   }
 
   if (bottles.length === 0) {
-    // Keep at least one online image for every page
-    bottles.push(`https://source.unsplash.com/1600x1200/?olive-oil,bottle,${encodeURIComponent(brand.name)}`);
+    bottles = [genericBottleFallback];
   }
 
   media[brand.id] = {
     slug: slugify(brand.name),
-    logo: logo || brand.image || null,
+    logo,
     bottles,
-    info: `${brand.name}, ${brand.region} bölgesiyle ilişkilendirilen bir ${brand.category.replace('-', ' / ')} markasıdır. ${brand.desc}`
+    info: `${brand.name}, ${brand.region} bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. ${brand.desc}`
   };
 
-  console.log(`${brand.id}. ${brand.name} -> logo:${media[brand.id].logo ? 'ok' : 'none'} bottles:${bottles.length}`);
+  console.log(`${String(brand.id).padStart(2, '0')} ${brand.name} -> logo:${logo ? 'ok' : '-'} bottles:${bottles.length}`);
 }
 
 const out = `// Auto-generated online media map\nconst brandMedia = ${JSON.stringify(media, null, 4)};\n`;
