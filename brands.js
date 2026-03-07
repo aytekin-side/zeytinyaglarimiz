@@ -77,6 +77,20 @@ const oliveTypeLabels = {
     nizip: 'Nizip Yağlık'
 };
 
+const manualLogoOverrides = {
+    2: 'https://www.tariszeytin.com.tr/Data/EditorFiles/designs/stickyLogo.svg',
+    3: 'https://static.ticimax.cloud/54603/customcss/ticimax/images/logo.png',
+    5: 'https://www.sezaiomermadra.com.tr/assets/img/som-logo.png',
+    6: 'https://static.happycenter.com.tr/Uploads/luna-kase-margarin-500-gr-13735-500x500.png',
+    10: 'images/oleamea.png',
+    11: 'images/mera-ovasi.svg',
+    12: 'images/olivurla.png',
+    13: 'images/olistica.png',
+    30: 'images/olivos.png',
+    35: 'images/nargourmet.png',
+    47: 'https://cdn.cimri.io/market/260x260/izmir-zeytinyaglari-5-lt-soguk-sikim-zeytinyagi-_1495911.jpg'
+};
+
 function normalizeSlug(value) {
     return value
         .toLowerCase('tr-TR')
@@ -149,6 +163,11 @@ function isSafeHttpUrl(value) {
     }
 }
 
+function isLocalImagePath(value) {
+    if (typeof value !== 'string') return false;
+    return /^(?:\.\/)?images\/[a-z0-9._/-]+$/i.test(value.trim());
+}
+
 function isBlockedSource(value) {
     const blocked = [
         'sikayetvar',
@@ -168,6 +187,48 @@ function isBlockedSource(value) {
     return blocked.some((item) => text.includes(item));
 }
 
+function getWebsiteHost(websiteUrl) {
+    if (!websiteUrl || typeof websiteUrl !== 'string') return '';
+    try {
+        return new URL(websiteUrl).hostname.replace(/^www\./, '').toLowerCase();
+    } catch {
+        return '';
+    }
+}
+
+function getWebsiteFaviconUrl(websiteUrl) {
+    const host = getWebsiteHost(websiteUrl);
+    if (!host) return null;
+    return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=256`;
+}
+
+function getManualLogoOverride(brand) {
+    return manualLogoOverrides[brand.id] || null;
+}
+
+function normalizeLogoUrlForBrand(brand, logoUrl) {
+    if (!logoUrl || typeof logoUrl !== 'string') return null;
+    let value = logoUrl.trim();
+    if (!value) return null;
+
+    if (isLocalImagePath(value)) {
+        return value;
+    }
+
+    // legacy logo.dev links started returning 401/404; use site favicon as reliable fallback.
+    if (value.includes('img.logo.dev/')) {
+        return getWebsiteFaviconUrl(brand.website);
+    }
+
+    if (value.startsWith('http://')) {
+        value = `https://${value.slice('http://'.length)}`;
+    }
+
+    if (!isSafeHttpUrl(value)) return null;
+    if (isBlockedSource(value)) return null;
+    return value;
+}
+
 function getMediaForBrand(brand) {
     if (typeof brandMedia === 'undefined') return null;
     return brandMedia[String(brand.id)] || null;
@@ -175,8 +236,8 @@ function getMediaForBrand(brand) {
 
 function isTrustedLogoForBrand(brand, logoUrl) {
     if (!logoUrl || typeof logoUrl !== 'string') return false;
-    if (!isSafeHttpUrl(logoUrl)) return false;
-    if (isBlockedSource(logoUrl)) return false;
+    if (!(isSafeHttpUrl(logoUrl) || isLocalImagePath(logoUrl))) return false;
+    if (isSafeHttpUrl(logoUrl) && isBlockedSource(logoUrl)) return false;
     return true;
 }
 
@@ -208,6 +269,11 @@ function getBrandInfo(brand) {
 
 brands.forEach((brand) => {
     const media = getMediaForBrand(brand);
+    const manualLogo = normalizeLogoUrlForBrand(brand, getManualLogoOverride(brand));
+    const fallbackLogo = getWebsiteFaviconUrl(brand.website);
+    const baseLogo = normalizeLogoUrlForBrand(brand, brand.image);
+    const mediaLogo = media ? normalizeLogoUrlForBrand(brand, media.logo) : null;
+
     brand.slug = getBrandSlug(brand);
     brand.detail = getBrandInfo(brand);
     brand.bottleImages = getBrandBottleImages(brand);
@@ -218,9 +284,11 @@ brands.forEach((brand) => {
     brand.oliveTopicUrls = brand.oliveTypes.map((type) => getOliveTypeTopicUrl(type));
     brand.regionClusterLabel = regionClusterLabels[brand.regionCluster];
     brand.oliveTypeLabels = brand.oliveTypes.map((type) => oliveTypeLabels[type]).filter(Boolean);
+    brand.logoFallback = fallbackLogo || '';
+    brand.image = manualLogo || baseLogo || fallbackLogo || '';
 
-    if (media && isTrustedLogoForBrand(brand, media.logo)) {
-        brand.image = media.logo;
+    if (!manualLogo && media && isTrustedLogoForBrand(brand, mediaLogo)) {
+        brand.image = mediaLogo;
     }
 });
 
@@ -243,8 +311,9 @@ function createBrandCard(brand) {
         footerHTML = `<div class="brand-card-footer">${parts.join('')}</div>`;
     }
 
+    const fallbackAttr = brand.logoFallback ? ` data-fallback="${brand.logoFallback}"` : '';
     const headerContent = brand.image
-        ? `<img src="${brand.image}" alt="${brand.name}" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.brand-initials').style.display='block'">`
+        ? `<img src="${brand.image}"${fallbackAttr} alt="${brand.name}" loading="lazy" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none';const i=this.parentElement.querySelector('.brand-initials');if(i)i.style.display='block';">`
         : '';
     const initialsStyle = brand.image ? 'display:none' : '';
 

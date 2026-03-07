@@ -194,7 +194,16 @@ window.addEventListener('scroll',()=>{document.getElementById('navbar').classLis
 }
 
 function brandCard(brand, prefix) {
-  const image = brand.image ? `<img src="${normalize(brand.image)}" alt="${normalize(brand.name)} logosu" loading="lazy">` : `<span class="brand-initials">${normalize(brand.name.slice(0, 2).toUpperCase())}</span>`;
+  const resolveAssetUrl = (url) => {
+    if (!url) return '';
+    return /^https?:\/\//i.test(url) ? url : `${prefix}${url.replace(/^\.\//, '')}`;
+  };
+  const imageUrl = resolveAssetUrl(brand.image);
+  const fallbackUrl = resolveAssetUrl(brand.logoFallback);
+  const fallbackAttr = fallbackUrl ? ` data-fallback="${normalize(fallbackUrl)}"` : '';
+  const image = brand.image
+    ? `<img src="${normalize(imageUrl)}"${fallbackAttr} alt="${normalize(brand.name)} logosu" loading="lazy" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none';">`
+    : `<span class="brand-initials">${normalize(brand.name.slice(0, 2).toUpperCase())}</span>`;
   const badge = categoryLabels[brand.category] || brand.category;
 
   return `<a class="brand-card topic-brand-card" href="${prefix}marka/${normalize(brand.slug)}.html">
