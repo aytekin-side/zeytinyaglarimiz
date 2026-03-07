@@ -59,6 +59,89 @@ const categoryLabels = {
     'bolgesel-yerel': 'Bölgesel / Yerel'
 };
 
+function normalizeSlug(value) {
+    return value
+        .toLowerCase('tr-TR')
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, '')
+        .replace(/ğ/g, 'g')
+        .replace(/ü/g, 'u')
+        .replace(/ş/g, 's')
+        .replace(/ı/g, 'i')
+        .replace(/ö/g, 'o')
+        .replace(/ç/g, 'c')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+}
+
+function isSafeHttpUrl(value) {
+    if (typeof value !== 'string' || value.includes('|')) return false;
+    try {
+        const url = new URL(value);
+        return url.protocol === 'http:' || url.protocol === 'https:';
+    } catch {
+        return false;
+    }
+}
+
+function getMediaForBrand(brand) {
+    if (typeof brandMedia === 'undefined') return null;
+    return brandMedia[String(brand.id)] || null;
+}
+
+function isTrustedLogoForBrand(brand, logoUrl) {
+    if (!logoUrl || typeof logoUrl !== 'string') return false;
+    if (logoUrl.startsWith('images/')) return true;
+    if (logoUrl.includes('img.logo.dev/')) return true;
+    if (!isSafeHttpUrl(logoUrl)) return false;
+    if (!brand.website) return false;
+
+    try {
+        const logoHost = new URL(logoUrl).hostname.replace(/^www\./, '');
+        const brandHost = new URL(brand.website).hostname.replace(/^www\./, '');
+        return logoHost === brandHost;
+    } catch {
+        return false;
+    }
+}
+
+function getBrandSlug(brand) {
+    const media = getMediaForBrand(brand);
+    if (media && typeof media.slug === 'string' && media.slug.trim()) {
+        return media.slug.trim();
+    }
+    return normalizeSlug(brand.name);
+}
+
+function getBrandDetailUrl(brand) {
+    return `marka/${encodeURIComponent(getBrandSlug(brand))}.html`;
+}
+
+function getBrandBottleImages(brand) {
+    const media = getMediaForBrand(brand);
+    if (!media || !Array.isArray(media.bottles)) return [];
+    return media.bottles.filter(isSafeHttpUrl).slice(0, 3);
+}
+
+function getBrandInfo(brand) {
+    const media = getMediaForBrand(brand);
+    if (media && typeof media.info === 'string' && media.info.trim()) {
+        return media.info.trim();
+    }
+    return brand.desc;
+}
+
+brands.forEach((brand) => {
+    const media = getMediaForBrand(brand);
+    brand.slug = getBrandSlug(brand);
+    brand.detail = getBrandInfo(brand);
+    brand.bottleImages = getBrandBottleImages(brand);
+
+    if (media && isTrustedLogoForBrand(brand, media.logo)) {
+        brand.image = media.logo;
+    }
+});
+
 function getInitials(name) {
     return name.split(' ').map(w => w[0]).join('').substring(0, 2).toUpperCase();
 }
@@ -100,5 +183,20 @@ function createBrandCard(brand) {
         </div>
         ${footerHTML}
     `;
+
+    card.tabIndex = 0;
+    card.setAttribute('role', 'link');
+    card.setAttribute('aria-label', `${brand.name} detay sayfasına git`);
+    card.addEventListener('click', (event) => {
+        if (event.target.closest('a')) return;
+        window.location.href = getBrandDetailUrl(brand);
+    });
+    card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            window.location.href = getBrandDetailUrl(brand);
+        }
+    });
+
     return card;
 }
