@@ -24,9 +24,9 @@ const brandMedia = {
         "slug": "kristal",
         "logo": "https://img.logo.dev/kristalyag.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png",
         "bottles": [
-            "https://cdn.akakce.com/kristal/kristal-naturel-sizma-dolgun-guclu-teneke-3-lt-x.jpg",
-            "https://toplasepeti.com/images/thumbnails/1255/1255/detailed/9/kristal-naturel-sizma-zeytinyagi-2-lt-teneke.jpeg",
-            "https://cdn03.ciceksepeti.com/cicek/kcm18855373-1/L/kristal-naturel-sizma-ve-riviera-zeytinyagi-5-litre-2-li-set-kcm18855373-1-0145d54181a9422e967feef5c0cf0af9.jpg"
+            "https://static.ticimax.cloud/54603/Uploads/UrunResimleri/thumb/naturel-sizma-zeytinyagi-5-l-teneke-dg-8bf3-4.jpg",
+            "https://static.ticimax.cloud/54603/Uploads/UrunResimleri/thumb/naturel-sizma-zeytinyagi-4-l-teneke-dg-26-4e9.jpg",
+            "https://static.ticimax.cloud/54603/Uploads/UrunResimleri/thumb/naturel-sizma-zeytinyagi-1-l-cam-sise--856e92.jpg"
         ],
         "info": "Kristal, İzmir bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Türkiye'nin en bilinen yemeklik yağ markalarından biri. Zeytinyağı dahil geniş yağ ürün gamı sunar. Market segmentinde güçlü konumu vardır."
     },
@@ -44,9 +44,9 @@ const brandMedia = {
         "slug": "madra",
         "logo": "https://img.logo.dev/madra.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png",
         "bottles": [
-            "https://image01.idefix.com/resize/1200/0/product/3699058/sezai-omer-madra-750-ml-sizma-zeytinyagi-4-66c88db4553f3.jpg",
-            "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png",
-            "https://www.ayvaliksepeti.com/wp-content/uploads/2020/04/naturel-sizma-zeytinyagi-1lt.jpg"
+            "https://www.sezaiomermadra.com.tr/assets/img/box-1.png",
+            "https://www.sezaiomermadra.com.tr/assets/img/box-2.png",
+            "https://www.sezaiomermadra.com.tr/assets/img/box-3.png"
         ],
         "info": "Madra, Edremit, Balıkesir bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Kuzey Ege bölgesinin kaliteli zeytinyağı markası. Edremit ve Ayvalık zeytinlerinden üretim yapar. Natürel sızma çeşitleri ile tanınır."
     },
@@ -54,9 +54,9 @@ const brandMedia = {
         "slug": "luna",
         "logo": "https://img.logo.dev/lunayag.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png",
         "bottles": [
-            "https://www.gourmet-versand.com/img_article_v3/609840-quinta-luna-sizma-zeytinyagi-frantoio-gaudenzi.jpg",
-            "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png",
-            "https://www.ayvaliksepeti.com/wp-content/uploads/2020/04/naturel-sizma-zeytinyagi-1lt.jpg"
+            "https://static.happycenter.com.tr/Uploads/luna-kase-margarin-500-gr-13735-500x500.png",
+            "https://cdn.cimri.io/market/260x260/luna-250-gr-tereyagi-lezzetli-paket-margarin-_1225898.jpg",
+            "https://images.migrosone.com/macrocenter/product/04205154/4205154-bf9a85-1650x1650.png"
         ],
         "info": "Luna, İzmir bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Türkiye'de yaygın olarak tüketilen zeytinyağı ve yemeklik yağ markası. Uygun fiyatlı riviera ve natürel sızma zeytinyağı seçenekleri sunar."
     },
@@ -102,21 +102,21 @@ const brandMedia = {
     },
     "11": {
         "slug": "mera-ovasi",
-        "logo": "https://img.logo.dev/meraovasi.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png",
+        "logo": "https://meraovasi.com/mera-ovasi%20logo.png",
         "bottles": [
-            "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png",
-            "https://www.ayvaliksepeti.com/wp-content/uploads/2020/04/naturel-sizma-zeytinyagi-1lt.jpg",
-            "https://www.ayvaliksepeti.com/wp-content/uploads/2020/04/naturel-sizma-zeytinyagi-5lt.jpg"
+            "https://meraovasi.com/images/meraovasi-1l-bottle.png",
+            "https://meraovasi.com/images/meraovasi-2-bottle.PNG",
+            "https://meraovasi.com/images/meraovasi-5l-bottle.png"
         ],
-        "info": "Mera Ovası, Erdek, Balıkesir bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Butik üretim yapan artizanal zeytinyağı markası. Küçük partiler halinde, özenle seçilmiş zeytinlerden soğuk sıkım natürel sızma zeytinyağı üretir."
+        "info": "Mera Ovası, Marmara bölgesindeki Erdek çevresinde Gemlik tipi zeytinlerden üretim yapan bir zeytinyağı markasıdır. Butik ve artizanal üretimle, küçük partiler halinde soğuk sıkım natürel sızma zeytinyağı sunar."
     },
     "12": {
         "slug": "olivurla",
         "logo": "https://img.logo.dev/olivurla.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png",
         "bottles": [
-            "https://www.ekoorganik.com/images/products/olivurla-organik-naturel-sizma-zeytinyagi-ayvalik-erken-hasat-soguk-sikim-500.jpg",
-            "https://www.ekoorganik.com/images/products/olivurla-organik-naturel-sizma-zeytinyagi-gemlik-1500.jpg",
-            "https://www.ekoorganik.com/images/products/olivurla-organik-naturel-sizma-zeytinyagi-ayvalik-erken-hasat-soguk-sikim-1500.jpg"
+            "https://www.olivurla.com/idea/cn/77/myassets/products/033/ayvalik-5000x_min.jpg?revision=1719213703",
+            "https://www.olivurla.com/idea/cn/77/myassets/products/037/domat5000_min.jpg?revision=1725361294",
+            "https://www.olivurla.com/idea/cn/77/myassets/products/041/olivurla-yerli-nsz-5000ml0913-1_min.jpg?revision=1724079050"
         ],
         "info": "Olivurla, Urla, İzmir bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Urla bölgesinden premium zeytinyağı üreten butik marka. Urla'nın eşsiz mikro ikliminde yetişen zeytinlerden üretim yapar."
     },
@@ -294,9 +294,9 @@ const brandMedia = {
         "slug": "olivos",
         "logo": "https://img.logo.dev/olivos.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png",
         "bottles": [
-            "https://ideacdn.net/idea/gf/33/myassets/products/283/olivos-spa-bittimli-zeytinyagi-sabunu-250-gr-480.jpeg?revision=1702879126",
-            "https://ideacdn.net/idea/gf/33/myassets/products/217/olivos-at-sutlu-zeytinyagi-sabunu-150-gr-439.jpeg?revision=1717487519",
-            "https://ideacdn.net/idea/gf/33/myassets/products/278/olivos-spa-kayisili-zeytinyagi-sabunu-250-gr-485.jpeg?revision=1717960175"
+            "https://ideacdn.net/idea/gf/33/myassets/products/631/amber-sise-soft-etiket-premium-gorunum_min.png?revision=1767966615",
+            "https://ideacdn.net/idea/gf/33/myassets/products/397/yesil_min.png?revision=1764254215",
+            "https://ideacdn.net/idea/gf/33/myassets/products/398/sari_min.png?revision=1764254170"
         ],
         "info": "Olivos, İstanbul bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Zeytinyağı bazlı ürünleriyle tanınan Türk markası. Zeytinyağı satışının yanı sıra zeytinyağlı sabun ve kozmetik ürünleri de üretir."
     },
@@ -324,9 +324,9 @@ const brandMedia = {
         "slug": "ilyada",
         "logo": "https://img.logo.dev/ilyada.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png",
         "bottles": [
-            "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png",
-            "https://www.ayvaliksepeti.com/wp-content/uploads/2020/04/naturel-sizma-zeytinyagi-1lt.jpg",
-            "https://www.ayvaliksepeti.com/wp-content/uploads/2020/04/naturel-sizma-zeytinyagi-5lt.jpg"
+            "https://ilyada.com/wp-content/uploads/2023/09/Zeytinyagi.png",
+            "https://www.ilyada.com/wp-content/uploads/2023/09/Slider1.webp",
+            "https://www.ilyada.com/wp-content/uploads/2023/10/urunlerslider2.webp"
         ],
         "info": "İlyada, Çanakkale bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Çanakkale Geyikli'den kaliteli Türk zeytinyağı markası. Natürel sızma zeytinyağı ve sofralık zeytin çeşitleri sunar."
     },
