@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marka Detayı - Zeytinyağlarımız</title>
     <meta name="description" content="Türkiye'deki zeytinyağı markaları için logo, şişe görselleri ve marka bilgileri.">
+    <link rel="canonical" id="canonicalLink" href="https://zeytinyaglarimiz.com/marka.html">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +23,7 @@
         <ul class="nav-links">
             <li><a href="index.html">Ana Sayfa</a></li>
             <li><a href="markalar.html" class="active">Markalar</a></li>
+            <li><a href="topic/index.html">Kategoriler</a></li>
             <li><a href="kalite-rehberi.html">Kalite Rehberi</a></li>
             <li><a href="bolgeler.html">Bölgeler</a></li>
         </ul>
@@ -37,8 +39,19 @@
     </button>
     <a href="index.html">Ana Sayfa</a>
     <a href="markalar.html">Markalar</a>
+    <a href="topic/index.html">Kategoriler</a>
     <a href="kalite-rehberi.html">Kalite Rehberi</a>
     <a href="bolgeler.html">Bölgeler</a>
+</div>
+
+<div class="breadcrumbs-wrap">
+    <nav class="breadcrumbs" id="brandBreadcrumbs" aria-label="Breadcrumb">
+        <a href="index.html">Ana Sayfa</a>
+        <span aria-hidden="true">/</span>
+        <a href="markalar.html">Markalar</a>
+        <span aria-hidden="true">/</span>
+        <span>Marka Detayı</span>
+    </nav>
 </div>
 
 <section class="brand-detail-page" id="brandDetailRoot">
@@ -106,11 +119,43 @@ function getFallbackBottles(brand) {
     ];
 }
 
+function getSimilarBrands(brand, limit = 6) {
+    return brands
+        .filter((candidate) => candidate.id !== brand.id)
+        .map((candidate) => {
+            let score = 0;
+            if (candidate.category === brand.category) score += 4;
+            if (candidate.regionCluster === brand.regionCluster) score += 3;
+            const sharedOlives = (candidate.oliveTypes || []).filter((type) => (brand.oliveTypes || []).includes(type)).length;
+            score += sharedOlives * 2;
+            return { candidate, score };
+        })
+        .filter((item) => item.score > 0)
+        .sort((a, b) => {
+            if (b.score !== a.score) return b.score - a.score;
+            if (a.candidate.highlight && !b.candidate.highlight) return -1;
+            if (!a.candidate.highlight && b.candidate.highlight) return 1;
+            return a.candidate.name.localeCompare(b.candidate.name, 'tr');
+        })
+        .slice(0, limit)
+        .map((item) => item.candidate);
+}
+
 function renderBrandDetail() {
     const root = document.getElementById('brandDetailRoot');
+    const breadcrumbNav = document.getElementById('brandBreadcrumbs');
     const brand = getBrandFromQuery();
 
     if (!brand) {
+        if (breadcrumbNav) {
+            breadcrumbNav.innerHTML = `
+                <a href=\"index.html\">Ana Sayfa</a>
+                <span aria-hidden=\"true\">/</span>
+                <a href=\"markalar.html\">Markalar</a>
+                <span aria-hidden=\"true\">/</span>
+                <span>Marka Bulunamadı</span>
+            `;
+        }
         root.innerHTML = `
             <div class="brand-detail-empty">
                 Marka bulunamadı. <a href="markalar.html">Markalar sayfasına dön</a>.
@@ -125,11 +170,43 @@ function renderBrandDetail() {
 
     const facts = [
         ['Kategori', categoryLongLabels[brand.category] || brand.category],
-        ['Bölge', brand.region]
+        ['Bölge', brand.region],
+        ['Bölge Kümesi', brand.regionClusterLabel || brand.region]
     ];
+    if (Array.isArray(brand.oliveTypeLabels) && brand.oliveTypeLabels.length) {
+        facts.push(['Zeytin Çeşitleri', brand.oliveTypeLabels.join(', ')]);
+    }
     if (brand.founded) facts.push(['Kuruluş', brand.founded]);
 
     document.title = `${brand.name} - Zeytinyağı Markası`;
+    const canonicalHref = `https://zeytinyaglarimiz.com/marka/${brand.slug}.html`;
+    const canonicalLink = document.getElementById('canonicalLink');
+    if (canonicalLink) canonicalLink.href = canonicalHref;
+    const metaDescription = document.querySelector('meta[name=\"description\"]');
+    if (metaDescription) {
+        metaDescription.content = `${brand.name} zeytinyağı markası: kategori, bölge, zeytin çeşidi, şişe görselleri ve benzer markalar.`;
+    }
+    if (breadcrumbNav) {
+        breadcrumbNav.innerHTML = `
+            <a href=\"index.html\">Ana Sayfa</a>
+            <span aria-hidden=\"true\">/</span>
+            <a href=\"topic/index.html\">Kategori Merkezi</a>
+            <span aria-hidden=\"true\">/</span>
+            <a href=\"${brand.categoryTopicUrl}\">${categoryLongLabels[brand.category] || brand.category}</a>
+            <span aria-hidden=\"true\">/</span>
+            <a href=\"${brand.regionTopicUrl}\">${brand.regionClusterLabel || brand.region}</a>
+            <span aria-hidden=\"true\">/</span>
+            <span>${brand.name}</span>
+        `;
+    }
+
+    const similarBrands = getSimilarBrands(brand);
+    const oliveTopicLinks = (brand.oliveTypes || []).map((typeKey, index) => {
+        const label = (brand.oliveTypeLabels || [])[index] || typeKey;
+        const url = (brand.oliveTopicUrls || [])[index];
+        if (!url) return '';
+        return `<a class=\"topic-link\" href=\"${url}\">${label}</a>`;
+    }).filter(Boolean);
 
     root.innerHTML = `
         <div class="brand-detail-inner">
@@ -144,10 +221,20 @@ function renderBrandDetail() {
                     <p>${brand.detail || brand.desc}</p>
                     <div class="brand-detail-actions">
                         ${brand.website ? `<a href="${brand.website}" target="_blank" rel="noopener" class="brand-detail-btn">Resmi Web Sitesi</a>` : ''}
+                        <a href="topic/index.html" class="brand-detail-btn secondary">Kategori Merkezi</a>
                         <a href="markalar.html" class="brand-detail-btn secondary">Tüm Markalar</a>
                     </div>
                 </div>
             </header>
+
+            <section class="brand-topic-links">
+                <h2>Konu Kümesi Geçişleri</h2>
+                <div class="topic-link-list">
+                    <a class="topic-link" href="${brand.categoryTopicUrl}">${categoryLongLabels[brand.category] || brand.category}</a>
+                    <a class="topic-link" href="${brand.regionTopicUrl}">${brand.regionClusterLabel || brand.region}</a>
+                    ${oliveTopicLinks.join('')}
+                </div>
+            </section>
 
             <section class="brand-facts-grid">
                 ${facts.map(([k, v]) => `<div class="brand-fact-card"><span>${k}</span><strong>${v}</strong></div>`).join('')}
@@ -169,8 +256,47 @@ function renderBrandDetail() {
                 <p>${brand.desc}</p>
                 <p>Bu sayfadaki görseller çevrimiçi kaynaklardan derlenmiştir. Marka temsilini güçlendirmek için yeni kaynaklar bulundukça güncellenir.</p>
             </section>
+
+            <section class="topic-section">
+                <h2>Benzer Markalar</h2>
+                <div class="topic-grid">
+                    ${similarBrands.map((item) => `
+                        <a class="topic-card" href="marka/${item.slug}.html">
+                            <h3>${item.name}</h3>
+                            <p>${item.region} • ${categoryLongLabels[item.category] || item.category}</p>
+                            <span class="topic-count">Detay Sayfası</span>
+                        </a>
+                    `).join('')}
+                </div>
+            </section>
         </div>
     `;
+
+    const schema = [
+        {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://zeytinyaglarimiz.com/index.html' },
+                { '@type': 'ListItem', position: 2, name: 'Kategori Merkezi', item: 'https://zeytinyaglarimiz.com/topic/index.html' },
+                { '@type': 'ListItem', position: 3, name: categoryLongLabels[brand.category] || brand.category, item: `https://zeytinyaglarimiz.com/${brand.categoryTopicUrl}` },
+                { '@type': 'ListItem', position: 4, name: brand.regionClusterLabel || brand.region, item: `https://zeytinyaglarimiz.com/${brand.regionTopicUrl}` },
+                { '@type': 'ListItem', position: 5, name: brand.name, item: canonicalHref }
+            ]
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: `${brand.name} Zeytinyağı Markası`,
+            description: `${brand.name} markası için kategori, bölge, zeytin çeşidi ve benzer markalar.`,
+            url: canonicalHref
+        }
+    ];
+
+    const schemaEl = document.createElement('script');
+    schemaEl.type = 'application/ld+json';
+    schemaEl.textContent = JSON.stringify(schema);
+    document.head.appendChild(schemaEl);
 }
 
 document.addEventListener('DOMContentLoaded', renderBrandDetail);

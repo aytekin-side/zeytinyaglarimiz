@@ -59,6 +59,24 @@ const categoryLabels = {
     'bolgesel-yerel': 'Bölgesel / Yerel'
 };
 
+const regionClusterLabels = {
+    ege: 'Ege Bölgesi',
+    marmara: 'Marmara Bölgesi',
+    akdeniz: 'Akdeniz Bölgesi',
+    guneydogu: 'Güneydoğu Anadolu',
+    trakya: 'Trakya Bölgesi',
+    turkiye: 'Türkiye Geneli'
+};
+
+const oliveTypeLabels = {
+    ayvalik: 'Ayvalık',
+    memecik: 'Memecik',
+    gemlik: 'Gemlik',
+    trilye: 'Trilye',
+    halhali: 'Halhalı',
+    nizip: 'Nizip Yağlık'
+};
+
 function normalizeSlug(value) {
     return value
         .toLowerCase('tr-TR')
@@ -72,6 +90,53 @@ function normalizeSlug(value) {
         .replace(/ç/g, 'c')
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/^-+|-+$/g, '');
+}
+
+function getTopicPageUrl(dimension, slug) {
+    return `topic/${dimension}/${slug}.html`;
+}
+
+function getCategoryTopicUrl(categoryKey) {
+    return getTopicPageUrl('kategoriler', categoryKey);
+}
+
+function getRegionTopicUrl(regionClusterKey) {
+    return getTopicPageUrl('bolgeler', regionClusterKey);
+}
+
+function getOliveTypeTopicUrl(oliveTypeKey) {
+    return getTopicPageUrl('zeytin-cesitleri', oliveTypeKey);
+}
+
+function inferRegionCluster(regionText) {
+    const text = (regionText || '').toLowerCase('tr-TR');
+
+    if (/(kilis|hatay|güneydoğu|guneydogu|nizip|gaziantep|mardin|şanlıurfa|sanliurfa)/.test(text)) return 'guneydogu';
+    if (/(edirne|trakya|tekirdağ|tekirdag|kırklareli|kirklareli)/.test(text)) return 'trakya';
+    if (/(bursa|marmara|mudanya|gemlik|istanbul)/.test(text)) return 'marmara';
+    if (/(mersin|antalya|adana|akdeniz)/.test(text)) return 'akdeniz';
+    if (/(izmir|ege|ayvalık|ayvalik|balıkesir|balikesir|edremit|urla|ödemiş|odemis|milas|muğla|mugla|çanakkale|canakkale)/.test(text)) return 'ege';
+    if (/(türkiye|turkiye)/.test(text)) return 'turkiye';
+    return 'ege';
+}
+
+function inferOliveTypes(brand) {
+    const text = `${brand.region} ${brand.desc}`.toLowerCase('tr-TR');
+    const types = [];
+
+    if (/(ayvalık|ayvalik|edremit|balıkesir|balikesir)/.test(text)) types.push('ayvalik');
+    if (/(izmir|urla|ege|ödemiş|odemis|milas|muğla|mugla|memecik)/.test(text)) types.push('memecik');
+    if (/(bursa|marmara|gemlik|mudanya)/.test(text)) types.push('gemlik');
+    if (/(trilye|trakya|edirne)/.test(text)) types.push('trilye');
+    if (/(kilis|hatay|halhalı|halhali|güneydoğu|guneydogu)/.test(text)) types.push('halhali');
+    if (/(nizip|gaziantep)/.test(text)) types.push('nizip');
+
+    if (types.length === 0) {
+        if (brand.category === 'bolgesel-yerel') types.push('ayvalik');
+        else types.push('memecik');
+    }
+
+    return Array.from(new Set(types)).slice(0, 2);
 }
 
 function isSafeHttpUrl(value) {
@@ -146,6 +211,13 @@ brands.forEach((brand) => {
     brand.slug = getBrandSlug(brand);
     brand.detail = getBrandInfo(brand);
     brand.bottleImages = getBrandBottleImages(brand);
+    brand.regionCluster = inferRegionCluster(brand.region);
+    brand.oliveTypes = inferOliveTypes(brand);
+    brand.categoryTopicUrl = getCategoryTopicUrl(brand.category);
+    brand.regionTopicUrl = getRegionTopicUrl(brand.regionCluster);
+    brand.oliveTopicUrls = brand.oliveTypes.map((type) => getOliveTypeTopicUrl(type));
+    brand.regionClusterLabel = regionClusterLabels[brand.regionCluster];
+    brand.oliveTypeLabels = brand.oliveTypes.map((type) => oliveTypeLabels[type]).filter(Boolean);
 
     if (media && isTrustedLogoForBrand(brand, media.logo)) {
         brand.image = media.logo;
