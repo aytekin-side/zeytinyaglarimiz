@@ -159,7 +159,7 @@ function renderSchema(brand) {
     {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
-      name: `${brand.name} Zeytinyağı Markası`,
+      name: `${brand.name} | Zeytinyağlarımız`,
       description: `${brand.name} markası için bölge, kategori, görseller ve detaylı marka değerlendirmesi.`,
       url: `${SITE_URL}/marka/${brand.slug}.html`,
       dateModified: TODAY
@@ -178,7 +178,7 @@ function renderBrandPage(brand, brands) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(brand.name)} - Zeytinyağı Markası | Zeytinyağlarımız</title>
+  <title>${escapeHtml(brand.name)} | Zeytinyağlarımız</title>
   <meta name="description" content="${escapeHtml(metaDescription)}">
   <link rel="canonical" href="${SITE_URL}/marka/${escapeHtml(brand.slug)}.html">
   <link rel="icon" type="image/png" href="../favicon.png">

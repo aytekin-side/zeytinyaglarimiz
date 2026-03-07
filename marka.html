@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marka Detayı - Zeytinyağlarımız</title>
+    <title>Zeytinyağları | Zeytinyağlarımız</title>
     <meta name="description" content="Türkiye'deki zeytinyağı markaları için logo, şişe görselleri ve marka bilgileri.">
     <link rel="canonical" id="canonicalLink" href="https://zeytinyaglarimiz.com/marka.html">
     <link rel="icon" type="image/png" href="favicon.png">
@@ -183,7 +183,7 @@ function renderBrandDetail() {
     }
     if (brand.founded) facts.push({ label: 'Kuruluş', value: brand.founded, url: '' });
 
-    document.title = `${brand.name} - Zeytinyağı Markası`;
+    document.title = `${brand.name} | Zeytinyağlarımız`;
     const canonicalHref = `https://zeytinyaglarimiz.com/marka/${brand.slug}.html`;
     const canonicalLink = document.getElementById('canonicalLink');
     if (canonicalLink) canonicalLink.href = canonicalHref;
@@ -299,7 +299,7 @@ function renderBrandDetail() {
         {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
-            name: `${brand.name} Zeytinyağı Markası`,
+            name: `${brand.name} | Zeytinyağlarımız`,
             description: `${brand.name} markası için kategori, bölge, zeytin çeşidi ve benzer markalar.`,
             url: canonicalHref
         }
