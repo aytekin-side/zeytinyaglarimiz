@@ -1619,6 +1619,9 @@ footer .copyright {
     gap: 18px;
     margin: 26px 0 8px;
 }
+.guide-figure-grid.single {
+    grid-template-columns: minmax(0, 1fr);
+}
 .guide-figure {
     overflow: hidden;
     border-radius: 20px;

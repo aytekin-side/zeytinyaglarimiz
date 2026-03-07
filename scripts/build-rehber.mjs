@@ -26,6 +26,10 @@ const brands = ctx.brands;
 const categoryLabels = ctx.categoryLabels;
 const regionClusterLabels = ctx.regionClusterLabels;
 const oliveTypeLabels = ctx.oliveTypeLabels;
+const imageManifestPath = path.join(process.cwd(), 'data/rehber-image-manifest.json');
+const imageManifest = fs.existsSync(imageManifestPath)
+  ? JSON.parse(fs.readFileSync(imageManifestPath, 'utf8'))
+  : {};
 
 const imageLibrary = {
   bottle: {
@@ -195,11 +199,12 @@ const typeLabels = {
 
 const brandAliasMap = new Map();
 for (const brand of brands) {
+  const baseAlias = ascii(brand.name);
   const aliases = new Set([
-    ascii(brand.name),
-    ascii(brand.name.replace(/ zeytinligi/gi, '')),
-    ascii(brand.name.replace(/ zeytinyaglari/gi, '')),
-    ascii(brand.name.replace(/ zeytinyagi/gi, ''))
+    baseAlias,
+    baseAlias.replace(/ zeytinligi$/, ''),
+    baseAlias.replace(/ zeytinyaglari$/, ''),
+    baseAlias.replace(/ zeytinyagi$/, '')
   ]);
   for (const alias of aliases) {
     if (alias) brandAliasMap.set(alias, brand);
@@ -544,7 +549,7 @@ function renderSections(sections) {
 }
 
 function renderFigures(figures) {
-  return `<div class="guide-figure-grid">${figures.map((figure) => `
+  return `<div class="guide-figure-grid${figures.length === 1 ? ' single' : ''}">${figures.map((figure) => `
     <figure class="guide-figure">
       <img src="${escapeHtml(figure.path)}" alt="${escapeHtml(figure.alt)}" loading="lazy" onerror="this.closest('figure').style.display='none'">
       <figcaption>${escapeHtml(figure.caption)} - <a href="${escapeHtml(figure.source)}" target="_blank" rel="noopener">${escapeHtml(figure.credit)}</a></figcaption>
@@ -795,20 +800,23 @@ function findMatchedBrand(keyword) {
 }
 
 function articleImages(article) {
+  const manifestFigure = imageManifest[article.slug];
+  if (manifestFigure) {
+    return [manifestFigure];
+  }
+
   if (article.kind === 'brand' && article.matchedBrand) {
     const brandBottle = Array.isArray(article.matchedBrand.bottleImages) ? article.matchedBrand.bottleImages[0] : null;
-    const figures = [];
     if (brandBottle) {
-      figures.push({
+      return [{
         path: brandBottle,
         alt: `${article.matchedBrand.name} zeytinyağı şişesi`,
         caption: `${article.matchedBrand.name} ürün görseli`,
         credit: article.matchedBrand.name,
         source: article.matchedBrand.website || brandBottle
-      });
+      }];
     }
-    figures.push(imageLibrary.bottles);
-    return figures.slice(0, 2);
+    return [imageLibrary.bottles];
   }
 
   const map = {
