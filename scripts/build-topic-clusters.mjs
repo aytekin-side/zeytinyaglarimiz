@@ -302,7 +302,7 @@ renderHubPage({
   title: 'Zeytinyağı Çeşitleri',
   description: 'Zeytinyağı markalarını marka kategorileri, üretim bölgeleri ve zeytin çeşitlerine göre keşfedin.',
   breadcrumbItems: [
-    { label: 'Ana Sayfa', url: 'index.html' },
+    { label: 'Zeytinyağlarımız', url: 'index.html' },
     { label: 'Zeytinyağı Çeşitleri' }
   ],
   cardsHtml: `<div class="topic-grid">
@@ -323,7 +323,7 @@ renderHubPage({
   title: 'Zeytinyağı Marka Kategorileri',
   description: 'Premium, market, organik ve bölgesel markaları kategori bazında karşılaştırın ve benzer markaları keşfedin.',
   breadcrumbItems: [
-    { label: 'Ana Sayfa', url: 'index.html' },
+    { label: 'Zeytinyağlarımız', url: 'index.html' },
     { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
     { label: 'Marka Kategorileri' }
   ],
@@ -337,7 +337,7 @@ renderHubPage({
   title: 'Zeytinyağı Bölgeleri',
   description: 'Türkiye’nin zeytinyağı bölgelerine göre markaları inceleyin ve aynı bölgede öne çıkan üreticileri bulun.',
   breadcrumbItems: [
-    { label: 'Ana Sayfa', url: 'index.html' },
+    { label: 'Zeytinyağlarımız', url: 'index.html' },
     { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
     { label: 'Bölgeler' }
   ],
@@ -350,7 +350,7 @@ renderHubPage({
   title: 'Zeytin Çeşitleri',
   description: 'Ayvalık, Memecik, Gemlik gibi zeytin çeşitlerine göre benzer zeytinyağı markalarını bir arada görün.',
   breadcrumbItems: [
-    { label: 'Ana Sayfa', url: 'index.html' },
+    { label: 'Zeytinyağlarımız', url: 'index.html' },
     { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
     { label: 'Zeytin Çeşitleri' }
   ],
@@ -393,7 +393,7 @@ function renderTopicDetail({ dimension, relPath, prefix, label, slug, descriptio
   ];
 
   const breadcrumbItems = [
-    { label: 'Ana Sayfa', url: 'index.html' },
+    { label: 'Zeytinyağlarımız', url: 'index.html' },
     { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
     { label: dimension === 'kategoriler' ? 'Marka Kategorileri' : dimension === 'bolgeler' ? 'Bölgeler' : 'Zeytin Çeşitleri', url: `topic/${dimension}/index.html` },
     { label }

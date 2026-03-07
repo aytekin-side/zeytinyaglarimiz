@@ -1898,7 +1898,7 @@ function buildArticleRecord(raw) {
 function renderArticlePage(article, allArticles) {
   const related = relatedGuides(article, allArticles);
   const breadcrumbItems = [
-    { label: 'Ana Sayfa', url: 'index.html' },
+    { label: 'Zeytinyağlarımız', url: 'index.html' },
     { label: 'Rehber', url: 'rehber/index.html' },
     { label: article.displayKeyword }
   ];
@@ -2065,7 +2065,7 @@ guideFilters.forEach((btn)=>btn.addEventListener('click', ()=>{
     description: 'Zeytinyağı ile ilgili en çok aranan 100 konu için hazırlanan kapsamlı rehber sayfaları. Kalite, fiyat, sağlık, saç, cilt, marka ve çeşit başlıkları tek merkezde.',
     canonicalPath: 'rehber/index.html',
     breadcrumbItems: [
-      { label: 'Ana Sayfa', url: 'index.html' },
+      { label: 'Zeytinyağlarımız', url: 'index.html' },
       { label: 'Rehber' }
     ],
     content,

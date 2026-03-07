@@ -108,7 +108,7 @@ function renderSchema(brand) {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: `${SITE_URL}/index.html` },
+        { '@type': 'ListItem', position: 1, name: 'Zeytinyağlarımız', item: `${SITE_URL}/index.html` },
         { '@type': 'ListItem', position: 2, name: 'Zeytinyağı Çeşitleri', item: `${SITE_URL}/topic/index.html` },
         { '@type': 'ListItem', position: 3, name: categoryLongLabels[brand.category] || brand.category, item: `${SITE_URL}/${brand.categoryTopicUrl}` },
         { '@type': 'ListItem', position: 4, name: brand.regionClusterLabel || brand.region, item: `${SITE_URL}/${brand.regionTopicUrl}` },
@@ -177,7 +177,7 @@ function renderBrandPage(brand) {
 </div>
 <div class="breadcrumbs-wrap">
   <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="../index.html">Ana Sayfa</a>
+    <a href="../index.html">Zeytinyağlarımız</a>
     <span aria-hidden="true">/</span>
     <a href="../topic/index.html">Zeytinyağı Çeşitleri</a>
     <span aria-hidden="true">/</span>
