@@ -595,6 +595,30 @@ function renderRelatedGuides(items) {
   `;
 }
 
+function renderBrandLinks(items) {
+  if (!items.length) return '';
+  return `
+    <div class="guide-side-card">
+      <h3>İlgili Markalar</h3>
+      <div class="guide-side-links">
+        ${items.map((brand) => `<a href="../marka/${escapeHtml(brand.slug)}.html"><strong>${escapeHtml(brand.name)}</strong><span>${escapeHtml(brand.region)}</span></a>`).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderTopicLinks(items) {
+  if (!items.length) return '';
+  return `
+    <div class="guide-side-card">
+      <h3>Kategori Geçişleri</h3>
+      <div class="guide-side-links">
+        ${items.map((item) => `<a href="${escapeHtml(item.url)}"><strong>${escapeHtml(item.label)}</strong><span>${escapeHtml(item.note)}</span></a>`).join('')}
+      </div>
+    </div>
+  `;
+}
+
 function measureCards() {
   return `
     <div class="guide-measure-grid">
@@ -1904,6 +1928,14 @@ function renderArticlePage(article, allArticles) {
     }
   ];
 
+  const sidebar = [
+    article.matchedBrand
+      ? `<div class="guide-side-card"><h3>Marka Sayfası</h3><div class="guide-side-links"><a href="../marka/${escapeHtml(article.matchedBrand.slug)}.html"><strong>${escapeHtml(article.matchedBrand.name)}</strong><span>Detay sayfasını aç</span></a></div></div>`
+      : '',
+    renderBrandLinks(article.brandLinks),
+    renderTopicLinks(article.topicLinks)
+  ].filter(Boolean).join('');
+
   const content = `
 <main class="guide-page">
   <section class="guide-hero-section">
@@ -1939,6 +1971,7 @@ function renderArticlePage(article, allArticles) {
       ${renderRelatedGuides(related)}
       ${renderSources(article.sources)}
     </article>
+    ${sidebar ? `<aside class="guide-sidebar">${sidebar}</aside>` : ''}
   </div>
 </main>`;
 
