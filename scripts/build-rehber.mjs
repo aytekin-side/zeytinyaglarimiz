@@ -629,26 +629,41 @@ function measureCards() {
   `;
 }
 
-function parentContextSection(article, bullets = []) {
+function polishContextBullet(text) {
+  return String(text || '')
+    .replace(/Parent keyword bağlantısı, /g, 'Bu aramalarda ')
+    .replace(/Parent keyword bağlantısı özellikle /g, 'Bu konu özellikle ')
+    .replace(/Parent keyword bağlantısı varsa /g, 'Bu tür aramalarda ')
+    .replace(/Parent keyword bağlantısı; /g, 'Bu tür aramalarda ')
+    .replace(/Parent keyword bağlantısı /g, 'Bu konu ')
+    .replace(/Parent keyword çoğu zaman /g, 'Bu tür aramalarda ')
+    .replace(/Parent keyword ilişkisi, /g, 'Bu aramalarda ')
+    .replace(/Parent keyword ilişkisi /g, 'Bu aramalarda ')
+    .replace(/Parent keyword, /g, 'Bu tür aramalarda ')
+    .replace(/parent keyword ile birlikte /g, '')
+    .replace(/Bağımsız sorgu/g, 'Detay rehber');
+}
+
+function contextSection(article, bullets = []) {
   const paragraphs = article.parentKeyword
     ? [
-        `${article.displayKeyword} sorgusu, arama verilerinde ${article.parentDisplay} parent keyword'ü altında toplanıyor. Bu, kullanıcının tek bir kısa cevaptan çok daha fazlasını; seçim, karşılaştırma ve güvenilirlik bilgisini birlikte aradığını gösterir.`,
-        `Bu nedenle rehberde doğrudan cevabın yanında parent keyword bağlamının tetiklediği ikinci katman soruları da topladık. Böylece kullanıcı ${article.displayKeyword} aramasından ${article.parentDisplay} düzeyindeki daha geniş karara ilerleyebilir.`
+        `${article.displayKeyword} araştırılırken kullanıcılar çoğu zaman ${article.parentDisplay} gibi daha geniş sorulara da yanıt arar.`,
+        'Bu rehber bu yüzden kısa cevabın yanında seçim, kullanım ve karşılaştırma kararını kolaylaştıran ana noktaları aynı sayfada toplar.'
       ]
     : [
-        `${article.displayKeyword} sorgusu veri setinde bağımsız bir niyet taşıyor. Bu tür sorgularda kullanıcı genellikle önce hızlı cevabı, ardından aynı konu çevresindeki seçim ve kullanım detaylarını görmek ister.`,
-        'Bu rehber bu yüzden önce net yanıtı verir, ardından karar vermeyi kolaylaştıran pratik kontrol noktalarını sıralar.'
+        `${article.displayKeyword} başlığında kullanıcılar genellikle hızlı cevapla birlikte pratik kullanım detaylarını da görmek ister.`,
+        'Bu rehber bu yüzden net yanıtın yanında günlük karar vermeyi kolaylaştıran kontrol noktalarını da sıralar.'
       ];
 
-  const items = bullets.length
+  const items = (bullets.length
     ? bullets
     : [
-        'Kullanıcı niyeti yalnızca bilgi alma değil, aynı zamanda seçim yapma eğilimi de taşır.',
-        'Parent keyword bağlantısı içerikte daha geniş karşılaştırma ihtiyacını işaret eder.',
+        'Bu konu genellikle tek bir kısa cevapla kapanmaz; seçim ve kullanım notları da önem taşır.',
+        'Benzer başlıklarla birlikte okunduğunda karar vermek daha kolay hale gelir.',
         'Doğru karar için etiket, kullanım amacı ve güvenilir kaynak üçlüsüne birlikte bakmak gerekir.'
-      ];
+      ]).map(polishContextBullet);
 
-  return section('Parent keyword bağlamı', paragraphs, items);
+  return section('Bu Konuda Neler Öne Çıkıyor?', paragraphs, items);
 }
 
 function safetyNote(kind, article) {
@@ -992,16 +1007,16 @@ function relatedGuides(article, allArticles) {
 
 function buildArticleSummary(article) {
   const suffix = article.parentKeyword
-    ? `${article.parentDisplay} parent keyword bağlamı ve ilgili marka/kategori geçişleri de içerir.`
-    : 'Sayfa, benzer arama niyetlerinden gelen pratik seçim ve kullanım sorularını da kapsar.';
+    ? `${article.parentDisplay} gibi ilgili sorulara da yanıt verir.`
+    : 'Sayfa, aynı konu etrafındaki pratik seçim ve kullanım sorularını da kapsar.';
   return `${article.directAnswer} ${suffix}`;
 }
 
 function composeArticle(article) {
   const normalized = ascii(article.keyword);
   const sourceIntro = article.parentKeyword
-    ? `Bu içerik ${article.parentDisplay} parent keyword'ünün tetiklediği alt soruları da kapsayacak biçimde yazıldı.`
-    : 'Bu içerik doğrudan sorgu niyetine cevap verecek şekilde kurgulandı.';
+    ? `Bu içerik, ${article.parentDisplay} gibi yakın sorularda da işinize yarayacak pratik notlar içerir.`
+    : 'Bu içerik konuya doğrudan ve pratik bir cevap verecek şekilde hazırlandı.';
 
   if (article.kind === 'general') {
     return {
@@ -1023,7 +1038,7 @@ function composeArticle(article) {
           'Yoğun aroma arayan kullanıcılar erken hasat ve soğuk sıkım ifadelerine bakar.',
           'Aile tüketimi yüksekse litre başı maliyet ayrıca hesaplanmalıdır.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Geniş sorgular kullanıcıyı çoğu zaman fiyat, kalite ve marka karşılaştırmasına birlikte götürür.',
           'Parent keyword bağlantısı özellikle satın alma kararı aşamasında önem kazanır.',
           'Bu yüzden rehber yalnızca tanım vermez; seçim mantığını da özetler.'
@@ -1077,7 +1092,7 @@ function composeArticle(article) {
           'Erken hasat ve özel seri yağlarda premium fark bekleyin.',
           'Şişe veya teneke seçimi fiyatı etkiler.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Parent keyword çoğu zaman kullanıcının tek fiyat değil, güvenilir fiyat aradığını gösterir.',
           'Fiyat sorguları genellikle marka, market ve kalite sorgularıyla birlikte akar.',
           'Bu sayfa bu yüzden yalnızca etiket okumayı değil, fiyat arkasındaki üretim mantığını da açıklar.'
@@ -1121,7 +1136,7 @@ function composeArticle(article) {
           'Alışveriş kararı, ürünün nerede kullanılacağı netleşince daha kolay verilir. Kahvaltı ve salatada aromatik, meyvemsi, canlı yağlar değer kazanırken; günlük sıcak yemeklerde daha dengeli ve bütçe dostu seçenekler öne çıkabilir.',
           'Bu ayrımı yapmadan sadece marka adı üzerinden karar vermek hem bütçeyi hem beklentiyi zorlayabilir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Geniş seçim sorguları kullanıcıyı marka ve kalite rehberleri arasında dolaştırır.',
           'Parent keyword ilişkisi, tek ürün önerisinden çok seçim mantığı beklendiğini gösterir.',
           'Bu yüzden içeriğe benzer markalar ve konu geçişleri de eklendi.'
@@ -1168,8 +1183,8 @@ function composeArticle(article) {
           'Beslenme tabloları ve diyet uygulamaları kaşık ölçülerini genellikle standart hacim üzerinden hesaplar. Evde kullanılan kaşıkların gerçek hacmi değişebildiği için küçük sapmalar normaldir.',
           'Bu yüzden özellikle kalori takibi yapan kullanıcı için tek seferlik kesinlikten çok ortalama hesap mantığı önemlidir.'
         ], [], measureCards()),
-        parentContextSection(article, [
-          'Kalori sorguları çoğu zaman porsiyon yönetimi ve kilo kontrolü niyeti taşır.',
+        contextSection(article, [
+          'Kalori hesabı yapan kullanıcılar çoğu zaman porsiyon yönetimi ve kilo kontrolü için net bir ölçü arar.',
           'Parent keyword bağlantısı kullanıcının yalnızca sayı değil, günlük kullanım rehberi de aradığını gösterir.',
           'Bu rehber ölçüyü, pratik yemek kullanımına bağlayarak açıklar.'
         ]),
@@ -1233,7 +1248,7 @@ function composeArticle(article) {
           'Zeytinyağı hakkında yaygın dolaşan kısa testlerin çoğu bir işaret verebilir ama kesin hüküm sağlamaz. Soğukta kıvam değişimi, boğazda yakıcılık veya renk gibi unsurlar tek başına karar için yetersizdir.',
           'Kaliteli değerlendirme; ürün sınıfı, tazelik, aroma ve güvenilir üretici bilgisinin birleşimiyle yapılır.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Kalite sorguları çoğu zaman satın alma sorgularından hemen önce gelir.',
           'Parent keyword bağlantısı, kullanıcının doğrulama sonrasında marka veya fiyat karşılaştırmasına geçtiğini düşündürür.',
           'Bu nedenle rehber kalite sinyallerini karar ağacına dönüştürür.'
@@ -1288,10 +1303,10 @@ function composeArticle(article) {
           'Zeytinyağında kullanılan tanımlar yalnızca pazarlama dili değildir; çoğu zaman üretim tekniği, aroma profili ya da bölgesel karakter hakkında ipucu verir.',
           'Kullanıcı için önemli olan nokta, bu terimi kendi tüketim amacıyla eşleştirmektir. Güçlü aromalı bir yağı seven tüketici ile daha yumuşak profilli yağ arayan kişi aynı etiketi farklı okuyabilir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Parent keyword, kullanıcıların ana terim üzerinden daha geniş kalite ve fiyat kararına geçtiğini gösterir.',
           'Bu nedenle rehber tanımın yanında kullanım ve seçim mantığını da verir.',
-          'Benzer marka ve konu geçişleri, arama niyetinin doğal uzantısıdır.'
+          'Benzer marka ve konu geçişleri, bu konuyu farklı açılardan incelemeyi kolaylaştırır.'
         ]),
         section('Tat profili ve kullanım alanı', [
           'Ayvalık, Memecik ya da polifenol vurgusu gibi başlıklar, çoğu zaman aromatik profil beklentisini yönetir. Dengeli, hafif içimli yağ ile yoğun, biberimsi yağ arasında mutfak ve damak kullanım farkı olabilir.',
@@ -1322,7 +1337,7 @@ function composeArticle(article) {
       title: `${article.displayKeyword}: marka ve ürün değerlendirmesi`,
       lead: 'marka aramasını seçim mantığına dönüştüren',
       directAnswer: isRetailer
-        ? `${article.displayKeyword} araması çoğu zaman belirli bir market rafındaki seçenekleri kıyaslama niyeti taşır. Burada kritik olan, market adı değil aynı raftaki ürün sınıflarını doğru okuyabilmektir.`
+        ? `${article.displayKeyword} arandığında kullanıcılar çoğu zaman belirli bir market rafındaki seçenekleri kıyaslar. Burada kritik olan, market adı değil aynı raftaki ürün sınıflarını doğru okuyabilmektir.`
         : article.matchedBrand
           ? `${targetName} için doğru değerlendirme; markanın ürün sınıfı, seri yapısı, bölgesi ve sizin kullanım amacınız birlikte düşünülerek yapılmalıdır.`
           : `${article.displayKeyword} gibi marka sorgularında önce resmi site, üretici bilgisi, ürün sınıfı ve varsa bölgesel köken kontrol edilmelidir. İsme bakarak karar vermek yeterli değildir.`,
@@ -1341,7 +1356,7 @@ function composeArticle(article) {
               : 'Marka belirsiz ya da veri dışı olduğunda en sağlıklı yol; resmi site, iletişim bilgisi, üretim kökeni ve ürün açıklamasının ne kadar açık olduğuna bakmaktır.',
           'Marka adı tek başına yetmez; aynı isim altında farklı seri ve ambalajlar birbirinden ayrılmalıdır.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Marka sorguları çoğu zaman fiyat ve kalite sorgularına bağlanır.',
           'Parent keyword ilişkisi markanın sadece adıyla değil, alım kararıyla birlikte arandığını gösterir.',
           'Bu nedenle rehber, marka aramasını seçim listesine dönüştürür.'
@@ -1397,8 +1412,8 @@ function composeArticle(article) {
           'Zeytinyağının doymamış yağ içeriği ve Akdeniz tipi beslenmedeki yeri iyi bilinir. Buna karşın öksürükten böbrek taşına kadar uzanan geniş halk önerilerinin çoğu, aynı güçte klinik desteğe sahip değildir.',
           'Bu nedenle kullanıcı için en yararlı çerçeve; beslenme değeri olan iddia ile tedavi vaadi arasındaki çizgiyi net görmektir.'
         ]),
-        parentContextSection(article, [
-          'Sağlık niyetli sorgular parent keyword ile birlikte daha geniş bir karar ihtiyacına dönüşür.',
+        contextSection(article, [
+          'Sağlık odaklı bu başlıklarda kullanıcılar çoğu zaman tek fayda cevabından daha fazlasını arar.',
           'Kullanıcılar çoğu zaman önce fayda sorusunu, sonra güvenlik ve miktar sorusunu sorar.',
           'Bu rehber her iki soruyu aynı sayfada karşılar.'
         ]),
@@ -1446,7 +1461,7 @@ function composeArticle(article) {
           'Bebeklerde ağızdan verilen her ürün yaşa ve beslenme planına göre değerlendirilir. Özellikle yenidoğan ve erken süt çocukluğu döneminde spontan ek uygulamalar doğru yaklaşım değildir.',
           'Zeytinyağı beslenmede yer bulabilecek bir gıda olsa da zamanlama ve miktar pediatrik bağlamdan bağımsız düşünülmemelidir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Bu tür sorgularda kullanıcı çoğu zaman hızlı ev çözümü arar.',
           'Parent keyword bağlantısı; güvenlik, yaş ve kullanım amacı sorularını birlikte doğurur.',
           'Bu rehber bu yüzden önce güvenlik sınırını çizer.'
@@ -1499,7 +1514,7 @@ function composeArticle(article) {
           'Zeytinyağı saç bakımında en çok emolyan yani yumuşatıcı etkisi nedeniyle kullanılır. Kuru uçlarda parlaklık ve kayganlık hissi yaratabilir.',
           'Buna karşılık saç kökünü yeniden üretme, kirpik uzatma veya dökülmeyi tek başına durdurma gibi iddialar çok daha güçlü kanıt gerektirir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Saç sorgularında kullanıcılar genellikle hızlı ve doğal çözüm ister.',
           'Parent keyword bağlantısı uygulama süresi, sıklığı ve karışım güvenliği gibi ikinci soruları beraberinde getirir.',
           'Bu rehber bu yüzden etkiyi ve riski aynı ekranda toplar.'
@@ -1551,7 +1566,7 @@ function composeArticle(article) {
           'Zeytinyağı daha çok kayganlaştırıcı ve yumuşatıcı bir his üzerinden değerlendirilir. Bu nedenle kuru bölge bakımında bazı kullanıcılar tarafından tercih edilir.',
           'Ancak yüz, göğüs, makat ya da göbek deliği gibi bölgelerin hassasiyet düzeyi aynı değildir. Bölge değiştikçe risk profili de değişir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Cilt sorgularında kullanıcılar pratik bakım çözümü arar.',
           'Parent keyword bağlantısı uygulama biçimi, sıklık ve olası risk sorularını da beraberinde getirir.',
           'Bu rehber bu yüzden yalnızca fayda değil, sınır da çizer.'
@@ -1594,7 +1609,7 @@ function composeArticle(article) {
           'Göz yüzeyi steril olmayan ürünlere karşı son derece hassastır. Yağlı yapı geçici rahatlama hissi verse bile sorunu çözmeyebilir ve değerlendirmeyi geciktirebilir.',
           'Özellikle kızarıklık, travma, akıntı, şiddetli batma ya da görme değişikliği varsa ev çözümü ile vakit kaybetmemek gerekir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Bu tip sorgularda kullanıcı hızlı rahatlama arar.',
           'Parent keyword bağlantısı güvenlik sorusunu merkeze taşır.',
           'Bu yüzden rehberde fayda iddiası yerine güvenlik sınırı öne alınmıştır.'
@@ -1633,7 +1648,7 @@ function composeArticle(article) {
           'Zeytinyağı damlası, bazı kaynaklarda kulak kiri birikimini yumuşatmaya yardımcı bir seçenek olarak geçer. Bu kullanımın amacı enfeksiyonu tedavi etmek değil, sadece kirin yumuşamasını sağlamaktır.',
           'Bu nedenle belirtileri doğru ayırt etmek önemlidir. Ağrı veya işitmede ani azalma gibi durumlar daha farklı değerlendirilir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Kulak sorgularında kullanıcılar çoğu zaman kolay ev çözümü arar.',
           'Parent keyword bağlantısı uygulama güvenliği ve belirtilerin ayrımını gerekli kılar.',
           'Bu yüzden sayfa riskli durumları özellikle ayırır.'
@@ -1676,7 +1691,7 @@ function composeArticle(article) {
           'Zeytinyağı mutfakta sadece salata yağı değildir. Pek çok yemek için kullanılabilir; önemli olan hangi profildeki yağı hangi yemekte değerlendirdiğinizdir.',
           'Yoğun meyvemsi ve pahalı bir yağı uzun yüksek ısı uygulamasında kullanmak her zaman ekonomik ya da duyusal olarak en akıllı tercih olmayabilir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Pişirme sorguları kalite ve fiyat sorgularıyla iç içe ilerler.',
           'Parent keyword bağlantısı, kullanıcının mutfak kararı verirken aynı zamanda ürün sınıfını da merak ettiğini gösterir.',
           'Bu rehber kullanım ile seçim kararını bir araya getirir.'
@@ -1723,7 +1738,7 @@ function composeArticle(article) {
           'Ovma hareketini azaltın.',
           'Önce emdirme, sonra yağ çözme adımına geçin.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Bu tür sorgularda kullanıcı anlık çözüm ister.',
           'Parent keyword bağlantısı varsa kullanıcı daha geniş leke çıkarma senaryosuna ilerleyebilir.',
           'Bu yüzden hızlı müdahale sırası özellikle öne çıkarıldı.'
@@ -1762,7 +1777,7 @@ function composeArticle(article) {
           'Zeytinyağının üç temel düşmanı ışık, sıcaklık ve hava temasıdır. Bu nedenle ambalaj tipi sadece estetik mesele değil, kaliteyi koruma stratejisidir.',
           'Ürünün iyi olması kadar, o iyiliğin eve geldikten sonra ne kadar korunabildiği de önemlidir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Şişe sorguları çoğu zaman satın alma ve saklama sorularıyla birleşir.',
           'Parent keyword bağlantısı kullanıcının sadece kap değil, kullanım biçimi aradığını gösterir.',
           'Bu nedenle sayfa ambalajı doğrudan saklama rehberine bağlar.'
@@ -1805,7 +1820,7 @@ function composeArticle(article) {
           'Ev tipi makinelerde fiyatla birlikte kapasite, temizlik süresi, parça dayanımı ve servis ağı değerlendirilmelidir. Cihazın evde gerçekten ne kadar kullanılacağı da önemli bir sorudur.',
           'Birçok kullanıcı için asıl mesele cihazı almak değil, cihazı verimli ve hijyenik şekilde sürdürebilmektir.'
         ]),
-        parentContextSection(article, [
+        contextSection(article, [
           'Ekipman sorguları çoğu zaman üretim merakı ile yatırım sorusunu birlikte taşır.',
           'Parent keyword bağlantısı varsa kullanıcı yalnızca fiyat değil, yapılabilirlik de sorgular.',
           'Bu rehber o yüzden yatırım mantığını pratik kullanım üzerinden okur.'
@@ -1843,7 +1858,7 @@ function composeArticle(article) {
       'Benzer rehber ve marka geçişleri aynı oturumda anlam kazanır.',
       'Parent keyword ilişkisi daha geniş karar ihtiyacını gösterir.'
     ],
-    sections: [parentContextSection(article)],
+    sections: [contextSection(article)],
     faq: [
       { q: `${article.displayKeyword} neden araştırılır?`, a: 'Genellikle kısa cevapla birlikte pratik karar ihtiyacı doğurduğu için.' },
       { q: 'Bu konuda en güvenilir yaklaşım nedir?', a: 'Kaynak, etiket ve kullanım amacını birlikte okumaktır.' }
@@ -1924,7 +1939,6 @@ function renderArticlePage(article, allArticles) {
         <div class="guide-meta-row">
           <span class="guide-chip">${escapeHtml(article.typeLabel)}</span>
           <span class="guide-chip">${escapeHtml(String(article.volume))} aylık hacim</span>
-          ${article.parentKeyword ? `<span class="guide-chip">Parent keyword: ${escapeHtml(article.parentDisplay)}</span>` : ''}
         </div>
       </div>
       <figure class="guide-hero-media">
@@ -1952,11 +1966,10 @@ function renderArticlePage(article, allArticles) {
 
     <aside class="guide-sidebar">
       <div class="guide-side-card">
-        <h3>Arama Bağlamı</h3>
+        <h3>Hızlı Bilgiler</h3>
         <div class="guide-side-meta"><span>Anahtar kelime</span><strong>${escapeHtml(article.displayKeyword)}</strong></div>
-        <div class="guide-side-meta"><span>Parent keyword</span><strong>${escapeHtml(article.parentDisplay || 'Bağımsız sorgu')}</strong></div>
+        ${article.parentKeyword ? `<div class="guide-side-meta"><span>İlgili arama</span><strong>${escapeHtml(article.parentDisplay)}</strong></div>` : ''}
         <div class="guide-side-meta"><span>Arama hacmi</span><strong>${escapeHtml(String(article.volume))}</strong></div>
-        <div class="guide-side-meta"><span>Niyet</span><strong>${escapeHtml(article.intents.join(', ') || 'Informational')}</strong></div>
       </div>
       ${article.matchedBrand ? `<div class="guide-side-card"><h3>Marka Sayfası</h3><div class="guide-side-links"><a href="../marka/${escapeHtml(article.matchedBrand.slug)}.html"><strong>${escapeHtml(article.matchedBrand.name)}</strong><span>Detay sayfasını aç</span></a></div></div>` : ''}
       ${renderBrandLinks(article.brandLinks)}
@@ -1993,7 +2006,7 @@ function renderHubPage(articles) {
         <p>${escapeHtml(article.metaDescription)}</p>
         <div class="guide-card-footer">
           <span>${escapeHtml(article.groupLabel)}</span>
-          <span>${escapeHtml(article.parentDisplay || 'Bağımsız sorgu')}</span>
+          <span>${escapeHtml(article.parentDisplay || 'Detay rehber')}</span>
         </div>
       </div>
     </a>
@@ -2009,7 +2022,7 @@ function renderHubPage(articles) {
     <div class="guide-hub-hero-copy">
       <span class="guide-eyebrow">Blog Ana Sayfası</span>
       <h1>Zeytinyağı Rehberi</h1>
-      <p>Ahrefs verisindeki en güçlü zeytinyağı sorguları için hazırlanan 100 rehber sayfası. Her içerik parent keyword bağlamı düşünülerek yazıldı; benzer konular, markalar ve kategori geçişleriyle iç bağlantı ağı kuruldu.</p>
+      <p>Zeytinyağı ile ilgili en çok aranan sorular için hazırlanan 100 rehber sayfası. İçerikler benzer konular, markalar ve kategori sayfaları arasında güçlü geçişler kuracak şekilde düzenlendi.</p>
       <div class="guide-hub-stats">
         <div><strong>100</strong><span>rehber sayfası</span></div>
         <div><strong>${escapeHtml(String(groups.length))}</strong><span>tema grubu</span></div>
