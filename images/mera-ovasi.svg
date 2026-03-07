@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130">
+  <g fill="#2D3B2D">
+    <!-- Main branch -->
+    <path d="M128 16 C112 28, 88 50, 68 66 C54 77, 38 88, 22 98" stroke="#2D3B2D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Sub-branch upper right -->
+    <path d="M92 42 C106 36, 120 36, 140 42" stroke="#2D3B2D" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Small twig left -->
+    <path d="M58 72 C48 66, 36 64, 26 64" stroke="#2D3B2D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Leaf 1 - top left -->
+    <path d="M120 18 C112 8, 100 6, 98 14 C96 22, 108 28, 118 24 C120 22, 121 20, 120 18Z"/>
+    <!-- Leaf 2 - top right -->
+    <path d="M130 10 C138 2, 150 2, 150 10 C150 18, 138 20, 132 14 C130 12, 130 10, 130 10Z"/>
+    <!-- Leaf 3 - sub-branch right -->
+    <path d="M130 34 C138 26, 150 26, 150 34 C150 42, 138 44, 132 38 C130 36, 130 34, 130 34Z"/>
+    <!-- Leaf 4 - sub-branch lower -->
+    <path d="M112 48 C120 56, 120 66, 112 66 C104 66, 102 56, 108 50 C110 48, 112 48, 112 48Z"/>
+    <!-- Leaf 5 - middle left -->
+    <path d="M56 64 C46 56, 32 56, 32 64 C32 72, 46 76, 54 70 C56 68, 56 66, 56 64Z"/>
+    <!-- Leaf 6 - lower right -->
+    <path d="M42 80 C50 72, 62 74, 60 82 C58 90, 46 92, 44 84 C42 82, 42 80, 42 80Z"/>
+
+    <!-- Olive 1 -->
+    <ellipse cx="106" cy="30" rx="7.5" ry="10" transform="rotate(-12 106 30)"/>
+    <path d="M102 23 C101 20, 104 18, 106 21" stroke="white" stroke-width="1.8" fill="none" opacity="0.18" stroke-linecap="round"/>
+    <!-- Olive 2 -->
+    <ellipse cx="74" cy="64" rx="7" ry="9.5" transform="rotate(5 74 64)"/>
+    <path d="M70 57 C69 54, 72 52, 74 55" stroke="white" stroke-width="1.8" fill="none" opacity="0.18" stroke-linecap="round"/>
+    <!-- Olive 3 -->
+    <ellipse cx="36" cy="98" rx="8" ry="10.5" transform="rotate(8 36 98)"/>
+    <path d="M32 90 C31 87, 34 85, 36 88" stroke="white" stroke-width="1.8" fill="none" opacity="0.18" stroke-linecap="round"/>
+  </g>
+</svg>

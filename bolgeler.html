@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üretim Bölgeleri - Zeytinyağlarımız</title>
+    <meta name="description" content="Türkiye'nin zeytinyağı üretim bölgeleri. Ege, Marmara, Akdeniz, Güneydoğu Anadolu ve Trakya bölgelerinin zeytin çeşitleri ve üretim özellikleri.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+            <img src="favicon.svg" alt="Zeytinyağlarımız">
+            <span>Zeytinyağlarımız</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="markalar.html">Markalar</a></li>
+            <li><a href="kalite-rehberi.html">Kalite Rehberi</a></li>
+            <li><a href="bolgeler.html" class="active">Bölgeler</a></li>
+        </ul>
+        <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="markalar.html">Markalar</a>
+    <a href="kalite-rehberi.html">Kalite Rehberi</a>
+    <a href="bolgeler.html">Bölgeler</a>
+</div>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+    <h1 class="fade-up">Türkiye'de Zeytinyağı Bölgeleri</h1>
+    <p class="fade-up">Türkiye, farklı bölgeleri ve zeytin çeşitleriyle zengin bir zeytinyağı üretim ülkesidir</p>
+</section>
+
+<!-- REGIONS -->
+<section class="regions-section" style="padding-top: 48px;">
+    <div class="regions-inner">
+        <div class="regions-grid">
+            <div class="region-card fade-up">
+                <div class="region-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </div>
+                <h3>Ege Bölgesi</h3>
+                <div class="provinces">İzmir, Aydın, Muğla, Manisa, Balıkesir</div>
+                <p>Türkiye zeytinyağı üretiminin %75-80'ini karşılayan en önemli üretim havzası. Edremit Körfezi, ülkenin en prestijli zeytinyağı üretim alanıdır. Ayvalık çeşidi zeytinlerden yoğun yeşil meyvemsi aromada, belirgin acılık ve yakıcılığa sahip dünyaca tanınan yağlar üretilir.</p>
+                <div class="region-varieties">
+                    <span class="variety-tag">Ayvalık (Edremit)</span>
+                    <span class="variety-tag">Memecik</span>
+                    <span class="variety-tag">Domat</span>
+                    <span class="variety-tag">Gemlik</span>
+                </div>
+            </div>
+
+            <div class="region-card fade-up">
+                <div class="region-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </div>
+                <h3>Marmara Bölgesi</h3>
+                <div class="provinces">Bursa, Çanakkale, Balıkesir</div>
+                <p>Gemlik zeytini bu bölgenin simgesidir. Mudanya, Gemlik, Orhangazi ve İznik çevresinde üretilen yağlar orta yoğunlukta meyvemsi aroma, yumuşak ve dengeli tat profili sunar. Tarihi Trilye kasabası butik üretimiyle tanınır.</p>
+                <div class="region-varieties">
+                    <span class="variety-tag">Gemlik</span>
+                    <span class="variety-tag">Ayvalık (Edremit)</span>
+                    <span class="variety-tag">Trilye</span>
+                </div>
+            </div>
+
+            <div class="region-card fade-up">
+                <div class="region-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </div>
+                <h3>Akdeniz Bölgesi</h3>
+                <div class="provinces">Hatay, Mersin, Antalya</div>
+                <p>Hatay zeytinciliği binlerce yıllık bir geleneğe dayanır. Halhalı ve Saurani gibi yerel çeşitlerden yoğun aromatik profilli, güçlü acı ve yakıcı notalara sahip yağlar üretilir. Altınözü zeytinyağı coğrafi işaret tescillidir.</p>
+                <div class="region-varieties">
+                    <span class="variety-tag">Halhalı</span>
+                    <span class="variety-tag">Gemlik</span>
+                    <span class="variety-tag">Kilis Yağlık</span>
+                </div>
+            </div>
+
+            <div class="region-card fade-up">
+                <div class="region-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </div>
+                <h3>Güneydoğu Anadolu</h3>
+                <div class="provinces">Kilis, Gaziantep, Şanlıurfa, Mardin</div>
+                <p>Türkiye'nin en eski zeytin yetiştirme bölgelerinden biri. Nizip ve çevresindeki zeytinlikler, bölgenin sıcak ve kurak ikliminin etkisiyle kendine has bir profil taşır. Derik zeytinyağı coğrafi işaret tescillidir.</p>
+                <div class="region-varieties">
+                    <span class="variety-tag">Nizip Yağlık</span>
+                    <span class="variety-tag">Kilis Yağlık</span>
+                </div>
+            </div>
+
+            <div class="region-card fade-up">
+                <div class="region-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </div>
+                <h3>Trakya</h3>
+                <div class="provinces">Edirne, Tekirdağ, Kırklareli</div>
+                <p>Avrupa yakasında gelişen bir zeytin üretim merkezi. Bölgede ağırlıklı olarak Gemlik çeşidi yetiştirilmekte olup, son yıllarda artan yatırımlarla üretim kapasitesi genişlemektedir. Ilıman karakterde, yumuşak profilli yağlar üretilir.</p>
+                <div class="region-varieties">
+                    <span class="variety-tag">Gemlik</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <h3>Zeytinyağlarımız</h3>
+        <p>Türkiye'deki zeytinyağı markalarının kapsamlı kataloğu. Bu site satış amacı taşımamaktadır.</p>
+        <div class="footer-links">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="markalar.html">Markalar</a>
+            <a href="kalite-rehberi.html">Kalite Rehberi</a>
+            <a href="bolgeler.html">Bölgeler</a>
+        </div>
+        <p class="copyright">&copy; 2025 zeytinyaglarimiz.com &mdash; Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Yukarı çık">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+// Mobile nav
+function toggleMobileNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+}
+
+// Scroll effects
+window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 600);
+});
+
+// Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+}, { threshold: 0.1 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+});
+</script>
+
+</body>
+</html>

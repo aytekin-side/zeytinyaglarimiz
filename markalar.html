@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markalar - Zeytinyağlarımız</title>
+    <meta name="description" content="Türkiye'deki tüm zeytinyağı markalarının listesi. Premium, organik, bölgesel ve endüstriyel markalar arasında arama yapın ve karşılaştırın.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+            <img src="favicon.svg" alt="Zeytinyağlarımız">
+            <span>Zeytinyağlarımız</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="markalar.html" class="active">Markalar</a></li>
+            <li><a href="kalite-rehberi.html">Kalite Rehberi</a></li>
+            <li><a href="bolgeler.html">Bölgeler</a></li>
+        </ul>
+        <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="markalar.html">Markalar</a>
+    <a href="kalite-rehberi.html">Kalite Rehberi</a>
+    <a href="bolgeler.html">Bölgeler</a>
+</div>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+    <h1 class="fade-up">Zeytinyağı Markaları</h1>
+    <p class="fade-up">Türkiye'deki 50 zeytinyağı markasını keşfedin. Kategori ve bölgeye göre filtreleyin.</p>
+</section>
+
+<!-- SEARCH & FILTER -->
+<div class="filter-section">
+    <div class="filter-bar fade-up">
+        <div class="search-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            <input type="text" id="searchInput" placeholder="Marka veya bölge ara..." oninput="filterBrands()">
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn active" onclick="setFilter('all')" data-filter="all">Tümü</button>
+            <button class="filter-btn" onclick="setFilter('premium-butik')" data-filter="premium-butik">Premium / Butik</button>
+            <button class="filter-btn" onclick="setFilter('market-endustriyel')" data-filter="market-endustriyel">Market</button>
+            <button class="filter-btn" onclick="setFilter('organik')" data-filter="organik">Organik</button>
+            <button class="filter-btn" onclick="setFilter('bolgesel-yerel')" data-filter="bolgesel-yerel">Bölgesel</button>
+        </div>
+        <div class="result-count" id="resultCount"></div>
+    </div>
+</div>
+
+<!-- BRANDS -->
+<section class="brands-section">
+    <div class="brands-grid" id="brandsGrid"></div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <h3>Zeytinyağlarımız</h3>
+        <p>Türkiye'deki zeytinyağı markalarının kapsamlı kataloğu. Bu site satış amacı taşımamaktadır.</p>
+        <div class="footer-links">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="markalar.html">Markalar</a>
+            <a href="kalite-rehberi.html">Kalite Rehberi</a>
+            <a href="bolgeler.html">Bölgeler</a>
+        </div>
+        <p class="copyright">&copy; 2025 zeytinyaglarimiz.com &mdash; Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Yukarı çık">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="brands.js"></script>
+<script>
+let currentFilter = 'all';
+
+function renderBrands() {
+    const grid = document.getElementById('brandsGrid');
+    grid.innerHTML = '';
+    const search = document.getElementById('searchInput').value.toLowerCase().trim();
+
+    let filtered = brands.filter(b => {
+        const matchesFilter = currentFilter === 'all' || b.category === currentFilter;
+        const matchesSearch = !search ||
+            b.name.toLowerCase().includes(search) ||
+            b.region.toLowerCase().includes(search) ||
+            b.desc.toLowerCase().includes(search);
+        return matchesFilter && matchesSearch;
+    });
+
+    filtered.sort((a, b) => {
+        if (a.highlight && !b.highlight) return -1;
+        if (!a.highlight && b.highlight) return 1;
+        return a.name.localeCompare(b.name, 'tr');
+    });
+
+    if (filtered.length === 0) {
+        grid.innerHTML = `
+            <div class="no-results">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <h3>Sonuç bulunamadı</h3>
+                <p>Aramanızı değiştirmeyi veya filtreleri temizlemeyi deneyin.</p>
+            </div>
+        `;
+    } else {
+        filtered.forEach(b => grid.appendChild(createBrandCard(b)));
+    }
+
+    const countEl = document.getElementById('resultCount');
+    if (search || currentFilter !== 'all') {
+        countEl.style.display = 'block';
+        countEl.textContent = `${filtered.length} marka bulundu`;
+    } else {
+        countEl.style.display = 'none';
+    }
+
+    requestAnimationFrame(() => {
+        grid.querySelectorAll('.fade-up').forEach((el, i) => {
+            setTimeout(() => el.classList.add('visible'), i * 40);
+        });
+    });
+}
+
+function setFilter(filter) {
+    currentFilter = filter;
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+    });
+    renderBrands();
+}
+
+function filterBrands() { renderBrands(); }
+
+// Mobile nav
+function toggleMobileNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+}
+
+// Scroll effects
+window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 600);
+});
+
+// Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+}, { threshold: 0.1 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    renderBrands();
+    document.querySelectorAll('.fade-up:not(.brand-card)').forEach(el => observer.observe(el));
+});
+</script>
+
+</body>
+</html>

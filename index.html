@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeytinyağlarımız - Türkiye Zeytinyağı Kataloğu</title>
+    <meta name="description" content="Türkiye'deki tüm zeytinyağı markalarının kapsamlı kataloğu. Premium, organik, bölgesel ve endüstriyel zeytinyağı markaları hakkında detaylı bilgi.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+            <img src="favicon.svg" alt="Zeytinyağlarımız">
+            <span>Zeytinyağlarımız</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Ana Sayfa</a></li>
+            <li><a href="markalar.html">Markalar</a></li>
+            <li><a href="kalite-rehberi.html">Kalite Rehberi</a></li>
+            <li><a href="bolgeler.html">Bölgeler</a></li>
+        </ul>
+        <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="markalar.html">Markalar</a>
+    <a href="kalite-rehberi.html">Kalite Rehberi</a>
+    <a href="bolgeler.html">Bölgeler</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+    <h1 class="fade-up">Türkiye'nin <em>Zeytinyağı</em> Kataloğu</h1>
+    <p class="fade-up">Türkiye'deki zeytinyağı markalarını keşfedin. Premium butik üreticilerden köklü endüstriyel markalara, organik sertifikalılardan bölgesel lezzetlere kadar kapsamlı bir rehber.</p>
+    <div class="hero-stats fade-up">
+        <div class="hero-stat">
+            <span class="num">50</span>
+            <span class="label">Marka</span>
+        </div>
+        <div class="hero-stat">
+            <span class="num">4</span>
+            <span class="label">Kategori</span>
+        </div>
+        <div class="hero-stat">
+            <span class="num">5</span>
+            <span class="label">Bölge</span>
+        </div>
+        <div class="hero-stat">
+            <span class="num">6</span>
+            <span class="label">Zeytin Çeşidi</span>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURED BRANDS -->
+<section class="featured-section">
+    <h2 class="fade-up">Öne Çıkan Markalar</h2>
+    <p class="fade-up">Türkiye'nin en tanınmış ve ödüllü zeytinyağı markaları</p>
+    <div class="brands-grid" id="featuredGrid"></div>
+    <a href="markalar.html" class="view-all-btn fade-up">
+        Tüm Markaları Gör
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+    </a>
+</section>
+
+<!-- CTA CARDS -->
+<div class="home-cta">
+    <a href="kalite-rehberi.html" class="cta-card fade-up">
+        <div class="cta-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+        </div>
+        <h3>Kalite Rehberi</h3>
+        <p>Zeytinyağı çeşitlerini, kalite kriterlerini ve doğru saklama yöntemlerini öğrenin. Bilinçli tüketici olun.</p>
+        <span class="link-arrow">Rehbere Git <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></span>
+    </a>
+    <a href="bolgeler.html" class="cta-card fade-up">
+        <div class="cta-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        </div>
+        <h3>Üretim Bölgeleri</h3>
+        <p>Ege'den Güneydoğu'ya, Türkiye'nin zengin zeytinyağı üretim bölgelerini ve zeytin çeşitlerini keşfedin.</p>
+        <span class="link-arrow">Bölgelere Git <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></span>
+    </a>
+    <a href="markalar.html" class="cta-card fade-up">
+        <div class="cta-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        </div>
+        <h3>50 Marka</h3>
+        <p>Premium, market, organik ve bölgesel kategorilerde Türkiye'nin tüm zeytinyağı markalarını listeleyin.</p>
+        <span class="link-arrow">Kataloga Git <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></span>
+    </a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <h3>Zeytinyağlarımız</h3>
+        <p>Türkiye'deki zeytinyağı markalarının kapsamlı kataloğu. Bu site satış amacı taşımamaktadır. Zeytinyağı araştıranlar ve tüketiciler için bilgilendirici bir kaynak olarak hazırlanmıştır.</p>
+        <div class="footer-links">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="markalar.html">Markalar</a>
+            <a href="kalite-rehberi.html">Kalite Rehberi</a>
+            <a href="bolgeler.html">Bölgeler</a>
+        </div>
+        <p class="copyright">&copy; 2025 zeytinyaglarimiz.com &mdash; Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Yukarı çık">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="brands.js"></script>
+<script>
+// Render featured brands (highlighted only)
+function renderFeatured() {
+    const grid = document.getElementById('featuredGrid');
+    const featured = brands.filter(b => b.highlight);
+    featured.sort((a, b) => a.name.localeCompare(b.name, 'tr'));
+    featured.forEach(b => grid.appendChild(createBrandCard(b)));
+    requestAnimationFrame(() => {
+        grid.querySelectorAll('.fade-up').forEach((el, i) => {
+            setTimeout(() => el.classList.add('visible'), i * 60);
+        });
+    });
+}
+
+// Mobile nav
+function toggleMobileNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+}
+
+// Scroll effects
+window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 600);
+});
+
+// Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+}, { threshold: 0.1 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    renderFeatured();
+    document.querySelectorAll('.fade-up:not(.brand-card)').forEach(el => observer.observe(el));
+});
+</script>
+
+</body>
+</html>

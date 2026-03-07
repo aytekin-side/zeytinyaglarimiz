@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalite Rehberi - Zeytinyağlarımız</title>
+    <meta name="description" content="Zeytinyağı kalite rehberi. Zeytinyağı çeşitleri, kalite kriterleri, iyi zeytinyağı nasıl anlaşılır ve doğru saklama koşulları.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+            <img src="favicon.svg" alt="Zeytinyağlarımız">
+            <span>Zeytinyağlarımız</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="markalar.html">Markalar</a></li>
+            <li><a href="kalite-rehberi.html" class="active">Kalite Rehberi</a></li>
+            <li><a href="bolgeler.html">Bölgeler</a></li>
+        </ul>
+        <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="markalar.html">Markalar</a>
+    <a href="kalite-rehberi.html">Kalite Rehberi</a>
+    <a href="bolgeler.html">Bölgeler</a>
+</div>
+
+<!-- QUALITY GUIDE -->
+<section class="quality-section" style="padding-top: 140px;">
+    <div class="quality-inner">
+        <h2 class="fade-up">Zeytinyağı Kalite Rehberi</h2>
+        <p class="subtitle fade-up">Kaliteli zeytinyağını tanımanız için bilmeniz gereken her şey</p>
+
+        <div class="quality-nav" id="qualityNav">
+            <button class="quality-nav-btn active" onclick="scrollToQuality('cesitler')">Çeşitleri</button>
+            <button class="quality-nav-btn" onclick="scrollToQuality('kriterler')">Kalite Kriterleri</button>
+            <button class="quality-nav-btn" onclick="scrollToQuality('nasil')">Nasıl Anlaşılır?</button>
+            <button class="quality-nav-btn" onclick="scrollToQuality('saklama')">Saklama</button>
+        </div>
+
+        <!-- ÇEŞITLER -->
+        <div class="quality-block fade-up" id="cesitler">
+            <h3>Zeytinyağı Çeşitleri ve Sınıflandırması</h3>
+            <p>Zeytinyağı, elde edilme yöntemine ve kimyasal özelliklerine göre farklı sınıflara ayrılır. Uluslararası Zeytin Konseyi (IOC) ve Türk Gıda Kodeksi tarafından belirlenen bu sınıflandırma, tüketicinin bilinçli tercih yapması açısından büyük önem taşır.</p>
+
+            <table class="quality-table">
+                <thead>
+                    <tr>
+                        <th>Çeşit</th>
+                        <th>Asitlik</th>
+                        <th>Kullanım</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Natürel Sızma</strong> (Extra Virgin)</td>
+                        <td>Maks. %0,8</td>
+                        <td>Salata, soğuk yemekler, ekmek banma</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Natürel Birinci</strong> (Virgin)</td>
+                        <td>Maks. %2,0</td>
+                        <td>Pişirme, genel mutfak kullanımı</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rafine Zeytinyağı</strong></td>
+                        <td>Maks. %0,3</td>
+                        <td>Tek başına satılmaz, karışımlarda kullanılır</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Riviera</strong> (Karışım)</td>
+                        <td>Maks. %1,0</td>
+                        <td>Kızartma, yüksek ısıda pişirme</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Natürel Sızma Zeytinyağı (Extra Virgin)</h4>
+            <p>Zeytinyağı dünyasının en üst kalite kategorisidir. Zeytinler yalnızca mekanik yöntemlerle, herhangi bir kimyasal işlem uygulanmadan sıkılarak elde edilir. Oleokantal, oleuropein ve hidroksitirosol gibi biyoaktif bileşenler bu yağda en yüksek düzeyde bulunur.</p>
+
+            <h4>Natürel Birinci Zeytinyağı (Virgin)</h4>
+            <p>Mekanik yöntemlerle elde edilir ve kimyasal işlem görmez. Ancak kalite açısından natürel sızmadan bir basamak aşağıdadır. Tadım panelinde çok hafif kusurlar kabul edilebilir.</p>
+
+            <h4>Rafine Zeytinyağı</h4>
+            <p>Kalitesi düşük zeytinyağlarının nötralizasyon, ağartma ve koku giderme işlemlerinden geçirilmesiyle üretilir. Bu süreç yağın asitliğini düşürürken, doğal aroma, polifenol ve vitamin içeriğini de büyük ölçüde azaltır. Tek başına tüketiciye satılamaz.</p>
+
+            <h4>Riviera Zeytinyağı (Karışım)</h4>
+            <p>Rafine zeytinyağı ile natürel zeytinyağının belirli oranlarda karıştırılmasıyla elde edilir. Türkiye'de marketlerde en yaygın bulunan ve fiyat açısından en erişilebilir zeytinyağı türüdür.</p>
+        </div>
+
+        <!-- KRİTERLER -->
+        <div class="quality-block fade-up" id="kriterler">
+            <h3>Kalite Kriterleri</h3>
+            <p>Zeytinyağının kalitesini belirleyen birçok kimyasal ve duyusal parametre vardır. Bu kriterler hem üretim sürecinin doğruluğunu hem de yağın tazeliğini ve bozulmamışlığını ortaya koyar.</p>
+
+            <h4>Asitlik Oranı (Serbest Asitlik)</h4>
+            <p>Zeytinyağının en temel kalite göstergesidir. Yağ moleküllerinden kopan serbest yağ asitlerinin miktarını ölçer. Düşük asitlik, zeytinlerin sağlıklı olduğunu ve işleme koşullarının doğru olduğunu gösterir.</p>
+
+            <div class="info-card warning">
+                <p><strong>Dikkat:</strong> Asitlik tek başına kaliteyi garanti etmez. Rafine edilmiş bir yağın asitliği de çok düşük olabilir; ancak bu, doğal bir düşüklük değil, kimyasal müdahalenin sonucudur.</p>
+            </div>
+
+            <h4>Peroksit Değeri</h4>
+            <p>Yağdaki birincil oksidasyon (bozulma) ürünlerinin miktarını ölçer. Natürel sızma için üst sınır 20 meq O2/kg'dır. İdeal değer 10'un altıdır.</p>
+
+            <h4>UV Absorbans Değerleri (K232 ve K270)</h4>
+            <p>Ultraviyole ışık altında ölçülen bu değerler, yağdaki oksidasyon ve bozulma ürünlerinin varlığını tespit eder.</p>
+            <ul>
+                <li><strong>K232:</strong> Birincil oksidasyon ürünlerini gösterir. Natürel sızma için üst sınır 2,50'dir.</li>
+                <li><strong>K270:</strong> İkincil oksidasyon ürünlerini ve rafine yağ varlığını gösterir. Natürel sızma için üst sınır 0,22'dir.</li>
+                <li><strong>Delta K:</strong> K270 çevresindeki fark değeridir. Natürel sızma için 0,01'den düşük olmalıdır.</li>
+            </ul>
+
+            <h4>Organoleptik Değerlendirme (Tadım Paneli)</h4>
+            <p>Eğitimli tadım panelleri tarafından gerçekleştirilir. En az sekiz kişiden oluşan panel, yağı olumlu ve olumsuz özellikler açısından değerlendirir.</p>
+
+            <p><strong>Olumlu nitelikler:</strong></p>
+            <ul>
+                <li><strong>Meyvemsi (Fruity):</strong> Taze veya olgun zeytin meyvesinin aroması.</li>
+                <li><strong>Acı (Bitter):</strong> Polifenol zenginliğinin göstergesi olan hoş bir acılık.</li>
+                <li><strong>Yakıcı (Pungent):</strong> Boğazın arkasında hissedilen hafif bir yakıcılık. Oleokantal varlığının işaretidir.</li>
+            </ul>
+
+            <p><strong>Kusurlar (kaçınılması gerekenler):</strong></p>
+            <ul>
+                <li><strong>Küf:</strong> Nemli ortamda bekletilmiş zeytinlerden kaynaklanan küf kokusu.</li>
+                <li><strong>Sirke:</strong> Fermentasyona uğramış zeytinlerden gelen ekşi koku.</li>
+                <li><strong>Metalik:</strong> Metal yüzeylerle uzun süre temastan kaynaklanan metalik tat.</li>
+                <li><strong>Bayat (Ransit):</strong> İleri oksidasyonda ortaya çıkan nahoş koku.</li>
+            </ul>
+        </div>
+
+        <!-- NASIL ANLAŞILIR -->
+        <div class="quality-block fade-up" id="nasil">
+            <h3>İyi Zeytinyağı Nasıl Anlaşılır?</h3>
+
+            <h4>Renk, Koku ve Tat</h4>
+            <div class="info-card">
+                <p><strong>Önemli:</strong> Zeytinyağının rengi, kalitesinin güvenilir bir göstergesi <em>değildir</em>. Profesyonel tadım panellerinde rengin yanlış yönlendirme yapmasını önlemek için mavi renkli tadım bardakları kullanılır.</p>
+            </div>
+
+            <p><strong>Koku değerlendirmesi:</strong> Kaliteli natürel sızma zeytinyağını elinize veya küçük bir bardağa koyup avucunuzla ısıtarak koklayın. Taze kesilmiş çimen, yeşil yaprak, enginar, elma, badem veya domates gibi aromatik notalar aramalısınız.</p>
+
+            <p><strong>Tat değerlendirmesi:</strong> Ağzınızda meyvemsi aroma, dilinizde hoş bir acılık ve yutkunurken boğazınızda hafif bir yakıcılık hissetmelisiniz. Bu üç nitelik ne kadar dengeli ve belirginse, yağ o kadar kalitelidir.</p>
+
+            <h4>Etiket Okuma Rehberi</h4>
+            <p><strong>Mutlaka aranması gerekenler:</strong></p>
+            <ul>
+                <li><strong>Yağ sınıfı:</strong> "Natürel Sızma Zeytinyağı" veya "Extra Virgin Olive Oil" ibaresi.</li>
+                <li><strong>Hasat tarihi:</strong> Son kullanma tarihi yerine hasat tarihine bakın. 12-18 aydan eski olmamalıdır.</li>
+                <li><strong>Menşe bilgisi:</strong> Bölge ne kadar spesifik belirtilmişse o kadar iyi.</li>
+                <li><strong>Asitlik oranı:</strong> %0,5'in altı kalite göstergesidir.</li>
+                <li><strong>Soğuk sıkım/soğuk ekstraksiyon ibaresi.</strong></li>
+            </ul>
+
+            <div class="info-card warning">
+                <p><strong>Dikkat:</strong> "Light" veya "hafif" zeytinyağı kalori açısından değil, tat ve renk açısından nötr bırakılmış rafine yağ anlamına gelir. "Saf zeytinyağı" (Pure) genellikle rafine ve natürel karışımıdır.</p>
+            </div>
+
+            <h4>Hasat Tarihi Önemi</h4>
+            <p>Zeytinyağı, şaraptan farklı olarak yıllandıkça iyileşmez. En ideal tüketim süresi hasattan sonraki ilk 6-12 aydır. 18 aydan sonra yağ hızla kalite kaybetmeye başlar. Türkiye'de zeytin hasadı genellikle Ekim-Ocak arasında yapılır.</p>
+
+            <h4>Soğuk Sıkım Ne Demek?</h4>
+            <p>Yağın elde edilmesi sırasında hamur sıcaklığının 27°C'yi aşmaması gerekir. Sıcaklık arttıkça zeytinden daha fazla yağ elde edilir ancak kalite düşer. Soğuk sıkım yağlar daha az verimle ancak çok daha yüksek kaliteyle üretilir.</p>
+        </div>
+
+        <!-- SAKLAMA -->
+        <div class="quality-block fade-up" id="saklama">
+            <h3>Saklama Koşulları</h3>
+            <p>Zeytinyağının kalitesini uzun süre koruması, doğru saklama koşullarına bağlıdır. Üç temel düşman vardır: <strong>ışık, sıcaklık ve hava teması.</strong></p>
+
+            <h4>Işık</h4>
+            <p>Zeytinyağının en büyük düşmanlarından biridir. Koyu renkli (yeşil, kahverengi veya siyah) cam şişelerde veya teneke kutularda saklayın. Şeffaf cam şişelerdeki yağı karanlık bir dolaba kaldırın.</p>
+
+            <h4>Sıcaklık</h4>
+            <p>İdeal saklama sıcaklığı 14-18°C arasıdır. Oda sıcaklığı (20-22°C) kabul edilebilir. Ocağın yanında veya üzerindeki dolaplarda saklama kesinlikle önerilmez.</p>
+
+            <h4>Hava Teması</h4>
+            <p>Oksijen yağ molekülleriyle doğrudan reaksiyona girerek oksidasyona neden olur. Şişenin kapağını her kullanımdan sonra sıkıca kapatın. Açılan bir şişeyi 2-3 ay içinde tüketmeye çalışın.</p>
+
+            <h4>Doğru Ambalaj Seçimi</h4>
+            <table class="quality-table">
+                <thead>
+                    <tr>
+                        <th>Ambalaj</th>
+                        <th>Kalite Koruma</th>
+                        <th>Yorum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Koyu cam şişe</strong></td>
+                        <td>Çok iyi</td>
+                        <td>En yaygın ve güvenilir seçenek</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Teneke kutu</strong></td>
+                        <td>Mükemmel</td>
+                        <td>Işığı tamamen engeller, büyük hacimler için ideal</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bag-in-box</strong></td>
+                        <td>Çok iyi</td>
+                        <td>Hava girişini önler, yeni nesil çözüm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Koyu PET şişe</strong></td>
+                        <td>Orta</td>
+                        <td>Kısa süreli saklama için kabul edilebilir</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Şeffaf şişe</strong></td>
+                        <td>Zayıf</td>
+                        <td>Işığı geçirir, bozulmayı hızlandırır</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <h3>Zeytinyağlarımız</h3>
+        <p>Türkiye'deki zeytinyağı markalarının kapsamlı kataloğu. Bu site satış amacı taşımamaktadır.</p>
+        <div class="footer-links">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="markalar.html">Markalar</a>
+            <a href="kalite-rehberi.html">Kalite Rehberi</a>
+            <a href="bolgeler.html">Bölgeler</a>
+        </div>
+        <p class="copyright">&copy; 2025 zeytinyaglarimiz.com &mdash; Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Yukarı çık">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+// Quality nav scroll
+function scrollToQuality(id) {
+    const el = document.getElementById(id);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+        document.querySelectorAll('.quality-nav-btn').forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+}
+
+// Mobile nav
+function toggleMobileNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+}
+
+// Scroll effects
+window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 600);
+});
+
+// Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+}, { threshold: 0.1 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+});
+</script>
+
+</body>
+</html>

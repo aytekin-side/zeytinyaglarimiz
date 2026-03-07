@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#2C3E2D"/>
+  <!-- Olive branch -->
+  <g transform="translate(10, 8)">
+    <!-- Branch stem -->
+    <path d="M8 40 C14 32, 20 24, 30 18 C34 15, 36 13, 38 12" stroke="#8FB573" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Leaves -->
+    <ellipse cx="16" cy="30" rx="6" ry="3" transform="rotate(-35 16 30)" fill="#8FB573"/>
+    <ellipse cx="24" cy="22" rx="6" ry="3" transform="rotate(-25 24 22)" fill="#6B8F5E"/>
+    <ellipse cx="12" cy="36" rx="5" ry="2.5" transform="rotate(-45 12 36)" fill="#8FB573" opacity="0.8"/>
+    <ellipse cx="32" cy="16" rx="5" ry="2.5" transform="rotate(-15 32 16)" fill="#8FB573" opacity="0.8"/>
+    <ellipse cx="20" cy="34" rx="4.5" ry="2.5" transform="rotate(25 20 34)" fill="#6B8F5E" opacity="0.9"/>
+    <!-- Olive fruit -->
+    <ellipse cx="38" cy="10" rx="5" ry="6.5" transform="rotate(-5 38 10)" fill="#C5A55A"/>
+    <ellipse cx="37.5" cy="9" rx="2.5" ry="3.5" transform="rotate(-5 37.5 9)" fill="#E8D5A3" opacity="0.4"/>
+    <!-- Small olive -->
+    <ellipse cx="8" cy="42" rx="4" ry="5" transform="rotate(10 8 42)" fill="#C5A55A" opacity="0.8"/>
+  </g>
+</svg>
