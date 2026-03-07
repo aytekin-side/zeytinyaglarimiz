@@ -120,28 +120,6 @@ function getFallbackBottles(brand) {
     ];
 }
 
-function getSimilarBrands(brand, limit = 6) {
-    return brands
-        .filter((candidate) => candidate.id !== brand.id)
-        .map((candidate) => {
-            let score = 0;
-            if (candidate.category === brand.category) score += 4;
-            if (candidate.regionCluster === brand.regionCluster) score += 3;
-            const sharedOlives = (candidate.oliveTypes || []).filter((type) => (brand.oliveTypes || []).includes(type)).length;
-            score += sharedOlives * 2;
-            return { candidate, score };
-        })
-        .filter((item) => item.score > 0)
-        .sort((a, b) => {
-            if (b.score !== a.score) return b.score - a.score;
-            if (a.candidate.highlight && !b.candidate.highlight) return -1;
-            if (!a.candidate.highlight && b.candidate.highlight) return 1;
-            return a.candidate.name.localeCompare(b.candidate.name, 'tr');
-        })
-        .slice(0, limit)
-        .map((item) => item.candidate);
-}
-
 function renderBrandDetail() {
     const root = document.getElementById('brandDetailRoot');
     const breadcrumbNav = document.getElementById('brandBreadcrumbs');
@@ -189,7 +167,7 @@ function renderBrandDetail() {
     if (canonicalLink) canonicalLink.href = canonicalHref;
     const metaDescription = document.querySelector('meta[name=\"description\"]');
     if (metaDescription) {
-        metaDescription.content = `${brand.name} zeytinyağı markası: kategori, bölge, zeytin çeşidi, şişe görselleri ve benzer markalar.`;
+        metaDescription.content = `${brand.name} zeytinyağı markası: kategori, bölge, zeytin çeşidi ve şişe görselleri.`;
     }
     if (breadcrumbNav) {
         breadcrumbNav.innerHTML = `
@@ -204,8 +182,6 @@ function renderBrandDetail() {
             <span>${brand.name}</span>
         `;
     }
-
-    const similarBrands = getSimilarBrands(brand);
     const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${brand.logoFallback}"` : '';
     const detailLogo = brand.image
         ? `<img src="${brand.image}"${detailLogoFallbackAttr} alt="${brand.name} logosu" class="brand-detail-logo" onload="const r=this.naturalWidth/Math.max(this.naturalHeight,1);if(r>4.8){this.classList.add('logo-superwide');}else if(r>3){this.classList.add('logo-wide');}" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none'">`
@@ -259,20 +235,6 @@ function renderBrandDetail() {
                 ${(brand.longDetailParagraphs || [brand.desc]).map((paragraph) => `<p>${paragraph}</p>`).join('')}
                 <p>Bu sayfadaki görseller çevrimiçi kaynaklardan derlenmiştir. Marka temsilini güçlendirmek için yeni kaynaklar bulundukça güncellenir.</p>
             </section>
-
-            <section class="topic-section">
-                <h2>Benzer Markalar</h2>
-                <div class="topic-grid">
-                    ${similarBrands.map((item) => `
-                        <a class="topic-card" href="marka/${item.slug}.html">
-                            <h3>${item.name}</h3>
-                            <p>${item.region} • ${categoryLongLabels[item.category] || item.category}</p>
-                            <span class="topic-count">Detay Sayfası</span>
-                        </a>
-                    `).join('')}
-                </div>
-            </section>
-
             <section class="brand-topic-links">
                 <h2>Bölgeler ve Kategoriler</h2>
                 <div class="topic-link-list">
@@ -300,7 +262,7 @@ function renderBrandDetail() {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
             name: `${brand.name} | Zeytinyağlarımız`,
-            description: `${brand.name} markası için kategori, bölge, zeytin çeşidi ve benzer markalar.`,
+            description: `${brand.name} markası için kategori, bölge, zeytin çeşidi ve şişe görselleri.`,
             url: canonicalHref
         }
     ];

@@ -46,28 +46,6 @@ function loadBrandContext() {
   };
 }
 
-function getSimilarBrands(brand, brands, limit = 6) {
-  return brands
-    .filter((candidate) => candidate.id !== brand.id)
-    .map((candidate) => {
-      let score = 0;
-      if (candidate.category === brand.category) score += 4;
-      if (candidate.regionCluster === brand.regionCluster) score += 3;
-      const sharedOlives = (candidate.oliveTypes || []).filter((type) => (brand.oliveTypes || []).includes(type)).length;
-      score += sharedOlives * 2;
-      return { candidate, score };
-    })
-    .filter((item) => item.score > 0)
-    .sort((a, b) => {
-      if (b.score !== a.score) return b.score - a.score;
-      if (a.candidate.highlight && !b.candidate.highlight) return -1;
-      if (!a.candidate.highlight && b.candidate.highlight) return 1;
-      return a.candidate.name.localeCompare(b.candidate.name, 'tr');
-    })
-    .slice(0, limit)
-    .map((item) => item.candidate);
-}
-
 function renderFacts(brand) {
   const facts = [
     { label: 'Kategori', value: categoryLongLabels[brand.category] || brand.category, url: `../${brand.categoryTopicUrl}` },
@@ -102,25 +80,6 @@ function renderLongInfo(brand) {
   return (brand.longDetailParagraphs || [brand.detail || brand.desc])
     .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
     .join('');
-}
-
-function renderSimilarBrands(brand, brands) {
-  const items = getSimilarBrands(brand, brands);
-  if (!items.length) return '';
-  return `
-    <section class="topic-section">
-      <h2>Benzer Markalar</h2>
-      <div class="topic-grid">
-        ${items.map((item) => `
-          <a class="topic-card" href="${escapeHtml(item.slug)}.html">
-            <h3>${escapeHtml(item.name)}</h3>
-            <p>${escapeHtml(item.region)} • ${escapeHtml(categoryLongLabels[item.category] || item.category)}</p>
-            <span class="topic-count">Detay Sayfası</span>
-          </a>
-        `).join('')}
-      </div>
-    </section>
-  `;
 }
 
 function renderTopicLinks(brand) {
@@ -168,7 +127,7 @@ function renderSchema(brand) {
   return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
-function renderBrandPage(brand, brands) {
+function renderBrandPage(brand) {
   const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${escapeHtml(toPageAsset(brand.logoFallback))}"` : '';
   const logoSrc = toPageAsset(brand.image);
   const metaDescription = `${brand.name} zeytinyağı markası için bölge, kategori, şişe görselleri ve 500+ kelimelik detaylı değerlendirme.`;
@@ -260,7 +219,6 @@ function renderBrandPage(brand, brands) {
       ${renderLongInfo(brand)}
       <p>Bu sayfadaki görseller çevrimiçi kaynaklardan derlenmiştir. Marka temsilini güçlendirmek için yeni kaynaklar bulundukça güncellenir.</p>
     </section>
-    ${renderSimilarBrands(brand, brands)}
     ${renderTopicLinks(brand)}
   </div>
 </section>
@@ -307,7 +265,7 @@ function main() {
       minWords = wordCount;
       minBrand = brand.name;
     }
-    const html = renderBrandPage(brand, brands);
+    const html = renderBrandPage(brand);
     fs.writeFileSync(path.join(outDir, `${brand.slug}.html`), html);
   }
 
