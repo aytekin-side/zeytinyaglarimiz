@@ -40,7 +40,7 @@ a:hover { color: var(--olive-dark); }
 /* ========================================
    NAV
    ======================================== */
-nav {
+#navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@ nav {
     border-bottom: 1px solid rgba(74,103,65,0.1);
     transition: box-shadow 0.3s;
 }
-nav.scrolled { box-shadow: 0 2px 20px rgba(44,62,45,0.1); }
+#navbar.scrolled { box-shadow: 0 2px 20px rgba(44,62,45,0.1); }
 .nav-inner {
     max-width: 1280px;
     margin: 0 auto;
