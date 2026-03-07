@@ -262,7 +262,7 @@ function topicCards(items, prefix, basePath) {
   `).join('')}</div>`;
 }
 
-function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, cardsHtml, dimensionsLinks = [] }) {
+function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, cardsHtml, dimensionsLinks = [], sectionTitle = 'Bölgeler' }) {
   const content = `
 <main class="topic-page">
   <div class="topic-inner">
@@ -281,7 +281,7 @@ function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, c
       </div>
     </section>` : ''}
     <section class="topic-section">
-      <h2>Bölgeler</h2>
+      ${sectionTitle ? `<h2>${normalize(sectionTitle)}</h2>` : ''}
       ${cardsHtml}
     </section>
   </div>
@@ -329,7 +329,8 @@ renderHubPage({
     { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
     { label: 'Marka Kategorileri' }
   ],
-  cardsHtml: topicCards(categories, '../../', 'topic/kategoriler')
+  cardsHtml: topicCards(categories, '../../', 'topic/kategoriler'),
+  sectionTitle: ''
 });
 
 renderHubPage({
