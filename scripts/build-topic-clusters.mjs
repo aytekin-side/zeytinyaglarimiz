@@ -37,8 +37,8 @@ const regionDescriptions = {
   marmara: 'Marmara Bölgesi, Gemlik ve Trilye çevresindeki üretim kültürüyle dengeli ve yumuşak karakterli yağlarıyla bilinir.',
   akdeniz: 'Akdeniz Bölgesi markaları, aromatik yoğunluk ve sıcak iklim etkisiyle öne çıkan zeytinyağı profilleri üretir.',
   guneydogu: 'Güneydoğu Anadolu markaları, Halhalı ve Nizip Yağlık çeşitleriyle güçlü ve belirgin tat notaları sunar.',
-  trakya: 'Trakya Bölgesi, son yıllarda gelişen üretim altyapısı ve butik üreticileriyle dikkat çeken bir kümedir.',
-  turkiye: 'Türkiye geneline yayılan marka kümeleri, farklı bölgelerden zeytinleri harmanlayarak geniş ürün yelpazesi sunar.'
+  trakya: 'Trakya Bölgesi, son yıllarda gelişen üretim altyapısı ve butik üreticileriyle dikkat çeker.',
+  turkiye: 'Türkiye geneline yayılan markalar, farklı bölgelerden zeytinleri harmanlayarak geniş ürün yelpazesi sunar.'
 };
 
 const oliveTypeDescriptions = {
@@ -92,7 +92,7 @@ function nav(prefix, topicActive = false) {
         <ul class="nav-links">
             <li><a href="${prefix}index.html">Ana Sayfa</a></li>
             <li><a href="${prefix}markalar.html">Markalar</a></li>
-            <li><a href="${prefix}topic/index.html" class="${topicActive ? 'active' : ''}">Kategoriler</a></li>
+            <li><a href="${prefix}topic/index.html" class="${topicActive ? 'active' : ''}">Zeytinyağı Çeşitleri</a></li>
             <li><a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a></li>
             <li><a href="${prefix}bolgeler.html">Bölgeler</a></li>
         </ul>
@@ -107,7 +107,7 @@ function nav(prefix, topicActive = false) {
     </button>
     <a href="${prefix}index.html">Ana Sayfa</a>
     <a href="${prefix}markalar.html">Markalar</a>
-    <a href="${prefix}topic/index.html">Kategoriler</a>
+    <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
     <a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a>
     <a href="${prefix}bolgeler.html">Bölgeler</a>
 </div>`;
@@ -122,7 +122,7 @@ function footer(prefix) {
         <div class="footer-links">
             <a href="${prefix}index.html">Ana Sayfa</a>
             <a href="${prefix}markalar.html">Markalar</a>
-            <a href="${prefix}topic/index.html">Kategoriler</a>
+            <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
             <a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a>
             <a href="${prefix}bolgeler.html">Bölgeler</a>
         </div>
@@ -269,7 +269,7 @@ function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, c
       ${dimensionsLinks.length ? `<div class="topic-link-list" style="margin-top:14px;">${dimensionsLinks.map((link) => `<a class="topic-link" href="${prefix}${link.url}">${normalize(link.label)}</a>`).join('')}</div>` : ''}
     </header>
     <section class="topic-section">
-      <h2>Konu Kümeleri</h2>
+      <h2>Bölgeler</h2>
       ${cardsHtml}
     </section>
   </div>
@@ -289,16 +289,16 @@ function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, c
 renderHubPage({
   relPath: 'topic/index.html',
   prefix: '../',
-  title: 'Zeytinyağı Kategori Merkezi',
+  title: 'Zeytinyağı Çeşitleri',
   description: 'Zeytinyağı markalarını marka kategorileri, üretim bölgeleri ve zeytin çeşitlerine göre keşfedin.',
   breadcrumbItems: [
     { label: 'Ana Sayfa', url: 'index.html' },
-    { label: 'Kategori Merkezi' }
+    { label: 'Zeytinyağı Çeşitleri' }
   ],
   cardsHtml: `<div class="topic-grid">
-    <a class="topic-card" href="../topic/kategoriler/index.html"><h3>Marka Kategorileri</h3><p>Premium, market, organik ve bölgesel kümelerde benzer markaları görün.</p><span class="topic-count">${categories.length} alt konu</span></a>
-    <a class="topic-card" href="../topic/bolgeler/index.html"><h3>Üretim Bölgeleri</h3><p>Ege, Marmara, Güneydoğu gibi bölgesel kümelerde marka dağılımını inceleyin.</p><span class="topic-count">${regions.length} alt konu</span></a>
-    <a class="topic-card" href="../topic/zeytin-cesitleri/index.html"><h3>Zeytin Çeşitleri</h3><p>Ayvalık, Memecik, Gemlik gibi zeytin türlerine göre marka kümelerini gezin.</p><span class="topic-count">${oliveTypes.length} alt konu</span></a>
+    <a class="topic-card" href="../topic/kategoriler/index.html"><h3>Marka Kategorileri</h3><p>Premium, market, organik ve bölgesel kategorilerde benzer markaları görün.</p><span class="topic-count">${categories.length} alt konu</span></a>
+    <a class="topic-card" href="../topic/bolgeler/index.html"><h3>Üretim Bölgeleri</h3><p>Ege, Marmara, Güneydoğu gibi bölgelere göre marka dağılımını inceleyin.</p><span class="topic-count">${regions.length} alt konu</span></a>
+    <a class="topic-card" href="../topic/zeytin-cesitleri/index.html"><h3>Zeytin Çeşitleri</h3><p>Ayvalık, Memecik, Gemlik gibi zeytin türlerine göre markaları gezin.</p><span class="topic-count">${oliveTypes.length} alt konu</span></a>
   </div>`,
   dimensionsLinks: [
     { label: 'Markaları Listele', url: 'markalar.html' },
@@ -313,7 +313,7 @@ renderHubPage({
   description: 'Premium, market, organik ve bölgesel markaları kategori bazında karşılaştırın ve benzer markaları keşfedin.',
   breadcrumbItems: [
     { label: 'Ana Sayfa', url: 'index.html' },
-    { label: 'Kategori Merkezi', url: 'topic/index.html' },
+    { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
     { label: 'Marka Kategorileri' }
   ],
   cardsHtml: topicCards(categories, '../../', 'topic/kategoriler')
@@ -322,12 +322,12 @@ renderHubPage({
 renderHubPage({
   relPath: 'topic/bolgeler/index.html',
   prefix: '../../',
-  title: 'Zeytinyağı Bölgeleri ve Marka Kümeleri',
-  description: 'Türkiye’nin zeytinyağı bölgelerine göre marka kümelerini inceleyin ve aynı bölgede öne çıkan markaları bulun.',
+  title: 'Zeytinyağı Bölgeleri',
+  description: 'Türkiye’nin zeytinyağı bölgelerine göre markaları inceleyin ve aynı bölgede öne çıkan üreticileri bulun.',
   breadcrumbItems: [
     { label: 'Ana Sayfa', url: 'index.html' },
-    { label: 'Kategori Merkezi', url: 'topic/index.html' },
-    { label: 'Bölge Kümeleri' }
+    { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
+    { label: 'Bölgeler' }
   ],
   cardsHtml: topicCards(regions, '../../', 'topic/bolgeler')
 });
@@ -335,11 +335,11 @@ renderHubPage({
 renderHubPage({
   relPath: 'topic/zeytin-cesitleri/index.html',
   prefix: '../../',
-  title: 'Zeytin Çeşitlerine Göre Marka Kümeleri',
+  title: 'Zeytin Çeşitleri',
   description: 'Ayvalık, Memecik, Gemlik gibi zeytin çeşitlerine göre benzer zeytinyağı markalarını bir arada görün.',
   breadcrumbItems: [
     { label: 'Ana Sayfa', url: 'index.html' },
-    { label: 'Kategori Merkezi', url: 'topic/index.html' },
+    { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
     { label: 'Zeytin Çeşitleri' }
   ],
   cardsHtml: topicCards(oliveTypes, '../../', 'topic/zeytin-cesitleri')
@@ -370,7 +370,7 @@ function relatedLinks(topicBrands, dimension, currentSlug) {
 
 function renderTopicDetail({ dimension, relPath, prefix, label, slug, description, topicBrands }) {
   const related = relatedLinks(topicBrands, dimension, slug);
-  const title = `${label} Zeytinyağı Markaları ve Benzer Kümeler`;
+  const title = `${label} Zeytinyağı Markaları`;
   const pageDescription = `${label} odaklı zeytinyağı markaları, benzer bölgeler ve ilgili zeytin çeşitleri. ${topicBrands.length} marka listesi.`;
 
   const stats = [
@@ -382,8 +382,8 @@ function renderTopicDetail({ dimension, relPath, prefix, label, slug, descriptio
 
   const breadcrumbItems = [
     { label: 'Ana Sayfa', url: 'index.html' },
-    { label: 'Kategori Merkezi', url: 'topic/index.html' },
-    { label: dimension === 'kategoriler' ? 'Marka Kategorileri' : dimension === 'bolgeler' ? 'Bölge Kümeleri' : 'Zeytin Çeşitleri', url: `topic/${dimension}/index.html` },
+    { label: 'Zeytinyağı Çeşitleri', url: 'topic/index.html' },
+    { label: dimension === 'kategoriler' ? 'Marka Kategorileri' : dimension === 'bolgeler' ? 'Bölgeler' : 'Zeytin Çeşitleri', url: `topic/${dimension}/index.html` },
     { label }
   ];
 
@@ -400,7 +400,7 @@ function renderTopicDetail({ dimension, relPath, prefix, label, slug, descriptio
     </header>
 
     <section class="topic-section">
-      <h2>Bu Kümedeki Markalar</h2>
+      <h2>Bu Sayfadaki Markalar</h2>
       ${brandGrid(topicBrands, prefix)}
     </section>
 

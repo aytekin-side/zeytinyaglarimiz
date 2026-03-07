@@ -23,7 +23,7 @@
         <ul class="nav-links">
             <li><a href="index.html">Ana Sayfa</a></li>
             <li><a href="markalar.html" class="active">Markalar</a></li>
-            <li><a href="topic/index.html">Kategoriler</a></li>
+            <li><a href="topic/index.html">Zeytinyağı Çeşitleri</a></li>
             <li><a href="kalite-rehberi.html">Kalite Rehberi</a></li>
             <li><a href="bolgeler.html">Bölgeler</a></li>
         </ul>
@@ -39,7 +39,7 @@
     </button>
     <a href="index.html">Ana Sayfa</a>
     <a href="markalar.html">Markalar</a>
-    <a href="topic/index.html">Kategoriler</a>
+    <a href="topic/index.html">Zeytinyağı Çeşitleri</a>
     <a href="kalite-rehberi.html">Kalite Rehberi</a>
     <a href="bolgeler.html">Bölgeler</a>
 </div>
@@ -171,7 +171,7 @@ function renderBrandDetail() {
     const facts = [
         { label: 'Kategori', value: categoryLongLabels[brand.category] || brand.category, url: brand.categoryTopicUrl },
         { label: 'Bölge', value: brand.region, url: brand.regionTopicUrl },
-        { label: 'Bölge Kümesi', value: brand.regionClusterLabel || brand.region, url: brand.regionTopicUrl }
+        { label: 'Ana Bölge', value: brand.regionClusterLabel || brand.region, url: brand.regionTopicUrl }
     ];
     if (Array.isArray(brand.oliveTypeLabels) && brand.oliveTypeLabels.length) {
         facts.push({
@@ -194,7 +194,7 @@ function renderBrandDetail() {
         breadcrumbNav.innerHTML = `
             <a href=\"index.html\">Ana Sayfa</a>
             <span aria-hidden=\"true\">/</span>
-            <a href=\"topic/index.html\">Kategori Merkezi</a>
+            <a href=\"topic/index.html\">Zeytinyağı Çeşitleri</a>
             <span aria-hidden=\"true\">/</span>
             <a href=\"${brand.categoryTopicUrl}\">${categoryLongLabels[brand.category] || brand.category}</a>
             <span aria-hidden=\"true\">/</span>
@@ -207,7 +207,7 @@ function renderBrandDetail() {
     const similarBrands = getSimilarBrands(brand);
     const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${brand.logoFallback}"` : '';
     const detailLogo = brand.image
-        ? `<img src="${brand.image}"${detailLogoFallbackAttr} alt="${brand.name} logosu" class="brand-detail-logo" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none'">`
+        ? `<img src="${brand.image}"${detailLogoFallbackAttr} alt="${brand.name} logosu" class="brand-detail-logo" onload="const r=this.naturalWidth/Math.max(this.naturalHeight,1);if(r>4.8){this.classList.add('logo-superwide');}else if(r>3){this.classList.add('logo-wide');}" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none'">`
         : '';
     const oliveTopicLinks = (brand.oliveTypes || []).map((typeKey, index) => {
         const label = (brand.oliveTypeLabels || [])[index] || typeKey;
@@ -229,7 +229,7 @@ function renderBrandDetail() {
                     <p>${brand.detail || brand.desc}</p>
                     <div class="brand-detail-actions">
                         ${brand.website ? `<a href="${brand.website}" target="_blank" rel="noopener" class="brand-detail-btn">Resmi Web Sitesi</a>` : ''}
-                        <a href="topic/index.html" class="brand-detail-btn secondary">Kategori Merkezi</a>
+                        <a href="topic/index.html" class="brand-detail-btn secondary">Zeytinyağı Çeşitleri</a>
                         <a href="markalar.html" class="brand-detail-btn secondary">Tüm Markalar</a>
                     </div>
                 </div>
@@ -273,7 +273,7 @@ function renderBrandDetail() {
             </section>
 
             <section class="brand-topic-links">
-                <h2>Konu Kümesi Geçişleri</h2>
+                <h2>Bölgeler ve Kategoriler</h2>
                 <div class="topic-link-list">
                     <a class="topic-link" href="${brand.categoryTopicUrl}">${categoryLongLabels[brand.category] || brand.category}</a>
                     <a class="topic-link" href="${brand.regionTopicUrl}">${brand.regionClusterLabel || brand.region}</a>
@@ -289,7 +289,7 @@ function renderBrandDetail() {
             '@type': 'BreadcrumbList',
             itemListElement: [
                 { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://zeytinyaglarimiz.com/index.html' },
-                { '@type': 'ListItem', position: 2, name: 'Kategori Merkezi', item: 'https://zeytinyaglarimiz.com/topic/index.html' },
+                { '@type': 'ListItem', position: 2, name: 'Zeytinyağı Çeşitleri', item: 'https://zeytinyaglarimiz.com/topic/index.html' },
                 { '@type': 'ListItem', position: 3, name: categoryLongLabels[brand.category] || brand.category, item: `https://zeytinyaglarimiz.com/${brand.categoryTopicUrl}` },
                 { '@type': 'ListItem', position: 4, name: brand.regionClusterLabel || brand.region, item: `https://zeytinyaglarimiz.com/${brand.regionTopicUrl}` },
                 { '@type': 'ListItem', position: 5, name: brand.name, item: canonicalHref }

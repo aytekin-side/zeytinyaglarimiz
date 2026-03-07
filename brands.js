@@ -78,17 +78,56 @@ const oliveTypeLabels = {
 };
 
 const manualLogoOverrides = {
-    2: 'https://www.tariszeytin.com.tr/Data/EditorFiles/designs/stickyLogo.svg',
-    3: 'https://static.ticimax.cloud/54603/customcss/ticimax/images/logo.png',
-    5: 'https://www.sezaiomermadra.com.tr/assets/img/som-logo.png',
-    6: 'https://static.happycenter.com.tr/Uploads/luna-kase-margarin-500-gr-13735-500x500.png',
-    10: 'images/oleamea.png',
-    11: 'https://meraovasi.com/mera-ovasi%20logo.png',
-    12: 'images/olivurla.png',
-    13: 'images/olistica.png',
-    30: 'images/olivos.png',
-    35: 'images/nargourmet.png',
-    47: 'https://cdn.cimri.io/market/260x260/izmir-zeytinyaglari-5-lt-soguk-sikim-zeytinyagi-_1495911.jpg'
+    1: 'images/brand-logos/01-komili.svg',
+    2: 'images/brand-logos/02-taris.png',
+    3: 'images/brand-logos/03-kristal.png',
+    4: 'images/brand-logos/04-laleli.png',
+    5: 'images/brand-logos/05-madra.png',
+    6: 'images/brand-logos/06-luna.png',
+    7: 'images/brand-logos/07-yudum.svg',
+    8: 'images/brand-logos/08-kirlangic.svg',
+    9: 'images/brand-logos/09-marmarabirlik.webp',
+    10: 'images/brand-logos/10-oleamea.png',
+    11: 'images/brand-logos/11-mera-ovasi.png',
+    12: 'images/brand-logos/12-olivurla.png',
+    13: 'images/brand-logos/13-olistica.jpg',
+    14: 'images/brand-logos/14-olive-riviera.jpg',
+    15: 'images/brand-logos/15-papez.jpg',
+    16: 'images/brand-logos/16-selatin.png',
+    17: 'images/brand-logos/17-degirmenci.png',
+    18: 'images/brand-logos/18-izmir-pinari.jpg',
+    19: 'images/brand-logos/19-beyaz-altin.jpg',
+    20: 'images/brand-logos/20-ozgun-olive.jpg',
+    21: 'images/brand-logos/21-edremit-korfezi.jpg',
+    22: 'images/brand-logos/22-kursat.jpg',
+    23: 'images/brand-logos/23-zeytin-dali.jpg',
+    24: 'images/brand-logos/24-egemden.png',
+    25: 'images/brand-logos/25-bereket.jpg',
+    26: 'images/brand-logos/26-olea-prilis.jpg',
+    27: 'images/brand-logos/27-oliterra.png',
+    28: 'images/brand-logos/28-ayla-zeytinyagi.jpg',
+    29: 'images/brand-logos/29-tarihi-kirkpinar.jpg',
+    30: 'images/brand-logos/30-olivos.png',
+    31: 'images/brand-logos/31-hasat.png',
+    32: 'images/brand-logos/32-ayvalik-yildizi.jpg',
+    33: 'images/brand-logos/33-ilyada.png',
+    34: 'images/brand-logos/34-coskun-zeytinyaglari.png',
+    35: 'images/brand-logos/35-nar-gourmet.png',
+    36: 'images/brand-logos/36-monolive.png',
+    37: 'images/brand-logos/37-zeytursan.png',
+    38: 'images/brand-logos/38-trilye.jpg',
+    39: 'images/brand-logos/39-vita.jpg',
+    40: 'images/brand-logos/40-polat-zeytinyagi.jpg',
+    41: 'images/brand-logos/41-tego.png',
+    42: 'images/brand-logos/42-bumba-zeytinyagi.png',
+    43: 'images/brand-logos/43-herbal-organik.jpg',
+    44: 'images/brand-logos/44-olive-mama.png',
+    45: 'images/brand-logos/45-ekooleo.webp',
+    46: 'images/brand-logos/46-odemis-birlik.png',
+    47: 'images/brand-logos/47-izmir-birlik.png',
+    48: 'images/brand-logos/48-milas-zeytinyaglari.png',
+    49: 'images/brand-logos/49-nish-olive.png',
+    50: 'images/brand-logos/50-naturel.jpg'
 };
 
 function normalizeSlug(value) {
@@ -313,7 +352,7 @@ function createBrandCard(brand) {
 
     const fallbackAttr = brand.logoFallback ? ` data-fallback="${brand.logoFallback}"` : '';
     const headerContent = brand.image
-        ? `<img src="${brand.image}"${fallbackAttr} alt="${brand.name}" loading="lazy" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none';const i=this.parentElement.querySelector('.brand-initials');if(i)i.style.display='block';">`
+        ? `<img src="${brand.image}"${fallbackAttr} alt="${brand.name}" loading="lazy" onload="const r=this.naturalWidth/Math.max(this.naturalHeight,1);if(r>4.8){this.classList.add('logo-superwide');}else if(r>3){this.classList.add('logo-wide');}" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none';const i=this.parentElement.querySelector('.brand-initials');if(i)i.style.display='block';">`
         : '';
     const initialsStyle = brand.image ? 'display:none' : '';
 
