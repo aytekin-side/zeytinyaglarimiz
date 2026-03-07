@@ -86,7 +86,7 @@ function nav(prefix, topicActive = false) {
 <nav id="navbar">
     <div class="nav-inner">
         <a href="${prefix}index.html" class="nav-logo">
-            <img src="${prefix}favicon.svg" alt="Zeytinyağlarımız">
+            <img src="${prefix}logo.png" alt="Zeytinyağlarımız">
             <span>Zeytinyağlarımız</span>
         </a>
         <ul class="nav-links">
@@ -170,7 +170,7 @@ function pageShell({ prefix, title, description, canonicalPath, breadcrumbItems,
     <meta name="description" content="${normalize(description)}">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="${canonical}">
-    <link rel="icon" type="image/svg+xml" href="${prefix}favicon.svg">
+    <link rel="icon" type="image/png" href="${prefix}favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
