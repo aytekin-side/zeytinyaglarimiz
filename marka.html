@@ -256,7 +256,7 @@ function renderBrandDetail() {
 
             <section class="brand-info-section">
                 <h2>Marka Hakkında</h2>
-                <p>${brand.desc}</p>
+                ${(brand.longDetailParagraphs || [brand.desc]).map((paragraph) => `<p>${paragraph}</p>`).join('')}
                 <p>Bu sayfadaki görseller çevrimiçi kaynaklardan derlenmiştir. Marka temsilini güçlendirmek için yeni kaynaklar bulundukça güncellenir.</p>
             </section>
 
