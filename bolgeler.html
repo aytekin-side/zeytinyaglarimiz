@@ -396,10 +396,6 @@ function createBrandPopup(record) {
                     <p>${escapeHtml(record.regionClusterLabel)}</p>
                 </div>
             </div>
-            <div class="brand-map-popup-meta">
-                <span>${escapeHtml(record.precisionLabel)}</span>
-                <span>${escapeHtml(record.sourceLabel)}</span>
-            </div>
             <p class="brand-map-popup-address">${escapeHtml(record.displayAddress)}</p>
             <div class="brand-map-popup-links">
                 <a href="${brandUrl}">Marka sayfası</a>
@@ -511,13 +507,7 @@ function createBrandMapMarker(record, latLng) {
 }
 
 function updateBrandMapStats(records, statsElement) {
-    const officialCount = records.filter((record) => record.sourceType === 'official').length;
-    const approximateCount = records.length - officialCount;
-    statsElement.innerHTML = [
-        `<span class="brand-map-stat">${records.length} marka</span>`,
-        `<span class="brand-map-stat">${officialCount} tam adres</span>`,
-        `<span class="brand-map-stat">${approximateCount} bölge merkezi</span>`
-    ].join('');
+    statsElement.innerHTML = `<span class="brand-map-stat">${records.length} marka</span>`;
 }
 
 function fitRegionMap(map, visibleRecords, placements, maxZoom) {
