@@ -47,8 +47,27 @@ function safeDecode(value) {
   }
 }
 
-function sanitizeBasename(value) {
-  const base = normalizeSlug(safeDecode(value).replace(/\.[^.]+$/, ''));
+function sanitizeBasename(value, options = {}) {
+  const { slug = '', kind = 'asset', index = 0 } = options;
+  let cleaned = safeDecode(value).replace(/\.[^.]+$/, '');
+
+  if (slug) {
+    const escapedSlug = slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    if (kind === 'bottle') {
+      const escapedIndex = String(index + 1).padStart(2, '0');
+      const prefixPattern = new RegExp(`^(?:${escapedSlug}-)?bottle-${escapedIndex}-`, 'i');
+      while (prefixPattern.test(cleaned)) {
+        cleaned = cleaned.replace(prefixPattern, '');
+      }
+    }
+
+    const slugPrefixPattern = new RegExp(`^${escapedSlug}-`, 'i');
+    while (slugPrefixPattern.test(cleaned)) {
+      cleaned = cleaned.replace(slugPrefixPattern, '');
+    }
+  }
+
+  const base = normalizeSlug(cleaned);
   if (!base || ['image', 'logo', 'default', 'file', 'photo', 'urun', 'thumb'].includes(base)) {
     return 'asset';
   }
@@ -220,7 +239,11 @@ async function main() {
     const bottleSources = Array.isArray(resolved.bottleImages) ? resolved.bottleImages : [];
     for (let index = 0; index < bottleSources.length; index += 1) {
       const source = bottleSources[index];
-      const cleanedName = sanitizeBasename(String(source).split('?')[0].split('/').pop() || `bottle-${index + 1}`);
+      const cleanedName = sanitizeBasename(String(source).split('?')[0].split('/').pop() || `bottle-${index + 1}`, {
+        slug,
+        kind: 'bottle',
+        index
+      });
       const fileBaseName = `${slug}-bottle-${String(index + 1).padStart(2, '0')}-${cleanedName}`;
       try {
         const bottleAsset = await materializeAsset({ source, destDir: brandDir, fileBaseName });
