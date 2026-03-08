@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:19:06.367Z",
+  "generatedAt": "2026-03-08T20:35:55.616Z",
   "brands": [
     {
       "id": 1,
@@ -2906,6 +2906,285 @@
       "logo": "images/markalar/evliyazade/evliyazade-logo.webp",
       "bottles": [
         "images/markalar/evliyazade/evliyazade-bottle-01-pictures-1.png"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "Tlos Olive",
+      "slug": "tlos-olive",
+      "logo": "images/markalar/tlos-olive/tlos-olive-logo.svg",
+      "bottles": [
+        "images/markalar/tlos-olive/tlos-olive-bottle-01-fenolive-600-750-ml-ultra-yuksek-polifenollu-zeytinyagi-1196-min.webp"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "The Mill",
+      "slug": "the-mill",
+      "logo": "images/markalar/the-mill/the-mill-logo.png",
+      "bottles": [
+        "images/markalar/the-mill/the-mill-bottle-01-extra-virgin-olive-oil-artistic.jpg"
+      ]
+    },
+    {
+      "id": 315,
+      "name": "Olizzi",
+      "slug": "olizzi",
+      "logo": "images/markalar/olizzi/olizzi-logo.webp",
+      "bottles": [
+        "images/markalar/olizzi/olizzi-bottle-01-naturel-sizma-zeytinyaglari-f345c033-f1ae-4e8f-a1e8-bbf7d3ca75e3.webp"
+      ]
+    },
+    {
+      "id": 316,
+      "name": "Ottoman (Darvari Gıda)",
+      "slug": "ottoman",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 317,
+      "name": "Dino Ayvalık",
+      "slug": "dino-ayvalik",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 318,
+      "name": "Hiç Urla",
+      "slug": "hic-urla",
+      "logo": "images/markalar/hic-urla/hic-urla-logo.svg",
+      "bottles": [
+        "images/markalar/hic-urla/hic-urla-bottle-01-hic-mobil.png"
+      ]
+    },
+    {
+      "id": 319,
+      "name": "Eşref Bey Zeytincilik",
+      "slug": "esref-bey-zeytincilik",
+      "logo": "images/markalar/esref-bey-zeytincilik/esref-bey-zeytincilik-logo.avif",
+      "bottles": []
+    },
+    {
+      "id": 320,
+      "name": "Ayhan Sicimoğlu",
+      "slug": "ayhan-sicimoglu",
+      "logo": "images/markalar/ayhan-sicimoglu/ayhan-sicimoglu-logo.png",
+      "bottles": [
+        "images/markalar/ayhan-sicimoglu/ayhan-sicimoglu-bottle-01-as1.jpg"
+      ]
+    },
+    {
+      "id": 321,
+      "name": "Hellenia",
+      "slug": "hellenia",
+      "logo": "images/markalar/hellenia/hellenia-logo.webp",
+      "bottles": []
+    },
+    {
+      "id": 322,
+      "name": "Olidya",
+      "slug": "olidya",
+      "logo": "images/markalar/olidya/olidya-logo.png",
+      "bottles": [
+        "images/markalar/olidya/olidya-bottle-01-youngverde-zeytingyagi-04-600x700.jpg"
+      ]
+    },
+    {
+      "id": 323,
+      "name": "Amichia",
+      "slug": "amichia",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 324,
+      "name": "Fresh Future",
+      "slug": "fresh-future",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 325,
+      "name": "Olive811",
+      "slug": "olive811",
+      "logo": "images/markalar/olive811/olive811-logo.avif",
+      "bottles": [
+        "images/markalar/olive811/olive811-bottle-01-saglikli-zeytin-meyveleri.avif"
+      ]
+    },
+    {
+      "id": 326,
+      "name": "Taha Kervan",
+      "slug": "taha-kervan",
+      "logo": "images/markalar/taha-kervan/taha-kervan-logo.svg",
+      "bottles": [
+        "images/markalar/taha-kervan/taha-kervan-bottle-01-leaves-bg.jpg"
+      ]
+    },
+    {
+      "id": 327,
+      "name": "Millora",
+      "slug": "millora",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 328,
+      "name": "Kius",
+      "slug": "kius",
+      "logo": "images/markalar/kius/kius-logo.svg",
+      "bottles": [
+        "images/markalar/kius/kius-bottle-01-erken-hasat-soguk-sikim-filtesiz-500ml.jpg"
+      ]
+    },
+    {
+      "id": 329,
+      "name": "İlya",
+      "slug": "ilya",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 330,
+      "name": "Misya",
+      "slug": "misya",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 331,
+      "name": "Zavendik",
+      "slug": "zavendik",
+      "logo": "images/markalar/zavendik/zavendik-logo.svg",
+      "bottles": [
+        "images/markalar/zavendik/zavendik-bottle-01-telefon.svg"
+      ]
+    },
+    {
+      "id": 332,
+      "name": "Gıda Ormanı",
+      "slug": "gida-ormani",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 333,
+      "name": "Rengin Suar",
+      "slug": "rengin-suar",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 334,
+      "name": "Vievi",
+      "slug": "vievi",
+      "logo": "images/markalar/vievi/vievi-logo.svg",
+      "bottles": [
+        "images/markalar/vievi/vievi-bottle-01-erken-hasat-yesil-1250x610pxl-1.jpg"
+      ]
+    },
+    {
+      "id": 335,
+      "name": "Gargarus",
+      "slug": "gargarus",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 336,
+      "name": "Deli Dane",
+      "slug": "deli-dane",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 337,
+      "name": "Kesebir",
+      "slug": "kesebir",
+      "logo": "images/markalar/kesebir/kesebir-logo.webp",
+      "bottles": [
+        "images/markalar/kesebir/kesebir-bottle-01-mandira-sut-urunleri-yeni.png"
+      ]
+    },
+    {
+      "id": 338,
+      "name": "Baba Toprağı",
+      "slug": "baba-topragi",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 339,
+      "name": "Yağderesi",
+      "slug": "yagderesi",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 340,
+      "name": "Hayal Bahçe",
+      "slug": "hayal-bahce",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 341,
+      "name": "Hızırlar Medikal Gıda",
+      "slug": "hizirlar-medikal-gida",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 342,
+      "name": "Dolive",
+      "slug": "dolive",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 343,
+      "name": "Kue Olive Oil",
+      "slug": "kue-olive-oil",
+      "logo": "images/markalar/kue-olive-oil/kue-olive-oil-logo.png",
+      "bottles": [
+        "images/markalar/kue-olive-oil/kue-olive-oil-bottle-01-kue-premium-seri-erken-hasat-soguk-sik-7ba-4e.webp"
+      ]
+    },
+    {
+      "id": 344,
+      "name": "Giz Olive Oil",
+      "slug": "giz-olive-oil",
+      "logo": "images/markalar/giz-olive-oil/giz-olive-oil-logo.webp",
+      "bottles": [
+        "images/markalar/giz-olive-oil/giz-olive-oil-bottle-01-giz5000-min.jpg"
+      ]
+    },
+    {
+      "id": 345,
+      "name": "Sakallı Zeytincilik",
+      "slug": "sakalli-zeytincilik",
+      "logo": "images/markalar/sakalli-zeytincilik/sakalli-zeytincilik-logo.webp",
+      "bottles": [
+        "images/markalar/sakalli-zeytincilik/sakalli-zeytincilik-bottle-01-sakalli24-min.webp"
+      ]
+    },
+    {
+      "id": 346,
+      "name": "Kavalan Zeytinyağları",
+      "slug": "kavalan-zeytinyaglari",
+      "logo": "images/markalar/kavalan-zeytinyaglari/kavalan-zeytinyaglari-logo.png",
+      "bottles": [
+        "images/markalar/kavalan-zeytinyaglari/kavalan-zeytinyaglari-bottle-01-zeytin-sutu-100-min.webp"
+      ]
+    },
+    {
+      "id": 347,
+      "name": "Dizem Organik",
+      "slug": "dizem-organik",
+      "logo": "images/markalar/dizem-organik/dizem-organik-logo.png",
+      "bottles": [
+        "images/markalar/dizem-organik/dizem-organik-bottle-01-calisma-yuzeyi-1-2x-min.jpg"
       ]
     }
   ],

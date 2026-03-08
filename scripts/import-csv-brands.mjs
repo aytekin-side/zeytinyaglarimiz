@@ -21,7 +21,11 @@ const aliasMap = new Map([
   ['yudum egemden', 'Yudum'],
   ['oliva sofralik zeytin', 'Oliva'],
   ['aktepe', 'Aktepe Zeytin Zeytinyağı'],
-  ['ozgun', 'Özgün Olive']
+  ['ozgun', 'Özgün Olive'],
+  ['ozgun zeytincilik', 'Özgün Olive'],
+  ['kursat ayvalik', 'Kürşat'],
+  ['nova vera', 'NovaVera'],
+  ['mentese som ciftlik', 'Osman Menteşe Çiftliği']
 ]);
 
 const industrialNames = new Set([
@@ -152,8 +156,8 @@ function parseCsv(csvText) {
 
   return lines.slice(1).map(parseCsvRow).map((cells) => ({
     name: cells[nameIndex] || '',
-    website: cells[websiteIndex] || ''
-  })).filter((row) => row.name && row.website);
+    website: /^https?:\/\//i.test(cells[websiteIndex] || '') ? (cells[websiteIndex] || '') : ''
+  })).filter((row) => row.name);
 }
 
 function loadBrands() {
@@ -224,6 +228,22 @@ async function fetchPage(url) {
 }
 
 async function loadWebsiteProfile(initialUrl, brandName) {
+  if (!/^https?:\/\//i.test(String(initialUrl || ''))) {
+    const inferredRegion = inferRegion(brandName);
+    const inferredCategory = inferCategory(brandName, '');
+    return {
+      website: '',
+      title: '',
+      meta: '',
+      text: '',
+      region: inferredRegion,
+      category: inferredCategory,
+      desc: buildDesc(brandName, '', inferredRegion, inferredCategory),
+      logo: '',
+      bottles: []
+    };
+  }
+
   const variants = [];
   const seen = new Set();
   function add(url) {
