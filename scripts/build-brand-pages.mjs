@@ -35,8 +35,13 @@ function loadBrandContext() {
   const sandbox = { console, URL };
   vm.createContext(sandbox);
   const brandMediaCode = fs.readFileSync(path.join(ROOT, 'brand-media.js'), 'utf8');
+  const brandEditorialPath = path.join(ROOT, 'brand-editorial-data.js');
+  const brandEditorialCode = fs.existsSync(brandEditorialPath)
+    ? fs.readFileSync(brandEditorialPath, 'utf8')
+    : 'const brandEditorialData = {};';
   const brandsCode = fs.readFileSync(path.join(ROOT, 'brands.js'), 'utf8');
   vm.runInContext(`${brandMediaCode}\n;globalThis.__brandMedia = brandMedia;`, sandbox);
+  vm.runInContext(`${brandEditorialCode}\n;globalThis.brandEditorialData = typeof brandEditorialData !== 'undefined' ? brandEditorialData : {};`, sandbox);
   vm.runInContext(`${brandsCode}\n;globalThis.__brands = brands; globalThis.__categoryLabels = categoryLabels; globalThis.__regionClusterLabels = regionClusterLabels; globalThis.__oliveTypeLabels = oliveTypeLabels;`, sandbox);
   return {
     brands: sandbox.__brands,

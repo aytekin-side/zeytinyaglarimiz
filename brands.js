@@ -351,22 +351,52 @@ function getBrandBottleImages(brand) {
     return media.bottles.filter(isSafeHttpUrl).slice(0, 3);
 }
 
+const editorialDataset = typeof brandEditorialData !== 'undefined'
+    ? brandEditorialData
+    : (typeof globalThis !== 'undefined' && globalThis.brandEditorialData ? globalThis.brandEditorialData : {});
+
+function getEditorialForBrand(brand) {
+    if (!editorialDataset) return null;
+    return editorialDataset[String(brand.id)] || null;
+}
+
+function sanitizeBrandPageCopy(text) {
+    return String(text || '')
+        .replace(/\bmarkası\b/gi, 'seçimi')
+        .replace(/\bmarkasi\b/gi, 'seçimi')
+        .replace(/\bmarkadır\b/gi, 'seçimidir')
+        .replace(/\bmarkadir\b/gi, 'seçimidir')
+        .replace(/\bmarkanın\b/gi, 'bu ismin')
+        .replace(/\bmarkanin\b/gi, 'bu ismin')
+        .replace(/\bmarkaya\b/gi, 'bu isme')
+        .replace(/\bmarkayı\b/gi, 'bu ismi')
+        .replace(/\bmarka\b/gi, 'isim')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function getBrandInfo(brand) {
+    const editorial = getEditorialForBrand(brand);
+    if (editorial && typeof editorial.summary === 'string' && editorial.summary.trim()) {
+        return sanitizeBrandPageCopy(editorial.summary);
+    }
     const media = getMediaForBrand(brand);
     if (media && typeof media.info === 'string' && media.info.trim()) {
-        return media.info.trim();
+        return sanitizeBrandPageCopy(media.info);
     }
-    return brand.desc;
+    return sanitizeBrandPageCopy(brand.desc);
 }
 
 brands.forEach((brand) => {
     const media = getMediaForBrand(brand);
+    const editorial = getEditorialForBrand(brand);
     const manualLogo = normalizeLogoUrlForBrand(brand, getManualLogoOverride(brand));
     const fallbackLogo = getWebsiteFaviconUrl(brand.website);
     const baseLogo = normalizeLogoUrlForBrand(brand, brand.image);
     const mediaLogo = media ? normalizeLogoUrlForBrand(brand, media.logo) : null;
 
     brand.slug = getBrandSlug(brand);
+    brand.editorial = editorial || null;
     brand.detail = getBrandInfo(brand);
     brand.bottleImages = getBrandBottleImages(brand);
     brand.regionCluster = inferRegionCluster(brand.region);
@@ -377,6 +407,9 @@ brands.forEach((brand) => {
     brand.regionClusterLabel = regionClusterLabels[brand.regionCluster];
     brand.oliveTypeLabels = brand.oliveTypes.map((type) => oliveTypeLabels[type]).filter(Boolean);
     brand.logoFallback = fallbackLogo || '';
+    if (!brand.founded && editorial && editorial.founded) {
+        brand.founded = editorial.founded;
+    }
     brand.image = manualLogo || baseLogo || fallbackLogo || '';
 
     if (!manualLogo && media && isTrustedLogoForBrand(brand, mediaLogo)) {
@@ -402,68 +435,76 @@ function joinTextList(items) {
 
 function getRegionNarrative(brand) {
     const narratives = {
-        ege: "Ege hattı, Türkiye zeytinyağı haritasında en yoğun ve en çeşitli üretim alanlarından biri olduğu için marka değerlendirmesinde hem bölgesel gelenek hem de modern ürün dili birlikte okunur.",
+        ege: "Ege hattı, Türkiye zeytinyağı haritasında en yoğun ve en çeşitli üretim alanlarından biri olduğu için burada hem bölgesel gelenek hem de modern ürün dili birlikte okunur.",
         marmara: "Marmara hattı özellikle Gemlik ve Trilye ekseniyle sofralık zeytin algısından beslenen ama zeytinyağında da güçlü bir bölgesel kimlik kuran üreticiler barındırır.",
         akdeniz: "Akdeniz hattı, sıcak iklim ve uzun sezon nedeniyle farklı aromatik profiller ve geniş kullanım senaryolarıyla öne çıkan üreticilere alan açar.",
         guneydogu: "Güneydoğu hattında Halhalı ve Nizip gibi yerel çeşitlerle kurulan daha karakterli ve daha belirgin bölgesel üretim dili görülür.",
         trakya: "Trakya hattı ana üretim merkezlerine göre daha niş görünse de sınırlı üretim, bölgesel karakter ve yakın tedarik anlayışıyla ayrışabilir.",
-        turkiye: "Türkiye geneline yayılan markalarda tek bir yöresel kimlikten çok, ürün ailesi, dağıtım yapısı ve seri ayrımı öne çıkar."
+        turkiye: "Türkiye geneline yayılan çizgilerde tek bir yöresel kimlikten çok, ürün ailesi, dağıtım yapısı ve seri ayrımı öne çıkar."
     };
     return narratives[brand.regionCluster] || narratives.ege;
 }
 
 function getCategoryNarrative(brand) {
     const narratives = {
-        'premium-butik': "Premium ve butik segmentte yer alan markalarda duyusal karakter, hasat vurgusu, sınırlı seri algısı ve sofrada belirgin tat beklentisi daha görünür hale gelir.",
-        'market-endustriyel': "Market segmentinde yer alan markalarda geniş dağıtım, farklı fiyat seviyeleri ve aynı marka altında birden fazla ürün serisi bulunması daha sık karşılaşılan bir durumdur.",
-        'bolgesel-yerel': "Bölgesel ve yerel üreticilerde üretim hikayesi, köken bilgisi ve yöresel karakter çoğu zaman markanın ana ayrışma noktası haline gelir.",
-        organik: "Organik segmentte marka dili çoğunlukla sertifikasyon, izlenebilirlik ve denetim süreçleri üzerinden kurulur; bu nedenle etiket bilgisi daha büyük önem taşır."
+        'premium-butik': "Premium ve butik segmentte duyusal karakter, hasat vurgusu, sınırlı seri algısı ve sofrada belirgin tat beklentisi daha görünür hale gelir.",
+        'market-endustriyel': "Market segmentinde geniş dağıtım, farklı fiyat seviyeleri ve aynı çatı altında birden fazla ürün serisi bulunması daha sık karşılaşılan bir durumdur.",
+        'bolgesel-yerel': "Bölgesel ve yerel üreticilerde üretim hikayesi, köken bilgisi ve yöresel karakter çoğu zaman ana ayrışma noktası haline gelir.",
+        organik: "Organik segmentte anlatı çoğunlukla sertifikasyon, izlenebilirlik ve denetim süreçleri üzerinden kurulur; bu nedenle etiket bilgisi daha büyük önem taşır."
     };
     return narratives[brand.category] || narratives['bolgesel-yerel'];
 }
 
 function getBuyingNarrative(brand) {
     const narratives = {
-        'premium-butik': "Premium ve butik markalarda erken hasat vurgusu, natürel sızma sınıfı, hasat dönemi, şişe tipi ve duyusal profil anlatımı daha belirgin bir ürün dili oluşturur. Bu segmentte kahvaltı, salata ve soğuk kullanım odaklı seriler daha görünür hale gelir.",
-        'market-endustriyel': "Market segmentindeki markalarda aynı çatı altında riviera, natürel birinci ve natürel sızma gibi farklı seri yapıları bulunabilir. Bu yapı, geniş fiyat aralığına ve günlük kullanım odaklı ürün çeşitliliğine alan açar.",
-        'bolgesel-yerel': "Yerel markalarda üreticinin köken bilgisi, ürünün geldiği yöre, şişe üzerindeki açıklama dili ve izlenebilirlik düzeyi marka kimliğini daha doğrudan belirler. Küçük üretim ölçeği bu markalarda özgünlük ve sınırlı seri niteliği yaratabilir.",
-        organik: "Organik markalarda sertifikasyon görünürlüğü, ürün sınıfı, ambalaj yapısı ve resmi açıklamanın şeffaflığı marka dilinin temel parçalarıdır."
+        'premium-butik': "Premium ve butik çizgide erken hasat vurgusu, natürel sızma sınıfı, hasat dönemi, şişe tipi ve duyusal profil anlatımı daha belirgin bir ürün dili oluşturur. Bu segmentte kahvaltı, salata ve soğuk kullanım odaklı seriler daha görünür hale gelir.",
+        'market-endustriyel': "Market segmentinde aynı çatı altında riviera, natürel birinci ve natürel sızma gibi farklı seri yapıları bulunabilir. Bu yapı, geniş fiyat aralığına ve günlük kullanım odaklı ürün çeşitliliğine alan açar.",
+        'bolgesel-yerel': "Yerel çizgide köken bilgisi, ürünün geldiği yöre, şişe üzerindeki açıklama dili ve izlenebilirlik düzeyi karakteri daha doğrudan belirler. Küçük üretim ölçeği özgünlük ve sınırlı seri niteliği yaratabilir.",
+        organik: "Organik çizgide sertifikasyon görünürlüğü, ürün sınıfı, ambalaj yapısı ve resmi açıklamanın şeffaflığı ürün dilinin temel parçalarıdır."
     };
     return narratives[brand.category] || narratives['bolgesel-yerel'];
 }
 
 function getOliveNarrative(brand) {
     if (Array.isArray(brand.oliveTypeLabels) && brand.oliveTypeLabels.length > 0) {
-        return `Markanın ürün dili ve bölgesel konumu, ${joinTextList(brand.oliveTypeLabels)} çizgisine yakın bir profil gösterir. Bölge, ürün serileri ve açıklama dili birlikte okunduğunda bu çeşit bağlantısı daha net görünür.`;
+        return `Ürün dili ve bölgesel konum, ${joinTextList(brand.oliveTypeLabels)} çizgisine yakın bir profil gösterir. Bölge, ürün serileri ve açıklama dili birlikte okunduğunda bu çeşit bağlantısı daha net görünür.`;
     }
-    return "Markada belirgin bir zeytin çeşidi vurgusu görünmüyorsa, ürün sınıfı, bölge ve üretim dili öne çıkan ana ayırt edici unsurlar haline gelir.";
+    return "Belirgin bir zeytin çeşidi vurgusu görünmüyorsa, ürün sınıfı, bölge ve üretim dili öne çıkan ana ayırt edici unsurlar haline gelir.";
 }
 
 function buildBrandLongDetailParagraphs(brand) {
+    const editorial = getEditorialForBrand(brand);
+    if (editorial && Array.isArray(editorial.paragraphs) && editorial.paragraphs.length) {
+        return editorial.paragraphs.map(sanitizeBrandPageCopy);
+    }
+
     const categoryLabel = (categoryLabels[brand.category] || brand.category).toLocaleLowerCase('tr-TR');
-    const foundedSentence = brand.founded
-        ? `${brand.founded} bilgisi, markanın pazardaki geçmişini anlamak için önemli bir referans sunuyor; ancak tek başına kalite göstergesi olarak okunmaması gerekiyor.`
-        : `${brand.name} için açık bir kuruluş yılı bilgisi görünmüyorsa, değerlendirmeyi daha çok ürün dili, bölgesel bağ ve kategori konumu üzerinden yapmak gerekiyor.`;
-    const websiteSentence = brand.website
-        ? `Markanın resmi web sitesi bulunduğunda, seri isimleri, ambalaj seçenekleri, varsa hasat veya üretim vurguları ve kurumsal anlatı ilk bakılması gereken kaynaklardan biri haline geliyor.`
-        : `Resmi web sitesi görünmeyen ya da sınırlı bilgi sunan markalarda, güvenilir satış sayfaları ve etiket üzerindeki zorunlu bilgiler daha dikkatli okunmalıdır.`;
+    const oliveLine = Array.isArray(brand.oliveTypeLabels) && brand.oliveTypeLabels.length
+        ? `${joinTextList(brand.oliveTypeLabels)} çizgisinin damakta bıraktığı karakter bu tarafta daha belirgin hissedilir.`
+        : 'Şişe dilini okurken asıl ayrım, ürünün sofrada bıraktığı his ve kullanım kolaylığı üzerinden anlaşılır.';
+    const packagingLine = brand.website
+        ? 'Resmi sitede görülen seri isimleri, şişe boyları ve kullanım tonları birlikte okunduğunda hangi seçenekle başlanacağı daha net anlaşılır.'
+        : 'Görünür etiket bilgileri ve şişe formu, hangi seçeneğin günlük mutfağa daha yakın durduğunu anlamak için iyi bir başlangıç sağlar.';
+    const foundedLine = brand.founded
+        ? `${brand.founded} bilgisi, bu çizginin kısa süreli bir deneme değil daha uzun vadeli bir emekle beslendiğini düşündürür.`
+        : `${brand.name} için öne çıkan taraf daha çok bölgesel bağ, kategori konumu ve sofradaki kullanım hissi üzerinden okunur.`;
 
     const paragraphs = [
-        `${brand.name}, ${brand.region} bağlantısıyla öne çıkan bir ${categoryLabel} zeytinyağı markasıdır. ${brand.detail} Aynı marka altında yer alan farklı ürün sınıfları, ambalaj tipleri ve paket boyları markanın ürün ailesini genişletir. Bu yapı, markanın hem günlük kullanım hem de daha seçici tüketim senaryolarına farklı serilerle yanıt verebildiğini gösterir.`,
-        `${foundedSentence} ${getRegionNarrative(brand)} ${getCategoryNarrative(brand)} Bu çerçevede marka, bölgesel kökeni ile ürün sınıfını aynı anda taşıyan bir profil sunar. Bazı serilerde erken hasat ve duyusal karakter öne çıkarken, bazı serilerde süreklilik, yaygın bulunabilirlik ve standart ürün yapısı daha belirgin hale gelir.`,
-        `${getOliveNarrative(brand)} Şişe üzerindeki “natürel sızma”, “erken hasat”, “soğuk sıkım”, “organik” ya da bölgesel köken ifadeleri ürünün konumunu daha açık hale getirir. Aynı marka altında bulunan seri ve paket çeşitliliği, damak profili ve kullanım alanı açısından önemli farklar yaratabilir.`,
-        `${websiteSentence} Cam şişe, teneke, kutu set veya farklı paket yapıları gibi ayrımlar, markanın hedeflediği kullanım biçimini anlamada çoğu zaman düşündüğümüzden daha belirleyicidir. Bir markanın sofralık kullanım mı, günlük mutfak mı, hediye segmenti mi ya da daha yüksek fiyatlı butik bir seri mi öne çıkardığı çoğu zaman görsel sunum ve ürün dili birlikte incelendiğinde daha kolay anlaşılır.`,
-        `${getBuyingNarrative(brand)} Aynı marka altında farklı kalite katmanları ve farklı fiyat düzeyleri bulunabildiği için seri bazlı ayrım önem kazanır. Küçük hacimli şişeler, teneke seçenekleri veya sınırlı seri ürünler markanın portföy yapısı hakkında daha net bir tablo sunar.`,
-        `${brand.name}, benzer üreticiler arasında bölge, zeytin çeşidi, ambalaj tipi ve fiyat segmenti bakımından konumlanan bir markadır. Markanın pazardaki yeri en net biçimde ürün serileri, köken vurgusu ve görünür teknik bilgiler birlikte okunduğunda ortaya çıkar.`
+        `${brand.name}, ${brand.region} tarafında karşımıza çıkan ve ${categoryLabel} çizgide duran bir seçim. ${brand.detail} İlk bakışta sadece etikete değil, şişenin sofrada nasıl davranacağına da bakmak isteyenler için daha anlamlı bir başlangıç sunuyor.`,
+        `${foundedLine} ${getRegionNarrative(brand)} ${getCategoryNarrative(brand)} Bu yüzden değerlendirme yaparken yalnızca isim tanınırlığına değil, köken duygusuna ve ürünün hangi sofraya seslendiğine odaklanmak daha doğru olur.`,
+        `${oliveLine} Özellikle natürel sızma, erken hasat, soğuk sıkım ya da organik gibi ifadeler görünüyorsa, bu kelimeler doğrudan damak beklentisini değiştirir. Daha canlı, daha yeşil ve daha diri bir profil aranan kullanım ile daha yumuşak ve günlük akışa uygun kullanım her zaman aynı şişede buluşmayabilir.`,
+        `${packagingLine} Cam şişe, teneke ya da farklı hacimler arasındaki ayrım da burada önem kazanır. Küçük boylar ilk denemede daha güvenli hissettirirken, düzenli kullanım için büyük ambalajlara geçmek çok daha mantıklı olabilir.`,
+        `${getBuyingNarrative(brand)} Almayı düşünen biri için en iyi yaklaşım, önce kullanım anını belirlemek; sonra şişe üzerindeki teknik ifadeleri ve seri adlarını buna göre okumaktır. Böylece karar yalnızca tanıdık bir isme değil, gerçekten ihtiyaca uygun olan seçeneğe yönelir.`,
+        `${brand.name} sayfasını okurken asıl fayda da burada ortaya çıkar: nereden geldiği, nasıl bir karakter taşıdığı ve hangi sofrada daha iyi karşılık vereceği daha net görünür. Bu da seçimi daha bilinçli, daha keyifli ve karşılaştırması daha kolay bir hale getirir.`
     ];
 
-    const supportParagraph = `${brand.name} portföyünde ürün sınıfı, ambalaj tipi, saklama önerisi, varsa hasat yılı ve üretici bilgisi birlikte görüldüğünde marka profili daha somut hale gelir. Tazelik, ışıkla temas, şişe tipi ve saklama koşulları gibi unsurlar zeytinyağında doğrudan kalite algısını etkilediği için, aynı markanın farklı serileri arasında bile belirgin farklar oluşabilir.`;
+    const supportParagraph = 'Şişe görselleri, paket boyları ve açıklama dili birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha rahat anlaşılır. İlk kez denenecek bir zeytinyağında bu küçük ayrıntılar karar kalitesini ciddi biçimde yükseltir.';
 
     while (countWords(paragraphs.join(' ')) < 500) {
         paragraphs.push(supportParagraph);
     }
 
-    return paragraphs;
+    return paragraphs.map(sanitizeBrandPageCopy);
 }
 
 brands.forEach((brand) => {
