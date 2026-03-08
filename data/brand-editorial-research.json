@@ -3215,7 +3215,7 @@
       ", erken hasat dönemimizin hemen sonrasında, zeytinlerin kızıllaşmaya başladığı Kasım ayında toplanan zeytinlerden ürettiğimiz naturel sızma zeytinyağımızdır. Aroması erken hasata göre daha az, olgun hasata göre ise daha yoğundur.",
       "oranına sahip bu dengeli ve çok lezzetli yağı, mutfağınızın vazgeçilmezi haline getirebilirsiniz. Her gün salatalarınızda ve yemeklerinizde kullanmanızı öneririz. Sağlık ve lezzet arayanlar için ideal bir seçenek olan Toprak Serisi, sofralarınıza özel bir dokunuş katıyor.",
       "Yamaç Serisi’miz, dünyanın en büyük ve prestijli zeytinyağı yarışmalarından biri olan 2024 New York Uluslararası Zeytinyağı Yarışması’nda (New York International Olive Oil Competition) Gümüş Madalya aldı. Zeytinyağlarımızın üretiminde emeği geçen herkese ve bizleri bu ödüle layık gören The NYIOOC’ye teşekkür ederiz.",
-      "Soğuk Sıkım Nedir ve Neden Tercih Edilmelidir?",
+      "Zeytinyağının Kalitesini Etkileyen Faktörler Nelerdir?",
       "Size mümkün olan en kaliteli ve en lezzetli zeytinyağını, en doğal hali ile sunmak bizim asıl hedefimiz. Bunun için de Olivya Gökçeovacık’ta bizler, en iyi zeytinyağını elde edebilmek için işin en ince detayına kadar azami özeni gösteriyoruz.",
       "Gökçeovacık Mah. Gedez Sk. No:87 48300 Fethiye / Muğla"
     ],
@@ -3251,7 +3251,7 @@
           ", erken hasat dönemimizin hemen sonrasında, zeytinlerin kızıllaşmaya başladığı Kasım ayında toplanan zeytinlerden ürettiğimiz naturel sızma zeytinyağımızdır. Aroması erken hasata göre daha az, olgun hasata göre ise daha yoğundur.",
           "oranına sahip bu dengeli ve çok lezzetli yağı, mutfağınızın vazgeçilmezi haline getirebilirsiniz. Her gün salatalarınızda ve yemeklerinizde kullanmanızı öneririz. Sağlık ve lezzet arayanlar için ideal bir seçenek olan Toprak Serisi, sofralarınıza özel bir dokunuş katıyor.",
           "Yamaç Serisi’miz, dünyanın en büyük ve prestijli zeytinyağı yarışmalarından biri olan 2024 New York Uluslararası Zeytinyağı Yarışması’nda (New York International Olive Oil Competition) Gümüş Madalya aldı. Zeytinyağlarımızın üretiminde emeği geçen herkese ve bizleri bu ödüle layık gören The NYIOOC’ye teşekkür ederiz.",
-          "Soğuk Sıkım Nedir ve Neden Tercih Edilmelidir?",
+          "Zeytinyağının Kalitesini Etkileyen Faktörler Nelerdir?",
           "Size mümkün olan en kaliteli ve en lezzetli zeytinyağını, en doğal hali ile sunmak bizim asıl hedefimiz. Bunun için de Olivya Gökçeovacık’ta bizler, en iyi zeytinyağını elde edebilmek için işin en ince detayına kadar azami özeni gösteriyoruz.",
           "Gökçeovacık Mah. Gedez Sk. No:87 48300 Fethiye / Muğla"
         ],
@@ -7598,6 +7598,741 @@
       "12 adet el yapımı zeytinyağlı sabun. Aile kullanımı veya hediye için ekonomik paket.",
       "5lt Premium zeytinyağı + sabunlar. Tüm aile için zeytinyağı ve doğal bakım seti."
     ],
+    "error": ""
+  },
+  {
+    "id": 112,
+    "name": "Oliella",
+    "slug": "oliella",
+    "url": "https://www.oliellaseferihisar.com/",
+    "finalUrl": "https://www.oliellaseferihisar.com/",
+    "statusCode": 200,
+    "region": "Seferihisar, İzmir",
+    "category": "premium-butik",
+    "title": "Oliella Zeytinyağı | Erken Hasat | Soğuk sıkım | Natürel Sızma | Seferihisar/İzmir, Turkey",
+    "metaDescription": "İzmir’in bereketli topraklarında, yüz yıllık zeytin ağaçlarımızdan elde edilen OliElla Natürel Sızma Zeytinyağı sofralarınıza saf lezzet taşır. Soğuk Sıkım Erken Hasat zeytinyağımız dengeli aroması ve doğallığıyla öne çıkar.",
+    "headings": [],
+    "paragraphs": [
+      "ZEYTİNYAĞI / NATUREL SIZMA / SOĞUK SIKIM",
+      "750 mL / Erken Hasat / Natürel Sızma Zeytinyağı",
+      "3 Litre / Olgun Hasat / Natürel Sızma Zeytinyağı",
+      "Hediye Kutusunda Zeytinyağı / 750 mL / Erken Hasat / Natürel Sızma Zeytinyağı",
+      "4 x 3 Litre / Olgun Hasat / Natürel Sızma Zeytinyağı (2125TL/Adet)",
+      "18. Natürel Sızma Zeytinyağında Kalite Yarışmasında",
+      "bir ucu denize açılan geniş ve verimli bir vadide bulunan zeytinliğimizden natürel sızma zeytinyağı üretmektedir.",
+      "İkinci kuşak olan ziraat mühendisi babamızın yıllardır özenle bakıp hasat ettiği zeytinliğimizden elde ettiğimiz zeytinyağını, üçüncü kuşak olarak Oliella markasıyla sizlerle paylaşıyoruz.",
+      "Asitliği 0.5, polifenol değeri 340 mg/kg olan Oliella, Seferihisar’ın denize bakan dağ yamaçlarında, tertemiz havasıyla beslenen zeytinlerden elde edilmiştir.",
+      "Yoğun meyvemsiliğiyle salatalarınıza ve tüm zeytinyağlı yemeklerinize doğal bir tazelik katar.",
+      "Seferihisar’ın temiz havası, güneşi ve bereketli toprağıyla büyüyen 1200 zeytin ağacımızdan, sadece kendi mahsulümüzle sınırlı sayıda natürel sızma zeytinyağı üretiyoruz.",
+      "Doğanın sadeliğini ve Ege’nin sıcaklığını sofralarınıza taşıyoruz.",
+      "Geleneksel tarım yöntemlerini benimseyerek hasat dönemine kadar özenle baktığımız",
+      "100 yıllık ağaçlarımızı korumak için hiçbir kimyasal ilaç kullanmıyoruz."
+    ],
+    "pages": [
+      {
+        "url": "https://www.oliellaseferihisar.com/",
+        "title": "Oliella Zeytinyağı | Erken Hasat | Soğuk sıkım | Natürel Sızma | Seferihisar/İzmir, Turkey",
+        "metaDescription": "İzmir’in bereketli topraklarında, yüz yıllık zeytin ağaçlarımızdan elde edilen OliElla Natürel Sızma Zeytinyağı sofralarınıza saf lezzet taşır. Soğuk Sıkım Erken Hasat zeytinyağımız dengeli aroması ve doğallığıyla öne çıkar.",
+        "headings": [],
+        "paragraphs": [
+          "ZEYTİNYAĞI / NATUREL SIZMA / SOĞUK SIKIM",
+          "750 mL / Erken Hasat / Natürel Sızma Zeytinyağı",
+          "3 Litre / Olgun Hasat / Natürel Sızma Zeytinyağı",
+          "Hediye Kutusunda Zeytinyağı / 750 mL / Erken Hasat / Natürel Sızma Zeytinyağı",
+          "4 x 3 Litre / Olgun Hasat / Natürel Sızma Zeytinyağı (2125TL/Adet)",
+          "18. Natürel Sızma Zeytinyağında Kalite Yarışmasında",
+          "bir ucu denize açılan geniş ve verimli bir vadide bulunan zeytinliğimizden natürel sızma zeytinyağı üretmektedir.",
+          "İkinci kuşak olan ziraat mühendisi babamızın yıllardır özenle bakıp hasat ettiği zeytinliğimizden elde ettiğimiz zeytinyağını, üçüncü kuşak olarak Oliella markasıyla sizlerle paylaşıyoruz.",
+          "Asitliği 0.5, polifenol değeri 340 mg/kg olan Oliella, Seferihisar’ın denize bakan dağ yamaçlarında, tertemiz havasıyla beslenen zeytinlerden elde edilmiştir.",
+          "Yoğun meyvemsiliğiyle salatalarınıza ve tüm zeytinyağlı yemeklerinize doğal bir tazelik katar.",
+          "Seferihisar’ın temiz havası, güneşi ve bereketli toprağıyla büyüyen 1200 zeytin ağacımızdan, sadece kendi mahsulümüzle sınırlı sayıda natürel sızma zeytinyağı üretiyoruz.",
+          "Doğanın sadeliğini ve Ege’nin sıcaklığını sofralarınıza taşıyoruz.",
+          "Geleneksel tarım yöntemlerini benimseyerek hasat dönemine kadar özenle baktığımız",
+          "100 yıllık ağaçlarımızı korumak için hiçbir kimyasal ilaç kullanmıyoruz."
+        ],
+        "kind": "home"
+      }
+    ],
+    "features": [
+      "erken hasat",
+      "yüksek polifenol"
+    ],
+    "packaging": [
+      "teneke",
+      "750 ml",
+      "3 litre"
+    ],
+    "storyBlocks": [],
+    "error": ""
+  },
+  {
+    "id": 113,
+    "name": "Seosfarm",
+    "slug": "seosfarm",
+    "url": "https://seosfarm.com/",
+    "finalUrl": "https://seosfarm.com/",
+    "statusCode": 200,
+    "region": "Seferihisar, İzmir",
+    "category": "premium-butik",
+    "title": "Seosfarm Zeytinyağı",
+    "metaDescription": "Seosfarm adını, Sığacık-Seferihisar sınırları içinde Giritliler tarafından kurulan Teos Antik Kenti’nden alıyor. Zeytinliklerimiz Anadolu’nun batısında, İzmir’e 50 kilometre uzaklıktaki Seferihisar’ın Gödence Köyü kenarında bulunuyor.",
+    "headings": [
+      "\"Seferihisar'ın en nadide zeytinleri ile taze meyve kokulu ipeksi zeytinyağı\"",
+      "Organik Özel Seri Sızma Zeytinyağı *",
+      "Organik Sızma Zeytinyağı",
+      "Organik Delice Zeytinyağı",
+      "Zeytinlerimiz",
+      "Giriş yap",
+      "Kayıt ol",
+      "Şifremi sıfırla"
+    ],
+    "paragraphs": [
+      "Zeytinyağının lezzeti ve dokusu, zeytinin çeşitliliği ve konumu ile tanımlanabilir. Seosfarm Özel Seri ve Natürel Sızma zeytinyağlarımız iki farklı zeytin karışımıdır: Memecik ve Erkence. Yüksek seviyede antioksidan içeren bu karışım, lezzetteki üç notayı temsil ediyor. İlk önce meyvemsi, sonra keskin ve daha sonra kokulu orta yoğunlukta bir lezzet sunuyor.",
+      "* Bu yağımız, 11. Ulusal Sızma Zeytinyağı Kalite Yarışması’nda (2018) gümüş derecesi ile ödüllendirilmiştir.",
+      "Özel seri sızma zeytinyağından hasat dönemi ile ayrılıyor. Hasat zamanındaki bu farklılık ile lezzette farklı tatları elde ediyoruz.",
+      "Seferihisar’da yaşayan asırlık zeytin ağaçlarımızdan Delice cinsi zeytinleri el ile toplayarak organik ürettiğimiz bu özel yağı düşük asitlikte sınırlı miktarlarda üretilebiliyoruz. Bu özel yağı ekmeğinize damlatın, tadı damağınıza dolsun… Özellikle sabah kahvaltılarında ve salatalarda kullanmanızı öneriyoruz. Bu çeşidimizde sınırlı olan üretimimiz yıllar içerisinde artacak ama hep sınırlı kalacak!",
+      "Yüzyıllardır yarımadanın ekosisteminde yaşamını sürdürerek doğallığı bozulmadan günümüze ulaşan, çevre koşullarına çok dayanıklı yabani zeytin ağaçlarıdır. Diğer zeytin çeşitlerine kıyasla daha yüksek polifenol değeri içerir. Meyveleri daha küçük, toplanması daha zahmetlidir.",
+      "Meyveleri ve çekirdekleri iri olup, Ege Bölgesi’nde en çok yetişen zeytin türüdür. Çok verimli ve yağ kalitesi yüksek olup ortalama %28 oranında yağ içeririr.",
+      "Bu çeşidin yağ oranı ortalama %25 civarındadır. İzmir’de nemli deniz rüzgârlarının hâkim olduğu Seferihisar, Karaburun, Çeşme, Urla ve Foça’da “Phoma Oleae” adı verilen bir mantarın etkisiyle meyveleri ağaç üzerinde acılığını kaybederek kahverengi bir renk alır. Bu nedenle meyvesine “Hurma Zeytin” denir.",
+      "Şifrenizi mi unuttunuz? Lütfen kullanıcı adınızı veya e-posta adresinizi girin. Yeni bir şifre oluşturmanız için e-posta adresinize bir bağlantı gönderilecektir."
+    ],
+    "pages": [
+      {
+        "url": "https://seosfarm.com/",
+        "title": "Seosfarm Zeytinyağı",
+        "metaDescription": "Seosfarm adını, Sığacık-Seferihisar sınırları içinde Giritliler tarafından kurulan Teos Antik Kenti’nden alıyor. Zeytinliklerimiz Anadolu’nun batısında, İzmir’e 50 kilometre uzaklıktaki Seferihisar’ın Gödence Köyü kenarında bulunuyor.",
+        "headings": [
+          "\"Seferihisar'ın en nadide zeytinleri ile taze meyve kokulu ipeksi zeytinyağı\"",
+          "Organik Özel Seri Sızma Zeytinyağı *",
+          "Organik Sızma Zeytinyağı",
+          "Organik Delice Zeytinyağı",
+          "Zeytinlerimiz",
+          "Giriş yap",
+          "Kayıt ol",
+          "Şifremi sıfırla"
+        ],
+        "paragraphs": [
+          "Zeytinyağının lezzeti ve dokusu, zeytinin çeşitliliği ve konumu ile tanımlanabilir. Seosfarm Özel Seri ve Natürel Sızma zeytinyağlarımız iki farklı zeytin karışımıdır: Memecik ve Erkence. Yüksek seviyede antioksidan içeren bu karışım, lezzetteki üç notayı temsil ediyor. İlk önce meyvemsi, sonra keskin ve daha sonra kokulu orta yoğunlukta bir lezzet sunuyor.",
+          "* Bu yağımız, 11. Ulusal Sızma Zeytinyağı Kalite Yarışması’nda (2018) gümüş derecesi ile ödüllendirilmiştir.",
+          "Özel seri sızma zeytinyağından hasat dönemi ile ayrılıyor. Hasat zamanındaki bu farklılık ile lezzette farklı tatları elde ediyoruz.",
+          "Seferihisar’da yaşayan asırlık zeytin ağaçlarımızdan Delice cinsi zeytinleri el ile toplayarak organik ürettiğimiz bu özel yağı düşük asitlikte sınırlı miktarlarda üretilebiliyoruz. Bu özel yağı ekmeğinize damlatın, tadı damağınıza dolsun… Özellikle sabah kahvaltılarında ve salatalarda kullanmanızı öneriyoruz. Bu çeşidimizde sınırlı olan üretimimiz yıllar içerisinde artacak ama hep sınırlı kalacak!",
+          "Yüzyıllardır yarımadanın ekosisteminde yaşamını sürdürerek doğallığı bozulmadan günümüze ulaşan, çevre koşullarına çok dayanıklı yabani zeytin ağaçlarıdır. Diğer zeytin çeşitlerine kıyasla daha yüksek polifenol değeri içerir. Meyveleri daha küçük, toplanması daha zahmetlidir.",
+          "Meyveleri ve çekirdekleri iri olup, Ege Bölgesi’nde en çok yetişen zeytin türüdür. Çok verimli ve yağ kalitesi yüksek olup ortalama %28 oranında yağ içeririr.",
+          "Bu çeşidin yağ oranı ortalama %25 civarındadır. İzmir’de nemli deniz rüzgârlarının hâkim olduğu Seferihisar, Karaburun, Çeşme, Urla ve Foça’da “Phoma Oleae” adı verilen bir mantarın etkisiyle meyveleri ağaç üzerinde acılığını kaybederek kahverengi bir renk alır. Bu nedenle meyvesine “Hurma Zeytin” denir.",
+          "Şifrenizi mi unuttunuz? Lütfen kullanıcı adınızı veya e-posta adresinizi girin. Yeni bir şifre oluşturmanız için e-posta adresinize bir bağlantı gönderilecektir."
+        ],
+        "kind": "home"
+      },
+      {
+        "url": "https://seosfarm.com/biz-kimiz/",
+        "title": "Biz Kimiz – Seosfarm",
+        "metaDescription": "Zeytinyağımızı ekstra özen ve sevgi ile sizler için şişeliyoruz. Sadece bir damla Seosfarm zeytinyağı ile sıcak Ege güneşini, ağaçlarımızın yaprakları arasındaki tuzlu esintiyi ve meyvelerimizi besleyen verimli topraklarımızı tadacaksınız. Seosfarm zeytinyağımızdan bir damla ile duyularınız ve yaratıcılığınız uyanacak.",
+        "headings": [
+          "BİZ KİMİZ ?",
+          "SEOSFARM AİLESİ",
+          "HASAT",
+          "Giriş yap",
+          "Kayıt ol",
+          "Şifremi sıfırla"
+        ],
+        "paragraphs": [
+          "Kıyı Ege’de doğmuş eşsiz bir deneyimden sadece bir damla uzaktasınız. Seosfarm; adını Sığacık-Seferihisar sınırları içinde Giritliler tarafından kurulan Teos Antik Kenti’nden alıyor, Naturel Sızma Zeytinyağımızı üretirken mükemmelliğe olan sadakat ve özverimizi temsil ediyor.",
+          "Ailece atıldığımız bu serüven İzmir’in güneyinde küçük bir dağ köyü olan Gödence yakınlarındaki ilk bahçemizden topladığımız zeytinler ile başlıyor…",
+          "Şimdi size Ege’ye olan sevgimizi ve toprağımıza olan tutkumuzu Seosfarm şişelerinde sunuyoruz.",
+          "Ürettiğimiz bu meyve suyu ailemizi bir arada, üretken ve yaratıcı tutuyor. Zeytinyağımızı ekstra özen ve sevgi ile sizler için şişeliyoruz. Sadece bir damla Seosfarm zeytinyağı ile sıcak Ege güneşini, ağaçlarımızın yaprakları arasındaki tuzlu esintiyi ve meyvelerimizi besleyen verimli topraklarımızı tadacaksınız.",
+          "Seosfarm zeytinyağımızdan bir damla ile duyularınız ve yaratıcılığınız uyanacak. Güneşli İzmir’den sevgilerle,",
+          "Seosfarm ailesi; Organik Delice Zeytinyağı, Organik Özel Seri Sızma Zeytinyağı, Organik Sızma Zeytinyağı çeşitlerimizden oluşuyor.",
+          "Zeytinyağımızı, birinci sınıf sızma özellikteki saf kalitesini koruyarak garanti etmek için tasarlanmış ve üretilmiş dört farklı boyuttaki ambalajda sizlere sunuyoruz.",
+          "Farklı türlerimizi farklı ebatlarda barındıran Seosfarm ambalajları günlük ihtiyaçlarınıza çok yönlü karşılık vermenin yanı sıra en özel ve geleneksel armağanlardan birini oluşturarak Ege’nin en eski meyvelerini size ve sevdiklerinize getiriyor.",
+          "Bu özel yağı ekmeğinize damlatın, tadı damağınıza dolsun…",
+          "Delice, Memecik, Erkence zeytinlerinden ekstrakte edildi.",
+          "Hasat dönemi: 22 Kasım 2017 – Şubat 2018 ortası.",
+          "2016 – 2017 dönemi ile kıyaslandığında daha düşük sıcaklık ve daha az yağmur.",
+          "Zeytinyağı üretiminin doğal döngüsüne saygı duyan Seosfarm; Delice, Memecik, Erkence zeytinlerinden elde edilir.",
+          "Bu çeşitler, Akdeniz mizacının zenginleştirdiği olağanüstü ve güzel meyveli tadıyla bilinir.",
+          "Seosfarm ailesi, bu eşsiz hediye için doğayı onurlandıran eski zeytinyağı üretimi geleneğini izleyerek ve büyüyerek gelecek nesiller boyunca sürdürülebilirliği garanti altına almayı hedefliyor.",
+          "Yetiştiriciliğe ve tarıma olan bütün ilgimizle, Seosfarm çiftçi ailesi olarak, ekim ve hasat esnasında zeytin ağaçlarına karşı aynı sorumluluk, bağlılık ve saygı duygusunu paylaşıyoruz.",
+          "Zeytin yetiştiriciliğinin doğal döngüsü ile ilgili olarak, zeytin ağaçlarımız doğal olarak sulanır. Bölge iklimi Seosfarm’ın üstün kalite, iyi aroma ve meyvemsi tadını garanti eder.",
+          "Şifrenizi mi unuttunuz? Lütfen kullanıcı adınızı veya e-posta adresinizi girin. Yeni bir şifre oluşturmanız için e-posta adresinize bir bağlantı gönderilecektir."
+        ],
+        "kind": "about",
+        "statusCode": 200,
+        "error": ""
+      }
+    ],
+    "features": [
+      "organik",
+      "yüksek polifenol",
+      "kuşaklar boyu üretim",
+      "memecik"
+    ],
+    "packaging": [
+      "teneke"
+    ],
+    "storyBlocks": [
+      "Ailece atıldığımız bu serüven İzmir’in güneyinde küçük bir dağ köyü olan Gödence yakınlarındaki ilk bahçemizden topladığımız zeytinler ile başlıyor…",
+      "Ürettiğimiz bu meyve suyu ailemizi bir arada, üretken ve yaratıcı tutuyor. Zeytinyağımızı ekstra özen ve sevgi ile sizler için şişeliyoruz. Sadece bir damla Seosfarm zeytinyağı ile sıcak Ege güneşini, ağaçlarımızın yaprakları arasındaki tuzlu esintiyi ve meyvelerimizi besleyen verimli topraklarımızı tadacaksınız.",
+      "Seosfarm ailesi; Organik Delice Zeytinyağı, Organik Özel Seri Sızma Zeytinyağı, Organik Sızma Zeytinyağı çeşitlerimizden oluşuyor.",
+      "Seosfarm ailesi, bu eşsiz hediye için doğayı onurlandıran eski zeytinyağı üretimi geleneğini izleyerek ve büyüyerek gelecek nesiller boyunca sürdürülebilirliği garanti altına almayı hedefliyor.",
+      "Yetiştiriciliğe ve tarıma olan bütün ilgimizle, Seosfarm çiftçi ailesi olarak, ekim ve hasat esnasında zeytin ağaçlarına karşı aynı sorumluluk, bağlılık ve saygı duygusunu paylaşıyoruz."
+    ],
+    "error": ""
+  },
+  {
+    "id": 114,
+    "name": "Seferis",
+    "slug": "seferis",
+    "url": "https://www.seferis.org/",
+    "finalUrl": "https://www.seferis.org/",
+    "statusCode": 200,
+    "region": "Seferihisar, İzmir",
+    "category": "organik",
+    "title": "SEFERÄ°S - Organik SoÄuk SÄ±kma Naturel SÄ±zma ZeytinyaÄÄ± - Seferihisar / Ä°ZMÄ°R",
+    "metaDescription": "",
+    "headings": [
+      "SEFERIS Kargo",
+      "SEFERIS SatÄ±Å"
+    ],
+    "paragraphs": [
+      "Ãdeme iÅlemleri iÃ§in bizlerle iletiÅime geÃ§ebilirsiniz."
+    ],
+    "pages": [
+      {
+        "url": "https://www.seferis.org/",
+        "title": "SEFERÄ°S - Organik SoÄuk SÄ±kma Naturel SÄ±zma ZeytinyaÄÄ± - Seferihisar / Ä°ZMÄ°R",
+        "metaDescription": "",
+        "headings": [
+          "SEFERIS Kargo",
+          "SEFERIS SatÄ±Å"
+        ],
+        "paragraphs": [
+          "Ãdeme iÅlemleri iÃ§in bizlerle iletiÅime geÃ§ebilirsiniz."
+        ],
+        "kind": "home"
+      }
+    ],
+    "features": [
+      "organik"
+    ],
+    "packaging": [
+      "teneke"
+    ],
+    "storyBlocks": [],
+    "error": ""
+  },
+  {
+    "id": 115,
+    "name": "Küçükbahçe",
+    "slug": "kucukbahce",
+    "url": "https://www.kucukbahce.com.tr/",
+    "finalUrl": "https://www.kucukbahce.com.tr/",
+    "statusCode": 200,
+    "region": "Karaburun, İzmir",
+    "category": "premium-butik",
+    "title": "KÃÃÃKBAHÃE ZeytinyaÄlarÄ± | Naturel Sizma ZeytinyaÄÄ± - Geleneksel Lezzet",
+    "metaDescription": "KÃ¼Ã§Ã¼kbahÃ§e Zeytincilik olarak biz; Ä°zmir Karaburun yarÄ±madasÄ±nda, etrafÄ± Nergis Ã§iÃ§ekleri ve kekiklerle Ã§evrili kendi zeytinliÄimizden, toplandÄ±ÄÄ± gÃ¼n soÄuk sÄ±kÄ±m yÃ¶ntemiyle sÄ±kÄ±mÄ±nÄ± yaptÄ±ÄÄ±mÄ±z, zeytinyaÄÄ±nÄ±n en saf ve doÄal halini sizlere sunuyoruz.",
+    "headings": [
+      "Erken hasat ile toplanan zeytinlerimiz",
+      "sofralarÄ±nÄ±za lezzet katÄ±yor.",
+      "Geleneksel YÃ¶ntemler kullanÄ±yoruz"
+    ],
+    "paragraphs": [
+      "KÃ¼Ã§Ã¼kbahÃ§e Zeytincilik olarak biz; Ä°zmir Karaburun yarÄ±madasÄ±nda, etrafÄ± Nergis Ã§iÃ§ekleri ve kekiklerle Ã§evrili kendi zeytinliÄimizden, toplandÄ±ÄÄ± gÃ¼n soÄuk sÄ±kÄ±m yÃ¶ntemiyle sÄ±kÄ±mÄ±nÄ± yaptÄ±ÄÄ±mÄ±z, zeytinyaÄÄ±nÄ±n en saf ve doÄal halini sizlere sunuyoruz.",
+      "ÃrÃ¼nlerimiz hakkÄ±nda bilgi alabilir ve detaylÄ± olarak inceleyebilirsiniz."
+    ],
+    "pages": [
+      {
+        "url": "https://www.kucukbahce.com.tr/",
+        "title": "KÃÃÃKBAHÃE ZeytinyaÄlarÄ± | Naturel Sizma ZeytinyaÄÄ± - Geleneksel Lezzet",
+        "metaDescription": "KÃ¼Ã§Ã¼kbahÃ§e Zeytincilik olarak biz; Ä°zmir Karaburun yarÄ±madasÄ±nda, etrafÄ± Nergis Ã§iÃ§ekleri ve kekiklerle Ã§evrili kendi zeytinliÄimizden, toplandÄ±ÄÄ± gÃ¼n soÄuk sÄ±kÄ±m yÃ¶ntemiyle sÄ±kÄ±mÄ±nÄ± yaptÄ±ÄÄ±mÄ±z, zeytinyaÄÄ±nÄ±n en saf ve doÄal halini sizlere sunuyoruz.",
+        "headings": [
+          "Erken hasat ile toplanan zeytinlerimiz",
+          "sofralarÄ±nÄ±za lezzet katÄ±yor.",
+          "Geleneksel YÃ¶ntemler kullanÄ±yoruz"
+        ],
+        "paragraphs": [
+          "KÃ¼Ã§Ã¼kbahÃ§e Zeytincilik olarak biz; Ä°zmir Karaburun yarÄ±madasÄ±nda, etrafÄ± Nergis Ã§iÃ§ekleri ve kekiklerle Ã§evrili kendi zeytinliÄimizden, toplandÄ±ÄÄ± gÃ¼n soÄuk sÄ±kÄ±m yÃ¶ntemiyle sÄ±kÄ±mÄ±nÄ± yaptÄ±ÄÄ±mÄ±z, zeytinyaÄÄ±nÄ±n en saf ve doÄal halini sizlere sunuyoruz.",
+          "ÃrÃ¼nlerimiz hakkÄ±nda bilgi alabilir ve detaylÄ± olarak inceleyebilirsiniz."
+        ],
+        "kind": "home"
+      }
+    ],
+    "features": [
+      "erken hasat"
+    ],
+    "packaging": [
+      "teneke"
+    ],
+    "storyBlocks": [],
+    "error": ""
+  },
+  {
+    "id": 116,
+    "name": "Buzey",
+    "slug": "buzey",
+    "url": "https://buzey.com.tr/",
+    "finalUrl": "https://buzey.com.tr/",
+    "statusCode": 200,
+    "region": "Burhaniye, Balıkesir",
+    "category": "bolgesel-yerel",
+    "title": "Buzey Burhaniye Zeytinyağları",
+    "metaDescription": "Buzey Burhaniye Zeytinyağları resmi e-ticaret sitesi!",
+    "headings": [
+      "Ramazan Paketiniz Uygun Fiyatlar ile Buzey'de!",
+      "Erken Hasat Soğuk Sıkım Naturel Sızma 5lt Teneke 2025-2026 (Yeni Hasat)",
+      "Erken Hasat Soğuk Sıkım 3lt Teneke 2025-2026 ( Yeni Hasat )",
+      "Erken Hasat Naturel Sızma Şişe 1lt (2025-2026) Yeni Hasat",
+      "Erken Hasat Soğuk Sıkım Naturel Sızma ( Geolive şişe) 750 ml 2025-2026",
+      "Soğuk Sıkım Taş Baskı Şişe 1lt",
+      "Naturel Sızma Olgun Hasat Zeytinyağ 3lt Teneke 2025-2026 (Yeni hasat)",
+      "Naturel Sızma Olgun Hasat 5lt Teneke (2025-2026 Hasat Yılı)",
+      "Naturel Sızma 2lt Teneke 2023-2024( Yeni Hasat )",
+      "Naturel Sızma 1lt Teneke 2025-2026 (Yeni Hasat)"
+    ],
+    "paragraphs": [
+      "Bizi tercih eden müşterilerin yüzde 90'ı tekrar bizi tercih etti.",
+      "Geçmişten Günümüze Zeytin ve Zeytinyağının Sosyal Hayattaki Rolü",
+      "Geçmişten günümüze zeytin ve zeytinyağı, Burhaniye’nin kültüründe hem bereketin hem de sosyal yaşamın simgesi olmuştur. BuZey’in doğallığıyla buluşan geleneksel zeytinyağı mirası, sofralara lezzet ve yaşam tarzı olarak yansımaya devam ediyor.",
+      "Geçmişten Günümüze Burhaniye Zeytinyağı: Doğanın Mirası ve Lezzetin Yolculuğu",
+      "Geçmişten günümüze Burhaniye zeytinyağı, doğanın cömert mirasını geleneksel ustalıkla buluşturan eşsiz bir lezzet yolculuğudur. Asırlık zeytin ağaçlarından sofralara uzanan bu değer, bölgenin ruhunu ve gerçek zeytinyağı kültürünü yaşatmaya devam ediyor.",
+      "Zeytinyağında Asit Oranı Nedir ve Neden Önemlidir?",
+      "Buzey zeytinyağlarının kalitesini belirleyen en önemli kriterlerden biri asit oranıdır. Asit oranı, zeytinyağının tazeliğini ve lezzet profilini doğrudan etkiler. Bu yazıda zeytinyağında asit oranının ne olduğunu ve neden bu kadar önemli olduğunu keşfedeceksin...",
+      "E-posta adresinizi bırakarak yeniliklerden haberdar olabilirsiniz!"
+    ],
+    "pages": [
+      {
+        "url": "https://buzey.com.tr/",
+        "title": "Buzey Burhaniye Zeytinyağları",
+        "metaDescription": "Buzey Burhaniye Zeytinyağları resmi e-ticaret sitesi!",
+        "headings": [
+          "Ramazan Paketiniz Uygun Fiyatlar ile Buzey'de!",
+          "Erken Hasat Soğuk Sıkım Naturel Sızma 5lt Teneke 2025-2026 (Yeni Hasat)",
+          "Erken Hasat Soğuk Sıkım 3lt Teneke 2025-2026 ( Yeni Hasat )",
+          "Erken Hasat Naturel Sızma Şişe 1lt (2025-2026) Yeni Hasat",
+          "Erken Hasat Soğuk Sıkım Naturel Sızma ( Geolive şişe) 750 ml 2025-2026",
+          "Soğuk Sıkım Taş Baskı Şişe 1lt",
+          "Naturel Sızma Olgun Hasat Zeytinyağ 3lt Teneke 2025-2026 (Yeni hasat)",
+          "Naturel Sızma Olgun Hasat 5lt Teneke (2025-2026 Hasat Yılı)",
+          "Naturel Sızma 2lt Teneke 2023-2024( Yeni Hasat )",
+          "Naturel Sızma 1lt Teneke 2025-2026 (Yeni Hasat)"
+        ],
+        "paragraphs": [
+          "Bizi tercih eden müşterilerin yüzde 90'ı tekrar bizi tercih etti.",
+          "Geçmişten Günümüze Zeytin ve Zeytinyağının Sosyal Hayattaki Rolü",
+          "Geçmişten günümüze zeytin ve zeytinyağı, Burhaniye’nin kültüründe hem bereketin hem de sosyal yaşamın simgesi olmuştur. BuZey’in doğallığıyla buluşan geleneksel zeytinyağı mirası, sofralara lezzet ve yaşam tarzı olarak yansımaya devam ediyor.",
+          "Geçmişten Günümüze Burhaniye Zeytinyağı: Doğanın Mirası ve Lezzetin Yolculuğu",
+          "Geçmişten günümüze Burhaniye zeytinyağı, doğanın cömert mirasını geleneksel ustalıkla buluşturan eşsiz bir lezzet yolculuğudur. Asırlık zeytin ağaçlarından sofralara uzanan bu değer, bölgenin ruhunu ve gerçek zeytinyağı kültürünü yaşatmaya devam ediyor.",
+          "Zeytinyağında Asit Oranı Nedir ve Neden Önemlidir?",
+          "Buzey zeytinyağlarının kalitesini belirleyen en önemli kriterlerden biri asit oranıdır. Asit oranı, zeytinyağının tazeliğini ve lezzet profilini doğrudan etkiler. Bu yazıda zeytinyağında asit oranının ne olduğunu ve neden bu kadar önemli olduğunu keşfedeceksin...",
+          "E-posta adresinizi bırakarak yeniliklerden haberdar olabilirsiniz!"
+        ],
+        "kind": "home"
+      },
+      {
+        "url": "https://buzey.com.tr/blog/burhaniye-zeytinyaglari",
+        "title": "Geçmişten Günümüze Burhaniye Zeytinyağı: Doğanın Mirası ve Lezzetin Yolculuğu",
+        "metaDescription": "Geçmişten Günümüze Burhaniye Zeytinyağı: Doğanın Mirası ve Lezzetin Yolculuğu hakkında detaylı bilgiler. Zeytinyağı, Burhaniye üretimi ve yöresel ürünler üzerine uzman içerikler. Buzey’den doğal, güvenilir ve bilgilendirici yazılar.",
+        "headings": [
+          "Geçmişten Günümüze Burhaniye Zeytinyağı: Doğanın Mirası ve Lezzetin Yolculuğu",
+          "Bizi takip edin",
+          "Ürünlerimiz",
+          "Abone Olun!"
+        ],
+        "paragraphs": [
+          "Burhaniye, Kuzey Ege’nin bereketli topraklarında köklü bir zeytinyağı kültürüne sahip özel bir bölgedir. Burhaniye zeytinyağı, binlerce yıldır bu topraklarda yetişen zeytin ağaçlarının sunduğu doğal ve saf lezzetin bir yansımasıdır. Antik çağlardan günümüze kadar uzanan bu lezzet yolculuğunda Burhaniye’nin zeytinyağı üretimindeki önemi giderek artmış ve dünya çapında tanınan bir marka haline gelmiştir.",
+          "Burhaniye’de Zeytinyağının DoğuşuKuzey Ege Bölgesi, zeytin ağacının doğal yaşam alanlarından biridir. Burhaniye’nin verimli toprakları ve uygun iklim koşulları, zeytin yetiştiriciliğini bu bölgede bir gelenek haline getirmiştir. Burhaniye’de zeytin üretimi, yüzyıllardır nesilden nesile aktarılan bilgiler ve geleneksel yöntemlerle yapılmaktadır. Tarihi kayıtlara göre, bu bölgede zeytinyağı üretimi antik dönemlerden",
+          "Burhaniye Zeytinyağının Kalitesini Belirleyen FaktörlerBurhaniye’nin zeytinyağı ile ünlü olmasının en büyük nedenlerinden biri, bölgedeki mikroklima etkisi ve toprağın zengin mineraller içermesidir. Zeytin ağaçları, denizden gelen meltem rüzgarları ve Kazdağları’ndan gelen temiz hava ile beslenerek eşsiz bir aroma kazanır. Burhaniye’de üretilen zeytinyağları, düşük asit oranı, hafif meyvemsi tat profili ve yüksek",
+          "Burhaniye Zeytinyağı GünümüzdeBugün Burhaniye zeytinyağı, sadece yerel tüketiciler tarafından değil, tüm Türkiye ve dünya genelinde tercih edilen bir marka haline gelmiştir. Bölgedeki üreticiler, geleneksel yöntemleri koruyarak modern tesislerde hijyenik ve yüksek standartlara uygun üretim yapmaktadır. Burhaniye zeytinyağı, doğal ve katkısız yapısıyla mutfakların vazgeçilmez lezzetlerinden biri olmaya devam",
+          "Ayrıca Burhaniye’de her yıl düzenlenen Zeytin ve Zeytinyağı Festivali, bölgenin zeytin ve zeytinyağı üretimindeki önemini vurgulamakta ve geleneksel lezzetleri tanıtmayı amaçlamaktadır.",
+          "E-posta adresinizi bırakarak yeniliklerden haberdar olabilirsiniz!"
+        ],
+        "kind": "about",
+        "statusCode": 200,
+        "error": ""
+      }
+    ],
+    "features": [
+      "erken hasat",
+      "kuşaklar boyu üretim"
+    ],
+    "packaging": [
+      "teneke",
+      "750 ml"
+    ],
+    "storyBlocks": [
+      "Geçmişten günümüze zeytin ve zeytinyağı, Burhaniye’nin kültüründe hem bereketin hem de sosyal yaşamın simgesi olmuştur. BuZey’in doğallığıyla buluşan geleneksel zeytinyağı mirası, sofralara lezzet ve yaşam tarzı olarak yansımaya devam ediyor.",
+      "Geçmişten Günümüze Burhaniye Zeytinyağı: Doğanın Mirası ve Lezzetin Yolculuğu",
+      "Geçmişten günümüze Burhaniye zeytinyağı, doğanın cömert mirasını geleneksel ustalıkla buluşturan eşsiz bir lezzet yolculuğudur. Asırlık zeytin ağaçlarından sofralara uzanan bu değer, bölgenin ruhunu ve gerçek zeytinyağı kültürünü yaşatmaya devam ediyor.",
+      "Geçmişten Günümüze Burhaniye Zeytinyağı: Doğanın Mirası ve Lezzetin Yolculuğu hakkında detaylı bilgiler. Zeytinyağı, Burhaniye üretimi ve yöresel ürünler üzerine uzman içerikler. Buzey’den doğal, güvenilir ve bilgilendirici yazılar.",
+      "Burhaniye’de Zeytinyağının DoğuşuKuzey Ege Bölgesi, zeytin ağacının doğal yaşam alanlarından biridir. Burhaniye’nin verimli toprakları ve uygun iklim koşulları, zeytin yetiştiriciliğini bu bölgede bir gelenek haline getirmiştir. Burhaniye’de zeytin üretimi, yüzyıllardır nesilden nesile aktarılan bilgiler ve geleneksel yöntemlerle yapılmaktadır. Tarihi kayıtlara göre, bu bölgede zeytinyağı üretimi antik dönemlerden"
+    ],
+    "error": ""
+  },
+  {
+    "id": 117,
+    "name": "Kege Food",
+    "slug": "kege-food",
+    "url": "https://www.kegefood.com/",
+    "finalUrl": "https://www.kegefood.com/",
+    "statusCode": 200,
+    "region": "Burhaniye, Balıkesir",
+    "category": "bolgesel-yerel",
+    "title": "Kege Food | zeytinyağı | Burhaniye, Balıkesir, Türkiye",
+    "metaDescription": "",
+    "headings": [
+      "10'un Tadı"
+    ],
+    "paragraphs": [
+      "Doğanın Armağanı: Saf ve Doğal Zeytinyağı",
+      "Doğanın Mirası: En Taze ve Lezzetli Zeytinler",
+      "Geleneksel Lezzetlerin Buluşma Noktası: El Yapımı Turşular",
+      "Ege bölgesindeki yerel çiftçilerimizden sezonluk temin ettiğimiz tüm sebze ve meyveleri Kege ile",
+      "lezzetlendiriyoruz. Tarımda doğa dostu yaklaşımı, üretimde yenilikçi çözümleri benimsiyoruz."
+    ],
+    "pages": [
+      {
+        "url": "https://www.kegefood.com/",
+        "title": "Kege Food | zeytinyağı | Burhaniye, Balıkesir, Türkiye",
+        "metaDescription": "",
+        "headings": [
+          "10'un Tadı"
+        ],
+        "paragraphs": [
+          "Doğanın Armağanı: Saf ve Doğal Zeytinyağı",
+          "Doğanın Mirası: En Taze ve Lezzetli Zeytinler",
+          "Geleneksel Lezzetlerin Buluşma Noktası: El Yapımı Turşular",
+          "Ege bölgesindeki yerel çiftçilerimizden sezonluk temin ettiğimiz tüm sebze ve meyveleri Kege ile",
+          "lezzetlendiriyoruz. Tarımda doğa dostu yaklaşımı, üretimde yenilikçi çözümleri benimsiyoruz."
+        ],
+        "kind": "home"
+      },
+      {
+        "url": "https://www.kegefood.com/hakkimizda",
+        "title": "Hakkımızda | Kege",
+        "metaDescription": "",
+        "headings": [],
+        "paragraphs": [
+          "Ülkemizin verimli ve bereketli topraklarında yetişen ürünleri doğallık ve sürdürülebilirlik esasına dayanarak üretiyor, bu eşsiz lezzeti sofralarınıza taşıyoruz.",
+          "Kaba Grup çatısı altında; tarımsal üretim modelini ilke edinerek 2023 yılında Balıkesir Burhaniye'de faaliyete başladık. Bölgenin verimli topraklarında yetişen mahsulü geleneksel tariflerle harmanlayarak lezzetine lezzet katıp tüketiciyle buluşturuyoruz. Ürünlerimizi dünya sofralarında yaygınlaştırma hedefiyle çalışmaya ve üretmeye devam ediyoruz.",
+          "1989'dan bugüne; tarım, inşaat, yapı malzemeleri, ticaret gibi çeşitli alanlarda da KB Grup bünyesinde oluşturulan kurum kültürü ve ilkeler, Kege'yi bir markadan daha fazlası haline getiriyor. Yılların verdiği tecrübe ve birikimle her geçen yıl ilkelerimizden ödün vermeden daha kaliteli ve daha güvenilir hizmeti vermeye devam edeceğiz.",
+          "Özenle hazırlanan tariflerimizle sofralarınızı lezzetlendiriyoruz."
+        ],
+        "kind": "about",
+        "statusCode": 200,
+        "error": ""
+      }
+    ],
+    "features": [],
+    "packaging": [
+      "teneke"
+    ],
+    "storyBlocks": [
+      "Doğanın Mirası: En Taze ve Lezzetli Zeytinler"
+    ],
+    "error": ""
+  },
+  {
+    "id": 118,
+    "name": "Pazarbaşılar",
+    "slug": "pazarbasilar",
+    "url": "https://www.pazarbasilar.com/",
+    "finalUrl": "https://www.pazarbasilar.com/",
+    "statusCode": 200,
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik",
+    "title": "Åeref PazarbaÅÄ± - PazarbaÅÄ±lar GÄ±da - Gelibolu YarÄ±madasÄ± / Ãanakkale",
+    "metaDescription": "",
+    "headings": [
+      "PazarbaÅÄ±lara HoÅgeldiniz!",
+      "Tek BahÃ§e",
+      "Estate Grown",
+      "Tarihimiz",
+      "MarkalarÄ±mÄ±z"
+    ],
+    "paragraphs": [
+      "BahÃ§emizin olgun hasat dÃ¶nemine ait, taze Ã§imen ve domates aromasÄ± da algÄ±layacaÄÄ±nÄ±z, yakÄ±cÄ±lÄ±ÄÄ±n kÄ±smen azalmÄ±Å olduÄu, daha yumuÅak nefasetli zeytinyaÄÄ± tercih edenler iÃ§in sÄ±cak ve soÄuk yemeklerde kullanÄ±ma son derece uygun bir seÃ§enektir. Maksimum 0,8 asit dir.",
+      "BahÃ§emizin erken hasat dÃ¶nemine ait, yoÄun Ã§aÄla ve taze Ã§imen aromasÄ±nÄ±n baskÄ±n olduÄu, yÃ¼ksek yakÄ±cÄ±lÄ±k ve duyusal olarak kusursuz zeytinyaÄÄ±mÄ±zdÄ±r. Maksimum 0,6 asit olup, kahvaltÄ± sofralarÄ±nda ve soÄuklarda yoÄun nefaset arayanlar iÃ§in ideal seÃ§im.",
+      "PazarbaÅÄ± Zeytin ÃiftliÄinde 400 DÃ¶nÃ¼m arazi Ã¼zerine ilk fidanlar 1999 yÄ±lÄ±nda dikildi. Toplam dikilen fidan sayÄ±sÄ± 12.000 Ã¼zerindedir.",
+      "BÃ¼yÃ¼k bir Ã¶zenle yetiÅtirdiÄimiz fidanlarÄ±mÄ±zdan 6. yÄ±lÄ±n sonunda beklediÄimiz hasatÄ± gerÃ§ekleÅtirmeyi baÅardÄ±k. Bu baÅarÄ± iÅimize olan tutkumuzu daha da yukarÄ±lara taÅÄ±dÄ± ve profesyonel bir butik Ã¼retici olma kararÄ± aldÄ±k.",
+      "Her geÃ§en yÄ±l Ã§iftliÄimizden hedeflediÄimiz hasatlarÄ± gerÃ§ekleÅtirdik. Bu bÃ¼yÃ¼me ile birlikte tÃ¼m faaliyetlerimizi ticari amaÃ§la PazarbaÅÄ±lar GÄ±da adÄ± altÄ±nda topladÄ±k.",
+      "Hep daha iyisini hedefledik. Bu sebeple zeytinlerimizi dilediÄimiz standartlarda iÅleyip en iyi Ã¼rÃ¼nÃ¼ elde edebilmek iÃ§in kendi Ã¼retimimizi kendimiz yapmak Ã¼zere fabrikamÄ±zÄ± kurduk. MarkalaÅma Ã§alÄ±ÅmalarÄ±mÄ±zÄ± tamamladÄ±k.",
+      "Naturel SÄ±zma ZeytinyaÄÄ±mÄ±z 2021 London IOOC tarafÄ±ndan Silver Award ile Ã¶dÃ¼llendirildi.",
+      "PazarbaÅÄ±lar GÄ±da Â© 2022 TÃ¼m haklarÄ± saklÄ±dÄ±r."
+    ],
+    "pages": [
+      {
+        "url": "https://www.pazarbasilar.com/",
+        "title": "Åeref PazarbaÅÄ± - PazarbaÅÄ±lar GÄ±da - Gelibolu YarÄ±madasÄ± / Ãanakkale",
+        "metaDescription": "",
+        "headings": [
+          "PazarbaÅÄ±lara HoÅgeldiniz!",
+          "Tek BahÃ§e",
+          "Estate Grown",
+          "Tarihimiz",
+          "MarkalarÄ±mÄ±z"
+        ],
+        "paragraphs": [
+          "BahÃ§emizin olgun hasat dÃ¶nemine ait, taze Ã§imen ve domates aromasÄ± da algÄ±layacaÄÄ±nÄ±z, yakÄ±cÄ±lÄ±ÄÄ±n kÄ±smen azalmÄ±Å olduÄu, daha yumuÅak nefasetli zeytinyaÄÄ± tercih edenler iÃ§in sÄ±cak ve soÄuk yemeklerde kullanÄ±ma son derece uygun bir seÃ§enektir. Maksimum 0,8 asit dir.",
+          "BahÃ§emizin erken hasat dÃ¶nemine ait, yoÄun Ã§aÄla ve taze Ã§imen aromasÄ±nÄ±n baskÄ±n olduÄu, yÃ¼ksek yakÄ±cÄ±lÄ±k ve duyusal olarak kusursuz zeytinyaÄÄ±mÄ±zdÄ±r. Maksimum 0,6 asit olup, kahvaltÄ± sofralarÄ±nda ve soÄuklarda yoÄun nefaset arayanlar iÃ§in ideal seÃ§im.",
+          "PazarbaÅÄ± Zeytin ÃiftliÄinde 400 DÃ¶nÃ¼m arazi Ã¼zerine ilk fidanlar 1999 yÄ±lÄ±nda dikildi. Toplam dikilen fidan sayÄ±sÄ± 12.000 Ã¼zerindedir.",
+          "BÃ¼yÃ¼k bir Ã¶zenle yetiÅtirdiÄimiz fidanlarÄ±mÄ±zdan 6. yÄ±lÄ±n sonunda beklediÄimiz hasatÄ± gerÃ§ekleÅtirmeyi baÅardÄ±k. Bu baÅarÄ± iÅimize olan tutkumuzu daha da yukarÄ±lara taÅÄ±dÄ± ve profesyonel bir butik Ã¼retici olma kararÄ± aldÄ±k.",
+          "Her geÃ§en yÄ±l Ã§iftliÄimizden hedeflediÄimiz hasatlarÄ± gerÃ§ekleÅtirdik. Bu bÃ¼yÃ¼me ile birlikte tÃ¼m faaliyetlerimizi ticari amaÃ§la PazarbaÅÄ±lar GÄ±da adÄ± altÄ±nda topladÄ±k.",
+          "Hep daha iyisini hedefledik. Bu sebeple zeytinlerimizi dilediÄimiz standartlarda iÅleyip en iyi Ã¼rÃ¼nÃ¼ elde edebilmek iÃ§in kendi Ã¼retimimizi kendimiz yapmak Ã¼zere fabrikamÄ±zÄ± kurduk. MarkalaÅma Ã§alÄ±ÅmalarÄ±mÄ±zÄ± tamamladÄ±k.",
+          "Naturel SÄ±zma ZeytinyaÄÄ±mÄ±z 2021 London IOOC tarafÄ±ndan Silver Award ile Ã¶dÃ¼llendirildi.",
+          "PazarbaÅÄ±lar GÄ±da Â© 2022 TÃ¼m haklarÄ± saklÄ±dÄ±r."
+        ],
+        "kind": "home"
+      },
+      {
+        "url": "https://www.pazarbasilar.com/hakkimizda",
+        "title": "Åeref PazarbaÅÄ± - PazarbaÅÄ±lar GÄ±da - Gelibolu YarÄ±madasÄ± / Çanakkale - HakkÄ±mÄ±zda",
+        "metaDescription": "",
+        "headings": [
+          "PazarbaÅÄ±lara HoÅgeldiniz!",
+          "Tarihimiz",
+          "Tek Bahçe",
+          "Estate Grown",
+          "MarkalarÄ±mÄ±z"
+        ],
+        "paragraphs": [
+          "Gelibolu YarÄ±madasÄ±, Kabatepe mevkii 400 dönüm üzerine kurulu PAZARBAÅI ÇÄ°FTLÄ°ÄÄ° 2000 yÄ±llarÄ±n baÅlarÄ±nda toplam 12000 adet zeytin fidanÄ± dikerek tarihi yarÄ±madada tek bölgede zeytin yetiÅtiriciliÄi üzerine odaklanmÄ±Å en büyük üretici konumundadÄ±r. YÄ±llar içinde yeterli mahsul miktarÄ±na ulaÅÄ±lmasÄ± ile günümüzün en modern makinalarÄ± alÄ±nmÄ±Å ve Çanakkale nin Eceabat ilçesinde günlük 40 ton",
+          "Çok uzun soluklu ve büyük özveri gerektiren zeytin yetiÅtiriciliÄi gönül iÅidir. Bahçemizden mahsulü toplamanÄ±n ve nihai ürüne dönüÅtürmenin ve ardÄ±ndan sizlerle paylaÅmanÄ±n gururunu yaÅamaktayÄ±z.",
+          "En büyük özelliÄimiz; tek bahçede yetiÅtirilen ve hasadÄ± yapÄ±lan zeytinler aynÄ± gün içinde kendi fabrikamÄ±zda iÅlenir. ZeytinyaÄÄ± üretim kalitesindeki hassasiyet ambalaja girene kadar olan sürecin her noktasÄ±nda gösterilen itina, bölgemizin endemik yapÄ±sÄ± tümüyle taÅÄ±yan zeytinyaÄÄ±nÄ± sizlerle buluÅturabilmek için yapÄ±lan çabadÄ±r.",
+          "ZeytinyaÄÄ±nda kaliteyi yakalamak, iyi zeytin ve bilinçli üretim ile baÅlar. Zeytinin hangi bahçeden geldiÄi, zararlÄ±larla mücadelede kullanÄ±lan saÄlÄ±Äa zararlÄ± ilaç kalÄ±ntÄ±sÄ± kaldÄ± mÄ±, nasÄ±l hasat edildiÄi, fabrikaya hangi koÅullarda nakledildiÄi, hava koÅullarÄ± ve buna baÄlÄ± olarak üretim esnasÄ±ndaki makine ayarlarÄ±… Bahçemizdeki zeytin aÄaçlarÄ±mÄ±zdan, sofranÄ±za kadar olan uzun ve zorlu",
+          "PazarbaÅÄ± Zeytin ÇiftliÄinde 400 Dönüm arazi üzerine ilk fidanlar 1999 yÄ±lÄ±nda dikildi. Toplam dikilen fidan sayÄ±sÄ± 12.000 üzerindedir.",
+          "Büyük bir özenle yetiÅtirdiÄimiz fidanlarÄ±mÄ±zdan 6. yÄ±lÄ±n sonunda beklediÄimiz hasatÄ± gerçekleÅtirmeyi baÅardÄ±k. Bu baÅarÄ± iÅimize olan tutkumuzu daha da yukarÄ±lara taÅÄ±dÄ± ve profesyonel bir butik üretici olma kararÄ± aldÄ±k.",
+          "Her geçen yÄ±l çiftliÄimizden hedeflediÄimiz hasatlarÄ± gerçekleÅtirdik. Bu büyüme ile birlikte tüm faaliyetlerimizi ticari amaçla PazarbaÅÄ±lar GÄ±da adÄ± altÄ±nda topladÄ±k.",
+          "Hep daha iyisini hedefledik. Bu sebeple zeytinlerimizi dilediÄimiz standartlarda iÅleyip en iyi ürünü elde edebilmek için kendi üretimimizi kendimiz yapmak üzere fabrikamÄ±zÄ± kurduk. MarkalaÅma çalÄ±ÅmalarÄ±mÄ±zÄ± tamamladÄ±k.",
+          "Naturel SÄ±zma ZeytinyaÄÄ±mÄ±z 2021 London IOOC tarafÄ±ndan Silver Award ile ödüllendirildi.",
+          "BahÃ§emizin olgun hasat dÃ¶nemine ait, taze Ã§imen ve domates aromasÄ± da algÄ±layacaÄÄ±nÄ±z, yakÄ±cÄ±lÄ±ÄÄ±n kÄ±smen azalmÄ±Å olduÄu, daha yumuÅak nefasetli zeytinyaÄÄ± tercih edenler iÃ§in sÄ±cak ve soÄuk yemeklerde kullanÄ±ma son derece uygun bir seÃ§enektir. Maksimum 0,8 asit dir.",
+          "BahÃ§emizin erken hasat dÃ¶nemine ait, yoÄun Ã§aÄla ve taze Ã§imen aromasÄ±nÄ±n baskÄ±n olduÄu, yÃ¼ksek yakÄ±cÄ±lÄ±k ve duyusal olarak kusursuz zeytinyaÄÄ±mÄ±zdÄ±r. Maksimum 0,6 asit olup, kahvaltÄ± sofralarÄ±nda ve soÄuklarda yoÄun nefaset arayanlar iÃ§in ideal seÃ§im.",
+          "PazarbaÅÄ±lar GÄ±da © 2022 Tüm haklarÄ± saklÄ±dÄ±r."
+        ],
+        "kind": "about",
+        "statusCode": 200,
+        "error": ""
+      }
+    ],
+    "features": [
+      "erken hasat",
+      "ödüllü çizgi",
+      "butik üretim",
+      "kooperatif birikimi"
+    ],
+    "packaging": [
+      "teneke"
+    ],
+    "storyBlocks": [],
+    "error": ""
+  },
+  {
+    "id": 119,
+    "name": "Kirte",
+    "slug": "kirte",
+    "url": "https://kirte.com.tr/",
+    "finalUrl": "https://kirte.com.tr/",
+    "statusCode": 200,
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik",
+    "title": "Kirte Naturel Sızma Zeytinyağları",
+    "metaDescription": "",
+    "headings": [
+      "2024-2025 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 1Lt",
+      "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 3Lt",
+      "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 5Lt",
+      "Ayva Sirkesi",
+      "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 5Lt",
+      "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 3Lt",
+      "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+      "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Ödüllü Anne Bebek Naturel Sızma Zeytinyağı 250ML",
+      "2024-2025 Uluslararası Ödüllü Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+      "2024-2025 Uluslararası Ödüllü DELİCE Zeytinyağı 500ML"
+    ],
+    "paragraphs": [
+      "Çanakkale Alçıtepede yetişen, olgunlaşmamış zeytinlerden elde edilen naturel sızma zeytinyağları, salatalarınıza ve yemeklerinize lezzet ve şifa katmak için harika bir seçenektir.",
+      "Zeytinlerin değerli fenol içeriğini ve tüm özünü muhafaza etmek ve düşük asit oranı elde etmek için, butik zeytinyağı üretimlerimizi soğuk sıkım tekniğiyle gerçekleştiriyoruz.",
+      "Kimyasal ve duyusal analizlerde üstün başarı gösteren ürünlerimiz, sizin ve sevdiklerinizin sağlığı için tüm doğal özellikleriyle Kirte markası altında buluşuyor.",
+      "2024-2025 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 1Lt",
+      "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 3Lt",
+      "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 5Lt",
+      "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 5Lt",
+      "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 3Lt",
+      "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+      "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Ödüllü Anne Bebek Naturel Sızma Zeytinyağı 250ML",
+      "2024-2025 Uluslararası Ödüllü Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+      "2024-2025 Uluslararası Ödüllü DELİCE Zeytinyağı 500ML",
+      "Tarihi Gelibolu yarımadasının kuzeyden esen sert rüzgarlara açık Saroz Körfezi ve Çanakkale Boğazı arasında yer alan zeytin ağaçlarından henüz yeşilken hasat edilen zeytin meyvelerinden üretilen enfes zeytinyağlarını sizlere sunuyoruz.",
+      "M.Ö. 7000 yılından itibaren bölgede kesintisiz iskan edilen yerleşim bölgesi “Elaious” kenti “zeytin kenti” anlamına gelmektedir. sizlere 40.000 yıllık mucizeyi 9.000 yıllık meradan sofralarınıza sunuyoruz.",
+      "Her damlasında tarih ve doğanın izlerini taşıyan zeytinyağlarımız, özel üretim süreçlerimizle sofranızda ayrıcalıklı bir lezzet deneyimi sunar. Gelibolu’nun zengin mirasını ve doğasını sofranıza taşımak için bize katılın. Bu eşsiz lezzeti keşfedin ve tarihle doğanın buluştuğu enfes bir yolculuğa çıkın.",
+      "Alışveriş işlemleri, güvenli veri iletimini sağlayan SSL şifreleme yöntemiyle korunur. Kişisel bilgileriniz, online alışverişin keyfini çıkarırken güvende olur.",
+      "Ürünleriniz, hasar görmeye karşı en iyi şekilde korunur. Özel tasarlanmış ambalajlarımız, ürünlerinizi yolculukları boyunca güvende tutar."
+    ],
+    "pages": [
+      {
+        "url": "https://kirte.com.tr/",
+        "title": "Kirte Naturel Sızma Zeytinyağları",
+        "metaDescription": "",
+        "headings": [
+          "2024-2025 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 1Lt",
+          "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 3Lt",
+          "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 5Lt",
+          "Ayva Sirkesi",
+          "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 5Lt",
+          "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 3Lt",
+          "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+          "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Ödüllü Anne Bebek Naturel Sızma Zeytinyağı 250ML",
+          "2024-2025 Uluslararası Ödüllü Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+          "2024-2025 Uluslararası Ödüllü DELİCE Zeytinyağı 500ML"
+        ],
+        "paragraphs": [
+          "Çanakkale Alçıtepede yetişen, olgunlaşmamış zeytinlerden elde edilen naturel sızma zeytinyağları, salatalarınıza ve yemeklerinize lezzet ve şifa katmak için harika bir seçenektir.",
+          "Zeytinlerin değerli fenol içeriğini ve tüm özünü muhafaza etmek ve düşük asit oranı elde etmek için, butik zeytinyağı üretimlerimizi soğuk sıkım tekniğiyle gerçekleştiriyoruz.",
+          "Kimyasal ve duyusal analizlerde üstün başarı gösteren ürünlerimiz, sizin ve sevdiklerinizin sağlığı için tüm doğal özellikleriyle Kirte markası altında buluşuyor.",
+          "2024-2025 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 1Lt",
+          "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 3Lt",
+          "2025-2026 Yeni Hasat Naturel Sızma Zeytinyağı Teneke 5Lt",
+          "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 5Lt",
+          "4 AL 3 ÖDE Kampanyalı 2024-2025 Naturel Sızma Zeytinyağı Teneke 3Lt",
+          "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+          "2025-2026 Yeni Hasat Erken Hasat Soğuk Sıkım Ödüllü Anne Bebek Naturel Sızma Zeytinyağı 250ML",
+          "2024-2025 Uluslararası Ödüllü Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı 500ML",
+          "2024-2025 Uluslararası Ödüllü DELİCE Zeytinyağı 500ML",
+          "Tarihi Gelibolu yarımadasının kuzeyden esen sert rüzgarlara açık Saroz Körfezi ve Çanakkale Boğazı arasında yer alan zeytin ağaçlarından henüz yeşilken hasat edilen zeytin meyvelerinden üretilen enfes zeytinyağlarını sizlere sunuyoruz.",
+          "M.Ö. 7000 yılından itibaren bölgede kesintisiz iskan edilen yerleşim bölgesi “Elaious” kenti “zeytin kenti” anlamına gelmektedir. sizlere 40.000 yıllık mucizeyi 9.000 yıllık meradan sofralarınıza sunuyoruz.",
+          "Her damlasında tarih ve doğanın izlerini taşıyan zeytinyağlarımız, özel üretim süreçlerimizle sofranızda ayrıcalıklı bir lezzet deneyimi sunar. Gelibolu’nun zengin mirasını ve doğasını sofranıza taşımak için bize katılın. Bu eşsiz lezzeti keşfedin ve tarihle doğanın buluştuğu enfes bir yolculuğa çıkın.",
+          "Alışveriş işlemleri, güvenli veri iletimini sağlayan SSL şifreleme yöntemiyle korunur. Kişisel bilgileriniz, online alışverişin keyfini çıkarırken güvende olur.",
+          "Ürünleriniz, hasar görmeye karşı en iyi şekilde korunur. Özel tasarlanmış ambalajlarımız, ürünlerinizi yolculukları boyunca güvende tutar."
+        ],
+        "kind": "home"
+      },
+      {
+        "url": "https://kirte.com.tr/hikayemiz",
+        "title": "HİKAYEMİZ – Kirte Naturel Sızma Zeytinyağları",
+        "metaDescription": "",
+        "headings": [
+          "HİKAYEMİZ",
+          "Misyonumuz",
+          "Vizyonumuz",
+          "İLETİŞİM BİLGİLERİ",
+          "MÜŞTERİLER İÇİN"
+        ],
+        "paragraphs": [
+          "Kirte olarak, tarihi Gelibolu Yarımadası’nın büyüleyici doğasında yeşilin ve mavinin kucaklaştığı noktalardan birinde, Saroz Körfezi ve Çanakkale Boğazı arasında konumlanmış, bu bereketli coğrafyanın özgün zeytinyağlarını sizlere sunuyoruz.",
+          "Binlerce yıldır bu topraklarda kök salmış zeytin ağaçlarının meyvelerinden elde ettiğimiz zeytinyağlarımızı, doğanın bize sunduğu bu eşsiz armağanı sizinle paylaşmanın heyecanını taşıyoruz. Zeytinlerimizi, henüz yeşilken özenle topluyor, geleneksel yöntemlerle işliyor ve en kaliteli zeytinyağı üretimi için titizlikle seçiyoruz.",
+          "Kirte olarak, doğadan ilham alıyor ve en taze, en doğal zeytinyağlarını sizlere sunuyoruz. Amacımız, sofralarınıza sağlık ve lezzet getiren bu doğal hazinenin tadını çıkarmanızı sağlamak.",
+          "Her damlasında binlerce yıllık gelenekleri hissedeceğiniz zeytinyağlarımızı, sizinle paylaşmak için buradayız. Kirte’de, bu eşsiz lezzet yolculuğunda siz de bize katılın. Gelibolu’nun rüzgarlarının ve topraklarının armağanı olan zeytinyağı ile sağlıklı ve lezzetli bir yaşamın kapılarını aralayın.",
+          "En kaliteli ve doğal zeytinyağlarımızı sizlere sunarak sofralarınıza konuk olmayı dört gözle bekliyoruz. Hoş geldiniz, bu eşsiz deneyimde yanınızdayız!",
+          "Kirte olarak, Gelibolu Yarımadası’nın eşsiz doğasının sunduğu bu büyülü coğrafyada, Saroz Körfezi ile Çanakkale Boğazı arasında bulunmanın verdiği ayrıcalığı taşıyoruz. Misyonumuz, bu bereketli topraklardan elde ettiğimiz özgün zeytinyağlarını sizlere sunmak ve bu doğal hazinenin tadını sofralarınıza taşımaktır. Binlerce yıllık geçmişi olan zeytin ağaçlarının meyvelerini özenle işleyerek, en kaliteli zeytinyağlarını",
+          "Kirte olarak, doğanın bize sunduğu eşsiz armağanı, sağlık ve lezzet sunan zeytinyağlarıyla daha fazla insana ulaştırmak istiyoruz. Vizyonumuz, sofralarınıza sağlık ve lezzet getiren bu doğal hazineyi paylaşmak ve binlerce yıllık gelenekleri, her damlasında hissetmenizi sağlamaktır. Kirte’de, bu eşsiz lezzet yolculuğunda siz de bizimle birlikte olun, Gelibolu’nun rüzgarlarının ve topraklarının armağanı olan"
+        ],
+        "kind": "about",
+        "statusCode": 200,
+        "error": ""
+      }
+    ],
+    "features": [
+      "erken hasat",
+      "butik üretim",
+      "kooperatif birikimi"
+    ],
+    "packaging": [
+      "teneke"
+    ],
+    "storyBlocks": [
+      "Her damlasında tarih ve doğanın izlerini taşıyan zeytinyağlarımız, özel üretim süreçlerimizle sofranızda ayrıcalıklı bir lezzet deneyimi sunar. Gelibolu’nun zengin mirasını ve doğasını sofranıza taşımak için bize katılın. Bu eşsiz lezzeti keşfedin ve tarihle doğanın buluştuğu enfes bir yolculuğa çıkın."
+    ],
+    "error": ""
+  },
+  {
+    "id": 120,
+    "name": "Anafortis",
+    "slug": "anafortis",
+    "url": "https://www.anafortis.com.tr/",
+    "finalUrl": "https://www.anafortis.com.tr/",
+    "statusCode": 200,
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik",
+    "title": "Anafortis",
+    "metaDescription": "",
+    "headings": [
+      "Anafortis",
+      "Ödüller",
+      "Sipariş",
+      "İletişim"
+    ],
+    "paragraphs": [
+      "2026 © Anafortis Tarım ve Gıda San. Tic. Ltd. Şti."
+    ],
+    "pages": [
+      {
+        "url": "https://www.anafortis.com.tr/",
+        "title": "Anafortis",
+        "metaDescription": "",
+        "headings": [
+          "Anafortis",
+          "Ödüller",
+          "Sipariş",
+          "İletişim"
+        ],
+        "paragraphs": [
+          "2026 © Anafortis Tarım ve Gıda San. Tic. Ltd. Şti."
+        ],
+        "kind": "home"
+      }
+    ],
+    "features": [],
+    "packaging": [],
+    "storyBlocks": [],
+    "error": ""
+  },
+  {
+    "id": 121,
+    "name": "Datçam",
+    "slug": "datcam",
+    "url": "https://www.datcam.com.tr/",
+    "finalUrl": "https://www.datcam.com.tr/",
+    "statusCode": 200,
+    "region": "Datça, Muğla",
+    "category": "bolgesel-yerel",
+    "title": "",
+    "metaDescription": "",
+    "headings": [],
+    "paragraphs": [],
+    "pages": [
+      {
+        "url": "https://www.datcam.com.tr/",
+        "title": "",
+        "metaDescription": "",
+        "headings": [],
+        "paragraphs": [],
+        "kind": "home"
+      },
+      {
+        "url": "https://www.datcam.com.tr/sayfa/hakkimizda",
+        "title": "Hakkımızda",
+        "metaDescription": "",
+        "headings": [],
+        "paragraphs": [
+          "Tüketici öncelikli, doğal ürünlerimizle geliştirdiğimiz stratejimizin sayesinde ayrıcalıklı müşteri portföyümüzü iki katına çıkardık. Marka değerimizi hassasiyetle zirveye çıkarmayı başardık. Dünya sağlık standartlarını göz önünde bulundurarak, organik, geleneksel yöntemle yetiştiricilik ilkemizle çıktığımız bu yolda; Disiplini elden bırakmadan, otorite rayından çıkmadan, istikrarlı ve kararlı duruşumuzla sayısız",
+          "Kuruluşumuzdan bu günümüze gelen profesyonellik, iş ahlakı, doğa dostu, empati kurabilme özelliğimizle, gelişime açık bakışımızla istikrarlı büyüme sağlamaktayız.",
+          "Datçam firmamız yerel üretim alanında en kaliteli, doğallıktan şaşmadan, güven ve tutarlılıkla siz tüketicilerimize en uygun fiyat sunumu amacıyla, 30 (otuz) yıllık tecrübemizle sektörde yerimizi aynı titizlikle korumaktayız.",
+          "Datçam firmamızın üzerinden gerçekleştirdiğiniz (merkezimiz, şubelerimiz, e-ticaret) en iyi ekip arkadaşlarımızla, güçlü ve profesyonel idari yönetimimiz ve müşteri temsilcilerimiz ile en keyifli alışveriş deneyimini yaşamanızı mümkün kılıyoruz.",
+          "Hedefimiz; Tüketici deneyimi ile ziyaretçi memnuniyetinin en yüksek değere ulaşıp, doğal ve sağlıklı ürünlerle daha sağlıklı toplum bilincine destek olmak ve doğal ürünlere ulaşımı kolaylaştırmaktır.",
+          "Misyonumuz; Yerimiz de saymadan, kendimizi geliştirerek, projelerimizi hayata geçirmeye devam eden, standartların üstünde gıda kalitesini koruyarak, sektöre öncülük ederek, güçlü kadromuzla doğa dostu üretim ve doğal üretim, sağlıklı tarım, organizasyonel ürün sunumu ile siz tüketicilerimizin memnuniyetini korumaya devam edeceğiz.",
+          "Adresimiz: İskele Mah. Atatürk Cad. Şengül Ünal Apt."
+        ],
+        "kind": "about",
+        "statusCode": 200,
+        "error": ""
+      }
+    ],
+    "features": [
+      "organik"
+    ],
+    "packaging": [
+      "teneke"
+    ],
+    "storyBlocks": [],
     "error": ""
   }
 ]

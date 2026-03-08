@@ -16,6 +16,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 120,
+    "name": "Anafortis",
+    "slug": "anafortis",
+    "url": "https://www.anafortis.com.tr/",
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
     "id": 76,
     "name": "Anolive",
     "slug": "anolive",
@@ -72,11 +80,27 @@
     "category": "premium-butik"
   },
   {
+    "id": 116,
+    "name": "Buzey",
+    "slug": "buzey",
+    "url": "https://buzey.com.tr/",
+    "region": "Burhaniye, Balıkesir",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 68,
     "name": "Dalgıçoğlu",
     "slug": "dalgicoglu",
     "url": "https://dalgicoglu.com",
     "region": "Edremit, Balıkesir",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 121,
+    "name": "Datçam",
+    "slug": "datcam",
+    "url": "https://www.datcam.com.tr/",
+    "region": "Datça, Muğla",
     "category": "bolgesel-yerel"
   },
   {
@@ -208,12 +232,28 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 117,
+    "name": "Kege Food",
+    "slug": "kege-food",
+    "url": "https://www.kegefood.com/",
+    "region": "Burhaniye, Balıkesir",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 8,
     "name": "Kırlangıç",
     "slug": "kirlangic",
     "url": "https://www.kirlangic.com.tr",
     "region": "İstanbul",
     "category": "market-endustriyel"
+  },
+  {
+    "id": 119,
+    "name": "Kirte",
+    "slug": "kirte",
+    "url": "https://kirte.com.tr/",
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik"
   },
   {
     "id": 1,
@@ -246,6 +286,14 @@
     "url": "https://www.kristalyaglari.com",
     "region": "İzmir",
     "category": "market-endustriyel"
+  },
+  {
+    "id": 115,
+    "name": "Küçükbahçe",
+    "slug": "kucukbahce",
+    "url": "https://www.kucukbahce.com.tr/",
+    "region": "Karaburun, İzmir",
+    "category": "premium-butik"
   },
   {
     "id": 4,
@@ -416,6 +464,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 112,
+    "name": "Oliella",
+    "slug": "oliella",
+    "url": "https://www.oliellaseferihisar.com/",
+    "region": "Seferihisar, İzmir",
+    "category": "premium-butik"
+  },
+  {
     "id": 13,
     "name": "Olistica",
     "slug": "olistica",
@@ -488,6 +544,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 118,
+    "name": "Pazarbaşılar",
+    "slug": "pazarbasilar",
+    "url": "https://www.pazarbasilar.com/",
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
     "id": 69,
     "name": "Sabuncugil",
     "slug": "sabuncugil",
@@ -504,11 +568,27 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 114,
+    "name": "Seferis",
+    "slug": "seferis",
+    "url": "https://www.seferis.org/",
+    "region": "Seferihisar, İzmir",
+    "category": "organik"
+  },
+  {
     "id": 71,
     "name": "Semylasa",
     "slug": "semylasa",
     "url": "https://semylasa.com",
     "region": "Milas, Muğla",
+    "category": "premium-butik"
+  },
+  {
+    "id": 113,
+    "name": "Seosfarm",
+    "slug": "seosfarm",
+    "url": "https://seosfarm.com/",
+    "region": "Seferihisar, İzmir",
     "category": "premium-butik"
   },
   {

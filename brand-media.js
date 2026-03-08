@@ -1107,5 +1107,103 @@ const brandMedia = {
             "https://spaces.wikiapis.com/milasso/images/ul/ultra-premium-hediyelik-set-1_l.jpg"
         ],
         "info": "Milasso, Milas çıkışlı yüksek polifenollü premium natürel sızma ve hediyelik seri sunan bir üreticidir."
+    },
+    "112": {
+        "slug": "oliella",
+        "logo": "https://static.wixstatic.com/media/9f2182_7c2ed85fdb44468084ad530ebebbd9a4~mv2.png",
+        "bottles": [
+            "https://static.wixstatic.com/media/9f2182_8c7a89f67f9b40fa9accecee13927659~mv2.jpg",
+            "https://static.wixstatic.com/media/9f2182_15f94cbcbaa64a139b91630f909a448d~mv2.jpg",
+            "https://static.wixstatic.com/media/9f2182_9c55ec0edda1494e80a793bd1f7c16c4~mv2.jpg"
+        ],
+        "info": "Oliella, Seferihisar çıkışlı erken hasat ve soğuk sıkım natürel sızma serileriyle öne çıkan butik bir üreticidir."
+    },
+    "113": {
+        "slug": "seosfarm",
+        "logo": "https://seosfarm.com/wp-content/uploads/seos-farm-logo.png",
+        "bottles": [
+            "https://seosfarm.com/wp-content/uploads/ozelseri-toplu-900x600.jpg",
+            "https://seosfarm.com/wp-content/uploads/sizma-toplu.jpg",
+            "https://seosfarm.com/wp-content/uploads/delice-toplu-900x600.jpg"
+        ],
+        "info": "Seosfarm, Seferihisar hattında özel seri, delice ve sızma zeytinyağı aileleri sunan bir üreticidir."
+    },
+    "114": {
+        "slug": "seferis",
+        "logo": "https://www.seferis.org/images/slider/seferis.png",
+        "bottles": [
+            "https://www.seferis.org/images/Slider/zeytinyagi.jpg",
+            "https://www.seferis.org/images/slider/seferis.png"
+        ],
+        "info": "Seferis, Seferihisar Ulamış çevresinde organik soğuk sıkım natürel sızma çizgisiyle bilinen yerel bir üreticidir."
+    },
+    "115": {
+        "slug": "kucukbahce",
+        "logo": "https://www.kucukbahce.com.tr/content/kucukbahce/images/kucukbahce_logo.png",
+        "bottles": [
+            "https://www.kucukbahce.com.tr/content/kucukbahce/images/1l-_slider_1.png",
+            "https://www.kucukbahce.com.tr/content/kucukbahce/images/500-1000_sise.png",
+            "https://www.kucukbahce.com.tr/content/kucukbahce/images/5l-teneke-urun.png"
+        ],
+        "info": "Küçükbahçe, Karaburun tarafında naturel sızma serilerini cam şişe ve teneke ambalajlarla sunan bir üreticidir."
+    },
+    "116": {
+        "slug": "buzey",
+        "logo": "https://cdn.myikas.com/images/9c404b1d-06c2-4b9c-b463-ee240be49443/89874136-b4ff-48f0-90c1-75cc98654458/image_1080.webp",
+        "bottles": [
+            "https://cdn.myikas.com/images/9c404b1d-06c2-4b9c-b463-ee240be49443/84372273-c299-48a0-8f19-e053918d2cfc/3840/750-ml-naturel-sizma-cam-sise-2-1.webp",
+            "https://cdn.myikas.com/images/9c404b1d-06c2-4b9c-b463-ee240be49443/14509473-9d03-4c43-9664-af0b53bf3347/3840/soguk-sikim-tas-baski-3lt-1.webp"
+        ],
+        "info": "Buzey, Burhaniye çıkışlı natürel sızma ve taş baskı serilerini doğrudan resmi mağazasında sunan bir üreticidir."
+    },
+    "117": {
+        "slug": "kege-food",
+        "logo": "https://static.wixstatic.com/media/b329ca_e40e46dbf07b452cb7c4d9acb3a10206~mv2.png",
+        "bottles": [
+            "https://static.wixstatic.com/media/b329ca_33e98ae6f5154778b1cb001b167432f9~mv2.jpg",
+            "https://static.wixstatic.com/media/b329ca_303f1a15b265458e91b3f3e4f74b666e~mv2.jpg",
+            "https://static.wixstatic.com/media/b329ca_44f34c7ed38a47028baa3a1fb48d6349~mv2.jpg"
+        ],
+        "info": "Kege Food, Burhaniye merkezli natürel sızma zeytinyağı serileri ve zeytin ürünleri geliştiren bir üreticidir."
+    },
+    "118": {
+        "slug": "pazarbasilar",
+        "logo": "https://shop.pazarbasilar.com/image/cache/catalog/logo-787x197.png",
+        "bottles": [
+            "https://shop.pazarbasilar.com/image/cache/catalog/Mit%20Olive_Page_2-500x500w.jpg",
+            "https://shop.pazarbasilar.com/image/cache/catalog/y4-500x500w.jpg",
+            "https://shop.pazarbasilar.com/image/cache/catalog/y3-500x500w.jpg"
+        ],
+        "info": "Pazarbaşılar, Eceabat çevresindeki üretim hattından natürel sızma seriler çıkaran köklü bir üreticidir."
+    },
+    "119": {
+        "slug": "kirte",
+        "logo": "https://kirte.com.tr/wp-content/uploads/2023/11/logo-min.png",
+        "bottles": [
+            "https://kirte.com.tr/wp-content/uploads/2023/11/1000ml.jpeg",
+            "https://kirte.com.tr/wp-content/uploads/2023/11/3000-ml.jpeg",
+            "https://kirte.com.tr/wp-content/uploads/2025/07/DELICESISE-331x450.png"
+        ],
+        "info": "Kirte, Alçıtepe çıkışlı naturel sızma zeytinyağlarını farklı hacimlerde cam şişe ve teneke ile sunan bir üreticidir."
+    },
+    "120": {
+        "slug": "anafortis",
+        "logo": "https://www.anafortis.com.tr/images/ANAFORTIS_LOGO.svg",
+        "bottles": [
+            "https://www.anafortis.com.tr/DataPict/Large/natural-sizma-zeytin-yagi-7b.jpg",
+            "https://www.anafortis.com.tr/DataPict/Large/ozel-kutusunda-500-ml-erken-hasat-89.jpg",
+            "https://www.anafortis.com.tr/DataPict/Large/anafortis-zeytin-yagi-11.jpg"
+        ],
+        "info": "Anafortis, Eceabat çıkışlı ödüllü erken hasat ve natürel sızma serileriyle tanınan bir üreticidir."
+    },
+    "121": {
+        "slug": "datcam",
+        "logo": "https://www.datcam.com.tr/idea/jl/13/themes/selftpl_620dfb3921634/assets/uploads/logo.png?revision=1737105670",
+        "bottles": [
+            "https://www.datcam.com.tr/idea/jl/13/myassets/products/952/premium-soguk-sikim-zeytinyagi-5-lt_min.jpg?revision=1772868335",
+            "https://www.datcam.com.tr/idea/jl/13/myassets/products/637/zey001-031_min.jpg?revision=1772613636",
+            "https://www.datcam.com.tr/idea/jl/13/myassets/products/636/zey001-034_min.jpg?revision=1772613641"
+        ],
+        "info": "Datçam, Datça çıkışlı premium ve natüreli soğuk sıkım zeytinyağı serileri sunan yerel bir üreticidir."
     }
 };

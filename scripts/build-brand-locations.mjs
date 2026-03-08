@@ -134,6 +134,76 @@ const exactAddressOverrides = {
     precision: 'street',
     sourceType: 'official',
     sourceUrl: 'https://kozoliv.com.tr/iletisim'
+  },
+  112: {
+    displayAddress: 'Seferihisar, İzmir, Türkiye',
+    geocodeQuery: 'Seferihisar, İzmir, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://www.oliellaseferihisar.com/'
+  },
+  113: {
+    displayAddress: 'Gödence Köyü Seferihisar Yolu Üzeri Seferihisar, İzmir, Türkiye',
+    geocodeQuery: 'Gödence Köyü, Seferihisar, İzmir, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://seosfarm.com/iletisim/'
+  },
+  114: {
+    displayAddress: 'Ulamış, Seferihisar, İzmir, Türkiye',
+    geocodeQuery: 'Ulamış, Seferihisar, İzmir, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://www.seferis.org/'
+  },
+  115: {
+    displayAddress: 'Salman Mahallesi Zeytinciler Küme Evler No:95/1 Karaburun, İzmir, Türkiye',
+    geocodeQuery: 'Salman Mahallesi, Karaburun, İzmir, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.kucukbahce.com.tr/'
+  },
+  116: {
+    displayAddress: 'Burhaniye, Balıkesir, Türkiye',
+    geocodeQuery: 'Burhaniye, Balıkesir, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://buzey.com.tr/'
+  },
+  117: {
+    displayAddress: 'Burhaniye, Balıkesir, Türkiye',
+    geocodeQuery: 'Burhaniye, Balıkesir, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://www.kegefood.com/'
+  },
+  118: {
+    displayAddress: 'Çınarlıdere Mevkii Eceabat Sanayi Bölgesi No:55 Eceabat, Çanakkale, Türkiye',
+    geocodeQuery: 'Eceabat Sanayi Bölgesi, Eceabat, Çanakkale, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.pazarbasilar.com/'
+  },
+  119: {
+    displayAddress: 'Alçıtepe Köyü Küme Evleri No:44 Eceabat, Çanakkale, Türkiye',
+    geocodeQuery: 'Alçıtepe, Eceabat, Çanakkale, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://kirte.com.tr/'
+  },
+  120: {
+    displayAddress: 'Kemalpaşa Mahallesi Cumhuriyet Caddesi No:86/D Eceabat, Çanakkale, Türkiye',
+    geocodeQuery: 'Kemalpaşa Mahallesi, Eceabat, Çanakkale, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.anafortis.com.tr/'
+  },
+  121: {
+    displayAddress: 'Datça, Muğla, Türkiye',
+    geocodeQuery: 'Datça, Muğla, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://www.datcam.com.tr/'
   }
 };
 
@@ -193,6 +263,11 @@ const regionLocationOverrides = {
     geocodeQuery: 'Edremit, Balıkesir, Türkiye',
     precision: 'district'
   },
+  'Eceabat, Çanakkale': {
+    displayAddress: 'Eceabat, Çanakkale, Türkiye',
+    geocodeQuery: 'Eceabat, Çanakkale, Türkiye',
+    precision: 'district'
+  },
   'Ege Bölgesi': {
     displayAddress: 'Ege Bölgesi, Türkiye',
     geocodeQuery: 'Ege Bölgesi, Türkiye',
@@ -221,6 +296,16 @@ const regionLocationOverrides = {
   'Gömeç, Balıkesir': {
     displayAddress: 'Gömeç, Balıkesir, Türkiye',
     geocodeQuery: 'Gömeç, Balıkesir, Türkiye',
+    precision: 'district'
+  },
+  'Burhaniye, Balıkesir': {
+    displayAddress: 'Burhaniye, Balıkesir, Türkiye',
+    geocodeQuery: 'Burhaniye, Balıkesir, Türkiye',
+    precision: 'district'
+  },
+  'Datça, Muğla': {
+    displayAddress: 'Datça, Muğla, Türkiye',
+    geocodeQuery: 'Datça, Muğla, Türkiye',
     precision: 'district'
   },
   'Gemlik, Bursa': {
@@ -252,6 +337,11 @@ const regionLocationOverrides = {
     displayAddress: 'İzmir, Türkiye',
     geocodeQuery: 'İzmir, Türkiye',
     precision: 'city'
+  },
+  'Karaburun, İzmir': {
+    displayAddress: 'Karaburun, İzmir, Türkiye',
+    geocodeQuery: 'Karaburun, İzmir, Türkiye',
+    precision: 'district'
   },
   'Kilis, Güneydoğu Anadolu': {
     displayAddress: 'Kilis, Türkiye',
@@ -296,6 +386,11 @@ const regionLocationOverrides = {
   'Ödemiş, İzmir': {
     displayAddress: 'Ödemiş, İzmir, Türkiye',
     geocodeQuery: 'Ödemiş, İzmir, Türkiye',
+    precision: 'district'
+  },
+  'Seferihisar, İzmir': {
+    displayAddress: 'Seferihisar, İzmir, Türkiye',
+    geocodeQuery: 'Seferihisar, İzmir, Türkiye',
     precision: 'district'
   },
   'Şarköy, Tekirdağ': {

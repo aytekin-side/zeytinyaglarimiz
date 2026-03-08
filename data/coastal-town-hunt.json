@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-03-08",
+  "scope": "Marmara, Ege ve Akdeniz kiyisinda zeytinyagi ureticisi arama listesi",
+  "marmara": {
+    "towns": [
+      "Gelibolu",
+      "Eceabat",
+      "Ayvacik",
+      "Ezine",
+      "Erdek",
+      "Edremit",
+      "Burhaniye",
+      "Gomec",
+      "Ayvalik",
+      "Mudanya",
+      "Gemlik",
+      "Armutlu",
+      "Sarkoy",
+      "Murefte",
+      "Marmaraereglisi",
+      "Suleymanpasa"
+    ],
+    "addedThisBatch": [
+      "Pazarbasilar",
+      "Kirte",
+      "Anafortis",
+      "Buzey",
+      "Kege Food"
+    ],
+    "nextProspects": [
+      "Foça Organik benzeri karma urun magazalari yerine saf zeytinyagi ureticileri taranacak",
+      "Gelibolu ve Geyikli hattinda yeni resmi site adaylari aranacak"
+    ]
+  },
+  "ege": {
+    "towns": [
+      "Kucukkuyu",
+      "Assos",
+      "Ayvacik",
+      "Ayvalik",
+      "Burhaniye",
+      "Gomec",
+      "Dikili",
+      "Foca",
+      "Aliaga",
+      "Karaburun",
+      "Cesme",
+      "Urla",
+      "Guzelbahce",
+      "Seferihisar",
+      "Menderes",
+      "Kusadasi",
+      "Didim",
+      "Soke",
+      "Milas",
+      "Bodrum",
+      "Datca",
+      "Marmaris",
+      "Fethiye"
+    ],
+    "addedThisBatch": [
+      "Oliella",
+      "Seosfarm",
+      "Seferis",
+      "Kucukbahce",
+      "Datcam"
+    ],
+    "nextProspects": [
+      "Foca, Dikili, Cesme ve Didim tarafinda resmi sitesi olan yeni ureticiler taranacak",
+      "Datca ve Bodrum hattinda ikinci tur aday toplama devam edecek"
+    ]
+  },
+  "akdeniz": {
+    "towns": [
+      "Arsuz",
+      "Iskenderun",
+      "Samandag",
+      "Dortyol",
+      "Payas",
+      "Anamur",
+      "Bozyazi",
+      "Aydincik",
+      "Silifke",
+      "Erdemli",
+      "Mezitli",
+      "Gazipasa",
+      "Alanya",
+      "Finike",
+      "Kumluca",
+      "Demre",
+      "Kas"
+    ],
+    "addedThisBatch": [],
+    "nextProspects": [
+      "Hatay sahil hattinda Arsuz ve Samandag icin yeni resmi uretici siteleri aranacak",
+      "Anamur ve Gazipasa hattinda zeytinyagi ureticileri taranacak"
+    ]
+  },
+  "addedBrandIds": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121
+  ]
+}

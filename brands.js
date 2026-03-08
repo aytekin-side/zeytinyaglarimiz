@@ -9,7 +9,45 @@ const brands = [
         "website": "https://www.komili.com.tr",
         "founded": "1878",
         "highlight": true,
-        "image": "https://img.logo.dev/komili.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/01-komili.svg",
+        "slug": "komili",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1878 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=komili.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Komili tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Ayvalık, Balıkesir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 1878 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Komili tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Komili aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 508
     },
     {
         "id": 2,
@@ -20,7 +58,45 @@ const brands = [
         "website": "https://www.tariszeytin.com.tr",
         "founded": "1915",
         "highlight": true,
-        "image": "https://img.logo.dev/tariszeytinyagi.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/02-taris.png",
+        "slug": "taris",
+        "editorial": null,
+        "detail": "Biz İzmir, Ege çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1915 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=tariszeytin.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Tariş tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir, Ege çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 1915 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Tariş tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Tariş aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 3,
@@ -31,7 +107,45 @@ const brands = [
         "website": "https://www.kristalyaglari.com",
         "founded": "1960",
         "highlight": false,
-        "image": "https://img.logo.dev/kristalyag.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/03-kristal.png",
+        "slug": "kristal",
+        "editorial": null,
+        "detail": "Biz İzmir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1960 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=kristalyaglari.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Kristal tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 1960 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Kristal tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Kristal aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 4,
@@ -42,7 +156,45 @@ const brands = [
         "website": "https://www.laleli.com.tr",
         "founded": null,
         "highlight": true,
-        "image": "https://img.logo.dev/laleli.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/04-laleli.png",
+        "slug": "laleli",
+        "editorial": null,
+        "detail": "Biz İzmir, Ege çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=laleli.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Laleli tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. İzmir, Ege çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İzmir, Ege tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Laleli tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Laleli aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 5,
@@ -53,7 +205,48 @@ const brands = [
         "website": "https://www.sezaiomermadra.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/madra.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/05-madra.png",
+        "slug": "madra",
+        "editorial": null,
+        "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik",
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html",
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık",
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=sezaiomermadra.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Madra tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Edremit, Balıkesir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Edremit, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Madra tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Madra aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 6,
@@ -64,7 +257,45 @@ const brands = [
         "website": "https://www.lunayag.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/lunayag.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/06-luna.png",
+        "slug": "luna",
+        "editorial": null,
+        "detail": "Biz İzmir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=lunayag.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Luna tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Luna tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Luna aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 7,
@@ -75,7 +306,45 @@ const brands = [
         "website": "https://www.yudum.com.tr",
         "founded": "1968",
         "highlight": false,
-        "image": "https://img.logo.dev/yudum.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/07-yudum.svg",
+        "slug": "yudum",
+        "editorial": null,
+        "detail": "Biz İstanbul çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1968 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=yudum.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Yudum tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İstanbul çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 1968 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Yudum tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Yudum aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 8,
@@ -86,7 +355,45 @@ const brands = [
         "website": "https://www.kirlangic.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/kirlangic.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/08-kirlangic.svg",
+        "slug": "kirlangic",
+        "editorial": null,
+        "detail": "Biz İstanbul çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=kirlangic.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Kırlangıç tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İstanbul çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İstanbul tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Kırlangıç tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Kırlangıç aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 9,
@@ -97,7 +404,45 @@ const brands = [
         "website": "https://www.marmarabirlik.com.tr",
         "founded": "1954",
         "highlight": true,
-        "image": "https://img.logo.dev/marmarabirlik.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/09-marmarabirlik.png",
+        "slug": "marmarabirlik",
+        "editorial": null,
+        "detail": "Biz Bursa, Marmara çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1954 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=marmarabirlik.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Marmarabirlik tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Bursa, Marmara çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 1954 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Marmarabirlik tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Marmarabirlik aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 10,
@@ -108,7 +453,45 @@ const brands = [
         "website": "https://www.oleamea.com",
         "founded": null,
         "highlight": true,
-        "image": "https://img.logo.dev/oleamea.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/10-oleamea.png",
+        "slug": "oleamea",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=oleamea.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Oleamea tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Oleamea tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Oleamea aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 11,
@@ -119,7 +502,45 @@ const brands = [
         "website": "https://meraovasi.com",
         "founded": null,
         "highlight": true,
-        "image": "https://img.logo.dev/meraovasi.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/11-mera-ovasi.png",
+        "slug": "mera-ovasi",
+        "editorial": null,
+        "detail": "Biz Erdek, Marmara çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=meraovasi.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Mera Ovası tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Erdek, Marmara çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Erdek, Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Mera Ovası tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Mera Ovası aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 516
     },
     {
         "id": 12,
@@ -130,7 +551,45 @@ const brands = [
         "website": "https://www.olivurla.com",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/olivurla.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/12-olivurla.png",
+        "slug": "olivurla",
+        "editorial": null,
+        "detail": "Biz Urla, İzmir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=olivurla.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Olivurla tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Urla, İzmir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Urla, İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olivurla tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olivurla aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 13,
@@ -141,7 +600,45 @@ const brands = [
         "website": "https://www.olistica.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/olistica.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/13-olistica.jpg",
+        "slug": "olistica",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=olistica.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Olistica tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olistica tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olistica aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 14,
@@ -152,7 +649,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://ideacdn.net/idea/fo/65/myassets/products/806/sizma-zeytinyagi-aydinli-amca-yemeklik-zeytinyagi-aydin-zeytinyagi-komili-zeytinyagi-riviera-zeytiny.jpg?revision=1721819285"
+        "image": "images/brand-logos/14-olive-riviera.jpg",
+        "slug": "olive-riviera",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Olive Riviera tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Ege Bölgesi çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olive Riviera tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olive Riviera aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 15,
@@ -163,7 +698,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/15-papez.jpg",
+        "slug": "papez",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Papez ile Ege Bölgesi tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ege Bölgesi çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Papez tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Papez aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 16,
@@ -174,7 +747,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/16-selatin.png",
+        "slug": "selatin",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Selatin ile Ege Bölgesi tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ege Bölgesi çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Selatin tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Selatin aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 17,
@@ -185,7 +796,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/17-degirmenci.png",
+        "slug": "degirmenci",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Değirmenci ile Ege Bölgesi tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ege Bölgesi çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Değirmenci tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Değirmenci aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 18,
@@ -196,7 +845,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://iaysr.tmgrup.com.tr/8a922f/780/411/0/3/640/340?u=https://iysr.tmgrup.com.tr/2025/02/26/izmirde-sahte-zeytinyagi-satanlara-773-bin-liralik-para-cezasi-1740565322019.jpg"
+        "image": "images/brand-logos/18-izmir-pinari.jpg",
+        "slug": "izmir-pinari",
+        "editorial": null,
+        "detail": "Biz İzmir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz İzmir Pınarı ile İzmir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. İzmir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz İzmir Pınarı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. İzmir Pınarı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 19,
@@ -207,7 +894,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://images.migrosone.com/sanalmarket/product/04133245/monini-beyaz-truflu-zeytinyagi-250-ml-d6ff50-1650x1650.jpg"
+        "image": "images/brand-logos/19-beyaz-altin.jpg",
+        "slug": "beyaz-altin",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Beyaz Altın tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Beyaz Altın tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Beyaz Altın aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 20,
@@ -218,7 +943,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://www.nevigurme.com/shop/ur/59/myassets/products/289/zeytinyagi-ozgun-birinci-2lt.jpg?revision=1724749057"
+        "image": "images/brand-logos/20-ozgun-olive.jpg",
+        "slug": "ozgun-olive",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Özgün Olive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Özgün Olive tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Özgün Olive aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 21,
@@ -229,7 +992,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://media-cdn.t24.com.tr/media/stories/2018/09/raw_edremit-korfezinde-ilk-zeytinyagi-sikildi_596679232.jpg"
+        "image": "images/brand-logos/21-edremit-korfezi.jpg",
+        "slug": "edremit-korfezi",
+        "editorial": null,
+        "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Edremit Körfezi ile Edremit, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Edremit, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Edremit, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Edremit Körfezi tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Edremit Körfezi aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 22,
@@ -240,7 +1041,48 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://kursat.com.tr/cdn/shop/files/Kursat_Naturel_Sizma_Zeytinyagi_500_ml_tnk_1200X1136pxl_1024x1024@2x.jpg?v=1723830727"
+        "image": "images/brand-logos/22-kursat.png",
+        "slug": "kursat",
+        "editorial": null,
+        "detail": "Biz Kilis, Güneydoğu Anadolu çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "guneydogu",
+        "oliveTypes": [
+            "halhali",
+            "nizip"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/guneydogu.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html",
+            "topic/zeytin-cesitleri/nizip.html"
+        ],
+        "regionClusterLabel": "Güneydoğu Anadolu",
+        "oliveTypeLabels": [
+            "Halhalı",
+            "Nizip Yağlık"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Kürşat ile Kilis, Güneydoğu Anadolu tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Kilis, Güneydoğu Anadolu çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Kilis, Güneydoğu Anadolu tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Güneydoğu tarafının daha belirgin bölgesel kimliği, yağa tok ve akılda kalıcı bir duruş kazandırır. Biz bu duruşu saklamadan, sofrada hemen tanınır hale getirmeyi istiyoruz.",
+            "Biz Kürşat tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Kürşat aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 516
     },
     {
         "id": 23,
@@ -251,7 +1093,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://img.pixers.pics/pho_wat(s3:700/FO/13/35/58/60/7/700_FO133558607_eb4d127e2a371d76db9c5af5ef75ddfd.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/cikartmalar-zeytinyagi-ve-zeytin-dali-elle-cizilmis-vektor-kroki-cizim.jpg.jpg"
+        "image": "images/brand-logos/23-zeytin-dali.jpg",
+        "slug": "zeytin-dali",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Zeytin Dalı ile Ege Bölgesi tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ege Bölgesi çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Zeytin Dalı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Zeytin Dalı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 518
     },
     {
         "id": 24,
@@ -262,7 +1142,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://images.hepsiburada.net/assets/Taris/ProductDesc/yudum-egemden-sizma-zeytinyagi-ayvalikli-kadinlar-500-ml-urun-detay-gorseli-1.png"
+        "image": "images/brand-logos/24-egemden.png",
+        "slug": "egemden",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Egemden ile Ege Bölgesi tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ege Bölgesi çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Egemden tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Egemden aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 25,
@@ -273,7 +1191,48 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/25-bereket.jpg",
+        "slug": "bereket",
+        "editorial": null,
+        "detail": "Biz Hatay, Akdeniz çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "halhali",
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html",
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Halhalı",
+            "Sarı Ulak"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Bereket ile Hatay, Akdeniz tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Hatay, Akdeniz çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Hatay, Akdeniz tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Bereket tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Bereket aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 26,
@@ -284,7 +1243,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://files.ekmcdn.com/886557/images/olea-prilis-organic-tuscan-pgi-extra-virgin-olive-oil-500ml-tin-(3)-338-dv-p.jpg?v=D26D5FFD-4350-4E41-A6FF-CF5E2EA5F6FA"
+        "image": "images/brand-logos/26-olea-prilis.png",
+        "slug": "olea-prilis",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Olea Prilis tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olea Prilis tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olea Prilis aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 27,
@@ -295,7 +1292,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/27-oliterra.gif",
+        "slug": "oliterra",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Oliterra tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Oliterra tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Oliterra aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 517
     },
     {
         "id": 28,
@@ -306,7 +1341,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/28-ayla-zeytinyagi.jpg",
+        "slug": "ayla-zeytinyagi",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Ayla Zeytinyağı ile Ayvalık, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ayvalık, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Ayla Zeytinyağı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Ayla Zeytinyağı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 29,
@@ -317,7 +1390,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://muzeler.org/images/google-place-images/oleatrium-zeytin-ve-zeytinyagi-tarihi-muzesi.jpg"
+        "image": "images/brand-logos/29-tarihi-kirkpinar.png",
+        "slug": "tarihi-kirkpinar",
+        "editorial": null,
+        "detail": "Biz Edirne, Trakya çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "trakya",
+        "oliveTypes": [
+            "trilye"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/trakya.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/trilye.html"
+        ],
+        "regionClusterLabel": "Trakya Bölgesi",
+        "oliveTypeLabels": [
+            "Trilye"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Tarihi Kırkpınar ile Edirne, Trakya tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Edirne, Trakya çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Edirne, Trakya tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Trakya tarafının daha niş ve daha yakın üretim hissi, şişeye sakin ama özgün bir kimlik verir. Biz bu özgünlüğü fazla oynatmadan korumaya çalışıyoruz.",
+            "Biz Tarihi Kırkpınar tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Trilye çizgisinin damakta bıraktığı karakteri mümkün olduğunca açık hissettirmek istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Tarihi Kırkpınar aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 30,
@@ -328,7 +1439,45 @@ const brands = [
         "website": "https://www.olivos.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/olivos.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/30-olivos.png",
+        "slug": "olivos",
+        "editorial": null,
+        "detail": "Biz İstanbul çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=olivos.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Olivos tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. İstanbul çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İstanbul tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olivos tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olivos aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 31,
@@ -339,7 +1488,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://girisimcikadinlar.com.tr/wp-content/uploads/2022/12/hasat-logo_1-Hasat-Zeytinyagi-Butigi.png"
+        "image": "images/brand-logos/31-hasat.png",
+        "slug": "hasat",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Hasat tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Hasat tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Hasat aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 517
     },
     {
         "id": 32,
@@ -350,7 +1537,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://grafizula.com/wp-content/uploads/2020/03/ayvalik_sepeti_sabun_etiket_tasarimi_geleneksel_zeytinyagi.jpg"
+        "image": "images/brand-logos/32-ayvalik-yildizi.jpg",
+        "slug": "ayvalik-yildizi",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Ayvalık Yıldızı ile Ayvalık, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ayvalık, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Ayvalık Yıldızı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Ayvalık Yıldızı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 33,
@@ -361,7 +1586,45 @@ const brands = [
         "website": "https://ilyada.com",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/ilyada.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/33-ilyada.png",
+        "slug": "ilyada",
+        "editorial": null,
+        "detail": "Biz Çanakkale çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=ilyada.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz İlyada tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Çanakkale çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz İlyada tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. İlyada aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 34,
@@ -372,7 +1635,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://i0.wp.com/kudretzeytinyaglari.com/wp-content/uploads/2021/05/kudret_zeytinyagi_logo.png?w=800&ssl=1"
+        "image": "images/brand-logos/34-coskun-zeytinyaglari.png",
+        "slug": "coskun-zeytinyaglari",
+        "editorial": null,
+        "detail": "Biz İzmir, Ege çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Coşkun Zeytinyağları tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir, Ege çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İzmir, Ege tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Coşkun Zeytinyağları tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Coşkun Zeytinyağları aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 35,
@@ -383,7 +1684,45 @@ const brands = [
         "website": "https://www.nargourmet.com",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/nargourmet.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/35-nar-gourmet.jpg",
+        "slug": "nar-gourmet",
+        "editorial": null,
+        "detail": "Biz İstanbul çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=nargourmet.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Nar Gourmet tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. İstanbul çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İstanbul tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Nar Gourmet tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Nar Gourmet aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 514
     },
     {
         "id": 36,
@@ -394,7 +1733,45 @@ const brands = [
         "website": "https://www.monolive.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/monolive.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/36-monolive.jpg",
+        "slug": "monolive",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=monolive.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz MonOlive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz MonOlive tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. MonOlive aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 37,
@@ -405,7 +1782,45 @@ const brands = [
         "website": "https://www.zeytursan.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/zeytursan.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/37-zeytursan.png",
+        "slug": "zeytursan",
+        "editorial": null,
+        "detail": "Biz Bursa, Marmara çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytursan.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Zeytursan ile Bursa, Marmara tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Bursa, Marmara çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Bursa, Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Zeytursan tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Zeytursan aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 38,
@@ -416,7 +1831,48 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "http://granpa.com.tr/cdn/shop/files/granpa-premium-trilye-zeytinyagi-hediye-seti-sofra-sunum.jpg?v=1764532675"
+        "image": "images/brand-logos/38-trilye.png",
+        "slug": "trilye",
+        "editorial": null,
+        "detail": "Biz Mudanya, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik",
+            "trilye"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html",
+            "topic/zeytin-cesitleri/trilye.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik",
+            "Trilye"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Trilye ile Mudanya, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mudanya, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mudanya, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Trilye tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Trilye aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 39,
@@ -427,7 +1883,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/39-vita.jpg",
+        "slug": "vita",
+        "editorial": null,
+        "detail": "Biz Türkiye geneli çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "turkiye",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/turkiye.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Türkiye Geneli",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Vita tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Türkiye geneli çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Türkiye geneli tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Türkiye’nin farklı üretim çizgilerinden gelen birikim, bu yağın mutfakta farklı kullanım alanlarına rahatça girebilmesini sağlıyor. Biz de bu esnekliği güvenle sunmak istiyoruz.",
+            "Biz Vita tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Vita aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 515
     },
     {
         "id": 40,
@@ -438,7 +1932,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://www.polattarim.com.tr/wp-content/uploads/2021/08/naturel_zeytinyagi_3.jpg"
+        "image": "images/brand-logos/40-polat-zeytinyagi.png",
+        "slug": "polat-zeytinyagi",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Polat Zeytinyağı ile Ege Bölgesi tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ege Bölgesi çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Polat Zeytinyağı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Polat Zeytinyağı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 518
     },
     {
         "id": 41,
@@ -449,7 +1981,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/41-tego.png",
+        "slug": "tego",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Tego tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Tego tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Tego aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 517
     },
     {
         "id": 42,
@@ -460,7 +2030,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/42-bumba-zeytinyagi.png",
+        "slug": "bumba-zeytinyagi",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/organik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Bumba Zeytinyağı tarafında temiz içerik hassasiyetini lezzetle bir arada tutuyoruz. Ege Bölgesi çıkışlı bu yağı içeriği kadar üretim hassasiyeti de önemli olan temiz bir çizgi anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Bumba Zeytinyağı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Bumba Zeytinyağı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 43,
@@ -471,7 +2079,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://www.herbalpalace.com.tr/idea/nf/63/myassets/products/011/ozonlanmis-zeytinyagi.jpg?revision=1738874855"
+        "image": "images/brand-logos/43-herbal-organik.jpg",
+        "slug": "herbal-organik",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/organik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Herbal Organik tarafında temiz içerik hassasiyetini lezzetle bir arada tutuyoruz. Ege Bölgesi çıkışlı bu yağı içeriği kadar üretim hassasiyeti de önemli olan temiz bir çizgi anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Herbal Organik tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Herbal Organik aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 44,
@@ -482,7 +2128,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://olive-mama-karaage.com/img/logo.png"
+        "image": "images/brand-logos/44-olive-mama.png",
+        "slug": "olive-mama",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/organik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Olive Mama tarafında temiz içerik hassasiyetini lezzetle bir arada tutuyoruz. Ege Bölgesi çıkışlı bu yağı içeriği kadar üretim hassasiyeti de önemli olan temiz bir çizgi anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olive Mama tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olive Mama aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 520
     },
     {
         "id": 45,
@@ -493,7 +2177,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/mnresize/590/591/asset/742185646900/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-500-ml-1.png"
+        "image": "images/brand-logos/45-ekooleo.webp",
+        "slug": "ekooleo",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/organik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Ekooleo tarafında temiz içerik hassasiyetini lezzetle bir arada tutuyoruz. Ege Bölgesi çıkışlı bu yağı içeriği kadar üretim hassasiyeti de önemli olan temiz bir çizgi anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Ekooleo tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Ekooleo aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 517
     },
     {
         "id": 46,
@@ -504,7 +2226,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://blog.otelegidelim.com/wp-content/uploads/2023/04/odemis-cekiste-zeytinyagi-2.png"
+        "image": "images/brand-logos/46-odemis-birlik.png",
+        "slug": "odemis-birlik",
+        "editorial": null,
+        "detail": "Biz Ödemiş, İzmir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Ödemiş Birlik ile Ödemiş, İzmir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ödemiş, İzmir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ödemiş, İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Ödemiş Birlik tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Ödemiş Birlik aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 518
     },
     {
         "id": 47,
@@ -515,7 +2275,45 @@ const brands = [
         "website": "https://www.izbirlik.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/izbirlik.com.tr?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/47-izmir-birlik.png",
+        "slug": "izmir-birlik",
+        "editorial": null,
+        "detail": "Biz İzmir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=izbirlik.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz İzmir Birlik tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz İzmir Birlik tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. İzmir Birlik aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 514
     },
     {
         "id": 48,
@@ -526,7 +2324,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://www.halkmarket.istanbul/idea/jp/05/myassets/products/233/milas-naturel-sizma-zeytinyagi-1-lt.png?revision=1737370438"
+        "image": "images/brand-logos/48-milas-zeytinyaglari.png",
+        "slug": "milas-zeytinyaglari",
+        "editorial": null,
+        "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Milas Zeytinyağları ile Milas, Muğla tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Milas, Muğla çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Milas Zeytinyağları tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Milas Zeytinyağları aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 518
     },
     {
         "id": 49,
@@ -537,7 +2373,45 @@ const brands = [
         "website": "https://nisholive.com",
         "founded": null,
         "highlight": false,
-        "image": "https://img.logo.dev/nisholive.com?token=pk_Ofa3ohoGTiGfMxKCkSAbCA&size=400&format=png"
+        "image": "images/brand-logos/49-nish-olive.png",
+        "slug": "nish-olive",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=nisholive.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Nish Olive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Nish Olive tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Nish Olive aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 516
     },
     {
         "id": 50,
@@ -548,7 +2422,45 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.pazarama.com/MNRESIZE/600/600/asset/742185646894/fcbe2fb9-fcc2-495d-0773-08d979bdb7e0/zeytinyagi-sisesi-yesil-250-ml-1.png"
+        "image": "images/brand-logos/50-naturel.jpg",
+        "slug": "naturel",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "",
+        "longDetailParagraphs": [
+            "Biz Naturel tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Ege Bölgesi çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Naturel tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Naturel aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 517
     },
     {
         "id": 51,
@@ -559,7 +2471,48 @@ const brands = [
         "website": "https://novavera.com.tr",
         "founded": "2017",
         "highlight": true,
-        "image": "https://static.ticimax.cloud/42334/uploads/editoruploads/novavera-logo-white.png"
+        "image": "https://static.ticimax.cloud/42334/uploads/editoruploads/novavera-logo-white.png",
+        "slug": "novavera",
+        "editorial": null,
+        "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. 2017 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik",
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html",
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık",
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=novavera.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz NovaVera tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Edremit, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 2017 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz NovaVera tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. NovaVera aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 508
     },
     {
         "id": 52,
@@ -570,7 +2523,45 @@ const brands = [
         "website": "https://www.gaiaoliva.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://static.ticimax.cloud/34601//uploads/editoruploads/go-logo-2025.svg"
+        "image": "https://static.ticimax.cloud/34601//uploads/editoruploads/go-logo-2025.svg",
+        "slug": "gaia-oliva",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=gaiaoliva.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Gaia Oliva tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Gaia Oliva tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Gaia Oliva aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 53,
@@ -581,7 +2572,45 @@ const brands = [
         "website": "https://nizolive.com",
         "founded": null,
         "highlight": false,
-        "image": "https://nizolive.com/wp-content/uploads/2025/10/1_logo_y.webp"
+        "image": "https://nizolive.com/wp-content/uploads/2025/10/1_logo_y.webp",
+        "slug": "nizolive",
+        "editorial": null,
+        "detail": "Biz Gaziantep, Güneydoğu Anadolu çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "guneydogu",
+        "oliveTypes": [
+            "nizip"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/guneydogu.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/nizip.html"
+        ],
+        "regionClusterLabel": "Güneydoğu Anadolu",
+        "oliveTypeLabels": [
+            "Nizip Yağlık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=nizolive.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Nizolive ile Gaziantep, Güneydoğu Anadolu tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gaziantep, Güneydoğu Anadolu çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gaziantep, Güneydoğu Anadolu tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Güneydoğu tarafının daha belirgin bölgesel kimliği, yağa tok ve akılda kalıcı bir duruş kazandırır. Biz bu duruşu saklamadan, sofrada hemen tanınır hale getirmeyi istiyoruz.",
+            "Biz Nizolive tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Nizip Yağlık çizgisinin güçlü gövdesini ve bölgesel imzasını şişede kaybetmemeye çalışıyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Nizolive aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 54,
@@ -592,7 +2621,48 @@ const brands = [
         "website": "https://www.olioverde.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.olioverde.com.tr/uploads/logo.png"
+        "image": "https://www.olioverde.com.tr/uploads/logo.png",
+        "slug": "verde",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik",
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html",
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık",
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=olioverde.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Verde tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Verde tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Verde aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 55,
@@ -603,7 +2673,45 @@ const brands = [
         "website": "https://www.adatepe.com",
         "founded": null,
         "highlight": true,
-        "image": "https://www.adatepe.com/foto/6f0c3471da75.jpg"
+        "image": "https://www.adatepe.com/foto/6f0c3471da75.jpg",
+        "slug": "adatepe",
+        "editorial": null,
+        "detail": "Biz Küçükkuyu, Çanakkale çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=adatepe.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Adatepe tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Küçükkuyu, Çanakkale çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Küçükkuyu, Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Adatepe tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Adatepe aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 56,
@@ -614,7 +2722,45 @@ const brands = [
         "website": "https://www.oleturk.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.oleturk.com/cdn/shop/files/Logo_white.png?v=1769521626"
+        "image": "https://www.oleturk.com/cdn/shop/files/Logo_white.png?v=1769521626",
+        "slug": "oleturk",
+        "editorial": null,
+        "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=oleturk.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz OleTurk tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz OleTurk tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. OleTurk aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 57,
@@ -625,7 +2771,45 @@ const brands = [
         "website": "https://kahraman.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://kahraman.com.tr/kahraman/logo/logo.png"
+        "image": "https://kahraman.com.tr/kahraman/logo/logo.png",
+        "slug": "kahraman",
+        "editorial": null,
+        "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=kahraman.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Kahraman tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Akhisar, Manisa çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Kahraman tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Kahraman aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 58,
@@ -636,7 +2820,45 @@ const brands = [
         "website": "https://butaassos.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://butaassos.com.tr/wp-content/uploads/2025/04/LOGO-1.png"
+        "image": "https://butaassos.com.tr/wp-content/uploads/2025/04/LOGO-1.png",
+        "slug": "buta-assos",
+        "editorial": null,
+        "detail": "Biz Assos, Çanakkale çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=butaassos.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Buta Assos tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Assos, Çanakkale çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Assos, Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Buta Assos tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Buta Assos aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 516
     },
     {
         "id": 59,
@@ -647,7 +2869,45 @@ const brands = [
         "website": "https://www.ayvaco.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.ayvaco.com/cdn/shop/files/AYV_logo_final_20f77506-6e46-4a00-8884-c48658186a7d_300x.png?v=1736545014"
+        "image": "https://www.ayvaco.com/cdn/shop/files/AYV_logo_final_20f77506-6e46-4a00-8884-c48658186a7d_300x.png?v=1736545014",
+        "slug": "ayvaco",
+        "editorial": null,
+        "detail": "Biz Ayvacık, Çanakkale çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=ayvaco.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Ayvaco ile Ayvacık, Çanakkale tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ayvacık, Çanakkale çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvacık, Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Ayvaco tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Ayvaco aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 508
     },
     {
         "id": 60,
@@ -658,7 +2918,45 @@ const brands = [
         "website": "https://ovefoods.com",
         "founded": null,
         "highlight": false,
-        "image": "https://ovefoods.com/ovelogonet.png"
+        "image": "https://ovefoods.com/ovelogonet.png",
+        "slug": "ove-foods",
+        "editorial": null,
+        "detail": "Biz Aydın, Ege çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=ovefoods.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz OVE Foods tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Aydın, Ege çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Aydın, Ege tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz OVE Foods tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. OVE Foods aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 516
     },
     {
         "id": 61,
@@ -669,7 +2967,48 @@ const brands = [
         "website": "https://granpa.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://granpa.com.tr/cdn/shop/files/image_1080_copy.png?v=1749037376&width=1445"
+        "image": "https://granpa.com.tr/cdn/shop/files/image_1080_copy.png?v=1749037376&width=1445",
+        "slug": "granpa",
+        "editorial": null,
+        "detail": "Biz Bursa, Marmara çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik",
+            "trilye"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html",
+            "topic/zeytin-cesitleri/trilye.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik",
+            "Trilye"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=granpa.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Granpa tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Bursa, Marmara çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Bursa, Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Granpa tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Granpa aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 62,
@@ -680,7 +3019,45 @@ const brands = [
         "website": "https://mavras.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://mavras.com.tr/cdn/shop/files/MAVRAS.png?v=1753728989&width=1445"
+        "image": "https://mavras.com.tr/cdn/shop/files/MAVRAS.png?v=1753728989&width=1445",
+        "slug": "mavras",
+        "editorial": null,
+        "detail": "Biz Urla, İzmir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=mavras.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Mavras tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Urla, İzmir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Urla, İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Mavras tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Mavras aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 63,
@@ -691,7 +3068,45 @@ const brands = [
         "website": "https://www.hermus.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.hermus.com.tr/idea/qn/58/myassets/std_theme_files/tpl-foodavo/assets/uploads/logo.png?revision=1770746284"
+        "image": "https://www.hermus.com.tr/idea/qn/58/myassets/std_theme_files/tpl-foodavo/assets/uploads/logo.png?revision=1770746284",
+        "slug": "hermus",
+        "editorial": null,
+        "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=hermus.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Hermus tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Akhisar, Manisa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Hermus tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Hermus aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 64,
@@ -702,7 +3117,45 @@ const brands = [
         "website": "https://nerminhanim.com",
         "founded": null,
         "highlight": true,
-        "image": "https://cdn.myikas.com/images/theme-images/d2fff716-f48b-48bf-b26e-6f6c800268e7/image_180.webp"
+        "image": "https://cdn.myikas.com/images/theme-images/d2fff716-f48b-48bf-b26e-6f6c800268e7/image_180.webp",
+        "slug": "nermin-hanim-zeytinligi",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=nerminhanim.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Nermin Hanım Zeytinliği tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Nermin Hanım Zeytinliği tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Nermin Hanım Zeytinliği aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 516
     },
     {
         "id": 65,
@@ -713,7 +3166,45 @@ const brands = [
         "website": "https://olivyagokceovacik.com",
         "founded": null,
         "highlight": false,
-        "image": "https://olivyagokceovacik.com/wp-content/uploads/olivyagokceovacik-logo-100x100.webp"
+        "image": "https://olivyagokceovacik.com/wp-content/uploads/olivyagokceovacik-logo-100x100.webp",
+        "slug": "olivya-gokceovacik",
+        "editorial": null,
+        "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=olivyagokceovacik.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Olivya Gökçeovacık tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olivya Gökçeovacık tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olivya Gökçeovacık aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 516
     },
     {
         "id": 66,
@@ -724,7 +3215,45 @@ const brands = [
         "website": "https://zetay.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://zetay.com.tr/upload/upload/8c721f08-33db-4c6b-87ed-86b21cc06ba5.png"
+        "image": "https://zetay.com.tr/upload/upload/8c721f08-33db-4c6b-87ed-86b21cc06ba5.png",
+        "slug": "zetay",
+        "editorial": null,
+        "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zetay.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Zetay ile Edremit, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Edremit, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Edremit, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Zetay tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Zetay aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 508
     },
     {
         "id": 67,
@@ -735,7 +3264,45 @@ const brands = [
         "website": "https://www.mrzeytin.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.mrzeytin.com.tr/galeri/2442132831.webp"
+        "image": "https://www.mrzeytin.com.tr/galeri/2442132831.webp",
+        "slug": "mr-zeytin",
+        "editorial": null,
+        "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=mrzeytin.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz MR Zeytin ile Akhisar, Manisa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Akhisar, Manisa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz MR Zeytin tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. MR Zeytin aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 68,
@@ -746,7 +3313,45 @@ const brands = [
         "website": "https://dalgicoglu.com",
         "founded": null,
         "highlight": false,
-        "image": "https://dalgicoglu.com/wp-content/uploads/2023/08/dalgicoglu.com-904410.png"
+        "image": "https://dalgicoglu.com/wp-content/uploads/2023/08/dalgicoglu.com-904410.png",
+        "slug": "dalgicoglu",
+        "editorial": null,
+        "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=dalgicoglu.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Dalgıçoğlu ile Edremit, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Edremit, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Edremit, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Dalgıçoğlu tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Dalgıçoğlu aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 508
     },
     {
         "id": 69,
@@ -757,7 +3362,45 @@ const brands = [
         "website": "https://www.sabuncugil.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://ideacdn.net/idea/di/87/themes/selftpl_6912dd7f4fb18/assets/uploads/logo.png?revision=1770973431"
+        "image": "https://ideacdn.net/idea/di/87/themes/selftpl_6912dd7f4fb18/assets/uploads/logo.png?revision=1770973431",
+        "slug": "sabuncugil",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=sabuncugil.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Sabuncugil ile Ayvalık, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ayvalık, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Sabuncugil tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Sabuncugil aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 508
     },
     {
         "id": 70,
@@ -768,7 +3411,45 @@ const brands = [
         "website": "https://koralzeytin.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.koralzeytin.com/image/cache/catalog/site-resimleri/logo_band_white@2x-912x64.png"
+        "image": "https://www.koralzeytin.com/image/cache/catalog/site-resimleri/logo_band_white@2x-912x64.png",
+        "slug": "koral-zeytin",
+        "editorial": null,
+        "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=koralzeytin.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Koral Zeytin ile Akhisar, Manisa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Akhisar, Manisa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Koral Zeytin tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Koral Zeytin aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 71,
@@ -779,7 +3460,45 @@ const brands = [
         "website": "https://semylasa.com",
         "founded": null,
         "highlight": false,
-        "image": "https://semylasa.com/cdn/shop/files/Untitled_design_10.png?v=1732443014&width=600"
+        "image": "https://semylasa.com/cdn/shop/files/Untitled_design_10.png?v=1732443014&width=600",
+        "slug": "semylasa",
+        "editorial": null,
+        "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=semylasa.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Semylasa tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Semylasa tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Semylasa aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 72,
@@ -790,7 +3509,45 @@ const brands = [
         "website": "https://olivamore.com",
         "founded": null,
         "highlight": false,
-        "image": "https://olivamore.com/wp-content/uploads/2024/12/olivamore-logo.svg"
+        "image": "https://olivamore.com/wp-content/uploads/2024/12/olivamore-logo.svg",
+        "slug": "olivamore",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=olivamore.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Olivamore tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Olivamore tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Olivamore aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 73,
@@ -801,7 +3558,45 @@ const brands = [
         "website": "https://www.ayolis.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.ticimax.cloud/cdn-cgi/image/width=1903,quality=99/55671/uploads/editoruploads/footer-logo.png"
+        "image": "https://static.ticimax.cloud/cdn-cgi/image/width=1903,quality=99/55671/uploads/editoruploads/footer-logo.png",
+        "slug": "ayolis",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=ayolis.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Ayolis tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Ayolis tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Ayolis aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 74,
@@ -812,7 +3607,45 @@ const brands = [
         "website": "https://gemlika.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://gemlika.com.tr/wp-content/uploads/2024/08/gemlika.png"
+        "image": "https://gemlika.com.tr/wp-content/uploads/2024/08/gemlika.png",
+        "slug": "gemlika",
+        "editorial": null,
+        "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=gemlika.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Gemlika ile Gemlik, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gemlik, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Gemlika tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Gemlika aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 75,
@@ -823,7 +3656,45 @@ const brands = [
         "website": "https://www.zeytinsan.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytinsan.com.tr/wp-content/uploads/2021/10/zeytinsan-logo180.png"
+        "image": "https://www.zeytinsan.com.tr/wp-content/uploads/2021/10/zeytinsan-logo180.png",
+        "slug": "zeytinsan",
+        "editorial": null,
+        "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytinsan.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Zeytinsan tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Akhisar, Manisa çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Zeytinsan tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Zeytinsan aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 76,
@@ -834,7 +3705,45 @@ const brands = [
         "website": "https://www.anolive.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.anolive.com.tr/img/anolive-logo-header_1.png"
+        "image": "https://www.anolive.com.tr/img/anolive-logo-header_1.png",
+        "slug": "anolive",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=anolive.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Anolive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Anolive tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Anolive aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 77,
@@ -845,7 +3754,45 @@ const brands = [
         "website": "https://artemoliva.com",
         "founded": null,
         "highlight": false,
-        "image": "https://artemoliva.com/wp-content/uploads/2021/02/logo_bckrgoundOK_sizeOK_GRNT250X250_TVL270X270.png"
+        "image": "https://artemoliva.com/wp-content/uploads/2021/02/logo_bckrgoundOK_sizeOK_GRNT250X250_TVL270X270.png",
+        "slug": "artem-oliva",
+        "editorial": null,
+        "detail": "Biz Marmara çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=artemoliva.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Artem Oliva tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Marmara çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Artem Oliva tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Artem Oliva aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 514
     },
     {
         "id": 78,
@@ -856,7 +3803,45 @@ const brands = [
         "website": "https://www.oliveoilsland.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.oliveoilsland.com/wp-content/themes/neve/olive/images/logo.png"
+        "image": "https://www.oliveoilsland.com/wp-content/themes/neve/olive/images/logo.png",
+        "slug": "oliveoilsland",
+        "editorial": null,
+        "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=oliveoilsland.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz OliveOilsLand tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz OliveOilsLand tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. OliveOilsLand aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 79,
@@ -867,7 +3852,45 @@ const brands = [
         "website": "https://www.hatnar.com",
         "founded": null,
         "highlight": true,
-        "image": "https://www.hatnar.com/wp-content/uploads/2021/10/hatnar-logo-H-8.png"
+        "image": "https://www.hatnar.com/wp-content/uploads/2021/10/hatnar-logo-H-8.png",
+        "slug": "hatnar",
+        "editorial": null,
+        "detail": "Biz Erzin, Hatay çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "halhali"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Halhalı"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=hatnar.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Hatnar tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Erzin, Hatay çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Erzin, Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Hatnar tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Hatnar aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 80,
@@ -878,7 +3901,45 @@ const brands = [
         "website": "https://zetiya.com",
         "founded": null,
         "highlight": true,
-        "image": "https://zetiya.com/cdn/shop/files/Logo.Zetiya4.png?v=1756152630&width=500"
+        "image": "https://zetiya.com/cdn/shop/files/Logo.Zetiya4.png?v=1756152630&width=500",
+        "slug": "zetiya",
+        "editorial": null,
+        "detail": "Biz Hatay çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "halhali"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Halhalı"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zetiya.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Zetiya tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Hatay çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Zetiya tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Zetiya aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 81,
@@ -889,7 +3950,45 @@ const brands = [
         "website": "https://eceden.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://eceden.com.tr/logo3.png"
+        "image": "https://eceden.com.tr/logo3.png",
+        "slug": "ece-den-sofraniza",
+        "editorial": null,
+        "detail": "Biz Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "halhali"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Halhalı"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=eceden.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Ece'den Sofranıza ile Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Ece'den Sofranıza tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Ece'den Sofranıza aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 82,
@@ -900,7 +3999,45 @@ const brands = [
         "website": "https://uygurzeytinyagi.com",
         "founded": "1972",
         "highlight": true,
-        "image": "https://uygurzeytinyagi.com/images/logo.png"
+        "image": "https://uygurzeytinyagi.com/images/logo.png",
+        "slug": "uygur-zeytinyagi",
+        "editorial": null,
+        "detail": "Biz Nizip, Gaziantep çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1972 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "guneydogu",
+        "oliveTypes": [
+            "nizip"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/guneydogu.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/nizip.html"
+        ],
+        "regionClusterLabel": "Güneydoğu Anadolu",
+        "oliveTypeLabels": [
+            "Nizip Yağlık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=uygurzeytinyagi.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Uygur Zeytinyağı tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Nizip, Gaziantep çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 1972 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Güneydoğu tarafının daha belirgin bölgesel kimliği, yağa tok ve akılda kalıcı bir duruş kazandırır. Biz bu duruşu saklamadan, sofrada hemen tanınır hale getirmeyi istiyoruz.",
+            "Biz Uygur Zeytinyağı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Nizip Yağlık çizgisinin güçlü gövdesini ve bölgesel imzasını şişede kaybetmemeye çalışıyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Uygur Zeytinyağı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 83,
@@ -911,7 +4048,45 @@ const brands = [
         "website": "https://www.yalimzeytinyaglari.com.tr",
         "founded": "1997",
         "highlight": false,
-        "image": "https://www.yalimzeytinyaglari.com.tr/assets/images/logo.png"
+        "image": "https://www.yalimzeytinyaglari.com.tr/assets/images/logo.png",
+        "slug": "yalim-zeytin-yaglari",
+        "editorial": null,
+        "detail": "Biz Gaziantep çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1997 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "guneydogu",
+        "oliveTypes": [
+            "nizip"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/guneydogu.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/nizip.html"
+        ],
+        "regionClusterLabel": "Güneydoğu Anadolu",
+        "oliveTypeLabels": [
+            "Nizip Yağlık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=yalimzeytinyaglari.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Yalım Zeytin Yağları tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Gaziantep çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 1997 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Güneydoğu tarafının daha belirgin bölgesel kimliği, yağa tok ve akılda kalıcı bir duruş kazandırır. Biz bu duruşu saklamadan, sofrada hemen tanınır hale getirmeyi istiyoruz.",
+            "Biz Yalım Zeytin Yağları tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Nizip Yağlık çizgisinin güçlü gövdesini ve bölgesel imzasını şişede kaybetmemeye çalışıyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Yalım Zeytin Yağları aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 84,
@@ -922,7 +4097,45 @@ const brands = [
         "website": "https://www.zeytincir.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytincir.com.tr/wp-content/uploads/2021/12/zeytinyagi-logo1-1.png"
+        "image": "https://www.zeytincir.com.tr/wp-content/uploads/2021/12/zeytinyagi-logo1-1.png",
+        "slug": "zeytincir",
+        "editorial": null,
+        "detail": "Biz Gaziantep çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "guneydogu",
+        "oliveTypes": [
+            "nizip"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/guneydogu.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/nizip.html"
+        ],
+        "regionClusterLabel": "Güneydoğu Anadolu",
+        "oliveTypeLabels": [
+            "Nizip Yağlık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytincir.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Zeytincir ile Gaziantep tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gaziantep çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gaziantep tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Güneydoğu tarafının daha belirgin bölgesel kimliği, yağa tok ve akılda kalıcı bir duruş kazandırır. Biz bu duruşu saklamadan, sofrada hemen tanınır hale getirmeyi istiyoruz.",
+            "Biz Zeytincir tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Nizip Yağlık çizgisinin güçlü gövdesini ve bölgesel imzasını şişede kaybetmemeye çalışıyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Zeytincir aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 505
     },
     {
         "id": 85,
@@ -933,7 +4146,45 @@ const brands = [
         "website": "https://www.bazilika.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.bazilika.com.tr/upload/bazilika-zeytinyaglari-hatay-antakya-altinozu.png"
+        "image": "https://www.bazilika.com.tr/upload/bazilika-zeytinyaglari-hatay-antakya-altinozu.png",
+        "slug": "bazilika",
+        "editorial": null,
+        "detail": "Biz Altınözü, Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "halhali"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Halhalı"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=bazilika.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Bazilika ile Altınözü, Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Altınözü, Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Altınözü, Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Bazilika tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Bazilika aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 86,
@@ -944,7 +4195,45 @@ const brands = [
         "website": "https://arslanzeytinyagi.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://arslanzeytinyagi.com.tr/upload//arslan-zeytinyagi10.png"
+        "image": "https://arslanzeytinyagi.com.tr/upload//arslan-zeytinyagi10.png",
+        "slug": "arslan-zeytinyagi",
+        "editorial": null,
+        "detail": "Biz Antakya, Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "halhali"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Halhalı"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=arslanzeytinyagi.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Arslan Zeytinyağı ile Antakya, Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Antakya, Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Antakya, Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Arslan Zeytinyağı tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Arslan Zeytinyağı aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 512
     },
     {
         "id": 87,
@@ -955,7 +4244,45 @@ const brands = [
         "website": "https://www.hataytadinda.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.hataytadinda.com/wp-content/uploads/2019/04/hatay-tad%C4%B1nda-logo2.png"
+        "image": "https://www.hataytadinda.com/wp-content/uploads/2019/04/hatay-tad%C4%B1nda-logo2.png",
+        "slug": "hatay-tadinda",
+        "editorial": null,
+        "detail": "Biz Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "halhali"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/halhali.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Halhalı"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=hataytadinda.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Hatay Tadında ile Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Hatay Tadında tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Hatay Tadında aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 88,
@@ -966,7 +4293,45 @@ const brands = [
         "website": "https://www.gemtar.com.tr",
         "founded": null,
         "highlight": true,
-        "image": "https://ideacdn.net/idea/ln/94/themes/selftpl_63c93921dff4b/assets/uploads/logo.png?revision=1761118145"
+        "image": "https://ideacdn.net/idea/ln/94/themes/selftpl_63c93921dff4b/assets/uploads/logo.png?revision=1761118145",
+        "slug": "gemtar",
+        "editorial": null,
+        "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=gemtar.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Gemtar tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Gemlik, Bursa çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Gemtar tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Gemtar aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 89,
@@ -977,7 +4342,45 @@ const brands = [
         "website": "https://www.gemlikzeytincisi.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/op.png"
+        "image": "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/op.png",
+        "slug": "gemlik-zeytincisi",
+        "editorial": null,
+        "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=gemlikzeytincisi.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Gemlik Zeytincisi ile Gemlik, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gemlik, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Gemlik Zeytincisi tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Gemlik Zeytincisi aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 514
     },
     {
         "id": 90,
@@ -988,7 +4391,45 @@ const brands = [
         "website": "https://www.gemlikzeytinevi.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.gemlikzeytinevi.com/image/catalog/logohy.png"
+        "image": "https://www.gemlikzeytinevi.com/image/catalog/logohy.png",
+        "slug": "gemlik-zeytin-evi",
+        "editorial": null,
+        "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=gemlikzeytinevi.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Gemlik Zeytin Evi ile Gemlik, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gemlik, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Gemlik Zeytin Evi tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Gemlik Zeytin Evi aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 517
     },
     {
         "id": 91,
@@ -999,7 +4440,45 @@ const brands = [
         "website": "https://www.zeytinagaci.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytinagaci.com/shop/bu/35/themes/selftpl_61814615742ac/assets/uploads/logo.png?revision=1767075887"
+        "image": "https://www.zeytinagaci.com/shop/bu/35/themes/selftpl_61814615742ac/assets/uploads/logo.png?revision=1767075887",
+        "slug": "solive",
+        "editorial": null,
+        "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytinagaci.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Solive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Gemlik, Bursa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Solive tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Solive aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 92,
@@ -1010,7 +4489,45 @@ const brands = [
         "website": "https://yelkenlizeytinyagi.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/logo-1.png"
+        "image": "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/logo-1.png",
+        "slug": "yelkenli",
+        "editorial": null,
+        "detail": "Biz Mudanya, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=yelkenlizeytinyagi.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Yelkenli ile Mudanya, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mudanya, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mudanya, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Yelkenli tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Yelkenli aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 93,
@@ -1021,7 +4538,45 @@ const brands = [
         "website": "https://www.vivaxolea.com",
         "founded": "2021",
         "highlight": true,
-        "image": "https://www.vivaxolea.com/tema/kurumsal/uploads/logo/VivaxOlea_Logo.png"
+        "image": "https://www.vivaxolea.com/tema/kurumsal/uploads/logo/VivaxOlea_Logo.png",
+        "slug": "vivax-olea",
+        "editorial": null,
+        "detail": "Biz Şarköy, Tekirdağ çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. 2021 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "trakya",
+        "oliveTypes": [
+            "trilye"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/trakya.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/trilye.html"
+        ],
+        "regionClusterLabel": "Trakya Bölgesi",
+        "oliveTypeLabels": [
+            "Trilye"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=vivaxolea.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Vivax Olea tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Şarköy, Tekirdağ çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 2021 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Trakya tarafının daha niş ve daha yakın üretim hissi, şişeye sakin ama özgün bir kimlik verir. Biz bu özgünlüğü fazla oynatmadan korumaya çalışıyoruz.",
+            "Biz Vivax Olea tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Trilye çizgisinin damakta bıraktığı karakteri mümkün olduğunca açık hissettirmek istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Vivax Olea aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 94,
@@ -1032,7 +4587,45 @@ const brands = [
         "website": "https://sarkoyciftlik.com.tr",
         "founded": null,
         "highlight": true,
-        "image": "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/b83b2e19-7134-48e7-9e43-cd9f159202b8/image_1080.webp"
+        "image": "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/b83b2e19-7134-48e7-9e43-cd9f159202b8/image_1080.webp",
+        "slug": "sarkoy-ciftlik",
+        "editorial": null,
+        "detail": "Biz Şarköy, Tekirdağ çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "trakya",
+        "oliveTypes": [
+            "trilye"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/trakya.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/trilye.html"
+        ],
+        "regionClusterLabel": "Trakya Bölgesi",
+        "oliveTypeLabels": [
+            "Trilye"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=sarkoyciftlik.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Şarköy Çiftlik ile Şarköy, Tekirdağ tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Şarköy, Tekirdağ çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Şarköy, Tekirdağ tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Trakya tarafının daha niş ve daha yakın üretim hissi, şişeye sakin ama özgün bir kimlik verir. Biz bu özgünlüğü fazla oynatmadan korumaya çalışıyoruz.",
+            "Biz Şarköy Çiftlik tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Trilye çizgisinin damakta bıraktığı karakteri mümkün olduğunca açık hissettirmek istiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Şarköy Çiftlik aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 95,
@@ -1043,7 +4636,45 @@ const brands = [
         "website": "https://www.mutuna.com",
         "founded": null,
         "highlight": true,
-        "image": "https://www.mutuna.com/idea/if/09/themes/selftpl_65798a840c0eb/assets/uploads/logo.png?revision=1729753622"
+        "image": "https://www.mutuna.com/idea/if/09/themes/selftpl_65798a840c0eb/assets/uploads/logo.png?revision=1729753622",
+        "slug": "mutuna",
+        "editorial": null,
+        "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=mutuna.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Mutuna ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Mutuna tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Mutuna aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 96,
@@ -1054,7 +4685,45 @@ const brands = [
         "website": "https://mutili.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://mutili.com.tr/wp-content/uploads/2025/05/Mutili-Logo-2.png"
+        "image": "https://mutili.com.tr/wp-content/uploads/2025/05/Mutili-Logo-2.png",
+        "slug": "mutili",
+        "editorial": null,
+        "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=mutili.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Mutili tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Mut, Mersin çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Mutili tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Mutili aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 97,
@@ -1065,7 +4734,45 @@ const brands = [
         "website": "https://mutincisi.com",
         "founded": null,
         "highlight": false,
-        "image": "https://mutincisi.com/assets/images/logo_1772443738.png"
+        "image": "https://mutincisi.com/assets/images/logo_1772443738.png",
+        "slug": "mut-incisi",
+        "editorial": null,
+        "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=mutincisi.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Mut İncisi ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Mut İncisi tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Mut İncisi aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 512
     },
     {
         "id": 98,
@@ -1076,7 +4783,45 @@ const brands = [
         "website": "https://www.zeytinyagievi.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytinyagievi.com/shop/rr/76/themes/selftpl_5de7a2fdcd356/assets/uploads/logo.png?revision=1767710058"
+        "image": "https://www.zeytinyagievi.com/shop/rr/76/themes/selftpl_5de7a2fdcd356/assets/uploads/logo.png?revision=1767710058",
+        "slug": "zeytinyagi-evi",
+        "editorial": null,
+        "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytinyagievi.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Zeytinyağı Evi ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Zeytinyağı Evi tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Zeytinyağı Evi aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 512
     },
     {
         "id": 99,
@@ -1087,7 +4832,45 @@ const brands = [
         "website": "https://www.sazakzeytincilik.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.sazakzeytincilik.com/idea/bf/61/themes/selftpl_65a925bc527ae/assets/uploads/logo.png?revision=1770703548"
+        "image": "https://www.sazakzeytincilik.com/idea/bf/61/themes/selftpl_65a925bc527ae/assets/uploads/logo.png?revision=1770703548",
+        "slug": "sazak-zeytincilik",
+        "editorial": null,
+        "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=sazakzeytincilik.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Sazak Zeytincilik ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Sazak Zeytincilik tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Sazak Zeytincilik aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 512
     },
     {
         "id": 100,
@@ -1098,7 +4881,45 @@ const brands = [
         "website": "https://www.adrasos.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.adrasos.com/idea/hd/67/themes/selftpl_5faad86c5cff0/assets/uploads/logo.jpg?revision=1728927645"
+        "image": "https://www.adrasos.com/idea/hd/67/themes/selftpl_5faad86c5cff0/assets/uploads/logo.jpg?revision=1728927645",
+        "slug": "adrasos",
+        "editorial": null,
+        "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=adrasos.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Adrasos tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Mut, Mersin çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Adrasos tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Adrasos aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 101,
@@ -1109,7 +4930,45 @@ const brands = [
         "website": "https://mutolea.com",
         "founded": null,
         "highlight": false,
-        "image": "https://mutolea.com/Resim/mut-olea-3000-3000-piksel-pdf-1000-x-1000-piksel-14_tr_TR.png"
+        "image": "https://mutolea.com/Resim/mut-olea-3000-3000-piksel-pdf-1000-x-1000-piksel-14_tr_TR.png",
+        "slug": "mutolea",
+        "editorial": null,
+        "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/bolgesel-yerel.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=mutolea.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Mutolea ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz Mutolea tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Mutolea aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 102,
@@ -1120,7 +4979,45 @@ const brands = [
         "website": "https://www.palamidas.com",
         "founded": null,
         "highlight": false,
-        "image": "https://shop.palamidas.com/uploads/logo.swceh.png"
+        "image": "https://shop.palamidas.com/uploads/logo.swceh.png",
+        "slug": "palamidas",
+        "editorial": null,
+        "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=palamidas.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Palamidas tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Akhisar, Manisa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Palamidas tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Palamidas aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 103,
@@ -1131,7 +5028,45 @@ const brands = [
         "website": "https://www.orodimilas.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/1ab336_32e95f3d4bd14e92945b0eab059a8a28~mv2.png/v1/fill/w_366,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/pic-site-15.png"
+        "image": "https://static.wixstatic.com/media/1ab336_32e95f3d4bd14e92945b0eab059a8a28~mv2.png/v1/fill/w_366,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/pic-site-15.png",
+        "slug": "oro-di-milas",
+        "editorial": null,
+        "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=orodimilas.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Oro di Milas tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Oro di Milas tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Oro di Milas aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 519
     },
     {
         "id": 104,
@@ -1142,7 +5077,45 @@ const brands = [
         "website": "https://www.velvetoliveoil.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/734c68_8d8c98a6135e49b0b41911349c6d5f2b~mv2.png/v1/crop/x_0,y_132,w_450,h_185/fill/w_209,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Velvet%20Logo%20Yeni%20Boyut.png"
+        "image": "https://static.wixstatic.com/media/734c68_8d8c98a6135e49b0b41911349c6d5f2b~mv2.png/v1/crop/x_0,y_132,w_450,h_185/fill/w_209,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Velvet%20Logo%20Yeni%20Boyut.png",
+        "slug": "velvet",
+        "editorial": null,
+        "detail": "Biz Orhangazi, Bursa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "marmara",
+        "oliveTypes": [
+            "gemlik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/marmara.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/gemlik.html"
+        ],
+        "regionClusterLabel": "Marmara Bölgesi",
+        "oliveTypeLabels": [
+            "Gemlik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=velvetoliveoil.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Velvet tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Orhangazi, Bursa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Orhangazi, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.",
+            "Biz Velvet tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Velvet aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
     },
     {
         "id": 105,
@@ -1153,7 +5126,45 @@ const brands = [
         "website": "https://www.masmana.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.masmana.com/cdn/shop/files/masmana-logo-png.png?v=1754565017"
+        "image": "https://www.masmana.com/cdn/shop/files/masmana-logo-png.png?v=1754565017",
+        "slug": "masmana",
+        "editorial": null,
+        "detail": "Biz Kilis, Güneydoğu Anadolu çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "guneydogu",
+        "oliveTypes": [
+            "nizip"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/guneydogu.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/nizip.html"
+        ],
+        "regionClusterLabel": "Güneydoğu Anadolu",
+        "oliveTypeLabels": [
+            "Nizip Yağlık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=masmana.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz MASMANA tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Kilis, Güneydoğu Anadolu çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Kilis, Güneydoğu Anadolu tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Güneydoğu tarafının daha belirgin bölgesel kimliği, yağa tok ve akılda kalıcı bir duruş kazandırır. Biz bu duruşu saklamadan, sofrada hemen tanınır hale getirmeyi istiyoruz.",
+            "Biz MASMANA tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Nizip Yağlık çizgisinin güçlü gövdesini ve bölgesel imzasını şişede kaybetmemeye çalışıyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. MASMANA aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 512
     },
     {
         "id": 106,
@@ -1164,7 +5175,45 @@ const brands = [
         "website": "https://www.josevia.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/bc44bf_7d1e1648ecd748c791e6bf92acc65fb5~mv2.png"
+        "image": "https://static.wixstatic.com/media/bc44bf_7d1e1648ecd748c791e6bf92acc65fb5~mv2.png",
+        "slug": "josevia",
+        "editorial": null,
+        "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=josevia.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Josevia tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Josevia tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Josevia aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 107,
@@ -1175,7 +5224,45 @@ const brands = [
         "website": "https://efsusnatural.com",
         "founded": "2010",
         "highlight": false,
-        "image": "https://efsusnatural.com/wp-content/uploads/2023/05/logo-300x89.png"
+        "image": "https://efsusnatural.com/wp-content/uploads/2023/05/logo-300x89.png",
+        "slug": "efsus",
+        "editorial": null,
+        "detail": "Biz Tarsus, Mersin çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. 2010 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "akdeniz",
+        "oliveTypes": [
+            "sari-ulak"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/organik.html",
+        "regionTopicUrl": "topic/bolgeler/akdeniz.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/sari-ulak.html"
+        ],
+        "regionClusterLabel": "Akdeniz Bölgesi",
+        "oliveTypeLabels": [
+            "Sarı Ulak"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=efsusnatural.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz EFSUS tarafında temiz içerik hassasiyetini lezzetle bir arada tutuyoruz. Tarsus, Mersin çıkışlı bu yağı içeriği kadar üretim hassasiyeti de önemli olan temiz bir çizgi anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 2010 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.",
+            "Biz EFSUS tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. EFSUS aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 509
     },
     {
         "id": 108,
@@ -1186,7 +5273,48 @@ const brands = [
         "website": "https://www.guvenasazeytinyagi.com",
         "founded": "2014",
         "highlight": false,
-        "image": "https://static.ticimax.cloud/5032/uploads/editoruploads/site/guven-asa-logo.png"
+        "image": "https://static.ticimax.cloud/5032/uploads/editoruploads/site/guven-asa-logo.png",
+        "slug": "guven-asa",
+        "editorial": null,
+        "detail": "Biz Gömeç, Balıkesir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 2014 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik",
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/market-endustriyel.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html",
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık",
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=guvenasazeytinyagi.com&sz=256",
+        "longDetailParagraphs": [
+            "Biz Güven Asa tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Gömeç, Balıkesir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 2014 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Güven Asa tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Güven Asa aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 511
     },
     {
         "id": 109,
@@ -1197,7 +5325,45 @@ const brands = [
         "website": "https://zenolive.com.tr",
         "founded": "2004",
         "highlight": false,
-        "image": "https://zenolive.com.tr/wp-content/uploads/2020/04/Logo_ZenOlive.webp"
+        "image": "https://zenolive.com.tr/wp-content/uploads/2020/04/Logo_ZenOlive.webp",
+        "slug": "zenolive",
+        "editorial": null,
+        "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. 2004 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=zenolive.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz ZenOlive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Edremit, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Bizim hikayemizde 2004 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz ZenOlive tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. ZenOlive aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 508
     },
     {
         "id": 110,
@@ -1208,7 +5374,48 @@ const brands = [
         "website": "https://kozoliv.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://static.ticimax.cloud/61978/uploads/editoruploads/logo_band_colored1x.png"
+        "image": "https://static.ticimax.cloud/61978/uploads/editoruploads/logo_band_colored1x.png",
+        "slug": "kozoliv",
+        "editorial": null,
+        "detail": "Biz Gömeç, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "ayvalik",
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/ayvalik.html",
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Ayvalık",
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=kozoliv.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Kozoliv tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Gömeç, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Gömeç, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Kozoliv tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Kozoliv aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 510
     },
     {
         "id": 111,
@@ -1219,7 +5426,155 @@ const brands = [
         "website": "https://milasso.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://spaces.wikiapis.com/milasso/milassologo.png"
+        "image": "https://spaces.wikiapis.com/milasso/milassologo.png",
+        "slug": "milasso",
+        "editorial": null,
+        "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
+        "bottleImages": [],
+        "regionCluster": "ege",
+        "oliveTypes": [
+            "memecik"
+        ],
+        "categoryTopicUrl": "topic/kategoriler/premium-butik.html",
+        "regionTopicUrl": "topic/bolgeler/ege.html",
+        "oliveTopicUrls": [
+            "topic/zeytin-cesitleri/memecik.html"
+        ],
+        "regionClusterLabel": "Ege Bölgesi",
+        "oliveTypeLabels": [
+            "Memecik"
+        ],
+        "logoFallback": "https://www.google.com/s2/favicons?domain=milasso.com.tr&sz=256",
+        "longDetailParagraphs": [
+            "Biz Milasso tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
+            "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
+            "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.",
+            "Biz Milasso tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz. Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.",
+            "Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
+            "Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+            "Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. Milasso aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.",
+            "İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.",
+            "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.",
+            "Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır."
+        ],
+        "longDetailWordCount": 513
+    },
+    {
+        "id": 112,
+        "name": "Oliella",
+        "desc": "Seferihisar çıkışlı erken hasat, soğuk sıkım natürel sızma zeytinyağları sunan butik üretici.",
+        "region": "Seferihisar, İzmir",
+        "category": "premium-butik",
+        "website": "https://www.oliellaseferihisar.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://static.wixstatic.com/media/9f2182_7c2ed85fdb44468084ad530ebebbd9a4~mv2.png"
+    },
+    {
+        "id": 113,
+        "name": "Seosfarm",
+        "desc": "Seferihisar hattında erken hasat ve özel seri natürel sızma zeytinyağları geliştiren üretici.",
+        "region": "Seferihisar, İzmir",
+        "category": "premium-butik",
+        "website": "https://seosfarm.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://seosfarm.com/wp-content/uploads/seos-farm-logo.png"
+    },
+    {
+        "id": 114,
+        "name": "Seferis",
+        "desc": "Seferihisar Ulamış çevresinde organik soğuk sıkım natürel sızma zeytinyağı sunan yerel üretici.",
+        "region": "Seferihisar, İzmir",
+        "category": "organik",
+        "website": "https://www.seferis.org/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.seferis.org/images/slider/seferis.png"
+    },
+    {
+        "id": 115,
+        "name": "Küçükbahçe",
+        "desc": "Karaburun çevresinden naturel sızma zeytinyağları sunan, geleneksel lezzet vurgulu butik üretici.",
+        "region": "Karaburun, İzmir",
+        "category": "premium-butik",
+        "website": "https://www.kucukbahce.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.kucukbahce.com.tr/content/kucukbahce/images/kucukbahce_logo.png"
+    },
+    {
+        "id": 116,
+        "name": "Buzey",
+        "desc": "Burhaniye çıkışlı natürel sızma ve soğuk sıkım zeytinyağları sunan yerel üretici.",
+        "region": "Burhaniye, Balıkesir",
+        "category": "bolgesel-yerel",
+        "website": "https://buzey.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://cdn.myikas.com/images/9c404b1d-06c2-4b9c-b463-ee240be49443/89874136-b4ff-48f0-90c1-75cc98654458/image_1080.webp"
+    },
+    {
+        "id": 117,
+        "name": "Kege Food",
+        "desc": "Burhaniye merkezli natürel sızma zeytinyağı ve zeytin ürünleri geliştiren yerel üretici.",
+        "region": "Burhaniye, Balıkesir",
+        "category": "bolgesel-yerel",
+        "website": "https://www.kegefood.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://static.wixstatic.com/media/b329ca_e40e46dbf07b452cb7c4d9acb3a10206~mv2.png"
+    },
+    {
+        "id": 118,
+        "name": "Pazarbaşılar",
+        "desc": "Eceabat ve Gelibolu Yarımadası çevresinden natürel sızma zeytinyağları sunan köklü üretici.",
+        "region": "Eceabat, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://www.pazarbasilar.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://shop.pazarbasilar.com/image/cache/catalog/logo-787x197.png"
+    },
+    {
+        "id": 119,
+        "name": "Kirte",
+        "desc": "Eceabat Alçıtepe çıkışlı natürel sızma zeytinyağları sunan yerel üretici.",
+        "region": "Eceabat, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://kirte.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://kirte.com.tr/wp-content/uploads/2023/11/logo-min.png"
+    },
+    {
+        "id": 120,
+        "name": "Anafortis",
+        "desc": "Eceabat çıkışlı, ödüllü erken hasat natürel sızma zeytinyağlarıyla tanınan butik üretici.",
+        "region": "Eceabat, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://www.anafortis.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.anafortis.com.tr/images/ANAFORTIS_LOGO.svg"
+    },
+    {
+        "id": 121,
+        "name": "Datçam",
+        "desc": "Datça çıkışlı natüreli soğuk sıkım zeytinyağı serileri sunan yerel üretici.",
+        "region": "Datça, Muğla",
+        "category": "bolgesel-yerel",
+        "website": "https://www.datcam.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.datcam.com.tr/idea/jl/13/themes/selftpl_620dfb3921634/assets/uploads/logo.png?revision=1737105670"
     }
 ];
 
