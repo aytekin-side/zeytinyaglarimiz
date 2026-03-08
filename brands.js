@@ -5585,6 +5585,162 @@ const brands = [
         "highlight": false,
         "image": "images/markalar/datcam/datcam-logo.webp",
         "logoFallback": ""
+    },
+    {
+        "id": 122,
+        "name": "Efe Marmara",
+        "desc": "Bursa ve Marmara hattında Gemlik ile Trilye tipi zeytinlerden zeytin ve natürel sızma zeytinyağı üreten yerel marka.",
+        "region": "Bursa, Marmara",
+        "category": "bolgesel-yerel",
+        "website": "https://www.efemarmara.com.tr/efe/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=efemarmara.com.tr&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 123,
+        "name": "Terra Arteka",
+        "desc": "Erdek çıkışlı yüksek polifenollü erken hasat natürel sızma zeytinyağı üreten butik marka.",
+        "region": "Erdek, Marmara",
+        "category": "premium-butik",
+        "website": "https://terraarteka.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=terraarteka.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 124,
+        "name": "Zeytinci Salih",
+        "desc": "Armutlu çıkışlı doğal zeytin ve zeytinyağı ürünleri sunan yerel üretici.",
+        "region": "Armutlu, Marmara",
+        "category": "bolgesel-yerel",
+        "website": "https://www.zeytincisalih.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=zeytincisalih.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 125,
+        "name": "Zeytinöz",
+        "desc": "Armutlu merkezli zeytin ve natürel sızma zeytinyağı ürünleri sunan yerel marka.",
+        "region": "Armutlu, Marmara",
+        "category": "bolgesel-yerel",
+        "website": "https://zeytinoz.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=zeytinoz.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 126,
+        "name": "Gümetepe",
+        "desc": "Ezine ve Çanakkale hattında zeytin ile natürel sızma zeytinyağı üreten yerel marka.",
+        "region": "Ezine, Çanakkale",
+        "category": "bolgesel-yerel",
+        "website": "https://gumetepe.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=gumetepe.com.tr&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 127,
+        "name": "Lamponia",
+        "desc": "Ayvacık Kozlu çıkışlı erken hasat natürel sızma zeytinyağlarıyla öne çıkan aile üretimi butik marka.",
+        "region": "Ayvacık, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://lamponia.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=lamponia.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 128,
+        "name": "Berolivo",
+        "desc": "Eceabat çıkışlı sürdürülebilir ve yüksek kaliteli natürel sızma zeytinyağı üreten butik marka.",
+        "region": "Eceabat, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://berolivo.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=berolivo.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 129,
+        "name": "Macaroğlu",
+        "desc": "Mudanya Tirilye çıkışlı zeytin ve zeytinyağı çeşitleri sunan köklü yerel üretici.",
+        "region": "Mudanya, Bursa",
+        "category": "bolgesel-yerel",
+        "website": "https://www.macaroglu.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=macaroglu.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 130,
+        "name": "On7 Zeytinyağı",
+        "desc": "Çanakkale yöresindeki kendi zeytinlerinden soğuk sıkım natürel sızma zeytinyağı üreten butik marka.",
+        "region": "Çanakkale",
+        "category": "premium-butik",
+        "website": "https://on7zeytinyagi.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=on7zeytinyagi.com.tr&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 131,
+        "name": "Çoral",
+        "desc": "Eceabat çıkışlı ödüllü natürel sızma zeytinyağı serileri sunan butik üretici.",
+        "region": "Eceabat, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://www.coralolive.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=coralolive.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 132,
+        "name": "Galli Premium",
+        "desc": "Eceabat Çan Ovası mevkiinden natürel sızma zeytinyağı üreten butik marka.",
+        "region": "Eceabat, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://www.galliolive.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=galliolive.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 133,
+        "name": "Gallipolive",
+        "desc": "Eceabat üretim tesislerinde soğuk pres natürel sızma zeytinyağı hazırlayan butik marka.",
+        "region": "Eceabat, Çanakkale",
+        "category": "premium-butik",
+        "website": "https://gallipolive.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=gallipolive.com&sz=256",
+        "logoFallback": ""
+    },
+    {
+        "id": 134,
+        "name": "Kilye",
+        "desc": "Eceabat çıkışlı çiğ sızma ve organik natürel sızma zeytinyağı serileri sunan butik marka.",
+        "region": "Eceabat, Çanakkale",
+        "category": "organik",
+        "website": "https://shop.kilye.com.tr/",
+        "founded": null,
+        "highlight": false,
+        "image": "https://www.google.com/s2/favicons?domain=shop.kilye.com.tr&sz=256",
+        "logoFallback": ""
     }
 ];
 
@@ -5614,7 +5770,35 @@ const oliveTypeLabels = {
     'sari-ulak': 'Sarı Ulak'
 };
 
-const manualLogoOverrides = {};
+const manualLogoOverrides = {
+    'ayla-zeytinyagi': 'images/ayla-zeytinyagi.svg',
+    'ayvalik-yildizi': 'images/ayvalik-yildizi.svg',
+    bereket: 'images/bereket.svg',
+    'beyaz-altin': 'images/beyaz-altin.svg',
+    'bumba-zeytinyagi': 'images/bumba-zeytinyagi.svg',
+    degirmenci: 'images/degirmenci.svg',
+    'edremit-korfezi': 'images/edremit-korfezi.svg',
+    egemden: 'images/egemden.svg',
+    ekooleo: 'images/ekooleo.svg',
+    hasat: 'images/hasat.svg',
+    hatnar: 'images/hatnar.svg',
+    'herbal-organik': 'images/herbal-organik.svg',
+    'izmir-pinari': 'images/i-zmir-pinari.svg',
+    'milas-zeytinyaglari': 'images/milas-zeytinyaglari.svg',
+    naturel: 'images/naturel.svg',
+    novavera: 'images/novavera.svg',
+    'odemis-birlik': 'images/odemis-birlik.svg',
+    'olea-prilis': 'images/olea-prilis.svg',
+    oliterra: 'images/oliterra.svg',
+    'olive-riviera': 'images/olive-riviera.svg',
+    papez: 'images/papez.svg',
+    'polat-zeytinyagi': 'images/polat-zeytinyagi.svg',
+    'tarihi-kirkpinar': 'images/tarihi-kirkpinar.svg',
+    tego: 'images/tego.svg',
+    trilye: 'images/trilye.svg',
+    vita: 'images/vita.svg',
+    'zeytin-dali': 'images/zeytin-dali.svg'
+};
 
 function normalizeSlug(value) {
     return value
@@ -5729,7 +5913,8 @@ function getWebsiteFaviconUrl(websiteUrl) {
 }
 
 function getManualLogoOverride(brand) {
-    return manualLogoOverrides[brand.id] || null;
+    const slug = brand.slug || normalizeSlug(brand.name);
+    return manualLogoOverrides[slug] || null;
 }
 
 function normalizeLogoUrlForBrand(brand, logoUrl) {

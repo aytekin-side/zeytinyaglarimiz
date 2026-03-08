@@ -72,6 +72,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 128,
+    "name": "Berolivo",
+    "slug": "berolivo",
+    "url": "https://berolivo.com/",
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
     "id": 58,
     "name": "Buta Assos",
     "slug": "buta-assos",
@@ -86,6 +94,14 @@
     "url": "https://buzey.com.tr/",
     "region": "Burhaniye, Balıkesir",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 131,
+    "name": "Çoral",
+    "slug": "coral",
+    "url": "https://www.coralolive.com/",
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik"
   },
   {
     "id": 68,
@@ -112,6 +128,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 122,
+    "name": "Efe Marmara",
+    "slug": "efe-marmara",
+    "url": "https://www.efemarmara.com.tr/efe/",
+    "region": "Bursa, Marmara",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 107,
     "name": "EFSUS",
     "slug": "efsus",
@@ -125,6 +149,22 @@
     "slug": "gaia-oliva",
     "url": "https://www.gaiaoliva.com.tr",
     "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 132,
+    "name": "Galli Premium",
+    "slug": "galli-premium",
+    "url": "https://www.galliolive.com/",
+    "region": "Eceabat, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
+    "id": 133,
+    "name": "Gallipolive",
+    "slug": "gallipolive",
+    "url": "https://gallipolive.com/",
+    "region": "Eceabat, Çanakkale",
     "category": "premium-butik"
   },
   {
@@ -166,6 +206,14 @@
     "url": "https://granpa.com.tr",
     "region": "Bursa, Marmara",
     "category": "premium-butik"
+  },
+  {
+    "id": 126,
+    "name": "Gümetepe",
+    "slug": "gumetepe",
+    "url": "https://gumetepe.com.tr/",
+    "region": "Ezine, Çanakkale",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 108,
@@ -248,6 +296,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 134,
+    "name": "Kilye",
+    "slug": "kilye",
+    "url": "https://shop.kilye.com.tr/",
+    "region": "Eceabat, Çanakkale",
+    "category": "organik"
+  },
+  {
     "id": 119,
     "name": "Kirte",
     "slug": "kirte",
@@ -304,12 +360,28 @@
     "category": "premium-butik"
   },
   {
+    "id": 127,
+    "name": "Lamponia",
+    "slug": "lamponia",
+    "url": "https://lamponia.com/",
+    "region": "Ayvacık, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
     "id": 6,
     "name": "Luna",
     "slug": "luna",
     "url": "https://www.lunayag.com.tr",
     "region": "İzmir",
     "category": "market-endustriyel"
+  },
+  {
+    "id": 129,
+    "name": "Macaroğlu",
+    "slug": "macaroglu",
+    "url": "https://www.macaroglu.com/",
+    "region": "Mudanya, Bursa",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 5,
@@ -520,6 +592,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 130,
+    "name": "On7 Zeytinyağı",
+    "slug": "on7-zeytinyagi",
+    "url": "https://on7zeytinyagi.com.tr/",
+    "region": "Çanakkale",
+    "category": "premium-butik"
+  },
+  {
     "id": 103,
     "name": "Oro di Milas",
     "slug": "oro-di-milas",
@@ -616,6 +696,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 123,
+    "name": "Terra Arteka",
+    "slug": "terra-arteka",
+    "url": "https://terraarteka.com/",
+    "region": "Erdek, Marmara",
+    "category": "premium-butik"
+  },
+  {
     "id": 82,
     "name": "Uygur Zeytinyağı",
     "slug": "uygur-zeytinyagi",
@@ -696,11 +784,27 @@
     "category": "premium-butik"
   },
   {
+    "id": 124,
+    "name": "Zeytinci Salih",
+    "slug": "zeytinci-salih",
+    "url": "https://www.zeytincisalih.com/",
+    "region": "Armutlu, Marmara",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 84,
     "name": "Zeytincir",
     "slug": "zeytincir",
     "url": "https://www.zeytincir.com.tr",
     "region": "Gaziantep",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 125,
+    "name": "Zeytinöz",
+    "slug": "zeytinoz",
+    "url": "https://zeytinoz.com/",
+    "region": "Armutlu, Marmara",
     "category": "bolgesel-yerel"
   },
   {

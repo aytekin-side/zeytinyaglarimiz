@@ -5,31 +5,46 @@
     "towns": [
       "Gelibolu",
       "Eceabat",
+      "Canakkale",
+      "Lapseki",
       "Ayvacik",
       "Ezine",
+      "Kozlu",
       "Erdek",
+      "Bandirma",
+      "Edincik",
       "Edremit",
       "Burhaniye",
       "Gomec",
       "Ayvalik",
       "Mudanya",
+      "Tirilye",
       "Gemlik",
       "Armutlu",
+      "Kilye",
       "Sarkoy",
       "Murefte",
       "Marmaraereglisi",
       "Suleymanpasa"
     ],
     "addedThisBatch": [
-      "Pazarbasilar",
-      "Kirte",
-      "Anafortis",
-      "Buzey",
-      "Kege Food"
+      "Efe Marmara",
+      "Terra Arteka",
+      "Zeytinci Salih",
+      "Zeytinoz",
+      "Gumetepe",
+      "Lamponia",
+      "Berolivo",
+      "Macaroglu",
+      "On7 Zeytinyagi",
+      "Coral",
+      "Galli Premium",
+      "Gallipolive",
+      "Kilye"
     ],
     "nextProspects": [
-      "Foça Organik benzeri karma urun magazalari yerine saf zeytinyagi ureticileri taranacak",
-      "Gelibolu ve Geyikli hattinda yeni resmi site adaylari aranacak"
+      "Bandirma Edincik hattinda Misakca ve Elia Bahce benzeri adaylar DNS ve resmi site dogrulamasi ile ikinci turda kontrol edilecek",
+      "Eceabat Gelibolu ve Lapseki tarafinda Olive811, Kavaki ve benzeri resmi site adaylari ikinci turda dogrulanacak"
     ]
   },
   "ege": {
@@ -97,15 +112,18 @@
     ]
   },
   "addedBrandIds": [
-    112,
-    113,
-    114,
-    115,
-    116,
-    117,
-    118,
-    119,
-    120,
-    121
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134
   ]
 }
