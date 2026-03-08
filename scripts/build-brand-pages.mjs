@@ -211,6 +211,22 @@ function renderSchema(brand) {
   return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
+function writeBrandSearchIndex(brands) {
+  const outPath = path.join(ROOT, 'data', 'brand-search.json');
+  const payload = brands.map((brand) => ({
+    id: brand.id,
+    name: brand.name,
+    slug: brand.slug,
+    region: brand.region,
+    regionClusterLabel: brand.regionClusterLabel || '',
+    category: brand.category,
+    desc: brand.desc || '',
+    url: `/marka/${brand.slug}.html`
+  }));
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, `${JSON.stringify(payload, null, 2)}\n`);
+}
+
 function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia) {
   const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${escapeHtml(toPageAsset(brand.logoFallback))}"` : '';
   const logoSrc = toPageAsset(brand.image);
@@ -244,9 +260,25 @@ function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia) {
       <li><a href="../kalite-rehberi.html">Zeytinyağı Kalitesi</a></li>
       <li><a href="../rehber/index.html">Rehber</a></li>
     </ul>
-    <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="nav-actions">
+      <div class="nav-search">
+        <button class="nav-search-toggle" type="button" aria-label="Marka ara" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        </button>
+        <div class="nav-search-panel" hidden>
+          <form class="nav-search-form" role="search">
+            <label class="nav-search-input-shell">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+              <input class="nav-search-input" type="search" placeholder="Marka ara" autocomplete="off" spellcheck="false">
+            </label>
+          </form>
+          <div class="nav-search-results"></div>
+        </div>
+      </div>
+      <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </nav>
 <div class="mobile-nav" id="mobileNav">
@@ -322,6 +354,7 @@ function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia) {
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Yukarı çık">
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
+<script src="../nav-search.js"></script>
 <script>
 function toggleMobileNav(){document.getElementById('mobileNav').classList.toggle('open');}
 window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50);document.getElementById('scrollTop').classList.toggle('show',window.scrollY>600);});
@@ -352,6 +385,7 @@ function main() {
     fs.writeFileSync(path.join(outDir, `${brand.slug}.html`), html);
   }
 
+  writeBrandSearchIndex(brands);
   console.log(`Generated ${brands.length} brand pages. Minimum narrative length: ${minWords} words (${minBrand}).`);
 }
 

@@ -26,9 +26,25 @@
       <li><a href="../kalite-rehberi.html">Zeytinyağı Kalitesi</a></li>
       <li><a href="../rehber/index.html">Rehber</a></li>
     </ul>
-    <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="nav-actions">
+      <div class="nav-search">
+        <button class="nav-search-toggle" type="button" aria-label="Marka ara" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        </button>
+        <div class="nav-search-panel" hidden>
+          <form class="nav-search-form" role="search">
+            <label class="nav-search-input-shell">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+              <input class="nav-search-input" type="search" placeholder="Marka ara" autocomplete="off" spellcheck="false">
+            </label>
+          </form>
+          <div class="nav-search-results"></div>
+        </div>
+      </div>
+      <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </nav>
 <div class="mobile-nav" id="mobileNav">
@@ -125,6 +141,7 @@
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Yukarı çık">
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
+<script src="../nav-search.js"></script>
 <script>
 function toggleMobileNav(){document.getElementById('mobileNav').classList.toggle('open');}
 window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50);document.getElementById('scrollTop').classList.toggle('show',window.scrollY>600);});

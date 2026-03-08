@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "name": "Komili",
+    "slug": "komili",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "1878'den bu yana Türkiye'nin en köklü zeytinyağı markalarından biri. Ayvalık merkezli, geniş ürün yelpazesi ile hem soğuk sıkım natürel sızma hem de riviera çeşitleri sunar.",
+    "url": "/marka/komili.html"
+  },
+  {
+    "id": 2,
+    "name": "Tariş",
+    "slug": "taris",
+    "region": "İzmir, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Ege Bölgesi zeytinyağı kooperatiflerinin birliği. Üreticiden doğrudan temin edilen zeytinlerle üretim yapar. Türkiye'nin en büyük zeytinyağı ihracatçılarından biridir.",
+    "url": "/marka/taris.html"
+  },
+  {
+    "id": 3,
+    "name": "Kristal",
+    "slug": "kristal",
+    "region": "İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Türkiye'nin en bilinen yemeklik yağ markalarından biri. Zeytinyağı dahil geniş yağ ürün gamı sunar. Market segmentinde güçlü konumu vardır.",
+    "url": "/marka/kristal.html"
+  },
+  {
+    "id": 4,
+    "name": "Laleli",
+    "slug": "laleli",
+    "region": "İzmir, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ödüllü Türk zeytinyağı markası. Uluslararası yarışmalarda çok sayıda altın madalya kazanmıştır. Erken hasat natürel sızma zeytinyağları ile bilinir.",
+    "url": "/marka/laleli.html"
+  },
+  {
+    "id": 5,
+    "name": "Madra",
+    "slug": "madra",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Kuzey Ege bölgesinin kaliteli zeytinyağı markası. Edremit ve Ayvalık zeytinlerinden üretim yapar. Natürel sızma çeşitleri ile tanınır.",
+    "url": "/marka/madra.html"
+  },
+  {
+    "id": 6,
+    "name": "Luna",
+    "slug": "luna",
+    "region": "İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Türkiye'de yaygın olarak tüketilen zeytinyağı ve yemeklik yağ markası. Uygun fiyatlı riviera ve natürel sızma zeytinyağı seçenekleri sunar.",
+    "url": "/marka/luna.html"
+  },
+  {
+    "id": 7,
+    "name": "Yudum",
+    "slug": "yudum",
+    "region": "İstanbul",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Türkiye'nin en büyük yemeklik yağ markalarından biri. Savola Group bünyesinde faaliyet gösterir. Zeytinyağı dahil geniş ürün gamı mevcuttur.",
+    "url": "/marka/yudum.html"
+  },
+  {
+    "id": 8,
+    "name": "Kırlangıç",
+    "slug": "kirlangic",
+    "region": "İstanbul",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Uzun yıllardır Türk mutfağının vazgeçilmez zeytinyağı markalarından. Natürel sızma ve riviera çeşitleri bulunur.",
+    "url": "/marka/kirlangic.html"
+  },
+  {
+    "id": 9,
+    "name": "Marmarabirlik",
+    "slug": "marmarabirlik",
+    "region": "Bursa, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Marmara Zeytin Tarım Satış Kooperatifleri Birliği. Türkiye'nin en büyük sofralık zeytin üreticisi olup zeytinyağı ürünleri de sunar.",
+    "url": "/marka/marmarabirlik.html"
+  },
+  {
+    "id": 10,
+    "name": "Oleamea",
+    "slug": "oleamea",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Premium segment Türk zeytinyağı markası. Uluslararası yarışmalarda ödüller kazanmıştır. Erken hasat, yüksek polifenollü natürel sızma zeytinyağları sunar.",
+    "url": "/marka/oleamea.html"
+  },
+  {
+    "id": 11,
+    "name": "Mera Ovası",
+    "slug": "mera-ovasi",
+    "region": "Erdek, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Marmara bölgesinde, Erdek çevresindeki Gemlik tipi zeytinlerden butik üretim yapan artizanal zeytinyağı markası. Küçük partiler halinde soğuk sıkım natürel sızma zeytinyağı üretir.",
+    "url": "/marka/mera-ovasi.html"
+  },
+  {
+    "id": 12,
+    "name": "Olivurla",
+    "slug": "olivurla",
+    "region": "Urla, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Urla bölgesinden premium zeytinyağı üreten butik marka. Urla'nın eşsiz mikro ikliminde yetişen zeytinlerden üretim yapar.",
+    "url": "/marka/olivurla.html"
+  },
+  {
+    "id": 13,
+    "name": "Olistica",
+    "slug": "olistica",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Butik üretim yapan premium zeytinyağı markası. Sınırlı sayıda üretilen, tek çeşit (monocultivar) zeytinyağları ile tanınır.",
+    "url": "/marka/olistica.html"
+  },
+  {
+    "id": 14,
+    "name": "Olive Riviera",
+    "slug": "olive-riviera",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Kaliteli Türk zeytinyağı markası. Riviera ve natürel sızma zeytinyağı çeşitleri ile piyasada yer alır.",
+    "url": "/marka/olive-riviera.html"
+  },
+  {
+    "id": 15,
+    "name": "Papez",
+    "slug": "papez",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Güney Ege bölgesinden kaliteli zeytinyağı üreten marka. Natürel sızma zeytinyağları ile tanınır.",
+    "url": "/marka/papez.html"
+  },
+  {
+    "id": 16,
+    "name": "Selatin",
+    "slug": "selatin",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Geleneksel yöntemlerle üretim yapan zeytinyağı markası. Doğal ve katkısız ürünleri ile bilinir.",
+    "url": "/marka/selatin.html"
+  },
+  {
+    "id": 17,
+    "name": "Değirmenci",
+    "slug": "degirmenci",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ege bölgesinden taş baskı ve soğuk sıkım zeytinyağları sunan marka. Geleneksel üretim yöntemleri ile kaliteli natürel sızma zeytinyağı üretir.",
+    "url": "/marka/degirmenci.html"
+  },
+  {
+    "id": 18,
+    "name": "İzmir Pınarı",
+    "slug": "izmir-pinari",
+    "region": "İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "İzmir bölgesinden kaliteli zeytinyağı üreten yerel marka. Ege zeytinlerinden soğuk sıkım natürel sızma zeytinyağı sunar.",
+    "url": "/marka/izmir-pinari.html"
+  },
+  {
+    "id": 19,
+    "name": "Beyaz Altın",
+    "slug": "beyaz-altin",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Premium Türk zeytinyağı markası. Erken hasat zeytinlerden üretilen natürel sızma zeytinyağları ile dikkat çeker.",
+    "url": "/marka/beyaz-altin.html"
+  },
+  {
+    "id": 20,
+    "name": "Özgün Olive",
+    "slug": "ozgun-olive",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Butik üretim yapan zeytinyağı markası. Soğuk sıkım natürel sızma zeytinyağı ve aromatik zeytinyağı çeşitleri sunar.",
+    "url": "/marka/ozgun-olive.html"
+  },
+  {
+    "id": 21,
+    "name": "Edremit Körfezi",
+    "slug": "edremit-korfezi",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Edremit Körfezi'nin eşsiz ikliminde yetişen zeytinlerden üretilen natürel sızma zeytinyağı. ZETAŞ olarak da bilinir.",
+    "url": "/marka/edremit-korfezi.html"
+  },
+  {
+    "id": 22,
+    "name": "Kürşat",
+    "slug": "kursat",
+    "region": "Kilis, Güneydoğu Anadolu",
+    "regionClusterLabel": "Güneydoğu Anadolu",
+    "category": "bolgesel-yerel",
+    "desc": "Güneydoğu bölgesinden, özellikle Kilis ve Hatay zeytinlerinden üretim yapan marka. Halhalı ve Nizip zeytinlerinden kaliteli yağ üretir.",
+    "url": "/marka/kursat.html"
+  },
+  {
+    "id": 23,
+    "name": "Zeytin Dalı",
+    "slug": "zeytin-dali",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ege bölgesinden natürel sızma zeytinyağı üreten marka. Geleneksel ve modern üretim yöntemlerini birleştirerek kaliteli ürünler sunar.",
+    "url": "/marka/zeytin-dali.html"
+  },
+  {
+    "id": 24,
+    "name": "Egemden",
+    "slug": "egemden",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ege bölgesinin doğal lezzetlerini sunan marka. Natürel sızma zeytinyağı ve zeytin ürünleri portföyü bulunur.",
+    "url": "/marka/egemden.html"
+  },
+  {
+    "id": 25,
+    "name": "Bereket",
+    "slug": "bereket",
+    "region": "Hatay, Akdeniz",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Güney bölgelerden zeytinyağı üreten marka. Hatay ve Mersin yöresi zeytinlerinden natürel sızma zeytinyağı üretir.",
+    "url": "/marka/bereket.html"
+  },
+  {
+    "id": 26,
+    "name": "Olea Prilis",
+    "slug": "olea-prilis",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Premium butik zeytinyağı markası. Uluslararası kalite standartlarında, düşük asitli natürel sızma zeytinyağı üretir.",
+    "url": "/marka/olea-prilis.html"
+  },
+  {
+    "id": 27,
+    "name": "Oliterra",
+    "slug": "oliterra",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Yükselen Türk zeytinyağı markası. Natürel sızma zeytinyağında kalite odaklı üretim yapar.",
+    "url": "/marka/oliterra.html"
+  },
+  {
+    "id": 28,
+    "name": "Ayla Zeytinyağı",
+    "slug": "ayla-zeytinyagi",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ayvalık bölgesinin geleneksel zeytinyağı markası. Ayvalık çeşidi zeytinlerden soğuk sıkım natürel sızma zeytinyağı üretir.",
+    "url": "/marka/ayla-zeytinyagi.html"
+  },
+  {
+    "id": 29,
+    "name": "Tarihi Kırkpınar",
+    "slug": "tarihi-kirkpinar",
+    "region": "Edirne, Trakya",
+    "regionClusterLabel": "Trakya Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Trakya bölgesinden zeytinyağı üreten marka. Edirne ve Trakya yöresi zeytinlerinden üretim yapar.",
+    "url": "/marka/tarihi-kirkpinar.html"
+  },
+  {
+    "id": 30,
+    "name": "Olivos",
+    "slug": "olivos",
+    "region": "İstanbul",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Zeytinyağı bazlı ürünleriyle tanınan Türk markası. Zeytinyağı satışının yanı sıra zeytinyağlı sabun ve kozmetik ürünleri de üretir.",
+    "url": "/marka/olivos.html"
+  },
+  {
+    "id": 31,
+    "name": "Hasat",
+    "slug": "hasat",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ege bölgesinden erken hasat zeytinyağı üreten marka. Erken hasat (early harvest) konseptiyle premium natürel sızma zeytinyağı sunar.",
+    "url": "/marka/hasat.html"
+  },
+  {
+    "id": 32,
+    "name": "Ayvalık Yıldızı",
+    "slug": "ayvalik-yildizi",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ayvalık'ın meşhur zeytinlerinden üretilen bölgesel marka. Ayvalık zeytinyağının kendine has meyvemsi aromasını yansıtır.",
+    "url": "/marka/ayvalik-yildizi.html"
+  },
+  {
+    "id": 33,
+    "name": "İlyada",
+    "slug": "ilyada",
+    "region": "Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Çanakkale Geyikli'den kaliteli Türk zeytinyağı markası. Natürel sızma zeytinyağı ve sofralık zeytin çeşitleri sunar.",
+    "url": "/marka/ilyada.html"
+  },
+  {
+    "id": 34,
+    "name": "Coşkun Zeytinyağları",
+    "slug": "coskun-zeytinyaglari",
+    "region": "İzmir, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Köklü Türk zeytinyağı üreticisi. Uzun yıllar boyunca Ege zeytinlerinden kaliteli zeytinyağı üretmektedir.",
+    "url": "/marka/coskun-zeytinyaglari.html"
+  },
+  {
+    "id": 35,
+    "name": "Nar Gourmet",
+    "slug": "nar-gourmet",
+    "region": "İstanbul",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Premium gıda markası olup zeytinyağı portföyü de bulunur. Türk lezzetlerini dünyaya tanıtan ödüllü markadır.",
+    "url": "/marka/nar-gourmet.html"
+  },
+  {
+    "id": 36,
+    "name": "MonOlive",
+    "slug": "monolive",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Premium zeytinyağı markası. Tek çeşit zeytinlerden üretilen butik natürel sızma zeytinyağları sunar.",
+    "url": "/marka/monolive.html"
+  },
+  {
+    "id": 37,
+    "name": "Zeytursan",
+    "slug": "zeytursan",
+    "region": "Bursa, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Marmara bölgesinde zeytinyağı üretimi ve işleme yapan firma. Hem sofralık zeytin hem de zeytinyağı ürünleri sunar.",
+    "url": "/marka/zeytursan.html"
+  },
+  {
+    "id": 38,
+    "name": "Trilye",
+    "slug": "trilye",
+    "region": "Mudanya, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Bursa'nın Mudanya ilçesindeki tarihi Trilye (Tirilye) bölgesinden adını alan zeytinyağı markası. Bölgenin zengin zeytin mirasını yansıtır.",
+    "url": "/marka/trilye.html"
+  },
+  {
+    "id": 39,
+    "name": "Vita",
+    "slug": "vita",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "market-endustriyel",
+    "desc": "Türkiye genelinde satılan zeytinyağı markası. Uygun fiyatlı natürel sızma ve riviera zeytinyağı seçenekleri sunar.",
+    "url": "/marka/vita.html"
+  },
+  {
+    "id": 40,
+    "name": "Polat Zeytinyağı",
+    "slug": "polat-zeytinyagi",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ege bölgesinde uzun yıllardır zeytinyağı üreten aile şirketi. Geleneksel yöntemlerle kaliteli natürel sızma zeytinyağı üretir.",
+    "url": "/marka/polat-zeytinyagi.html"
+  },
+  {
+    "id": 41,
+    "name": "Tego",
+    "slug": "tego",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Modern tasarımlı premium zeytinyağı markası. Genç nesil tüketicilere hitap eden şık ambalajlarıyla öne çıkar.",
+    "url": "/marka/tego.html"
+  },
+  {
+    "id": 42,
+    "name": "Bumba Zeytinyağı",
+    "slug": "bumba-zeytinyagi",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Organik sertifikalı zeytinyağı üreten marka. Kimyasal gübre ve ilaç kullanılmadan yetiştirilen zeytinlerden üretim yapar.",
+    "url": "/marka/bumba-zeytinyagi.html"
+  },
+  {
+    "id": 43,
+    "name": "Herbal Organik",
+    "slug": "herbal-organik",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Organik sertifikalı zeytinyağı ve doğal gıda ürünleri sunan marka. Organik tarım standartlarına uygun üretim yapar.",
+    "url": "/marka/herbal-organik.html"
+  },
+  {
+    "id": 44,
+    "name": "Olive Mama",
+    "slug": "olive-mama",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Organik ve doğal zeytinyağı markası. Kadın girişimciler tarafından kurulan, sürdürülebilir tarım odaklı butik üretici.",
+    "url": "/marka/olive-mama.html"
+  },
+  {
+    "id": 45,
+    "name": "Ekooleo",
+    "slug": "ekooleo",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Organik sertifikalı natürel sızma zeytinyağı üreten marka. Ekolojik tarım ilkelerine bağlı üretim yapar.",
+    "url": "/marka/ekooleo.html"
+  },
+  {
+    "id": 46,
+    "name": "Ödemiş Birlik",
+    "slug": "odemis-birlik",
+    "region": "Ödemiş, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ödemiş bölgesi zeytin üreticileri kooperatifi. Memecik çeşidi zeytinlerden kaliteli natürel sızma zeytinyağı üretir.",
+    "url": "/marka/odemis-birlik.html"
+  },
+  {
+    "id": 47,
+    "name": "İzmir Birlik",
+    "slug": "izmir-birlik",
+    "region": "İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "İzmir bölgesi tarım kooperatifleri birliği (İZBİRLİK). Zeytinyağı dahil çeşitli tarım ürünlerinin işlenmesi ve pazarlanmasında faaliyet gösterir.",
+    "url": "/marka/izmir-birlik.html"
+  },
+  {
+    "id": 48,
+    "name": "Milas Zeytinyağları",
+    "slug": "milas-zeytinyaglari",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Muğla'nın Milas ilçesinden üretim yapan yerel marka. Milas bölgesinin kendine has zeytin çeşitlerinden kaliteli yağ üretir.",
+    "url": "/marka/milas-zeytinyaglari.html"
+  },
+  {
+    "id": 49,
+    "name": "Nish Olive",
+    "slug": "nish-olive",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Premium butik zeytinyağı markası. Sınırlı üretimli, özenle seçilmiş tek çeşit zeytinlerden yüksek kaliteli natürel sızma zeytinyağı üretir.",
+    "url": "/marka/nish-olive.html"
+  },
+  {
+    "id": 50,
+    "name": "Naturel",
+    "slug": "naturel",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Doğal ve saf zeytinyağı ürünleri sunan marka. Natürelliği ön plana çıkarır.",
+    "url": "/marka/naturel.html"
+  },
+  {
+    "id": 51,
+    "name": "NovaVera",
+    "slug": "novavera",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Kuzey Ege merkezli butik üretici. Erken hasat, soğuk sıkım ve yüksek polifenol odaklı natürel sızma zeytinyağlarıyla bilinir.",
+    "url": "/marka/novavera.html"
+  },
+  {
+    "id": 52,
+    "name": "Gaia Oliva",
+    "slug": "gaia-oliva",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvalık hattında üretim yapan marka. Natürel sızma ve özel seri zeytinyağı ürünleri sunar.",
+    "url": "/marka/gaia-oliva.html"
+  },
+  {
+    "id": 53,
+    "name": "Nizolive",
+    "slug": "nizolive",
+    "region": "Gaziantep, Güneydoğu Anadolu",
+    "regionClusterLabel": "Güneydoğu Anadolu",
+    "category": "bolgesel-yerel",
+    "desc": "Güneydoğu kökenli üretici marka. Nizip yağlık başta olmak üzere bölgesel zeytinlerden zeytinyağı üretimi yapar.",
+    "url": "/marka/nizolive.html"
+  },
+  {
+    "id": 54,
+    "name": "Verde",
+    "slug": "verde",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Kuzey Ege odaklı zeytinyağı markası. Erken hasat natürel sızma ve farklı ambalaj seçenekleriyle öne çıkar.",
+    "url": "/marka/verde.html"
+  },
+  {
+    "id": 55,
+    "name": "Adatepe",
+    "slug": "adatepe",
+    "region": "Küçükkuyu, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Kazdağları eteklerinde üretim yapan köklü marka. Taş baskı ve natürel sızma zeytinyağı çeşitleriyle bilinir.",
+    "url": "/marka/adatepe.html"
+  },
+  {
+    "id": 56,
+    "name": "OleTurk",
+    "slug": "oleturk",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Milas ve Ege havzasından zeytinlerle üretim yapan marka. Natürel sızma odaklı ürün portföyü sunar.",
+    "url": "/marka/oleturk.html"
+  },
+  {
+    "id": 57,
+    "name": "Kahraman",
+    "slug": "kahraman",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Akhisar merkezli üretici. Natürel sızma, riviera ve farklı paket boylarında zeytinyağı ürünleri bulunur.",
+    "url": "/marka/kahraman.html"
+  },
+  {
+    "id": 58,
+    "name": "Buta Assos",
+    "slug": "buta-assos",
+    "region": "Assos, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Assos bölgesinde üretilen zeytinlerden premium natürel sızma zeytinyağı sunan marka.",
+    "url": "/marka/buta-assos.html"
+  },
+  {
+    "id": 59,
+    "name": "Ayvaco",
+    "slug": "ayvaco",
+    "region": "Ayvacık, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ayvacık çevresinde üretim yapan yerel marka. Soğuk sıkım natürel sızma zeytinyağı çeşitleriyle bilinir.",
+    "url": "/marka/ayvaco.html"
+  },
+  {
+    "id": 60,
+    "name": "OVE Foods",
+    "slug": "ove-foods",
+    "region": "Aydın, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Zeytin ve zeytinyağı odaklı gıda markası. Natürel sızma ve gurme segment ürünler sunar.",
+    "url": "/marka/ove-foods.html"
+  },
+  {
+    "id": 61,
+    "name": "Granpa",
+    "slug": "granpa",
+    "region": "Bursa, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Marmara bölgesi odaklı üretici marka. Trilye/Gemlik hattında natürel sızma ürünleriyle öne çıkar.",
+    "url": "/marka/granpa.html"
+  },
+  {
+    "id": 62,
+    "name": "Mavras",
+    "slug": "mavras",
+    "region": "Urla, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Urla merkezli butik marka. Sınırlı seri ve erken hasat natürel sızma zeytinyağı üretimi yapar.",
+    "url": "/marka/mavras.html"
+  },
+  {
+    "id": 63,
+    "name": "Hermus",
+    "slug": "hermus",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Akhisar ve çevresindeki zeytinlerden üretilen premium natürel sızma zeytinyağı markası.",
+    "url": "/marka/hermus.html"
+  },
+  {
+    "id": 64,
+    "name": "Nermin Hanım Zeytinliği",
+    "slug": "nermin-hanim-zeytinligi",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvalık merkezli butik üretici. Erken hasat ve izlenebilir üretim yaklaşımıyla natürel sızma ürünler sunar.",
+    "url": "/marka/nermin-hanim-zeytinligi.html"
+  },
+  {
+    "id": 65,
+    "name": "Olivya Gökçeovacık",
+    "slug": "olivya-gokceovacik",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Milas bölgesinde faaliyet gösteren butik marka. Yöresel karakterli natürel sızma zeytinyağı üretir.",
+    "url": "/marka/olivya-gokceovacik.html"
+  },
+  {
+    "id": 66,
+    "name": "Zetay",
+    "slug": "zetay",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Edremit Körfezi odaklı üretici. Bölgesel zeytinlerden natürel sızma ve riviera ürünleri sunar.",
+    "url": "/marka/zetay.html"
+  },
+  {
+    "id": 67,
+    "name": "MR Zeytin",
+    "slug": "mr-zeytin",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Akhisar merkezli zeytin ve zeytinyağı üreticisi. Natürel sızma ürünleriyle öne çıkar.",
+    "url": "/marka/mr-zeytin.html"
+  },
+  {
+    "id": 68,
+    "name": "Dalgıçoğlu",
+    "slug": "dalgicoglu",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Edremit Körfezi çevresinde üretim yapan marka. Bölgesel zeytinyağı ürünleri sunar.",
+    "url": "/marka/dalgicoglu.html"
+  },
+  {
+    "id": 69,
+    "name": "Sabuncugil",
+    "slug": "sabuncugil",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ayvalık kökenli geleneksel üretici marka. Natürel sızma ve bölgesel ürünleriyle bilinir.",
+    "url": "/marka/sabuncugil.html"
+  },
+  {
+    "id": 70,
+    "name": "Koral Zeytin",
+    "slug": "koral-zeytin",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Akhisar merkezli üretici. Zeytin ve zeytinyağı ürünlerinde yerel üretim odaklıdır.",
+    "url": "/marka/koral-zeytin.html"
+  },
+  {
+    "id": 71,
+    "name": "Semylasa",
+    "slug": "semylasa",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Milas yöresinden üretim yapan premium marka. Natürel sızma zeytinyağı çeşitleriyle öne çıkar.",
+    "url": "/marka/semylasa.html"
+  },
+  {
+    "id": 72,
+    "name": "Olivamore",
+    "slug": "olivamore",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Butik üretim anlayışına sahip zeytinyağı markası. Erken hasat natürel sızma ürünleri sunar.",
+    "url": "/marka/olivamore.html"
+  },
+  {
+    "id": 73,
+    "name": "Ayolis",
+    "slug": "ayolis",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvalık bölgesinden premium natürel sızma zeytinyağı üreten marka.",
+    "url": "/marka/ayolis.html"
+  },
+  {
+    "id": 74,
+    "name": "Gemlika",
+    "slug": "gemlika",
+    "region": "Gemlik, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Gemlik zeytininden üretilen natürel sızma zeytinyağına odaklanan bölgesel marka.",
+    "url": "/marka/gemlika.html"
+  },
+  {
+    "id": 75,
+    "name": "Zeytinsan",
+    "slug": "zeytinsan",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Akhisar merkezli daha geniş ölçekli üretici. Farklı segmentlerde zeytinyağı ürünleri sunar.",
+    "url": "/marka/zeytinsan.html"
+  },
+  {
+    "id": 76,
+    "name": "Anolive",
+    "slug": "anolive",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvalık bölgesinde premium natürel sızma zeytinyağı üretimi yapan marka.",
+    "url": "/marka/anolive.html"
+  },
+  {
+    "id": 77,
+    "name": "Artem Oliva",
+    "slug": "artem-oliva",
+    "region": "Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Butik üretim odaklı natürel sızma zeytinyağı markası.",
+    "url": "/marka/artem-oliva.html"
+  },
+  {
+    "id": 78,
+    "name": "OliveOilsLand",
+    "slug": "oliveoilsland",
+    "region": "Ege Bölgesi",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Zeytinyağı ürünlerinde premium ve butik segmentte yer alan marka.",
+    "url": "/marka/oliveoilsland.html"
+  },
+  {
+    "id": 79,
+    "name": "Hatnar",
+    "slug": "hatnar",
+    "region": "Erzin, Hatay",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "premium-butik",
+    "desc": "Erzin, Hatay merkezli üretici marka. Soğuk sıkım natürel sızma zeytinyağı ve yöresel zeytin ürünleri sunar.",
+    "url": "/marka/hatnar.html"
+  },
+  {
+    "id": 80,
+    "name": "Zetiya",
+    "slug": "zetiya",
+    "region": "Hatay",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "premium-butik",
+    "desc": "Hatay odaklı erken hasat natürel sızma serileriyle öne çıkan butik marka. Cam şişe ve teneke ambalajlı ürünler sunar.",
+    "url": "/marka/zetiya.html"
+  },
+  {
+    "id": 81,
+    "name": "Ece'den Sofranıza",
+    "slug": "eceden-sofraniza",
+    "region": "Hatay",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Hatay merkezli aile markası. El hasadı ve natürel sızma odaklı teneke ve şişe ürünler sunar.",
+    "url": "/marka/eceden-sofraniza.html"
+  },
+  {
+    "id": 82,
+    "name": "Uygur Zeytinyağı",
+    "slug": "uygur-zeytinyagi",
+    "region": "Nizip, Gaziantep",
+    "regionClusterLabel": "Güneydoğu Anadolu",
+    "category": "market-endustriyel",
+    "desc": "1972'den beri Gaziantep'te faaliyet gösteren üretici. Nizip tesislerinde natürel sızma zeytinyağı ve zeytinyağlı sabun üretir.",
+    "url": "/marka/uygur-zeytinyagi.html"
+  },
+  {
+    "id": 83,
+    "name": "Yalım Zeytin Yağları",
+    "slug": "yalim-zeytin-yaglari",
+    "region": "Gaziantep",
+    "regionClusterLabel": "Güneydoğu Anadolu",
+    "category": "market-endustriyel",
+    "desc": "Gaziantep merkezli köklü üretici. Günlük mutfak kullanımına ve natürel sızma serilerine yönelik geniş bir ürün gamı sunar.",
+    "url": "/marka/yalim-zeytin-yaglari.html"
+  },
+  {
+    "id": 84,
+    "name": "Zeytincir",
+    "slug": "zeytincir",
+    "region": "Gaziantep",
+    "regionClusterLabel": "Güneydoğu Anadolu",
+    "category": "bolgesel-yerel",
+    "desc": "Gaziantep odaklı natürel sızma üretici marka. Saf zeytinyağı ve filtreli-filtresiz ürün diliyle öne çıkar.",
+    "url": "/marka/zeytincir.html"
+  },
+  {
+    "id": 85,
+    "name": "Bazilika",
+    "slug": "bazilika",
+    "region": "Altınözü, Hatay",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Altınözü, Hatay merkezli yöresel üretici. Zeytin ve zeytinyağı ürünlerini Hatay köken vurgusuyla sunar.",
+    "url": "/marka/bazilika.html"
+  },
+  {
+    "id": 86,
+    "name": "Arslan Zeytinyağı",
+    "slug": "arslan-zeytinyagi",
+    "region": "Antakya, Hatay",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Antakya, Hatay merkezli üretici. Cam şişe, pet ve teneke ambalajlı natürel sızma serileri sunar.",
+    "url": "/marka/arslan-zeytinyagi.html"
+  },
+  {
+    "id": 87,
+    "name": "Hatay Tadında",
+    "slug": "hatay-tadinda",
+    "region": "Hatay",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Hatay yöresel ürünleri ve zeytinyağı satışı yapan yerel marka. Soğuk sıkım ve teneke zeytinyağı ürünleriyle öne çıkar.",
+    "url": "/marka/hatay-tadinda.html"
+  },
+  {
+    "id": 88,
+    "name": "Gemtar",
+    "slug": "gemtar",
+    "region": "Gemlik, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Gemlik merkezli üretici marka. Gemlik zeytininden natürel sızma ve farklı hacimlerde zeytinyağı serileri sunar.",
+    "url": "/marka/gemtar.html"
+  },
+  {
+    "id": 89,
+    "name": "Gemlik Zeytincisi",
+    "slug": "gemlik-zeytincisi",
+    "region": "Gemlik, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Gemlik odaklı zeytin ve zeytinyağı üreticisi. Bölgesel kökeni öne çıkan natürel sızma ürünleri bulunur.",
+    "url": "/marka/gemlik-zeytincisi.html"
+  },
+  {
+    "id": 90,
+    "name": "Gemlik Zeytin Evi",
+    "slug": "gemlik-zeytin-evi",
+    "region": "Gemlik, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Gemlik bölgesinde zeytin ve zeytinyağı ürünleri sunan yerel marka. Cam şişe ve teneke seçenekleriyle öne çıkar.",
+    "url": "/marka/gemlik-zeytin-evi.html"
+  },
+  {
+    "id": 91,
+    "name": "Solive",
+    "slug": "solive",
+    "region": "Gemlik, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Gemlik zeytini ve erken hasat zeytinyağı serileriyle öne çıkan bölgesel marka. Zeytin Ağacı mağaza yapısı içinde satış yapar.",
+    "url": "/marka/solive.html"
+  },
+  {
+    "id": 92,
+    "name": "Yelkenli",
+    "slug": "yelkenli",
+    "region": "Mudanya, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mudanya merkezli üretim ve satış yapan marka. Teneke ve cam ambalajlı zeytinyağı ürünleri sunar.",
+    "url": "/marka/yelkenli.html"
+  },
+  {
+    "id": 93,
+    "name": "Vivax Olea",
+    "slug": "vivax-olea",
+    "region": "Şarköy, Tekirdağ",
+    "regionClusterLabel": "Trakya Bölgesi",
+    "category": "premium-butik",
+    "desc": "Şarköy, Tekirdağ hattında üretim yapan marka. Kontinü sistem ve soğuk sıkım serileriyle Trakya'da öne çıkar.",
+    "url": "/marka/vivax-olea.html"
+  },
+  {
+    "id": 94,
+    "name": "Şarköy Çiftlik",
+    "slug": "sarkoy-ciftlik",
+    "region": "Şarköy, Tekirdağ",
+    "regionClusterLabel": "Trakya Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Şarköy merkezli doğal ürünler markası. Coğrafi işaretli ve soğuk sıkım zeytinyağı ürünleriyle Trakya hattında dikkat çeker.",
+    "url": "/marka/sarkoy-ciftlik.html"
+  },
+  {
+    "id": 95,
+    "name": "Mutuna",
+    "slug": "mutuna",
+    "region": "Mut, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mut, Mersin merkezli yerel üretici. Erken hasat ve soğuk sıkım Mut zeytinyağı serileri bulunur.",
+    "url": "/marka/mutuna.html"
+  },
+  {
+    "id": 96,
+    "name": "Mutili",
+    "slug": "mutili",
+    "region": "Mut, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "premium-butik",
+    "desc": "Mut merkezli modern üretici marka. Cam şişe ve teneke ambalajlı natürel sızma serileri sunar.",
+    "url": "/marka/mutili.html"
+  },
+  {
+    "id": 97,
+    "name": "Mut İncisi",
+    "slug": "mut-incisi",
+    "region": "Mut, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mut yöresinden üretim yapan bölgesel marka. Farklı hacimlerde natürel sızma ve yemeklik seriler sunar.",
+    "url": "/marka/mut-incisi.html"
+  },
+  {
+    "id": 98,
+    "name": "Zeytinyağı Evi",
+    "slug": "zeytinyagi-evi",
+    "region": "Mut, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mut zeytinyağı ve sofralık zeytin odaklı satış yapan marka. Filtresiz, domat ve arbequina serileriyle dikkat çeker.",
+    "url": "/marka/zeytinyagi-evi.html"
+  },
+  {
+    "id": 99,
+    "name": "Sazak Zeytincilik",
+    "slug": "sazak-zeytincilik",
+    "region": "Mut, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mut merkezli üretici. Erken hasat, soğuk sıkım ve büyük hacimli teneke ürünlerde güçlü bir ürün gamı sunar.",
+    "url": "/marka/sazak-zeytincilik.html"
+  },
+  {
+    "id": 100,
+    "name": "Adrasos",
+    "slug": "adrasos",
+    "region": "Mut, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "premium-butik",
+    "desc": "Mut bölgesinden premium natürel sızma serileri sunan marka. Cam ve galon ambalajlı zeytinyağlarıyla öne çıkar.",
+    "url": "/marka/adrasos.html"
+  },
+  {
+    "id": 101,
+    "name": "Mutolea",
+    "slug": "mutolea",
+    "region": "Mut, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mut merkezli zeytinyağı ve doğal ürün markası. Soğuk sıkım zeytinyağı ile bitkisel ürün portföyünü birlikte sunar.",
+    "url": "/marka/mutolea.html"
+  },
+  {
+    "id": 102,
+    "name": "Palamidas",
+    "slug": "palamidas",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Akhisar merkezli aile üreticisi. Soğuk sıkım natürel sızma ve organik serileriyle öne çıkar; resmi mağazasında cam şişe ve teneke seçenekleri sunar.",
+    "url": "/marka/palamidas.html"
+  },
+  {
+    "id": 103,
+    "name": "Oro di Milas",
+    "slug": "oro-di-milas",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Milas bölgesinde aileye ait modern tesiste üretim yapan premium üretici. Coğrafi işaretli natürel sızma çizgisi ve kadın girişimciliği vurgusuyla öne çıkar.",
+    "url": "/marka/oro-di-milas.html"
+  },
+  {
+    "id": 104,
+    "name": "Velvet",
+    "slug": "velvet",
+    "region": "Orhangazi, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Bursa hattında Gemlik tipi zeytinlerden üretim yapan üretici. Orhangazi-İznik çevresindeki zeytinlerden natürel sızma seriler sunar.",
+    "url": "/marka/velvet.html"
+  },
+  {
+    "id": 105,
+    "name": "MASMANA",
+    "slug": "masmana",
+    "region": "Kilis, Güneydoğu Anadolu",
+    "regionClusterLabel": "Güneydoğu Anadolu",
+    "category": "premium-butik",
+    "desc": "Kilis kökenli dördüncü nesil aile üreticisi. Organik ve natürel sızma odaklı, erken hasat ve özel seri yağlarıyla öne çıkar.",
+    "url": "/marka/masmana.html"
+  },
+  {
+    "id": 106,
+    "name": "Josevia",
+    "slug": "josevia",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvalık çevresindeki zeytinlerden sürdürülebilir üretim anlayışıyla natürel sızma sunan premium çizgi. Erken hasat ve soğuk sıkım ürünleriyle bilinir.",
+    "url": "/marka/josevia.html"
+  },
+  {
+    "id": 107,
+    "name": "EFSUS",
+    "slug": "efsus",
+    "region": "Tarsus, Mersin",
+    "regionClusterLabel": "Akdeniz Bölgesi",
+    "category": "organik",
+    "desc": "Tarsus ve Çukurova hattında bahçe ve tesis entegrasyonuyla üretim yapan üretici. Natürel sızma, naturel birinci ve sarı ulak zeytin ürünleri sunar.",
+    "url": "/marka/efsus.html"
+  },
+  {
+    "id": 108,
+    "name": "Güven Asa",
+    "slug": "guven-asa",
+    "region": "Gömeç, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Gömeç’te modern üretim tesisi bulunan Kuzey Ege üreticisi. Erken hasat, natürel sızma ve riviera serileriyle geniş ürün gamı sunar.",
+    "url": "/marka/guven-asa.html"
+  },
+  {
+    "id": 109,
+    "name": "ZenOlive",
+    "slug": "zenolive",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Edremit tipi Ayvalık zeytinlerinden soğuk sıkım yağ üreten küçük ölçekli üretici. Tek bahçe ve iyi tarım vurgusuyla öne çıkar.",
+    "url": "/marka/zenolive.html"
+  },
+  {
+    "id": 110,
+    "name": "Kozoliv",
+    "slug": "kozoliv",
+    "region": "Gömeç, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Gömeç merkezli Kuzey Ege üreticisi. Üç nesillik aile mirası, erken hasat ve natürel sızma serileriyle öne çıkar.",
+    "url": "/marka/kozoliv.html"
+  },
+  {
+    "id": 111,
+    "name": "Milasso",
+    "slug": "milasso",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Milas çıkışlı yüksek polifenollü premium natürel sızma üreticisi. Erken hasat soğuk sıkım ve hediyelik seri seçenekleri sunar.",
+    "url": "/marka/milasso.html"
+  },
+  {
+    "id": 112,
+    "name": "Oliella",
+    "slug": "oliella",
+    "region": "Seferihisar, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Seferihisar çıkışlı erken hasat, soğuk sıkım natürel sızma zeytinyağları sunan butik üretici.",
+    "url": "/marka/oliella.html"
+  },
+  {
+    "id": 113,
+    "name": "Seosfarm",
+    "slug": "seosfarm",
+    "region": "Seferihisar, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Seferihisar hattında erken hasat ve özel seri natürel sızma zeytinyağları geliştiren üretici.",
+    "url": "/marka/seosfarm.html"
+  },
+  {
+    "id": 114,
+    "name": "Seferis",
+    "slug": "seferis",
+    "region": "Seferihisar, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Seferihisar Ulamış çevresinde organik soğuk sıkım natürel sızma zeytinyağı sunan yerel üretici.",
+    "url": "/marka/seferis.html"
+  },
+  {
+    "id": 115,
+    "name": "Küçükbahçe",
+    "slug": "kucukbahce",
+    "region": "Karaburun, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Karaburun çevresinden naturel sızma zeytinyağları sunan, geleneksel lezzet vurgulu butik üretici.",
+    "url": "/marka/kucukbahce.html"
+  },
+  {
+    "id": 116,
+    "name": "Buzey",
+    "slug": "buzey",
+    "region": "Burhaniye, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Burhaniye çıkışlı natürel sızma ve soğuk sıkım zeytinyağları sunan yerel üretici.",
+    "url": "/marka/buzey.html"
+  },
+  {
+    "id": 117,
+    "name": "Kege Food",
+    "slug": "kege-food",
+    "region": "Burhaniye, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Burhaniye merkezli natürel sızma zeytinyağı ve zeytin ürünleri geliştiren yerel üretici.",
+    "url": "/marka/kege-food.html"
+  },
+  {
+    "id": 118,
+    "name": "Pazarbaşılar",
+    "slug": "pazarbasilar",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Eceabat ve Gelibolu Yarımadası çevresinden natürel sızma zeytinyağları sunan köklü üretici.",
+    "url": "/marka/pazarbasilar.html"
+  },
+  {
+    "id": 119,
+    "name": "Kirte",
+    "slug": "kirte",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Eceabat Alçıtepe çıkışlı natürel sızma zeytinyağları sunan yerel üretici.",
+    "url": "/marka/kirte.html"
+  },
+  {
+    "id": 120,
+    "name": "Anafortis",
+    "slug": "anafortis",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Eceabat çıkışlı, ödüllü erken hasat natürel sızma zeytinyağlarıyla tanınan butik üretici.",
+    "url": "/marka/anafortis.html"
+  },
+  {
+    "id": 121,
+    "name": "Datçam",
+    "slug": "datcam",
+    "region": "Datça, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Datça çıkışlı natüreli soğuk sıkım zeytinyağı serileri sunan yerel üretici.",
+    "url": "/marka/datcam.html"
+  },
+  {
+    "id": 122,
+    "name": "Efe Marmara",
+    "slug": "efe-marmara",
+    "region": "Bursa, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Bursa ve Marmara hattında Gemlik ile Trilye tipi zeytinlerden zeytin ve natürel sızma zeytinyağı üreten yerel marka.",
+    "url": "/marka/efe-marmara.html"
+  },
+  {
+    "id": 123,
+    "name": "Terra Arteka",
+    "slug": "terra-arteka",
+    "region": "Erdek, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Erdek çıkışlı yüksek polifenollü erken hasat natürel sızma zeytinyağı üreten butik marka.",
+    "url": "/marka/terra-arteka.html"
+  },
+  {
+    "id": 124,
+    "name": "Zeytinci Salih",
+    "slug": "zeytinci-salih",
+    "region": "Armutlu, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Armutlu çıkışlı doğal zeytin ve zeytinyağı ürünleri sunan yerel üretici.",
+    "url": "/marka/zeytinci-salih.html"
+  },
+  {
+    "id": 125,
+    "name": "Zeytinöz",
+    "slug": "zeytinoz",
+    "region": "Armutlu, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Armutlu merkezli zeytin ve natürel sızma zeytinyağı ürünleri sunan yerel marka.",
+    "url": "/marka/zeytinoz.html"
+  },
+  {
+    "id": 126,
+    "name": "Gümetepe",
+    "slug": "gumetepe",
+    "region": "Ezine, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ezine ve Çanakkale hattında zeytin ile natürel sızma zeytinyağı üreten yerel marka.",
+    "url": "/marka/gumetepe.html"
+  },
+  {
+    "id": 127,
+    "name": "Lamponia",
+    "slug": "lamponia",
+    "region": "Ayvacık, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvacık Kozlu çıkışlı erken hasat natürel sızma zeytinyağlarıyla öne çıkan aile üretimi butik marka.",
+    "url": "/marka/lamponia.html"
+  },
+  {
+    "id": 128,
+    "name": "Berolivo",
+    "slug": "berolivo",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Eceabat çıkışlı sürdürülebilir ve yüksek kaliteli natürel sızma zeytinyağı üreten butik marka.",
+    "url": "/marka/berolivo.html"
+  },
+  {
+    "id": 129,
+    "name": "Macaroğlu",
+    "slug": "macaroglu",
+    "region": "Mudanya, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mudanya Tirilye çıkışlı zeytin ve zeytinyağı çeşitleri sunan köklü yerel üretici.",
+    "url": "/marka/macaroglu.html"
+  },
+  {
+    "id": 130,
+    "name": "On7 Zeytinyağı",
+    "slug": "on7-zeytinyagi",
+    "region": "Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Çanakkale yöresindeki kendi zeytinlerinden soğuk sıkım natürel sızma zeytinyağı üreten butik marka.",
+    "url": "/marka/on7-zeytinyagi.html"
+  },
+  {
+    "id": 131,
+    "name": "Çoral",
+    "slug": "coral",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Eceabat çıkışlı ödüllü natürel sızma zeytinyağı serileri sunan butik üretici.",
+    "url": "/marka/coral.html"
+  },
+  {
+    "id": 132,
+    "name": "Galli Premium",
+    "slug": "galli-premium",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Eceabat Çan Ovası mevkiinden natürel sızma zeytinyağı üreten butik marka.",
+    "url": "/marka/galli-premium.html"
+  },
+  {
+    "id": 133,
+    "name": "Gallipolive",
+    "slug": "gallipolive",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Eceabat üretim tesislerinde soğuk pres natürel sızma zeytinyağı hazırlayan butik marka.",
+    "url": "/marka/gallipolive.html"
+  },
+  {
+    "id": 134,
+    "name": "Kilye",
+    "slug": "kilye",
+    "region": "Eceabat, Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Eceabat çıkışlı çiğ sızma ve organik natürel sızma zeytinyağı serileri sunan butik marka.",
+    "url": "/marka/kilye.html"
+  },
+  {
+    "id": 135,
+    "name": "Karşıbağ",
+    "slug": "karsibag",
+    "region": "Mudanya, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Mudanya yöresindeki yerel üreticilerden seçilen tepe zeytinleriyle soğuk sıkım natürel sızma zeytinyağı sunan yerel üretici.",
+    "url": "/marka/karsibag.html"
+  },
+  {
+    "id": 136,
+    "name": "Fethi Çelik",
+    "slug": "fethi-celik",
+    "region": "Gemlik, Bursa",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Gemlik zeytini ve Gemlik zeytinyağına odaklanan, yöresel üretim geleneğini sürdüren köklü aile işletmesi.",
+    "url": "/marka/fethi-celik.html"
+  },
+  {
+    "id": 137,
+    "name": "Zivane",
+    "slug": "zivane",
+    "region": "Edincik, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Edincik Su çeşidinin yetiştiği Edincik hattında aile zeytinliklerinden sofralık zeytin ve natürel sızma zeytinyağı sunan yerel üretici.",
+    "url": "/marka/zivane.html"
+  },
+  {
+    "id": 138,
+    "name": "Kavaki",
+    "slug": "kavaki",
+    "region": "Erdek, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Erdek çıkışlı erken hasat natürel sızma zeytinyağı serileriyle öne çıkan butik üretici.",
+    "url": "/marka/kavaki.html"
+  },
+  {
+    "id": 139,
+    "name": "Elta Ada",
+    "slug": "elta-ada",
+    "region": "Gökçeada, Çanakkale",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "organik",
+    "desc": "2004 yılında Gökçeada’da kurulan çiftliğinde organik sertifikalı zeytinyağı üreten yerel üretici.",
+    "url": "/marka/elta-ada.html"
+  },
+  {
+    "id": 140,
+    "name": "Ekozey",
+    "slug": "ekozey",
+    "region": "Gökçeada, Çanakkale",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "organik",
+    "desc": "Gökçeada Şirinköy tesislerinde adanın doğal zeytinlerini soğuk sıkım yöntemiyle işleyen organik odaklı üretici.",
+    "url": "/marka/ekozey.html"
+  }
+]

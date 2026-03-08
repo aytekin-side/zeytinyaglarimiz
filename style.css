@@ -85,6 +85,157 @@ a:hover { color: var(--olive-dark); }
     letter-spacing: 0.02em;
 }
 .nav-links a:hover, .nav-links a.active { color: var(--olive); }
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.nav-search {
+    position: relative;
+}
+.nav-search-toggle {
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(74,103,65,0.16);
+    border-radius: 999px;
+    background: rgba(255,255,255,0.72);
+    color: var(--olive-dark);
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s, background 0.2s, box-shadow 0.2s;
+}
+.nav-search-toggle:hover,
+.nav-search.open .nav-search-toggle {
+    transform: translateY(-1px);
+    border-color: rgba(74,103,65,0.26);
+    background: rgba(255,255,255,0.96);
+    box-shadow: 0 10px 24px rgba(44,62,45,0.08);
+}
+.nav-search-toggle svg,
+.nav-search-input-shell svg {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+}
+.nav-search-panel {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    width: min(380px, calc(100vw - 32px));
+    padding: 14px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.98);
+    border: 1px solid rgba(74,103,65,0.14);
+    box-shadow: 0 24px 48px rgba(44,62,45,0.16);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+}
+.nav-search.open .nav-search-panel {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+.nav-search-form {
+    margin: 0;
+}
+.nav-search-input-shell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: var(--cream);
+    border: 1px solid rgba(74,103,65,0.12);
+    color: var(--olive-dark);
+}
+.nav-search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+}
+.nav-search-input::placeholder {
+    color: var(--brown-light);
+}
+.nav-search-results {
+    margin-top: 12px;
+    display: grid;
+    gap: 6px;
+}
+.nav-search-status,
+.nav-search-empty {
+    padding: 10px 4px 4px;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+.nav-search-result,
+.nav-search-all {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    color: var(--text);
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+.nav-search-result:hover,
+.nav-search-all:hover {
+    background: rgba(74,103,65,0.08);
+    transform: translateY(-1px);
+}
+.nav-search-badge {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(74,103,65,0.14), rgba(197,165,90,0.22));
+    color: var(--olive-dark);
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav-search-copy {
+    min-width: 0;
+}
+.nav-search-title {
+    display: block;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+}
+.nav-search-meta {
+    display: block;
+    margin-top: 2px;
+    color: var(--text-light);
+    font-size: 0.84rem;
+    line-height: 1.5;
+}
+.nav-search-all {
+    justify-content: space-between;
+    border-top: 1px solid rgba(74,103,65,0.08);
+    margin-top: 4px;
+    padding-top: 12px;
+    color: var(--olive);
+    font-weight: 600;
+}
+.nav-search-all svg {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+}
 .nav-hamburger {
     display: none;
     flex-direction: column;
@@ -2461,6 +2612,10 @@ footer .copyright {
 @media (max-width: 1080px) {
     .nav-links { display: none; }
     .nav-hamburger { display: flex; }
+    .nav-search-panel {
+        right: -10px;
+        width: min(360px, calc(100vw - 24px));
+    }
     .guide-hub-hero,
     .guide-hero-inner,
     .guide-layout {
@@ -2487,6 +2642,24 @@ footer .copyright {
 @media (max-width: 768px) {
     .hero { padding: 120px 20px 60px; }
     .hero-stats { gap: 24px; }
+    .nav-inner {
+        padding: 0 20px;
+    }
+    .nav-logo span {
+        font-size: 1.15rem;
+    }
+    .nav-actions {
+        gap: 10px;
+    }
+    .nav-search-toggle {
+        width: 40px;
+        height: 40px;
+    }
+    .nav-search-panel {
+        right: -6px;
+        width: min(340px, calc(100vw - 20px));
+        padding: 12px;
+    }
     .filter-bar {
         flex-direction: column;
         padding: 20px;
