@@ -196,7 +196,6 @@ function renderBrandPage(brand) {
 </div>
 <section class="brand-detail-page">
   <div class="brand-detail-inner">
-    <a href="../markalar.html" class="brand-back-link">← Markalara dön</a>
     <header class="brand-detail-header">
       <div class="brand-detail-logo-wrap">
         ${logoSrc ? `<img src="${escapeHtml(logoSrc)}"${detailLogoFallbackAttr} alt="${escapeHtml(brand.name)} logosu" class="brand-detail-logo" onload="const r=this.naturalWidth/Math.max(this.naturalHeight,1);if(r>4.8){this.classList.add('logo-superwide');}else if(r>3){this.classList.add('logo-wide');}" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none'">` : ''}
