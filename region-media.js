@@ -5,12 +5,12 @@ const regionMedia = {
         summary: 'Ayvalık ve Cunda hattı, Ege çıkışlı zeytinyağlarının arkasındaki kıyı ve zeytinlik atmosferini taşır.',
         images: [
             {
-                src: 'images/bolgeler/ege/ege-ayvalik-adalari.jpg',
-                alt: 'Ayvalık Adaları Tabiat Parkı ve Ege kıyısı görünümü',
-                title: 'Ayvalık Adaları Tabiat Parkı',
-                creditName: 'Omer404',
-                license: 'CC BY-SA 4.0',
-                sourceUrl: 'https://commons.wikimedia.org/wiki/File:AYVALIK.jpg'
+                src: 'images/bolgeler/ege/ege-pelitkoy-zeytinlik.jpg',
+                alt: 'Ege bölgesinde zeytin ağaçlarıyla dolu bir zeytinlik görünümü',
+                title: 'Pelitköy zeytinlikleri',
+                creditName: 'Ollios',
+                license: 'CC BY 3.0',
+                sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg'
             },
             {
                 src: 'images/bolgeler/ege/ege-cunda-adasi.jpg',

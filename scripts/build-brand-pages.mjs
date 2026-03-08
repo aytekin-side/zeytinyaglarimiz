@@ -95,33 +95,18 @@ function renderRegionGallery(brand, regionMediaByCluster) {
     return '';
   }
 
-  const images = regionEntry.images.map((item) => `
-    <figure class="brand-region-figure">
-      <img src="${escapeHtml(toPageAsset(item.src))}" alt="${escapeHtml(item.alt || item.title || regionEntry.label)}" loading="lazy" onerror="this.closest('figure').style.display='none'">
-      <figcaption>
-        <strong>${escapeHtml(item.title || regionEntry.label)}</strong>
-        <span class="brand-region-credit">Fotoğraf: <a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(item.creditName || 'Wikimedia Commons')}</a> · ${escapeHtml(item.license || '')}</span>
-      </figcaption>
-    </figure>
-  `).join('');
+  const item = regionEntry.images[0];
 
   return `
-    <aside class="brand-region-inline">
-      <div class="brand-region-inline-head">
-        <span class="brand-region-kicker">${escapeHtml(regionEntry.label || brand.regionClusterLabel || brand.region)}</span>
-        <h3>${escapeHtml(regionEntry.heading || 'Bölgeden Görseller')}</h3>
-        <p>${escapeHtml(regionEntry.summary || '')}</p>
-      </div>
-      <div class="brand-region-inline-grid">
-        ${images}
-      </div>
-    </aside>
+    <figure class="brand-inline-photo">
+      <img src="${escapeHtml(toPageAsset(item.src))}" alt="${escapeHtml(item.alt || item.title || regionEntry.label || brand.region)}" loading="lazy" onerror="this.closest('figure').style.display='none'">
+    </figure>
   `;
 }
 
 function renderLongInfo(brand, regionMediaByCluster) {
   const paragraphValues = (brand.longDetailParagraphs || [brand.detail || brand.desc]).filter(Boolean);
-  const insertAfter = paragraphValues.length > 3 ? 2 : 1;
+  const insertAfter = 0;
   const regionGallery = renderRegionGallery(brand, regionMediaByCluster);
   let html = '';
 
