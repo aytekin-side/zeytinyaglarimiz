@@ -845,7 +845,9 @@ a:hover { color: var(--olive-dark); }
     margin-bottom: 16px;
 }
 .brand-map-section {
-    padding: 24px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px 24px;
 }
 .brand-map-shell {
     max-width: 1280px;

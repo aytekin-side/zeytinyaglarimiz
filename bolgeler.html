@@ -62,86 +62,73 @@
 </section>
 
 <section class="brand-map-section">
-    <div class="brand-map-shell">
-        <div class="brand-map-header">
-            <div class="brand-map-copy">
-                <span class="topic-label">Bölge Haritaları</span>
-                <h2>Her Bölge İçin Ayrı Harita</h2>
-                <p>Markaları tek büyük harita yerine bölge bazında ayrı haritalarda görün. Her kart yalnızca kendi üretim havzasındaki üreticileri gösterir; kamuya açık tam adres bulunan kayıtlar altın tonla, bölge merkezi kullanılan kayıtlar yeşil tonla işaretlenir.</p>
+    <div class="brand-region-map-grid">
+        <article class="brand-region-map-card fade-up">
+            <div class="brand-region-map-head">
+                <div>
+                    <span class="brand-region-map-eyebrow">Ege Bölgesi</span>
+                    <h3><a href="topic/bolgeler/ege.html">Ege Bölgesi</a></h3>
+                </div>
+                <div class="brand-map-stats" id="brandMapStats-ege" aria-live="polite"></div>
             </div>
-            <div class="brand-map-actions">
-                <a class="topic-link" href="data/brand-locations.json" target="_blank" rel="noopener">Adres veritabanını aç</a>
+            <p class="brand-region-map-copy">İzmir, Aydın, Muğla, Manisa ve Balıkesir hattındaki yoğun üretimi tek haritada görün.</p>
+            <div id="brandMap-ege" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Ege Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
+        </article>
+        <article class="brand-region-map-card fade-up">
+            <div class="brand-region-map-head">
+                <div>
+                    <span class="brand-region-map-eyebrow">Marmara Bölgesi</span>
+                    <h3><a href="topic/bolgeler/marmara.html">Marmara Bölgesi</a></h3>
+                </div>
+                <div class="brand-map-stats" id="brandMapStats-marmara" aria-live="polite"></div>
             </div>
-        </div>
-        <div class="brand-region-map-grid">
-            <article class="brand-region-map-card fade-up">
-                <div class="brand-region-map-head">
-                    <div>
-                        <span class="brand-region-map-eyebrow">Ege Bölgesi</span>
-                        <h3><a href="topic/bolgeler/ege.html">Ege Bölgesi</a></h3>
-                    </div>
-                    <div class="brand-map-stats" id="brandMapStats-ege" aria-live="polite"></div>
+            <p class="brand-region-map-copy">Gemlik, Mudanya, Trilye ve çevresindeki üreticileri Marmara ölçeğinde inceleyin.</p>
+            <div id="brandMap-marmara" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Marmara Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
+        </article>
+        <article class="brand-region-map-card fade-up">
+            <div class="brand-region-map-head">
+                <div>
+                    <span class="brand-region-map-eyebrow">Akdeniz Bölgesi</span>
+                    <h3><a href="topic/bolgeler/akdeniz.html">Akdeniz Bölgesi</a></h3>
                 </div>
-                <p class="brand-region-map-copy">İzmir, Aydın, Muğla, Manisa ve Balıkesir hattındaki yoğun üretimi tek haritada görün.</p>
-                <div id="brandMap-ege" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Ege Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
-            </article>
-            <article class="brand-region-map-card fade-up">
-                <div class="brand-region-map-head">
-                    <div>
-                        <span class="brand-region-map-eyebrow">Marmara Bölgesi</span>
-                        <h3><a href="topic/bolgeler/marmara.html">Marmara Bölgesi</a></h3>
-                    </div>
-                    <div class="brand-map-stats" id="brandMapStats-marmara" aria-live="polite"></div>
+                <div class="brand-map-stats" id="brandMapStats-akdeniz" aria-live="polite"></div>
+            </div>
+            <p class="brand-region-map-copy">Hatay, Mersin ve Antalya hattındaki üreticiler ayrı bir Akdeniz haritasında yer alır.</p>
+            <div id="brandMap-akdeniz" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Akdeniz Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
+        </article>
+        <article class="brand-region-map-card fade-up">
+            <div class="brand-region-map-head">
+                <div>
+                    <span class="brand-region-map-eyebrow">Güneydoğu Anadolu</span>
+                    <h3><a href="topic/bolgeler/guneydogu.html">Güneydoğu Anadolu</a></h3>
                 </div>
-                <p class="brand-region-map-copy">Gemlik, Mudanya, Trilye ve çevresindeki üreticileri Marmara ölçeğinde inceleyin.</p>
-                <div id="brandMap-marmara" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Marmara Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
-            </article>
-            <article class="brand-region-map-card fade-up">
-                <div class="brand-region-map-head">
-                    <div>
-                        <span class="brand-region-map-eyebrow">Akdeniz Bölgesi</span>
-                        <h3><a href="topic/bolgeler/akdeniz.html">Akdeniz Bölgesi</a></h3>
-                    </div>
-                    <div class="brand-map-stats" id="brandMapStats-akdeniz" aria-live="polite"></div>
+                <div class="brand-map-stats" id="brandMapStats-guneydogu" aria-live="polite"></div>
+            </div>
+            <p class="brand-region-map-copy">Kilis, Gaziantep, Şanlıurfa ve Mardin hattındaki zeytinyağlarını tek bölgede görün.</p>
+            <div id="brandMap-guneydogu" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Güneydoğu Anadolu üzerindeki zeytinyağı markaları haritası"></div>
+        </article>
+        <article class="brand-region-map-card fade-up">
+            <div class="brand-region-map-head">
+                <div>
+                    <span class="brand-region-map-eyebrow">Trakya</span>
+                    <h3><a href="topic/bolgeler/trakya.html">Trakya</a></h3>
                 </div>
-                <p class="brand-region-map-copy">Hatay, Mersin ve Antalya hattındaki üreticiler ayrı bir Akdeniz haritasında yer alır.</p>
-                <div id="brandMap-akdeniz" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Akdeniz Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
-            </article>
-            <article class="brand-region-map-card fade-up">
-                <div class="brand-region-map-head">
-                    <div>
-                        <span class="brand-region-map-eyebrow">Güneydoğu Anadolu</span>
-                        <h3><a href="topic/bolgeler/guneydogu.html">Güneydoğu Anadolu</a></h3>
-                    </div>
-                    <div class="brand-map-stats" id="brandMapStats-guneydogu" aria-live="polite"></div>
+                <div class="brand-map-stats" id="brandMapStats-trakya" aria-live="polite"></div>
+            </div>
+            <p class="brand-region-map-copy">Tekirdağ, Edirne ve Kırklareli çevresindeki sınırlı ama büyüyen üretim alanlarını görün.</p>
+            <div id="brandMap-trakya" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Trakya üzerindeki zeytinyağı markaları haritası"></div>
+        </article>
+        <article class="brand-region-map-card fade-up">
+            <div class="brand-region-map-head">
+                <div>
+                    <span class="brand-region-map-eyebrow">Türkiye Geneli</span>
+                    <h3><a href="topic/bolgeler/turkiye.html">Türkiye Geneli</a></h3>
                 </div>
-                <p class="brand-region-map-copy">Kilis, Gaziantep, Şanlıurfa ve Mardin hattındaki zeytinyağlarını tek bölgede görün.</p>
-                <div id="brandMap-guneydogu" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Güneydoğu Anadolu üzerindeki zeytinyağı markaları haritası"></div>
-            </article>
-            <article class="brand-region-map-card fade-up">
-                <div class="brand-region-map-head">
-                    <div>
-                        <span class="brand-region-map-eyebrow">Trakya</span>
-                        <h3><a href="topic/bolgeler/trakya.html">Trakya</a></h3>
-                    </div>
-                    <div class="brand-map-stats" id="brandMapStats-trakya" aria-live="polite"></div>
-                </div>
-                <p class="brand-region-map-copy">Tekirdağ, Edirne ve Kırklareli çevresindeki sınırlı ama büyüyen üretim alanlarını görün.</p>
-                <div id="brandMap-trakya" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Trakya üzerindeki zeytinyağı markaları haritası"></div>
-            </article>
-            <article class="brand-region-map-card fade-up">
-                <div class="brand-region-map-head">
-                    <div>
-                        <span class="brand-region-map-eyebrow">Türkiye Geneli</span>
-                        <h3><a href="topic/bolgeler/turkiye.html">Türkiye Geneli</a></h3>
-                    </div>
-                    <div class="brand-map-stats" id="brandMapStats-turkiye" aria-live="polite"></div>
-                </div>
-                <p class="brand-region-map-copy">Belirli bir ana havzaya bağlı olmayan veya ülke geneli konumlanan kayıtları ayrı görün.</p>
-                <div id="brandMap-turkiye" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Türkiye geneli zeytinyağı markaları haritası"></div>
-            </article>
-        </div>
-        <p class="brand-map-note">Haritadaki küçük yuvarlaklara tıklayarak isim, adres bilgisi ve marka sayfası bağlantısını açabilirsiniz. Aynı koordinata düşen üreticiler küçük bir halka halinde ayrılır.</p>
+                <div class="brand-map-stats" id="brandMapStats-turkiye" aria-live="polite"></div>
+            </div>
+            <p class="brand-region-map-copy">Belirli bir ana havzaya bağlı olmayan veya ülke geneli konumlanan kayıtları ayrı görün.</p>
+            <div id="brandMap-turkiye" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Türkiye geneli zeytinyağı markaları haritası"></div>
+        </article>
     </div>
 </section>
 
