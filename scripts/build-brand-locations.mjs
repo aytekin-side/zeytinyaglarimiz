@@ -583,6 +583,7 @@ async function geocode(query) {
     parts.length >= 3 ? parts.slice(-3).join(', ') : '',
     parts.length >= 2 ? parts.slice(-2).join(', ') : ''
   ]);
+  let lastError = null;
 
   for (const attempt of attempts) {
     if (coordinateOverrides[attempt]) {
@@ -604,7 +605,11 @@ async function geocode(query) {
     });
 
     if (!response.ok) {
-      throw new Error(`Geocode failed for ${attempt}: ${response.status}`);
+      lastError = new Error(`Geocode failed for ${attempt}: ${response.status}`);
+      if (response.status === 429) {
+        await sleep(GEOCODE_DELAY_MS);
+      }
+      continue;
     }
 
     const payload = await response.json();
@@ -618,6 +623,9 @@ async function geocode(query) {
     }
   }
 
+  if (lastError) {
+    throw lastError;
+  }
   throw new Error(`No geocode result for ${query}`);
 }
 
