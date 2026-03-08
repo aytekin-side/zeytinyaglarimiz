@@ -1327,12 +1327,17 @@ a.variety-tag:hover {
     display: block;
     background: #fff;
 }
-.brand-info-section p {
+.brand-info-body {
     background: var(--white);
     border-radius: var(--radius);
-    padding: 18px;
-    margin-bottom: 10px;
+    padding: 22px;
     border: 1px solid rgba(74, 103, 65, 0.12);
+}
+.brand-info-section p {
+    margin-bottom: 14px;
+}
+.brand-info-section p:last-child {
+    margin-bottom: 0;
 }
 .brand-detail-empty {
     max-width: 880px;

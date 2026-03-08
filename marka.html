@@ -232,7 +232,9 @@ function renderBrandDetail() {
 
             <section class="brand-info-section">
                 <h2>${brand.name} Hakkında</h2>
-                ${(brand.longDetailParagraphs || [brand.desc]).map((paragraph) => `<p>${paragraph}</p>`).join('')}
+                <div class="brand-info-body">
+                    ${(brand.longDetailParagraphs || [brand.desc]).map((paragraph) => `<p>${paragraph}</p>`).join('')}
+                </div>
             </section>
             <section class="brand-topic-links">
                 <h2>Bölgeler ve Kategoriler</h2>

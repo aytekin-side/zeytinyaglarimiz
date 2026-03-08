@@ -77,9 +77,10 @@ function renderGallery(brand) {
 }
 
 function renderLongInfo(brand) {
-  return (brand.longDetailParagraphs || [brand.detail || brand.desc])
+  const paragraphs = (brand.longDetailParagraphs || [brand.detail || brand.desc])
     .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
     .join('');
+  return `<div class="brand-info-body">${paragraphs}</div>`;
 }
 
 function renderTopicLinks(brand) {
