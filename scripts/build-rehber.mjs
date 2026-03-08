@@ -5,6 +5,9 @@ import vm from 'vm';
 const SITE_URL = 'https://zeytinyaglarimiz.com';
 const KEYWORDS_CSV = process.env.KEYWORDS_CSV || '/Users/aytekin/Downloads/google_tr_zeytinyagi_matching-terms_2026-03-07_18-58-18.csv';
 const TODAY = '2026-03-07';
+const EXCLUDED_GUIDE_SLUGS = new Set([
+  'guvenasa-zeytinyagi'
+]);
 
 const mediaSource = fs
   .readFileSync('brand-media.js', 'utf8')
@@ -2239,7 +2242,7 @@ ensureDir('rehber');
 ensureDir('rehber/kategori');
 
 const topKeywords = parseCsv(KEYWORDS_CSV)
-  .filter((row) => row.keyword)
+  .filter((row) => row.keyword && !EXCLUDED_GUIDE_SLUGS.has(slugify(row.keyword)))
   .sort((a, b) => b.volume - a.volume || a.keyword.localeCompare(b.keyword, 'tr'))
   .slice(0, 100)
   .map(buildArticleRecord);
@@ -2255,6 +2258,9 @@ for (const category of guideCategories) {
 }
 
 writeFile('rehber/index.html', renderHubPage(topKeywords));
+for (const slug of EXCLUDED_GUIDE_SLUGS) {
+  fs.rmSync(path.join(process.cwd(), 'rehber', `${slug}.html`), { force: true });
+}
 buildSitemap();
 
 console.log(`Generated rehber pages: ${topKeywords.length + 1 + guideCategories.length}`);
