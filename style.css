@@ -944,6 +944,21 @@ a:hover { color: var(--olive-dark); }
     font-size: 0.86rem;
     font-weight: 600;
 }
+.brand-map-stat {
+    text-decoration: none;
+    transition: transform 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.brand-map-stat:hover {
+    color: var(--olive-dark);
+    background: #efe3c8;
+    border-color: rgba(74,103,65,0.24);
+    box-shadow: 0 10px 18px rgba(44,62,45,0.08);
+    transform: translateY(-1px);
+}
+.brand-map-stat:focus-visible {
+    outline: 3px solid rgba(74,103,65,0.2);
+    outline-offset: 3px;
+}
 .brand-map-filter {
     cursor: pointer;
     transition: transform 0.2s, background 0.2s, border-color 0.2s, color 0.2s;

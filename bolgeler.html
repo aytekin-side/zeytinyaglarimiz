@@ -506,8 +506,8 @@ function createBrandMapMarker(record, latLng) {
     return marker;
 }
 
-function updateBrandMapStats(records, statsElement) {
-    statsElement.innerHTML = `<span class="brand-map-stat">${records.length} marka</span>`;
+function updateBrandMapStats(records, statsElement, config) {
+    statsElement.innerHTML = `<a class="brand-map-stat" href="${escapeHtml(config.href)}">${records.length} marka</a>`;
 }
 
 function fitRegionMap(map, visibleRecords, placements, maxZoom) {
@@ -543,7 +543,7 @@ async function initializeRegionMaps() {
             if (!mapElement || !statsElement) return;
 
             const regionRecords = records.filter((record) => record.regionCluster === config.key);
-            updateBrandMapStats(regionRecords, statsElement);
+            updateBrandMapStats(regionRecords, statsElement, config);
 
             if (!regionRecords.length) {
                 mapElement.innerHTML = '<div class="brand-map-fallback"><strong>Bu bölgede kayıt bulunamadı.</strong></div>';
