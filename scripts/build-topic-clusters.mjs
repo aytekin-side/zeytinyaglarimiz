@@ -261,7 +261,7 @@ function topicCards(items, prefix, basePath) {
   `).join('')}</div>`;
 }
 
-function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, cardsHtml, dimensionsLinks = [], sectionTitle = 'Bölgeler' }) {
+function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, cardsHtml, dimensionsLinks = [], sectionTitle = 'Bölgeler', spotlightHtml = '' }) {
   const content = `
 <main class="topic-page">
   <div class="topic-inner">
@@ -270,15 +270,7 @@ function renderHubPage({ relPath, prefix, title, description, breadcrumbItems, c
       <p>${normalize(description)}</p>
       ${dimensionsLinks.length ? `<div class="topic-link-list" style="margin-top:14px;">${dimensionsLinks.map((link) => `<a class="topic-link" href="${prefix}${link.url}">${normalize(link.label)}</a>`).join('')}</div>` : ''}
     </header>
-    ${relPath === 'topic/index.html' ? `<section class="topic-spotlight">
-      <div class="topic-spotlight-media">
-        <img src="https://meraovasi.com/images/meraovasi-1l-bottle.png" alt="Mera Ovası zeytinyağı şişesi" loading="lazy">
-      </div>
-      <div class="topic-spotlight-content">
-        <h2>Mera Ovası Zeytinyağı</h2>
-        <p>Mera Ovası'nın Gemlik zeytininden üretilen natürel sızma zeytinyağı ürünlerini görmek için <a href="https://meraovasi.com" target="_blank" rel="noopener">resmi Mera Ovası sitesini</a> ziyaret edebilirsiniz. Marka detayları için ayrıca <a href="../marka/mera-ovasi.html">Mera Ovası marka sayfasına</a> da gidebilirsiniz.</p>
-      </div>
-    </section>` : ''}
+    ${spotlightHtml}
     <section class="topic-section">
       ${sectionTitle ? `<h2>${normalize(sectionTitle)}</h2>` : ''}
       ${cardsHtml}
@@ -315,7 +307,8 @@ renderHubPage({
     { label: 'Markaları Listele', url: 'markalar.html' },
     { label: 'Öne Çıkan Markalar', url: 'index.html' },
     { label: 'Zeytinyağı Rehberi', url: 'rehber/index.html' }
-  ]
+  ],
+  sectionTitle: ''
 });
 
 renderHubPage({
