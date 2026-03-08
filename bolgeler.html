@@ -67,7 +67,7 @@
             <div class="brand-map-copy">
                 <span class="topic-label">Türkiye Haritası</span>
                 <h2>Zeytinyağı Markalarının Konumları</h2>
-                <p>Markaları Türkiye haritası üzerinde isimleri ve harf işaretleriyle görün. Kamuya açık resmi adres bulunabilen kayıtlar doğrudan işaretlenir; kalan markalar için üretim veya merkez bölgesi kullanılır.</p>
+                <p>Markaları Türkiye haritası üzerinde küçük işaretlerle görün. Kamuya açık resmi adres bulunabilen kayıtlar doğrudan işaretlenir; kalan üreticiler için üretim veya merkez bölgesi kullanılır.</p>
             </div>
             <div class="brand-map-actions">
                 <a class="topic-link" href="data/brand-locations.json" target="_blank" rel="noopener">Adres veritabanını aç</a>
@@ -78,7 +78,7 @@
             <div class="brand-map-stats" id="brandMapStats" aria-live="polite"></div>
         </div>
         <div id="brandMap" class="brand-map-canvas" role="img" aria-label="Türkiye üzerindeki zeytinyağı markaları haritası"></div>
-        <p class="brand-map-note">Haritadaki işaretlerde markanın ilk harfi ve adı görünür. Birbirine çok yakın kayıtlar, üst üste binmemesi için en yakın boş alana hafifçe kaydırılır. Tam sokak adresi bulunamayan markalarda kamuya açık bölge merkezi kullanılır ve popup içinde bu durum açıkça belirtilir.</p>
+        <p class="brand-map-note">Haritadaki küçük yuvarlaklara tıklayarak ismi, adres bilgisi ve sayfa bağlantısını açabilirsiniz. Altın tonlu noktalar tam adresli kayıtları, yeşil tonlu noktalar ise kamuya açık bölge merkezi kullanılan kayıtları gösterir.</p>
     </div>
 </section>
 
@@ -285,12 +285,6 @@ function buildBrandLogoImage(record, className) {
     return `<img class="${className}" src="${escapeHtml(record.logo)}"${fallbackAttr} alt="${escapeHtml(record.name)}" loading="lazy" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none';">`;
 }
 
-function getBrandMarkerInitial(record) {
-    const text = String(record && record.name ? record.name : '').trim();
-    if (!text) return '?';
-    return Array.from(text)[0].toLocaleUpperCase('tr-TR');
-}
-
 function populateRegionHubLinks() {
     const dataset = getBrandsDataset();
     if (!Array.isArray(dataset)) return;
@@ -348,24 +342,6 @@ function getMapFilterConfig(records) {
     return base.filter((item) => item.key === 'all' || counts[item.key]);
 }
 
-function createBrandMapIcon(record) {
-    const stateClass = record.sourceType === 'official' ? 'is-official' : 'is-approximate';
-    return L.divIcon({
-        className: 'brand-map-icon',
-        iconSize: [96, 78],
-        iconAnchor: [48, 78],
-        popupAnchor: [0, -66],
-        html: `
-            <div class="brand-map-pin ${stateClass}">
-                <div class="brand-map-pin-badge" aria-hidden="true">
-                    ${escapeHtml(getBrandMarkerInitial(record))}
-                </div>
-                <div class="brand-map-pin-name">${escapeHtml(record.name)}</div>
-            </div>
-        `
-    });
-}
-
 function createBrandPopup(record) {
     const brandUrl = `marka/${encodeURIComponent(record.slug)}.html`;
     const sourceLink = record.sourceUrl
@@ -392,16 +368,6 @@ function createBrandPopup(record) {
         </div>
     `;
 }
-
-const markerLayoutConfig = {
-    width: 110,
-    height: 90,
-    anchorX: 55,
-    anchorY: 82,
-    gap: 8,
-    step: 16,
-    maxRadius: 224
-};
 
 function comparePlacementPriority(a, b) {
     const precisionRank = {
@@ -433,74 +399,75 @@ function comparePlacementPriority(a, b) {
     return a.name.localeCompare(b.name, 'tr');
 }
 
-function buildMarkerBox(point) {
+function offsetLatLng(lat, lng, meters, angle) {
+    const latOffset = (meters * Math.cos(angle)) / 111320;
+    const lngOffset = (meters * Math.sin(angle)) / (111320 * Math.max(0.2, Math.cos((lat * Math.PI) / 180)));
+    return L.latLng(lat + latOffset, lng + lngOffset);
+}
+
+function distributeCoincidentMarkers(records) {
+    const placements = new Map();
+    const groups = new Map();
+
+    records.forEach((record) => {
+        const key = `${Number(record.lat).toFixed(5)}:${Number(record.lng).toFixed(5)}`;
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(record);
+    });
+
+    groups.forEach((group) => {
+        if (group.length === 1) {
+            const only = group[0];
+            placements.set(only.id, L.latLng(only.lat, only.lng));
+            return;
+        }
+
+        const ordered = group.slice().sort(comparePlacementPriority);
+        const perRing = 8;
+        const baseRadius = 180;
+        const ringGap = 110;
+
+        ordered.forEach((record, index) => {
+            const ring = Math.floor(index / perRing);
+            const ringSize = Math.min(perRing, ordered.length - ring * perRing);
+            const angle = ((index % perRing) / ringSize) * Math.PI * 2;
+            const radius = baseRadius + (ring * ringGap);
+            placements.set(record.id, offsetLatLng(record.lat, record.lng, radius, angle));
+        });
+    });
+
+    return placements;
+}
+
+function getCircleMarkerStyle(record, isActive = false) {
+    const official = record.sourceType === 'official';
+    const fillColor = official ? '#cfaa55' : '#6f8f62';
+    const strokeColor = official ? '#6d5314' : '#36563a';
+
     return {
-        left: point.x - markerLayoutConfig.anchorX,
-        right: point.x - markerLayoutConfig.anchorX + markerLayoutConfig.width,
-        top: point.y - markerLayoutConfig.anchorY,
-        bottom: point.y - markerLayoutConfig.anchorY + markerLayoutConfig.height
+        radius: isActive ? (official ? 9 : 8) : (official ? 7 : 6),
+        color: strokeColor,
+        weight: isActive ? 3 : 2,
+        fillColor,
+        fillOpacity: official ? 0.95 : 0.9
     };
 }
 
-function boxesOverlap(a, b) {
-    return !(
-        a.right + markerLayoutConfig.gap <= b.left ||
-        a.left >= b.right + markerLayoutConfig.gap ||
-        a.bottom + markerLayoutConfig.gap <= b.top ||
-        a.top >= b.bottom + markerLayoutConfig.gap
-    );
-}
-
-function isFreeMarkerPoint(point, placedBoxes) {
-    const candidateBox = buildMarkerBox(point);
-    return placedBoxes.every((placed) => !boxesOverlap(candidateBox, placed.box));
-}
-
-function getCandidatePoint(origin, radius, angle) {
-    return L.point(
-        origin.x + Math.cos(angle) * radius,
-        origin.y + Math.sin(angle) * radius
-    );
-}
-
-function findNearestFreeMarkerPoint(origin, placedBoxes) {
-    if (isFreeMarkerPoint(origin, placedBoxes)) return origin;
-
-    for (let radius = markerLayoutConfig.step; radius <= markerLayoutConfig.maxRadius; radius += markerLayoutConfig.step) {
-        const circumference = Math.max(6, Math.round((2 * Math.PI * radius) / markerLayoutConfig.step));
-        for (let index = 0; index < circumference; index += 1) {
-            const angle = (index / circumference) * Math.PI * 2;
-            const candidate = getCandidatePoint(origin, radius, angle);
-            if (isFreeMarkerPoint(candidate, placedBoxes)) {
-                return candidate;
-            }
+function createBrandMapMarker(record, latLng) {
+    const marker = L.circleMarker(latLng, getCircleMarkerStyle(record));
+    marker.bindPopup(createBrandPopup(record), {
+        maxWidth: 320,
+        className: 'brand-map-popup-shell'
+    });
+    marker.on('mouseover', () => marker.setStyle(getCircleMarkerStyle(record, true)));
+    marker.on('mouseout', () => {
+        if (!marker.isPopupOpen()) {
+            marker.setStyle(getCircleMarkerStyle(record, false));
         }
-    }
-
-    return origin;
-}
-
-function placeMarkersWithoutOverlap(records, map) {
-    const zoom = map.getZoom();
-    const placements = new Map();
-    const placedBoxes = [];
-
-    records
-        .slice()
-        .sort(comparePlacementPriority)
-        .forEach((record) => {
-            const origin = map.project(L.latLng(record.lat, record.lng), zoom);
-            const point = findNearestFreeMarkerPoint(origin, placedBoxes);
-            const latLng = map.unproject(point, zoom);
-
-            placements.set(record.id, latLng);
-            placedBoxes.push({
-                id: record.id,
-                box: buildMarkerBox(point)
-            });
-        });
-
-    return placements;
+    });
+    marker.on('popupopen', () => marker.setStyle(getCircleMarkerStyle(record, true)));
+    marker.on('popupclose', () => marker.setStyle(getCircleMarkerStyle(record, false)));
+    return marker;
 }
 
 function updateBrandMapStats(records, statsElement) {
@@ -578,37 +545,14 @@ async function initializeBrandMap() {
             const visibleRecords = getVisibleRecords();
             updateBrandMapStats(visibleRecords, statsElement);
 
-            const bounds = [];
             if (!visibleRecords.length) return;
-
-            const rawBounds = L.latLngBounds(visibleRecords.map((record) => [record.lat, record.lng]));
-            map.fitBounds(rawBounds.pad(activeFilter === 'all' ? 0.14 : 0.2), {
-                maxZoom: activeFilter === 'all' ? 6 : 7
-            });
-
-            let placements = placeMarkersWithoutOverlap(visibleRecords, map);
-            const placedBounds = L.latLngBounds(
-                visibleRecords.map((record) => {
-                    const latLng = placements.get(record.id) || L.latLng(record.lat, record.lng);
-                    return [latLng.lat, latLng.lng];
-                })
-            );
-
-            map.fitBounds(placedBounds.pad(activeFilter === 'all' ? 0.16 : 0.22), {
-                maxZoom: activeFilter === 'all' ? 6 : 7
-            });
-
-            placements = placeMarkersWithoutOverlap(visibleRecords, map);
+            const bounds = [];
+            const placements = distributeCoincidentMarkers(visibleRecords);
 
             visibleRecords.forEach((record) => {
                 const latLng = placements.get(record.id) || L.latLng(record.lat, record.lng);
                 bounds.push([latLng.lat, latLng.lng]);
-                const marker = L.marker(latLng, { icon: createBrandMapIcon(record) });
-                marker.bindPopup(createBrandPopup(record), {
-                    maxWidth: 320,
-                    className: 'brand-map-popup-shell'
-                });
-                marker.addTo(markerLayer);
+                createBrandMapMarker(record, latLng).addTo(markerLayer);
             });
 
             if (bounds.length) {
