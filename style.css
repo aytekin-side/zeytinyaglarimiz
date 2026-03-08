@@ -1333,6 +1333,71 @@ a.variety-tag:hover {
 .brand-info-section p:last-child {
     margin-bottom: 0;
 }
+.brand-region-inline {
+    margin: 24px 0;
+    padding: 18px;
+    border-radius: var(--radius);
+    border: 1px solid rgba(74, 103, 65, 0.14);
+    background: linear-gradient(135deg, #fcfaf4 0%, #f4efe2 100%);
+}
+.brand-region-inline-head {
+    margin-bottom: 14px;
+}
+.brand-region-kicker {
+    display: inline-block;
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--olive-dark);
+    margin-bottom: 6px;
+}
+.brand-region-inline h3 {
+    margin: 0 0 8px;
+    color: var(--olive-dark);
+    font-size: 1.15rem;
+}
+.brand-region-inline p {
+    margin: 0;
+    color: var(--text-light);
+}
+.brand-region-inline-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+.brand-region-figure {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: calc(var(--radius) - 4px);
+    overflow: hidden;
+    border: 1px solid rgba(74, 103, 65, 0.1);
+}
+.brand-region-figure img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+}
+.brand-region-figure figcaption {
+    padding: 10px 12px 12px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+.brand-region-figure figcaption strong {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--olive-dark);
+}
+.brand-region-credit {
+    display: block;
+    font-size: 0.78rem;
+    line-height: 1.45;
+}
+.brand-region-credit a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
 .brand-detail-empty {
     max-width: 880px;
     margin: 0 auto;
@@ -2408,6 +2473,7 @@ footer .copyright {
     .page-header { padding: 110px 20px 40px; }
     .brand-detail-page { padding: 20px 20px 40px; }
     .brand-detail-header { grid-template-columns: 1fr; }
+    .brand-region-inline-grid { grid-template-columns: 1fr; }
     .brand-facts-grid { grid-template-columns: 1fr 1fr; }
     .brand-gallery-grid { grid-template-columns: 1fr 1fr; }
     .breadcrumbs-wrap {

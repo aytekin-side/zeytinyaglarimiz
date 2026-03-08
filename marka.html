@@ -80,6 +80,7 @@
 
 <script src="brand-media.js"></script>
 <script src="brand-editorial-data.js"></script>
+<script src="region-media.js"></script>
 <script src="brands.js"></script>
 <script>
 const categoryLongLabels = {
@@ -118,6 +119,37 @@ function getBrandFromQuery() {
 
 function getFallbackBottles(brand) {
     return brand.image ? [brand.image] : [];
+}
+
+function renderRegionGallery(brand) {
+    const regionEntry = (typeof regionMedia !== 'undefined' && regionMedia)
+        ? regionMedia[brand.regionCluster]
+        : null;
+
+    if (!regionEntry || !Array.isArray(regionEntry.images) || regionEntry.images.length === 0) {
+        return '';
+    }
+
+    return `
+        <aside class="brand-region-inline">
+            <div class="brand-region-inline-head">
+                <span class="brand-region-kicker">${regionEntry.label || brand.regionClusterLabel || brand.region}</span>
+                <h3>${regionEntry.heading || 'Bölgeden Görseller'}</h3>
+                <p>${regionEntry.summary || ''}</p>
+            </div>
+            <div class="brand-region-inline-grid">
+                ${regionEntry.images.map((item) => `
+                    <figure class="brand-region-figure">
+                        <img src="${item.src}" alt="${item.alt || item.title || regionEntry.label}" loading="lazy" onerror="this.closest('figure').style.display='none'">
+                        <figcaption>
+                            <strong>${item.title || regionEntry.label}</strong>
+                            <span class="brand-region-credit">Fotoğraf: <a href="${item.sourceUrl}" target="_blank" rel="noopener">${item.creditName || 'Wikimedia Commons'}</a> · ${item.license || ''}</span>
+                        </figcaption>
+                    </figure>
+                `).join('')}
+            </div>
+        </aside>
+    `;
 }
 
 function renderBrandDetail() {
@@ -192,6 +224,13 @@ function renderBrandDetail() {
         if (!url) return '';
         return `<a class=\"topic-link\" href=\"${url}\">${label}</a>`;
     }).filter(Boolean);
+    const paragraphs = (brand.longDetailParagraphs || [brand.desc]).filter(Boolean);
+    const insertAfter = paragraphs.length > 3 ? 2 : 1;
+    const regionGallery = renderRegionGallery(brand);
+    const paragraphMarkup = paragraphs.map((paragraph, index) => `
+        <p>${paragraph}</p>
+        ${regionGallery && index === insertAfter ? regionGallery : ''}
+    `).join('');
 
     root.innerHTML = `
         <div class="brand-detail-inner">
@@ -231,7 +270,7 @@ function renderBrandDetail() {
             <section class="brand-info-section">
                 <h2>${brand.name} Hakkında</h2>
                 <div class="brand-info-body">
-                    ${(brand.longDetailParagraphs || [brand.desc]).map((paragraph) => `<p>${paragraph}</p>`).join('')}
+                    ${paragraphMarkup}
                 </div>
             </section>
             <section class="brand-topic-links">

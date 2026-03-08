@@ -5,6 +5,7 @@ import vm from 'node:vm';
 const ROOT = process.cwd();
 const SITE_URL = 'https://zeytinyaglarimiz.com';
 const TODAY = '2026-03-07';
+const REGION_MEDIA_PATH = path.join(ROOT, 'region-media.js');
 const categoryLongLabels = {
   'premium-butik': 'Premium / Butik Üretici',
   'market-endustriyel': 'Market / Endüstriyel',
@@ -32,8 +33,8 @@ function toPageAsset(value) {
 }
 
 function loadBrandContext() {
-  const sandbox = { console, URL };
-  vm.createContext(sandbox);
+    const sandbox = { console, URL };
+    vm.createContext(sandbox);
   const brandMediaCode = fs.readFileSync(path.join(ROOT, 'brand-media.js'), 'utf8');
   const brandEditorialPath = path.join(ROOT, 'brand-editorial-data.js');
   const brandEditorialCode = fs.existsSync(brandEditorialPath)
@@ -42,12 +43,19 @@ function loadBrandContext() {
   const brandsCode = fs.readFileSync(path.join(ROOT, 'brands.js'), 'utf8');
   vm.runInContext(`${brandMediaCode}\n;globalThis.__brandMedia = brandMedia;`, sandbox);
   vm.runInContext(`${brandEditorialCode}\n;globalThis.brandEditorialData = typeof brandEditorialData !== 'undefined' ? brandEditorialData : {};`, sandbox);
+  if (fs.existsSync(REGION_MEDIA_PATH)) {
+    const regionMediaCode = fs.readFileSync(REGION_MEDIA_PATH, 'utf8');
+    vm.runInContext(`${regionMediaCode}\n;globalThis.__regionMedia = typeof regionMedia !== 'undefined' ? regionMedia : {};`, sandbox);
+  } else {
+    vm.runInContext('globalThis.__regionMedia = {};', sandbox);
+  }
   vm.runInContext(`${brandsCode}\n;globalThis.__brands = brands; globalThis.__categoryLabels = categoryLabels; globalThis.__regionClusterLabels = regionClusterLabels; globalThis.__oliveTypeLabels = oliveTypeLabels;`, sandbox);
   return {
     brands: sandbox.__brands,
     categoryLabels: sandbox.__categoryLabels,
     regionClusterLabels: sandbox.__regionClusterLabels,
-    oliveTypeLabels: sandbox.__oliveTypeLabels
+    oliveTypeLabels: sandbox.__oliveTypeLabels,
+    regionMedia: sandbox.__regionMedia || {}
   };
 }
 
@@ -81,11 +89,54 @@ function renderGallery(brand) {
   `).join('');
 }
 
-function renderLongInfo(brand) {
-  const paragraphs = (brand.longDetailParagraphs || [brand.detail || brand.desc])
-    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
-    .join('');
-  return `<div class="brand-info-body">${paragraphs}</div>`;
+function renderRegionGallery(brand, regionMediaByCluster) {
+  const regionEntry = regionMediaByCluster[brand.regionCluster];
+  if (!regionEntry || !Array.isArray(regionEntry.images) || regionEntry.images.length === 0) {
+    return '';
+  }
+
+  const images = regionEntry.images.map((item) => `
+    <figure class="brand-region-figure">
+      <img src="${escapeHtml(toPageAsset(item.src))}" alt="${escapeHtml(item.alt || item.title || regionEntry.label)}" loading="lazy" onerror="this.closest('figure').style.display='none'">
+      <figcaption>
+        <strong>${escapeHtml(item.title || regionEntry.label)}</strong>
+        <span class="brand-region-credit">Fotoğraf: <a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(item.creditName || 'Wikimedia Commons')}</a> · ${escapeHtml(item.license || '')}</span>
+      </figcaption>
+    </figure>
+  `).join('');
+
+  return `
+    <aside class="brand-region-inline">
+      <div class="brand-region-inline-head">
+        <span class="brand-region-kicker">${escapeHtml(regionEntry.label || brand.regionClusterLabel || brand.region)}</span>
+        <h3>${escapeHtml(regionEntry.heading || 'Bölgeden Görseller')}</h3>
+        <p>${escapeHtml(regionEntry.summary || '')}</p>
+      </div>
+      <div class="brand-region-inline-grid">
+        ${images}
+      </div>
+    </aside>
+  `;
+}
+
+function renderLongInfo(brand, regionMediaByCluster) {
+  const paragraphValues = (brand.longDetailParagraphs || [brand.detail || brand.desc]).filter(Boolean);
+  const insertAfter = paragraphValues.length > 3 ? 2 : 1;
+  const regionGallery = renderRegionGallery(brand, regionMediaByCluster);
+  let html = '';
+
+  paragraphValues.forEach((paragraph, index) => {
+    html += `<p>${escapeHtml(paragraph)}</p>`;
+    if (regionGallery && index === insertAfter) {
+      html += regionGallery;
+    }
+  });
+
+  if (regionGallery && paragraphValues.length === 0) {
+    html += regionGallery;
+  }
+
+  return `<div class="brand-info-body">${html}</div>`;
 }
 
 function renderTopicLinks(brand) {
@@ -133,7 +184,7 @@ function renderSchema(brand) {
   return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
-function renderBrandPage(brand) {
+function renderBrandPage(brand, regionMediaByCluster) {
   const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${escapeHtml(toPageAsset(brand.logoFallback))}"` : '';
   const logoSrc = toPageAsset(brand.image);
   const metaDescription = `${brand.name} zeytinyağının hikayesi, bölgesi, şişe görselleri ve uzun ürün anlatımı.`;
@@ -221,7 +272,7 @@ function renderBrandPage(brand) {
     </section>
     <section class="brand-info-section">
       <h2>${escapeHtml(brand.name)} Hakkında</h2>
-      ${renderLongInfo(brand)}
+      ${renderLongInfo(brand, regionMediaByCluster)}
     </section>
     ${renderTopicLinks(brand)}
   </div>
@@ -254,7 +305,7 @@ ${renderSchema(brand)}
 }
 
 function main() {
-  const { brands } = loadBrandContext();
+  const { brands, regionMedia } = loadBrandContext();
   const outDir = path.join(ROOT, 'marka');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
@@ -270,7 +321,7 @@ function main() {
       minWords = wordCount;
       minBrand = brand.name;
     }
-    const html = renderBrandPage(brand);
+    const html = renderBrandPage(brand, regionMedia);
     fs.writeFileSync(path.join(outDir, `${brand.slug}.html`), html);
   }
 
