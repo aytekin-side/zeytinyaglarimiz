@@ -542,7 +542,7 @@ const brandMedia = {
     },
     "55": {
         "slug": "adatepe",
-        "logo": "https://www.adatepe.com/foto/668ef4daf294.png",
+        "logo": "https://www.adatepe.com/foto/6f0c3471da75.jpg",
         "bottles": [
             "https://www.adatepe.com/foto/1740046945-timthumb111.jpg",
             "https://www.adatepe.com/foto/1740046344-3litre_1.jpeg",
