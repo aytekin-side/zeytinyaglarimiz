@@ -761,7 +761,7 @@ const brandMedia = {
     },
     "77": {
         "slug": "artem-oliva",
-        "logo": "https://artemoliva.com/wp-content/uploads/2021/02/TIM_logo_W_rgb-2-e1614125470150.png",
+        "logo": "https://artemoliva.com/wp-content/uploads/2021/02/logo_bckrgoundOK_sizeOK_GRNT250X250_TVL270X270.png",
         "bottles": [
             "https://artemoliva.com/wp-content/uploads/2021/07/Artem-Oliva-Extra-Virgin-Olive-Oil-2.png",
             "https://artemoliva.com/wp-content/uploads/2021/10/Artem-Oliva-Early-Harvest-Extra-Virgin-Olive-Oil.webp",
