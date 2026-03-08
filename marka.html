@@ -80,6 +80,7 @@
 
 <script src="brand-media.js"></script>
 <script src="brand-editorial-data.js"></script>
+<script src="brand-scene-media.js"></script>
 <script src="region-media.js"></script>
 <script src="brands.js"></script>
 <script>
@@ -122,6 +123,18 @@ function getFallbackBottles(brand) {
 }
 
 function renderRegionGallery(brand) {
+    const sceneEntry = (typeof brandSceneMedia !== 'undefined' && brandSceneMedia)
+        ? brandSceneMedia[brand.slug]
+        : null;
+
+    if (sceneEntry && sceneEntry.src) {
+        return `
+            <figure class="brand-inline-photo is-region">
+                <img src="${sceneEntry.src}" alt="${sceneEntry.alt || sceneEntry.title || brand.region}" loading="lazy" onerror="this.closest('figure').style.display='none'">
+            </figure>
+        `;
+    }
+
     const regionEntry = (typeof regionMedia !== 'undefined' && regionMedia)
         ? regionMedia[brand.regionCluster]
         : null;
@@ -227,7 +240,7 @@ function renderBrandDetail() {
     }).filter(Boolean);
     const paragraphs = (brand.longDetailParagraphs || [brand.desc]).filter(Boolean);
     const regionInsertAfter = 0;
-    const bottleInsertAfter = paragraphs.length >= 4 ? 2 : Math.max(1, paragraphs.length - 1);
+    const bottleInsertAfter = paragraphs.length >= 6 ? paragraphs.length - 3 : Math.max(1, paragraphs.length - 1);
     const regionGallery = renderRegionGallery(brand);
     const bottlePhoto = renderInlineBottlePhoto(brand);
     const paragraphMarkup = paragraphs.map((paragraph, index) => `

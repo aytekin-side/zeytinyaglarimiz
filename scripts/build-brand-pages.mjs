@@ -6,6 +6,7 @@ const ROOT = process.cwd();
 const SITE_URL = 'https://zeytinyaglarimiz.com';
 const TODAY = '2026-03-07';
 const REGION_MEDIA_PATH = path.join(ROOT, 'region-media.js');
+const BRAND_SCENE_MEDIA_PATH = path.join(ROOT, 'brand-scene-media.js');
 const categoryLongLabels = {
   'premium-butik': 'Premium / Butik Üretici',
   'market-endustriyel': 'Market / Endüstriyel',
@@ -49,13 +50,20 @@ function loadBrandContext() {
   } else {
     vm.runInContext('globalThis.__regionMedia = {};', sandbox);
   }
+  if (fs.existsSync(BRAND_SCENE_MEDIA_PATH)) {
+    const brandSceneCode = fs.readFileSync(BRAND_SCENE_MEDIA_PATH, 'utf8');
+    vm.runInContext(`${brandSceneCode}\n;globalThis.__brandSceneMedia = typeof brandSceneMedia !== 'undefined' ? brandSceneMedia : {};`, sandbox);
+  } else {
+    vm.runInContext('globalThis.__brandSceneMedia = {};', sandbox);
+  }
   vm.runInContext(`${brandsCode}\n;globalThis.__brands = brands; globalThis.__categoryLabels = categoryLabels; globalThis.__regionClusterLabels = regionClusterLabels; globalThis.__oliveTypeLabels = oliveTypeLabels;`, sandbox);
   return {
     brands: sandbox.__brands,
     categoryLabels: sandbox.__categoryLabels,
     regionClusterLabels: sandbox.__regionClusterLabels,
     oliveTypeLabels: sandbox.__oliveTypeLabels,
-    regionMedia: sandbox.__regionMedia || {}
+    regionMedia: sandbox.__regionMedia || {},
+    brandSceneMedia: sandbox.__brandSceneMedia || {}
   };
 }
 
@@ -89,7 +97,16 @@ function renderGallery(brand) {
   `).join('');
 }
 
-function renderRegionGallery(brand, regionMediaByCluster) {
+function renderRegionGallery(brand, regionMediaByCluster, brandSceneMedia) {
+  const sceneEntry = brandSceneMedia[brand.slug];
+  if (sceneEntry?.src) {
+    return `
+      <figure class="brand-inline-photo is-region">
+        <img src="${escapeHtml(toPageAsset(sceneEntry.src))}" alt="${escapeHtml(sceneEntry.alt || sceneEntry.title || brand.region)}" loading="lazy" onerror="this.closest('figure').style.display='none'">
+      </figure>
+    `;
+  }
+
   const regionEntry = regionMediaByCluster[brand.regionCluster];
   if (!regionEntry || !Array.isArray(regionEntry.images) || regionEntry.images.length === 0) {
     return '';
@@ -118,11 +135,11 @@ function renderInlineBottlePhoto(brand) {
   `;
 }
 
-function renderLongInfo(brand, regionMediaByCluster) {
+function renderLongInfo(brand, regionMediaByCluster, brandSceneMedia) {
   const paragraphValues = (brand.longDetailParagraphs || [brand.detail || brand.desc]).filter(Boolean);
   const regionInsertAfter = 0;
-  const bottleInsertAfter = paragraphValues.length >= 4 ? 2 : Math.max(1, paragraphValues.length - 1);
-  const regionGallery = renderRegionGallery(brand, regionMediaByCluster);
+  const bottleInsertAfter = paragraphValues.length >= 6 ? paragraphValues.length - 3 : Math.max(1, paragraphValues.length - 1);
+  const regionGallery = renderRegionGallery(brand, regionMediaByCluster, brandSceneMedia);
   const bottlePhoto = renderInlineBottlePhoto(brand);
   let html = '';
 
@@ -194,7 +211,7 @@ function renderSchema(brand) {
   return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
-function renderBrandPage(brand, regionMediaByCluster) {
+function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia) {
   const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${escapeHtml(toPageAsset(brand.logoFallback))}"` : '';
   const logoSrc = toPageAsset(brand.image);
   const metaDescription = `${brand.name} zeytinyağının hikayesi, bölgesi, şişe görselleri ve uzun ürün anlatımı.`;
@@ -282,7 +299,7 @@ function renderBrandPage(brand, regionMediaByCluster) {
     </section>
     <section class="brand-info-section">
       <h2>${escapeHtml(brand.name)} Hakkında</h2>
-      ${renderLongInfo(brand, regionMediaByCluster)}
+      ${renderLongInfo(brand, regionMediaByCluster, brandSceneMedia)}
     </section>
     ${renderTopicLinks(brand)}
   </div>
@@ -315,7 +332,7 @@ ${renderSchema(brand)}
 }
 
 function main() {
-  const { brands, regionMedia } = loadBrandContext();
+  const { brands, regionMedia, brandSceneMedia } = loadBrandContext();
   const outDir = path.join(ROOT, 'marka');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
@@ -331,7 +348,7 @@ function main() {
       minWords = wordCount;
       minBrand = brand.name;
     }
-    const html = renderBrandPage(brand, regionMedia);
+    const html = renderBrandPage(brand, regionMedia, brandSceneMedia);
     fs.writeFileSync(path.join(outDir, `${brand.slug}.html`), html);
   }
 
