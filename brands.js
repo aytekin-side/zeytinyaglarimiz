@@ -1500,11 +1500,17 @@ function getBrandInfo(brand) {
     if (editorial && typeof editorial.summary === 'string' && editorial.summary.trim()) {
         return sanitizeBrandPageCopy(editorial.summary);
     }
-    const media = getMediaForBrand(brand);
-    if (media && typeof media.info === 'string' && media.info.trim()) {
-        return sanitizeBrandPageCopy(media.info);
-    }
-    return sanitizeBrandPageCopy(brand.desc);
+    const focusMap = {
+        'premium-butik': 'daha seçici sofralara yakışacak karakterli',
+        'market-endustriyel': 'her gün mutfakta rahat yer bulacak güvenilir',
+        'bolgesel-yerel': 'geldiği yerin karakterini saklamayan',
+        organik: 'temiz içerik hassasiyetini lezzetle bir arada tutan'
+    };
+    const focus = focusMap[brand.category] || 'özenli ve karakterli';
+    const foundedLine = brand.founded
+        ? `${brand.founded} ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.`
+        : 'Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.';
+    return sanitizeBrandPageCopy(`Biz ${brand.region} çıkışlı bir zeytinyağını ${focus} bir çizgide sofraya getiriyoruz. ${foundedLine}`);
 }
 
 brands.forEach((brand) => {
@@ -1598,30 +1604,64 @@ function buildBrandLongDetailParagraphs(brand) {
         return editorial.paragraphs.map(sanitizeBrandPageCopy);
     }
 
-    const categoryLabel = (categoryLabels[brand.category] || brand.category).toLocaleLowerCase('tr-TR');
-    const oliveLine = Array.isArray(brand.oliveTypeLabels) && brand.oliveTypeLabels.length
-        ? `${joinTextList(brand.oliveTypeLabels)} çizgisinin damakta bıraktığı karakter bu tarafta daha belirgin hissedilir.`
-        : 'Şişe dilini okurken asıl ayrım, ürünün sofrada bıraktığı his ve kullanım kolaylığı üzerinden anlaşılır.';
+    const introMap = {
+        'premium-butik': `Biz ${brand.name} tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz.`,
+        'market-endustriyel': `Biz ${brand.name} tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz.`,
+        'bolgesel-yerel': `Biz ${brand.name} ile ${brand.region} tarafının yer duygusunu sofraya taşımayı hedefliyoruz.`,
+        organik: `Biz ${brand.name} tarafında temiz içerik hassasiyetini lezzetle bir arada tutuyoruz.`
+    };
+    const oliveCopyMap = {
+        Ayvalık: 'Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşımayı önemsiyoruz.',
+        Memecik: 'Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korumayı seviyoruz.',
+        Gemlik: 'Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutuyoruz.',
+        'Nizip Yağlık': 'Nizip Yağlık çizgisinin güçlü gövdesini ve bölgesel imzasını şişede kaybetmemeye çalışıyoruz.',
+        Halhalı: 'Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya dürüstçe taşımak istiyoruz.',
+        'Sarı Ulak': 'Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat ilerleyen doğasını koruyoruz.'
+    };
+    const focusMap = {
+        'premium-butik': 'özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat',
+        'market-endustriyel': 'günlük kullanımda da güven veren temiz bir akış',
+        'bolgesel-yerel': 'geldiği yerin kimliğini doğrudan hissettiren bir lezzet',
+        organik: 'içeriği kadar üretim hassasiyeti de önemli olan temiz bir çizgi'
+    };
     const packagingLine = brand.website
-        ? 'Resmi sitede görülen seri isimleri, şişe boyları ve kullanım tonları birlikte okunduğunda hangi seçenekle başlanacağı daha net anlaşılır.'
-        : 'Görünür etiket bilgileri ve şişe formu, hangi seçeneğin günlük mutfağa daha yakın durduğunu anlamak için iyi bir başlangıç sağlar.';
+        ? 'İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.'
+        : 'İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur.';
     const foundedLine = brand.founded
-        ? `${brand.founded} bilgisi, bu çizginin kısa süreli bir deneme değil daha uzun vadeli bir emekle beslendiğini düşündürür.`
-        : `${brand.name} için öne çıkan taraf daha çok bölgesel bağ, kategori konumu ve sofradaki kullanım hissi üzerinden okunur.`;
+        ? `Bizim hikayemizde ${brand.founded} ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.`
+        : `Biz ${brand.region} tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.`;
+    const oliveLine = Array.isArray(brand.oliveTypeLabels) && brand.oliveTypeLabels.length
+        ? oliveCopyMap[brand.oliveTypeLabels[0]] || `${joinTextList(brand.oliveTypeLabels)} çizgisinin damakta bıraktığı karakteri mümkün olduğunca açık hissettirmek istiyoruz.`
+        : 'Bizim için iyi zeytinyağı, şişe açıldığında temiz kokusunu veren ve sofrada nerede duracağını hemen belli eden zeytinyağıdır.';
+    const regionLine = {
+        ege: 'Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Biz de bu doğallığı şişede fazla süslemeden korumayı tercih ediyoruz.',
+        marmara: 'Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bizim çizgimiz de bu dengeyi bozmadan sunmak üzerine kurulu.',
+        akdeniz: 'Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Biz bu canlılığı şişede korurken temizliği kaybetmemeye dikkat ediyoruz.',
+        guneydogu: 'Güneydoğu tarafının daha belirgin bölgesel kimliği, yağa tok ve akılda kalıcı bir duruş kazandırır. Biz bu duruşu saklamadan, sofrada hemen tanınır hale getirmeyi istiyoruz.',
+        trakya: 'Trakya tarafının daha niş ve daha yakın üretim hissi, şişeye sakin ama özgün bir kimlik verir. Biz bu özgünlüğü fazla oynatmadan korumaya çalışıyoruz.',
+        turkiye: 'Türkiye’nin farklı üretim çizgilerinden gelen birikim, bu yağın mutfakta farklı kullanım alanlarına rahatça girebilmesini sağlıyor. Biz de bu esnekliği güvenle sunmak istiyoruz.'
+    };
 
     const paragraphs = [
-        `${brand.name}, ${brand.region} tarafında karşımıza çıkan ve ${categoryLabel} çizgide duran bir seçim. ${brand.detail} İlk bakışta sadece etikete değil, şişenin sofrada nasıl davranacağına da bakmak isteyenler için daha anlamlı bir başlangıç sunuyor.`,
-        `${foundedLine} ${getRegionNarrative(brand)} ${getCategoryNarrative(brand)} Bu yüzden değerlendirme yaparken yalnızca isim tanınırlığına değil, köken duygusuna ve ürünün hangi sofraya seslendiğine odaklanmak daha doğru olur.`,
-        `${oliveLine} Özellikle natürel sızma, erken hasat, soğuk sıkım ya da organik gibi ifadeler görünüyorsa, bu kelimeler doğrudan damak beklentisini değiştirir. Daha canlı, daha yeşil ve daha diri bir profil aranan kullanım ile daha yumuşak ve günlük akışa uygun kullanım her zaman aynı şişede buluşmayabilir.`,
-        `${packagingLine} Cam şişe, teneke ya da farklı hacimler arasındaki ayrım da burada önem kazanır. Küçük boylar ilk denemede daha güvenli hissettirirken, düzenli kullanım için büyük ambalajlara geçmek çok daha mantıklı olabilir.`,
-        `${getBuyingNarrative(brand)} Almayı düşünen biri için en iyi yaklaşım, önce kullanım anını belirlemek; sonra şişe üzerindeki teknik ifadeleri ve seri adlarını buna göre okumaktır. Böylece karar yalnızca tanıdık bir isme değil, gerçekten ihtiyaca uygun olan seçeneğe yönelir.`,
-        `${brand.name} sayfasını okurken asıl fayda da burada ortaya çıkar: nereden geldiği, nasıl bir karakter taşıdığı ve hangi sofrada daha iyi karşılık vereceği daha net görünür. Bu da seçimi daha bilinçli, daha keyifli ve karşılaştırması daha kolay bir hale getirir.`
+        `${introMap[brand.category] || `Biz ${brand.name} ile hikayesi olan, karakterini saklamayan bir zeytinyağı sunuyoruz.`} ${brand.region} çıkışlı bu yağı ${focusMap[brand.category] || 'özenli ve karakterli bir tat'} anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.`,
+        foundedLine,
+        regionLine[brand.regionCluster] || regionLine.turkiye,
+        `Biz ${brand.name} tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. ${oliveLine} Bu yüzden kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.`,
+        `Bizi iyi yapan taraf yalnızca tat iddiamız değil; şişede gördüğünüz söz ile sofrada karşılaştığınız lezzetin birbirini tutması. Bizim için iyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.`,
+        `Bizi ilk kez deneyecekseniz önce kullanım anınızı düşünün. Daha canlı ve karakterli bir ifade arıyorsanız kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış arıyorsanız günlük mutfak kullanımına uygun serileri seçin. ${packagingLine}`,
+        `Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır. ${brand.name} aldığınızda yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz.`
     ];
 
-    const supportParagraph = 'Şişe görselleri, paket boyları ve açıklama dili birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha rahat anlaşılır. İlk kez denenecek bir zeytinyağında bu küçük ayrıntılar karar kalitesini ciddi biçimde yükseltir.';
+    const supportParagraphs = [
+        'Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.',
+        'İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.',
+        'Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.'
+    ];
+    let supportIndex = 0;
 
     while (countWords(paragraphs.join(' ')) < 500) {
-        paragraphs.push(supportParagraph);
+        paragraphs.push(supportParagraphs[supportIndex % supportParagraphs.length]);
+        supportIndex += 1;
     }
 
     return paragraphs.map(sanitizeBrandPageCopy);

@@ -433,154 +433,203 @@ def build_focus_phrase(result: dict[str, Any]) -> str:
     features = result.get('features') or []
     priority = [item for item in features if item in {'erken hasat', 'soğuk sıkım', 'natürel sızma', 'organik', 'yüksek polifenol', 'taş baskı'}]
     if priority:
-        return f"{human_join(priority[:3])} çizgisi"
-    return f"{CATEGORY_LABELS.get(result.get('category'), 'özenli seçime açık')} bir ürün dili"
+        return human_join(priority[:3])
+    return CATEGORY_LABELS.get(result.get('category'), 'özenli ve karakterli')
 
 
 def build_olive_sentence(result: dict[str, Any]) -> str:
     features = result.get('features') or []
-    for label, style in OLIVE_STYLE_MAP.items():
+    olive_copy = {
+        'ayvalık': 'Ayvalık çizgisinin dengeli, meyvemsi ve geniş sofralara kolay uyum veren tarafını korumaya çalışıyoruz.',
+        'memecik': 'Memecik tarafının daha yeşil, diri ve hafifçe boğazı yoklayan karakterini belirgin tutmayı seviyoruz.',
+        'gemlik': 'Gemlik çizgisinin daha yuvarlak açılan ama geriden karakter bırakan yapısını sofraya taşımayı önemsiyoruz.',
+        'halhalı': 'Halhalı tarafının tok, belirgin ve yöresini hemen hissettiren duruşunu kaybetmemeye çalışıyoruz.',
+        'nizip yağlık': 'Nizip Yağlık çizgisinin güçlü gövdesini ve bölgesel imzasını şişede net tutmayı hedefliyoruz.',
+        'sarı ulak': 'Sarı Ulak tarafının akıcı, meyvemsi ve günlük mutfakta rahat hareket eden doğasını koruyoruz.',
+    }
+    for label in olive_copy:
         if label in features:
-            return f"Site dili ve bölgesel bağ birlikte okunduğunda {label} tarafında beklenen {style} daha kolay hissediliyor."
-    return 'Site dili daha çok şişedeki karakteri, kullanım alanını ve sofraya bırakmak istediği hissi anlatma üzerine kuruluyor.'
+            return olive_copy[label]
+    return 'Bizim için iyi zeytinyağı, şişe açıldığında temiz kokusunu veren ve sofrada nerede duracağını hemen belli eden zeytinyağıdır.'
 
 
-def build_story_detail(entry: dict[str, Any], result: dict[str, Any], signals: dict[str, bool], founded_year: str) -> str:
+def build_story_detail(entry: dict[str, Any], signals: dict[str, bool], founded_year: str) -> str:
     if signals['two_friends'] and signals['family_roots']:
-        year_part = f" {founded_year} ve sonrasına uzanan" if founded_year else ' Uzun yıllara yayılan'
-        return f"Hikaye, iki yakın dostun değirmende başlayan hayalini ve o çizginin bugün aile tarafından taşınmasını öne çıkarıyor.{year_part} süreklilik hissi, şişeyi yalnızca ürün olarak değil, devam eden bir emeğin parçası gibi gösteriyor."
+        year_part = f" {founded_year} ve sonrasına uzanan bu emek" if founded_year else ' Bu emek'
+        return (
+            'Bizim hikayemiz iki yakın dostun aynı hayalde buluştuğu bir başlangıca dayanıyor. '
+            f'Değirmende kurulan o niyeti bugün aile eliyle taşımaya, toprağın hakkını verirken saflığı korumaya çalışıyoruz.{year_part} '
+            'şişeye yalnızca ürün değil, devam eden bir miras da koyduğumuzu hissettiriyor.'
+        )
     if signals['childhood_return'] and signals['organic_lifestyle']:
-        return 'Kurucu anlatısında çocukluk yıllarındaki zeytinlik hafızası, organik tekstil ve sürdürülebilir üretim tecrübesiyle birleşiyor. Bu geri dönüş duygusu, sofraya sadece lezzet değil niyet de taşımak isteyen bir çizgi kuruyor.'
+        return (
+            'Biz bu yola çocuklukta içimize sinen zeytinlik hafızasını bugünün doğal üretim anlayışıyla birleştirerek çıktık. '
+            'Doğaya saygılı yaşama alışkanlığını üretimin merkezine koyuyor, sofraya gelen her damlada eski hatırayı bugünün temizliğiyle buluşturmak istiyoruz.'
+        )
     if signals['mythic_place'] or signals['village_texture']:
-        return f"Anlatının merkezine doğrudan {entry['region']} çevresinin dokusu yerleştiriliyor; köy hissi, manzara, rüzgar ve eski zeytinlikler ürüne güçlü bir yer duygusu veriyor. Bu yüzden şişeye bakarken sadece teknik özellik değil, geldiği coğrafyanın atmosferi de hissediliyor."
+        return (
+            f'Bizim için {entry["region"]} yalnızca bir adres değil; rüzgarı, taş evleri, zeytin ağaçlarının gölgesi ve uzun yaz akşamlarıyla yaşayan bir hafıza. '
+            'Bu yüzden her şişede yalnızca tat değil, geldiğimiz yerin ruhu da hissedilsin istiyoruz.'
+        )
     if signals['family_roots']:
         if founded_year:
-            return f"Hikaye tarafında aile kökleri ve kuşaklar arası devamlılık öne çıkıyor. {founded_year} bilgisi de bu birikimin kısa süreli bir heves değil, zamana yayılmış bir emek olduğunu düşündürüyor."
-        return 'Hikaye tarafında aile kökleri, kuşaklar arası devamlılık ve bir işi özenle sürdürme isteği öne çıkıyor. Bu duygu, ürünü daha sıcak ve daha hatırlanır hale getiriyor.'
+            return (
+                f'Biz bu işi aile içinde öğrenilmiş bir özenle sürdürüyoruz. {founded_year} ve sonrasına yayılan emek, '
+                'hangi zeytinin ne zaman toplanacağını, hangi lezzetin sofrada nasıl açılacağını ve güvenin yıllar içinde nasıl kurulduğunu bize öğretti.'
+            )
+        return (
+            'Biz bu işi aile içinde öğrenilmiş bir dikkatle sürdürüyoruz. Kuşaktan kuşağa taşınan bilgi sayesinde sadece yağ üretmiyor, '
+            'sofraya güvenle koyabileceğimiz bir lezzeti aynı titizlikle koruyoruz.'
+        )
     if founded_year:
-        return f"Resmi anlatıda görülen {founded_year} izi, bugün görülen şişe dilinin tesadüfen kurulmadığını düşündürüyor. Geçmişe yaslanan bu ton, seçimi daha güven veren bir zemine çekiyor."
-    return 'Hikaye kısmı tek başına nostalji üretmek yerine, bugün sofraya gelecek şişenin neden böyle konumlandığını anlatan sakin ama tutarlı bir zemin kuruyor.'
+        return (
+            f'Bizim hikayemizde {founded_year} ve sonrasına uzanan bir süreklilik var. '
+            'Bu süreklilik bize her sezonda aynı özeni, aynı temizliği ve aynı damak hafızasını koruma sorumluluğu veriyor.'
+        )
+    return (
+        'Biz bu yağı yalnızca satılacak bir ürün olarak görmüyoruz. Şişeyi açan kişinin daha ilk anda toprağı, emeği ve sofraya verdiğimiz önemi hissetmesini istiyoruz.'
+    )
+
+
+def build_intro_paragraph(entry: dict[str, Any], result: dict[str, Any], founded_year: str) -> str:
+    category = result.get('category')
+    openers = {
+        'premium-butik': f'Biz {entry["name"]} tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz.',
+        'market-endustriyel': f'Biz {entry["name"]} tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz.',
+        'bolgesel-yerel': f'Biz {entry["name"]} ile {entry["region"]} tarafının yer duygusunu sofraya taşımayı hedefliyoruz.',
+        'organik': f'Biz {entry["name"]} tarafında temiz içerik ve üretim hassasiyetini lezzetle bir arada tutuyoruz.',
+    }
+    default_opener = f'Biz {entry["name"]} ile hikayesi olan, karakterini saklamayan bir zeytinyağı sunuyoruz.'
+    founded_text = f' {founded_year} ve sonrasına yayılan emek bu çizgiye derinlik katıyor.' if founded_year else ''
+    return (
+        f'{openers.get(category, default_opener)} '
+        f'{entry["region"]} çıkışlı bu yağı {build_focus_phrase(result)} çizgisinde hazırlıyor, '
+        'şişe sofraya ulaştığında yalnızca lezzet değil güven de taşısın istiyoruz.'
+        f'{founded_text}'
+    )
+
+
+def build_story_paragraph(entry: dict[str, Any], result: dict[str, Any], signals: dict[str, bool], founded_year: str) -> str:
+    return build_story_detail(entry, signals, founded_year)
+
+
+def build_origin_paragraph(entry: dict[str, Any], signals: dict[str, bool]) -> str:
+    if signals['mythic_place'] or signals['village_texture']:
+        return (
+            f'Bahçelerimizin çevresindeki {entry["region"]} dokusu, bizim yağımızın karakterini belirleyen en önemli parçalardan biri. '
+            'Toprağın kokusu, rüzgarın serinliği ve ağaçların mevsim boyunca geçirdiği değişim, damakta bıraktığımız izi daha derin ve daha hatırlanır kılıyor.'
+        )
+    if signals['highland_nature']:
+        return (
+            'Zeytinliğin havası, çevresindeki doğa ve hasat zamanı kurduğumuz ritim bizim için sadece romantik bir arka plan değil; '
+            'ürünün temizliğini, canlılığını ve doğrudanlığını belirleyen gerçek bir çalışma zemini.'
+        )
+    return (
+        f'Biz {entry["region"]} tarafının karakterini olduğu gibi taşımaya çalışıyoruz. '
+        'Şişede gördüğünüz lezzetin kökü, bu coğrafyanın ikliminde, toprağında ve zeytin ağacının yıl boyunca biriktirdiği dengede yatıyor.'
+    )
 
 
 def build_nature_detail(signals: dict[str, bool]) -> str:
     parts = []
     if signals['highland_nature']:
-        parts.append('bahçenin temiz hava, orman dokusu ve daha sakin bir çevre içinde anlatılması')
+        parts.append('bahçelerimizi temiz hava ve sakin doğa içinde korumamız')
     if signals['local_families']:
-        parts.append('hasat ve bakım tarafında yerel ailelerle ilerleyen daha yakın bir düzen')
+        parts.append('hasat ve bakım işini yerel ailelerle omuz omuza yürütmemiz')
     if signals['single_varietal']:
-        parts.append('tek çeşit zeytine odaklanarak tadı daha net okumaya çalışan yaklaşım')
+        parts.append('tek çeşide odaklanıp tadı daha net ve dürüst bırakmamız')
     if signals['home_use_promise']:
-        parts.append('evde tüketilmeyecek hiçbir şeyi öne çıkarmama anlayışı')
+        parts.append('evimizde kullanmayacağımız hiçbir şişeyi sofraya önermememiz')
     if signals['certified_quality']:
-        parts.append('teknik standartları ve kalite eşiklerini görünür kılan net bir dil')
+        parts.append('kalite tarafında teknik disiplini görünür tutmamız')
     if signals['export_scale']:
-        parts.append('yerel kökleri korurken dış pazara da güven veren daha geniş bir kalite iddiası')
+        parts.append('yerelde doğup daha geniş sofralara açılırken karakterimizi korumamız')
     if not parts:
-        return 'Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.'
-    return f"Burada öne çıkan farklılaştırıcı taraf, {human_join(parts[:3])}. Bu ayrıntılar bir araya geldiğinde ürünün neden başka seçeneklerden ayrıldığı daha açık okunuyor."
+        return (
+            'Bizi iyi yapan taraf yalnızca lezzet iddiamız değil; neyi neden yaptığımızı açık tutmamız, şişede gördüğünüz dili ürünün içinde de korumaya çalışmamız.'
+        )
+    return (
+        f'Bizi farklı kılan taraf, {human_join(parts[:3])}. '
+        'Bu yüzden iyi bir ilk izlenim vermekle yetinmiyor, şişe açıldığında da aynı sözü sürdürmeye çalışıyoruz.'
+    )
 
 
 def build_packaging_sentence(result: dict[str, Any]) -> str:
     packaging = result.get('packaging') or []
     if not packaging:
-        return 'Paket boyları çok öne çıkmasa bile seri isimleri ve kullanım önerileri, hangi şişeyle başlanacağını anlamaya yardım ediyor.'
+        return 'İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görmek, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçmek en rahat yoldur.'
     selected = human_join(packaging[:3])
-    return f"{selected.capitalize()} gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor."
+    return (
+        f'{selected.capitalize()} seçenekleri bu yüzden önemli. '
+        'İlk denemede küçük hacim güven verir; beğendiğiniz çizgiyi bulduğunuzda daha büyük ambalajlar evdeki düzenli kullanım için çok daha doğru olur.'
+    )
 
 
 def build_product_paragraph(entry: dict[str, Any], result: dict[str, Any]) -> str:
     features = set(result.get('features') or [])
     taste_parts = []
     if 'erken hasat' in features or 'yüksek polifenol' in features:
-        taste_parts.append('daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter')
+        taste_parts.append('daha canlı, yeşil ve enerjik bir açılış')
     if 'natürel sızma' in features:
-        taste_parts.append('çiğ kullanımda kendini daha iyi gösteren temiz bir yapı')
+        taste_parts.append('çiğ kullanımda kendini hemen belli eden temiz bir akış')
     if 'riviera' in features:
-        taste_parts.append('sıcak yemeklerde daha rahat ilerleyen yumuşak bir akış')
+        taste_parts.append('sıcak yemeklerde rahat ilerleyen daha yumuşak bir gövde')
     if 'organik' in features:
-        taste_parts.append('içerik tarafında daha titiz davranmak isteyenler için güven veren bir çerçeve')
+        taste_parts.append('içeriğe bakanların aradığı daha güven veren bir sadelik')
     if 'taş baskı' in features:
-        taste_parts.append('gelenek duygusunu güçlendiren daha klasik bir üretim çağrışımı')
+        taste_parts.append('gelenek duygusunu büyüten klasik bir üretim havası')
     if not taste_parts:
-        taste_parts.append('sofrada ne beklenmesi gerektiğini önceden anlatan dengeli bir profil')
+        taste_parts.append('sade ama hafızada kalan dengeli bir karakter')
     return (
-        f"{entry['name']} tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. "
-        f"Resmi ürün dili {human_join(taste_parts[:3])} beklentisini güçlendiriyor. "
-        f"{build_olive_sentence(result)} "
-        "Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir."
+        f'Biz {entry["name"]} tarafında lezzeti anlatırken önce damakta bıraktığımız izden söz ediyoruz. '
+        f'Bu yağda {human_join(taste_parts[:3])} öne çıkıyor. '
+        f'{build_olive_sentence(result)} '
+        'Bu nedenle kahvaltıda ekmeğe gezdirdiğinizde, salatada son dokunuşu yaptığınızda ya da zeytinyağlı bir yemekte temel lezzeti kurduğunuzda farklı biçimde karşılık verir.'
     )
 
 
-def build_story_paragraph(entry: dict[str, Any], result: dict[str, Any], signals: dict[str, bool], founded_year: str) -> str:
-    candidates = collect_candidate_sentences(result)
-    translated_hint = ''
-    for candidate in candidates:
-        blob = translate_signal_blob(candidate)
-        if blob:
-            translated_hint = blob
-            break
-    hint_sentence = ''
-    if translated_hint:
-        hint_sentence = f" Hakkımızda bölümünden taşan ton daha çok {translated_hint} etrafında kuruluyor; bu da ürünü kuru bir teknik listeden çıkarıp daha yaşayan bir hikayeye bağlıyor."
-    return build_story_detail(entry, result, signals, founded_year) + hint_sentence
-
-
-def build_intro_paragraph(entry: dict[str, Any], result: dict[str, Any], founded_year: str) -> str:
-    category = result.get('category')
-    openers = {
-        'premium-butik': f"{entry['name']}, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor.",
-        'market-endustriyel': f"{entry['name']}, günlük mutfakta da rahat karşılık bulabilecek daha erişilebilir bir çizgi sunuyor.",
-        'bolgesel-yerel': f"{entry['name']}, {entry['region']} tarafının yerel karakterini daha doğrudan taşıyan isimlerden biri gibi görünüyor.",
-        'organik': f"{entry['name']}, temiz içerik ve üretim hassasiyeti arayanların daha yakından bakabileceği bir çizgi kuruyor.",
-    }
-    default_opener = f"{entry['name']}, alırken sadece etikete değil hikayesine de bakmak isteyeceğiniz bir çizgi sunuyor."
-    founded_text = f" Resmi anlatıda görülen {founded_year} izi de bu çizgiye zaman duygusu ekliyor." if founded_year else ''
-    return (
-        f"{openers.get(category, default_opener)} "
-        f"{entry['region']} çıkışı ve {build_focus_phrase(result)} birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak." 
-        f"{founded_text} Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor."
-    )
-
-
-def build_buyer_paragraph(result: dict[str, Any]) -> str:
+def build_buyer_paragraph(entry: dict[str, Any], result: dict[str, Any]) -> str:
     features = set(result.get('features') or [])
     if 'riviera' in features:
-        opener = 'Almayı düşünen biri için önce riviera ile natürel sızma arasındaki ayrımı net görmek gerekir; çünkü mutfaktaki davranış burada ciddi biçimde değişir.'
+        opener = (
+            'Bizi ilk kez alacaksanız önce hangi seriyle mutfağa gireceğinize karar verin; çünkü riviera ile natürel sızma aynı sofraya farklı söz verir.'
+        )
     elif 'erken hasat' in features or 'natürel sızma' in features:
-        opener = 'Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir.'
+        opener = (
+            'Bizi ilk kez deneyecekseniz natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakın.'
+        )
     else:
-        opener = 'Almayı düşünen biri için en doğru başlangıç, önce seri isimlerine ve şişe diline bakmak olmalı.'
+        opener = 'Bizi ilk kez deneyecekseniz işe hangi sofrada kullanacağınızı düşünerek başlamanızı isteriz.'
     return (
-        f"{opener} {build_packaging_sentence(result)} "
-        "İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. "
-        "Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir."
+        f'{opener} {build_packaging_sentence(result)} '
+        'Yoğun aromayı kahvaltıda ve çiğ dokunuşlarda arıyorsanız daha karakterli şişelere, gün boyu mutfakta rahat kullanmak istiyorsanız daha yumuşak akış veren serilere yönelmeniz daha doğru olur.'
     )
 
 
 def build_close_paragraph(entry: dict[str, Any], signals: dict[str, bool]) -> str:
-    close = 'Sonuç olarak burada öne çıkan şey, köken duygusu ile günlük kullanım rahatlığını aynı şişede buluşturma çabası.'
     if signals['export_scale']:
-        close = 'Sonuç olarak burada öne çıkan şey, yerel köklerle uluslararası güven duygusunu aynı çizgide birleştirme isteği.'
-    elif signals['mythic_place'] or signals['village_texture']:
-        close = 'Sonuç olarak burada öne çıkan şey, coğrafyanın ve yer duygusunun şişenin karakterine doğrudan eşlik etmesi.'
+        opener = 'Bugün yerelden doğup farklı sofralara ulaşsak da, bizim için asıl ölçü geldiğimiz toprağın karakterini kaybetmemektir.'
     elif signals['childhood_return']:
-        close = 'Sonuç olarak burada öne çıkan şey, kişisel hatıralardan beslenen daha samimi ve daha düşünülmüş bir üretim dili.'
+        opener = 'Biz bu yağı biraz da çocukluğumuzun hafızasını bugünün sofrasına taşıyabilmek için hazırlıyoruz.'
+    elif signals['mythic_place'] or signals['village_texture']:
+        opener = 'Bizim için bu şişenin değeri, geldiği yerin hikayesini sofrada hissedilir kılabilmesinde yatıyor.'
+    else:
+        opener = 'Bizim için bu işin özü, sofraya güvenle koyacağınız bir şişe hazırlamaktır.'
     return (
-        f"{close} {entry['name']} sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. "
-        "Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor."
+        f'{opener} {entry["name"]} aldığınızda yalnızca bir yağ değil; emeği belli olan, nereden geldiği hissedilen ve hangi sofrada parlayacağını bilen bir seçim almış olursunuz. '
+        'Şişeyi açtığınızda beklentiniz ne olursa olsun, bizim isteğimiz aynı kalır: kokusuyla, akışıyla ve damakta kalan iziyle bu yağı tekrar hatırlamak isteyin.'
     )
 
 
 def build_summary(entry: dict[str, Any], result: dict[str, Any], signals: dict[str, bool], founded_year: str) -> str:
-    base = f"{entry['name']}, {entry['region']} çıkışlı ve {build_focus_phrase(result)} ile dikkat çeken bir zeytinyağı seçimi."
+    base = f"Biz {entry['region']} çıkışlı bir zeytinyağını {build_focus_phrase(result)} çizgisinde sofraya getiriyoruz."
     if signals['childhood_return']:
-        return base + ' Resmi anlatıda kişisel hikaye ile doğal üretim hissi yan yana ilerliyor.'
+        return base + ' Hikayemizi çocukluk hatıraları, doğaya saygı ve temiz lezzet isteği büyütüyor.'
     if signals['mythic_place'] or signals['village_texture']:
-        return base + ' Köken duygusu ve yer hissi, şişenin karakterini anlatan en güçlü taraflardan biri.'
+        return base + ' Geldiğimiz yerin rüzgarını, toprağını ve karakterini şişede hissettirmek istiyoruz.'
     if founded_year:
-        return base + f' {founded_year} ve sonrasına uzanan anlatı, bu çizgiye zaman duygusu ekliyor.'
-    return base + ' Ürün dili, sofrada nasıl bir his bırakacağını daha ilk bakışta anlatmaya çalışıyor.'
+        return base + f' {founded_year} ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.'
+    return base + ' Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.'
 
 
 def sanitize_output(text: str) -> str:
@@ -615,9 +664,10 @@ def compose_editorial(entry: dict[str, Any], result: dict[str, Any]) -> dict[str
     paragraphs = [
         build_intro_paragraph(entry, result, founded_year),
         build_story_paragraph(entry, result, signals, founded_year),
+        build_origin_paragraph(entry, signals),
         build_product_paragraph(entry, result),
         build_nature_detail(signals),
-        build_buyer_paragraph(result),
+        build_buyer_paragraph(entry, result),
         build_close_paragraph(entry, signals),
     ]
 
@@ -625,18 +675,39 @@ def compose_editorial(entry: dict[str, Any], result: dict[str, Any]) -> dict[str
     summary = sanitize_output(build_summary(entry, result, signals, founded_year))
 
     support_variants = [
-        'Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.',
-        'Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.',
-        'Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.',
+        'Bizim için iyi zeytinyağı yalnızca rengi güzel görünen bir yağ değildir; kokusu açıldığında canlı olmalı, damakta temiz akmalı ve sofradaki diğer tatların üzerine çıkmadan kendini belli etmelidir.',
+        'Şişeyi açtığınızda önce gelen koku, sonra dilde bıraktığı akış ve en son boğazdaki kısa iz bizim en çok önem verdiğimiz ayrıntılardır. Bu üçü bir araya geldiğinde yağ kendini gerçekten anlatır.',
+        'İster kahvaltı sofrasında ekmeğe gezdirin ister salatada son dokunuş olarak kullanın, iyi bir şişe her kullanımda aynı güveni vermelidir. Biz de tam olarak bu güven duygusunu korumaya çalışıyoruz.',
+        'Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Bizim istediğimiz etki tam olarak budur.',
     ]
     idx = 0
     while count_words(' '.join(cleaned)) < 500:
         cleaned.append(sanitize_output(support_variants[idx % len(support_variants)]))
         idx += 1
 
+    forbidden_phrases = [
+        'site dili',
+        'resmi anlatı',
+        'sayfasını okurken',
+        'sayfasini okurken',
+        'raf önünde',
+        'alıcı için',
+        'alici icin',
+        'değerlendirme',
+        'degerlendirme',
+        'inceleme',
+        'review',
+        'kullanıcı',
+        'kullanici',
+    ]
+
     for text in [summary, *cleaned]:
         if ' marka ' in f" {ascii_lower(text)} ":
             raise ValueError(f"Forbidden word in generated copy for {entry['name']}")
+        low = ascii_lower(text)
+        for phrase in forbidden_phrases:
+            if phrase in low:
+                raise ValueError(f"Forbidden phrase in generated copy for {entry['name']}: {phrase}")
 
     return {
         'summary': summary,
@@ -654,32 +725,59 @@ def load_entries(limit: int | None) -> list[dict[str, Any]]:
     return entries
 
 
+def build_from_raw(entries: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    entry_map = {entry['id']: entry for entry in entries}
+    raw_results = json.loads(RAW_OUTPUT_PATH.read_text())
+    editorial_data: dict[str, Any] = {}
+    normalized_results: list[dict[str, Any]] = []
+
+    for result in raw_results:
+        entry = entry_map.get(result.get('id'))
+        if not entry:
+            continue
+        normalized_results.append(result)
+        try:
+            editorial_data[str(entry['id'])] = compose_editorial(entry, result)
+            print(f"ok  {entry['name']}")
+        except Exception as exc:
+            print(f"err {entry['name']}: {exc}")
+
+    normalized_results.sort(key=lambda item: item.get('id', 0))
+    return normalized_results, editorial_data
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--limit', type=int, default=0)
+    parser.add_argument('--from-raw', action='store_true')
     args = parser.parse_args()
 
     entries = load_entries(args.limit or None)
-    raw_results: list[dict[str, Any]] = []
-    editorial_data: dict[str, Any] = {}
+    raw_results: list[dict[str, Any]]
+    editorial_data: dict[str, Any]
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {executor.submit(analyze_site, entry): entry for entry in entries}
-        for future in as_completed(futures):
-            entry = futures[future]
-            try:
-                result = future.result()
-                raw_results.append(result)
-                editorial_data[str(entry['id'])] = compose_editorial(entry, result)
-                print(f"ok  {entry['name']}")
-            except Exception as exc:
-                print(f"err {entry['name']}: {exc}")
-                raw_results.append({
-                    'id': entry['id'],
-                    'name': entry['name'],
-                    'url': entry['url'],
-                    'error': str(exc),
-                })
+    if args.from_raw and RAW_OUTPUT_PATH.exists():
+        raw_results, editorial_data = build_from_raw(entries)
+    else:
+        raw_results = []
+        editorial_data = {}
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = {executor.submit(analyze_site, entry): entry for entry in entries}
+            for future in as_completed(futures):
+                entry = futures[future]
+                try:
+                    result = future.result()
+                    raw_results.append(result)
+                    editorial_data[str(entry['id'])] = compose_editorial(entry, result)
+                    print(f"ok  {entry['name']}")
+                except Exception as exc:
+                    print(f"err {entry['name']}: {exc}")
+                    raw_results.append({
+                        'id': entry['id'],
+                        'name': entry['name'],
+                        'url': entry['url'],
+                        'error': str(exc),
+                    })
 
     raw_results.sort(key=lambda item: item.get('id', 0))
     ordered_editorial = {key: editorial_data[key] for key in sorted(editorial_data, key=lambda value: int(value))}

@@ -1510,7 +1510,7 @@
     "name": "NovaVera",
     "slug": "novavera",
     "url": "https://novavera.com.tr",
-    "finalUrl": "https://novavera.com.tr/",
+    "finalUrl": "https://www.novavera.com.tr/",
     "statusCode": 200,
     "region": "Edremit, Balıkesir",
     "category": "premium-butik",
@@ -1529,7 +1529,7 @@
     ],
     "pages": [
       {
-        "url": "https://novavera.com.tr/",
+        "url": "https://www.novavera.com.tr/",
         "title": "Novavera | Ödüllü Zeytinyağı & Yöresel Ürünler ve Fiyatları",
         "metaDescription": "Ödüllü zeytinyağı üreticisinden en kaliteli zeytin yağlarını, zeytinyağı ürünlerini, yöresel ürünleri keşfetmek ve online sipariş vermek için novavera.com.tr'yi tıklayın.",
         "headings": [

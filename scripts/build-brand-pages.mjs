@@ -125,7 +125,7 @@ function renderSchema(brand) {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
       name: `${brand.name} | Zeytinyağlarımız`,
-      description: `${brand.name} markası için bölge, kategori, görseller ve detaylı marka değerlendirmesi.`,
+      description: `${brand.name} zeytinyağının hikayesi, bölgesi, ürün görselleri ve detaylı anlatımı.`,
       url: `${SITE_URL}/marka/${brand.slug}.html`,
       dateModified: TODAY
     }
@@ -136,7 +136,7 @@ function renderSchema(brand) {
 function renderBrandPage(brand) {
   const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${escapeHtml(toPageAsset(brand.logoFallback))}"` : '';
   const logoSrc = toPageAsset(brand.image);
-  const metaDescription = `${brand.name} zeytinyağı markası için bölge, kategori, şişe görselleri ve 500+ kelimelik detaylı değerlendirme.`;
+  const metaDescription = `${brand.name} zeytinyağının hikayesi, bölgesi, şişe görselleri ve uzun ürün anlatımı.`;
 
   return `<!DOCTYPE html>
 <html lang="tr">
