@@ -79,6 +79,7 @@
 </button>
 
 <script src="brand-media.js"></script>
+<script src="brand-retail-offers.js"></script>
 <script src="brand-editorial-data.js"></script>
 <script src="region-media.js"></script>
 <script src="brands.js"></script>
@@ -150,6 +151,54 @@ function renderInlineBottlePhoto(brand) {
         <figure class="brand-inline-photo is-bottle">
             <img src="${bottleSrc}" alt="${brand.name} şişe görseli" loading="lazy" onerror="this.closest('figure').style.display='none'">
         </figure>
+    `;
+}
+
+function renderRetailOffers(brand) {
+    const offersRoot = (typeof brandRetailOffers !== 'undefined' && brandRetailOffers)
+        ? brandRetailOffers
+        : {};
+    const entry = offersRoot[brand.slug];
+
+    if (!entry || !Array.isArray(entry.offers) || entry.offers.length === 0) {
+        return '';
+    }
+
+    const checkedAt = entry.checkedAt
+        ? new Date(`${entry.checkedAt}T12:00:00+03:00`).toLocaleDateString('tr-TR', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+        })
+        : '';
+
+    return `
+        <section class="brand-retail-section">
+            <div class="brand-retail-head">
+                <h2>Nerede Satılıyor?</h2>
+                ${checkedAt ? `<p>${brand.name} için görülen satış bağlantıları ve fiyatlar ${checkedAt} tarihinde kontrol edildi.</p>` : ''}
+            </div>
+            <div class="brand-retail-grid">
+                ${entry.offers.map((offer) => `
+                    <article class="brand-retail-card">
+                        <div class="brand-retail-top">
+                            <div>
+                                <p class="brand-retail-store">${offer.retailer}</p>
+                                <h3>${offer.product}</h3>
+                            </div>
+                            <div class="brand-retail-price-wrap">
+                                <strong class="brand-retail-price">${offer.price}</strong>
+                                ${offer.secondaryPrice ? `<span class="brand-retail-subprice">${offer.secondaryPrice}</span>` : ''}
+                            </div>
+                        </div>
+                        ${offer.seller ? `<p class="brand-retail-seller">Satıcı: ${offer.seller}</p>` : ''}
+                        ${offer.note ? `<p class="brand-retail-product">${offer.note}</p>` : ''}
+                        <a class="brand-retail-link" href="${offer.url}" target="_blank" rel="noopener">Satıldığı Yeri Aç</a>
+                    </article>
+                `).join('')}
+            </div>
+            ${entry.note ? `<p class="brand-retail-note">${entry.note}</p>` : ''}
+        </section>
     `;
 }
 
@@ -285,6 +334,7 @@ function renderBrandDetail() {
                     ${oliveTopicLinks.join('')}
                 </div>
             </section>
+            ${renderRetailOffers(brand)}
         </div>
     `;
 

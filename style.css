@@ -1614,6 +1614,97 @@ a.variety-tag:hover {
     margin-bottom: 10px;
     color: var(--olive-dark);
 }
+.brand-retail-section {
+    margin-top: 26px;
+}
+.brand-retail-head {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+.brand-retail-head h2 {
+    font-size: 1.55rem;
+    color: var(--olive-dark);
+}
+.brand-retail-head p,
+.brand-retail-note {
+    color: var(--text-light);
+    font-size: 0.92rem;
+}
+.brand-retail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+}
+.brand-retail-card {
+    background: var(--white);
+    border: 1px solid rgba(74, 103, 65, 0.12);
+    border-radius: var(--radius);
+    padding: 18px;
+    box-shadow: var(--shadow);
+}
+.brand-retail-top {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 16px;
+}
+.brand-retail-store {
+    margin-bottom: 4px;
+    color: var(--olive);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.brand-retail-card h3 {
+    font-size: 1.05rem;
+    line-height: 1.35;
+    color: var(--olive-dark);
+}
+.brand-retail-price-wrap {
+    text-align: right;
+    min-width: 110px;
+}
+.brand-retail-price {
+    display: block;
+    color: var(--olive-dark);
+    font-size: 1.2rem;
+}
+.brand-retail-subprice {
+    display: block;
+    margin-top: 2px;
+    color: var(--olive);
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+.brand-retail-seller,
+.brand-retail-product {
+    margin-top: 10px;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+.brand-retail-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: var(--olive);
+    color: var(--white);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.brand-retail-link:hover {
+    color: var(--white);
+    background: var(--olive-dark);
+}
+.brand-retail-note {
+    margin-top: 12px;
+}
 
 /* ========================================
    WEBSITE EXPLORER
@@ -2492,6 +2583,16 @@ footer .copyright {
         max-width: none;
         margin: 16px 0;
     }
+    .brand-retail-head,
+    .brand-retail-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .brand-retail-price-wrap {
+        text-align: left;
+        min-width: 0;
+    }
+    .brand-retail-grid { grid-template-columns: 1fr; }
     .brand-facts-grid { grid-template-columns: 1fr 1fr; }
     .brand-gallery-grid { grid-template-columns: 1fr 1fr; }
     .breadcrumbs-wrap {

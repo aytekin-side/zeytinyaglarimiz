@@ -6,6 +6,7 @@ const ROOT = process.cwd();
 const SITE_URL = 'https://zeytinyaglarimiz.com';
 const TODAY = '2026-03-07';
 const REGION_MEDIA_PATH = path.join(ROOT, 'region-media.js');
+const RETAIL_OFFERS_PATH = path.join(ROOT, 'brand-retail-offers.js');
 const categoryLongLabels = {
   'premium-butik': 'Premium / Butik Üretici',
   'market-endustriyel': 'Market / Endüstriyel',
@@ -49,13 +50,20 @@ function loadBrandContext() {
   } else {
     vm.runInContext('globalThis.__regionMedia = {};', sandbox);
   }
+  if (fs.existsSync(RETAIL_OFFERS_PATH)) {
+    const retailOffersCode = fs.readFileSync(RETAIL_OFFERS_PATH, 'utf8');
+    vm.runInContext(`${retailOffersCode}\n;globalThis.__brandRetailOffers = typeof brandRetailOffers !== 'undefined' ? brandRetailOffers : {};`, sandbox);
+  } else {
+    vm.runInContext('globalThis.__brandRetailOffers = {};', sandbox);
+  }
   vm.runInContext(`${brandsCode}\n;globalThis.__brands = brands; globalThis.__categoryLabels = categoryLabels; globalThis.__regionClusterLabels = regionClusterLabels; globalThis.__oliveTypeLabels = oliveTypeLabels;`, sandbox);
   return {
     brands: sandbox.__brands,
     categoryLabels: sandbox.__categoryLabels,
     regionClusterLabels: sandbox.__regionClusterLabels,
     oliveTypeLabels: sandbox.__oliveTypeLabels,
-    regionMedia: sandbox.__regionMedia || {}
+    regionMedia: sandbox.__regionMedia || {},
+    brandRetailOffers: sandbox.__brandRetailOffers || {}
   };
 }
 
@@ -169,6 +177,52 @@ function renderTopicLinks(brand) {
   `;
 }
 
+function renderRetailOffers(brand, brandRetailOffers) {
+  const entry = brandRetailOffers[brand.slug];
+  if (!entry || !Array.isArray(entry.offers) || entry.offers.length === 0) {
+    return '';
+  }
+
+  const checkedAt = entry.checkedAt
+    ? new Date(`${entry.checkedAt}T12:00:00+03:00`).toLocaleDateString('tr-TR', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      })
+    : '';
+
+  const cards = entry.offers.map((offer) => `
+    <article class="brand-retail-card">
+      <div class="brand-retail-top">
+        <div>
+          <p class="brand-retail-store">${escapeHtml(offer.retailer)}</p>
+          <h3>${escapeHtml(offer.product)}</h3>
+        </div>
+        <div class="brand-retail-price-wrap">
+          <strong class="brand-retail-price">${escapeHtml(offer.price)}</strong>
+          ${offer.secondaryPrice ? `<span class="brand-retail-subprice">${escapeHtml(offer.secondaryPrice)}</span>` : ''}
+        </div>
+      </div>
+      ${offer.seller ? `<p class="brand-retail-seller">Satıcı: ${escapeHtml(offer.seller)}</p>` : ''}
+      ${offer.note ? `<p class="brand-retail-product">${escapeHtml(offer.note)}</p>` : ''}
+      <a class="brand-retail-link" href="${escapeHtml(offer.url)}" target="_blank" rel="noopener">Satıldığı Yeri Aç</a>
+    </article>
+  `).join('');
+
+  return `
+    <section class="brand-retail-section">
+      <div class="brand-retail-head">
+        <h2>Nerede Satılıyor?</h2>
+        ${checkedAt ? `<p>${escapeHtml(brand.name)} için görülen satış bağlantıları ve fiyatlar ${escapeHtml(checkedAt)} tarihinde kontrol edildi.</p>` : ''}
+      </div>
+      <div class="brand-retail-grid">
+        ${cards}
+      </div>
+      ${entry.note ? `<p class="brand-retail-note">${escapeHtml(entry.note)}</p>` : ''}
+    </section>
+  `;
+}
+
 function renderSchema(brand) {
   const schema = [
     {
@@ -194,7 +248,7 @@ function renderSchema(brand) {
   return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
-function renderBrandPage(brand, regionMediaByCluster) {
+function renderBrandPage(brand, regionMediaByCluster, brandRetailOffers) {
   const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${escapeHtml(toPageAsset(brand.logoFallback))}"` : '';
   const logoSrc = toPageAsset(brand.image);
   const metaDescription = `${brand.name} zeytinyağının hikayesi, bölgesi, şişe görselleri ve uzun ürün anlatımı.`;
@@ -285,6 +339,7 @@ function renderBrandPage(brand, regionMediaByCluster) {
       ${renderLongInfo(brand, regionMediaByCluster)}
     </section>
     ${renderTopicLinks(brand)}
+    ${renderRetailOffers(brand, brandRetailOffers)}
   </div>
 </section>
 <footer>
@@ -315,7 +370,7 @@ ${renderSchema(brand)}
 }
 
 function main() {
-  const { brands, regionMedia } = loadBrandContext();
+  const { brands, regionMedia, brandRetailOffers } = loadBrandContext();
   const outDir = path.join(ROOT, 'marka');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
@@ -331,7 +386,7 @@ function main() {
       minWords = wordCount;
       minBrand = brand.name;
     }
-    const html = renderBrandPage(brand, regionMedia);
+    const html = renderBrandPage(brand, regionMedia, brandRetailOffers);
     fs.writeFileSync(path.join(outDir, `${brand.slug}.html`), html);
   }
 
