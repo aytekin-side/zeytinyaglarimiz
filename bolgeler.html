@@ -78,7 +78,7 @@
             <div class="brand-map-stats" id="brandMapStats" aria-live="polite"></div>
         </div>
         <div id="brandMap" class="brand-map-canvas" role="img" aria-label="Türkiye üzerindeki zeytinyağı markaları haritası"></div>
-        <p class="brand-map-note">Haritadaki işaretlerde markanın ilk harfi ve adı görünür. Tam sokak adresi bulunamayan markalarda kamuya açık bölge merkezi kullanılır ve popup içinde bu durum açıkça belirtilir.</p>
+        <p class="brand-map-note">Haritadaki işaretlerde markanın ilk harfi ve adı görünür. Birbirine çok yakın kayıtlar, üst üste binmemesi için en yakın boş alana hafifçe kaydırılır. Tam sokak adresi bulunamayan markalarda kamuya açık bölge merkezi kullanılır ve popup içinde bu durum açıkça belirtilir.</p>
     </div>
 </section>
 
@@ -393,28 +393,114 @@ function createBrandPopup(record) {
     `;
 }
 
-function getOffsetPosition(record, index, total) {
-    if (total <= 1) {
-        return [record.lat, record.lng];
-    }
+const markerLayoutConfig = {
+    width: 110,
+    height: 90,
+    anchorX: 55,
+    anchorY: 82,
+    gap: 8,
+    step: 16,
+    maxRadius: 224
+};
 
-    const precisionRadius = {
-        street: 0.005,
-        district: 0.012,
-        city: 0.018,
-        region: 0.045,
-        country: 0.08
+function comparePlacementPriority(a, b) {
+    const precisionRank = {
+        street: 0,
+        district: 1,
+        city: 2,
+        region: 3,
+        country: 4
+    };
+    const sourceRank = {
+        official: 0,
+        'official-region': 1,
+        'official-production': 2,
+        approximate: 3
     };
 
-    const baseRadius = precisionRadius[record.precision] || 0.012;
-    const ring = Math.floor(index / 8) + 1;
-    const angle = index * 2.399963229728653;
-    const radius = baseRadius * ring;
+    const precisionDiff = (precisionRank[a.precision] ?? 9) - (precisionRank[b.precision] ?? 9);
+    if (precisionDiff !== 0) return precisionDiff;
 
-    return [
-        record.lat + Math.sin(angle) * radius * 0.58,
-        record.lng + Math.cos(angle) * radius
-    ];
+    const sourceDiff = (sourceRank[a.sourceType] ?? 9) - (sourceRank[b.sourceType] ?? 9);
+    if (sourceDiff !== 0) return sourceDiff;
+
+    const latDiff = b.lat - a.lat;
+    if (Math.abs(latDiff) > 0.000001) return latDiff;
+
+    const lngDiff = a.lng - b.lng;
+    if (Math.abs(lngDiff) > 0.000001) return lngDiff;
+
+    return a.name.localeCompare(b.name, 'tr');
+}
+
+function buildMarkerBox(point) {
+    return {
+        left: point.x - markerLayoutConfig.anchorX,
+        right: point.x - markerLayoutConfig.anchorX + markerLayoutConfig.width,
+        top: point.y - markerLayoutConfig.anchorY,
+        bottom: point.y - markerLayoutConfig.anchorY + markerLayoutConfig.height
+    };
+}
+
+function boxesOverlap(a, b) {
+    return !(
+        a.right + markerLayoutConfig.gap <= b.left ||
+        a.left >= b.right + markerLayoutConfig.gap ||
+        a.bottom + markerLayoutConfig.gap <= b.top ||
+        a.top >= b.bottom + markerLayoutConfig.gap
+    );
+}
+
+function isFreeMarkerPoint(point, placedBoxes) {
+    const candidateBox = buildMarkerBox(point);
+    return placedBoxes.every((placed) => !boxesOverlap(candidateBox, placed.box));
+}
+
+function getCandidatePoint(origin, radius, angle) {
+    return L.point(
+        origin.x + Math.cos(angle) * radius,
+        origin.y + Math.sin(angle) * radius
+    );
+}
+
+function findNearestFreeMarkerPoint(origin, placedBoxes) {
+    if (isFreeMarkerPoint(origin, placedBoxes)) return origin;
+
+    for (let radius = markerLayoutConfig.step; radius <= markerLayoutConfig.maxRadius; radius += markerLayoutConfig.step) {
+        const circumference = Math.max(6, Math.round((2 * Math.PI * radius) / markerLayoutConfig.step));
+        for (let index = 0; index < circumference; index += 1) {
+            const angle = (index / circumference) * Math.PI * 2;
+            const candidate = getCandidatePoint(origin, radius, angle);
+            if (isFreeMarkerPoint(candidate, placedBoxes)) {
+                return candidate;
+            }
+        }
+    }
+
+    return origin;
+}
+
+function placeMarkersWithoutOverlap(records, map) {
+    const zoom = map.getZoom();
+    const placements = new Map();
+    const placedBoxes = [];
+
+    records
+        .slice()
+        .sort(comparePlacementPriority)
+        .forEach((record) => {
+            const origin = map.project(L.latLng(record.lat, record.lng), zoom);
+            const point = findNearestFreeMarkerPoint(origin, placedBoxes);
+            const latLng = map.unproject(point, zoom);
+
+            placements.set(record.id, latLng);
+            placedBoxes.push({
+                id: record.id,
+                box: buildMarkerBox(point)
+            });
+        });
+
+    return placements;
 }
 
 function updateBrandMapStats(records, statsElement) {
@@ -492,34 +578,42 @@ async function initializeBrandMap() {
             const visibleRecords = getVisibleRecords();
             updateBrandMapStats(visibleRecords, statsElement);
 
-            const groups = new Map();
-            visibleRecords.forEach((record) => {
-                const key = `${record.lat},${record.lng}`;
-                if (!groups.has(key)) groups.set(key, []);
-                groups.get(key).push(record);
+            const bounds = [];
+            if (!visibleRecords.length) return;
+
+            const rawBounds = L.latLngBounds(visibleRecords.map((record) => [record.lat, record.lng]));
+            map.fitBounds(rawBounds.pad(activeFilter === 'all' ? 0.14 : 0.2), {
+                maxZoom: activeFilter === 'all' ? 6 : 7
             });
 
-            const bounds = [];
+            let placements = placeMarkersWithoutOverlap(visibleRecords, map);
+            const placedBounds = L.latLngBounds(
+                visibleRecords.map((record) => {
+                    const latLng = placements.get(record.id) || L.latLng(record.lat, record.lng);
+                    return [latLng.lat, latLng.lng];
+                })
+            );
 
-            groups.forEach((groupRecords) => {
-                groupRecords
-                    .slice()
-                    .sort((a, b) => a.name.localeCompare(b.name, 'tr'))
-                    .forEach((record, index) => {
-                        const [lat, lng] = getOffsetPosition(record, index, groupRecords.length);
-                        bounds.push([lat, lng]);
-                        const marker = L.marker([lat, lng], { icon: createBrandMapIcon(record) });
-                        marker.bindPopup(createBrandPopup(record), {
-                            maxWidth: 320,
-                            className: 'brand-map-popup-shell'
-                        });
-                        marker.addTo(markerLayer);
-                    });
+            map.fitBounds(placedBounds.pad(activeFilter === 'all' ? 0.16 : 0.22), {
+                maxZoom: activeFilter === 'all' ? 6 : 7
+            });
+
+            placements = placeMarkersWithoutOverlap(visibleRecords, map);
+
+            visibleRecords.forEach((record) => {
+                const latLng = placements.get(record.id) || L.latLng(record.lat, record.lng);
+                bounds.push([latLng.lat, latLng.lng]);
+                const marker = L.marker(latLng, { icon: createBrandMapIcon(record) });
+                marker.bindPopup(createBrandPopup(record), {
+                    maxWidth: 320,
+                    className: 'brand-map-popup-shell'
+                });
+                marker.addTo(markerLayer);
             });
 
             if (bounds.length) {
                 const latLngBounds = L.latLngBounds(bounds);
-                map.fitBounds(latLngBounds.pad(activeFilter === 'all' ? 0.14 : 0.2), {
+                map.fitBounds(latLngBounds.pad(activeFilter === 'all' ? 0.16 : 0.22), {
                     maxZoom: activeFilter === 'all' ? 6 : 7
                 });
             }
