@@ -1,0 +1,4439 @@
+{
+  "komili": {
+    "selected": "images/markalar/komili/komili-bottle-02-sizma-zeytinyagi-ege-1-lt-12406.png",
+    "selectedScore": 48,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/komili/komili-bottle-02-sizma-zeytinyagi-ege-1-lt-12406.png",
+        "score": 48,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/komili/komili-bottle-03-sizma-zeytinyagi-2-lt-12409-500.png",
+        "score": 43,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/komili/komili-bottle-01-riviera-zeytinyagi-2-lt-12402-5.png",
+        "score": 40,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "taris": {
+    "selected": "images/markalar/taris/taris-bottle-03-maraska-sizma-zeytinyagi-500-ml-13.png",
+    "selectedScore": 48,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/taris/taris-bottle-03-maraska-sizma-zeytinyagi-500-ml-13.png",
+        "score": 48,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/taris/taris-bottle-02-sizma-zeytinyagi-5-lt-13537-500x50.png",
+        "score": 39,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/taris/taris-bottle-01-zeytinyagi-riviera-5-lt-13533-500x.png",
+        "score": 36,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "kristal": {
+    "selected": "images/markalar/kristal/kristal-bottle-03-naturel-sizma-zeytinyagi-1-l-cam-sis.webp",
+    "selectedScore": 35,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/kristal/kristal-bottle-03-naturel-sizma-zeytinyagi-1-l-cam-sis.webp",
+        "score": 35,
+        "size": [
+          200,
+          200
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/kristal/kristal-bottle-02-naturel-sizma-zeytinyagi-4-l-teneke.webp",
+        "score": 33,
+        "size": [
+          200,
+          200
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kristal/kristal-bottle-01-naturel-sizma-zeytinyagi-5-l-teneke.webp",
+        "score": 33,
+        "size": [
+          200,
+          200
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "laleli": {
+    "selected": "images/markalar/laleli/laleli-bottle-02-0000472-klasik-naturel-sizma-zeytinyag.jpg",
+    "selectedScore": 35,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/laleli/laleli-bottle-02-0000472-klasik-naturel-sizma-zeytinyag.jpg",
+        "score": 35,
+        "size": [
+          427,
+          450
+        ],
+        "ratio": 0.949,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/laleli/laleli-bottle-03-0000467-erken-hasat-zeytinyagi-5-lt-ba.jpg",
+        "score": 41,
+        "size": [
+          427,
+          450
+        ],
+        "ratio": 0.949,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/laleli/laleli-bottle-01-0000476-yemeklik-naturel-birinci-zeyti.jpg",
+        "score": 22,
+        "size": [
+          427,
+          450
+        ],
+        "ratio": 0.949,
+        "preferred": false
+      }
+    ]
+  },
+  "madra": {
+    "selected": "images/markalar/madra/madra-bottle-02-box-2.png",
+    "selectedScore": 18,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/madra/madra-bottle-02-box-2.png",
+        "score": 18,
+        "size": [
+          607,
+          659
+        ],
+        "ratio": 0.921,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/madra/madra-bottle-03-box-3.png",
+        "score": 12,
+        "size": [
+          654,
+          549
+        ],
+        "ratio": 1.191,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/madra/madra-bottle-01-box-1.png",
+        "score": 7,
+        "size": [
+          650,
+          518
+        ],
+        "ratio": 1.255,
+        "preferred": false
+      }
+    ]
+  },
+  "luna": {
+    "selected": "images/markalar/luna/luna-bottle-03-4205154-bf9a85-1650x1650.jpg",
+    "selectedScore": 24,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/luna/luna-bottle-03-4205154-bf9a85-1650x1650.jpg",
+        "score": 24,
+        "size": [
+          1650,
+          1650
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/luna/luna-bottle-01-kase-margarin-500-gr-13735-500x500.png",
+        "score": -42,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/luna/luna-bottle-02-250-gr-tereyagi-lezzetli-paket-margar.avif",
+        "score": -47,
+        "size": [
+          260,
+          260
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "yudum": {
+    "selected": "images/markalar/yudum/yudum-bottle-02-naturel-sizma-5-lt-teneke-z.jpg",
+    "selectedScore": 21,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/yudum/yudum-bottle-02-naturel-sizma-5-lt-teneke-z.jpg",
+        "score": 21,
+        "size": [
+          236,
+          500
+        ],
+        "ratio": 0.472,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/yudum/yudum-bottle-03-egemden-sizma-zeytinyagi-500-ml-bc.png",
+        "score": 48,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/yudum/yudum-bottle-01-bim-25-mart-31-mart-2016-indirim-katalog.jpg",
+        "score": -45,
+        "size": [
+          612,
+          870
+        ],
+        "ratio": 0.703,
+        "preferred": false
+      }
+    ]
+  },
+  "kirlangic": {
+    "selected": "images/markalar/kirlangic/kirlangic-bottle-01-sizma-naturel-5-lt-500.jpg",
+    "selectedScore": 25,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/kirlangic/kirlangic-bottle-01-sizma-naturel-5-lt-500.jpg",
+        "score": 25,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/kirlangic/kirlangic-bottle-02-ayvaliktaki-kirlangic-zeytinyagi.jpg",
+        "score": 15,
+        "size": [
+          880,
+          600
+        ],
+        "ratio": 1.467,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kirlangic/kirlangic-bottle-03-zeytinyagi-fiyatlari-3.webp",
+        "score": -21,
+        "size": [
+          447,
+          220
+        ],
+        "ratio": 2.032,
+        "preferred": false
+      }
+    ]
+  },
+  "marmarabirlik": {
+    "selected": "images/markalar/marmarabirlik/marmarabirlik-bottle-02-naturel-si.png",
+    "selectedScore": 22,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/marmarabirlik/marmarabirlik-bottle-02-naturel-si.png",
+        "score": 22,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/marmarabirlik/marmarabirlik-bottle-01-sizma-zeyt.avif",
+        "score": 23,
+        "size": [
+          582,
+          640
+        ],
+        "ratio": 0.909,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/marmarabirlik/marmarabirlik-bottle-03-sizma-zeyt.avif",
+        "score": -4,
+        "size": [
+          68,
+          250
+        ],
+        "ratio": 0.272,
+        "preferred": false
+      }
+    ]
+  },
+  "oleamea": {
+    "selected": "images/markalar/oleamea/oleamea-bottle-03-gercek-zeytinyagi-1000x1000.webp",
+    "selectedScore": 15,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/oleamea/oleamea-bottle-03-gercek-zeytinyagi-1000x1000.webp",
+        "score": 15,
+        "size": [
+          1000,
+          667
+        ],
+        "ratio": 1.499,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/oleamea/oleamea-bottle-01-zeytinyagi-isitilir-mi-1000x1000.webp",
+        "score": -10,
+        "size": [
+          1000,
+          667
+        ],
+        "ratio": 1.499,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oleamea/oleamea-bottle-02-zeytinyagi-lekesi-nasil-cikarilir-10.webp",
+        "score": -45,
+        "size": [
+          1000,
+          667
+        ],
+        "ratio": 1.499,
+        "preferred": false
+      }
+    ]
+  },
+  "mera-ovasi": {
+    "selected": "images/markalar/mera-ovasi/mera-ovasi-bottle-03-meraovasi-5l-bottle.png",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/mera-ovasi/mera-ovasi-bottle-03-meraovasi-5l-bottle.png",
+        "score": 28,
+        "size": [
+          1024,
+          1536
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mera-ovasi/mera-ovasi-bottle-02-meraovasi-2-bottle.png",
+        "score": 28,
+        "size": [
+          1024,
+          1536
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mera-ovasi/mera-ovasi-bottle-01-meraovasi-1l-bottle.png",
+        "score": 28,
+        "size": [
+          1024,
+          1536
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "olivurla": {
+    "selected": "images/markalar/olivurla/olivurla-bottle-01-ayvalik-5000x-min.jpg",
+    "selectedScore": 8,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/olivurla/olivurla-bottle-01-ayvalik-5000x-min.jpg",
+        "score": 8,
+        "size": [
+          160,
+          240
+        ],
+        "ratio": 0.667,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/olivurla/olivurla-bottle-03-yerli-nsz-5000ml0913-1-mi.webp",
+        "score": 8,
+        "size": [
+          230,
+          240
+        ],
+        "ratio": 0.958,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olivurla/olivurla-bottle-02-domat5000-min.webp",
+        "score": 8,
+        "size": [
+          222,
+          240
+        ],
+        "ratio": 0.925,
+        "preferred": false
+      }
+    ]
+  },
+  "olistica": {
+    "selected": "images/markalar/olistica/olistica-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/olistica/olistica-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/olistica/olistica-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
+        "score": 46,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olistica/olistica-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "olive-riviera": {
+    "selected": "images/markalar/olive-riviera/olive-riviera-bottle-03-oliverivierapellegrino-1.webp",
+    "selectedScore": 27,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/olive-riviera/olive-riviera-bottle-03-oliverivierapellegrino-1.webp",
+        "score": 27,
+        "size": [
+          867,
+          1200
+        ],
+        "ratio": 0.723,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/olive-riviera/olive-riviera-bottle-01-sizma-zeytinyagi-aydinli.jpg",
+        "score": 49,
+        "size": [
+          1280,
+          1280
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olive-riviera/olive-riviera-bottle-02-taris-riviera-zeytinyagi.jpg",
+        "score": 44,
+        "size": [
+          1650,
+          1650
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "papez": {
+    "selected": "images/markalar/papez/papez-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/papez/papez-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/papez/papez-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
+        "score": 46,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/papez/papez-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "selatin": {
+    "selected": "images/markalar/selatin/selatin-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/selatin/selatin-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/selatin/selatin-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
+        "score": 46,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/selatin/selatin-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "degirmenci": {
+    "selected": "images/markalar/degirmenci/degirmenci-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/degirmenci/degirmenci-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/degirmenci/degirmenci-bottle-01-zeytinyagi-sisesi-yesil-500-ml.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/degirmenci/degirmenci-bottle-02-beige-and-stone-natural-stone.avif",
+        "score": 3,
+        "size": [
+          582,
+          640
+        ],
+        "ratio": 0.909,
+        "preferred": false
+      }
+    ]
+  },
+  "izmir-pinari": {
+    "selected": "images/markalar/izmir-pinari/izmir-pinari-bottle-01-izmir-tire-den-naturel-siz.jpg",
+    "selectedScore": 22,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/izmir-pinari/izmir-pinari-bottle-01-izmir-tire-den-naturel-siz.jpg",
+        "score": 22,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/izmir-pinari/izmir-pinari-bottle-03-izmir-tire-den-naturel-siz.jpg",
+        "score": 11,
+        "size": [
+          800,
+          600
+        ],
+        "ratio": 1.333,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/izmir-pinari/izmir-pinari-bottle-02-izmir-tire-den-naturel-siz.jpg",
+        "score": 11,
+        "size": [
+          800,
+          600
+        ],
+        "ratio": 1.333,
+        "preferred": false
+      }
+    ]
+  },
+  "beyaz-altin": {
+    "selected": "images/markalar/beyaz-altin/beyaz-altin-bottle-01-beige-and-stone-natural-ston.avif",
+    "selectedScore": 3,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/beyaz-altin/beyaz-altin-bottle-01-beige-and-stone-natural-ston.avif",
+        "score": 3,
+        "size": [
+          582,
+          640
+        ],
+        "ratio": 0.909,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/beyaz-altin/beyaz-altin-bottle-03-misto-tritan-cam-sprey-zeyti.jpg",
+        "score": -1,
+        "size": [
+          970,
+          600
+        ],
+        "ratio": 1.617,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/beyaz-altin/beyaz-altin-bottle-02-monini-beyaz-truflu-zeytinya.jpg",
+        "score": -4,
+        "size": [
+          1650,
+          1650
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "ozgun-olive": {
+    "selected": "images/markalar/ozgun-olive/ozgun-olive-bottle-01-zeytinyagi-ozgun-birinci-2lt.jpg",
+    "selectedScore": 38,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/ozgun-olive/ozgun-olive-bottle-01-zeytinyagi-ozgun-birinci-2lt.jpg",
+        "score": 38,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ozgun-olive/ozgun-olive-bottle-03-oncu-naturel-sizma-zeytinyag.avif",
+        "score": 8,
+        "size": [
+          82,
+          400
+        ],
+        "ratio": 0.205,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ozgun-olive/ozgun-olive-bottle-02-dekoratif-sise-artemis-zeyti.avif",
+        "score": -6,
+        "size": [
+          582,
+          640
+        ],
+        "ratio": 0.909,
+        "preferred": false
+      }
+    ]
+  },
+  "edremit-korfezi": {
+    "selected": "images/markalar/edremit-korfezi/edremit-korfezi-bottle-01-ida-natura-edremit-s.jpg",
+    "selectedScore": 21,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/edremit-korfezi/edremit-korfezi-bottle-01-ida-natura-edremit-s.jpg",
+        "score": 21,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/edremit-korfezi/edremit-korfezi-bottle-02-ida-natura-edremit-s.jpg",
+        "score": 21,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/edremit-korfezi/edremit-korfezi-bottle-03-raw-edremit-korfezin.jpg",
+        "score": -6,
+        "size": [
+          600,
+          338
+        ],
+        "ratio": 1.775,
+        "preferred": false
+      }
+    ]
+  },
+  "kursat": {
+    "selected": "images/markalar/kursat/kursat-bottle-01-naturel-sizma-zeytinyagi-500-ml.avif",
+    "selectedScore": 38,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/kursat/kursat-bottle-01-naturel-sizma-zeytinyagi-500-ml.avif",
+        "score": 38,
+        "size": [
+          300,
+          284
+        ],
+        "ratio": 1.056,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kursat/kursat-bottle-03-naturel-sizma-zeytinyagi-3000-m.avif",
+        "score": 31,
+        "size": [
+          300,
+          284
+        ],
+        "ratio": 1.056,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kursat/kursat-bottle-02-naturel-sizma-zeytinyagi-5000-m.avif",
+        "score": 29,
+        "size": [
+          300,
+          284
+        ],
+        "ratio": 1.056,
+        "preferred": false
+      }
+    ]
+  },
+  "zeytin-dali": {
+    "selected": "images/markalar/zeytin-dali/zeytin-dali-bottle-01-cikartmalar-zeytinyagi-ve-ze.png",
+    "selectedScore": 36,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/zeytin-dali/zeytin-dali-bottle-01-cikartmalar-zeytinyagi-ve-ze.png",
+        "score": 36,
+        "size": [
+          400,
+          400
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/zeytin-dali/zeytin-dali-bottle-03-zeytindali-kir-bahcesi-kiczq.webp",
+        "score": 10,
+        "size": [
+          1024,
+          768
+        ],
+        "ratio": 1.333,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zeytin-dali/zeytin-dali-bottle-02-hukumet-zeytin-dali-operasyo.webp",
+        "score": -63,
+        "size": [
+          1280,
+          720
+        ],
+        "ratio": 1.778,
+        "preferred": false
+      }
+    ]
+  },
+  "egemden": {
+    "selected": "images/markalar/egemden/egemden-bottle-03-yudum-egemden-riviera-zeytinyagi-5-l.jpg",
+    "selectedScore": 41,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/egemden/egemden-bottle-03-yudum-egemden-riviera-zeytinyagi-5-l.jpg",
+        "score": 41,
+        "size": [
+          720,
+          840
+        ],
+        "ratio": 0.857,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/egemden/egemden-bottle-02-yudum-egemden-sizma-zeytinyagi-500-m.png",
+        "score": 41,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/egemden/egemden-bottle-01-a101-28-ekim-3-kasim-yudum-egemden-s.jpg",
+        "score": 25,
+        "size": [
+          612,
+          918
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "bereket": {
+    "selected": "images/markalar/bereket/bereket-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/bereket/bereket-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/bereket/bereket-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
+        "score": 46,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/bereket/bereket-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "olea-prilis": {
+    "selected": "images/markalar/olea-prilis/olea-prilis-bottle-03-zeytinyagi-sisesi-yesil-500.webp",
+    "selectedScore": 36,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/olea-prilis/olea-prilis-bottle-03-zeytinyagi-sisesi-yesil-500.webp",
+        "score": 36,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olea-prilis/olea-prilis-bottle-02-organic-tuscan-p.jpg",
+        "score": 27,
+        "size": [
+          600,
+          918
+        ],
+        "ratio": 0.654,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olea-prilis/olea-prilis-bottle-01-organic-tuscan-p.jpg",
+        "score": 9,
+        "size": [
+          800,
+          578
+        ],
+        "ratio": 1.384,
+        "preferred": false
+      }
+    ]
+  },
+  "oliterra": {
+    "selected": "images/markalar/oliterra/oliterra-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/oliterra/oliterra-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/oliterra/oliterra-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
+        "score": 46,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oliterra/oliterra-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "ayla-zeytinyagi": {
+    "selected": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-03-naturel-sizma-zeytin.jpg",
+    "selectedScore": 52,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-03-naturel-sizma-zeytin.jpg",
+        "score": 52,
+        "size": [
+          1000,
+          1500
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-01-zeytinyagi-sisesi-ye.webp",
+        "score": 36,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-02-beige-and-stone-natu.avif",
+        "score": 18,
+        "size": [
+          582,
+          640
+        ],
+        "ratio": 0.909,
+        "preferred": false
+      }
+    ]
+  },
+  "tarihi-kirkpinar": {
+    "selected": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-03-663-tarihi-kirkpin.jpg",
+    "selectedScore": 10,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-03-663-tarihi-kirkpin.jpg",
+        "score": 10,
+        "size": [
+          1280,
+          1001
+        ],
+        "ratio": 1.279,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-01-tayfun-canli-edrem.webp",
+        "score": -3,
+        "size": [
+          1280,
+          720
+        ],
+        "ratio": 1.778,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-02-tayfun-canli-edrem.webp",
+        "score": -6,
+        "size": [
+          780,
+          440
+        ],
+        "ratio": 1.773,
+        "preferred": false
+      }
+    ]
+  },
+  "olivos": {
+    "selected": "images/markalar/olivos/olivos-bottle-01-amber-sise-soft-etiket-premium-gorunum.webp",
+    "selectedScore": 20,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/olivos/olivos-bottle-01-amber-sise-soft-etiket-premium-gorunum.webp",
+        "score": 20,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olivos/olivos-bottle-03-sari-min.webp",
+        "score": 18,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olivos/olivos-bottle-02-yesil-min.png",
+        "score": 18,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "hasat": {
+    "selected": "images/markalar/hasat/hasat-bottle-01-zeytinyagi-erken-hasat-2000-ml.jpg",
+    "selectedScore": 48,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/hasat/hasat-bottle-01-zeytinyagi-erken-hasat-2000-ml.jpg",
+        "score": 48,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/hasat/hasat-bottle-03-1-litre-erken-hasat-zeytinyagi-erken-has.jpg",
+        "score": 43,
+        "size": [
+          680,
+          720
+        ],
+        "ratio": 0.944,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/hasat/hasat-bottle-02-0000467-erken-hasat-zeytinyagi-5-lt-bag.jpg",
+        "score": 41,
+        "size": [
+          427,
+          450
+        ],
+        "ratio": 0.949,
+        "preferred": false
+      }
+    ]
+  },
+  "ayvalik-yildizi": {
+    "selected": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-01-ayvalik-erken-hasat.webp",
+    "selectedScore": 35,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-01-ayvalik-erken-hasat.webp",
+        "score": 35,
+        "size": [
+          1200,
+          1680
+        ],
+        "ratio": 0.714,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-03-naturel-sizma-zeytin.jpg",
+        "score": 30,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-02-naturel-sizma-zeytin.jpg",
+        "score": 30,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "ilyada": {
+    "selected": "images/markalar/ilyada/ilyada-bottle-01-zeytinyagi.png",
+    "selectedScore": 24,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/ilyada/ilyada-bottle-01-zeytinyagi.png",
+        "score": 24,
+        "size": [
+          64,
+          64
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/ilyada/ilyada-bottle-02-slider1.webp",
+        "score": -28,
+        "size": [
+          1300,
+          518
+        ],
+        "ratio": 2.51,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ilyada/ilyada-bottle-03-urunlerslider2.webp",
+        "score": -53,
+        "size": [
+          1903,
+          518
+        ],
+        "ratio": 3.674,
+        "preferred": false
+      }
+    ]
+  },
+  "coskun-zeytinyaglari": {
+    "selected": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-bottle-03-4-adet-1l.jpg",
+    "selectedScore": 36,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-bottle-03-4-adet-1l.jpg",
+        "score": 36,
+        "size": [
+          1200,
+          1600
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-bottle-02-coskun-zey.jpg",
+        "score": 36,
+        "size": [
+          1200,
+          1600
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-bottle-01-coskun-zey.jpg",
+        "score": 30,
+        "size": [
+          600,
+          800
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      }
+    ]
+  },
+  "nar-gourmet": {
+    "selected": "images/markalar/nar-gourmet/nar-gourmet-bottle-01-0013121-tarimbirlik-2-lt-zey.jpg",
+    "selectedScore": 20,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/nar-gourmet/nar-gourmet-bottle-01-0013121-tarimbirlik-2-lt-zey.jpg",
+        "score": 20,
+        "size": [
+          488,
+          510
+        ],
+        "ratio": 0.957,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/nar-gourmet/nar-gourmet-bottle-02-0013949-tarimbirlik-5-lt-zey.jpg",
+        "score": 10,
+        "size": [
+          554,
+          499
+        ],
+        "ratio": 1.11,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/nar-gourmet/nar-gourmet-bottle-03-neden-naturel-sizma-zeytinya.webp",
+        "score": 6,
+        "size": [
+          1024,
+          576
+        ],
+        "ratio": 1.778,
+        "preferred": false
+      }
+    ]
+  },
+  "monolive": {
+    "selected": "images/markalar/monolive/monolive-bottle-01-zeytinyagi-cesitleri.jpg",
+    "selectedScore": 25,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/monolive/monolive-bottle-01-zeytinyagi-cesitleri.jpg",
+        "score": 25,
+        "size": [
+          700,
+          504
+        ],
+        "ratio": 1.389,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/monolive/monolive-bottle-03-zeytinyagi-sagliktir.jpg",
+        "score": 12,
+        "size": [
+          700,
+          449
+        ],
+        "ratio": 1.559,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/monolive/monolive-bottle-02-mon-olive-logo.png",
+        "score": 10,
+        "size": [
+          250,
+          247
+        ],
+        "ratio": 1.012,
+        "preferred": false
+      }
+    ]
+  },
+  "zeytursan": {
+    "selected": "images/markalar/zeytursan/zeytursan-bottle-03-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+    "selectedScore": 43,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/zeytursan/zeytursan-bottle-03-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/zeytursan/zeytursan-bottle-01-branch-of-olive-tree-with-ripe-g.jpg",
+        "score": -44,
+        "size": [
+          2560,
+          1707
+        ],
+        "ratio": 1.5,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zeytursan/zeytursan-bottle-02-beautiful-alley-of-olive-trees-2.jpg",
+        "score": -78,
+        "size": [
+          2560,
+          1703
+        ],
+        "ratio": 1.503,
+        "preferred": false
+      }
+    ]
+  },
+  "trilye": {
+    "selected": "images/markalar/trilye/trilye-bottle-02-erken-hasat-naturel-sizma-zeyti.webp",
+    "selectedScore": 44,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/trilye/trilye-bottle-02-erken-hasat-naturel-sizma-zeyti.webp",
+        "score": 44,
+        "size": [
+          1200,
+          1680
+        ],
+        "ratio": 0.714,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/trilye/trilye-bottle-03-erken-hasat-naturel-sizma-zeyti.webp",
+        "score": 44,
+        "size": [
+          1200,
+          1680
+        ],
+        "ratio": 0.714,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/trilye/trilye-bottle-01-granpa-premium-trilye-zeytinyagi-hediy.webp",
+        "score": 41,
+        "size": [
+          1080,
+          1080
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "vita": {
+    "selected": "images/markalar/vita/vita-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/vita/vita-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/vita/vita-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/vita/vita-bottle-02-100ml-seffaf-pet-gida-sisesi-12-adet-gida.avif",
+        "score": 10,
+        "size": [
+          278,
+          306
+        ],
+        "ratio": 0.908,
+        "preferred": false
+      }
+    ]
+  },
+  "polat-zeytinyagi": {
+    "selected": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-bottle-03-naturel-sizma-zeyt.jpg",
+    "selectedScore": 52,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-bottle-03-naturel-sizma-zeyt.jpg",
+        "score": 52,
+        "size": [
+          1000,
+          1500
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-bottle-01-zeytinyagi-sisesi.webp",
+        "score": 36,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-bottle-02-beige-and-stone-na.avif",
+        "score": 18,
+        "size": [
+          582,
+          640
+        ],
+        "ratio": 0.909,
+        "preferred": false
+      }
+    ]
+  },
+  "tego": {
+    "selected": "images/markalar/tego/tego-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/tego/tego-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/tego/tego-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/tego/tego-bottle-02-1-lt-seffaf-pet-gida-sisesi-24-adet-gida-s.avif",
+        "score": 13,
+        "size": [
+          186,
+          205
+        ],
+        "ratio": 0.907,
+        "preferred": false
+      }
+    ]
+  },
+  "bumba-zeytinyagi": {
+    "selected": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-03-naturel-sizma-zeyt.jpg",
+    "selectedScore": 52,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-03-naturel-sizma-zeyt.jpg",
+        "score": 52,
+        "size": [
+          1000,
+          1500
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-01-zeytinyagi-sisesi.webp",
+        "score": 36,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-02-beige-and-stone-na.avif",
+        "score": 18,
+        "size": [
+          582,
+          640
+        ],
+        "ratio": 0.909,
+        "preferred": false
+      }
+    ]
+  },
+  "herbal-organik": {
+    "selected": "images/markalar/herbal-organik/herbal-organik-bottle-01-ozonlanmis-zeytinyagi.webp",
+    "selectedScore": 41,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/herbal-organik/herbal-organik-bottle-01-ozonlanmis-zeytinyagi.webp",
+        "score": 41,
+        "size": [
+          1080,
+          1080
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/herbal-organik/herbal-organik-bottle-03-naturel-sizma-zeytinya.jpg",
+        "score": 32,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/herbal-organik/herbal-organik-bottle-02-zeytinyagi-bira-sirke.avif",
+        "score": 26,
+        "size": [
+          186,
+          205
+        ],
+        "ratio": 0.907,
+        "preferred": false
+      }
+    ]
+  },
+  "olive-mama": {
+    "selected": "images/markalar/olive-mama/olive-mama-bottle-03-kadin-figurlu-el-yapimi-serami.png",
+    "selectedScore": 21,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/olive-mama/olive-mama-bottle-03-kadin-figurlu-el-yapimi-serami.png",
+        "score": 21,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/olive-mama/olive-mama-bottle-02-melek-figurlu-el-yapimi-serami.png",
+        "score": 21,
+        "size": [
+          980,
+          980
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olive-mama/olive-mama-bottle-01-kiraz-cicegi-motifli-el-yapimi.png",
+        "score": 21,
+        "size": [
+          768,
+          768
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "ekooleo": {
+    "selected": "images/markalar/ekooleo/ekooleo-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 55,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/ekooleo/ekooleo-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 55,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/ekooleo/ekooleo-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
+        "score": 46,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ekooleo/ekooleo-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
+        "score": 43,
+        "size": [
+          590,
+          590
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "odemis-birlik": {
+    "selected": "images/markalar/odemis-birlik/odemis-birlik-bottle-03-naturel-sizma-zeytinyagi.jpg",
+    "selectedScore": 48,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/odemis-birlik/odemis-birlik-bottle-03-naturel-sizma-zeytinyagi.jpg",
+        "score": 48,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/odemis-birlik/odemis-birlik-bottle-02-marmarabirlik-naturel-si.png",
+        "score": 22,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/odemis-birlik/odemis-birlik-bottle-01-odemis-cekiste-zeytinyag.png",
+        "score": 2,
+        "size": [
+          750,
+          500
+        ],
+        "ratio": 1.5,
+        "preferred": false
+      }
+    ]
+  },
+  "izmir-birlik": {
+    "selected": "images/markalar/izmir-birlik/izmir-birlik-bottle-01-izmir-tire-den-naturel-siz.jpg",
+    "selectedScore": 22,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/izmir-birlik/izmir-birlik-bottle-01-izmir-tire-den-naturel-siz.jpg",
+        "score": 22,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/izmir-birlik/izmir-birlik-bottle-03-izmir-tire-den-naturel-siz.jpg",
+        "score": 11,
+        "size": [
+          800,
+          600
+        ],
+        "ratio": 1.333,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/izmir-birlik/izmir-birlik-bottle-02-izmir-tire-den-naturel-siz.jpg",
+        "score": 11,
+        "size": [
+          800,
+          600
+        ],
+        "ratio": 1.333,
+        "preferred": false
+      }
+    ]
+  },
+  "milas-zeytinyaglari": {
+    "selected": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-bottle-02-milas-anatol.webp",
+    "selectedScore": 36,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-bottle-02-milas-anatol.webp",
+        "score": 36,
+        "size": [
+          1180,
+          1767
+        ],
+        "ratio": 0.668,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-bottle-03-milas-nature.webp",
+        "score": 32,
+        "size": [
+          1600,
+          1600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-bottle-01-milas-nature.webp",
+        "score": 32,
+        "size": [
+          1600,
+          1600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "nish-olive": {
+    "selected": "images/markalar/nish-olive/nish-olive-bottle-02-sicak-lezzetler-riviera-zeytin.avif",
+    "selectedScore": 24,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/nish-olive/nish-olive-bottle-02-sicak-lezzetler-riviera-zeytin.avif",
+        "score": 24,
+        "size": [
+          531,
+          900
+        ],
+        "ratio": 0.59,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/nish-olive/nish-olive-bottle-03-riviera-zeytinyagi.avif",
+        "score": 6,
+        "size": [
+          413,
+          250
+        ],
+        "ratio": 1.652,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/nish-olive/nish-olive-bottle-01-basliksiz-1-2.avif",
+        "score": -6,
+        "size": [
+          600,
+          333
+        ],
+        "ratio": 1.802,
+        "preferred": false
+      }
+    ]
+  },
+  "naturel": {
+    "selected": "images/markalar/naturel/naturel-bottle-01-zeytinyagi-sisesi-yesil-250-ml-1.webp",
+    "selectedScore": 43,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/naturel/naturel-bottle-01-zeytinyagi-sisesi-yesil-250-ml-1.webp",
+        "score": 43,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/naturel/naturel-bottle-03-500ml-seffaf-pet-gida-sisesi-12-adet.avif",
+        "score": 21,
+        "size": [
+          278,
+          306
+        ],
+        "ratio": 0.908,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/naturel/naturel-bottle-02-330ml-seffaf-pet-gida-sisesi-24-adet.avif",
+        "score": 14,
+        "size": [
+          278,
+          306
+        ],
+        "ratio": 0.908,
+        "preferred": false
+      }
+    ]
+  },
+  "novavera": {
+    "selected": "images/markalar/novavera/novavera-bottle-01-ayvalik-erken-hasat-naturel-sizma.webp",
+    "selectedScore": 44,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/novavera/novavera-bottle-01-ayvalik-erken-hasat-naturel-sizma.webp",
+        "score": 44,
+        "size": [
+          1280,
+          1920
+        ],
+        "ratio": 0.667,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/novavera/novavera-bottle-03-memecik-erken-hasat-naturel-sizma.webp",
+        "score": 44,
+        "size": [
+          1280,
+          1920
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/novavera/novavera-bottle-02-trilye-erken-hasat-naturel-sizma-z.webp",
+        "score": 44,
+        "size": [
+          1280,
+          1920
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "gaia-oliva": {
+    "selected": "images/markalar/gaia-oliva/gaia-oliva-bottle-03-zeytinyagi-947f-d.webp",
+    "selectedScore": 40,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/gaia-oliva/gaia-oliva-bottle-03-zeytinyagi-947f-d.webp",
+        "score": 40,
+        "size": [
+          310,
+          485
+        ],
+        "ratio": 0.639,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gaia-oliva/gaia-oliva-bottle-02-zeytinyagi-e-6c3b.webp",
+        "score": 40,
+        "size": [
+          310,
+          465
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gaia-oliva/gaia-oliva-bottle-01-zeytinyagi-44b4-9.webp",
+        "score": 40,
+        "size": [
+          310,
+          465
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "nizolive": {
+    "selected": "images/markalar/nizolive/nizolive-bottle-01-zeytinyagi-2000ml-450x450.webp",
+    "selectedScore": 38,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/nizolive/nizolive-bottle-01-zeytinyagi-2000ml-450x450.webp",
+        "score": 38,
+        "size": [
+          450,
+          450
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/nizolive/nizolive-bottle-03-memecik-soguk-sikim-1000ml-450x450.webp",
+        "score": 28,
+        "size": [
+          450,
+          450
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/nizolive/nizolive-bottle-02-5-lt-olgun-hasat-2300-00-tl-indiri.webp",
+        "score": 19,
+        "size": [
+          450,
+          450
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "verde": {
+    "selected": "images/markalar/verde/verde-bottle-01-500-ml-sise-sizma-1.png",
+    "selectedScore": 34,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/verde/verde-bottle-01-500-ml-sise-sizma-1.png",
+        "score": 34,
+        "size": [
+          440,
+          550
+        ],
+        "ratio": 0.8,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/verde/verde-bottle-02-naturel-sizma-zeytinyagi-urun-ic-g.png",
+        "score": 42,
+        "size": [
+          904,
+          769
+        ],
+        "ratio": 1.176,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/verde/verde-bottle-03-sizma3teneke.png",
+        "score": 27,
+        "size": [
+          440,
+          650
+        ],
+        "ratio": 0.677,
+        "preferred": false
+      }
+    ]
+  },
+  "adatepe": {
+    "selected": "images/markalar/adatepe/adatepe-bottle-03-1740045949-adatepezeytinyagi1lt-1.png",
+    "selectedScore": 35,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/adatepe/adatepe-bottle-03-1740045949-adatepezeytinyagi1lt-1.png",
+        "score": 35,
+        "size": [
+          337,
+          337
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/adatepe/adatepe-bottle-02-1740046344-3litre-1.jpg",
+        "score": 21,
+        "size": [
+          800,
+          795
+        ],
+        "ratio": 1.006,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/adatepe/adatepe-bottle-01-1740046945-timthumb111.jpg",
+        "score": 10,
+        "size": [
+          300,
+          300
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "oleturk": {
+    "selected": "images/markalar/oleturk/oleturk-bottle-01-naturel-sizma-zeytinyagi-hediye-seti.webp",
+    "selectedScore": 47,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/oleturk/oleturk-bottle-01-naturel-sizma-zeytinyagi-hediye-seti.webp",
+        "score": 47,
+        "size": [
+          4256,
+          5525
+        ],
+        "ratio": 0.77,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oleturk/oleturk-bottle-02-ole-turk-zeytinyagi-iki-sise-duo-set.webp",
+        "score": 35,
+        "size": [
+          896,
+          1200
+        ],
+        "ratio": 0.747,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oleturk/oleturk-bottle-03-ole-turk-saf-evoo-akdeniz-mutfagi.webp",
+        "score": 25,
+        "size": [
+          896,
+          1200
+        ],
+        "ratio": 0.747,
+        "preferred": false
+      }
+    ]
+  },
+  "kahraman": {
+    "selected": "images/markalar/kahraman/kahraman-bottle-03-oliveoil4.jpg",
+    "selectedScore": 22,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/kahraman/kahraman-bottle-03-oliveoil4.jpg",
+        "score": 22,
+        "size": [
+          500,
+          587
+        ],
+        "ratio": 0.852,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kahraman/kahraman-bottle-02-oliveoil5.jpg",
+        "score": 22,
+        "size": [
+          500,
+          587
+        ],
+        "ratio": 0.852,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kahraman/kahraman-bottle-01-oliveoil6.jpg",
+        "score": 22,
+        "size": [
+          500,
+          587
+        ],
+        "ratio": 0.852,
+        "preferred": false
+      }
+    ]
+  },
+  "buta-assos": {
+    "selected": "images/markalar/buta-assos/buta-assos-bottle-01-2-lt-zeytinyagi-on.jpg",
+    "selectedScore": 44,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/buta-assos/buta-assos-bottle-01-2-lt-zeytinyagi-on.jpg",
+        "score": 44,
+        "size": [
+          2000,
+          2000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/buta-assos/buta-assos-bottle-03-2-lt-zeytinyagi-on-1024x1024.jpg",
+        "score": 41,
+        "size": [
+          1024,
+          1024
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/buta-assos/buta-assos-bottle-02-2-lt-zeytinyagi-on-300x300.jpg",
+        "score": 30,
+        "size": [
+          300,
+          300
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "ayvaco": {
+    "selected": "images/markalar/ayvaco/ayvaco-bottle-03-ayvaco11.webp",
+    "selectedScore": 24,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/ayvaco/ayvaco-bottle-03-ayvaco11.webp",
+        "score": 24,
+        "size": [
+          2304,
+          2304
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ayvaco/ayvaco-bottle-02-3.webp",
+        "score": 24,
+        "size": [
+          2048,
+          2048
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ayvaco/ayvaco-bottle-01-2.webp",
+        "score": 24,
+        "size": [
+          2048,
+          2048
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "ove-foods": {
+    "selected": "images/markalar/ove-foods/ove-foods-bottle-01-products-1758727566735-rosemaryi.png",
+    "selectedScore": -27,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/ove-foods/ove-foods-bottle-01-products-1758727566735-rosemaryi.png",
+        "score": -27,
+        "size": [
+          156,
+          648
+        ],
+        "ratio": 0.241,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/ove-foods/ove-foods-bottle-03-products-1759071523008-kidsolive.png",
+        "score": -12,
+        "size": [
+          230,
+          1087
+        ],
+        "ratio": 0.212,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ove-foods/ove-foods-bottle-02-products-1758727525550-chiliinfu.png",
+        "score": -45,
+        "size": [
+          157,
+          646
+        ],
+        "ratio": 0.243,
+        "preferred": false
+      }
+    ]
+  },
+  "granpa": {
+    "selected": "images/markalar/granpa/granpa-bottle-02-premium-trilye-500ml-erken-hasa.webp",
+    "selectedScore": 34,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/granpa/granpa-bottle-02-premium-trilye-500ml-erken-hasa.webp",
+        "score": 34,
+        "size": [
+          1080,
+          1080
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/granpa/granpa-bottle-03-gold-250ml-erken-hasat-soguk-si.webp",
+        "score": 34,
+        "size": [
+          1080,
+          1080
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/granpa/granpa-bottle-01-trilye-250ml-erken-hasat-soguk.webp",
+        "score": 34,
+        "size": [
+          1080,
+          1080
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "mavras": {
+    "selected": "images/markalar/mavras/mavras-bottle-03-naturel-sizma-zeytinyagi-2li-photoroom.webp",
+    "selectedScore": 51,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/mavras/mavras-bottle-03-naturel-sizma-zeytinyagi-2li-photoroom.webp",
+        "score": 51,
+        "size": [
+          1512,
+          1512
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mavras/mavras-bottle-01-mavras9014.webp",
+        "score": 24,
+        "size": [
+          4614,
+          4614
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mavras/mavras-bottle-02-mavras9012-photoroom.webp",
+        "score": 24,
+        "size": [
+          2000,
+          2000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "hermus": {
+    "selected": "images/markalar/hermus/hermus-bottle-03-arbekina3lu-min.webp",
+    "selectedScore": 10,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/hermus/hermus-bottle-03-arbekina3lu-min.webp",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/hermus/hermus-bottle-02-arbekinatek-min.png",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/hermus/hermus-bottle-01-memeciktekli-min.webp",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "nermin-hanim-zeytinligi": {
+    "selected": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-bottle-03-tril.webp",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-bottle-03-tril.webp",
+        "score": 28,
+        "size": [
+          2921,
+          4381
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-bottle-02-arbe.webp",
+        "score": 28,
+        "size": [
+          2921,
+          4381
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-bottle-01-edre.webp",
+        "score": 28,
+        "size": [
+          2921,
+          4381
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "olivya-gokceovacik": {
+    "selected": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-bottle-03-urunler-20.webp",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-bottle-03-urunler-20.webp",
+        "score": 28,
+        "size": [
+          1200,
+          1600
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-bottle-02-urunler-19.webp",
+        "score": 28,
+        "size": [
+          1200,
+          1600
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-bottle-01-urunler-16.webp",
+        "score": 28,
+        "size": [
+          1200,
+          1600
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      }
+    ]
+  },
+  "zetay": {
+    "selected": "images/markalar/zetay/zetay-bottle-01-69737543d1756.png",
+    "selectedScore": 25,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/zetay/zetay-bottle-01-69737543d1756.png",
+        "score": 25,
+        "size": [
+          800,
+          1094
+        ],
+        "ratio": 0.731,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/zetay/zetay-bottle-02-6929a85c85dea.png",
+        "score": 25,
+        "size": [
+          800,
+          1094
+        ],
+        "ratio": 0.731,
+        "preferred": false
+      }
+    ]
+  },
+  "mr-zeytin": {
+    "selected": "images/markalar/mr-zeytin/mr-zeytin-bottle-03-7981836199.webp",
+    "selectedScore": 21,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/mr-zeytin/mr-zeytin-bottle-03-7981836199.webp",
+        "score": 21,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mr-zeytin/mr-zeytin-bottle-02-474359394.webp",
+        "score": 21,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mr-zeytin/mr-zeytin-bottle-01-4227868915.webp",
+        "score": 21,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "dalgicoglu": {
+    "selected": "images/markalar/dalgicoglu/dalgicoglu-bottle-01-com-469160-qt63oivl.png",
+    "selectedScore": 10,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/dalgicoglu/dalgicoglu-bottle-01-com-469160-qt63oivl.png",
+        "score": 10,
+        "size": [
+          200,
+          250
+        ],
+        "ratio": 0.8,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/dalgicoglu/dalgicoglu-bottle-03-com-591337.webp",
+        "score": -3,
+        "size": [
+          1400,
+          932
+        ],
+        "ratio": 1.502,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/dalgicoglu/dalgicoglu-bottle-02-com-691151.png",
+        "score": -3,
+        "size": [
+          1600,
+          800
+        ],
+        "ratio": 2.0,
+        "preferred": false
+      }
+    ]
+  },
+  "sabuncugil": {
+    "selected": "images/markalar/sabuncugil/sabuncugil-bottle-01-dsc4088-copy-2-min.jpg",
+    "selectedScore": 25,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/sabuncugil/sabuncugil-bottle-01-dsc4088-copy-2-min.jpg",
+        "score": 25,
+        "size": [
+          640,
+          960
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/sabuncugil/sabuncugil-bottle-02-adsiz-900-x-1500-piksel-min.png",
+        "score": 25,
+        "size": [
+          576,
+          960
+        ],
+        "ratio": 0.6,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/sabuncugil/sabuncugil-bottle-03-dsc4110-copy-2-min.webp",
+        "score": 22,
+        "size": [
+          476,
+          714
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "koral-zeytin": {
+    "selected": "images/markalar/koral-zeytin/koral-zeytin-bottle-01-erken-hasat-5lt-250x250.jpg",
+    "selectedScore": 18,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/koral-zeytin/koral-zeytin-bottle-01-erken-hasat-5lt-250x250.jpg",
+        "score": 18,
+        "size": [
+          250,
+          250
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/koral-zeytin/koral-zeytin-bottle-02-soguk-skm-5lt-250x250.jpg",
+        "score": 14,
+        "size": [
+          250,
+          250
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/koral-zeytin/koral-zeytin-bottle-03-tas-baski-5lt-250x250.jpg",
+        "score": 11,
+        "size": [
+          250,
+          250
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "semylasa": {
+    "selected": "images/markalar/semylasa/semylasa-bottle-03-img-9303-jp.webp",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/semylasa/semylasa-bottle-03-img-9303-jp.webp",
+        "score": 28,
+        "size": [
+          1711,
+          3040
+        ],
+        "ratio": 0.563,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/semylasa/semylasa-bottle-01-21.webp",
+        "score": 24,
+        "size": [
+          4056,
+          4002
+        ],
+        "ratio": 1.013,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/semylasa/semylasa-bottle-02-25.webp",
+        "score": 24,
+        "size": [
+          4000,
+          4000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "olivamore": {
+    "selected": "images/markalar/olivamore/olivamore-bottle-02-ayvalik-erken-hasat-naturel-sizm.jpg",
+    "selectedScore": 36,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/olivamore/olivamore-bottle-02-ayvalik-erken-hasat-naturel-sizm.jpg",
+        "score": 36,
+        "size": [
+          1000,
+          1380
+        ],
+        "ratio": 0.725,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/olivamore/olivamore-bottle-03-ayvalik-erken-hasat-naturel-sizm.jpg",
+        "score": 36,
+        "size": [
+          1000,
+          1380
+        ],
+        "ratio": 0.725,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/olivamore/olivamore-bottle-01-anasayfa-ayvalik-sise.png",
+        "score": 3,
+        "size": [
+          250,
+          932
+        ],
+        "ratio": 0.268,
+        "preferred": false
+      }
+    ]
+  },
+  "ayolis": {
+    "selected": "images/markalar/ayolis/ayolis-bottle-01-premium-gurme-ayvalik-odullu-yu.jpg",
+    "selectedScore": 23,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/ayolis/ayolis-bottle-01-premium-gurme-ayvalik-odullu-yu.jpg",
+        "score": 23,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/ayolis/ayolis-bottle-03-premium-gurme-trilye-odullu-yuk.jpg",
+        "score": 23,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/ayolis/ayolis-bottle-02-premium-gurme-memecik-odullu-yu.jpg",
+        "score": 23,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "gemlika": {
+    "selected": "images/markalar/gemlika/gemlika-bottle-02-sizma-zeytinyagi-naturel.jpg",
+    "selectedScore": 34,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/gemlika/gemlika-bottle-02-sizma-zeytinyagi-naturel.jpg",
+        "score": 34,
+        "size": [
+          612,
+          459
+        ],
+        "ratio": 1.333,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gemlika/gemlika-bottle-01-hero-bottle.png",
+        "score": 22,
+        "size": [
+          400,
+          600
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gemlika/gemlika-bottle-03-erken-hasat-zeytiyahgi.jpg",
+        "score": 4,
+        "size": [
+          1054,
+          720
+        ],
+        "ratio": 1.464,
+        "preferred": false
+      }
+    ]
+  },
+  "zeytinsan": {
+    "selected": "images/markalar/zeytinsan/zeytinsan-bottle-01-3.png",
+    "selectedScore": 7,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/zeytinsan/zeytinsan-bottle-01-3.png",
+        "score": 7,
+        "size": [
+          748,
+          592
+        ],
+        "ratio": 1.264,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zeytinsan/zeytinsan-bottle-02-3-600x475.png",
+        "score": 7,
+        "size": [
+          600,
+          475
+        ],
+        "ratio": 1.263,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zeytinsan/zeytinsan-bottle-03-3-400x317.png",
+        "score": 7,
+        "size": [
+          400,
+          317
+        ],
+        "ratio": 1.262,
+        "preferred": false
+      }
+    ]
+  },
+  "anolive": {
+    "selected": "images/markalar/anolive/anolive-bottle-01-bottle-index.jpg",
+    "selectedScore": 22,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/anolive/anolive-bottle-01-bottle-index.jpg",
+        "score": 22,
+        "size": [
+          500,
+          678
+        ],
+        "ratio": 0.737,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/anolive/anolive-bottle-03-img-anolive-in-kitchen-500ml.jpg",
+        "score": 19,
+        "size": [
+          400,
+          329
+        ],
+        "ratio": 1.216,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/anolive/anolive-bottle-02-bottle-family.jpg",
+        "score": 14,
+        "size": [
+          600,
+          714
+        ],
+        "ratio": 0.84,
+        "preferred": false
+      }
+    ]
+  },
+  "artem-oliva": {
+    "selected": "images/markalar/artem-oliva/artem-oliva-bottle-01-extra-virgin-oli.png",
+    "selectedScore": 2,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/artem-oliva/artem-oliva-bottle-01-extra-virgin-oli.png",
+        "score": 2,
+        "size": [
+          332,
+          240
+        ],
+        "ratio": 1.383,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/artem-oliva/artem-oliva-bottle-03-organic-extra-vi.webp",
+        "score": -4,
+        "size": [
+          700,
+          350
+        ],
+        "ratio": 2.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/artem-oliva/artem-oliva-bottle-02-early-harvest-ex.webp",
+        "score": -6,
+        "size": [
+          700,
+          350
+        ],
+        "ratio": 2.0,
+        "preferred": false
+      }
+    ]
+  },
+  "oliveoilsland": {
+    "selected": "images/markalar/oliveoilsland/oliveoilsland-bottle-01-pomaceoliveoil-tin-packa.png",
+    "selectedScore": 26,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/oliveoilsland/oliveoilsland-bottle-01-pomaceoliveoil-tin-packa.png",
+        "score": 26,
+        "size": [
+          500,
+          700
+        ],
+        "ratio": 0.714,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/oliveoilsland/oliveoilsland-bottle-03-pomaceoliveoil-tin-packa.png",
+        "score": 26,
+        "size": [
+          500,
+          700
+        ],
+        "ratio": 0.714,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oliveoilsland/oliveoilsland-bottle-02-pomaceoliveoil-tin-packa.png",
+        "score": 26,
+        "size": [
+          500,
+          700
+        ],
+        "ratio": 0.714,
+        "preferred": false
+      }
+    ]
+  },
+  "hatnar": {
+    "selected": "images/markalar/hatnar/hatnar-bottle-03-img-4002-420x420.jpg",
+    "selectedScore": 18,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/hatnar/hatnar-bottle-03-img-4002-420x420.jpg",
+        "score": 18,
+        "size": [
+          420,
+          420
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/hatnar/hatnar-bottle-02-img-4011-420x420.jpg",
+        "score": 18,
+        "size": [
+          420,
+          420
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/hatnar/hatnar-bottle-01-img-4004-1-420x420.jpg",
+        "score": 18,
+        "size": [
+          420,
+          420
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "zetiya": {
+    "selected": "images/markalar/zetiya/zetiya-bottle-01-artboard-4.webp",
+    "selectedScore": 25,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/zetiya/zetiya-bottle-01-artboard-4.webp",
+        "score": 25,
+        "size": [
+          720,
+          900
+        ],
+        "ratio": 0.8,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/zetiya/zetiya-bottle-02-artboard-2.webp",
+        "score": 25,
+        "size": [
+          720,
+          900
+        ],
+        "ratio": 0.8,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zetiya/zetiya-bottle-03-site-slayt.webp",
+        "score": -28,
+        "size": [
+          1100,
+          628
+        ],
+        "ratio": 1.752,
+        "preferred": false
+      }
+    ]
+  },
+  "eceden-sofraniza": {
+    "selected": "images/markalar/eceden-sofraniza/eceden-sofraniza-bottle-03-18-litre.jpg",
+    "selectedScore": 15,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/eceden-sofraniza/eceden-sofraniza-bottle-03-18-litre.jpg",
+        "score": 15,
+        "size": [
+          864,
+          1184
+        ],
+        "ratio": 0.73,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/eceden-sofraniza/eceden-sofraniza-bottle-02-teneke-2.png",
+        "score": 0,
+        "size": [
+          2528,
+          1696
+        ],
+        "ratio": 1.491,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/eceden-sofraniza/eceden-sofraniza-bottle-01-teneke-1.png",
+        "score": 0,
+        "size": [
+          2848,
+          1504
+        ],
+        "ratio": 1.894,
+        "preferred": false
+      }
+    ]
+  },
+  "uygur-zeytinyagi": {
+    "selected": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-bottle-01-5lt.png",
+    "selectedScore": 38,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-bottle-01-5lt.png",
+        "score": 38,
+        "size": [
+          356,
+          449
+        ],
+        "ratio": 0.793,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-bottle-02-10lt.png",
+        "score": 32,
+        "size": [
+          414,
+          444
+        ],
+        "ratio": 0.932,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-bottle-03-18lt.png",
+        "score": 26,
+        "size": [
+          411,
+          445
+        ],
+        "ratio": 0.924,
+        "preferred": false
+      }
+    ]
+  },
+  "yalim-zeytin-yaglari": {
+    "selected": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-bottle-01-500.jpg",
+    "selectedScore": 21,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-bottle-01-500.jpg",
+        "score": 21,
+        "size": [
+          861,
+          928
+        ],
+        "ratio": 0.928,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-bottle-03-2000.jpg",
+        "score": 23,
+        "size": [
+          861,
+          928
+        ],
+        "ratio": 0.928,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-bottle-02-750.jpg",
+        "score": 21,
+        "size": [
+          861,
+          928
+        ],
+        "ratio": 0.928,
+        "preferred": false
+      }
+    ]
+  },
+  "zeytincir": {
+    "selected": "images/markalar/zeytincir/zeytincir-bottle-02-zeytinyagi-4.jpg",
+    "selectedScore": 12,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/zeytincir/zeytincir-bottle-02-zeytinyagi-4.jpg",
+        "score": 12,
+        "size": [
+          814,
+          464
+        ],
+        "ratio": 1.754,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/zeytincir/zeytincir-bottle-03-zeytinyagi-5.jpg",
+        "score": 12,
+        "size": [
+          809,
+          454
+        ],
+        "ratio": 1.782,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zeytincir/zeytincir-bottle-01-zeytinyagi-7.jpg",
+        "score": 12,
+        "size": [
+          1600,
+          238
+        ],
+        "ratio": 6.723,
+        "preferred": false
+      }
+    ]
+  },
+  "bazilika": {
+    "selected": "images/markalar/bazilika/bazilika-bottle-03-1670480621.png",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/bazilika/bazilika-bottle-03-1670480621.png",
+        "score": 28,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/bazilika/bazilika-bottle-02-1670404910.png",
+        "score": 28,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/bazilika/bazilika-bottle-01-1670481931.png",
+        "score": 28,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "arslan-zeytinyagi": {
+    "selected": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-bottle-02-glass-bottle-1l.png",
+    "selectedScore": 20,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-bottle-02-glass-bottle-1l.png",
+        "score": 20,
+        "size": [
+          6240,
+          4160
+        ],
+        "ratio": 1.5,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-bottle-01-1000-ml-glass-17.png",
+        "score": 27,
+        "size": [
+          6240,
+          4160
+        ],
+        "ratio": 1.5,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-bottle-03-tin-5000ml-17488.png",
+        "score": 16,
+        "size": [
+          6240,
+          4160
+        ],
+        "ratio": 1.5,
+        "preferred": false
+      }
+    ]
+  },
+  "hatay-tadinda": {
+    "selected": "images/markalar/hatay-tadinda/hatay-tadinda-bottle-01-hatay-yoresel-sizma-zeyt.png",
+    "selectedScore": 23,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/hatay-tadinda/hatay-tadinda-bottle-01-hatay-yoresel-sizma-zeyt.png",
+        "score": 23,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/hatay-tadinda/hatay-tadinda-bottle-02-soguk-sikim2.jpg",
+        "score": 21,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/hatay-tadinda/hatay-tadinda-bottle-03-soguk-sikim2-570x570.jpg",
+        "score": 21,
+        "size": [
+          570,
+          570
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "gemtar": {
+    "selected": "images/markalar/gemtar/gemtar-bottle-02-1-5-l-naturel-min.webp",
+    "selectedScore": 14,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/gemtar/gemtar-bottle-02-1-5-l-naturel-min.webp",
+        "score": 14,
+        "size": [
+          160,
+          240
+        ],
+        "ratio": 0.667,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/gemtar/gemtar-bottle-01-1-l-naturel-min.webp",
+        "score": 14,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gemtar/gemtar-bottle-03-5-l-min.webp",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "gemlik-zeytincisi": {
+    "selected": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-bottle-02-1719498177768.jpg",
+    "selectedScore": 21,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-bottle-02-1719498177768.jpg",
+        "score": 21,
+        "size": [
+          1024,
+          1024
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-bottle-01-1719497116290.jpg",
+        "score": 21,
+        "size": [
+          1024,
+          1024
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-bottle-03-1719497116290-80.jpg",
+        "score": 21,
+        "size": [
+          800,
+          800
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "gemlik-zeytin-evi": {
+    "selected": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-bottle-02-natural-sizma-1.jpg",
+    "selectedScore": 26,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-bottle-02-natural-sizma-1.jpg",
+        "score": 26,
+        "size": [
+          700,
+          700
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-bottle-01-5l-natural-700x7.png",
+        "score": 21,
+        "size": [
+          700,
+          700
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-bottle-03-3lupaket-700x700.png",
+        "score": 18,
+        "size": [
+          700,
+          700
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "solive": {
+    "selected": "images/markalar/solive/solive-bottle-01-ilkikisaat-2littr-min.jpg",
+    "selectedScore": 10,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/solive/solive-bottle-01-ilkikisaat-2littr-min.jpg",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/solive/solive-bottle-03-1-min.png",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/solive/solive-bottle-02-2-min.webp",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "yelkenli": {
+    "selected": "images/markalar/yelkenli/yelkenli-bottle-03-500cl-kulplu1-1-300x300.webp",
+    "selectedScore": 10,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/yelkenli/yelkenli-bottle-03-500cl-kulplu1-1-300x300.webp",
+        "score": 10,
+        "size": [
+          300,
+          300
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/yelkenli/yelkenli-bottle-01-2lt-teneke1-1-300x300.webp",
+        "score": 12,
+        "size": [
+          300,
+          300
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/yelkenli/yelkenli-bottle-02-5lt-teneke1-1-300x300.webp",
+        "score": 8,
+        "size": [
+          300,
+          300
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "vivax-olea": {
+    "selected": "images/markalar/vivax-olea/vivax-olea-bottle-02-zeytinyagi-soguksikim-1.jpg",
+    "selectedScore": 25,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/vivax-olea/vivax-olea-bottle-02-zeytinyagi-soguksikim-1.jpg",
+        "score": 25,
+        "size": [
+          360,
+          300
+        ],
+        "ratio": 1.2,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/vivax-olea/vivax-olea-bottle-01-whatsapp-gorsel-2024-12-17-saa.jpg",
+        "score": 4,
+        "size": [
+          360,
+          300
+        ],
+        "ratio": 1.2,
+        "preferred": false
+      }
+    ]
+  },
+  "sarkoy-ciftlik": {
+    "selected": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-bottle-01-image-1080.webp",
+    "selectedScore": 25,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-bottle-01-image-1080.webp",
+        "score": 25,
+        "size": [
+          800,
+          1200
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-bottle-02-dsc04648.webp",
+        "score": 21,
+        "size": [
+          1080,
+          1080
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-bottle-03-edited-image.webp",
+        "score": 21,
+        "size": [
+          1024,
+          1024
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "mutuna": {
+    "selected": "images/markalar/mutuna/mutuna-bottle-03-7c311dce-d7d5-44cd-91dd-844e00bc890b-m.jpg",
+    "selectedScore": 10,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/mutuna/mutuna-bottle-03-7c311dce-d7d5-44cd-91dd-844e00bc890b-m.jpg",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mutuna/mutuna-bottle-02-8f16ee0f-3276-4983-8030-9b21c2d5de36-m.jpg",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mutuna/mutuna-bottle-01-bb3e3234-e507-4ada-ab9f-0942630cf708-m.jpg",
+        "score": 10,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "mutili": {
+    "selected": "images/markalar/mutili/mutili-bottle-01-750ml-2-600x494-1.webp",
+    "selectedScore": 19,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/mutili/mutili-bottle-01-750ml-2-600x494-1.webp",
+        "score": 19,
+        "size": [
+          600,
+          494
+        ],
+        "ratio": 1.215,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mutili/mutili-bottle-02-soguk-sikim-sise.webp",
+        "score": 15,
+        "size": [
+          600,
+          494
+        ],
+        "ratio": 1.215,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mutili/mutili-bottle-03-5-lt-teneke-birinci-naturel.webp",
+        "score": 14,
+        "size": [
+          600,
+          494
+        ],
+        "ratio": 1.215,
+        "preferred": false
+      }
+    ]
+  },
+  "mut-incisi": {
+    "selected": "images/markalar/mut-incisi/mut-incisi-bottle-03-69a5cb091c0de-1772473097.jpg",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/mut-incisi/mut-incisi-bottle-03-69a5cb091c0de-1772473097.jpg",
+        "score": 28,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mut-incisi/mut-incisi-bottle-02-69a5cb0a205df-1772473098.jpg",
+        "score": 28,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mut-incisi/mut-incisi-bottle-01-69a5cb0a0f05b-1772473098.jpg",
+        "score": 28,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "zeytinyagi-evi": {
+    "selected": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-bottle-03-domat-naturel-sizma-ze.jpg",
+    "selectedScore": 45,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-bottle-03-domat-naturel-sizma-ze.jpg",
+        "score": 45,
+        "size": [
+          360,
+          360
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-bottle-01-filtresiz-naturel-sizm.png",
+        "score": 40,
+        "size": [
+          360,
+          360
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-bottle-02-filtresiz-naturel-sizm.jpg",
+        "score": 36,
+        "size": [
+          240,
+          360
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "sazak-zeytincilik": {
+    "selected": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-bottle-02-sizma111-min.webp",
+    "selectedScore": 15,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-bottle-02-sizma111-min.webp",
+        "score": 15,
+        "size": [
+          200,
+          300
+        ],
+        "ratio": 0.667,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-bottle-03-erkenhasat5lt1-m.webp",
+        "score": 15,
+        "size": [
+          200,
+          300
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-bottle-01-18lt-mut-zeytiny.webp",
+        "score": 4,
+        "size": [
+          240,
+          300
+        ],
+        "ratio": 0.8,
+        "preferred": false
+      }
+    ]
+  },
+  "adrasos": {
+    "selected": "images/markalar/adrasos/adrasos-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+    "selectedScore": 44,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/adrasos/adrasos-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
+        "score": 44,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/adrasos/adrasos-bottle-03-erken-hasat-sizma-zeytinyagi.jpg",
+        "score": 40,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/adrasos/adrasos-bottle-01-erken-hasat-sizma-zeytinyagi.webp",
+        "score": 40,
+        "size": [
+          240,
+          240
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "mutolea": {
+    "selected": "images/markalar/mutolea/mutolea-bottle-03-500x500-thumb-mut-00070.png",
+    "selectedScore": 18,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/mutolea/mutolea-bottle-03-500x500-thumb-mut-00070.png",
+        "score": 18,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mutolea/mutolea-bottle-02-500x500-thumb-mut-00074.png",
+        "score": 18,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/mutolea/mutolea-bottle-01-500x500-thumb-mut-00078.png",
+        "score": 18,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "palamidas": {
+    "selected": "images/markalar/palamidas/palamidas-bottle-03-500-ml-organik-naturel-sizma-zey.webp",
+    "selectedScore": 46,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/palamidas/palamidas-bottle-03-500-ml-organik-naturel-sizma-zey.webp",
+        "score": 46,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/palamidas/palamidas-bottle-01-5-lt-tnk-soguk-sikim-naturel-siz.webp",
+        "score": 27,
+        "size": [
+          600,
+          800
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/palamidas/palamidas-bottle-02-3-lt-tnk-ozel-harman-soguk-sikim.webp",
+        "score": 25,
+        "size": [
+          600,
+          800
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      }
+    ]
+  },
+  "oro-di-milas": {
+    "selected": "images/markalar/oro-di-milas/oro-di-milas-bottle-02-pic-site-11.avif",
+    "selectedScore": 25,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/oro-di-milas/oro-di-milas-bottle-02-pic-site-11.avif",
+        "score": 25,
+        "size": [
+          537,
+          1058
+        ],
+        "ratio": 0.508,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/oro-di-milas/oro-di-milas-bottle-01-1ab336-68345a0a5b164210800.png",
+        "score": 22,
+        "size": [
+          354,
+          704
+        ],
+        "ratio": 0.503,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oro-di-milas/oro-di-milas-bottle-03-pic-site-12.avif",
+        "score": 12,
+        "size": [
+          537,
+          494
+        ],
+        "ratio": 1.087,
+        "preferred": false
+      }
+    ]
+  },
+  "velvet": {
+    "selected": "images/markalar/velvet/velvet-bottle-01-734c68-0fba80ce35dc40f98003ed60b443560.png",
+    "selectedScore": -6,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/velvet/velvet-bottle-01-734c68-0fba80ce35dc40f98003ed60b443560.png",
+        "score": -6,
+        "size": [
+          800,
+          480
+        ],
+        "ratio": 1.667,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/velvet/velvet-bottle-03-734c68-026eaf53169d46c4b153c7b9a344b9a.png",
+        "score": -3,
+        "size": [
+          2000,
+          737
+        ],
+        "ratio": 2.714,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/velvet/velvet-bottle-02-734c68-f5d2db7079974440bbfbfc8b3d6ecf3.png",
+        "score": -6,
+        "size": [
+          1200,
+          405
+        ],
+        "ratio": 2.963,
+        "preferred": false
+      }
+    ]
+  },
+  "masmana": {
+    "selected": "images/markalar/masmana/masmana-bottle-01-whatsapp-image-2025-11-17-at-1-28-59.webp",
+    "selectedScore": 21,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/masmana/masmana-bottle-01-whatsapp-image-2025-11-17-at-1-28-59.webp",
+        "score": 21,
+        "size": [
+          718,
+          842
+        ],
+        "ratio": 0.853,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/masmana/masmana-bottle-02-3-efc07da6-aec5-4932-a3ae-c9a0ceacfe.webp",
+        "score": 22,
+        "size": [
+          600,
+          800
+        ],
+        "ratio": 0.75,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/masmana/masmana-bottle-03-3-8ab9723e-68bf-49fb-a9d3-2291206b20.webp",
+        "score": -6,
+        "size": [
+          800,
+          534
+        ],
+        "ratio": 1.498,
+        "preferred": false
+      }
+    ]
+  },
+  "josevia": {
+    "selected": "images/markalar/josevia/josevia-bottle-02-70f64e-5a67b737260245e5909e3ad6e3c60.jpg",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/josevia/josevia-bottle-02-70f64e-5a67b737260245e5909e3ad6e3c60.jpg",
+        "score": 28,
+        "size": [
+          4308,
+          6462
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/josevia/josevia-bottle-03-70f64e-da8f9bec6b9840eaaa0a22ddd40ef.jpg",
+        "score": 28,
+        "size": [
+          3867,
+          5800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/josevia/josevia-bottle-01-70f64e-c85adf39ecb14dd19e34b0133a4de.jpg",
+        "score": 25,
+        "size": [
+          800,
+          1200
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "efsus": {
+    "selected": "images/markalar/efsus/efsus-bottle-03-35.webp",
+    "selectedScore": 18,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/efsus/efsus-bottle-03-35.webp",
+        "score": 18,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/efsus/efsus-bottle-02-21.webp",
+        "score": 18,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/efsus/efsus-bottle-01-16.webp",
+        "score": 18,
+        "size": [
+          600,
+          600
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "guven-asa": {
+    "selected": "images/markalar/guven-asa/guven-asa-bottle-01-erken-hasat-soguk-sikim-zeytinya.webp",
+    "selectedScore": 31,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/guven-asa/guven-asa-bottle-01-erken-hasat-soguk-sikim-zeytinya.webp",
+        "score": 31,
+        "size": [
+          800,
+          800
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/guven-asa/guven-asa-bottle-03-naturel-sizma-zeytinyagi-5-l-ten.webp",
+        "score": 51,
+        "size": [
+          2000,
+          2000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/guven-asa/guven-asa-bottle-02-erken-hasat-soguk-sikim-zeytinya.webp",
+        "score": 31,
+        "size": [
+          800,
+          800
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "zenolive": {
+    "selected": "images/markalar/zenolive/zenolive-bottle-01-750ml-bottle.webp",
+    "selectedScore": 28,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/zenolive/zenolive-bottle-01-750ml-bottle.webp",
+        "score": 28,
+        "size": [
+          960,
+          960
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/zenolive/zenolive-bottle-02-5l-bottle.webp",
+        "score": 21,
+        "size": [
+          960,
+          960
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/zenolive/zenolive-bottle-03-p1000364-1024x769.webp",
+        "score": 10,
+        "size": [
+          1024,
+          769
+        ],
+        "ratio": 1.332,
+        "preferred": false
+      }
+    ]
+  },
+  "kozoliv": {
+    "selected": "images/markalar/kozoliv/kozoliv-bottle-03-2025-26-yeni-sezon-erken-hasat-soguk.webp",
+    "selectedScore": 31,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/kozoliv/kozoliv-bottle-03-2025-26-yeni-sezon-erken-hasat-soguk.webp",
+        "score": 31,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kozoliv/kozoliv-bottle-02-2025-26-yeni-sezon-erken-hasat-soguk.webp",
+        "score": 31,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kozoliv/kozoliv-bottle-01-2025-26-yeni-sezon-erken-hasat-soguk.webp",
+        "score": 31,
+        "size": [
+          1000,
+          1000
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "milasso": {
+    "selected": "images/markalar/milasso/milasso-bottle-01-ultra-premium-zeytinyagi-500.jpg",
+    "selectedScore": 41,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/milasso/milasso-bottle-01-ultra-premium-zeytinyagi-500.jpg",
+        "score": 41,
+        "size": [
+          720,
+          720
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/milasso/milasso-bottle-02-premium-zeytinyagi-5lt-tenek.jpg",
+        "score": 39,
+        "size": [
+          720,
+          720
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/milasso/milasso-bottle-03-ultra-premium-hediyelik-set-1-l.jpg",
+        "score": 15,
+        "size": [
+          720,
+          720
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "oliella": {
+    "selected": "images/markalar/oliella/oliella-bottle-02-9f2182-15f94cbcbaa64a139b91630f909a4.jpg",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/oliella/oliella-bottle-02-9f2182-15f94cbcbaa64a139b91630f909a4.jpg",
+        "score": 28,
+        "size": [
+          4167,
+          5208
+        ],
+        "ratio": 0.8,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oliella/oliella-bottle-01-9f2182-8c7a89f67f9b40fa9accecee13927.jpg",
+        "score": 28,
+        "size": [
+          4167,
+          5208
+        ],
+        "ratio": 0.8,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/oliella/oliella-bottle-03-9f2182-9c55ec0edda1494e80a793bd1f7c1.jpg",
+        "score": 28,
+        "size": [
+          1200,
+          1800
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      }
+    ]
+  },
+  "seosfarm": {
+    "selected": "images/markalar/seosfarm/seosfarm-bottle-02-sizma-toplu.jpg",
+    "selectedScore": -20,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/seosfarm/seosfarm-bottle-02-sizma-toplu.jpg",
+        "score": -20,
+        "size": [
+          1200,
+          800
+        ],
+        "ratio": 1.5,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/seosfarm/seosfarm-bottle-03-delice-toplu-900x600.jpg",
+        "score": -25,
+        "size": [
+          900,
+          600
+        ],
+        "ratio": 1.5,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/seosfarm/seosfarm-bottle-01-ozelseri-toplu-900x600.jpg",
+        "score": -25,
+        "size": [
+          900,
+          600
+        ],
+        "ratio": 1.5,
+        "preferred": false
+      }
+    ]
+  },
+  "seferis": {
+    "selected": "images/markalar/seferis/seferis-bottle-01-zeytinyaglari.jpg",
+    "selectedScore": 7,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/seferis/seferis-bottle-01-zeytinyaglari.jpg",
+        "score": 7,
+        "size": [
+          314,
+          235
+        ],
+        "ratio": 1.336,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/seferis/seferis-bottle-02-seferis.png",
+        "score": -6,
+        "size": [
+          930,
+          323
+        ],
+        "ratio": 2.879,
+        "preferred": false
+      }
+    ]
+  },
+  "kucukbahce": {
+    "selected": "images/markalar/kucukbahce/kucukbahce-bottle-02-500-1000-sise.png",
+    "selectedScore": 15,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/kucukbahce/kucukbahce-bottle-02-500-1000-sise.png",
+        "score": 15,
+        "size": [
+          780,
+          700
+        ],
+        "ratio": 1.114,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/kucukbahce/kucukbahce-bottle-03-5l-teneke-urun.png",
+        "score": 15,
+        "size": [
+          780,
+          700
+        ],
+        "ratio": 1.114,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kucukbahce/kucukbahce-bottle-01-1l-slider-1.png",
+        "score": -22,
+        "size": [
+          345,
+          1374
+        ],
+        "ratio": 0.251,
+        "preferred": false
+      }
+    ]
+  },
+  "buzey": {
+    "selected": "images/markalar/buzey/buzey-bottle-01-750-ml-naturel-sizma-cam-sise-2-1.webp",
+    "selectedScore": 39,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/buzey/buzey-bottle-01-750-ml-naturel-sizma-cam-sise-2-1.webp",
+        "score": 39,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/buzey/buzey-bottle-02-soguk-sikim-tas-baski-3lt-1.webp",
+        "score": 24,
+        "size": [
+          1200,
+          1200
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "kege-food": {
+    "selected": "images/markalar/kege-food/kege-food-bottle-01-b329ca-33e98ae6f5154778b1cb001b1.jpg",
+    "selectedScore": 28,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/kege-food/kege-food-bottle-01-b329ca-33e98ae6f5154778b1cb001b1.jpg",
+        "score": 28,
+        "size": [
+          4301,
+          6445
+        ],
+        "ratio": 0.667,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kege-food/kege-food-bottle-03-b329ca-44f34c7ed38a47028baa3a1fb.jpg",
+        "score": 13,
+        "size": [
+          4652,
+          3264
+        ],
+        "ratio": 1.425,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kege-food/kege-food-bottle-02-b329ca-303f1a15b265458e91b3f3e4f.jpg",
+        "score": 0,
+        "size": [
+          7192,
+          4800
+        ],
+        "ratio": 1.498,
+        "preferred": false
+      }
+    ]
+  },
+  "pazarbasilar": {
+    "selected": "images/markalar/pazarbasilar/pazarbasilar-bottle-01-mit-olive-page-2-500x500w.jpg",
+    "selectedScore": 18,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/pazarbasilar/pazarbasilar-bottle-01-mit-olive-page-2-500x500w.jpg",
+        "score": 18,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/pazarbasilar/pazarbasilar-bottle-03-y3-500x500w.jpg",
+        "score": 18,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/pazarbasilar/pazarbasilar-bottle-02-y4-500x500w.jpg",
+        "score": 18,
+        "size": [
+          500,
+          500
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "kirte": {
+    "selected": "images/markalar/kirte/kirte-bottle-03-delicesise-331x450.png",
+    "selectedScore": 22,
+    "manualOverride": true,
+    "options": [
+      {
+        "path": "images/markalar/kirte/kirte-bottle-03-delicesise-331x450.png",
+        "score": 22,
+        "size": [
+          331,
+          450
+        ],
+        "ratio": 0.736,
+        "preferred": true
+      },
+      {
+        "path": "images/markalar/kirte/kirte-bottle-01-1000ml.jpg",
+        "score": 31,
+        "size": [
+          1563,
+          1563
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/kirte/kirte-bottle-02-3000-ml.jpg",
+        "score": 24,
+        "size": [
+          1563,
+          1563
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  },
+  "anafortis": {
+    "selected": "images/markalar/anafortis/anafortis-bottle-01-natural-sizma-zeytin-yagi-7b.jpg",
+    "selectedScore": 25,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/anafortis/anafortis-bottle-01-natural-sizma-zeytin-yagi-7b.jpg",
+        "score": 25,
+        "size": [
+          574,
+          409
+        ],
+        "ratio": 1.403,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/anafortis/anafortis-bottle-03-zeytin-yagi-11.jpg",
+        "score": 10,
+        "size": [
+          2200,
+          988
+        ],
+        "ratio": 2.227,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/anafortis/anafortis-bottle-02-ozel-kutusunda-500-ml-erken-hasa.jpg",
+        "score": 10,
+        "size": [
+          574,
+          409
+        ],
+        "ratio": 1.403,
+        "preferred": false
+      }
+    ]
+  },
+  "datcam": {
+    "selected": "images/markalar/datcam/datcam-bottle-01-premium-soguk-sikim-zeytinyagi-5-lt-mi.jpg",
+    "selectedScore": 41,
+    "manualOverride": false,
+    "options": [
+      {
+        "path": "images/markalar/datcam/datcam-bottle-01-premium-soguk-sikim-zeytinyagi-5-lt-mi.jpg",
+        "score": 41,
+        "size": [
+          360,
+          360
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/datcam/datcam-bottle-03-zey001-034-min.webp",
+        "score": 20,
+        "size": [
+          360,
+          360
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      },
+      {
+        "path": "images/markalar/datcam/datcam-bottle-02-zey001-031-min.webp",
+        "score": 20,
+        "size": [
+          360,
+          360
+        ],
+        "ratio": 1.0,
+        "preferred": false
+      }
+    ]
+  }
+}

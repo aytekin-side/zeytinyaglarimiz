@@ -863,6 +863,51 @@ a:hover { color: var(--olive-dark); }
     gap: 20px;
     margin-bottom: 20px;
 }
+.brand-region-map-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+.brand-region-map-card {
+    padding: 20px;
+    border-radius: 24px;
+    background: rgba(255,255,255,0.84);
+    border: 1px solid rgba(74,103,65,0.12);
+    box-shadow: 0 14px 28px rgba(44,62,45,0.08);
+}
+.brand-region-map-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+.brand-region-map-eyebrow {
+    display: inline-flex;
+    margin-bottom: 6px;
+    color: var(--text-light);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.brand-region-map-head h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    color: var(--olive-dark);
+}
+.brand-region-map-head h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+.brand-region-map-head h3 a:hover {
+    color: var(--olive);
+}
+.brand-region-map-copy {
+    margin: 0 0 14px;
+    color: var(--text-light);
+    font-size: 0.94rem;
+}
 .brand-map-copy h2 {
     font-size: 2rem;
     color: var(--olive-dark);
@@ -877,14 +922,6 @@ a:hover { color: var(--olive-dark); }
     align-items: center;
     justify-content: flex-end;
     min-width: 220px;
-}
-.brand-map-toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    flex-wrap: wrap;
-    margin-bottom: 18px;
 }
 .brand-map-filters,
 .brand-map-stats {
@@ -937,6 +974,9 @@ a:hover { color: var(--olive-dark); }
     overflow: hidden;
     border: 1px solid rgba(74,103,65,0.14);
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+.brand-map-canvas-region {
+    height: 340px;
 }
 .brand-map-note {
     margin-top: 14px;
@@ -2419,6 +2459,9 @@ footer .copyright {
         min-width: 0;
         justify-content: flex-start;
     }
+    .brand-region-map-grid {
+        grid-template-columns: 1fr;
+    }
     .region-hub-links {
         grid-template-columns: 1fr;
     }
@@ -2496,11 +2539,21 @@ footer .copyright {
         padding: 22px;
         border-radius: 24px;
     }
+    .brand-region-map-card {
+        padding: 18px;
+        border-radius: 20px;
+    }
+    .brand-region-map-head {
+        flex-direction: column;
+    }
     .brand-map-copy h2 {
         font-size: 1.6rem;
     }
     .brand-map-canvas {
         height: 620px;
+    }
+    .brand-map-canvas-region {
+        height: 320px;
     }
     .brand-map-filter,
     .brand-map-stat {
@@ -2546,8 +2599,8 @@ footer .copyright {
     .brand-map-canvas {
         height: 520px;
     }
-    .brand-map-toolbar {
-        align-items: flex-start;
+    .brand-map-canvas-region {
+        height: 280px;
     }
     .brand-map-pin-badge {
         width: 38px;

@@ -65,20 +65,83 @@
     <div class="brand-map-shell">
         <div class="brand-map-header">
             <div class="brand-map-copy">
-                <span class="topic-label">Türkiye Haritası</span>
-                <h2>Zeytinyağı Markalarının Konumları</h2>
-                <p>Markaları Türkiye haritası üzerinde küçük işaretlerle görün. Kamuya açık resmi adres bulunabilen kayıtlar doğrudan işaretlenir; kalan üreticiler için üretim veya merkez bölgesi kullanılır.</p>
+                <span class="topic-label">Bölge Haritaları</span>
+                <h2>Her Bölge İçin Ayrı Harita</h2>
+                <p>Markaları tek büyük harita yerine bölge bazında ayrı haritalarda görün. Her kart yalnızca kendi üretim havzasındaki üreticileri gösterir; kamuya açık tam adres bulunan kayıtlar altın tonla, bölge merkezi kullanılan kayıtlar yeşil tonla işaretlenir.</p>
             </div>
             <div class="brand-map-actions">
                 <a class="topic-link" href="data/brand-locations.json" target="_blank" rel="noopener">Adres veritabanını aç</a>
             </div>
         </div>
-        <div class="brand-map-toolbar">
-            <div class="brand-map-filters" id="brandMapFilters" aria-label="Harita filtreleri"></div>
-            <div class="brand-map-stats" id="brandMapStats" aria-live="polite"></div>
+        <div class="brand-region-map-grid">
+            <article class="brand-region-map-card fade-up">
+                <div class="brand-region-map-head">
+                    <div>
+                        <span class="brand-region-map-eyebrow">Ege Bölgesi</span>
+                        <h3><a href="topic/bolgeler/ege.html">Ege Bölgesi</a></h3>
+                    </div>
+                    <div class="brand-map-stats" id="brandMapStats-ege" aria-live="polite"></div>
+                </div>
+                <p class="brand-region-map-copy">İzmir, Aydın, Muğla, Manisa ve Balıkesir hattındaki yoğun üretimi tek haritada görün.</p>
+                <div id="brandMap-ege" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Ege Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
+            </article>
+            <article class="brand-region-map-card fade-up">
+                <div class="brand-region-map-head">
+                    <div>
+                        <span class="brand-region-map-eyebrow">Marmara Bölgesi</span>
+                        <h3><a href="topic/bolgeler/marmara.html">Marmara Bölgesi</a></h3>
+                    </div>
+                    <div class="brand-map-stats" id="brandMapStats-marmara" aria-live="polite"></div>
+                </div>
+                <p class="brand-region-map-copy">Gemlik, Mudanya, Trilye ve çevresindeki üreticileri Marmara ölçeğinde inceleyin.</p>
+                <div id="brandMap-marmara" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Marmara Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
+            </article>
+            <article class="brand-region-map-card fade-up">
+                <div class="brand-region-map-head">
+                    <div>
+                        <span class="brand-region-map-eyebrow">Akdeniz Bölgesi</span>
+                        <h3><a href="topic/bolgeler/akdeniz.html">Akdeniz Bölgesi</a></h3>
+                    </div>
+                    <div class="brand-map-stats" id="brandMapStats-akdeniz" aria-live="polite"></div>
+                </div>
+                <p class="brand-region-map-copy">Hatay, Mersin ve Antalya hattındaki üreticiler ayrı bir Akdeniz haritasında yer alır.</p>
+                <div id="brandMap-akdeniz" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Akdeniz Bölgesi üzerindeki zeytinyağı markaları haritası"></div>
+            </article>
+            <article class="brand-region-map-card fade-up">
+                <div class="brand-region-map-head">
+                    <div>
+                        <span class="brand-region-map-eyebrow">Güneydoğu Anadolu</span>
+                        <h3><a href="topic/bolgeler/guneydogu.html">Güneydoğu Anadolu</a></h3>
+                    </div>
+                    <div class="brand-map-stats" id="brandMapStats-guneydogu" aria-live="polite"></div>
+                </div>
+                <p class="brand-region-map-copy">Kilis, Gaziantep, Şanlıurfa ve Mardin hattındaki zeytinyağlarını tek bölgede görün.</p>
+                <div id="brandMap-guneydogu" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Güneydoğu Anadolu üzerindeki zeytinyağı markaları haritası"></div>
+            </article>
+            <article class="brand-region-map-card fade-up">
+                <div class="brand-region-map-head">
+                    <div>
+                        <span class="brand-region-map-eyebrow">Trakya</span>
+                        <h3><a href="topic/bolgeler/trakya.html">Trakya</a></h3>
+                    </div>
+                    <div class="brand-map-stats" id="brandMapStats-trakya" aria-live="polite"></div>
+                </div>
+                <p class="brand-region-map-copy">Tekirdağ, Edirne ve Kırklareli çevresindeki sınırlı ama büyüyen üretim alanlarını görün.</p>
+                <div id="brandMap-trakya" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Trakya üzerindeki zeytinyağı markaları haritası"></div>
+            </article>
+            <article class="brand-region-map-card fade-up">
+                <div class="brand-region-map-head">
+                    <div>
+                        <span class="brand-region-map-eyebrow">Türkiye Geneli</span>
+                        <h3><a href="topic/bolgeler/turkiye.html">Türkiye Geneli</a></h3>
+                    </div>
+                    <div class="brand-map-stats" id="brandMapStats-turkiye" aria-live="polite"></div>
+                </div>
+                <p class="brand-region-map-copy">Belirli bir ana havzaya bağlı olmayan veya ülke geneli konumlanan kayıtları ayrı görün.</p>
+                <div id="brandMap-turkiye" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Türkiye geneli zeytinyağı markaları haritası"></div>
+            </article>
         </div>
-        <div id="brandMap" class="brand-map-canvas" role="img" aria-label="Türkiye üzerindeki zeytinyağı markaları haritası"></div>
-        <p class="brand-map-note">Haritadaki küçük yuvarlaklara tıklayarak ismi, adres bilgisi ve sayfa bağlantısını açabilirsiniz. Altın tonlu noktalar tam adresli kayıtları, yeşil tonlu noktalar ise kamuya açık bölge merkezi kullanılan kayıtları gösterir.</p>
+        <p class="brand-map-note">Haritadaki küçük yuvarlaklara tıklayarak isim, adres bilgisi ve marka sayfası bağlantısını açabilirsiniz. Aynı koordinata düşen üreticiler küçük bir halka halinde ayrılır.</p>
     </div>
 </section>
 
@@ -323,24 +386,14 @@ function populateRegionHubLinks() {
     }
 }
 
-function getMapFilterConfig(records) {
-    const base = [
-        { key: 'all', label: 'Tümü' },
-        { key: 'ege', label: 'Ege' },
-        { key: 'marmara', label: 'Marmara' },
-        { key: 'akdeniz', label: 'Akdeniz' },
-        { key: 'guneydogu', label: 'Güneydoğu' },
-        { key: 'trakya', label: 'Trakya' },
-        { key: 'turkiye', label: 'Türkiye Geneli' }
-    ];
-
-    const counts = records.reduce((acc, record) => {
-        acc[record.regionCluster] = (acc[record.regionCluster] || 0) + 1;
-        return acc;
-    }, {});
-
-    return base.filter((item) => item.key === 'all' || counts[item.key]);
-}
+const regionMapConfig = [
+    { key: 'ege', label: 'Ege Bölgesi', href: 'topic/bolgeler/ege.html', minZoom: 6, maxZoom: 8 },
+    { key: 'marmara', label: 'Marmara Bölgesi', href: 'topic/bolgeler/marmara.html', minZoom: 7, maxZoom: 9 },
+    { key: 'akdeniz', label: 'Akdeniz Bölgesi', href: 'topic/bolgeler/akdeniz.html', minZoom: 6, maxZoom: 8 },
+    { key: 'guneydogu', label: 'Güneydoğu Anadolu', href: 'topic/bolgeler/guneydogu.html', minZoom: 6, maxZoom: 8 },
+    { key: 'trakya', label: 'Trakya', href: 'topic/bolgeler/trakya.html', minZoom: 7, maxZoom: 9 },
+    { key: 'turkiye', label: 'Türkiye Geneli', href: 'topic/bolgeler/turkiye.html', minZoom: 5, maxZoom: 7 }
+];
 
 function createBrandPopup(record) {
     const brandUrl = `marka/${encodeURIComponent(record.slug)}.html`;
@@ -480,12 +533,25 @@ function updateBrandMapStats(records, statsElement) {
     ].join('');
 }
 
-async function initializeBrandMap() {
-    const mapElement = document.getElementById('brandMap');
-    const filtersElement = document.getElementById('brandMapFilters');
-    const statsElement = document.getElementById('brandMapStats');
+function fitRegionMap(map, visibleRecords, placements, maxZoom) {
+    if (!visibleRecords.length) return;
 
-    if (!mapElement || typeof L === 'undefined') return;
+    if (visibleRecords.length === 1) {
+        const record = visibleRecords[0];
+        const latLng = placements.get(record.id) || L.latLng(record.lat, record.lng);
+        map.setView(latLng, maxZoom);
+        return;
+    }
+
+    const bounds = visibleRecords.map((record) => {
+        const latLng = placements.get(record.id) || L.latLng(record.lat, record.lng);
+        return [latLng.lat, latLng.lng];
+    });
+    map.fitBounds(L.latLngBounds(bounds).pad(0.2), { maxZoom });
+}
+
+async function initializeRegionMaps() {
+    if (typeof L === 'undefined') return;
 
     try {
         const response = await fetch('data/brand-locations.json');
@@ -494,79 +560,49 @@ async function initializeBrandMap() {
         const records = Array.isArray(payload.records) ? payload.records : [];
         if (!records.length) throw new Error('Harita verisi boş.');
 
-        const map = L.map(mapElement, {
-            zoomControl: true,
-            minZoom: 5,
-            maxZoom: 9,
-            maxBounds: [
-                [35.2, 24.8],
-                [42.8, 45.6]
-            ],
-            maxBoundsViscosity: 0.85
-        });
+        regionMapConfig.forEach((config) => {
+            const mapElement = document.getElementById(`brandMap-${config.key}`);
+            const statsElement = document.getElementById(`brandMapStats-${config.key}`);
+            if (!mapElement || !statsElement) return;
 
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; OpenStreetMap katkıcıları'
-        }).addTo(map);
+            const regionRecords = records.filter((record) => record.regionCluster === config.key);
+            updateBrandMapStats(regionRecords, statsElement);
 
-        const markerLayer = L.layerGroup().addTo(map);
-        const filterConfig = getMapFilterConfig(records);
-        let activeFilter = 'all';
+            if (!regionRecords.length) {
+                mapElement.innerHTML = '<div class="brand-map-fallback"><strong>Bu bölgede kayıt bulunamadı.</strong></div>';
+                return;
+            }
 
-        function getVisibleRecords() {
-            if (activeFilter === 'all') return records;
-            return records.filter((record) => record.regionCluster === activeFilter);
-        }
-
-        function renderFilters() {
-            const counts = records.reduce((acc, record) => {
-                acc[record.regionCluster] = (acc[record.regionCluster] || 0) + 1;
-                return acc;
-            }, {});
-
-            filtersElement.innerHTML = filterConfig.map((item) => {
-                const count = item.key === 'all' ? records.length : (counts[item.key] || 0);
-                const activeClass = item.key === activeFilter ? 'active' : '';
-                return `<button class="brand-map-filter ${activeClass}" type="button" data-filter="${item.key}">${item.label} <span>${count}</span></button>`;
-            }).join('');
-
-            filtersElement.querySelectorAll('[data-filter]').forEach((button) => {
-                button.addEventListener('click', () => {
-                    activeFilter = button.dataset.filter;
-                    renderFilters();
-                    renderMarkers();
-                });
+            const map = L.map(mapElement, {
+                zoomControl: true,
+                scrollWheelZoom: false,
+                minZoom: config.minZoom,
+                maxZoom: config.maxZoom,
+                attributionControl: false
             });
-        }
 
-        function renderMarkers() {
-            markerLayer.clearLayers();
-            const visibleRecords = getVisibleRecords();
-            updateBrandMapStats(visibleRecords, statsElement);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; OpenStreetMap katkıcıları'
+            }).addTo(map);
 
-            if (!visibleRecords.length) return;
-            const bounds = [];
-            const placements = distributeCoincidentMarkers(visibleRecords);
+            const markerLayer = L.layerGroup().addTo(map);
+            const placements = distributeCoincidentMarkers(regionRecords);
 
-            visibleRecords.forEach((record) => {
+            regionRecords.forEach((record) => {
                 const latLng = placements.get(record.id) || L.latLng(record.lat, record.lng);
-                bounds.push([latLng.lat, latLng.lng]);
                 createBrandMapMarker(record, latLng).addTo(markerLayer);
             });
 
-            if (bounds.length) {
-                const latLngBounds = L.latLngBounds(bounds);
-                map.fitBounds(latLngBounds.pad(activeFilter === 'all' ? 0.16 : 0.22), {
-                    maxZoom: activeFilter === 'all' ? 6 : 7
-                });
-            }
-        }
-
-        renderFilters();
-        renderMarkers();
+            fitRegionMap(map, regionRecords, placements, config.maxZoom);
+        });
     } catch (error) {
-        mapElement.innerHTML = `<div class="brand-map-fallback"><strong>Harita yüklenemedi.</strong><span>${escapeHtml(error.message)}</span></div>`;
+        regionMapConfig.forEach((config) => {
+            const mapElement = document.getElementById(`brandMap-${config.key}`);
+            if (mapElement) {
+                mapElement.innerHTML = `<div class="brand-map-fallback"><strong>Harita yüklenemedi.</strong><span>${escapeHtml(error.message)}</span></div>`;
+            }
+        });
     }
 }
 
@@ -580,7 +616,7 @@ const observer = new IntersectionObserver((entries) => {
 document.addEventListener('DOMContentLoaded', () => {
     populateRegionHubLinks();
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
-    initializeBrandMap();
+    initializeRegionMaps();
 });
 </script>
 
