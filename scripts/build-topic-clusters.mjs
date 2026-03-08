@@ -93,9 +93,9 @@ function nav(prefix, topicActive = false) {
         <ul class="nav-links">
             <li><a href="${prefix}markalar.html">Zeytinyağları</a></li>
             <li><a href="${prefix}topic/index.html" class="${topicActive ? 'active' : ''}">Zeytinyağı Çeşitleri</a></li>
+            <li><a href="${prefix}bolgeler.html">Bölgeler</a></li>
             <li><a href="${prefix}kalite-rehberi.html">Zeytinyağı Kalitesi</a></li>
             <li><a href="${prefix}rehber/index.html">Rehber</a></li>
-            <li><a href="${prefix}bolgeler.html">Bölgeler</a></li>
         </ul>
         <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
             <span></span><span></span><span></span>
@@ -108,9 +108,9 @@ function nav(prefix, topicActive = false) {
     </button>
     <a href="${prefix}markalar.html">Zeytinyağları</a>
     <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
+    <a href="${prefix}bolgeler.html">Bölgeler</a>
     <a href="${prefix}kalite-rehberi.html">Zeytinyağı Kalitesi</a>
     <a href="${prefix}rehber/index.html">Rehber</a>
-    <a href="${prefix}bolgeler.html">Bölgeler</a>
 </div>`;
 }
 

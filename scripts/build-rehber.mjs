@@ -475,9 +475,9 @@ function nav(prefix, active = 'rehber') {
         <ul class="nav-links">
             <li><a href="${prefix}markalar.html" class="${active === 'markalar' ? 'active' : ''}">Zeytinyağları</a></li>
             <li><a href="${prefix}topic/index.html" class="${active === 'topic' ? 'active' : ''}">Zeytinyağı Çeşitleri</a></li>
+            <li><a href="${prefix}bolgeler.html" class="${active === 'bolgeler' ? 'active' : ''}">Bölgeler</a></li>
             <li><a href="${prefix}kalite-rehberi.html" class="${active === 'kalite' ? 'active' : ''}">Zeytinyağı Kalitesi</a></li>
             <li><a href="${prefix}rehber/index.html" class="${active === 'rehber' ? 'active' : ''}">Rehber</a></li>
-            <li><a href="${prefix}bolgeler.html" class="${active === 'bolgeler' ? 'active' : ''}">Bölgeler</a></li>
         </ul>
         <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
             <span></span><span></span><span></span>
@@ -490,9 +490,9 @@ function nav(prefix, active = 'rehber') {
     </button>
     <a href="${prefix}markalar.html">Zeytinyağları</a>
     <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
+    <a href="${prefix}bolgeler.html">Bölgeler</a>
     <a href="${prefix}kalite-rehberi.html">Zeytinyağı Kalitesi</a>
     <a href="${prefix}rehber/index.html">Rehber</a>
-    <a href="${prefix}bolgeler.html">Bölgeler</a>
 </div>`;
 }
 
