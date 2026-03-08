@@ -2608,5 +2608,515 @@
     "category": "market-endustriyel",
     "desc": "Hekimzade, geniş dağıtım ağıyla zeytinyağı ürünleri sunan üretici olarak dizine eklenmiştir.",
     "url": "/marka/hekimzade.html"
+  },
+  {
+    "id": 262,
+    "name": "Aivalia",
+    "slug": "aivalia",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Aivalia zeytinyağlarını uygun koşullarda üretip tüm müşterilerimizin yüzde yüz zeytinyağının tadına varmalarını sağlıyoruz.",
+    "url": "/marka/aivalia.html"
+  },
+  {
+    "id": 263,
+    "name": "Ali Kemal Bey",
+    "slug": "ali-kemal-bey",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ali Kemal Bey, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/ali-kemal-bey.html"
+  },
+  {
+    "id": 264,
+    "name": "Ali Pekin",
+    "slug": "ali-pekin",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Yöresel, taze, lezzetli ve sağlıklı gıda ürünleri satış mağazası. Kalite Sertifikalı Zeytin, Zeytinyağı çeşitleri, Peynir çeşitleri ve sağlıklı gıda satışı",
+    "url": "/marka/ali-pekin.html"
+  },
+  {
+    "id": 265,
+    "name": "Ayvada",
+    "slug": "ayvada",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "1925’ten beri 4 kuşaktır Ayvalık’ta kendi zeytinliğinden üretilen tek bahçe erken hasat soğuk sıkım natürel sızma zeytinyağı. Gerçek zeytinyağını keşfedin.",
+    "url": "/marka/ayvada.html"
+  },
+  {
+    "id": 266,
+    "name": "Ayvalık Han",
+    "slug": "ayvalik-han",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Ayvalık Han, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/ayvalik-han.html"
+  },
+  {
+    "id": 267,
+    "name": "Barbunun Çiftliği",
+    "slug": "barbunun-ciftligi",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Barbunun Çiftliği, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/barbunun-ciftligi.html"
+  },
+  {
+    "id": 268,
+    "name": "Bireller Olive",
+    "slug": "bireller-olive",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Bireller Olive - Zeytin, Zeytinyağı ve Doğal Zeytinyağlı Kozmetik ürünleri üretim ve satışı, Taş kırma soğuk sıkım Ayvalık Edremit Burhaniye Altınova zeytinlerinden elde edilen sızma zeytinyağ üretimi",
+    "url": "/marka/bireller-olive.html"
+  },
+  {
+    "id": 269,
+    "name": "By TEO",
+    "slug": "by-teo",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Edremit&#039;in En Lezzetli Zeytinyağları&#039;ndan Sofranıza | Byteo Zeytincilik &#8211; Mükemmel Nefaset Sofralarınızda",
+    "url": "/marka/by-teo.html"
+  },
+  {
+    "id": 270,
+    "name": "Çakırhan",
+    "slug": "cakirhan",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "organik",
+    "desc": "Çakırhan, organik üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/cakirhan.html"
+  },
+  {
+    "id": 271,
+    "name": "Cömert",
+    "slug": "comert",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Ayvalık Zeytin Zeytinyağını Sadece Ayvalık Yöresi Zeytinlerden Elde Edip Yöremizin En Kaliteli Zeytin ve Zeytinyağını Siz Değerli Müşterilerimizin Beğenisine Sunmaktayız.",
+    "url": "/marka/comert.html"
+  },
+  {
+    "id": 272,
+    "name": "Dem Green",
+    "slug": "dem-green",
+    "region": "Urla, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Dem Green, Urla, İzmir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/dem-green.html"
+  },
+  {
+    "id": 273,
+    "name": "Drop",
+    "slug": "drop",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Drop Zeytin ve Zeytinyağları Altınoluk / Balıkesir",
+    "url": "/marka/drop.html"
+  },
+  {
+    "id": 274,
+    "name": "Edremith",
+    "slug": "edremith",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Edremith® Doğal Organik Ürünler - Edremit Zeytinyağı, Zeytin, Ev Yapımı Doğal Organik Ürünler. Kazdağları&#039;ndan Gelen Lezzet. Hemen sipariş verin kapınıza gelsin",
+    "url": "/marka/edremith.html"
+  },
+  {
+    "id": 275,
+    "name": "Edremit’in Zeytini",
+    "slug": "edremitin-zeytini",
+    "region": "Aydın, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "edremitinzeytini.com",
+    "url": "/marka/edremitin-zeytini.html"
+  },
+  {
+    "id": 276,
+    "name": "Ege Masalı",
+    "slug": "ege-masali",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Ege Masalı Organik Zeytinyağı, Ayvalık Zeytinyağı, Organik Zaytinyağı, Natural Zeytinyağı",
+    "url": "/marka/ege-masali.html"
+  },
+  {
+    "id": 277,
+    "name": "Erkan Aykan",
+    "slug": "erkan-aykan",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Erkan Aykan Zeytincilik, Sızma Zeytinyağı, Soğuk Sıkım Zeytinyağı, Taş Baskı Zeytinyağı, Edremit Çizik Zeytin, Edremit Kırma Zeytin, Siyah Zeytin Çeşitleri Kredi Kartı ile ödeme ve Kapıda Ödeme Seçene",
+    "url": "/marka/erkan-aykan.html"
+  },
+  {
+    "id": 278,
+    "name": "Ferhatoğlu",
+    "slug": "ferhatoglu",
+    "region": "Aydın, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Ferhatoğlu, Aydın, Ege çizgisinde organik üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/ferhatoglu.html"
+  },
+  {
+    "id": 279,
+    "name": "Genç Ağa Çiftliği",
+    "slug": "genc-aga-ciftligi",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Genç Ağa Çiftliği, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/genc-aga-ciftligi.html"
+  },
+  {
+    "id": 280,
+    "name": "Gödence",
+    "slug": "godence",
+    "region": "Seferihisar, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Gödence Tarımsal Kalkınma Kooperatifi şu anda dünya normlarında bir sanayi kuruluşu ile, zeytinyağı depolama tesislerine sahiptir. Zeytinyağının yanı sıra sabun, bal, reçel, pekmez, bardacık, badem, kurutulmuş domates, d",
+    "url": "/marka/godence.html"
+  },
+  {
+    "id": 281,
+    "name": "Hasada",
+    "slug": "hasada",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Hasada, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/hasada.html"
+  },
+  {
+    "id": 282,
+    "name": "Helike Zeytinyağları",
+    "slug": "helike-zeytinyaglari",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Helike Zeytinyağları, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/helike-zeytinyaglari.html"
+  },
+  {
+    "id": 283,
+    "name": "Herdan",
+    "slug": "herdan",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Herdan, Edremit, Balıkesir çizgisinde organik üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/herdan.html"
+  },
+  {
+    "id": 284,
+    "name": "Kaleboğazı",
+    "slug": "kalebogazi",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Yolu soframızdan geçen sevdiklerimizden aldığımız talepler üzerine, kendimiz için ürettiğimiz bu mucizevi lezzeti, siz ve ailenizle de aynı özenle buluşturmak için Kaleboğazı zeytinyağı markasını kurduk.",
+    "url": "/marka/kalebogazi.html"
+  },
+  {
+    "id": 285,
+    "name": "Karadağ Zeytincilik",
+    "slug": "karadag-zeytincilik",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Karadağ Zeytincilik, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/karadag-zeytincilik.html"
+  },
+  {
+    "id": 286,
+    "name": "Katre Noon",
+    "slug": "katre-noon",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Katre Noon, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/katre-noon.html"
+  },
+  {
+    "id": 287,
+    "name": "Köklü",
+    "slug": "koklu",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Yılların verdiği tecrübeyle üstün lezzet ödüllü Ayvalık Zeytin ve Zeytinyağı firma Köklü Zeytincilik",
+    "url": "/marka/koklu.html"
+  },
+  {
+    "id": 288,
+    "name": "Lovida",
+    "slug": "lovida",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvalık Zeytinyağı ve Zeytin üreticisi Lovida. 4 nesildir zeytincilik yapan bir ailenin mükemmeli arama hikayesi.",
+    "url": "/marka/lovida.html"
+  },
+  {
+    "id": 289,
+    "name": "Miranda",
+    "slug": "miranda",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Miranda Zeytin Ürünleri",
+    "url": "/marka/miranda.html"
+  },
+  {
+    "id": 290,
+    "name": "Murat Zeytinyağı",
+    "slug": "murat-zeytinyagi",
+    "region": "Nizip, Gaziantep",
+    "regionClusterLabel": "Güneydoğu Anadolu",
+    "category": "premium-butik",
+    "desc": "Murat Zeytinyağları",
+    "url": "/marka/murat-zeytinyagi.html"
+  },
+  {
+    "id": 291,
+    "name": "Naturale",
+    "slug": "naturale",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Naturale, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/naturale.html"
+  },
+  {
+    "id": 292,
+    "name": "Nilbağ",
+    "slug": "nilbag",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Nilbağ Zeytinyağları, Ayvalık’ın bereketli zeytinlerinden elde edilen %100 doğal, erken hasat ve soğuk sıkım zeytinyağı ile gurme ürünler sunar. Sağlıklı yaşam için katkısız, yüksek polifenollü, cam şişede premium kalite",
+    "url": "/marka/nilbag.html"
+  },
+  {
+    "id": 293,
+    "name": "Olea Aera",
+    "slug": "olea-aera",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Olea Aera Soğuk Sıkım Zeytinyağı. Biz Olea Aera&#039; yız. Ayvalık&#039;tan hayatınızda doğal olana bir pencere açmaya, kişisel Zeytin Çağı’ nızı başlatmaya, bu yolculukta bize eşlik etmeye davet ediyoruz. Ödüllü zeytiny",
+    "url": "/marka/olea-aera.html"
+  },
+  {
+    "id": 294,
+    "name": "Olivalley",
+    "slug": "olivalley",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Zeytinyağının en saf hali Olivalley’de! Ege’den sofranıza gelen ultra premium natürel sızma zeytinyağlarımızla kaliteyi keşfedin ve bünyenizi güçlendirin.",
+    "url": "/marka/olivalley.html"
+  },
+  {
+    "id": 295,
+    "name": "Onursel Zeytincilik",
+    "slug": "onursel-zeytincilik",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Onursel Zeytinyağları &#8211; Dalından Sofraya Gurme Zeytin Ürünleri",
+    "url": "/marka/onursel-zeytincilik.html"
+  },
+  {
+    "id": 296,
+    "name": "Orpir",
+    "slug": "orpir",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Orpir, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/orpir.html"
+  },
+  {
+    "id": 297,
+    "name": "Pidasus",
+    "slug": "pidasus",
+    "region": "Urla, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Pidasus &#8211; Doğal Zeytin ve Zeytinyağları",
+    "url": "/marka/pidasus.html"
+  },
+  {
+    "id": 298,
+    "name": "Revna",
+    "slug": "revna",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Revna, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/revna.html"
+  },
+  {
+    "id": 299,
+    "name": "Sokol",
+    "slug": "sokol",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Kalite Aile Geleneğimizdir... Ayvalık yöresine has zeytinlerden özenle seçilerek hazırlanan ürünlerimiz, nesillerdir kaliteden ödün vermeden damağınızda eşsiz bir tat bırakmak için hazırlanıyor. 112 yıldır tamamını Ayval",
+    "url": "/marka/sokol.html"
+  },
+  {
+    "id": 300,
+    "name": "Som Zeytin",
+    "slug": "som-zeytin",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Som Zeytin, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/som-zeytin.html"
+  },
+  {
+    "id": 301,
+    "name": "Somak",
+    "slug": "somak",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Somak Zeytincilik, Ayvalık ve Kuzey Ege’nin doğal zeytinlerinden üretilen natürel sızma zeytinyağı ve zeytin çeşitlerini sofranıza taşır.",
+    "url": "/marka/somak.html"
+  },
+  {
+    "id": 302,
+    "name": "Taşaltı",
+    "slug": "tasalti",
+    "region": "Aydın, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Kuşaklar öncesine dayanan bir miras bu. Türkiye’nin ilk zeytinyağı fabrikasında çalışan büyük dedemiz ile başladı ve bize bırakmak istediği miras, kendi sofralarımıza ailemize çocuklarımıza sevdiklerimize şifa kaynağı ol",
+    "url": "/marka/tasalti.html"
+  },
+  {
+    "id": 303,
+    "name": "Terra Vigla",
+    "slug": "terra-vigla",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Sakallı Gıda Tarım Turizm İşletmelerine ait arazilerden toplanan zeytinlerden üretilmiş Ayvalık zeytin ve zeytinyağı ürünleri.",
+    "url": "/marka/terra-vigla.html"
+  },
+  {
+    "id": 304,
+    "name": "Tuna Zeytincilik",
+    "slug": "tuna-zeytincilik",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Edremit Körfezinin bereketli topraklarından özenle seçtiğimiz zeytinlerle elde edilen ödüllü zeytinyağlarımızla dört kuşaktır sofralarınıza misafir olmaktan gurur duyuyoruz. Kaliteli, sağlıklı ve lezzetli ürünler için he",
+    "url": "/marka/tuna-zeytincilik.html"
+  },
+  {
+    "id": 305,
+    "name": "Ustalı",
+    "slug": "ustali",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ustalı, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar.",
+    "url": "/marka/ustali.html"
+  },
+  {
+    "id": 306,
+    "name": "Varol",
+    "slug": "varol",
+    "region": "Aydın, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "desc": "Varol ZeytincilikTARİHÇE Varol Zeytincilik olarak, 2014 yılında Anadolu bölgesinde perakende...",
+    "url": "/marka/varol.html"
+  },
+  {
+    "id": 307,
+    "name": "Veysel Kaptan",
+    "slug": "veysel-kaptan",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Ayvalik &#8211; Ayvalik Zeytinyagi",
+    "url": "/marka/veysel-kaptan.html"
+  },
+  {
+    "id": 308,
+    "name": "Via Zeytinyağı",
+    "slug": "via-zeytinyagi",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Ayvalık Zeytincilik",
+    "url": "/marka/via-zeytinyagi.html"
+  },
+  {
+    "id": 309,
+    "name": "Zarbalı",
+    "slug": "zarbali",
+    "region": "Türkiye geneli",
+    "regionClusterLabel": "Türkiye Geneli",
+    "category": "bolgesel-yerel",
+    "desc": "Zarbalı, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
+    "url": "/marka/zarbali.html"
+  },
+  {
+    "id": 310,
+    "name": "Zest Ayvalık",
+    "slug": "zest-ayvalik",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Zest Ayvalık - Erken Hasat Soğuk Sıkım Gerçek Ayvalık Zeytinyağı",
+    "url": "/marka/zest-ayvalik.html"
+  },
+  {
+    "id": 311,
+    "name": "Zeytunç Olive",
+    "slug": "zeytunc-olive",
+    "region": "Aydın, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Erken hasat soğuk sıkım Ayvalık zeytinyağı ile sofralarınıza gerçek lezzet katın. %100 doğal, yoğun aromalı ve taze üretim.",
+    "url": "/marka/zeytunc-olive.html"
+  },
+  {
+    "id": 312,
+    "name": "Evliyazade",
+    "slug": "evliyazade",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Evliyazade Ayvalık Zeytinyağı -- 1886 yılında Evliyazade Şakir Efendi tarafından kurulan, Evliyazade zeytinyağı fabrikası, Edremit",
+    "url": "/marka/evliyazade.html"
   }
 ]

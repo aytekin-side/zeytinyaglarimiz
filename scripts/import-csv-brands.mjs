@@ -19,7 +19,9 @@ const aliasMap = new Map([
   ['mavras zeytinyagi', 'Mavras'],
   ['anolive zeytinyagi', 'Anolive'],
   ['yudum egemden', 'Yudum'],
-  ['oliva sofralik zeytin', 'Oliva']
+  ['oliva sofralik zeytin', 'Oliva'],
+  ['aktepe', 'Aktepe Zeytin Zeytinyağı'],
+  ['ozgun', 'Özgün Olive']
 ]);
 
 const industrialNames = new Set([
@@ -110,18 +112,48 @@ function cleanText(value) {
   return decodeHtml(String(value || '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
 }
 
-function parseCsv(csvText) {
-  const lines = csvText.split(/\r?\n/).filter(Boolean);
-  const rows = [];
-  for (const line of lines.slice(1)) {
-    const idx = line.lastIndexOf(',');
-    if (idx === -1) continue;
-    rows.push({
-      name: line.slice(0, idx).replace(/^"|"$/g, '').trim(),
-      website: line.slice(idx + 1).replace(/^"|"$/g, '').trim()
-    });
+function parseCsvRow(line) {
+  const cells = [];
+  let current = '';
+  let quoted = false;
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    if (char === '"') {
+      if (quoted && line[index + 1] === '"') {
+        current += '"';
+        index += 1;
+      } else {
+        quoted = !quoted;
+      }
+      continue;
+    }
+    if (char === ',' && !quoted) {
+      cells.push(current);
+      current = '';
+      continue;
+    }
+    current += char;
   }
-  return rows;
+  cells.push(current);
+  return cells.map((cell) => cell.trim());
+}
+
+function parseCsv(csvText) {
+  const lines = csvText.replace(/^\uFEFF/, '').split(/\r?\n/).filter(Boolean);
+  if (!lines.length) return [];
+
+  const header = parseCsvRow(lines[0]).map((value) => normalize(value));
+  const nameIndex = Math.max(header.indexOf('brand name'), header.indexOf('brand_name'), header.indexOf('name'));
+  const websiteIndex = Math.max(header.indexOf('website'), header.indexOf('url'), header.indexOf('site'));
+
+  if (nameIndex === -1 || websiteIndex === -1) {
+    throw new Error('CSV must include brand/name and website columns.');
+  }
+
+  return lines.slice(1).map(parseCsvRow).map((cells) => ({
+    name: cells[nameIndex] || '',
+    website: cells[websiteIndex] || ''
+  })).filter((row) => row.name && row.website);
 }
 
 function loadBrands() {
@@ -340,7 +372,7 @@ async function main() {
     const normalized = normalize(row.name);
     const byName = existingNames.find((name) => {
       const candidate = normalize(name);
-      return candidate === normalized || candidate.includes(normalized) || normalized.includes(candidate) || aliasMap.get(normalized) === name;
+      return candidate === normalized || aliasMap.get(normalized) === name;
     });
     const byHost = existingHosts.get(getHost(row.website));
     return !(byName || byHost);

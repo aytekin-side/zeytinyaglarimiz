@@ -2210,5 +2210,389 @@ const brandMedia = {
             "images/markalar/hekimzade/hekimzade-bottle-01-marifolia-hafif-yasam-destek.webp"
         ],
         "info": "Hekimzade, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Hekimzade, geniş dağıtım ağıyla zeytinyağı ürünleri sunan üretici olarak dizine eklenmiştir."
+    },
+    "262": {
+        "slug": "aivalia",
+        "logo": "images/markalar/aivalia/aivalia-logo.png",
+        "bottles": [],
+        "info": "Aivalia, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Aivalia zeytinyağlarını uygun koşullarda üretip tüm müşterilerimizin yüzde yüz zeytinyağının tadına varmalarını sağlıyoruz."
+    },
+    "263": {
+        "slug": "ali-kemal-bey",
+        "logo": "images/markalar/ali-kemal-bey/ali-kemal-bey-logo.jpg",
+        "bottles": [
+            "images/markalar/ali-kemal-bey/ali-kemal-bey-bottle-01-213.jpg"
+        ],
+        "info": "Ali Kemal Bey, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ali Kemal Bey, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "264": {
+        "slug": "ali-pekin",
+        "logo": "images/markalar/ali-pekin/ali-pekin-logo.png",
+        "bottles": [
+            "images/markalar/ali-pekin/ali-pekin-bottle-01-gurme-sofralik-kalamata-yesil-zeytin-min.jpg"
+        ],
+        "info": "Ali Pekin, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Yöresel, taze, lezzetli ve sağlıklı gıda ürünleri satış mağazası. Kalite Sertifikalı Zeytin, Zeytinyağı çeşitleri, Peynir çeşitleri ve sağlıklı gıda satışı"
+    },
+    "265": {
+        "slug": "ayvada",
+        "logo": "images/markalar/ayvada/ayvada-logo.png",
+        "bottles": [
+            "images/markalar/ayvada/ayvada-bottle-01-ayvalik-zeytincik-kucuk-yesil-zeytin-min.jpg"
+        ],
+        "info": "Ayvada, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. 1925’ten beri 4 kuşaktır Ayvalık’ta kendi zeytinliğinden üretilen tek bahçe erken hasat soğuk sıkım natürel sızma zeytinyağı. Gerçek zeytinyağını keşfedin."
+    },
+    "266": {
+        "slug": "ayvalik-han",
+        "logo": "",
+        "bottles": [],
+        "info": "Ayvalık Han, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ayvalık Han, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "267": {
+        "slug": "barbunun-ciftligi",
+        "logo": "",
+        "bottles": [],
+        "info": "Barbunun Çiftliği, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Barbunun Çiftliği, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "268": {
+        "slug": "bireller-olive",
+        "logo": "images/markalar/bireller-olive/bireller-olive-logo.png",
+        "bottles": [
+            "images/markalar/bireller-olive/bireller-olive-bottle-01-ucretsiz-kargo.jpg"
+        ],
+        "info": "Bireller Olive, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Bireller Olive - Zeytin, Zeytinyağı ve Doğal Zeytinyağlı Kozmetik ürünleri üretim ve satışı, Taş kırma soğuk sıkım Ayvalık Edremit Burhaniye Altınova zeytinlerinden elde edilen sızma zeytinyağ üretimi"
+    },
+    "269": {
+        "slug": "by-teo",
+        "logo": "images/markalar/by-teo/by-teo-logo.png",
+        "bottles": [
+            "images/markalar/by-teo/by-teo-bottle-01-edremit-cografi-isaretli-zeytinyagi.jpg"
+        ],
+        "info": "By TEO, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Edremit&#039;in En Lezzetli Zeytinyağları&#039;ndan Sofranıza | Byteo Zeytincilik &#8211; Mükemmel Nefaset Sofralarınızda"
+    },
+    "270": {
+        "slug": "cakirhan",
+        "logo": "images/markalar/cakirhan/cakirhan-logo.png",
+        "bottles": [
+            "images/markalar/cakirhan/cakirhan-bottle-01-1-min.png"
+        ],
+        "info": "Çakırhan, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Çakırhan, organik üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "271": {
+        "slug": "comert",
+        "logo": "images/markalar/comert/comert-logo.png",
+        "bottles": [
+            "images/markalar/comert/comert-bottle-01-1.webp"
+        ],
+        "info": "Cömert, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ayvalık Zeytin Zeytinyağını Sadece Ayvalık Yöresi Zeytinlerden Elde Edip Yöremizin En Kaliteli Zeytin ve Zeytinyağını Siz Değerli Müşterilerimizin Beğenisine Sunmaktayız."
+    },
+    "272": {
+        "slug": "dem-green",
+        "logo": "images/markalar/dem-green/dem-green-logo.webp",
+        "bottles": [
+            "images/markalar/dem-green/dem-green-bottle-01-sizma-zeytinyagi-heading.webp"
+        ],
+        "info": "Dem Green, Urla, İzmir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Dem Green, Urla, İzmir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "273": {
+        "slug": "drop",
+        "logo": "images/markalar/drop/drop-logo.png",
+        "bottles": [
+            "images/markalar/drop/drop-bottle-01-sizma-250-c45e213.webp"
+        ],
+        "info": "Drop, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Drop Zeytin ve Zeytinyağları Altınoluk / Balıkesir"
+    },
+    "274": {
+        "slug": "edremith",
+        "logo": "images/markalar/edremith/edremith-logo.png",
+        "bottles": [
+            "images/markalar/edremith/edremith-bottle-01-zeytinyagi-kategories-300x300.jpg"
+        ],
+        "info": "Edremith, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Edremith® Doğal Organik Ürünler - Edremit Zeytinyağı, Zeytin, Ev Yapımı Doğal Organik Ürünler. Kazdağları&#039;ndan Gelen Lezzet. Hemen sipariş verin kapınıza gelsin"
+    },
+    "275": {
+        "slug": "edremitin-zeytini",
+        "logo": "images/markalar/edremitin-zeytini/edremitin-zeytini-logo.png",
+        "bottles": [
+            "images/markalar/edremitin-zeytini/edremitin-zeytini-bottle-01-marka-tescil-belgesi-212x300.jpg"
+        ],
+        "info": "Edremit’in Zeytini, Aydın, Ege çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. edremitinzeytini.com"
+    },
+    "276": {
+        "slug": "ege-masali",
+        "logo": "images/markalar/ege-masali/ege-masali-logo.png",
+        "bottles": [],
+        "info": "Ege Masalı, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ege Masalı Organik Zeytinyağı, Ayvalık Zeytinyağı, Organik Zaytinyağı, Natural Zeytinyağı"
+    },
+    "277": {
+        "slug": "erkan-aykan",
+        "logo": "images/markalar/erkan-aykan/erkan-aykan-logo.png",
+        "bottles": [
+            "images/markalar/erkan-aykan/erkan-aykan-bottle-01-ozeluretim-26-01-2022-d03f219.jpg"
+        ],
+        "info": "Erkan Aykan, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Erkan Aykan Zeytincilik, Sızma Zeytinyağı, Soğuk Sıkım Zeytinyağı, Taş Baskı Zeytinyağı, Edremit Çizik Zeytin, Edremit Kırma Zeytin, Siyah Zeytin Çeşitleri Kredi Kartı ile ödeme ve Kapıda Ödeme Seçene"
+    },
+    "278": {
+        "slug": "ferhatoglu",
+        "logo": "images/markalar/ferhatoglu/ferhatoglu-logo.webp",
+        "bottles": [
+            "images/markalar/ferhatoglu/ferhatoglu-bottle-01-birinci-5l.webp"
+        ],
+        "info": "Ferhatoğlu, Aydın, Ege çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ferhatoğlu, Aydın, Ege çizgisinde organik üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "279": {
+        "slug": "genc-aga-ciftligi",
+        "logo": "",
+        "bottles": [],
+        "info": "Genç Ağa Çiftliği, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Genç Ağa Çiftliği, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "280": {
+        "slug": "godence",
+        "logo": "images/markalar/godence/godence-logo.png",
+        "bottles": [
+            "images/markalar/godence/godence-bottle-01-para.png"
+        ],
+        "info": "Gödence, Seferihisar, İzmir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Gödence Tarımsal Kalkınma Kooperatifi şu anda dünya normlarında bir sanayi kuruluşu ile, zeytinyağı depolama tesislerine sahiptir. Zeytinyağının yanı sıra sabun, bal, reçel, pekmez, bardacık, badem, kurutulmuş domates, d"
+    },
+    "281": {
+        "slug": "hasada",
+        "logo": "images/markalar/hasada/hasada-logo.png",
+        "bottles": [
+            "images/markalar/hasada/hasada-bottle-01-has-ada-page-0002.jpg"
+        ],
+        "info": "Hasada, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Hasada, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "282": {
+        "slug": "helike-zeytinyaglari",
+        "logo": "",
+        "bottles": [],
+        "info": "Helike Zeytinyağları, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Helike Zeytinyağları, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "283": {
+        "slug": "herdan",
+        "logo": "images/markalar/herdan/herdan-logo.png",
+        "bottles": [
+            "images/markalar/herdan/herdan-bottle-01-tekli-dogal-zeytinyagi-sabunu-320x320.png"
+        ],
+        "info": "Herdan, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Herdan, Edremit, Balıkesir çizgisinde organik üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "284": {
+        "slug": "kalebogazi",
+        "logo": "images/markalar/kalebogazi/kalebogazi-logo.avif",
+        "bottles": [],
+        "info": "Kaleboğazı, Milas, Muğla çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Yolu soframızdan geçen sevdiklerimizden aldığımız talepler üzerine, kendimiz için ürettiğimiz bu mucizevi lezzeti, siz ve ailenizle de aynı özenle buluşturmak için Kaleboğazı zeytinyağı markasını kurduk."
+    },
+    "285": {
+        "slug": "karadag-zeytincilik",
+        "logo": "",
+        "bottles": [
+            "images/markalar/karadag-zeytincilik/karadag-zeytincilik-bottle-01-etbis.png"
+        ],
+        "info": "Karadağ Zeytincilik, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Karadağ Zeytincilik, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "286": {
+        "slug": "katre-noon",
+        "logo": "",
+        "bottles": [],
+        "info": "Katre Noon, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Katre Noon, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "287": {
+        "slug": "koklu",
+        "logo": "images/markalar/koklu/koklu-logo.png",
+        "bottles": [
+            "images/markalar/koklu/koklu-bottle-01-kirma-yeni-mahsul-amblemsiz-min.jpg"
+        ],
+        "info": "Köklü, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Yılların verdiği tecrübeyle üstün lezzet ödüllü Ayvalık Zeytin ve Zeytinyağı firma Köklü Zeytincilik"
+    },
+    "288": {
+        "slug": "lovida",
+        "logo": "images/markalar/lovida/lovida-logo.png",
+        "bottles": [
+            "images/markalar/lovida/lovida-bottle-01-untitled-4-300x150.png"
+        ],
+        "info": "Lovida, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ayvalık Zeytinyağı ve Zeytin üreticisi Lovida. 4 nesildir zeytincilik yapan bir ailenin mükemmeli arama hikayesi."
+    },
+    "289": {
+        "slug": "miranda",
+        "logo": "images/markalar/miranda/miranda-logo.png",
+        "bottles": [
+            "images/markalar/miranda/miranda-bottle-01-217-750-ml-filitresiz-vaktinde-hasat-soguk-sikim-naturel-sizma-zeytinyag.jpg"
+        ],
+        "info": "Miranda, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Miranda Zeytin Ürünleri"
+    },
+    "290": {
+        "slug": "murat-zeytinyagi",
+        "logo": "images/markalar/murat-zeytinyagi/murat-zeytinyagi-logo.png",
+        "bottles": [
+            "images/markalar/murat-zeytinyagi/murat-zeytinyagi-bottle-01-sl2back.jpg"
+        ],
+        "info": "Murat Zeytinyağı, Nizip, Gaziantep çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Murat Zeytinyağları"
+    },
+    "291": {
+        "slug": "naturale",
+        "logo": "images/markalar/naturale/naturale-logo.png",
+        "bottles": [
+            "images/markalar/naturale/naturale-bottle-01-21559118.jpg"
+        ],
+        "info": "Naturale, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Naturale, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "292": {
+        "slug": "nilbag",
+        "logo": "images/markalar/nilbag/nilbag-logo.webp",
+        "bottles": [
+            "images/markalar/nilbag/nilbag-bottle-01-erken-hasat-750.webp"
+        ],
+        "info": "Nilbağ, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Nilbağ Zeytinyağları, Ayvalık’ın bereketli zeytinlerinden elde edilen %100 doğal, erken hasat ve soğuk sıkım zeytinyağı ile gurme ürünler sunar. Sağlıklı yaşam için katkısız, yüksek polifenollü, cam şişede premium kalite"
+    },
+    "293": {
+        "slug": "olea-aera",
+        "logo": "images/markalar/olea-aera/olea-aera-logo.png",
+        "bottles": [
+            "images/markalar/olea-aera/olea-aera-bottle-01-erken-hasat-4-400x600.jpg"
+        ],
+        "info": "Olea Aera, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Olea Aera Soğuk Sıkım Zeytinyağı. Biz Olea Aera&#039; yız. Ayvalık&#039;tan hayatınızda doğal olana bir pencere açmaya, kişisel Zeytin Çağı’ nızı başlatmaya, bu yolculukta bize eşlik etmeye davet ediyoruz. Ödüllü zeytiny"
+    },
+    "294": {
+        "slug": "olivalley",
+        "logo": "images/markalar/olivalley/olivalley-logo.webp",
+        "bottles": [
+            "images/markalar/olivalley/olivalley-bottle-01-9-800x400w-png.webp"
+        ],
+        "info": "Olivalley, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Zeytinyağının en saf hali Olivalley’de! Ege’den sofranıza gelen ultra premium natürel sızma zeytinyağlarımızla kaliteyi keşfedin ve bünyenizi güçlendirin."
+    },
+    "295": {
+        "slug": "onursel-zeytincilik",
+        "logo": "images/markalar/onursel-zeytincilik/onursel-zeytincilik-logo.png",
+        "bottles": [
+            "images/markalar/onursel-zeytincilik/onursel-zeytincilik-bottle-01-olive-oil-with-bread-spoon.jpg"
+        ],
+        "info": "Onursel Zeytincilik, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Onursel Zeytinyağları &#8211; Dalından Sofraya Gurme Zeytin Ürünleri"
+    },
+    "296": {
+        "slug": "orpir",
+        "logo": "",
+        "bottles": [],
+        "info": "Orpir, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Orpir, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "297": {
+        "slug": "pidasus",
+        "logo": "images/markalar/pidasus/pidasus-logo.webp",
+        "bottles": [
+            "images/markalar/pidasus/pidasus-bottle-01-zeytinyagi.png"
+        ],
+        "info": "Pidasus, Urla, İzmir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Pidasus &#8211; Doğal Zeytin ve Zeytinyağları"
+    },
+    "298": {
+        "slug": "revna",
+        "logo": "",
+        "bottles": [],
+        "info": "Revna, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Revna, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "299": {
+        "slug": "sokol",
+        "logo": "images/markalar/sokol/sokol-logo.png",
+        "bottles": [
+            "images/markalar/sokol/sokol-bottle-01-olive-bowl-e1559846149260.png"
+        ],
+        "info": "Sokol, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Kalite Aile Geleneğimizdir... Ayvalık yöresine has zeytinlerden özenle seçilerek hazırlanan ürünlerimiz, nesillerdir kaliteden ödün vermeden damağınızda eşsiz bir tat bırakmak için hazırlanıyor. 112 yıldır tamamını Ayval"
+    },
+    "300": {
+        "slug": "som-zeytin",
+        "logo": "images/markalar/som-zeytin/som-zeytin-logo.png",
+        "bottles": [],
+        "info": "Som Zeytin, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Som Zeytin, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "301": {
+        "slug": "somak",
+        "logo": "images/markalar/somak/somak-logo.png",
+        "bottles": [
+            "images/markalar/somak/somak-bottle-01-1.jpg"
+        ],
+        "info": "Somak, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Somak Zeytincilik, Ayvalık ve Kuzey Ege’nin doğal zeytinlerinden üretilen natürel sızma zeytinyağı ve zeytin çeşitlerini sofranıza taşır."
+    },
+    "302": {
+        "slug": "tasalti",
+        "logo": "images/markalar/tasalti/tasalti-logo.png",
+        "bottles": [
+            "images/markalar/tasalti/tasalti-bottle-01-entry-content-image.webp"
+        ],
+        "info": "Taşaltı, Aydın, Ege çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Kuşaklar öncesine dayanan bir miras bu. Türkiye’nin ilk zeytinyağı fabrikasında çalışan büyük dedemiz ile başladı ve bize bırakmak istediği miras, kendi sofralarımıza ailemize çocuklarımıza sevdiklerimize şifa kaynağı ol"
+    },
+    "303": {
+        "slug": "terra-vigla",
+        "logo": "images/markalar/terra-vigla/terra-vigla-logo.webp",
+        "bottles": [
+            "images/markalar/terra-vigla/terra-vigla-bottle-01-rs-h-500-cg-true-m.webp"
+        ],
+        "info": "Terra Vigla, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Sakallı Gıda Tarım Turizm İşletmelerine ait arazilerden toplanan zeytinlerden üretilmiş Ayvalık zeytin ve zeytinyağı ürünleri."
+    },
+    "304": {
+        "slug": "tuna-zeytincilik",
+        "logo": "images/markalar/tuna-zeytincilik/tuna-zeytincilik-logo.webp",
+        "bottles": [
+            "images/markalar/tuna-zeytincilik/tuna-zeytincilik-bottle-01-whatsapp-image-2025-10-28-at-12-48-19-min.jpg"
+        ],
+        "info": "Tuna Zeytincilik, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Edremit Körfezinin bereketli topraklarından özenle seçtiğimiz zeytinlerle elde edilen ödüllü zeytinyağlarımızla dört kuşaktır sofralarınıza misafir olmaktan gurur duyuyoruz. Kaliteli, sağlıklı ve lezzetli ürünler için he"
+    },
+    "305": {
+        "slug": "ustali",
+        "logo": "images/markalar/ustali/ustali-logo.svg",
+        "bottles": [
+            "images/markalar/ustali/ustali-bottle-01-about.webp"
+        ],
+        "info": "Ustalı, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ustalı, Ayvalık, Balıkesir çizgisinde natürel sızma ve özel seri zeytinyağı sunan üretici olarak öne çıkar."
+    },
+    "306": {
+        "slug": "varol",
+        "logo": "images/markalar/varol/varol-logo.png",
+        "bottles": [
+            "images/markalar/varol/varol-bottle-01-hykxg6j7kupsw4qxwiyfuf31zemudcl99eusiv09.webp"
+        ],
+        "info": "Varol, Aydın, Ege çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Varol ZeytincilikTARİHÇE Varol Zeytincilik olarak, 2014 yılında Anadolu bölgesinde perakende..."
+    },
+    "307": {
+        "slug": "veysel-kaptan",
+        "logo": "images/markalar/veysel-kaptan/veysel-kaptan-logo.png",
+        "bottles": [
+            "images/markalar/veysel-kaptan/veysel-kaptan-bottle-01-ramazan.jpg"
+        ],
+        "info": "Veysel Kaptan, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ayvalik &#8211; Ayvalik Zeytinyagi"
+    },
+    "308": {
+        "slug": "via-zeytinyagi",
+        "logo": "images/markalar/via-zeytinyagi/via-zeytinyagi-logo.svg",
+        "bottles": [
+            "images/markalar/via-zeytinyagi/via-zeytinyagi-bottle-01-about-history.webp"
+        ],
+        "info": "Via Zeytinyağı, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Ayvalık Zeytincilik"
+    },
+    "309": {
+        "slug": "zarbali",
+        "logo": "",
+        "bottles": [],
+        "info": "Zarbalı, Türkiye geneli çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Zarbalı, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir."
+    },
+    "310": {
+        "slug": "zest-ayvalik",
+        "logo": "images/markalar/zest-ayvalik/zest-ayvalik-logo.webp",
+        "bottles": [
+            "images/markalar/zest-ayvalik/zest-ayvalik-bottle-01-remove-small.png"
+        ],
+        "info": "Zest Ayvalık, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Zest Ayvalık - Erken Hasat Soğuk Sıkım Gerçek Ayvalık Zeytinyağı"
+    },
+    "311": {
+        "slug": "zeytunc-olive",
+        "logo": "images/markalar/zeytunc-olive/zeytunc-olive-logo.webp",
+        "bottles": [
+            "images/markalar/zeytunc-olive/zeytunc-olive-bottle-01-zeytinyagi-ayvalik-kategori-kucuk-1-150x150.webp"
+        ],
+        "info": "Zeytunç Olive, Aydın, Ege çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Erken hasat soğuk sıkım Ayvalık zeytinyağı ile sofralarınıza gerçek lezzet katın. %100 doğal, yoğun aromalı ve taze üretim."
+    },
+    "312": {
+        "slug": "evliyazade",
+        "logo": "images/markalar/evliyazade/evliyazade-logo.webp",
+        "bottles": [
+            "images/markalar/evliyazade/evliyazade-bottle-01-pictures-1.png"
+        ],
+        "info": "Evliyazade, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Evliyazade Ayvalık Zeytinyağı -- 1886 yılında Evliyazade Şakir Efendi tarafından kurulan, Evliyazade zeytinyağı fabrikası, Edremit"
     }
 };

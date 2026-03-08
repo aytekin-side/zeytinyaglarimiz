@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:03:51.357Z",
+  "generatedAt": "2026-03-08T20:19:06.367Z",
   "brands": [
     {
       "id": 1,
@@ -2471,6 +2471,441 @@
       "logo": "images/markalar/hekimzade/hekimzade-logo.avif",
       "bottles": [
         "images/markalar/hekimzade/hekimzade-bottle-01-marifolia-hafif-yasam-destek.webp"
+      ]
+    },
+    {
+      "id": 262,
+      "name": "Aivalia",
+      "slug": "aivalia",
+      "logo": "images/markalar/aivalia/aivalia-logo.png",
+      "bottles": []
+    },
+    {
+      "id": 263,
+      "name": "Ali Kemal Bey",
+      "slug": "ali-kemal-bey",
+      "logo": "images/markalar/ali-kemal-bey/ali-kemal-bey-logo.jpg",
+      "bottles": [
+        "images/markalar/ali-kemal-bey/ali-kemal-bey-bottle-01-213.jpg"
+      ]
+    },
+    {
+      "id": 264,
+      "name": "Ali Pekin",
+      "slug": "ali-pekin",
+      "logo": "images/markalar/ali-pekin/ali-pekin-logo.png",
+      "bottles": [
+        "images/markalar/ali-pekin/ali-pekin-bottle-01-gurme-sofralik-kalamata-yesil-zeytin-min.jpg"
+      ]
+    },
+    {
+      "id": 265,
+      "name": "Ayvada",
+      "slug": "ayvada",
+      "logo": "images/markalar/ayvada/ayvada-logo.png",
+      "bottles": [
+        "images/markalar/ayvada/ayvada-bottle-01-ayvalik-zeytincik-kucuk-yesil-zeytin-min.jpg"
+      ]
+    },
+    {
+      "id": 266,
+      "name": "Ayvalık Han",
+      "slug": "ayvalik-han",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 267,
+      "name": "Barbunun Çiftliği",
+      "slug": "barbunun-ciftligi",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 268,
+      "name": "Bireller Olive",
+      "slug": "bireller-olive",
+      "logo": "images/markalar/bireller-olive/bireller-olive-logo.png",
+      "bottles": [
+        "images/markalar/bireller-olive/bireller-olive-bottle-01-ucretsiz-kargo.jpg"
+      ]
+    },
+    {
+      "id": 269,
+      "name": "By TEO",
+      "slug": "by-teo",
+      "logo": "images/markalar/by-teo/by-teo-logo.png",
+      "bottles": [
+        "images/markalar/by-teo/by-teo-bottle-01-edremit-cografi-isaretli-zeytinyagi.jpg"
+      ]
+    },
+    {
+      "id": 270,
+      "name": "Çakırhan",
+      "slug": "cakirhan",
+      "logo": "images/markalar/cakirhan/cakirhan-logo.png",
+      "bottles": [
+        "images/markalar/cakirhan/cakirhan-bottle-01-1-min.png"
+      ]
+    },
+    {
+      "id": 271,
+      "name": "Cömert",
+      "slug": "comert",
+      "logo": "images/markalar/comert/comert-logo.png",
+      "bottles": [
+        "images/markalar/comert/comert-bottle-01-1.webp"
+      ]
+    },
+    {
+      "id": 272,
+      "name": "Dem Green",
+      "slug": "dem-green",
+      "logo": "images/markalar/dem-green/dem-green-logo.webp",
+      "bottles": [
+        "images/markalar/dem-green/dem-green-bottle-01-sizma-zeytinyagi-heading.webp"
+      ]
+    },
+    {
+      "id": 273,
+      "name": "Drop",
+      "slug": "drop",
+      "logo": "images/markalar/drop/drop-logo.png",
+      "bottles": [
+        "images/markalar/drop/drop-bottle-01-sizma-250-c45e213.webp"
+      ]
+    },
+    {
+      "id": 274,
+      "name": "Edremith",
+      "slug": "edremith",
+      "logo": "images/markalar/edremith/edremith-logo.png",
+      "bottles": [
+        "images/markalar/edremith/edremith-bottle-01-zeytinyagi-kategories-300x300.jpg"
+      ]
+    },
+    {
+      "id": 275,
+      "name": "Edremit’in Zeytini",
+      "slug": "edremitin-zeytini",
+      "logo": "images/markalar/edremitin-zeytini/edremitin-zeytini-logo.png",
+      "bottles": [
+        "images/markalar/edremitin-zeytini/edremitin-zeytini-bottle-01-marka-tescil-belgesi-212x300.jpg"
+      ]
+    },
+    {
+      "id": 276,
+      "name": "Ege Masalı",
+      "slug": "ege-masali",
+      "logo": "images/markalar/ege-masali/ege-masali-logo.png",
+      "bottles": []
+    },
+    {
+      "id": 277,
+      "name": "Erkan Aykan",
+      "slug": "erkan-aykan",
+      "logo": "images/markalar/erkan-aykan/erkan-aykan-logo.png",
+      "bottles": [
+        "images/markalar/erkan-aykan/erkan-aykan-bottle-01-ozeluretim-26-01-2022-d03f219.jpg"
+      ]
+    },
+    {
+      "id": 278,
+      "name": "Ferhatoğlu",
+      "slug": "ferhatoglu",
+      "logo": "images/markalar/ferhatoglu/ferhatoglu-logo.webp",
+      "bottles": [
+        "images/markalar/ferhatoglu/ferhatoglu-bottle-01-birinci-5l.webp"
+      ]
+    },
+    {
+      "id": 279,
+      "name": "Genç Ağa Çiftliği",
+      "slug": "genc-aga-ciftligi",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 280,
+      "name": "Gödence",
+      "slug": "godence",
+      "logo": "images/markalar/godence/godence-logo.png",
+      "bottles": [
+        "images/markalar/godence/godence-bottle-01-para.png"
+      ]
+    },
+    {
+      "id": 281,
+      "name": "Hasada",
+      "slug": "hasada",
+      "logo": "images/markalar/hasada/hasada-logo.png",
+      "bottles": [
+        "images/markalar/hasada/hasada-bottle-01-has-ada-page-0002.jpg"
+      ]
+    },
+    {
+      "id": 282,
+      "name": "Helike Zeytinyağları",
+      "slug": "helike-zeytinyaglari",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 283,
+      "name": "Herdan",
+      "slug": "herdan",
+      "logo": "images/markalar/herdan/herdan-logo.png",
+      "bottles": [
+        "images/markalar/herdan/herdan-bottle-01-tekli-dogal-zeytinyagi-sabunu-320x320.png"
+      ]
+    },
+    {
+      "id": 284,
+      "name": "Kaleboğazı",
+      "slug": "kalebogazi",
+      "logo": "images/markalar/kalebogazi/kalebogazi-logo.avif",
+      "bottles": []
+    },
+    {
+      "id": 285,
+      "name": "Karadağ Zeytincilik",
+      "slug": "karadag-zeytincilik",
+      "logo": null,
+      "bottles": [
+        "images/markalar/karadag-zeytincilik/karadag-zeytincilik-bottle-01-etbis.png"
+      ]
+    },
+    {
+      "id": 286,
+      "name": "Katre Noon",
+      "slug": "katre-noon",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 287,
+      "name": "Köklü",
+      "slug": "koklu",
+      "logo": "images/markalar/koklu/koklu-logo.png",
+      "bottles": [
+        "images/markalar/koklu/koklu-bottle-01-kirma-yeni-mahsul-amblemsiz-min.jpg"
+      ]
+    },
+    {
+      "id": 288,
+      "name": "Lovida",
+      "slug": "lovida",
+      "logo": "images/markalar/lovida/lovida-logo.png",
+      "bottles": [
+        "images/markalar/lovida/lovida-bottle-01-untitled-4-300x150.png"
+      ]
+    },
+    {
+      "id": 289,
+      "name": "Miranda",
+      "slug": "miranda",
+      "logo": "images/markalar/miranda/miranda-logo.png",
+      "bottles": [
+        "images/markalar/miranda/miranda-bottle-01-217-750-ml-filitresiz-vaktinde-hasat-soguk-sikim-naturel-sizma-zeytinyag.jpg"
+      ]
+    },
+    {
+      "id": 290,
+      "name": "Murat Zeytinyağı",
+      "slug": "murat-zeytinyagi",
+      "logo": "images/markalar/murat-zeytinyagi/murat-zeytinyagi-logo.png",
+      "bottles": [
+        "images/markalar/murat-zeytinyagi/murat-zeytinyagi-bottle-01-sl2back.jpg"
+      ]
+    },
+    {
+      "id": 291,
+      "name": "Naturale",
+      "slug": "naturale",
+      "logo": "images/markalar/naturale/naturale-logo.png",
+      "bottles": [
+        "images/markalar/naturale/naturale-bottle-01-21559118.jpg"
+      ]
+    },
+    {
+      "id": 292,
+      "name": "Nilbağ",
+      "slug": "nilbag",
+      "logo": "images/markalar/nilbag/nilbag-logo.webp",
+      "bottles": [
+        "images/markalar/nilbag/nilbag-bottle-01-erken-hasat-750.webp"
+      ]
+    },
+    {
+      "id": 293,
+      "name": "Olea Aera",
+      "slug": "olea-aera",
+      "logo": "images/markalar/olea-aera/olea-aera-logo.png",
+      "bottles": [
+        "images/markalar/olea-aera/olea-aera-bottle-01-erken-hasat-4-400x600.jpg"
+      ]
+    },
+    {
+      "id": 294,
+      "name": "Olivalley",
+      "slug": "olivalley",
+      "logo": "images/markalar/olivalley/olivalley-logo.webp",
+      "bottles": [
+        "images/markalar/olivalley/olivalley-bottle-01-9-800x400w-png.webp"
+      ]
+    },
+    {
+      "id": 295,
+      "name": "Onursel Zeytincilik",
+      "slug": "onursel-zeytincilik",
+      "logo": "images/markalar/onursel-zeytincilik/onursel-zeytincilik-logo.png",
+      "bottles": [
+        "images/markalar/onursel-zeytincilik/onursel-zeytincilik-bottle-01-olive-oil-with-bread-spoon.jpg"
+      ]
+    },
+    {
+      "id": 296,
+      "name": "Orpir",
+      "slug": "orpir",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 297,
+      "name": "Pidasus",
+      "slug": "pidasus",
+      "logo": "images/markalar/pidasus/pidasus-logo.webp",
+      "bottles": [
+        "images/markalar/pidasus/pidasus-bottle-01-zeytinyagi.png"
+      ]
+    },
+    {
+      "id": 298,
+      "name": "Revna",
+      "slug": "revna",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 299,
+      "name": "Sokol",
+      "slug": "sokol",
+      "logo": "images/markalar/sokol/sokol-logo.png",
+      "bottles": [
+        "images/markalar/sokol/sokol-bottle-01-olive-bowl-e1559846149260.png"
+      ]
+    },
+    {
+      "id": 300,
+      "name": "Som Zeytin",
+      "slug": "som-zeytin",
+      "logo": "images/markalar/som-zeytin/som-zeytin-logo.png",
+      "bottles": []
+    },
+    {
+      "id": 301,
+      "name": "Somak",
+      "slug": "somak",
+      "logo": "images/markalar/somak/somak-logo.png",
+      "bottles": [
+        "images/markalar/somak/somak-bottle-01-1.jpg"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Taşaltı",
+      "slug": "tasalti",
+      "logo": "images/markalar/tasalti/tasalti-logo.png",
+      "bottles": [
+        "images/markalar/tasalti/tasalti-bottle-01-entry-content-image.webp"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Terra Vigla",
+      "slug": "terra-vigla",
+      "logo": "images/markalar/terra-vigla/terra-vigla-logo.webp",
+      "bottles": [
+        "images/markalar/terra-vigla/terra-vigla-bottle-01-rs-h-500-cg-true-m.webp"
+      ]
+    },
+    {
+      "id": 304,
+      "name": "Tuna Zeytincilik",
+      "slug": "tuna-zeytincilik",
+      "logo": "images/markalar/tuna-zeytincilik/tuna-zeytincilik-logo.webp",
+      "bottles": [
+        "images/markalar/tuna-zeytincilik/tuna-zeytincilik-bottle-01-whatsapp-image-2025-10-28-at-12-48-19-min.jpg"
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Ustalı",
+      "slug": "ustali",
+      "logo": "images/markalar/ustali/ustali-logo.svg",
+      "bottles": [
+        "images/markalar/ustali/ustali-bottle-01-about.webp"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Varol",
+      "slug": "varol",
+      "logo": "images/markalar/varol/varol-logo.png",
+      "bottles": [
+        "images/markalar/varol/varol-bottle-01-hykxg6j7kupsw4qxwiyfuf31zemudcl99eusiv09.webp"
+      ]
+    },
+    {
+      "id": 307,
+      "name": "Veysel Kaptan",
+      "slug": "veysel-kaptan",
+      "logo": "images/markalar/veysel-kaptan/veysel-kaptan-logo.png",
+      "bottles": [
+        "images/markalar/veysel-kaptan/veysel-kaptan-bottle-01-ramazan.jpg"
+      ]
+    },
+    {
+      "id": 308,
+      "name": "Via Zeytinyağı",
+      "slug": "via-zeytinyagi",
+      "logo": "images/markalar/via-zeytinyagi/via-zeytinyagi-logo.svg",
+      "bottles": [
+        "images/markalar/via-zeytinyagi/via-zeytinyagi-bottle-01-about-history.webp"
+      ]
+    },
+    {
+      "id": 309,
+      "name": "Zarbalı",
+      "slug": "zarbali",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 310,
+      "name": "Zest Ayvalık",
+      "slug": "zest-ayvalik",
+      "logo": "images/markalar/zest-ayvalik/zest-ayvalik-logo.webp",
+      "bottles": [
+        "images/markalar/zest-ayvalik/zest-ayvalik-bottle-01-remove-small.png"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "Zeytunç Olive",
+      "slug": "zeytunc-olive",
+      "logo": "images/markalar/zeytunc-olive/zeytunc-olive-logo.webp",
+      "bottles": [
+        "images/markalar/zeytunc-olive/zeytunc-olive-bottle-01-zeytinyagi-ayvalik-kategori-kucuk-1-150x150.webp"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Evliyazade",
+      "slug": "evliyazade",
+      "logo": "images/markalar/evliyazade/evliyazade-logo.webp",
+      "bottles": [
+        "images/markalar/evliyazade/evliyazade-bottle-01-pictures-1.png"
       ]
     }
   ],
