@@ -8,6 +8,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 362,
+    "name": "Adalinda",
+    "slug": "adalinda",
+    "url": "https://www.adalinda.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "premium-butik"
+  },
+  {
     "id": 55,
     "name": "Adatepe",
     "slug": "adatepe",
@@ -22,6 +30,14 @@
     "url": "https://www.adrasos.com",
     "region": "Mut, Mersin",
     "category": "premium-butik"
+  },
+  {
+    "id": 358,
+    "name": "Ahsaf",
+    "slug": "ahsaf",
+    "url": "https://www.ahsaf.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 262,
@@ -56,6 +72,14 @@
     "category": "organik"
   },
   {
+    "id": 375,
+    "name": "Aleli",
+    "slug": "aleli",
+    "url": "https://www.aleli.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 163,
     "name": "Alhatoğlu Zeytinyağları",
     "slug": "alhatoglu-zeytinyaglari",
@@ -78,6 +102,14 @@
     "url": "https://www.alipekin.com/",
     "region": "Edremit, Balıkesir",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 357,
+    "name": "Altın Hasat (Ülker)",
+    "slug": "altin-hasat",
+    "url": "https://altinhasat.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "market-endustriyel"
   },
   {
     "id": 258,
@@ -160,10 +192,26 @@
     "category": "premium-butik"
   },
   {
+    "id": 365,
+    "name": "Aspro Kastro",
+    "slug": "aspro-kastro",
+    "url": "https://www.asprokastro.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 225,
     "name": "Atölye SO",
     "slug": "atolye-so",
     "url": "https://www.atolyeyeso.com",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 352,
+    "name": "Avilo",
+    "slug": "avilo",
+    "url": "https://www.avilo.com.tr/",
     "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
   },
@@ -174,6 +222,14 @@
     "url": "https://www.aybalorganik.com",
     "region": "Türkiye geneli",
     "category": "organik"
+  },
+  {
+    "id": 360,
+    "name": "Aydoğanlar",
+    "slug": "aydoganlar",
+    "url": "https://www.aydoganlarzeytinyagi.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 320,
@@ -320,6 +376,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 366,
+    "name": "Boztepe",
+    "slug": "boztepe",
+    "url": "https://www.boztepezeytinyagi.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 58,
     "name": "Buta Assos",
     "slug": "buta-assos",
@@ -406,6 +470,14 @@
     "url": "https://www.dandalas.com.tr",
     "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 367,
+    "name": "Dardanos Fine Foods",
+    "slug": "dardanos-fine-foods",
+    "url": "https://dardanosfinefoods.com/",
+    "region": "Türkiye geneli",
+    "category": "premium-butik"
   },
   {
     "id": 121,
@@ -552,6 +624,14 @@
     "category": "organik"
   },
   {
+    "id": 374,
+    "name": "Emek",
+    "slug": "emek",
+    "url": "https://www.emekzeytinyagi.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 167,
     "name": "Eminems Olive Oil",
     "slug": "eminems-olive-oil",
@@ -598,6 +678,14 @@
     "url": "https://www.evliyazadezeytinyagi.com.tr/",
     "region": "Ayvalık, Balıkesir",
     "category": "premium-butik"
+  },
+  {
+    "id": 378,
+    "name": "Ezra Olive Oil",
+    "slug": "ezra-olive-oil",
+    "url": "https://ezraoliveoil.com.tr/",
+    "region": "Mut, Mersin",
+    "category": "organik"
   },
   {
     "id": 141,
@@ -704,6 +792,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 379,
+    "name": "Gedene",
+    "slug": "gedene",
+    "url": "https://www.gedene.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 90,
     "name": "Gemlik Zeytin Evi",
     "slug": "gemlik-zeytin-evi",
@@ -776,6 +872,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 355,
+    "name": "Gülpınar",
+    "slug": "gulpinar",
+    "url": "https://www.gulpinarzeytinyagi.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 126,
     "name": "Gümetepe",
     "slug": "gumetepe",
@@ -805,6 +909,14 @@
     "slug": "halil-esen",
     "url": "https://www.halilesen.com/",
     "region": "Gemlik, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 368,
+    "name": "Harras",
+    "slug": "harras",
+    "url": "https://www.harraszeytinyagi.com/",
+    "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
   },
   {
@@ -888,6 +1000,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 372,
+    "name": "Hızırlar",
+    "slug": "hizirlar",
+    "url": "https://www.hizirlar.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 318,
     "name": "Hiç Urla",
     "slug": "hic-urla",
@@ -952,6 +1072,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 361,
+    "name": "İzorya",
+    "slug": "izorya",
+    "url": "https://www.izorya.com/",
+    "region": "Mut, Mersin",
+    "category": "premium-butik"
+  },
+  {
     "id": 106,
     "name": "Josevia",
     "slug": "josevia",
@@ -984,6 +1112,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 354,
+    "name": "Kandiba",
+    "slug": "kandiba",
+    "url": "https://kandiba.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 285,
     "name": "Karadağ Zeytincilik",
     "slug": "karadag-zeytincilik",
@@ -996,6 +1132,14 @@
     "name": "Karma Olive Oil",
     "slug": "karma-olive-oil",
     "url": "https://www.karmaoliveoil.com",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 363,
+    "name": "Karşı Köyden",
+    "slug": "karsi-koyden",
+    "url": "https://www.karsikoydenzeytin.com/",
     "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
   },
@@ -1048,6 +1192,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 371,
+    "name": "Kekliktepe",
+    "slug": "kekliktepe",
+    "url": "http://www.kekliktepe.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 337,
     "name": "Kesebir",
     "slug": "kesebir",
@@ -1088,6 +1240,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 370,
+    "name": "Kisthene",
+    "slug": "kisthene",
+    "url": "http://www.kisthene.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 328,
     "name": "Kius",
     "slug": "kius",
@@ -1126,6 +1286,14 @@
     "url": "https://www.kokluzeytincilik.com.tr/",
     "region": "Ayvalık, Balıkesir",
     "category": "organik"
+  },
+  {
+    "id": 364,
+    "name": "Körfezim",
+    "slug": "korfezim",
+    "url": "https://www.korfezimzeytinyagi.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 3,
@@ -1256,6 +1424,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 381,
+    "name": "Mazınköy",
+    "slug": "mazinkoy",
+    "url": "https://mazinkoy.com/",
+    "region": "Aydın, Ege",
+    "category": "organik"
+  },
+  {
     "id": 11,
     "name": "Mera Ovası",
     "slug": "mera-ovasi",
@@ -1278,6 +1454,14 @@
     "url": "https://www.metebey.com",
     "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 356,
+    "name": "Midas",
+    "slug": "midas",
+    "url": "https://www.midaszeytinyagi.com/",
+    "region": "Türkiye geneli",
+    "category": "organik"
   },
   {
     "id": 111,
@@ -1400,6 +1584,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 350,
+    "name": "Ne Extra Oleas (Çakalya)",
+    "slug": "ne-extra-oleas",
+    "url": "https://www.neextraoleas.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 64,
     "name": "Nermin Hanım Zeytinliği",
     "slug": "nermin-hanim-zeytinligi",
@@ -1421,6 +1613,22 @@
     "slug": "nilbag",
     "url": "https://nilbagzeytinyaglari.com/",
     "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 353,
+    "name": "Nily",
+    "slug": "nily",
+    "url": "https://nilco.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 377,
+    "name": "Nima Gurme",
+    "slug": "nima-gurme",
+    "url": "https://nimagurme.com/",
+    "region": "Hatay",
     "category": "premium-butik"
   },
   {
@@ -1640,6 +1848,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 349,
+    "name": "Orfion",
+    "slug": "orfion",
+    "url": "https://www.orfion.com.tr/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 246,
     "name": "Orkide",
     "slug": "orkide",
@@ -1744,6 +1960,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 373,
+    "name": "Pınar",
+    "slug": "pinar",
+    "url": "https://www.pinar.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "premium-butik"
+  },
+  {
     "id": 297,
     "name": "Pidasus",
     "slug": "pidasus",
@@ -1824,12 +2048,28 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 348,
+    "name": "Riccolivo",
+    "slug": "riccolivo",
+    "url": "https://www.riccolivo.com/tr/",
+    "region": "Urla, İzmir",
+    "category": "premium-butik"
+  },
+  {
     "id": 215,
     "name": "Riwolli",
     "slug": "riwolli",
     "url": "https://www.riwolli.com",
     "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 369,
+    "name": "Roda Farm",
+    "slug": "roda-farm",
+    "url": "https://www.rodafarm.com/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
   },
   {
     "id": 69,
@@ -1872,6 +2112,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 382,
+    "name": "Sarraf Olive Oil",
+    "slug": "sarraf-olive-oil",
+    "url": "https://www.sarrafoliveoil.com/tr/anasayfa/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 187,
     "name": "SAVOREL",
     "slug": "savorel",
@@ -1904,12 +2152,36 @@
     "category": "premium-butik"
   },
   {
+    "id": 380,
+    "name": "Senole",
+    "slug": "senole",
+    "url": "http://www.senole.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 113,
     "name": "Seosfarm",
     "slug": "seosfarm",
     "url": "https://seosfarm.com/",
     "region": "Seferihisar, İzmir",
     "category": "premium-butik"
+  },
+  {
+    "id": 383,
+    "name": "Seroliva",
+    "slug": "seroliva",
+    "url": "https://www.seroliva.com/",
+    "region": "Aydın, Ege",
+    "category": "organik"
+  },
+  {
+    "id": 376,
+    "name": "Sırım",
+    "slug": "sirim",
+    "url": "https://www.sirimzeytinyagi.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 245,
@@ -2004,6 +2276,14 @@
     "name": "Tayga İyi Gıda",
     "slug": "tayga-iyi-gida",
     "url": "https://www.tayga.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 359,
+    "name": "Teosole",
+    "slug": "teosole",
+    "url": "https://www.teosole.com/",
     "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
   },
@@ -2238,6 +2518,14 @@
     "url": "https://www.yudum.com.tr",
     "region": "İstanbul",
     "category": "market-endustriyel"
+  },
+  {
+    "id": 351,
+    "name": "Z Organik",
+    "slug": "z-organik",
+    "url": "http://www.zeytinyagci.com/",
+    "region": "Türkiye geneli",
+    "category": "organik"
   },
   {
     "id": 247,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:35:55.616Z",
+  "generatedAt": "2026-03-08T20:52:46.590Z",
   "brands": [
     {
       "id": 1,
@@ -3185,6 +3185,286 @@
       "logo": "images/markalar/dizem-organik/dizem-organik-logo.png",
       "bottles": [
         "images/markalar/dizem-organik/dizem-organik-bottle-01-calisma-yuzeyi-1-2x-min.jpg"
+      ]
+    },
+    {
+      "id": 348,
+      "name": "Riccolivo",
+      "slug": "riccolivo",
+      "logo": "images/markalar/riccolivo/riccolivo-logo.png",
+      "bottles": [
+        "images/markalar/riccolivo/riccolivo-bottle-01-cart.png"
+      ]
+    },
+    {
+      "id": 349,
+      "name": "Orfion",
+      "slug": "orfion",
+      "logo": "images/markalar/orfion/orfion-logo.png",
+      "bottles": []
+    },
+    {
+      "id": 350,
+      "name": "Ne Extra Oleas (Çakalya)",
+      "slug": "ne-extra-oleas",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 351,
+      "name": "Z Organik",
+      "slug": "z-organik",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 352,
+      "name": "Avilo",
+      "slug": "avilo",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 353,
+      "name": "Nily",
+      "slug": "nily",
+      "logo": "images/markalar/nily/nily-logo.png",
+      "bottles": []
+    },
+    {
+      "id": 354,
+      "name": "Kandiba",
+      "slug": "kandiba",
+      "logo": "images/markalar/kandiba/kandiba-logo.png",
+      "bottles": [
+        "images/markalar/kandiba/kandiba-bottle-01-full-xelcwc7d.png"
+      ]
+    },
+    {
+      "id": 355,
+      "name": "Gülpınar",
+      "slug": "gulpinar",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 356,
+      "name": "Midas",
+      "slug": "midas",
+      "logo": "images/markalar/midas/midas-logo.png",
+      "bottles": [
+        "images/markalar/midas/midas-bottle-01-527-ana-sayfa-elveda-2500.jpg"
+      ]
+    },
+    {
+      "id": 357,
+      "name": "Altın Hasat (Ülker)",
+      "slug": "altin-hasat",
+      "logo": "images/markalar/altin-hasat/altin-hasat-logo.webp",
+      "bottles": [
+        "images/markalar/altin-hasat/altin-hasat-bottle-01-gallery-01.webp"
+      ]
+    },
+    {
+      "id": 358,
+      "name": "Ahsaf",
+      "slug": "ahsaf",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 359,
+      "name": "Teosole",
+      "slug": "teosole",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 360,
+      "name": "Aydoğanlar",
+      "slug": "aydoganlar",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 361,
+      "name": "İzorya",
+      "slug": "izorya",
+      "logo": "images/markalar/izorya/izorya-logo.png",
+      "bottles": [
+        "images/markalar/izorya/izorya-bottle-01-mansur-yavas-ile-birlikte-yilin-ilk-mut-zeytinyagi-uretimini-gerceklesti.jpg"
+      ]
+    },
+    {
+      "id": 362,
+      "name": "Adalinda",
+      "slug": "adalinda",
+      "logo": "images/markalar/adalinda/adalinda-logo.avif",
+      "bottles": []
+    },
+    {
+      "id": 363,
+      "name": "Karşı Köyden",
+      "slug": "karsi-koyden",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 364,
+      "name": "Körfezim",
+      "slug": "korfezim",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 365,
+      "name": "Aspro Kastro",
+      "slug": "aspro-kastro",
+      "logo": "images/markalar/aspro-kastro/aspro-kastro-logo.png",
+      "bottles": [
+        "images/markalar/aspro-kastro/aspro-kastro-bottle-01-2f016309-8be9-4f0f-a034-fe7aa9bcbe29.jpg"
+      ]
+    },
+    {
+      "id": 366,
+      "name": "Boztepe",
+      "slug": "boztepe",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 367,
+      "name": "Dardanos Fine Foods",
+      "slug": "dardanos-fine-foods",
+      "logo": "images/markalar/dardanos-fine-foods/dardanos-fine-foods-logo.webp",
+      "bottles": []
+    },
+    {
+      "id": 368,
+      "name": "Harras",
+      "slug": "harras",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 369,
+      "name": "Roda Farm",
+      "slug": "roda-farm",
+      "logo": "images/markalar/roda-farm/roda-farm-logo.webp",
+      "bottles": [
+        "images/markalar/roda-farm/roda-farm-bottle-01-ayvalik-sise-naturel-sizma-z-b04e-f.png"
+      ]
+    },
+    {
+      "id": 370,
+      "name": "Kisthene",
+      "slug": "kisthene",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 371,
+      "name": "Kekliktepe",
+      "slug": "kekliktepe",
+      "logo": "images/markalar/kekliktepe/kekliktepe-logo.png",
+      "bottles": []
+    },
+    {
+      "id": 372,
+      "name": "Hızırlar",
+      "slug": "hizirlar",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 373,
+      "name": "Pınar",
+      "slug": "pinar",
+      "logo": "images/markalar/pinar/pinar-logo.png",
+      "bottles": [
+        "images/markalar/pinar/pinar-bottle-01-popup-close-tr.jpg"
+      ]
+    },
+    {
+      "id": 374,
+      "name": "Emek",
+      "slug": "emek",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 375,
+      "name": "Aleli",
+      "slug": "aleli",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 376,
+      "name": "Sırım",
+      "slug": "sirim",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 377,
+      "name": "Nima Gurme",
+      "slug": "nima-gurme",
+      "logo": "images/markalar/nima-gurme/nima-gurme-logo.webp",
+      "bottles": [
+        "images/markalar/nima-gurme/nima-gurme-bottle-01-zeytin-650g-web1-imaj.webp"
+      ]
+    },
+    {
+      "id": 378,
+      "name": "Ezra Olive Oil",
+      "slug": "ezra-olive-oil",
+      "logo": "images/markalar/ezra-olive-oil/ezra-olive-oil-logo.png",
+      "bottles": [
+        "images/markalar/ezra-olive-oil/ezra-olive-oil-bottle-01-popup.jpg"
+      ]
+    },
+    {
+      "id": 379,
+      "name": "Gedene",
+      "slug": "gedene",
+      "logo": "images/markalar/gedene/gedene-logo.jpg",
+      "bottles": [
+        "images/markalar/gedene/gedene-bottle-01-writing-923882-640-150x150.jpg"
+      ]
+    },
+    {
+      "id": 380,
+      "name": "Senole",
+      "slug": "senole",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 381,
+      "name": "Mazınköy",
+      "slug": "mazinkoy",
+      "logo": "images/markalar/mazinkoy/mazinkoy-logo.jpg",
+      "bottles": [
+        "images/markalar/mazinkoy/mazinkoy-bottle-01-zeytinyagi-sabun-247x296.jpg"
+      ]
+    },
+    {
+      "id": 382,
+      "name": "Sarraf Olive Oil",
+      "slug": "sarraf-olive-oil",
+      "logo": "images/markalar/sarraf-olive-oil/sarraf-olive-oil-logo.webp",
+      "bottles": [
+        "images/markalar/sarraf-olive-oil/sarraf-olive-oil-bottle-01-unnamed.webp"
+      ]
+    },
+    {
+      "id": 383,
+      "name": "Seroliva",
+      "slug": "seroliva",
+      "logo": "images/markalar/seroliva/seroliva-logo.avif",
+      "bottles": [
+        "images/markalar/seroliva/seroliva-bottle-01-zeytinyagi.avif"
       ]
     }
   ],

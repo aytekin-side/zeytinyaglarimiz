@@ -16,6 +16,7 @@ const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/
 
 const aliasMap = new Map([
   ['mentese som', 'Osman Menteşe Çiftliği'],
+  ['mentese som ciftlik', 'Osman Menteşe Çiftliği'],
   ['mavras zeytinyagi', 'Mavras'],
   ['anolive zeytinyagi', 'Anolive'],
   ['yudum egemden', 'Yudum'],
@@ -24,8 +25,20 @@ const aliasMap = new Map([
   ['ozgun', 'Özgün Olive'],
   ['ozgun zeytincilik', 'Özgün Olive'],
   ['kursat ayvalik', 'Kürşat'],
+  ['hilmi yildirim', 'Hilmi Yıldırım Zeytinyağları'],
+  ['halil esen zeytincilik', 'Halil Esen'],
+  ['dino', 'Dino Ayvalık'],
+  ['ravla', 'Ravla Gurme'],
+  ['sazak', 'Sazak Zeytincilik'],
+  ['hic reserve', 'Hiç Urla'],
+  ['sokol delice', 'Sokol'],
   ['nova vera', 'NovaVera'],
-  ['mentese som ciftlik', 'Osman Menteşe Çiftliği']
+  ['kilye suvla', 'Kilye'],
+  ['mehmet comert', 'Cömert'],
+  ['bella mordane bella serra', 'Bella Mordane'],
+  ['yasemin hanim', 'Yasemin Hanım Zeytinyağları'],
+  ['tlos olive fenolive', 'Tlos Olive'],
+  ['fenolive', 'Tlos Olive']
 ]);
 
 const industrialNames = new Set([
