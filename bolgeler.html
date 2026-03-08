@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -85,6 +86,27 @@
                 <a class="topic-link" href="topic/zeytin-cesitleri/sari-ulak.html">Sarı Ulak (8)</a>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="brand-map-section">
+    <div class="brand-map-shell">
+        <div class="brand-map-header">
+            <div class="brand-map-copy">
+                <span class="topic-label">Türkiye Haritası</span>
+                <h2>Zeytinyağı Markalarının Konumları</h2>
+                <p>Markaları Türkiye haritası üzerinde logo ve isimleriyle görün. Kamuya açık resmi adres bulunabilen kayıtlar doğrudan işaretlenir; kalan markalar için üretim veya merkez bölgesi kullanılır.</p>
+            </div>
+            <div class="brand-map-actions">
+                <a class="topic-link" href="data/brand-locations.json" target="_blank" rel="noopener">Adres veritabanını aç</a>
+            </div>
+        </div>
+        <div class="brand-map-toolbar">
+            <div class="brand-map-filters" id="brandMapFilters" aria-label="Harita filtreleri"></div>
+            <div class="brand-map-stats" id="brandMapStats" aria-live="polite"></div>
+        </div>
+        <div id="brandMap" class="brand-map-canvas" role="img" aria-label="Türkiye üzerindeki zeytinyağı markaları haritası"></div>
+        <p class="brand-map-note">Haritadaki kartlarda marka logosu ve adı görünür. Tam sokak adresi bulunamayan markalarda kamuya açık bölge merkezi kullanılır ve popup içinde bu durum açıkça belirtilir.</p>
     </div>
 </section>
 
@@ -189,6 +211,7 @@
 </button>
 
 <script src="brands.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 // Mobile nav
 function toggleMobileNav() {
@@ -224,6 +247,28 @@ function getBrandsDataset() {
     if (typeof brands !== 'undefined' && Array.isArray(brands)) return brands;
     if (Array.isArray(window.brands)) return window.brands;
     return null;
+}
+
+function escapeHtml(value) {
+    return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function getBrandLogoFallback(record) {
+    const dataset = getBrandsDataset();
+    if (!Array.isArray(dataset)) return '';
+    const match = dataset.find((brand) => brand.id === record.id);
+    return match && match.logoFallback ? match.logoFallback : '';
+}
+
+function buildBrandLogoImage(record, className) {
+    const fallback = getBrandLogoFallback(record);
+    const fallbackAttr = fallback ? ` data-fallback="${escapeHtml(fallback)}"` : '';
+    return `<img class="${className}" src="${escapeHtml(record.logo)}"${fallbackAttr} alt="${escapeHtml(record.name)}" loading="lazy" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none';">`;
 }
 
 function populateRegionHubLinks() {
@@ -264,6 +309,209 @@ function populateRegionHubLinks() {
     }
 }
 
+function getMapFilterConfig(records) {
+    const base = [
+        { key: 'all', label: 'Tümü' },
+        { key: 'ege', label: 'Ege' },
+        { key: 'marmara', label: 'Marmara' },
+        { key: 'akdeniz', label: 'Akdeniz' },
+        { key: 'guneydogu', label: 'Güneydoğu' },
+        { key: 'trakya', label: 'Trakya' },
+        { key: 'turkiye', label: 'Türkiye Geneli' }
+    ];
+
+    const counts = records.reduce((acc, record) => {
+        acc[record.regionCluster] = (acc[record.regionCluster] || 0) + 1;
+        return acc;
+    }, {});
+
+    return base.filter((item) => item.key === 'all' || counts[item.key]);
+}
+
+function createBrandMapIcon(record) {
+    const stateClass = record.sourceType === 'official' ? 'is-official' : 'is-approximate';
+    return L.divIcon({
+        className: 'brand-map-icon',
+        iconSize: [96, 78],
+        iconAnchor: [48, 78],
+        popupAnchor: [0, -66],
+        html: `
+            <div class="brand-map-pin ${stateClass}">
+                <div class="brand-map-pin-logo">
+                    ${buildBrandLogoImage(record, 'brand-map-marker-image')}
+                </div>
+                <div class="brand-map-pin-name">${escapeHtml(record.name)}</div>
+            </div>
+        `
+    });
+}
+
+function createBrandPopup(record) {
+    const brandUrl = `marka/${encodeURIComponent(record.slug)}.html`;
+    const sourceLink = record.sourceUrl
+        ? `<a href="${escapeHtml(record.sourceUrl)}" target="_blank" rel="noopener">Kaynağı aç</a>`
+        : '';
+    return `
+        <div class="brand-map-popup">
+            <div class="brand-map-popup-head">
+                ${buildBrandLogoImage(record, 'brand-map-popup-image')}
+                <div>
+                    <h3>${escapeHtml(record.name)}</h3>
+                    <p>${escapeHtml(record.regionClusterLabel)}</p>
+                </div>
+            </div>
+            <div class="brand-map-popup-meta">
+                <span>${escapeHtml(record.precisionLabel)}</span>
+                <span>${escapeHtml(record.sourceLabel)}</span>
+            </div>
+            <p class="brand-map-popup-address">${escapeHtml(record.displayAddress)}</p>
+            <div class="brand-map-popup-links">
+                <a href="${brandUrl}">Marka sayfası</a>
+                ${sourceLink}
+            </div>
+        </div>
+    `;
+}
+
+function getOffsetPosition(record, index, total) {
+    if (total <= 1) {
+        return [record.lat, record.lng];
+    }
+
+    const precisionRadius = {
+        street: 0.005,
+        district: 0.012,
+        city: 0.018,
+        region: 0.045,
+        country: 0.08
+    };
+
+    const baseRadius = precisionRadius[record.precision] || 0.012;
+    const ring = Math.floor(index / 8) + 1;
+    const angle = index * 2.399963229728653;
+    const radius = baseRadius * ring;
+
+    return [
+        record.lat + Math.sin(angle) * radius * 0.58,
+        record.lng + Math.cos(angle) * radius
+    ];
+}
+
+function updateBrandMapStats(records, statsElement) {
+    const officialCount = records.filter((record) => record.sourceType === 'official').length;
+    const approximateCount = records.length - officialCount;
+    statsElement.innerHTML = [
+        `<span class="brand-map-stat">${records.length} marka</span>`,
+        `<span class="brand-map-stat">${officialCount} tam adres</span>`,
+        `<span class="brand-map-stat">${approximateCount} bölge merkezi</span>`
+    ].join('');
+}
+
+async function initializeBrandMap() {
+    const mapElement = document.getElementById('brandMap');
+    const filtersElement = document.getElementById('brandMapFilters');
+    const statsElement = document.getElementById('brandMapStats');
+
+    if (!mapElement || typeof L === 'undefined') return;
+
+    try {
+        const response = await fetch('data/brand-locations.json');
+        if (!response.ok) throw new Error(`Harita verisi yüklenemedi: ${response.status}`);
+        const payload = await response.json();
+        const records = Array.isArray(payload.records) ? payload.records : [];
+        if (!records.length) throw new Error('Harita verisi boş.');
+
+        const map = L.map(mapElement, {
+            zoomControl: true,
+            minZoom: 5,
+            maxZoom: 9,
+            maxBounds: [
+                [35.2, 24.8],
+                [42.8, 45.6]
+            ],
+            maxBoundsViscosity: 0.85
+        });
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap katkıcıları'
+        }).addTo(map);
+
+        const markerLayer = L.layerGroup().addTo(map);
+        const filterConfig = getMapFilterConfig(records);
+        let activeFilter = 'all';
+
+        function getVisibleRecords() {
+            if (activeFilter === 'all') return records;
+            return records.filter((record) => record.regionCluster === activeFilter);
+        }
+
+        function renderFilters() {
+            const counts = records.reduce((acc, record) => {
+                acc[record.regionCluster] = (acc[record.regionCluster] || 0) + 1;
+                return acc;
+            }, {});
+
+            filtersElement.innerHTML = filterConfig.map((item) => {
+                const count = item.key === 'all' ? records.length : (counts[item.key] || 0);
+                const activeClass = item.key === activeFilter ? 'active' : '';
+                return `<button class="brand-map-filter ${activeClass}" type="button" data-filter="${item.key}">${item.label} <span>${count}</span></button>`;
+            }).join('');
+
+            filtersElement.querySelectorAll('[data-filter]').forEach((button) => {
+                button.addEventListener('click', () => {
+                    activeFilter = button.dataset.filter;
+                    renderFilters();
+                    renderMarkers();
+                });
+            });
+        }
+
+        function renderMarkers() {
+            markerLayer.clearLayers();
+            const visibleRecords = getVisibleRecords();
+            updateBrandMapStats(visibleRecords, statsElement);
+
+            const groups = new Map();
+            visibleRecords.forEach((record) => {
+                const key = `${record.lat},${record.lng}`;
+                if (!groups.has(key)) groups.set(key, []);
+                groups.get(key).push(record);
+            });
+
+            const bounds = [];
+
+            groups.forEach((groupRecords) => {
+                groupRecords
+                    .slice()
+                    .sort((a, b) => a.name.localeCompare(b.name, 'tr'))
+                    .forEach((record, index) => {
+                        const [lat, lng] = getOffsetPosition(record, index, groupRecords.length);
+                        bounds.push([lat, lng]);
+                        const marker = L.marker([lat, lng], { icon: createBrandMapIcon(record) });
+                        marker.bindPopup(createBrandPopup(record), {
+                            maxWidth: 320,
+                            className: 'brand-map-popup-shell'
+                        });
+                        marker.addTo(markerLayer);
+                    });
+            });
+
+            if (bounds.length) {
+                const latLngBounds = L.latLngBounds(bounds);
+                map.fitBounds(latLngBounds.pad(activeFilter === 'all' ? 0.14 : 0.2), {
+                    maxZoom: activeFilter === 'all' ? 6 : 7
+                });
+            }
+        }
+
+        renderFilters();
+        renderMarkers();
+    } catch (error) {
+        mapElement.innerHTML = `<div class="brand-map-fallback"><strong>Harita yüklenemedi.</strong><span>${escapeHtml(error.message)}</span></div>`;
+    }
+}
+
 // Intersection Observer
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -274,6 +522,7 @@ const observer = new IntersectionObserver((entries) => {
 document.addEventListener('DOMContentLoaded', () => {
     populateRegionHubLinks();
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+    initializeBrandMap();
 });
 </script>
 
