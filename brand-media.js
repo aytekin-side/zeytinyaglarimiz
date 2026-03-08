@@ -1356,5 +1356,161 @@ const brandMedia = {
             "images/markalar/ekozey/ekozey-bottle-02-organik-naturel-sizma.jpg"
         ],
         "info": "Ekozey, Gökçeada Şirinköy tesislerinde adanın doğal zeytinlerini soğuk sıkımla işleyen organik odaklı üreticidir."
+    },
+    "141": {
+        "slug": "fayton",
+        "logo": "images/markalar/fayton/fayton-logo.webp",
+        "bottles": [
+            "images/markalar/fayton/fayton-bottle-01-500-ml-1.webp"
+        ],
+        "info": "Fayton, Ayvalık, Balıkesir bölgesiyle ilişkilendirilen bir zeytinyağı üreticisidir. Ege vurgusuyla erken hasat ve soğuk sıkım natürel sızma zeytinyağı sunan butik üretici."
+    },
+    "142": {
+        "slug": "safitad",
+        "logo": "images/markalar/safitad/safitad-logo.png",
+        "bottles": [
+            "images/markalar/safitad/safitad-bottle-01-erken-750.png"
+        ],
+        "info": "Safitad, Çanakkale bölgesiyle ilişkilendirilen natürel sızma zeytinyağı üreticisidir. Erken hasat, olgun hasat ve private reserve serileri sunar."
+    },
+    "143": {
+        "slug": "funoli",
+        "logo": "images/markalar/funoli/funoli-logo.svg",
+        "bottles": [
+            "images/markalar/funoli/funoli-bottle-01-organik-400x400.jpg"
+        ],
+        "info": "Funoli, Milas, Muğla bölgesindeki Memecik zeytinleriyle ilişkilendirilen butik üreticidir. Soğuk sıkım natürel sızma zeytinyağı sunar."
+    },
+    "144": {
+        "slug": "zagoda",
+        "logo": "images/markalar/zagoda/zagoda-logo.png",
+        "bottles": [
+            "images/markalar/zagoda/zagoda-bottle-01-arbequina-erken-500ml.webp"
+        ],
+        "info": "Zagoda, Akhisar, Manisa ve Kuzey Ege çizgisiyle ilişkilendirilen ödüllü natürel sızma üreticisidir."
+    },
+    "145": {
+        "slug": "asiltane",
+        "logo": "images/markalar/asiltane/asiltane-logo.svg",
+        "bottles": [
+            "images/markalar/asiltane/asiltane-bottle-01-erken-hasat-soguk-sikim-naturel-sizma-zeytinyagi-500-ml-min.jpg"
+        ],
+        "info": "Asiltane, Aydın ve Ege çizgisiyle ilişkilendirilen premium zeytinyağı üreticisidir."
+    },
+    "146": {
+        "slug": "garisar",
+        "logo": "images/markalar/garisar/garisar-logo.svg",
+        "bottles": [
+            "images/markalar/garisar/garisar-bottle-01-garisar-arbequina-high-polyphenol-extra-virgin-olive-oil.webp"
+        ],
+        "info": "Garisar, yüksek polifenollü ve ödüllü natürel sızma seriyle öne çıkan gurme üreticidir."
+    },
+    "147": {
+        "slug": "imbatto",
+        "logo": "",
+        "bottles": [
+            "images/markalar/imbatto/imbatto-bottle-01-urunler-065a.jpg"
+        ],
+        "info": "İmbatto, Ayvalık hattıyla ilişkilendirilen natürel sızma zeytinyağı üreticisidir."
+    },
+    "148": {
+        "slug": "olberg-milet",
+        "logo": "images/markalar/olberg-milet/olberg-milet-logo.png",
+        "bottles": [
+            "images/markalar/olberg-milet/olberg-milet-bottle-01-oelberg-produktbild-memecik-1-200x219.jpg"
+        ],
+        "info": "Ölberg Milet, Milet ve Aydın çizgisinden gelen premium zeytinyağı üreticisidir."
+    },
+    "149": {
+        "slug": "halil-esen",
+        "logo": "images/markalar/halil-esen/halil-esen-logo.webp",
+        "bottles": [
+            "images/markalar/halil-esen/halil-esen-bottle-01-erken-hasat-zeytinyag-370x370.jpg"
+        ],
+        "info": "Halil Esen, Gemlik, Bursa merkezli zeytin ve zeytinyağı üreticisidir."
+    },
+    "150": {
+        "slug": "bozelli",
+        "logo": "images/markalar/bozelli/bozelli-logo.png",
+        "bottles": [
+            "images/markalar/bozelli/bozelli-bottle-01-5-lt-ehss-600x600.jpg"
+        ],
+        "info": "Bozelli, Akhisar, Manisa çıkışlı ödüllü natürel sızma zeytinyağı üreticisidir."
+    },
+    "151": {
+        "slug": "raya-organik",
+        "logo": "images/markalar/raya-organik/raya-organik-logo.webp",
+        "bottles": [
+            "images/markalar/raya-organik/raya-organik-bottle-01-zeytin.jpg"
+        ],
+        "info": "Raya Organik, organik üretim çizgisinde zeytin ve zeytinyağı sunan üreticidir."
+    },
+    "152": {
+        "slug": "zethoveen",
+        "logo": "images/markalar/zethoveen/zethoveen-logo.png",
+        "bottles": [
+            "images/markalar/zethoveen/zethoveen-bottle-01-otizm-zeytinyagi.png"
+        ],
+        "info": "Zethoveen, Aydın ve Ege çizgisiyle ilişkilendirilen premium natürel sızma üreticisidir."
+    },
+    "153": {
+        "slug": "kairos-zeytinevi",
+        "logo": "images/markalar/kairos-zeytinevi/kairos-zeytinevi-logo.png",
+        "bottles": [
+            "images/markalar/kairos-zeytinevi/kairos-zeytinevi-bottle-01-photo-2025-10-21-16-34-52-300x300.jpg"
+        ],
+        "info": "Kairos Zeytinevi, Milas, Muğla çevresinde organik ve erken hasat zeytinyağı üreten butik üreticidir."
+    },
+    "154": {
+        "slug": "osman-mentese-ciftligi",
+        "logo": "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-logo.png",
+        "bottles": [
+            "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-bottle-01-somzeytin06012026.jpg"
+        ],
+        "info": "Osman Menteşe Çiftliği, Milas, Muğla bölgesindeki Memecik zeytinleriyle ilişkilendirilen butik üreticidir."
+    },
+    "155": {
+        "slug": "villa-turqan",
+        "logo": "images/markalar/villa-turqan/villa-turqan-logo.webp",
+        "bottles": [
+            "images/markalar/villa-turqan/villa-turqan-bottle-01-yeni-sezon-500-ml-erken-hasat-soguk-sikim-memecik-naturel-sizma-zeytinya.webp"
+        ],
+        "info": "Villa Turqan, Ayvalık ve Ege hattında butik seri hazırlayan natürel sızma üreticisidir."
+    },
+    "156": {
+        "slug": "ravla-gurme",
+        "logo": "images/markalar/ravla-gurme/ravla-gurme-logo.webp",
+        "bottles": [
+            "images/markalar/ravla-gurme/ravla-gurme-bottle-01-organik5l-on.webp"
+        ],
+        "info": "Ravla Gurme, Ege çıkışlı yüksek polifenollü ve gurme seçki odaklı zeytinyağı üreticisidir."
+    },
+    "157": {
+        "slug": "oliva-malia",
+        "logo": "images/markalar/oliva-malia/oliva-malia-logo.png",
+        "bottles": [
+            "images/markalar/oliva-malia/oliva-malia-bottle-01-naturel-sizma-zeytinyagi-2-lt-soguk-si-db07cc.webp"
+        ],
+        "info": "Oliva Malia, Karaburun Yarımadası çizgisinde natürel sızma zeytinyağı sunan butik üreticidir."
+    },
+    "158": {
+        "slug": "meray",
+        "logo": "",
+        "bottles": [],
+        "info": "Meray, Aydın-Çine hattında organik tarım ve zeytinyağı üretimi yapan bir üreticidir."
+    },
+    "159": {
+        "slug": "tuay",
+        "logo": "images/markalar/tuay/tuay-logo.png",
+        "bottles": [
+            "images/markalar/tuay/tuay-bottle-01-500cc-koyu-renk-cam-sise-organik-icimlik-naturel-sizma-zeytinyagi-385x46.jpg"
+        ],
+        "info": "Tuay, Milas ve Güney Ege çizgisinde organik natürel sızma üretim yapan bir üreticidir."
+    },
+    "160": {
+        "slug": "true-olive",
+        "logo": "",
+        "bottles": [],
+        "info": "True Olive, Çanakkale hattında ödüllü premium natürel sızma zeytinyağı sunan bir üreticidir."
     }
 };

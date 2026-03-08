@@ -47,6 +47,14 @@ const brandSceneMedia = {
     license: 'CC BY 4.0',
     artist: 'Olivier Dugornay (IFREMER, Pôle Images, Centre Bretagne - ZI de la Pointe du Diable - CS 10070 - 29280 Plouzané, France)'
   },
+  'asiltane': {
+    src: 'images/markalar/asiltane/asiltane-scene-mogens-ege-sommerlandskab-fra-den-romerske-campagne.png',
+    alt: 'Aydın çevresinden doğal görünüm',
+    title: 'Summer landscape from Lazio.',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mogens_Ege_-_Sommerlandskab_fra_den_romerske_Campagne.png',
+    license: 'Public domain',
+    artist: 'Mogens Ege'
+  },
   'ayla-zeytinyagi': {
     src: 'images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-scene-ayvalik-seitan-panorama.jpg',
     alt: 'Ayvalık çevresinden doğal görünüm',
@@ -110,6 +118,14 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:S%C4%B1%C4%9Fac%C4%B1k_panorama_04.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'BSRF'
+  },
+  'bozelli': {
+    src: 'images/markalar/bozelli/bozelli-scene-fallback-6.jpg',
+    alt: 'Akhisar çevresinden doğal görünüm',
+    title: 'Akhisar, Manisa için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1915_%C3%87anakkale_Bridge_20220327.jpg',
+    license: 'Public domain',
+    artist: 'Zafer'
   },
   'bumba-zeytinyagi': {
     src: 'images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-scene-fallback-6.jpg',
@@ -239,6 +255,14 @@ const brandSceneMedia = {
     license: 'CC BY-SA 3.0',
     artist: 'Ggia'
   },
+  'fayton': {
+    src: 'images/markalar/fayton/fayton-scene-fallback-12.jpg',
+    alt: 'Ayvalık çevresinden doğal görünüm',
+    title: 'Ayvalık, Balıkesir için görünüm',
+    sourceUrl: '',
+    license: '',
+    artist: ''
+  },
   'fethi-celik': {
     src: 'images/markalar/fethi-celik/fethi-celik-scene-fallback-4.jpg',
     alt: 'Gemlik çevresinden doğal görünüm',
@@ -246,6 +270,14 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pano_Bursa.jpg',
     license: 'CC BY 3.0',
     artist: 'Eusebius'
+  },
+  'funoli': {
+    src: 'images/markalar/funoli/funoli-scene-fallback-2.jpg',
+    alt: 'Milas çevresinden doğal görünüm',
+    title: 'Milas, Muğla için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Ayvalik_Seitan_Panorama.JPG',
+    license: 'CC BY-SA 3.0',
+    artist: 'Commons-Fronobulax'
   },
   'gaia-oliva': {
     src: 'images/markalar/gaia-oliva/gaia-oliva-scene-ayvalik-views-from-uphill-in-2004-11-panorama.jpg',
@@ -270,6 +302,14 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Olive_groves_in_G%C3%B6me%C3%A7,_Bal%C4%B1kesir_Province.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'Maurice Flesier'
+  },
+  'garisar': {
+    src: 'images/markalar/garisar/garisar-scene-fallback-4.jpg',
+    alt: 'Ege Bölgesi çevresinden doğal görünüm',
+    title: 'Ege Bölgesi için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Edremit,_landscape_around_the_town.jpg',
+    license: 'CC BY 3.0',
+    artist: 'Dguendel'
   },
   'gemlik-zeytin-evi': {
     src: 'images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-scene-panorama-of-bursa.jpg',
@@ -327,6 +367,14 @@ const brandSceneMedia = {
     license: 'CC BY-SA 4.0',
     artist: 'BSRF'
   },
+  'halil-esen': {
+    src: 'images/markalar/halil-esen/halil-esen-scene-fallback-5.jpg',
+    alt: 'Gemlik çevresinden doğal görünüm',
+    title: 'Gemlik, Bursa için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mer_de_Marmara_et_ville_d%27Istanbul_au_lever_du_jour_(Ifremer_00789-90073_-_50369).jpg',
+    license: 'CC BY 4.0',
+    artist: 'Olivier Dugornay (IFREMER, Pôle Images, Centre Bretagne - ZI de la Pointe du Diable - CS 10070 - 29280 Plouzané, France)'
+  },
   'hasat': {
     src: 'images/markalar/hasat/hasat-scene-fallback-1.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve zeytinlik görünümü',
@@ -375,21 +423,29 @@ const brandSceneMedia = {
     license: 'CC BY-SA 3.0',
     artist: 'Commons-Fronobulax'
   },
+  'imbatto': {
+    src: 'images/markalar/imbatto/imbatto-scene-fallback-5.jpg',
+    alt: 'Ayvalık çevresinden doğal görünüm',
+    title: 'Ayvalık, Balıkesir için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_of_Ayvalik_Old_Town_and_Harbor_-_Ayvalik_-_Turkey_(5747683306).jpg',
+    license: 'CC BY-SA 2.0',
+    artist: 'Adam Jones from Kelowna, BC, Canada'
+  },
   'izmir-birlik': {
-    src: 'images/markalar/izmir-birlik/izmir-birlik-scene-landscape-izmir.jpg',
+    src: 'images/markalar/izmir-birlik/izmir-birlik-scene-landscape-izmir-2.jpg',
+    alt: 'İzmir çevresinden doğal görünüm',
+    title: 'Landscape, Izmir (2)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Landscape,_Izmir_(2).jpg',
+    license: 'CC BY-SA 3.0',
+    artist: 'CherryX'
+  },
+  'izmir-pinari': {
+    src: 'images/markalar/izmir-pinari/izmir-pinari-scene-landscape-izmir.jpg',
     alt: 'İzmir çevresinden doğal görünüm',
     title: 'Landscape, Izmir',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Landscape,_Izmir.jpg',
     license: 'CC BY-SA 3.0',
     artist: 'CherryX'
-  },
-  'izmir-pinari': {
-    src: 'images/markalar/izmir-pinari/izmir-pinari-scene-sea-view-from-izmir-turkey.jpg',
-    alt: 'İzmir çevresinden doğal görünüm',
-    title: 'Sea View from Izmır, Turkey',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Sea_View_from_Izm%C4%B1r,_Turkey.jpg',
-    license: 'CC0',
-    artist: 'Gizempsy'
   },
   'josevia': {
     src: 'images/markalar/josevia/josevia-scene-fallback-6.jpg',
@@ -406,6 +462,14 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Be%C3%A7in_fortress_view_of_Milas_5256.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'Dosseman'
+  },
+  'kairos-zeytinevi': {
+    src: 'images/markalar/kairos-zeytinevi/kairos-zeytinevi-scene-fallback-9.jpg',
+    alt: 'Milas çevresinde zeytin ağaçları ve zeytinlik görünümü',
+    title: 'Milas, Muğla için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Olive_Tree@Ayval%C4%B1k_-_panoramio.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: 'collage bird\'s eye v…'
   },
   'karsibag': {
     src: 'images/markalar/karsibag/karsibag-scene-fallback-3.jpg',
@@ -480,12 +544,12 @@ const brandSceneMedia = {
     artist: 'collage bird\'s eye v…'
   },
   'kristal': {
-    src: 'images/markalar/kristal/kristal-scene-izmir-view-from-citadel-panorama-2406.jpg',
+    src: 'images/markalar/kristal/kristal-scene-sigacik-panorama-02.jpg',
     alt: 'İzmir çevresinden doğal görünüm',
-    title: 'Izmir view from citadel Panorama 2406',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Izmir_view_from_citadel_Panorama_2406.jpg',
+    title: 'Sığacık panorama 02',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:S%C4%B1%C4%9Fac%C4%B1k_panorama_02.jpg',
     license: 'CC BY-SA 4.0',
-    artist: 'Dosseman'
+    artist: 'BSRF'
   },
   'kucukbahce': {
     src: 'images/markalar/kucukbahce/kucukbahce-scene-izmir-view-from-citadel-panorama-2414.jpg',
@@ -520,12 +584,12 @@ const brandSceneMedia = {
     artist: 'Adam Jones from Kelowna, BC, Canada'
   },
   'luna': {
-    src: 'images/markalar/luna/luna-scene-sigacik-panorama-02.jpg',
+    src: 'images/markalar/luna/luna-scene-sea-view-from-izmir-turkey.jpg',
     alt: 'İzmir çevresinden doğal görünüm',
-    title: 'Sığacık panorama 02',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:S%C4%B1%C4%9Fac%C4%B1k_panorama_02.jpg',
-    license: 'CC BY-SA 4.0',
-    artist: 'BSRF'
+    title: 'Sea View from Izmır, Turkey',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Sea_View_from_Izm%C4%B1r,_Turkey.jpg',
+    license: 'CC0',
+    artist: 'Gizempsy'
   },
   'macaroglu': {
     src: 'images/markalar/macaroglu/macaroglu-scene-fallback-2.jpg',
@@ -574,6 +638,14 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Olive_groves_in_G%C3%B6me%C3%A7.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'Maurice Flesier'
+  },
+  'meray': {
+    src: 'images/markalar/meray/meray-scene-fallback-1.jpg',
+    alt: 'Aydın çevresinde zeytin ağaçları ve zeytinlik görünümü',
+    title: 'Aydın, Ege için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Olives_Of_Cunda.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'Ahmet Ali Arslan'
   },
   'milas-zeytinyaglari': {
     src: 'images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-scene-becin-fortress-view-of-milas-5259.jpg',
@@ -695,6 +767,14 @@ const brandSceneMedia = {
     license: 'CC BY-SA 4.0',
     artist: 'Dosseman'
   },
+  'olberg-milet': {
+    src: 'images/markalar/olberg-milet/olberg-milet-scene-mogens-ege-sommerlandskab-fra-monte-pincio-1923.png',
+    alt: 'Aydın çevresinden doğal görünüm',
+    title: 'Summer landscape at Monte Pincio, Rome.',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mogens_Ege_-_Sommerlandskab_fra_Monte_Pincio_-_1923.png',
+    license: 'Public domain',
+    artist: 'Mogens Ege'
+  },
   'olea-prilis': {
     src: 'images/markalar/olea-prilis/olea-prilis-scene-fallback-11.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve zeytinlik görünümü',
@@ -742,6 +822,14 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
+  },
+  'oliva-malia': {
+    src: 'images/markalar/oliva-malia/oliva-malia-scene-izmir-view-from-citadel-panorama-2406.jpg',
+    alt: 'Karaburun çevresinden doğal görünüm',
+    title: 'Izmir view from citadel Panorama 2406',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Izmir_view_from_citadel_Panorama_2406.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'Dosseman'
   },
   'olivamore': {
     src: 'images/markalar/olivamore/olivamore-scene-fallback-2.jpg',
@@ -815,6 +903,14 @@ const brandSceneMedia = {
     license: 'CC BY-SA 2.0',
     artist: 'Adam Jones from Kelowna, BC, Canada'
   },
+  'osman-mentese-ciftligi': {
+    src: 'images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-scene-fallback-10.jpg',
+    alt: 'Milas çevresinde zeytin ağaçları ve zeytinlik görünümü',
+    title: 'Milas, Muğla için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Olive_groves_in_G%C3%B6me%C3%A7,_Bal%C4%B1kesir_Province.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'Maurice Flesier'
+  },
   'ove-foods': {
     src: 'images/markalar/ove-foods/ove-foods-scene-fallback-12.jpg',
     alt: 'Aydın çevresinden doğal görünüm',
@@ -863,10 +959,34 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Dguendel'
   },
+  'ravla-gurme': {
+    src: 'images/markalar/ravla-gurme/ravla-gurme-scene-fallback-12.jpg',
+    alt: 'Ege Bölgesi çevresinden doğal görünüm',
+    title: 'Ege Bölgesi için görünüm',
+    sourceUrl: '',
+    license: '',
+    artist: ''
+  },
+  'raya-organik': {
+    src: 'images/markalar/raya-organik/raya-organik-scene-fallback-7.jpg',
+    alt: 'Aydın çevresinden doğal görünüm',
+    title: 'Aydın, Ege için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:S%C4%B1%C4%9Fac%C4%B1k_panorama_04.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'BSRF'
+  },
   'sabuncugil': {
     src: 'images/markalar/sabuncugil/sabuncugil-scene-fallback-1.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve zeytinlik görünümü',
     title: 'Ayvalık, Balıkesir için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Olives_Of_Cunda.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'Ahmet Ali Arslan'
+  },
+  'safitad': {
+    src: 'images/markalar/safitad/safitad-scene-fallback-1.jpg',
+    alt: 'Çanakkale çevresinde zeytin ağaçları ve zeytinlik görünümü',
+    title: 'Çanakkale için görünüm',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Olives_Of_Cunda.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'Ahmet Ali Arslan'
@@ -967,6 +1087,22 @@ const brandSceneMedia = {
     license: 'CC BY-SA 3.0',
     artist: 'User:Darwinek'
   },
+  'true-olive': {
+    src: 'images/markalar/true-olive/true-olive-scene-fallback-3.jpg',
+    alt: 'Çanakkale çevresinden doğal görünüm',
+    title: 'Çanakkale için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Izmir_view_from_citadel_Panorama_2387.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'Dosseman'
+  },
+  'tuay': {
+    src: 'images/markalar/tuay/tuay-scene-fallback-2.jpg',
+    alt: 'Milas çevresinden doğal görünüm',
+    title: 'Milas, Muğla için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Ayvalik_Seitan_Panorama.JPG',
+    license: 'CC BY-SA 3.0',
+    artist: 'Commons-Fronobulax'
+  },
   'uygur-zeytinyagi': {
     src: 'images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-scene-nizip-zeytini-img-0877.jpg',
     alt: 'Nizip çevresinde zeytin ağaçları ve zeytinlik görünümü',
@@ -990,6 +1126,14 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:%C5%9Eeytan_Sofras%C4%B1.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'Yigitylnz'
+  },
+  'villa-turqan': {
+    src: 'images/markalar/villa-turqan/villa-turqan-scene-fallback-11.jpg',
+    alt: 'Ayvalık çevresinde zeytin ağaçları ve zeytinlik görünümü',
+    title: 'Ayvalık, Balıkesir için görünüm',
+    sourceUrl: '',
+    license: '',
+    artist: ''
   },
   'vita': {
     src: 'images/markalar/vita/vita-scene-fallback-1.jpg',
@@ -1031,6 +1175,14 @@ const brandSceneMedia = {
     license: 'CC BY 4.0',
     artist: 'Acediscovery'
   },
+  'zagoda': {
+    src: 'images/markalar/zagoda/zagoda-scene-fallback-3.jpg',
+    alt: 'Akhisar çevresinden doğal görünüm',
+    title: 'Akhisar, Manisa için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Izmir_view_from_citadel_Panorama_2387.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'Dosseman'
+  },
   'zenolive': {
     src: 'images/markalar/zenolive/zenolive-scene-fallback-8.jpg',
     alt: 'Edremit çevresinden doğal görünüm',
@@ -1046,6 +1198,14 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Edremit,_landscape_around_the_town.jpg',
     license: 'CC BY 3.0',
     artist: 'Dguendel'
+  },
+  'zethoveen': {
+    src: 'images/markalar/zethoveen/zethoveen-scene-fallback-8.jpg',
+    alt: 'Aydın çevresinden doğal görünüm',
+    title: 'Aydın, Ege için görünüm',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Be%C3%A7in_fortress_view_of_Milas_5255.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: 'Dosseman'
   },
   'zetiya': {
     src: 'images/markalar/zetiya/zetiya-scene-fallback-1.jpg',

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T16:47:57.141Z",
+  "generatedAt": "2026-03-08T19:43:07.367Z",
   "brands": [
     {
       "id": 1,
@@ -1497,6 +1497,182 @@
         "images/markalar/ekozey/ekozey-bottle-01-organik-naturel-sizma.jpg",
         "images/markalar/ekozey/ekozey-bottle-02-organik-naturel-sizma.jpg"
       ]
+    },
+    {
+      "id": 141,
+      "name": "Fayton",
+      "slug": "fayton",
+      "logo": "images/markalar/fayton/fayton-logo.webp",
+      "bottles": [
+        "images/markalar/fayton/fayton-bottle-01-500-ml-1.webp"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Safitad",
+      "slug": "safitad",
+      "logo": "images/markalar/safitad/safitad-logo.png",
+      "bottles": [
+        "images/markalar/safitad/safitad-bottle-01-erken-750.png"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Funoli",
+      "slug": "funoli",
+      "logo": "images/markalar/funoli/funoli-logo.svg",
+      "bottles": [
+        "images/markalar/funoli/funoli-bottle-01-organik-400x400.jpg"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Zagoda",
+      "slug": "zagoda",
+      "logo": "images/markalar/zagoda/zagoda-logo.png",
+      "bottles": [
+        "images/markalar/zagoda/zagoda-bottle-01-arbequina-erken-500ml.webp"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Asiltane",
+      "slug": "asiltane",
+      "logo": "images/markalar/asiltane/asiltane-logo.svg",
+      "bottles": [
+        "images/markalar/asiltane/asiltane-bottle-01-erken-hasat-soguk-sikim-naturel-sizma-zeytinyagi-500-ml-min.jpg"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Garisar",
+      "slug": "garisar",
+      "logo": "images/markalar/garisar/garisar-logo.svg",
+      "bottles": [
+        "images/markalar/garisar/garisar-bottle-01-garisar-arbequina-high-polyphenol-extra-virgin-olive-oil.webp"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "İmbatto",
+      "slug": "imbatto",
+      "logo": null,
+      "bottles": [
+        "images/markalar/imbatto/imbatto-bottle-01-urunler-065a.jpg"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Ölberg Milet",
+      "slug": "olberg-milet",
+      "logo": "images/markalar/olberg-milet/olberg-milet-logo.png",
+      "bottles": [
+        "images/markalar/olberg-milet/olberg-milet-bottle-01-oelberg-produktbild-memecik-1-200x219.jpg"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Halil Esen",
+      "slug": "halil-esen",
+      "logo": "images/markalar/halil-esen/halil-esen-logo.webp",
+      "bottles": [
+        "images/markalar/halil-esen/halil-esen-bottle-01-erken-hasat-zeytinyag-370x370.jpg"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Bozelli",
+      "slug": "bozelli",
+      "logo": "images/markalar/bozelli/bozelli-logo.png",
+      "bottles": [
+        "images/markalar/bozelli/bozelli-bottle-01-5-lt-ehss-600x600.jpg"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Raya Organik",
+      "slug": "raya-organik",
+      "logo": "images/markalar/raya-organik/raya-organik-logo.webp",
+      "bottles": [
+        "images/markalar/raya-organik/raya-organik-bottle-01-zeytin.jpg"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Zethoveen",
+      "slug": "zethoveen",
+      "logo": "images/markalar/zethoveen/zethoveen-logo.png",
+      "bottles": [
+        "images/markalar/zethoveen/zethoveen-bottle-01-otizm-zeytinyagi.png"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Kairos Zeytinevi",
+      "slug": "kairos-zeytinevi",
+      "logo": "images/markalar/kairos-zeytinevi/kairos-zeytinevi-logo.png",
+      "bottles": [
+        "images/markalar/kairos-zeytinevi/kairos-zeytinevi-bottle-01-photo-2025-10-21-16-34-52-300x300.jpg"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Osman Menteşe Çiftliği",
+      "slug": "osman-mentese-ciftligi",
+      "logo": "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-logo.png",
+      "bottles": [
+        "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-bottle-01-somzeytin06012026.jpg"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Villa Turqan",
+      "slug": "villa-turqan",
+      "logo": "images/markalar/villa-turqan/villa-turqan-logo.webp",
+      "bottles": [
+        "images/markalar/villa-turqan/villa-turqan-bottle-01-yeni-sezon-500-ml-erken-hasat-soguk-sikim-memecik-naturel-sizma-zeytinya.webp"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Ravla Gurme",
+      "slug": "ravla-gurme",
+      "logo": "images/markalar/ravla-gurme/ravla-gurme-logo.webp",
+      "bottles": [
+        "images/markalar/ravla-gurme/ravla-gurme-bottle-01-organik5l-on.webp"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Oliva Malia",
+      "slug": "oliva-malia",
+      "logo": "images/markalar/oliva-malia/oliva-malia-logo.png",
+      "bottles": [
+        "images/markalar/oliva-malia/oliva-malia-bottle-01-naturel-sizma-zeytinyagi-2-lt-soguk-si-db07cc.webp"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Meray",
+      "slug": "meray",
+      "logo": null,
+      "bottles": []
+    },
+    {
+      "id": 159,
+      "name": "Tuay",
+      "slug": "tuay",
+      "logo": "images/markalar/tuay/tuay-logo.png",
+      "bottles": [
+        "images/markalar/tuay/tuay-bottle-01-500cc-koyu-renk-cam-sise-organik-icimlik-naturel-sizma-zeytinyagi-385x46.jpg"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "True Olive",
+      "slug": "true-olive",
+      "logo": null,
+      "bottles": []
     }
   ],
   "failures": []

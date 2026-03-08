@@ -644,23 +644,50 @@
     "artist": "Adam Jones from Kelowna, BC, Canada",
     "query": "Gökçeada landscape"
   },
-  "kristal": {
-    "src": "images/markalar/kristal/kristal-scene-izmir-view-from-citadel-panorama-2406.jpg",
-    "alt": "İzmir çevresinden doğal görünüm",
+  "asiltane": {
+    "src": "images/markalar/asiltane/asiltane-scene-mogens-ege-sommerlandskab-fra-den-romerske-campagne.png",
+    "alt": "Aydın çevresinden doğal görünüm",
+    "title": "Summer landscape from Lazio.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogens_Ege_-_Sommerlandskab_fra_den_romerske_Campagne.png",
+    "license": "Public domain",
+    "artist": "Mogens Ege",
+    "query": "Ege landscape"
+  },
+  "olberg-milet": {
+    "src": "images/markalar/olberg-milet/olberg-milet-scene-mogens-ege-sommerlandskab-fra-monte-pincio-1923.png",
+    "alt": "Aydın çevresinden doğal görünüm",
+    "title": "Summer landscape at Monte Pincio, Rome.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogens_Ege_-_Sommerlandskab_fra_Monte_Pincio_-_1923.png",
+    "license": "Public domain",
+    "artist": "Mogens Ege",
+    "query": "Ege landscape"
+  },
+  "oliva-malia": {
+    "src": "images/markalar/oliva-malia/oliva-malia-scene-izmir-view-from-citadel-panorama-2406.jpg",
+    "alt": "Karaburun çevresinden doğal görünüm",
     "title": "Izmir view from citadel Panorama 2406",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Izmir_view_from_citadel_Panorama_2406.jpg",
     "license": "CC BY-SA 4.0",
     "artist": "Dosseman",
     "query": "İzmir panorama"
   },
-  "luna": {
-    "src": "images/markalar/luna/luna-scene-sigacik-panorama-02.jpg",
+  "kristal": {
+    "src": "images/markalar/kristal/kristal-scene-sigacik-panorama-02.jpg",
     "alt": "İzmir çevresinden doğal görünüm",
     "title": "Sığacık panorama 02",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C4%B1%C4%9Fac%C4%B1k_panorama_02.jpg",
     "license": "CC BY-SA 4.0",
     "artist": "BSRF",
     "query": "Seferihisar İzmir panorama"
+  },
+  "luna": {
+    "src": "images/markalar/luna/luna-scene-sea-view-from-izmir-turkey.jpg",
+    "alt": "İzmir çevresinden doğal görünüm",
+    "title": "Sea View from Izmır, Turkey",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_View_from_Izm%C4%B1r,_Turkey.jpg",
+    "license": "CC0",
+    "artist": "Gizempsy",
+    "query": "İzmir landscape"
   },
   "yudum": {
     "src": "images/markalar/yudum/yudum-scene-panorama-view-istanbul-october-2012.jpg",
@@ -681,12 +708,12 @@
     "query": "İstanbul panorama"
   },
   "izmir-pinari": {
-    "src": "images/markalar/izmir-pinari/izmir-pinari-scene-sea-view-from-izmir-turkey.jpg",
+    "src": "images/markalar/izmir-pinari/izmir-pinari-scene-landscape-izmir.jpg",
     "alt": "İzmir çevresinden doğal görünüm",
-    "title": "Sea View from Izmır, Turkey",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_View_from_Izm%C4%B1r,_Turkey.jpg",
-    "license": "CC0",
-    "artist": "Gizempsy",
+    "title": "Landscape, Izmir",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape,_Izmir.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "CherryX",
     "query": "İzmir landscape"
   },
   "olivos": {
@@ -708,10 +735,10 @@
     "query": "İstanbul landscape"
   },
   "izmir-birlik": {
-    "src": "images/markalar/izmir-birlik/izmir-birlik-scene-landscape-izmir.jpg",
+    "src": "images/markalar/izmir-birlik/izmir-birlik-scene-landscape-izmir-2.jpg",
     "alt": "İzmir çevresinden doğal görünüm",
-    "title": "Landscape, Izmir",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape,_Izmir.jpg",
+    "title": "Landscape, Izmir (2)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape,_Izmir_(2).jpg",
     "license": "CC BY-SA 3.0",
     "artist": "CherryX",
     "query": "İzmir landscape"
@@ -1196,5 +1223,141 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pano_Bursa.jpg",
     "license": "CC BY 3.0",
     "artist": "Eusebius"
+  },
+  "fayton": {
+    "src": "images/markalar/fayton/fayton-scene-fallback-12.jpg",
+    "alt": "Ayvalık çevresinden doğal görünüm",
+    "title": "Ayvalık, Balıkesir için görünüm",
+    "sourceUrl": "",
+    "license": "",
+    "artist": ""
+  },
+  "safitad": {
+    "src": "images/markalar/safitad/safitad-scene-fallback-1.jpg",
+    "alt": "Çanakkale çevresinde zeytin ağaçları ve zeytinlik görünümü",
+    "title": "Çanakkale için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olives_Of_Cunda.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ahmet Ali Arslan"
+  },
+  "funoli": {
+    "src": "images/markalar/funoli/funoli-scene-fallback-2.jpg",
+    "alt": "Milas çevresinden doğal görünüm",
+    "title": "Milas, Muğla için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayvalik_Seitan_Panorama.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Commons-Fronobulax"
+  },
+  "zagoda": {
+    "src": "images/markalar/zagoda/zagoda-scene-fallback-3.jpg",
+    "alt": "Akhisar çevresinden doğal görünüm",
+    "title": "Akhisar, Manisa için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Izmir_view_from_citadel_Panorama_2387.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman"
+  },
+  "garisar": {
+    "src": "images/markalar/garisar/garisar-scene-fallback-4.jpg",
+    "alt": "Ege Bölgesi çevresinden doğal görünüm",
+    "title": "Ege Bölgesi için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edremit,_landscape_around_the_town.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Dguendel"
+  },
+  "imbatto": {
+    "src": "images/markalar/imbatto/imbatto-scene-fallback-5.jpg",
+    "alt": "Ayvalık çevresinden doğal görünüm",
+    "title": "Ayvalık, Balıkesir için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ayvalik_Old_Town_and_Harbor_-_Ayvalik_-_Turkey_(5747683306).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Adam Jones from Kelowna, BC, Canada"
+  },
+  "halil-esen": {
+    "src": "images/markalar/halil-esen/halil-esen-scene-fallback-5.jpg",
+    "alt": "Gemlik çevresinden doğal görünüm",
+    "title": "Gemlik, Bursa için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mer_de_Marmara_et_ville_d%27Istanbul_au_lever_du_jour_(Ifremer_00789-90073_-_50369).jpg",
+    "license": "CC BY 4.0",
+    "artist": "Olivier Dugornay (IFREMER, Pôle Images, Centre Bretagne - ZI de la Pointe du Diable - CS 10070 - 29280 Plouzané, France)"
+  },
+  "bozelli": {
+    "src": "images/markalar/bozelli/bozelli-scene-fallback-6.jpg",
+    "alt": "Akhisar çevresinden doğal görünüm",
+    "title": "Akhisar, Manisa için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1915_%C3%87anakkale_Bridge_20220327.jpg",
+    "license": "Public domain",
+    "artist": "Zafer"
+  },
+  "raya-organik": {
+    "src": "images/markalar/raya-organik/raya-organik-scene-fallback-7.jpg",
+    "alt": "Aydın çevresinden doğal görünüm",
+    "title": "Aydın, Ege için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C4%B1%C4%9Fac%C4%B1k_panorama_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "BSRF"
+  },
+  "zethoveen": {
+    "src": "images/markalar/zethoveen/zethoveen-scene-fallback-8.jpg",
+    "alt": "Aydın çevresinden doğal görünüm",
+    "title": "Aydın, Ege için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Be%C3%A7in_fortress_view_of_Milas_5255.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman"
+  },
+  "kairos-zeytinevi": {
+    "src": "images/markalar/kairos-zeytinevi/kairos-zeytinevi-scene-fallback-9.jpg",
+    "alt": "Milas çevresinde zeytin ağaçları ve zeytinlik görünümü",
+    "title": "Milas, Muğla için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olive_Tree@Ayval%C4%B1k_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "collage bird's eye v…"
+  },
+  "osman-mentese-ciftligi": {
+    "src": "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-scene-fallback-10.jpg",
+    "alt": "Milas çevresinde zeytin ağaçları ve zeytinlik görünümü",
+    "title": "Milas, Muğla için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olive_groves_in_G%C3%B6me%C3%A7,_Bal%C4%B1kesir_Province.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Maurice Flesier"
+  },
+  "villa-turqan": {
+    "src": "images/markalar/villa-turqan/villa-turqan-scene-fallback-11.jpg",
+    "alt": "Ayvalık çevresinde zeytin ağaçları ve zeytinlik görünümü",
+    "title": "Ayvalık, Balıkesir için görünüm",
+    "sourceUrl": "",
+    "license": "",
+    "artist": ""
+  },
+  "ravla-gurme": {
+    "src": "images/markalar/ravla-gurme/ravla-gurme-scene-fallback-12.jpg",
+    "alt": "Ege Bölgesi çevresinden doğal görünüm",
+    "title": "Ege Bölgesi için görünüm",
+    "sourceUrl": "",
+    "license": "",
+    "artist": ""
+  },
+  "meray": {
+    "src": "images/markalar/meray/meray-scene-fallback-1.jpg",
+    "alt": "Aydın çevresinde zeytin ağaçları ve zeytinlik görünümü",
+    "title": "Aydın, Ege için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olives_Of_Cunda.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ahmet Ali Arslan"
+  },
+  "tuay": {
+    "src": "images/markalar/tuay/tuay-scene-fallback-2.jpg",
+    "alt": "Milas çevresinden doğal görünüm",
+    "title": "Milas, Muğla için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayvalik_Seitan_Panorama.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Commons-Fronobulax"
+  },
+  "true-olive": {
+    "src": "images/markalar/true-olive/true-olive-scene-fallback-3.jpg",
+    "alt": "Çanakkale çevresinden doğal görünüm",
+    "title": "Çanakkale için görünüm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Izmir_view_from_citadel_Panorama_2387.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman"
   }
 }
