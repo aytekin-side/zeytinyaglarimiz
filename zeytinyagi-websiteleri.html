@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeytinyağı Websiteleri | Zeytinyağlarımız</title>
+    <meta name="description" content="Türkiye'deki zeytinyağı markalarının resmi websitelerini rastgele keşfedin ve yeni sekmede hızlıca açın.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://zeytinyaglarimiz.com/zeytinyagi-websiteleri.html">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+            <img src="logo.png" alt="Zeytinyağlarımız">
+            <span>Zeytinyağlarımız</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="markalar.html">Zeytinyağları</a></li>
+            <li><a href="topic/index.html">Zeytinyağı Çeşitleri</a></li>
+            <li><a href="bolgeler.html">Bölgeler</a></li>
+            <li><a href="kalite-rehberi.html">Zeytinyağı Kalitesi</a></li>
+            <li><a href="rehber/index.html">Rehber</a></li>
+        </ul>
+        <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menü">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <a href="markalar.html">Zeytinyağları</a>
+    <a href="topic/index.html">Zeytinyağı Çeşitleri</a>
+    <a href="bolgeler.html">Bölgeler</a>
+    <a href="kalite-rehberi.html">Zeytinyağı Kalitesi</a>
+    <a href="rehber/index.html">Rehber</a>
+</div>
+<div class="breadcrumbs-wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="index.html">Zeytinyağlarımız</a>
+        <span aria-hidden="true">/</span>
+        <span>Zeytinyağı Websiteleri</span>
+    </nav>
+</div>
+
+<main class="website-explorer-page">
+    <div class="website-explorer-inner">
+        <section class="website-explorer-hero">
+            <span class="website-eyebrow">Canlı Keşif</span>
+            <h1>Zeytinyağı Websiteleri</h1>
+            <p>Türkiye'deki zeytinyağı markalarının resmi siteleri arasında rastgele gezinin. Bu sayfa her açıldığında iframe içinde yeni bir resmi site yüklenir.</p>
+            <div class="website-toolbar">
+                <div class="website-url-shell">
+                    <span class="website-url-label">URL</span>
+                    <div class="website-url-row">
+                        <span class="website-url-text" id="websiteUrl">Website listesi yükleniyor...</span>
+                        <a class="website-open-link" id="websiteOpenLink" href="#" target="_blank" rel="noopener" aria-label="Siteyi yeni sekmede aç">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M9 7h8v8"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <button class="website-random-btn" id="websiteRandomBtn" type="button">Rastgele Keşfet</button>
+            </div>
+            <div class="website-meta">
+                <span class="website-meta-pill" id="websiteBrand">Resmi website seçiliyor...</span>
+                <span class="website-meta-pill" id="websiteCount">0 resmi site</span>
+                <a class="website-meta-link" id="websiteBrandLink" href="markalar.html">Marka sayfasına git</a>
+            </div>
+        </section>
+
+        <section class="website-frame-section">
+            <div class="website-frame-note">
+                <strong>Not:</strong> Bazı resmi siteler güvenlik politikaları nedeniyle iframe içinde görünmeyebilir. Bu durumda sol taraftaki ok ikonuyla siteyi yeni sekmede açabilir veya <strong>Rastgele Keşfet</strong> ile başka bir siteye geçebilirsiniz.
+            </div>
+            <div class="website-frame-shell">
+                <div class="website-frame-loading" id="websiteFrameLoading">Website yükleniyor...</div>
+                <iframe id="websiteFrame" class="website-frame" title="Zeytinyağı websitesi keşif çerçevesi" loading="eager" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <h3>Zeytinyağlarımız</h3>
+        <p>Türkiye'deki zeytinyağı markalarının kapsamlı kataloğu. Bu site satış amacı taşımamaktadır.</p>
+        <div class="footer-links">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="markalar.html">Markalar</a>
+            <a href="rehber/index.html">Rehber</a>
+            <a href="zeytinyagi-websiteleri.html">Zeytinyağı Websiteleri</a>
+            <a href="kalite-rehberi.html">Kalite Rehberi</a>
+            <a href="bolgeler.html">Bölgeler</a>
+        </div>
+        <p class="copyright">&copy; 2026 zeytinyaglarimiz.com &mdash; Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Yukarı çık">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+function toggleMobileNav(){document.getElementById('mobileNav').classList.toggle('open');}
+window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50);document.getElementById('scrollTop').classList.toggle('show',window.scrollY>600);});
+
+const websiteState = {
+    sites: [],
+    currentIndex: -1,
+    hideLoadingTimer: null
+};
+
+const websiteUrl = document.getElementById('websiteUrl');
+const websiteOpenLink = document.getElementById('websiteOpenLink');
+const websiteRandomBtn = document.getElementById('websiteRandomBtn');
+const websiteBrand = document.getElementById('websiteBrand');
+const websiteCount = document.getElementById('websiteCount');
+const websiteBrandLink = document.getElementById('websiteBrandLink');
+const websiteFrame = document.getElementById('websiteFrame');
+const websiteFrameLoading = document.getElementById('websiteFrameLoading');
+
+function setLoading(message) {
+    clearTimeout(websiteState.hideLoadingTimer);
+    websiteFrameLoading.textContent = message;
+    websiteFrameLoading.classList.remove('is-hidden');
+    websiteState.hideLoadingTimer = window.setTimeout(() => {
+        websiteFrameLoading.classList.add('is-hidden');
+    }, 5000);
+}
+
+function setEmptyState(message) {
+    websiteUrl.textContent = message;
+    websiteBrand.textContent = 'Website gösterilemiyor';
+    websiteBrandLink.href = 'markalar.html';
+    websiteBrandLink.textContent = 'Tüm markaları aç';
+    websiteOpenLink.href = 'markalar.html';
+    websiteFrame.removeAttribute('src');
+    setLoading(message);
+}
+
+function getRandomIndex() {
+    if (websiteState.sites.length <= 1) return 0;
+    let nextIndex = websiteState.currentIndex;
+    while (nextIndex === websiteState.currentIndex) {
+        nextIndex = Math.floor(Math.random() * websiteState.sites.length);
+    }
+    return nextIndex;
+}
+
+function renderSite(index) {
+    const site = websiteState.sites[index];
+    if (!site) return;
+
+    websiteState.currentIndex = index;
+    websiteUrl.textContent = site.url;
+    websiteUrl.title = site.url;
+    websiteOpenLink.href = site.url;
+    websiteBrand.textContent = `${site.name} · ${site.region}`;
+    websiteBrandLink.href = `marka/${site.slug}.html`;
+    websiteBrandLink.textContent = `${site.name} marka sayfası`;
+    setLoading(`${site.name} yükleniyor...`);
+    websiteFrame.src = site.url;
+}
+
+async function initWebsiteExplorer() {
+    websiteRandomBtn.disabled = true;
+    websiteOpenLink.setAttribute('aria-disabled', 'true');
+
+    try {
+        const response = await fetch('data/brand-websites.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('Website listesi yüklenemedi.');
+        const sites = await response.json();
+        websiteState.sites = Array.isArray(sites)
+            ? sites.filter((site) => site && typeof site.url === 'string' && /^https?:\/\//i.test(site.url))
+            : [];
+
+        websiteCount.textContent = `${websiteState.sites.length} resmi site`;
+
+        if (!websiteState.sites.length) {
+            throw new Error('Gösterilecek resmi website bulunamadı.');
+        }
+
+        websiteOpenLink.removeAttribute('aria-disabled');
+        websiteRandomBtn.disabled = false;
+        renderSite(Math.floor(Math.random() * websiteState.sites.length));
+    } catch (error) {
+        setEmptyState(error.message || 'Website listesi yüklenemedi.');
+    }
+}
+
+websiteRandomBtn.addEventListener('click', () => {
+    if (!websiteState.sites.length) return;
+    renderSite(getRandomIndex());
+});
+
+websiteFrame.addEventListener('load', () => {
+    clearTimeout(websiteState.hideLoadingTimer);
+    websiteFrameLoading.classList.add('is-hidden');
+});
+
+initWebsiteExplorer();
+</script>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Zeytinyağlarımız","item":"https://zeytinyaglarimiz.com/index.html"},{"@type":"ListItem","position":2,"name":"Zeytinyağı Websiteleri","item":"https://zeytinyaglarimiz.com/zeytinyagi-websiteleri.html"}]},{"@context":"https://schema.org","@type":"WebPage","name":"Zeytinyağı Websiteleri | Zeytinyağlarımız","description":"Türkiye'deki zeytinyağı markalarının resmi websitelerini rastgele keşfedin ve yeni sekmede hızlıca açın.","url":"https://zeytinyaglarimiz.com/zeytinyagi-websiteleri.html"}]</script>
+</body>
+</html>

@@ -1,0 +1,570 @@
+[
+  {
+    "id": 55,
+    "name": "Adatepe",
+    "slug": "adatepe",
+    "url": "https://www.adatepe.com",
+    "region": "Küçükkuyu, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
+    "id": 100,
+    "name": "Adrasos",
+    "slug": "adrasos",
+    "url": "https://www.adrasos.com",
+    "region": "Mut, Mersin",
+    "category": "premium-butik"
+  },
+  {
+    "id": 76,
+    "name": "Anolive",
+    "slug": "anolive",
+    "url": "https://www.anolive.com.tr",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 86,
+    "name": "Arslan Zeytinyağı",
+    "slug": "arslan-zeytinyagi",
+    "url": "https://arslanzeytinyagi.com.tr",
+    "region": "Antakya, Hatay",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 77,
+    "name": "Artem Oliva",
+    "slug": "artem-oliva",
+    "url": "https://artemoliva.com",
+    "region": "Marmara",
+    "category": "premium-butik"
+  },
+  {
+    "id": 73,
+    "name": "Ayolis",
+    "slug": "ayolis",
+    "url": "https://www.ayolis.com",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 59,
+    "name": "Ayvaco",
+    "slug": "ayvaco",
+    "url": "https://www.ayvaco.com",
+    "region": "Ayvacık, Çanakkale",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 85,
+    "name": "Bazilika",
+    "slug": "bazilika",
+    "url": "https://www.bazilika.com.tr",
+    "region": "Altınözü, Hatay",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 58,
+    "name": "Buta Assos",
+    "slug": "buta-assos",
+    "url": "https://butaassos.com.tr",
+    "region": "Assos, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
+    "id": 68,
+    "name": "Dalgıçoğlu",
+    "slug": "dalgicoglu",
+    "url": "https://dalgicoglu.com",
+    "region": "Edremit, Balıkesir",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 81,
+    "name": "Ece'den Sofranıza",
+    "slug": "eceden-sofraniza",
+    "url": "https://eceden.com.tr",
+    "region": "Hatay",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 52,
+    "name": "Gaia Oliva",
+    "slug": "gaia-oliva",
+    "url": "https://www.gaiaoliva.com.tr",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 90,
+    "name": "Gemlik Zeytin Evi",
+    "slug": "gemlik-zeytin-evi",
+    "url": "https://www.gemlikzeytinevi.com",
+    "region": "Gemlik, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 89,
+    "name": "Gemlik Zeytincisi",
+    "slug": "gemlik-zeytincisi",
+    "url": "https://www.gemlikzeytincisi.com.tr",
+    "region": "Gemlik, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 74,
+    "name": "Gemlika",
+    "slug": "gemlika",
+    "url": "https://gemlika.com.tr",
+    "region": "Gemlik, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 88,
+    "name": "Gemtar",
+    "slug": "gemtar",
+    "url": "https://www.gemtar.com.tr",
+    "region": "Gemlik, Bursa",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 61,
+    "name": "Granpa",
+    "slug": "granpa",
+    "url": "https://granpa.com.tr",
+    "region": "Bursa, Marmara",
+    "category": "premium-butik"
+  },
+  {
+    "id": 87,
+    "name": "Hatay Tadında",
+    "slug": "hatay-tadinda",
+    "url": "https://www.hataytadinda.com",
+    "region": "Hatay",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 79,
+    "name": "Hatnar",
+    "slug": "hatnar",
+    "url": "https://www.hatnar.com",
+    "region": "Erzin, Hatay",
+    "category": "premium-butik"
+  },
+  {
+    "id": 63,
+    "name": "Hermus",
+    "slug": "hermus",
+    "url": "https://www.hermus.com.tr",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 33,
+    "name": "İlyada",
+    "slug": "ilyada",
+    "url": "https://ilyada.com",
+    "region": "Çanakkale",
+    "category": "premium-butik"
+  },
+  {
+    "id": 47,
+    "name": "İzmir Birlik",
+    "slug": "izmir-birlik",
+    "url": "https://www.izbirlik.com.tr",
+    "region": "İzmir",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 57,
+    "name": "Kahraman",
+    "slug": "kahraman",
+    "url": "https://kahraman.com.tr",
+    "region": "Akhisar, Manisa",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 8,
+    "name": "Kırlangıç",
+    "slug": "kirlangic",
+    "url": "https://www.kirlangic.com.tr",
+    "region": "İstanbul",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 1,
+    "name": "Komili",
+    "slug": "komili",
+    "url": "https://www.komili.com.tr",
+    "region": "Ayvalık, Balıkesir",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 70,
+    "name": "Koral Zeytin",
+    "slug": "koral-zeytin",
+    "url": "https://koralzeytin.com",
+    "region": "Akhisar, Manisa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 3,
+    "name": "Kristal",
+    "slug": "kristal",
+    "url": "https://www.kristalyaglari.com",
+    "region": "İzmir",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 4,
+    "name": "Laleli",
+    "slug": "laleli",
+    "url": "https://www.laleli.com.tr",
+    "region": "İzmir, Ege",
+    "category": "premium-butik"
+  },
+  {
+    "id": 6,
+    "name": "Luna",
+    "slug": "luna",
+    "url": "https://www.lunayag.com.tr",
+    "region": "İzmir",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 5,
+    "name": "Madra",
+    "slug": "madra",
+    "url": "https://www.sezaiomermadra.com.tr",
+    "region": "Edremit, Balıkesir",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 9,
+    "name": "Marmarabirlik",
+    "slug": "marmarabirlik",
+    "url": "https://www.marmarabirlik.com.tr",
+    "region": "Bursa, Marmara",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 62,
+    "name": "Mavras",
+    "slug": "mavras",
+    "url": "https://mavras.com.tr",
+    "region": "Urla, İzmir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 11,
+    "name": "Mera Ovası",
+    "slug": "mera-ovasi",
+    "url": "https://meraovasi.com",
+    "region": "Erdek, Marmara",
+    "category": "premium-butik"
+  },
+  {
+    "id": 36,
+    "name": "MonOlive",
+    "slug": "monolive",
+    "url": "https://www.monolive.com.tr",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
+    "id": 67,
+    "name": "MR Zeytin",
+    "slug": "mr-zeytin",
+    "url": "https://www.mrzeytin.com.tr",
+    "region": "Akhisar, Manisa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 97,
+    "name": "Mut İncisi",
+    "slug": "mut-incisi",
+    "url": "https://mutincisi.com",
+    "region": "Mut, Mersin",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 96,
+    "name": "Mutili",
+    "slug": "mutili",
+    "url": "https://mutili.com.tr",
+    "region": "Mut, Mersin",
+    "category": "premium-butik"
+  },
+  {
+    "id": 101,
+    "name": "Mutolea",
+    "slug": "mutolea",
+    "url": "https://mutolea.com",
+    "region": "Mut, Mersin",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 95,
+    "name": "Mutuna",
+    "slug": "mutuna",
+    "url": "https://www.mutuna.com",
+    "region": "Mut, Mersin",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 35,
+    "name": "Nar Gourmet",
+    "slug": "nar-gourmet",
+    "url": "https://www.nargourmet.com",
+    "region": "İstanbul",
+    "category": "premium-butik"
+  },
+  {
+    "id": 64,
+    "name": "Nermin Hanım Zeytinliği",
+    "slug": "nermin-hanim-zeytinligi",
+    "url": "https://nerminhanim.com",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 49,
+    "name": "Nish Olive",
+    "slug": "nish-olive",
+    "url": "https://nisholive.com",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
+    "id": 53,
+    "name": "Nizolive",
+    "slug": "nizolive",
+    "url": "https://nizolive.com",
+    "region": "Gaziantep, Güneydoğu Anadolu",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 51,
+    "name": "NovaVera",
+    "slug": "novavera",
+    "url": "https://novavera.com.tr",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 10,
+    "name": "Oleamea",
+    "slug": "oleamea",
+    "url": "https://www.oleamea.com",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
+    "id": 56,
+    "name": "OleTurk",
+    "slug": "oleturk",
+    "url": "https://www.oleturk.com",
+    "region": "Milas, Muğla",
+    "category": "premium-butik"
+  },
+  {
+    "id": 13,
+    "name": "Olistica",
+    "slug": "olistica",
+    "url": "https://www.olistica.com.tr",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
+    "id": 72,
+    "name": "Olivamore",
+    "slug": "olivamore",
+    "url": "https://olivamore.com",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
+    "id": 78,
+    "name": "OliveOilsLand",
+    "slug": "oliveoilsland",
+    "url": "https://www.oliveoilsland.com",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
+    "id": 30,
+    "name": "Olivos",
+    "slug": "olivos",
+    "url": "https://www.olivos.com.tr",
+    "region": "İstanbul",
+    "category": "premium-butik"
+  },
+  {
+    "id": 12,
+    "name": "Olivurla",
+    "slug": "olivurla",
+    "url": "https://www.olivurla.com",
+    "region": "Urla, İzmir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 65,
+    "name": "Olivya Gökçeovacık",
+    "slug": "olivya-gokceovacik",
+    "url": "https://olivyagokceovacik.com",
+    "region": "Milas, Muğla",
+    "category": "premium-butik"
+  },
+  {
+    "id": 60,
+    "name": "OVE Foods",
+    "slug": "ove-foods",
+    "url": "https://ovefoods.com",
+    "region": "Aydın, Ege",
+    "category": "premium-butik"
+  },
+  {
+    "id": 69,
+    "name": "Sabuncugil",
+    "slug": "sabuncugil",
+    "url": "https://www.sabuncugil.com.tr",
+    "region": "Ayvalık, Balıkesir",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 99,
+    "name": "Sazak Zeytincilik",
+    "slug": "sazak-zeytincilik",
+    "url": "https://www.sazakzeytincilik.com",
+    "region": "Mut, Mersin",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 71,
+    "name": "Semylasa",
+    "slug": "semylasa",
+    "url": "https://semylasa.com",
+    "region": "Milas, Muğla",
+    "category": "premium-butik"
+  },
+  {
+    "id": 91,
+    "name": "Solive",
+    "slug": "solive",
+    "url": "https://www.zeytinagaci.com",
+    "region": "Gemlik, Bursa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 94,
+    "name": "Şarköy Çiftlik",
+    "slug": "sarkoy-ciftlik",
+    "url": "https://sarkoyciftlik.com.tr",
+    "region": "Şarköy, Tekirdağ",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 2,
+    "name": "Tariş",
+    "slug": "taris",
+    "url": "https://www.tariszeytin.com.tr",
+    "region": "İzmir, Ege",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 82,
+    "name": "Uygur Zeytinyağı",
+    "slug": "uygur-zeytinyagi",
+    "url": "https://uygurzeytinyagi.com",
+    "region": "Nizip, Gaziantep",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 54,
+    "name": "Verde",
+    "slug": "verde",
+    "url": "https://www.olioverde.com.tr",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 93,
+    "name": "Vivax Olea",
+    "slug": "vivax-olea",
+    "url": "https://www.vivaxolea.com",
+    "region": "Şarköy, Tekirdağ",
+    "category": "premium-butik"
+  },
+  {
+    "id": 83,
+    "name": "Yalım Zeytin Yağları",
+    "slug": "yalim-zeytin-yaglari",
+    "url": "https://www.yalimzeytinyaglari.com.tr",
+    "region": "Gaziantep",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 92,
+    "name": "Yelkenli",
+    "slug": "yelkenli",
+    "url": "https://yelkenlizeytinyagi.com.tr",
+    "region": "Mudanya, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 7,
+    "name": "Yudum",
+    "slug": "yudum",
+    "url": "https://www.yudum.com.tr",
+    "region": "İstanbul",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 66,
+    "name": "Zetay",
+    "slug": "zetay",
+    "url": "https://zetay.com.tr",
+    "region": "Edremit, Balıkesir",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 80,
+    "name": "Zetiya",
+    "slug": "zetiya",
+    "url": "https://zetiya.com",
+    "region": "Hatay",
+    "category": "premium-butik"
+  },
+  {
+    "id": 84,
+    "name": "Zeytincir",
+    "slug": "zeytincir",
+    "url": "https://www.zeytincir.com.tr",
+    "region": "Gaziantep",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 75,
+    "name": "Zeytinsan",
+    "slug": "zeytinsan",
+    "url": "https://www.zeytinsan.com.tr",
+    "region": "Akhisar, Manisa",
+    "category": "market-endustriyel"
+  },
+  {
+    "id": 98,
+    "name": "Zeytinyağı Evi",
+    "slug": "zeytinyagi-evi",
+    "url": "https://www.zeytinyagievi.com",
+    "region": "Mut, Mersin",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 37,
+    "name": "Zeytursan",
+    "slug": "zeytursan",
+    "url": "https://www.zeytursan.com.tr",
+    "region": "Bursa, Marmara",
+    "category": "bolgesel-yerel"
+  }
+]
