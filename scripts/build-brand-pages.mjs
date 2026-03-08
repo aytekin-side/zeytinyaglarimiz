@@ -98,27 +98,52 @@ function renderRegionGallery(brand, regionMediaByCluster) {
   const item = regionEntry.images[0];
 
   return `
-    <figure class="brand-inline-photo">
+    <figure class="brand-inline-photo is-region">
       <img src="${escapeHtml(toPageAsset(item.src))}" alt="${escapeHtml(item.alt || item.title || regionEntry.label || brand.region)}" loading="lazy" onerror="this.closest('figure').style.display='none'">
+    </figure>
+  `;
+}
+
+function renderInlineBottlePhoto(brand) {
+  const bottleSrc = Array.isArray(brand.bottleImages) && brand.bottleImages.length
+    ? brand.bottleImages[0]
+    : '';
+
+  if (!bottleSrc) return '';
+
+  return `
+    <figure class="brand-inline-photo is-bottle">
+      <img src="${escapeHtml(toPageAsset(bottleSrc))}" alt="${escapeHtml(brand.name)} şişe görseli" loading="lazy" onerror="this.closest('figure').style.display='none'">
     </figure>
   `;
 }
 
 function renderLongInfo(brand, regionMediaByCluster) {
   const paragraphValues = (brand.longDetailParagraphs || [brand.detail || brand.desc]).filter(Boolean);
-  const insertAfter = 0;
+  const regionInsertAfter = 0;
+  const bottleInsertAfter = paragraphValues.length >= 4 ? 2 : Math.max(1, paragraphValues.length - 1);
   const regionGallery = renderRegionGallery(brand, regionMediaByCluster);
+  const bottlePhoto = renderInlineBottlePhoto(brand);
   let html = '';
 
   paragraphValues.forEach((paragraph, index) => {
     html += `<p>${escapeHtml(paragraph)}</p>`;
-    if (regionGallery && index === insertAfter) {
+    if (regionGallery && index === regionInsertAfter) {
       html += regionGallery;
+    }
+    if (bottlePhoto && index === bottleInsertAfter) {
+      html += bottlePhoto;
     }
   });
 
   if (regionGallery && paragraphValues.length === 0) {
     html += regionGallery;
+  }
+  if (bottlePhoto && paragraphValues.length > 0 && bottleInsertAfter >= paragraphValues.length) {
+    html += bottlePhoto;
+  }
+  if (bottlePhoto && paragraphValues.length === 0) {
+    html += bottlePhoto;
   }
 
   return `<div class="brand-info-body">${html}</div>`;

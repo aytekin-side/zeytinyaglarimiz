@@ -133,8 +133,22 @@ function renderRegionGallery(brand) {
     const item = regionEntry.images[0];
 
     return `
-        <figure class="brand-inline-photo">
+        <figure class="brand-inline-photo is-region">
             <img src="${item.src}" alt="${item.alt || item.title || regionEntry.label || brand.region}" loading="lazy" onerror="this.closest('figure').style.display='none'">
+        </figure>
+    `;
+}
+
+function renderInlineBottlePhoto(brand) {
+    const bottleSrc = Array.isArray(brand.bottleImages) && brand.bottleImages.length > 0
+        ? brand.bottleImages[0]
+        : '';
+
+    if (!bottleSrc) return '';
+
+    return `
+        <figure class="brand-inline-photo is-bottle">
+            <img src="${bottleSrc}" alt="${brand.name} şişe görseli" loading="lazy" onerror="this.closest('figure').style.display='none'">
         </figure>
     `;
 }
@@ -212,12 +226,15 @@ function renderBrandDetail() {
         return `<a class=\"topic-link\" href=\"${url}\">${label}</a>`;
     }).filter(Boolean);
     const paragraphs = (brand.longDetailParagraphs || [brand.desc]).filter(Boolean);
-    const insertAfter = 0;
+    const regionInsertAfter = 0;
+    const bottleInsertAfter = paragraphs.length >= 4 ? 2 : Math.max(1, paragraphs.length - 1);
     const regionGallery = renderRegionGallery(brand);
+    const bottlePhoto = renderInlineBottlePhoto(brand);
     const paragraphMarkup = paragraphs.map((paragraph, index) => `
         <p>${paragraph}</p>
-        ${regionGallery && index === insertAfter ? regionGallery : ''}
-    `).join('');
+        ${regionGallery && index === regionInsertAfter ? regionGallery : ''}
+        ${bottlePhoto && index === bottleInsertAfter ? bottlePhoto : ''}
+    `).join('') + ((bottlePhoto && paragraphs.length > 0 && bottleInsertAfter >= paragraphs.length) ? bottlePhoto : '');
 
     root.innerHTML = `
         <div class="brand-detail-inner">
