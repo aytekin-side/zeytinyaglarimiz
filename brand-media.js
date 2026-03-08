@@ -500,7 +500,7 @@ const brandMedia = {
         ],
         "info": "Naturel, Ege Bölgesi bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Doğal ve saf zeytinyağı ürünleri sunan marka. Natürelliği ön plana çıkarır."
     },
-"51": {
+    "51": {
         "slug": "novavera",
         "logo": "https://static.ticimax.cloud/42334/uploads/editoruploads/novavera-logo-white.png",
         "bottles": [
@@ -780,141 +780,332 @@ const brandMedia = {
         "info": "OliveOilsLand, Ege Bölgesi merkezli bir zeytinyağı markasıdır. Zeytinyağı ürünlerinde premium ve butik segmentte yer alan marka."
     },
     "79": {
-        slug: "hatnar",
-        logo: "https://www.hatnar.com/wp-content/uploads/2021/10/hatnar-logo-H-8.png",
-        bottles: ["https://www.hatnar.com/wp-content/uploads/2025/07/IMG_4004-1-420x420.jpg","https://www.hatnar.com/wp-content/uploads/2025/07/IMG_4011-420x420.jpg","https://www.hatnar.com/wp-content/uploads/2025/07/IMG_4002-420x420.jpg"],
-        info: "Hatnar, Hatay'ın Erzin hattında üretim yapan ve soğuk sıkım natürel sızma zeytinyağı serileri sunan bir üretici markadır."
+        "slug": "hatnar",
+        "logo": "https://www.hatnar.com/wp-content/uploads/2021/10/hatnar-logo-H-8.png",
+        "bottles": [
+            "https://www.hatnar.com/wp-content/uploads/2025/07/IMG_4004-1-420x420.jpg",
+            "https://www.hatnar.com/wp-content/uploads/2025/07/IMG_4011-420x420.jpg",
+            "https://www.hatnar.com/wp-content/uploads/2025/07/IMG_4002-420x420.jpg"
+        ],
+        "info": "Hatnar, Hatay'ın Erzin hattında üretim yapan ve soğuk sıkım natürel sızma zeytinyağı serileri sunan bir üretici markadır."
     },
     "80": {
-        slug: "zetiya",
-        logo: "https://zetiya.com/cdn/shop/files/Logo.Zetiya4.png?v=1756152630&width=500",
-        bottles: ["https://zetiya.com/cdn/shop/files/Artboard_4.jpg?v=1762448208&width=720","https://zetiya.com/cdn/shop/files/Artboard_2.jpg?v=1762448234&width=720","https://zetiya.com/cdn/shop/files/site.slayt.jpg?v=1767728073&width=1100"],
-        info: "Zetiya, Hatay'dan gelen erken hasat natürel sızma zeytinyağına odaklanan butik bir markadır."
+        "slug": "zetiya",
+        "logo": "https://zetiya.com/cdn/shop/files/Logo.Zetiya4.png?v=1756152630&width=500",
+        "bottles": [
+            "https://zetiya.com/cdn/shop/files/Artboard_4.jpg?v=1762448208&width=720",
+            "https://zetiya.com/cdn/shop/files/Artboard_2.jpg?v=1762448234&width=720",
+            "https://zetiya.com/cdn/shop/files/site.slayt.jpg?v=1767728073&width=1100"
+        ],
+        "info": "Zetiya, Hatay'dan gelen erken hasat natürel sızma zeytinyağına odaklanan butik bir markadır."
     },
     "81": {
-        slug: "eceden-sofraniza",
-        logo: "https://eceden.com.tr/logo3.png",
-        bottles: ["https://eceden.com.tr/teneke_1.png","https://eceden.com.tr/teneke_2.png","https://eceden.com.tr/18-litre.jpeg"],
-        info: "Ece'den Sofranıza, Hatay kökenli natürel sızma zeytinyağı ve teneke ürünleriyle öne çıkan bir aile markasıdır."
+        "slug": "eceden-sofraniza",
+        "logo": "https://eceden.com.tr/logo3.png",
+        "bottles": [
+            "https://eceden.com.tr/teneke_1.png",
+            "https://eceden.com.tr/teneke_2.png",
+            "https://eceden.com.tr/18-litre.jpeg"
+        ],
+        "info": "Ece'den Sofranıza, Hatay kökenli natürel sızma zeytinyağı ve teneke ürünleriyle öne çıkan bir aile markasıdır."
     },
     "82": {
-        slug: "uygur-zeytinyagi",
-        logo: "https://uygurzeytinyagi.com/images/logo.png",
-        bottles: ["https://uygurzeytinyagi.com/images/5lt.png","https://uygurzeytinyagi.com/images/10lt.png","https://uygurzeytinyagi.com/images/18lt.png"],
-        info: "Uygur Zeytinyağı, Gaziantep Nizip'te üretim yapan ve 1972'den bu yana zeytinyağı üreten köklü bir markadır."
+        "slug": "uygur-zeytinyagi",
+        "logo": "https://uygurzeytinyagi.com/images/logo.png",
+        "bottles": [
+            "https://uygurzeytinyagi.com/images/5lt.png",
+            "https://uygurzeytinyagi.com/images/10lt.png",
+            "https://uygurzeytinyagi.com/images/18lt.png"
+        ],
+        "info": "Uygur Zeytinyağı, Gaziantep Nizip'te üretim yapan ve 1972'den bu yana zeytinyağı üreten köklü bir markadır."
     },
     "83": {
-        slug: "yalim-zeytin-yaglari",
-        logo: "https://www.yalimzeytinyaglari.com.tr/assets/images/logo.png",
-        bottles: ["https://www.yalimzeytinyaglari.com.tr/assets/images/500.jpg","https://www.yalimzeytinyaglari.com.tr/assets/images/750.jpg","https://www.yalimzeytinyaglari.com.tr/assets/images/2000.jpg"],
-        info: "Yalım Zeytin Yağları, Gaziantep merkezli üretim yapan ve farklı hacimlerde zeytinyağı ürünleri sunan bir markadır."
+        "slug": "yalim-zeytin-yaglari",
+        "logo": "https://www.yalimzeytinyaglari.com.tr/assets/images/logo.png",
+        "bottles": [
+            "https://www.yalimzeytinyaglari.com.tr/assets/images/500.jpg",
+            "https://www.yalimzeytinyaglari.com.tr/assets/images/750.jpg",
+            "https://www.yalimzeytinyaglari.com.tr/assets/images/2000.jpg"
+        ],
+        "info": "Yalım Zeytin Yağları, Gaziantep merkezli üretim yapan ve farklı hacimlerde zeytinyağı ürünleri sunan bir markadır."
     },
     "84": {
-        slug: "zeytincir",
-        logo: "https://www.zeytincir.com.tr/wp-content/uploads/2021/12/zeytinyagi-logo1-1.png",
-        bottles: ["https://www.zeytincir.com.tr/wp-content/uploads/2022/03/zeytinyagi-7.jpg","https://www.zeytincir.com.tr/wp-content/uploads/2022/03/zeytinyagi-4.jpg?id=3429","https://www.zeytincir.com.tr/wp-content/uploads/2022/03/zeytinyagi-5.jpg?id=3430"],
-        info: "Zeytincir, Gaziantep odaklı saf ve natürel sızma zeytinyağı anlatımıyla öne çıkan bir üretici markadır."
+        "slug": "zeytincir",
+        "logo": "https://www.zeytincir.com.tr/wp-content/uploads/2021/12/zeytinyagi-logo1-1.png",
+        "bottles": [
+            "https://www.zeytincir.com.tr/wp-content/uploads/2022/03/zeytinyagi-7.jpg",
+            "https://www.zeytincir.com.tr/wp-content/uploads/2022/03/zeytinyagi-4.jpg?id=3429",
+            "https://www.zeytincir.com.tr/wp-content/uploads/2022/03/zeytinyagi-5.jpg?id=3430"
+        ],
+        "info": "Zeytincir, Gaziantep odaklı saf ve natürel sızma zeytinyağı anlatımıyla öne çıkan bir üretici markadır."
     },
     "85": {
-        slug: "bazilika",
-        logo: "https://www.bazilika.com.tr/upload/bazilika-zeytinyaglari-hatay-antakya-altinozu.png",
-        bottles: ["https://www.bazilika.com.tr/upload/product/1670481931.png","https://www.bazilika.com.tr/upload/product/1670404910.png","https://www.bazilika.com.tr/upload/product/1670480621.png"],
-        info: "Bazilika, Hatay Altınözü kökenli zeytin ve zeytinyağı ürünlerini yöresel vurguyla sunan bir markadır."
+        "slug": "bazilika",
+        "logo": "https://www.bazilika.com.tr/upload/bazilika-zeytinyaglari-hatay-antakya-altinozu.png",
+        "bottles": [
+            "https://www.bazilika.com.tr/upload/product/1670481931.png",
+            "https://www.bazilika.com.tr/upload/product/1670404910.png",
+            "https://www.bazilika.com.tr/upload/product/1670480621.png"
+        ],
+        "info": "Bazilika, Hatay Altınözü kökenli zeytin ve zeytinyağı ürünlerini yöresel vurguyla sunan bir markadır."
     },
     "86": {
-        slug: "arslan-zeytinyagi",
-        logo: "https://arslanzeytinyagi.com.tr/upload//arslan-zeytinyagi10.png",
-        bottles: ["https://arslanzeytinyagi.com.tr/upload/image/1000-ml-glass-1748856396.png","https://arslanzeytinyagi.com.tr/upload/image/glass-bottle-1l-1748856012.png","https://arslanzeytinyagi.com.tr/upload/image/tin-5000ml-1748856444.png"],
-        info: "Arslan Zeytinyağı, Antakya Hatay kökenli cam şişe, pet ve teneke ambalajlı natürel sızma ürünler sunan bir markadır."
+        "slug": "arslan-zeytinyagi",
+        "logo": "https://arslanzeytinyagi.com.tr/upload//arslan-zeytinyagi10.png",
+        "bottles": [
+            "https://arslanzeytinyagi.com.tr/upload/image/1000-ml-glass-1748856396.png",
+            "https://arslanzeytinyagi.com.tr/upload/image/glass-bottle-1l-1748856012.png",
+            "https://arslanzeytinyagi.com.tr/upload/image/tin-5000ml-1748856444.png"
+        ],
+        "info": "Arslan Zeytinyağı, Antakya Hatay kökenli cam şişe, pet ve teneke ambalajlı natürel sızma ürünler sunan bir markadır."
     },
     "87": {
-        slug: "hatay-tadinda",
-        logo: "https://www.hataytadinda.com/wp-content/uploads/2019/04/hatay-tad%C4%B1nda-logo2.png",
-        bottles: ["https://www.hataytadinda.com/wp-content/uploads/2020/01/hatay-yoresel-sizma-zeytinyagi.png","https://www.hataytadinda.com/wp-content/uploads/2020/01/so%C4%9Fuk-s%C4%B1k%C4%B1m2.jpg","https://www.hataytadinda.com/wp-content/uploads/2020/01/so%C4%9Fuk-s%C4%B1k%C4%B1m2-570x570.jpg"],
-        info: "Hatay Tadında, Hatay yöresel ürünleri ve soğuk sıkım zeytinyağı satışına odaklanan yerel bir markadır."
+        "slug": "hatay-tadinda",
+        "logo": "https://www.hataytadinda.com/wp-content/uploads/2019/04/hatay-tad%C4%B1nda-logo2.png",
+        "bottles": [
+            "https://www.hataytadinda.com/wp-content/uploads/2020/01/hatay-yoresel-sizma-zeytinyagi.png",
+            "https://www.hataytadinda.com/wp-content/uploads/2020/01/so%C4%9Fuk-s%C4%B1k%C4%B1m2.jpg",
+            "https://www.hataytadinda.com/wp-content/uploads/2020/01/so%C4%9Fuk-s%C4%B1k%C4%B1m2-570x570.jpg"
+        ],
+        "info": "Hatay Tadında, Hatay yöresel ürünleri ve soğuk sıkım zeytinyağı satışına odaklanan yerel bir markadır."
     },
     "88": {
-        slug: "gemtar",
-        logo: "https://ideacdn.net/idea/ln/94/themes/selftpl_63c93921dff4b/assets/uploads/logo.png?revision=1761118145",
-        bottles: ["https://ideacdn.net/idea/ln/94/myassets/products/013/1-l-naturel_min.png?revision=1768317533","https://ideacdn.net/idea/ln/94/myassets/products/014/1-5-l-naturel_min.PNG?revision=1768386474","https://ideacdn.net/idea/ln/94/myassets/products/016/5-l_min.PNG?revision=1768386474"],
-        info: "Gemtar, Gemlik zeytininden üretilen natürel sızma zeytinyağı serileriyle Bursa hattında öne çıkan bir markadır."
+        "slug": "gemtar",
+        "logo": "https://ideacdn.net/idea/ln/94/themes/selftpl_63c93921dff4b/assets/uploads/logo.png?revision=1761118145",
+        "bottles": [
+            "https://ideacdn.net/idea/ln/94/myassets/products/013/1-l-naturel_min.png?revision=1768317533",
+            "https://ideacdn.net/idea/ln/94/myassets/products/014/1-5-l-naturel_min.PNG?revision=1768386474",
+            "https://ideacdn.net/idea/ln/94/myassets/products/016/5-l_min.PNG?revision=1768386474"
+        ],
+        "info": "Gemtar, Gemlik zeytininden üretilen natürel sızma zeytinyağı serileriyle Bursa hattında öne çıkan bir markadır."
     },
     "89": {
-        slug: "gemlik-zeytincisi",
-        logo: "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/op.png",
-        bottles: ["https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/1719497116290.jpg","https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/1719498177768.jpg","https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/1719497116290-800x800.jpg"],
-        info: "Gemlik Zeytincisi, Gemlik kökenli zeytin ve zeytinyağı ürünlerini yerel üretici diliyle sunan bir markadır."
+        "slug": "gemlik-zeytincisi",
+        "logo": "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/op.png",
+        "bottles": [
+            "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/1719497116290.jpg",
+            "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/1719498177768.jpg",
+            "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/1719497116290-800x800.jpg"
+        ],
+        "info": "Gemlik Zeytincisi, Gemlik kökenli zeytin ve zeytinyağı ürünlerini yerel üretici diliyle sunan bir markadır."
     },
     "90": {
-        slug: "gemlik-zeytin-evi",
-        logo: "https://www.gemlikzeytinevi.com/image/catalog/logohy.png",
-        bottles: ["https://www.gemlikzeytinevi.com/image/cache/catalog/urunler/yag/5l-natural-700x700.png","https://www.gemlikzeytinevi.com/image/cache/catalog/urunler/yag/natural-sizma-1-700x700.jpg","https://www.gemlikzeytinevi.com/image/cache/catalog/urunler/yag/3lupaket-700x700.png"],
-        info: "Gemlik Zeytin Evi, Gemlik bölgesinde cam şişe ve teneke zeytinyağı ürünleri sunan yerel bir markadır."
+        "slug": "gemlik-zeytin-evi",
+        "logo": "https://www.gemlikzeytinevi.com/image/catalog/logohy.png",
+        "bottles": [
+            "https://www.gemlikzeytinevi.com/image/cache/catalog/urunler/yag/5l-natural-700x700.png",
+            "https://www.gemlikzeytinevi.com/image/cache/catalog/urunler/yag/natural-sizma-1-700x700.jpg",
+            "https://www.gemlikzeytinevi.com/image/cache/catalog/urunler/yag/3lupaket-700x700.png"
+        ],
+        "info": "Gemlik Zeytin Evi, Gemlik bölgesinde cam şişe ve teneke zeytinyağı ürünleri sunan yerel bir markadır."
     },
     "91": {
-        slug: "solive",
-        logo: "https://www.zeytinagaci.com/shop/bu/35/themes/selftpl_61814615742ac/assets/uploads/logo.png?revision=1767075887",
-        bottles: ["https://www.zeytinagaci.com/shop/bu/35/myassets/products/507/ilkikisaat-2littr_min.jpg?revision=1766574786","https://www.zeytinagaci.com/shop/bu/35/myassets/products/591/2_min.png?revision=1758270438","https://www.zeytinagaci.com/shop/bu/35/myassets/products/590/1_min.png?revision=1760432414"],
-        info: "Solive, Gemlik'te erken hasat ve soğuk sıkım odaklı zeytinyağı serileriyle öne çıkan bölgesel bir markadır."
+        "slug": "solive",
+        "logo": "https://www.zeytinagaci.com/shop/bu/35/themes/selftpl_61814615742ac/assets/uploads/logo.png?revision=1767075887",
+        "bottles": [
+            "https://www.zeytinagaci.com/shop/bu/35/myassets/products/507/ilkikisaat-2littr_min.jpg?revision=1766574786",
+            "https://www.zeytinagaci.com/shop/bu/35/myassets/products/591/2_min.png?revision=1758270438",
+            "https://www.zeytinagaci.com/shop/bu/35/myassets/products/590/1_min.png?revision=1760432414"
+        ],
+        "info": "Solive, Gemlik'te erken hasat ve soğuk sıkım odaklı zeytinyağı serileriyle öne çıkan bölgesel bir markadır."
     },
     "92": {
-        slug: "yelkenli",
-        logo: "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/logo-1.png",
-        bottles: ["https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/2lt-teneke1-1-300x300.jpg","https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/5lt-teneke1-1-300x300.jpg","https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/500cl-kulplu1-1-300x300.jpg"],
-        info: "Yelkenli, Mudanya hattında cam ve teneke ambalajlı zeytinyağı ürünleri sunan bir üretici markadır."
+        "slug": "yelkenli",
+        "logo": "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/logo-1.png",
+        "bottles": [
+            "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/2lt-teneke1-1-300x300.jpg",
+            "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/5lt-teneke1-1-300x300.jpg",
+            "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/500cl-kulplu1-1-300x300.jpg"
+        ],
+        "info": "Yelkenli, Mudanya hattında cam ve teneke ambalajlı zeytinyağı ürünleri sunan bir üretici markadır."
     },
     "93": {
-        slug: "vivax-olea",
-        logo: "https://www.vivaxolea.com/tema/kurumsal/uploads/logo/VivaxOlea_Logo.png",
-        bottles: ["https://www.vivaxolea.com/tema/kurumsal/uploads/urunler/kucuk/WhatsApp_Gorsel_2024-12-17_saat_16.25.00_de28cf97.jpg","https://www.vivaxolea.com/tema/kurumsal/uploads/urunler/kucuk/zeytinyagi-soguksikim-1.jpg"],
-        info: "Vivax Olea, Tekirdağ Şarköy'de üretim yapan ve soğuk sıkım serileriyle öne çıkan Trakya markalarından biridir."
+        "slug": "vivax-olea",
+        "logo": "https://www.vivaxolea.com/tema/kurumsal/uploads/logo/VivaxOlea_Logo.png",
+        "bottles": [
+            "https://www.vivaxolea.com/tema/kurumsal/uploads/urunler/kucuk/WhatsApp_Gorsel_2024-12-17_saat_16.25.00_de28cf97.jpg",
+            "https://www.vivaxolea.com/tema/kurumsal/uploads/urunler/kucuk/zeytinyagi-soguksikim-1.jpg"
+        ],
+        "info": "Vivax Olea, Tekirdağ Şarköy'de üretim yapan ve soğuk sıkım serileriyle öne çıkan Trakya markalarından biridir."
     },
     "94": {
-        slug: "sarkoy-ciftlik",
-        logo: "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/b83b2e19-7134-48e7-9e43-cd9f159202b8/image_1080.webp",
-        bottles: ["https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/fbc38bdd-01f3-49b1-90d7-322de8edd5fa/image_1080.webp","https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/447f8954-fda3-4de9-bc6c-b3229e9d7c5c/1080/dsc04648.webp","https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/76d1a17c-3cda-4b50-9858-dbc2ce388f6c/1080/edited-image.webp"],
-        info: "Şarköy Çiftlik, Trakya'da coğrafi işaretli ve soğuk sıkım zeytinyağı ürünleriyle öne çıkan Şarköy merkezli bir markadır."
+        "slug": "sarkoy-ciftlik",
+        "logo": "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/b83b2e19-7134-48e7-9e43-cd9f159202b8/image_1080.webp",
+        "bottles": [
+            "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/fbc38bdd-01f3-49b1-90d7-322de8edd5fa/image_1080.webp",
+            "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/447f8954-fda3-4de9-bc6c-b3229e9d7c5c/1080/dsc04648.webp",
+            "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/76d1a17c-3cda-4b50-9858-dbc2ce388f6c/1080/edited-image.webp"
+        ],
+        "info": "Şarköy Çiftlik, Trakya'da coğrafi işaretli ve soğuk sıkım zeytinyağı ürünleriyle öne çıkan Şarköy merkezli bir markadır."
     },
     "95": {
-        slug: "mutuna",
-        logo: "https://www.mutuna.com/idea/if/09/themes/selftpl_65798a840c0eb/assets/uploads/logo.png?revision=1729753622",
-        bottles: ["https://www.mutuna.com/idea/if/09/myassets/products/009/bb3e3234-e507-4ada-ab9f-0942630cf708_min.jpg?revision=1766989178","https://www.mutuna.com/idea/if/09/myassets/products/012/8f16ee0f-3276-4983-8030-9b21c2d5de36_min.jpg?revision=1772431480","https://www.mutuna.com/idea/if/09/myassets/products/008/7c311dce-d7d5-44cd-91dd-844e00bc890b_min.jpg?revision=1766989200"],
-        info: "Mutuna, Mut Mersin hattında erken hasat ve soğuk sıkım natürel sızma ürünleri sunan bir yerel üreticidir."
+        "slug": "mutuna",
+        "logo": "https://www.mutuna.com/idea/if/09/themes/selftpl_65798a840c0eb/assets/uploads/logo.png?revision=1729753622",
+        "bottles": [
+            "https://www.mutuna.com/idea/if/09/myassets/products/009/bb3e3234-e507-4ada-ab9f-0942630cf708_min.jpg?revision=1766989178",
+            "https://www.mutuna.com/idea/if/09/myassets/products/012/8f16ee0f-3276-4983-8030-9b21c2d5de36_min.jpg?revision=1772431480",
+            "https://www.mutuna.com/idea/if/09/myassets/products/008/7c311dce-d7d5-44cd-91dd-844e00bc890b_min.jpg?revision=1766989200"
+        ],
+        "info": "Mutuna, Mut Mersin hattında erken hasat ve soğuk sıkım natürel sızma ürünleri sunan bir yerel üreticidir."
     },
     "96": {
-        slug: "mutili",
-        logo: "https://mutili.com.tr/wp-content/uploads/2025/05/Mutili-Logo-2.png",
-        bottles: ["https://mutili.com.tr/wp-content/uploads/2025/06/mutili-750ml-2-600x494-1.png","https://mutili.com.tr/wp-content/uploads/2025/05/soguk-sikim-sise.jpeg","https://mutili.com.tr/wp-content/uploads/2025/05/mutili-5-lt-teneke-birinci-naturel.png"],
-        info: "Mutili, Mut kökenli cam şişe ve teneke ambalajlı natürel sızma serileriyle öne çıkan bir markadır."
+        "slug": "mutili",
+        "logo": "https://mutili.com.tr/wp-content/uploads/2025/05/Mutili-Logo-2.png",
+        "bottles": [
+            "https://mutili.com.tr/wp-content/uploads/2025/06/mutili-750ml-2-600x494-1.png",
+            "https://mutili.com.tr/wp-content/uploads/2025/05/soguk-sikim-sise.jpeg",
+            "https://mutili.com.tr/wp-content/uploads/2025/05/mutili-5-lt-teneke-birinci-naturel.png"
+        ],
+        "info": "Mutili, Mut kökenli cam şişe ve teneke ambalajlı natürel sızma serileriyle öne çıkan bir markadır."
     },
     "97": {
-        slug: "mut-incisi",
-        logo: "https://mutincisi.com/assets/images/logo_1772443738.png",
-        bottles: ["https://mutincisi.com/uploads/products/69a5cb0a0f05b_1772473098.jpg","https://mutincisi.com/uploads/products/69a5cb0a205df_1772473098.jpg","https://mutincisi.com/uploads/products/69a5cb091c0de_1772473097.jpg"],
-        info: "Mut İncisi, Mersin Mut yöresinden zeytinyağı ve bölgesel ürünleri aynı çatı altında sunan bir markadır."
+        "slug": "mut-incisi",
+        "logo": "https://mutincisi.com/assets/images/logo_1772443738.png",
+        "bottles": [
+            "https://mutincisi.com/uploads/products/69a5cb0a0f05b_1772473098.jpg",
+            "https://mutincisi.com/uploads/products/69a5cb0a205df_1772473098.jpg",
+            "https://mutincisi.com/uploads/products/69a5cb091c0de_1772473097.jpg"
+        ],
+        "info": "Mut İncisi, Mersin Mut yöresinden zeytinyağı ve bölgesel ürünleri aynı çatı altında sunan bir markadır."
     },
     "98": {
-        slug: "zeytinyagi-evi",
-        logo: "https://www.zeytinyagievi.com/shop/rr/76/themes/selftpl_5de7a2fdcd356/assets/uploads/logo.png?revision=1767710058",
-        bottles: ["https://www.zeytinyagievi.com/shop/rr/76/myassets/products/837/filtresiz-naturel-sizma-zeytinyagi_min.png?revision=1767356718","https://www.zeytinyagievi.com/shop/rr/76/myassets/products/833/filtresiz-naturel-sizma-001_min.jpg?revision=1733507765","https://www.zeytinyagievi.com/shop/rr/76/myassets/products/830/domat-naturel-sizma-zeytinyagi_min.jpg?revision=1737400070"],
-        info: "Zeytinyağı Evi, Mut zeytinyağı ve sofralık zeytin odaklı ürün gamıyla filtresiz ve özel seri natürel sızma yağlar sunar."
+        "slug": "zeytinyagi-evi",
+        "logo": "https://www.zeytinyagievi.com/shop/rr/76/themes/selftpl_5de7a2fdcd356/assets/uploads/logo.png?revision=1767710058",
+        "bottles": [
+            "https://www.zeytinyagievi.com/shop/rr/76/myassets/products/837/filtresiz-naturel-sizma-zeytinyagi_min.png?revision=1767356718",
+            "https://www.zeytinyagievi.com/shop/rr/76/myassets/products/833/filtresiz-naturel-sizma-001_min.jpg?revision=1733507765",
+            "https://www.zeytinyagievi.com/shop/rr/76/myassets/products/830/domat-naturel-sizma-zeytinyagi_min.jpg?revision=1737400070"
+        ],
+        "info": "Zeytinyağı Evi, Mut zeytinyağı ve sofralık zeytin odaklı ürün gamıyla filtresiz ve özel seri natürel sızma yağlar sunar."
     },
     "99": {
-        slug: "sazak-zeytincilik",
-        logo: "https://www.sazakzeytincilik.com/idea/bf/61/themes/selftpl_65a925bc527ae/assets/uploads/logo.png?revision=1770703548",
-        bottles: ["https://www.sazakzeytincilik.com/idea/bf/61/myassets/products/320/18lt-mut-zeytinyagi_min.png?revision=1770901711","https://www.sazakzeytincilik.com/idea/bf/61/myassets/products/007/sizma111_min.jpg?revision=1762671337","https://www.sazakzeytincilik.com/idea/bf/61/myassets/products/012/erkenhasat5lt1_min.jpg?revision=1766990412"],
-        info: "Sazak Zeytincilik, Mut'ta erken hasat ve büyük hacimli zeytinyağı ürünleriyle güçlü bir üretici profil sunar."
+        "slug": "sazak-zeytincilik",
+        "logo": "https://www.sazakzeytincilik.com/idea/bf/61/themes/selftpl_65a925bc527ae/assets/uploads/logo.png?revision=1770703548",
+        "bottles": [
+            "https://www.sazakzeytincilik.com/idea/bf/61/myassets/products/320/18lt-mut-zeytinyagi_min.png?revision=1770901711",
+            "https://www.sazakzeytincilik.com/idea/bf/61/myassets/products/007/sizma111_min.jpg?revision=1762671337",
+            "https://www.sazakzeytincilik.com/idea/bf/61/myassets/products/012/erkenhasat5lt1_min.jpg?revision=1766990412"
+        ],
+        "info": "Sazak Zeytincilik, Mut'ta erken hasat ve büyük hacimli zeytinyağı ürünleriyle güçlü bir üretici profil sunar."
     },
     "100": {
-        slug: "adrasos",
-        logo: "https://www.adrasos.com/idea/hd/67/themes/selftpl_5faad86c5cff0/assets/uploads/logo.jpg?revision=1728927645",
-        bottles: ["https://www.adrasos.com/idea/hd/67/myassets/products/012/adrasos-erken-hasat-sizma-zeytinyagi-1lt_min.jpg?revision=1754979737","https://www.adrasos.com/idea/hd/67/myassets/products/043/adrasos-naturel-sizma-zeytinyagi-1lt-galon_min.jpg?revision=1771236090","https://www.adrasos.com/idea/hd/67/myassets/products/042/adrasos-erken-hasat-sizma-zeytinyagi-1lt-cam_min.jpg?revision=1754979778"],
-        info: "Adrasos, Mut zeytinyağını cam ve galon ambalajlı premium natürel sızma serilerle sunan bir markadır."
+        "slug": "adrasos",
+        "logo": "https://www.adrasos.com/idea/hd/67/themes/selftpl_5faad86c5cff0/assets/uploads/logo.jpg?revision=1728927645",
+        "bottles": [
+            "https://www.adrasos.com/idea/hd/67/myassets/products/012/adrasos-erken-hasat-sizma-zeytinyagi-1lt_min.jpg?revision=1754979737",
+            "https://www.adrasos.com/idea/hd/67/myassets/products/043/adrasos-naturel-sizma-zeytinyagi-1lt-galon_min.jpg?revision=1771236090",
+            "https://www.adrasos.com/idea/hd/67/myassets/products/042/adrasos-erken-hasat-sizma-zeytinyagi-1lt-cam_min.jpg?revision=1754979778"
+        ],
+        "info": "Adrasos, Mut zeytinyağını cam ve galon ambalajlı premium natürel sızma serilerle sunan bir markadır."
     },
     "101": {
-        slug: "mutolea",
-        logo: "https://mutolea.com/Resim/mut-olea-3000-3000-piksel-pdf-1000-x-1000-piksel-14_tr_TR.png",
-        bottles: ["https://mutolea.com/Resim/Minik/500x500_thumb_mut-00078.png","https://mutolea.com/Resim/Minik/500x500_thumb_mut-00074.png","https://mutolea.com/Resim/Minik/500x500_thumb_mut-00070.png"],
-        info: "Mutolea, Mut merkezli doğal ürünler markası olup soğuk sıkım zeytinyağı ile bitkisel ürün portföyünü birlikte sunar."
+        "slug": "mutolea",
+        "logo": "https://mutolea.com/Resim/mut-olea-3000-3000-piksel-pdf-1000-x-1000-piksel-14_tr_TR.png",
+        "bottles": [
+            "https://mutolea.com/Resim/Minik/500x500_thumb_mut-00078.png",
+            "https://mutolea.com/Resim/Minik/500x500_thumb_mut-00074.png",
+            "https://mutolea.com/Resim/Minik/500x500_thumb_mut-00070.png"
+        ],
+        "info": "Mutolea, Mut merkezli doğal ürünler markası olup soğuk sıkım zeytinyağı ile bitkisel ürün portföyünü birlikte sunar."
+    },
+    "102": {
+        "slug": "palamidas",
+        "logo": "https://shop.palamidas.com/uploads/logo.swceh.png",
+        "bottles": [
+            "https://shop.palamidas.com/uploads/urunler/5-lt-tnk-soguk-sikim-naturel-sizma-zeytinyagi-124.webp",
+            "https://shop.palamidas.com/uploads/urunler/3-lt-tnk-ozel-harman-soguk-sikim-naturel-sizma-zeytinyagi-130.webp",
+            "https://shop.palamidas.com/uploads/urunler/500-ml-organik-naturel-sizma-zeytinyagi-150.webp"
+        ],
+        "info": "Palamidas, Akhisar, Manisa hattında soğuk sıkım natürel sızma ve organik seri sunan aile üreticisidir."
+    },
+    "103": {
+        "slug": "oro-di-milas",
+        "logo": "https://static.wixstatic.com/media/1ab336_32e95f3d4bd14e92945b0eab059a8a28~mv2.png/v1/fill/w_366,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/pic-site-15.png",
+        "bottles": [
+            "https://static.wixstatic.com/media/1ab336_68345a0a5b16421080046775f0c74c9a~mv2.png",
+            "https://static.wixstatic.com/media/1ab336_c926af48a13e408f933e5f053d9eacb2~mv2.png/v1/crop/x_0,y_139,w_1038,h_2044/fill/w_537,h_1058,al_c,q_90,enc_avif,quality_auto/pic-site-11.png",
+            "https://static.wixstatic.com/media/1ab336_ac0005721f424d4898439df5f0fc94ab~mv2.png/v1/fill/w_537,h_494,al_c,q_90,enc_avif,quality_auto/pic-site-12.png"
+        ],
+        "info": "Oro di Milas, Milas, Muğla hattında aileye ait tesiste premium natürel sızma üretimi yapan bir zeytinyağı üreticisidir."
+    },
+    "104": {
+        "slug": "velvet",
+        "logo": "https://static.wixstatic.com/media/734c68_8d8c98a6135e49b0b41911349c6d5f2b~mv2.png/v1/crop/x_0,y_132,w_450,h_185/fill/w_209,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Velvet%20Logo%20Yeni%20Boyut.png",
+        "bottles": [
+            "https://static.wixstatic.com/media/734c68_0fba80ce35dc40f98003ed60b4435605~mv2.png",
+            "https://static.wixstatic.com/media/734c68_f5d2db7079974440bbfbfc8b3d6ecf30~mv2.png",
+            "https://static.wixstatic.com/media/734c68_026eaf53169d46c4b153c7b9a344b9a2~mv2.png"
+        ],
+        "info": "Velvet, Orhangazi-İznik üretim hattı ve Gemlik tipi zeytin odağıyla natürel sızma seriler sunan Bursa çıkışlı bir üreticidir."
+    },
+    "105": {
+        "slug": "masmana",
+        "logo": "https://www.masmana.com/cdn/shop/files/masmana-logo-png.png?v=1754565017",
+        "bottles": [
+            "https://www.masmana.com/cdn/shop/files/WhatsApp_Image_2025-11-17_at_1.28.59_PM.jpg?v=1763375375&width=3840",
+            "https://www.masmana.com/cdn/shop/collections/3_efc07da6-aec5-4932-a3ae-c9a0ceacfe13.jpg?v=1758378217&width=800",
+            "https://www.masmana.com/cdn/shop/collections/3_8ab9723e-68bf-49fb-a9d3-2291206b2005.jpg?v=1758378254&width=800"
+        ],
+        "info": "MASMANA, Kilis kökenli aile birikimini organik ve natürel sızma seriyle buluşturan bir üreticidir."
+    },
+    "106": {
+        "slug": "josevia",
+        "logo": "https://static.wixstatic.com/media/bc44bf_7d1e1648ecd748c791e6bf92acc65fb5~mv2.png",
+        "bottles": [
+            "https://static.wixstatic.com/media/70f64e_c85adf39ecb14dd19e34b0133a4de406~mv2.jpg",
+            "https://static.wixstatic.com/media/70f64e_5a67b737260245e5909e3ad6e3c60571~mv2.jpg",
+            "https://static.wixstatic.com/media/70f64e_da8f9bec6b9840eaaa0a22ddd40ef907~mv2.jpg"
+        ],
+        "info": "Josevia, Ayvalık çevresindeki zeytinlerden sürdürülebilir üretim anlayışıyla natürel sızma sunan premium bir üreticidir."
+    },
+    "107": {
+        "slug": "efsus",
+        "logo": "https://efsusnatural.com/wp-content/uploads/2023/05/logo-300x89.png",
+        "bottles": [
+            "https://i0.wp.com/efsusnatural.com/wp-content/uploads/2024/09/16.png?fit=600%2C600&ssl=1",
+            "https://i0.wp.com/efsusnatural.com/wp-content/uploads/2024/09/21.png?fit=600%2C600&ssl=1",
+            "https://i0.wp.com/efsusnatural.com/wp-content/uploads/2024/06/35.png?fit=600%2C600&ssl=1"
+        ],
+        "info": "EFSUS, Tarsus ve Çukurova hattında kendi bahçe ve tesisleriyle natürel sızma ile zeytin ürünleri sunan bir üreticidir."
+    },
+    "108": {
+        "slug": "guven-asa",
+        "logo": "https://static.ticimax.cloud/5032/uploads/editoruploads/site/guven-asa-logo.png",
+        "bottles": [
+            "https://static.ticimax.cloud/5032/Uploads/UrunResimleri/buyuk/erken-hasat-soguk-sikim-zeytinyagi-5-l-86320d.jpg",
+            "https://static.ticimax.cloud/5032/Uploads/UrunResimleri/buyuk/erken-hasat-soguk-sikim-zeytinyagi-3-l-9e-690.jpg",
+            "https://static.ticimax.cloud/5032/Uploads/UrunResimleri/buyuk/naturel-sizma-zeytinyagi-5-l-teneke-49d-f5.jpg"
+        ],
+        "info": "Güven Asa, Gömeç üretim tesisinden çıkan erken hasat ve natürel sızma serileriyle geniş gam sunan Kuzey Ege üreticisidir."
+    },
+    "109": {
+        "slug": "zenolive",
+        "logo": "https://zenolive.com.tr/wp-content/uploads/2020/04/Logo_ZenOlive.webp",
+        "bottles": [
+            "https://zenolive.com.tr/wp-content/uploads/2018/08/750ML_bottle.webp",
+            "https://zenolive.com.tr/wp-content/uploads/2018/12/5L_bottle.webp",
+            "https://zenolive.com.tr/wp-content/uploads/2025/08/P1000364-1024x769.webp"
+        ],
+        "info": "ZenOlive, Edremit tipi Ayvalık zeytinlerinden soğuk sıkım yağ üreten küçük ölçekli bir üreticidir."
+    },
+    "110": {
+        "slug": "kozoliv",
+        "logo": "https://static.ticimax.cloud/61978/uploads/editoruploads/logo_band_colored1x.png",
+        "bottles": [
+            "https://static.ticimax.cloud/61978/Uploads/UrunResimleri/buyuk/2025-26-yeni-sezon-erken-hasat-soguk-s-618e88.jpg",
+            "https://static.ticimax.cloud/61978/Uploads/UrunResimleri/buyuk/2025-26-yeni-sezon-erken-hasat-soguk-s-6b85e1.jpg",
+            "https://static.ticimax.cloud/61978/Uploads/UrunResimleri/buyuk/2025-26-yeni-sezon-erken-hasat-soguk-s-2bff9b.jpg"
+        ],
+        "info": "Kozoliv, Gömeç merkezli Kuzey Ege üretim hattında erken hasat ve natürel sızma seriler geliştiren bir aile üreticisidir."
+    },
+    "111": {
+        "slug": "milasso",
+        "logo": "https://spaces.wikiapis.com/milasso/milassologo.png",
+        "bottles": [
+            "https://spaces.wikiapis.com/milasso/images/mi/milasso-ultra-premium-zeytinyagi-500-ml-sise-1_l.jpg",
+            "https://spaces.wikiapis.com/milasso/images/mi/milasso-premium-zeytinyagi-5lt-teneke-1_l.jpg",
+            "https://spaces.wikiapis.com/milasso/images/ul/ultra-premium-hediyelik-set-1_l.jpg"
+        ],
+        "info": "Milasso, Milas çıkışlı yüksek polifenollü premium natürel sızma ve hediyelik seri sunan bir üreticidir."
     }
 };

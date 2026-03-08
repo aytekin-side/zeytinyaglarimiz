@@ -88,6 +88,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 107,
+    "name": "EFSUS",
+    "slug": "efsus",
+    "url": "https://efsusnatural.com",
+    "region": "Tarsus, Mersin",
+    "category": "organik"
+  },
+  {
     "id": 52,
     "name": "Gaia Oliva",
     "slug": "gaia-oliva",
@@ -136,6 +144,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 108,
+    "name": "Güven Asa",
+    "slug": "guven-asa",
+    "url": "https://www.guvenasazeytinyagi.com",
+    "region": "Gömeç, Balıkesir",
+    "category": "market-endustriyel"
+  },
+  {
     "id": 87,
     "name": "Hatay Tadında",
     "slug": "hatay-tadinda",
@@ -176,6 +192,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 106,
+    "name": "Josevia",
+    "slug": "josevia",
+    "url": "https://www.josevia.com",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 57,
     "name": "Kahraman",
     "slug": "kahraman",
@@ -206,6 +230,14 @@
     "url": "https://koralzeytin.com",
     "region": "Akhisar, Manisa",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 110,
+    "name": "Kozoliv",
+    "slug": "kozoliv",
+    "url": "https://kozoliv.com.tr",
+    "region": "Gömeç, Balıkesir",
+    "category": "premium-butik"
   },
   {
     "id": 3,
@@ -248,6 +280,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 105,
+    "name": "MASMANA",
+    "slug": "masmana",
+    "url": "https://www.masmana.com",
+    "region": "Kilis, Güneydoğu Anadolu",
+    "category": "premium-butik"
+  },
+  {
     "id": 62,
     "name": "Mavras",
     "slug": "mavras",
@@ -261,6 +301,14 @@
     "slug": "mera-ovasi",
     "url": "https://meraovasi.com",
     "region": "Erdek, Marmara",
+    "category": "premium-butik"
+  },
+  {
+    "id": 111,
+    "name": "Milasso",
+    "slug": "milasso",
+    "url": "https://milasso.com.tr",
+    "region": "Milas, Muğla",
     "category": "premium-butik"
   },
   {
@@ -416,11 +464,27 @@
     "category": "premium-butik"
   },
   {
+    "id": 103,
+    "name": "Oro di Milas",
+    "slug": "oro-di-milas",
+    "url": "https://www.orodimilas.com",
+    "region": "Milas, Muğla",
+    "category": "premium-butik"
+  },
+  {
     "id": 60,
     "name": "OVE Foods",
     "slug": "ove-foods",
     "url": "https://ovefoods.com",
     "region": "Aydın, Ege",
+    "category": "premium-butik"
+  },
+  {
+    "id": 102,
+    "name": "Palamidas",
+    "slug": "palamidas",
+    "url": "https://www.palamidas.com",
+    "region": "Akhisar, Manisa",
     "category": "premium-butik"
   },
   {
@@ -480,6 +544,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 104,
+    "name": "Velvet",
+    "slug": "velvet",
+    "url": "https://www.velvetoliveoil.com",
+    "region": "Orhangazi, Bursa",
+    "category": "premium-butik"
+  },
+  {
     "id": 54,
     "name": "Verde",
     "slug": "verde",
@@ -518,6 +590,14 @@
     "url": "https://www.yudum.com.tr",
     "region": "İstanbul",
     "category": "market-endustriyel"
+  },
+  {
+    "id": 109,
+    "name": "ZenOlive",
+    "slug": "zenolive",
+    "url": "https://zenolive.com.tr",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik"
   },
   {
     "id": 66,

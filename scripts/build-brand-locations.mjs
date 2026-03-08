@@ -85,6 +85,55 @@ const exactAddressOverrides = {
     precision: 'street',
     sourceType: 'official',
     sourceUrl: 'https://www.hatnar.com/'
+  },
+  102: {
+    displayAddress: 'Mecidiye Mahallesi Atatürk Caddesi No:150 Akhisar, Manisa, Türkiye',
+    geocodeQuery: 'Mecidiye Mahallesi, Akhisar, Manisa, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.palamidas.com/iletisim/'
+  },
+  103: {
+    displayAddress: 'Ekindere Mahallesi Merkez 47 Caddesi No:112 Milas, Muğla, Türkiye',
+    geocodeQuery: 'Ekindere Mahallesi, Milas, Muğla, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.orodimilas.com/contact'
+  },
+  104: {
+    displayAddress: 'Orhangazi-İznik üretim hattı, Bursa, Türkiye',
+    geocodeQuery: 'Orhangazi, Bursa, Türkiye',
+    precision: 'district',
+    sourceType: 'official-production',
+    sourceUrl: 'https://en.velvetoliveoil.com/velvetiletisim'
+  },
+  106: {
+    displayAddress: 'Küçükköy, İzmir Çanakkale Yolu, 10400 Ayvalık, Balıkesir, Türkiye',
+    geocodeQuery: 'Küçükköy, Ayvalık, Balıkesir, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.josevia.com/iletisim'
+  },
+  107: {
+    displayAddress: 'Öğretmenler Mahallesi Dumlupınar Caddesi No:25/B Tarsus, Mersin, Türkiye',
+    geocodeQuery: 'Öğretmenler Mahallesi, Tarsus, Mersin, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://efsusnatural.com/iletisim'
+  },
+  108: {
+    displayAddress: 'Mithatpaşa Mahallesi Dağınık Küme Evleri No:1/A Gömeç, Balıkesir, Türkiye',
+    geocodeQuery: 'Mithatpaşa Mahallesi, Gömeç, Balıkesir, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.guvenasazeytinyagi.com/iletisim'
+  },
+  110: {
+    displayAddress: 'Hacıosman Mahallesi Postacı Sokak No:1 Gömeç, Balıkesir, Türkiye',
+    geocodeQuery: 'Hacıosman Mahallesi, Gömeç, Balıkesir, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://kozoliv.com.tr/iletisim'
   }
 };
 
@@ -169,6 +218,11 @@ const regionLocationOverrides = {
     geocodeQuery: 'Gaziantep, Türkiye',
     precision: 'city'
   },
+  'Gömeç, Balıkesir': {
+    displayAddress: 'Gömeç, Balıkesir, Türkiye',
+    geocodeQuery: 'Gömeç, Balıkesir, Türkiye',
+    precision: 'district'
+  },
   'Gemlik, Bursa': {
     displayAddress: 'Gemlik, Bursa, Türkiye',
     geocodeQuery: 'Gemlik, Bursa, Türkiye',
@@ -224,6 +278,11 @@ const regionLocationOverrides = {
     geocodeQuery: 'Mudanya, Bursa, Türkiye',
     precision: 'district'
   },
+  'Orhangazi, Bursa': {
+    displayAddress: 'Orhangazi, Bursa, Türkiye',
+    geocodeQuery: 'Orhangazi, Bursa, Türkiye',
+    precision: 'district'
+  },
   'Mut, Mersin': {
     displayAddress: 'Mut, Mersin, Türkiye',
     geocodeQuery: 'Mut, Mersin, Türkiye',
@@ -242,6 +301,11 @@ const regionLocationOverrides = {
   'Şarköy, Tekirdağ': {
     displayAddress: 'Şarköy, Tekirdağ, Türkiye',
     geocodeQuery: 'Şarköy, Tekirdağ, Türkiye',
+    precision: 'district'
+  },
+  'Tarsus, Mersin': {
+    displayAddress: 'Tarsus, Mersin, Türkiye',
+    geocodeQuery: 'Tarsus, Mersin, Türkiye',
     precision: 'district'
   },
   'Türkiye geneli': {

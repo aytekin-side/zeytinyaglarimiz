@@ -1908,5 +1908,282 @@ const brandEditorialData = {
     ],
     "founded": "",
     "features": []
+  },
+  "102": {
+    "summary": "Palamidas, Akhisar, Manisa çıkışlı ve özenli seçime açık bir ürün dili ile dikkat çeken bir zeytinyağı seçimi. Köken duygusu ve yer hissi, şişenin karakterini anlatan en güçlü taraflardan biri.",
+    "paragraphs": [
+      "Palamidas, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Akhisar, Manisa çıkışı ve özenli seçime açık bir ürün dili birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Anlatının merkezine doğrudan Akhisar, Manisa çevresinin dokusu yerleştiriliyor; köy hissi, manzara, rüzgar ve eski zeytinlikler ürüne güçlü bir yer duygusu veriyor. Bu yüzden şişeye bakarken sadece teknik özellik değil, geldiği coğrafyanın atmosferi de hissediliyor.",
+      "Palamidas tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili sofrada ne beklenmesi gerektiğini önceden anlatan dengeli bir profil beklentisini güçlendiriyor. Site dili daha çok şişedeki karakteri, kullanım alanını ve sofraya bırakmak istediği hissi anlatma üzerine kuruluyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Burada öne çıkan farklılaştırıcı taraf, bahçenin temiz hava, orman dokusu ve daha sakin bir çevre içinde anlatılması ve yerel kökleri korurken dış pazara da güven veren daha geniş bir kalite iddiası. Bu ayrıntılar bir araya geldiğinde ürünün neden başka seçeneklerden ayrıldığı daha açık okunuyor.",
+      "Almayı düşünen biri için en doğru başlangıç, önce seri isimlerine ve şişe diline bakmak olmalı. Teneke gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, yerel köklerle uluslararası güven duygusunu aynı çizgide birleştirme isteği. Palamidas sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar."
+    ],
+    "sources": [
+      "https://www.palamidas.com/",
+      "https://www.palamidas.com/hakkimizda/",
+      "https://www.palamidas.com/hikayemiz/"
+    ],
+    "founded": "",
+    "features": [
+      "kooperatif birikimi"
+    ]
+  },
+  "103": {
+    "summary": "Oro di Milas, Milas, Muğla çıkışlı ve natürel sızma çizgisi ile dikkat çeken bir zeytinyağı seçimi. Köken duygusu ve yer hissi, şişenin karakterini anlatan en güçlü taraflardan biri.",
+    "paragraphs": [
+      "Oro di Milas, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Milas, Muğla çıkışı ve natürel sızma çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Anlatının merkezine doğrudan Milas, Muğla çevresinin dokusu yerleştiriliyor; köy hissi, manzara, rüzgar ve eski zeytinlikler ürüne güçlü bir yer duygusu veriyor. Bu yüzden şişeye bakarken sadece teknik özellik değil, geldiği coğrafyanın atmosferi de hissediliyor. Hakkımızda bölümünden taşan ton daha çok aile ve natürel sızma etrafında kuruluyor; bu da ürünü kuru bir teknik listeden çıkarıp daha yaşayan bir hikayeye bağlıyor.",
+      "Oro di Milas tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili çiğ kullanımda kendini daha iyi gösteren temiz bir yapı beklentisini güçlendiriyor. Site dili daha çok şişedeki karakteri, kullanım alanını ve sofraya bırakmak istediği hissi anlatma üzerine kuruluyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, coğrafyanın ve yer duygusunun şişenin karakterine doğrudan eşlik etmesi. Oro di Milas sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır."
+    ],
+    "sources": [
+      "https://www.orodimilas.com/",
+      "https://www.orodimilas.com/our-story"
+    ],
+    "founded": "",
+    "features": [
+      "natürel sızma",
+      "aile üretimi",
+      "kuşaklar boyu üretim"
+    ]
+  },
+  "104": {
+    "summary": "Velvet, Orhangazi, Bursa çıkışlı ve erken hasat çizgisi ile dikkat çeken bir zeytinyağı seçimi. Ürün dili, sofrada nasıl bir his bırakacağını daha ilk bakışta anlatmaya çalışıyor.",
+    "paragraphs": [
+      "Velvet, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Orhangazi, Bursa çıkışı ve erken hasat çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Hikaye kısmı tek başına nostalji üretmek yerine, bugün sofraya gelecek şişenin neden böyle konumlandığını anlatan sakin ama tutarlı bir zemin kuruyor.",
+      "Velvet tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter beklentisini güçlendiriyor. Site dili ve bölgesel bağ birlikte okunduğunda gemlik tarafında beklenen yumuşak başlangıçla açılan ama karakterini arkadan hissettiren bir çizgi daha kolay hissediliyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke, 250 ml ve 500 ml gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, köken duygusu ile günlük kullanım rahatlığını aynı şişede buluşturma çabası. Velvet sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar."
+    ],
+    "sources": [
+      "https://www.velvetoliveoil.com/",
+      "https://www.velvetoliveoil.com/hikayemiz"
+    ],
+    "founded": "",
+    "features": [
+      "erken hasat",
+      "gemlik"
+    ]
+  },
+  "105": {
+    "summary": "MASMANA, Kilis, Güneydoğu Anadolu çıkışlı ve erken hasat, organik ve yüksek polifenol çizgisi ile dikkat çeken bir zeytinyağı seçimi. Köken duygusu ve yer hissi, şişenin karakterini anlatan en güçlü taraflardan biri.",
+    "paragraphs": [
+      "MASMANA, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Kilis, Güneydoğu Anadolu çıkışı ve erken hasat, organik ve yüksek polifenol çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Resmi anlatıda görülen 1867 izi de bu çizgiye zaman duygusu ekliyor. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Anlatının merkezine doğrudan Kilis, Güneydoğu Anadolu çevresinin dokusu yerleştiriliyor; köy hissi, manzara, rüzgar ve eski zeytinlikler ürüne güçlü bir yer duygusu veriyor. Bu yüzden şişeye bakarken sadece teknik özellik değil, geldiği coğrafyanın atmosferi de hissediliyor.",
+      "MASMANA tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter ve içerik tarafında daha titiz davranmak isteyenler için güven veren bir çerçeve beklentisini güçlendiriyor. Site dili daha çok şişedeki karakteri, kullanım alanını ve sofraya bırakmak istediği hissi anlatma üzerine kuruluyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, coğrafyanın ve yer duygusunun şişenin karakterine doğrudan eşlik etmesi. MASMANA sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır."
+    ],
+    "sources": [
+      "https://www.masmana.com/",
+      "https://www.masmana.com/pages/hikayemiz"
+    ],
+    "founded": "1867",
+    "features": [
+      "erken hasat",
+      "organik",
+      "yüksek polifenol",
+      "aile üretimi",
+      "kuşaklar boyu üretim"
+    ]
+  },
+  "106": {
+    "summary": "Josevia, Ayvalık, Balıkesir çıkışlı ve erken hasat çizgisi ile dikkat çeken bir zeytinyağı seçimi. Ürün dili, sofrada nasıl bir his bırakacağını daha ilk bakışta anlatmaya çalışıyor.",
+    "paragraphs": [
+      "Josevia, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Ayvalık, Balıkesir çıkışı ve erken hasat çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Hikaye kısmı tek başına nostalji üretmek yerine, bugün sofraya gelecek şişenin neden böyle konumlandığını anlatan sakin ama tutarlı bir zemin kuruyor.",
+      "Josevia tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter beklentisini güçlendiriyor. Site dili daha çok şişedeki karakteri, kullanım alanını ve sofraya bırakmak istediği hissi anlatma üzerine kuruluyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke ve 1 litre gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, köken duygusu ile günlük kullanım rahatlığını aynı şişede buluşturma çabası. Josevia sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir."
+    ],
+    "sources": [
+      "https://www.josevia.com/",
+      "https://www.josevia.com/hakkimizda-1"
+    ],
+    "founded": "",
+    "features": [
+      "erken hasat"
+    ]
+  },
+  "107": {
+    "summary": "EFSUS, Tarsus, Mersin çıkışlı ve organik çizgisi ile dikkat çeken bir zeytinyağı seçimi. 1990 ve sonrasına uzanan anlatı, bu çizgiye zaman duygusu ekliyor.",
+    "paragraphs": [
+      "EFSUS, temiz içerik ve üretim hassasiyeti arayanların daha yakından bakabileceği bir çizgi kuruyor. Tarsus, Mersin çıkışı ve organik çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Resmi anlatıda görülen 1990 izi de bu çizgiye zaman duygusu ekliyor. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Hikaye tarafında aile kökleri ve kuşaklar arası devamlılık öne çıkıyor. 1990 bilgisi de bu birikimin kısa süreli bir heves değil, zamana yayılmış bir emek olduğunu düşündürüyor.",
+      "EFSUS tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili içerik tarafında daha titiz davranmak isteyenler için güven veren bir çerçeve beklentisini güçlendiriyor. Site dili daha çok şişedeki karakteri, kullanım alanını ve sofraya bırakmak istediği hissi anlatma üzerine kuruluyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Burada öne çıkan farklılaştırıcı taraf, teknik standartları ve kalite eşiklerini görünür kılan net bir dil. Bu ayrıntılar bir araya geldiğinde ürünün neden başka seçeneklerden ayrıldığı daha açık okunuyor.",
+      "Almayı düşünen biri için en doğru başlangıç, önce seri isimlerine ve şişe diline bakmak olmalı. Teneke ve 5 litre gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, köken duygusu ile günlük kullanım rahatlığını aynı şişede buluşturma çabası. EFSUS sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar."
+    ],
+    "sources": [
+      "https://efsusnatural.com/",
+      "https://efsusnatural.com/hakkimizda/",
+      "https://efsusnatural.com/kurumsal-satis/"
+    ],
+    "founded": "1990",
+    "features": [
+      "organik"
+    ]
+  },
+  "108": {
+    "summary": "Güven Asa, Gömeç, Balıkesir çıkışlı ve erken hasat çizgisi ile dikkat çeken bir zeytinyağı seçimi. Köken duygusu ve yer hissi, şişenin karakterini anlatan en güçlü taraflardan biri.",
+    "paragraphs": [
+      "Güven Asa, günlük mutfakta da rahat karşılık bulabilecek daha erişilebilir bir çizgi sunuyor. Gömeç, Balıkesir çıkışı ve erken hasat çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Anlatının merkezine doğrudan Gömeç, Balıkesir çevresinin dokusu yerleştiriliyor; köy hissi, manzara, rüzgar ve eski zeytinlikler ürüne güçlü bir yer duygusu veriyor. Bu yüzden şişeye bakarken sadece teknik özellik değil, geldiği coğrafyanın atmosferi de hissediliyor.",
+      "Güven Asa tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter beklentisini güçlendiriyor. Site dili daha çok şişedeki karakteri, kullanım alanını ve sofraya bırakmak istediği hissi anlatma üzerine kuruluyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Burada öne çıkan farklılaştırıcı taraf, teknik standartları ve kalite eşiklerini görünür kılan net bir dil ve yerel kökleri korurken dış pazara da güven veren daha geniş bir kalite iddiası. Bu ayrıntılar bir araya geldiğinde ürünün neden başka seçeneklerden ayrıldığı daha açık okunuyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, yerel köklerle uluslararası güven duygusunu aynı çizgide birleştirme isteği. Güven Asa sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır."
+    ],
+    "sources": [
+      "https://www.guvenasazeytinyagi.com/",
+      "https://www.guvenasazeytinyagi.com/hakkimizda"
+    ],
+    "founded": "",
+    "features": [
+      "erken hasat",
+      "kuşaklar boyu üretim"
+    ]
+  },
+  "109": {
+    "summary": "ZenOlive, Edremit, Balıkesir çıkışlı ve erken hasat çizgisi ile dikkat çeken bir zeytinyağı seçimi. Köken duygusu ve yer hissi, şişenin karakterini anlatan en güçlü taraflardan biri.",
+    "paragraphs": [
+      "ZenOlive, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Edremit, Balıkesir çıkışı ve erken hasat çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Anlatının merkezine doğrudan Edremit, Balıkesir çevresinin dokusu yerleştiriliyor; köy hissi, manzara, rüzgar ve eski zeytinlikler ürüne güçlü bir yer duygusu veriyor. Bu yüzden şişeye bakarken sadece teknik özellik değil, geldiği coğrafyanın atmosferi de hissediliyor.",
+      "ZenOlive tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter beklentisini güçlendiriyor. Site dili ve bölgesel bağ birlikte okunduğunda ayvalık tarafında beklenen daha dengeli, meyvemsi ve geniş sofralara kolay uyum veren bir çizgi daha kolay hissediliyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke ve 750 ml gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, coğrafyanın ve yer duygusunun şişenin karakterine doğrudan eşlik etmesi. ZenOlive sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar."
+    ],
+    "sources": [
+      "https://zenolive.com.tr/"
+    ],
+    "founded": "",
+    "features": [
+      "erken hasat",
+      "ayvalık"
+    ]
+  },
+  "110": {
+    "summary": "Kozoliv, Gömeç, Balıkesir çıkışlı ve erken hasat çizgisi ile dikkat çeken bir zeytinyağı seçimi. Ürün dili, sofrada nasıl bir his bırakacağını daha ilk bakışta anlatmaya çalışıyor.",
+    "paragraphs": [
+      "Kozoliv, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Gömeç, Balıkesir çıkışı ve erken hasat çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Hikaye tarafında aile kökleri, kuşaklar arası devamlılık ve bir işi özenle sürdürme isteği öne çıkıyor. Bu duygu, ürünü daha sıcak ve daha hatırlanır hale getiriyor.",
+      "Kozoliv tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter beklentisini güçlendiriyor. Site dili ve bölgesel bağ birlikte okunduğunda gemlik tarafında beklenen yumuşak başlangıçla açılan ama karakterini arkadan hissettiren bir çizgi daha kolay hissediliyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke, 250 ml ve 500 ml gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, köken duygusu ile günlük kullanım rahatlığını aynı şişede buluşturma çabası. Kozoliv sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar."
+    ],
+    "sources": [
+      "https://kozoliv.com.tr/",
+      "https://www.kozoliv.com.tr/hakkimizda"
+    ],
+    "founded": "",
+    "features": [
+      "erken hasat",
+      "aile üretimi",
+      "kuşaklar boyu üretim",
+      "kooperatif birikimi",
+      "gemlik"
+    ]
+  },
+  "111": {
+    "summary": "Milasso, Milas, Muğla çıkışlı ve erken hasat ve yüksek polifenol çizgisi ile dikkat çeken bir zeytinyağı seçimi. Köken duygusu ve yer hissi, şişenin karakterini anlatan en güçlü taraflardan biri.",
+    "paragraphs": [
+      "Milasso, ilk bakışta daha özenli seçim arayanların ilgisini çekecek bir çizgide duruyor. Milas, Muğla çıkışı ve erken hasat ve yüksek polifenol çizgisi birlikte düşünüldüğünde, burada amaç yalnızca yağ satmak değil; sofrada nasıl bir his bırakacağını daha en baştan anlatmak. Şişe, etiket ve ürün sayfasındaki anlatım yan yana geldiğinde seçim yapmak daha kolay hale geliyor.",
+      "Anlatının merkezine doğrudan Milas, Muğla çevresinin dokusu yerleştiriliyor; köy hissi, manzara, rüzgar ve eski zeytinlikler ürüne güçlü bir yer duygusu veriyor. Bu yüzden şişeye bakarken sadece teknik özellik değil, geldiği coğrafyanın atmosferi de hissediliyor.",
+      "Milasso tarafında alıcı için asıl önemli soru, şişenin sofrada nasıl davranacağı. Resmi ürün dili daha canlı, yeşil ve boğazda kısa bir hareket bırakan bir karakter beklentisini güçlendiriyor. Site dili ve bölgesel bağ birlikte okunduğunda memecik tarafında beklenen daha yeşil, daha diri ve boğazda hafifçe kendini hatırlatan bir çizgi daha kolay hissediliyor. Bu yüzden kahvaltıda ekmeğin üstüne gezdirilecek, salatada daha net hissedilecek ya da tencerede her gün kullanılacak seçenek aynı olmayabilir; seri ayrımını okuyarak ilerlemek daha doğru sonuç verir.",
+      "Resmi anlatıda öne çıkan farklılaştırıcı taraf, ölçülü ama kendine güvenen bir ürün dili ve bunu destekleyen sade görsel düzen oluyor.",
+      "Almayı düşünen biri için önce natürel sızma, erken hasat ve varsa yüksek polifenol gibi ifadelerin hangi seride toplandığına bakmak iyi sonuç verir. Teneke gibi ambalaj seçenekleri de seçim sırasında önemli. Küçük hacimler ilk deneme için, büyük boylar ise evde düzenli kullanım için daha mantıklı durabiliyor. İlk denemede daha küçük hacimle ilerlemek, damakta bıraktığı izi anlamayı kolaylaştırır; sevilen bir profile rastlandığında daha büyük pakete geçmek çok daha rahat hissettirir. Karar verirken önce kullanım anını, sonra damak beklentisini, en son da paket boyunu yan yana koymak gerekir.",
+      "Sonuç olarak burada öne çıkan şey, coğrafyanın ve yer duygusunun şişenin karakterine doğrudan eşlik etmesi. Milasso sayfasını okurken, raf önünde karar vermeyi kolaylaştıran asıl şey de bu oluyor: nereden geldiği, hangi sofrada daha iyi karşılık vereceği ve hangi seriyle başlanmasının daha mantıklı olduğu daha net görünüyor. Bu yüzden seçim, yalnızca tanıdık bir isme yönelmekten çıkıp gerçekten keyifle okunmuş ve düşünülmüş bir tercih haline geliyor.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar.",
+      "Keyifli bulunan taraf genelde burada başlar: sadece yağın sınıfı değil, onu çevreleyen hikaye, yer duygusu ve kullanım önerisi de seçim kararını daha anlamlı hale getirir.",
+      "Şişe görselleri, ambalaj boyları ve ürün sayfasındaki ton birlikte okunduğunda, hangi seçeneğin mutfakta daha sık kullanılacağı ve hangisinin daha çok sofrada parlayacağı daha net anlaşılır.",
+      "Etiketteki kelimeler ile resmi sitedeki anlatım aynı çizgide ilerliyorsa, alışveriş anında sürpriz yaşama ihtimali azalır. Bu da özellikle ilk kez denenecek bir şişede önemli bir rahatlık sağlar."
+    ],
+    "sources": [
+      "https://milasso.com.tr/",
+      "https://milasso.com.tr/ultra-premium-hediyelik",
+      "https://milasso.com.tr/bizim-hikayemiz"
+    ],
+    "founded": "",
+    "features": [
+      "erken hasat",
+      "yüksek polifenol",
+      "aile üretimi",
+      "kuşaklar boyu üretim",
+      "memecik"
+    ]
   }
 };
