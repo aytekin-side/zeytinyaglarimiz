@@ -9,7 +9,7 @@ const brands = [
         "website": "https://www.komili.com.tr",
         "founded": "1878",
         "highlight": true,
-        "image": "images/brand-logos/01-komili.svg",
+        "image": "images/markalar/komili/komili-logo.svg",
         "slug": "komili",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1878 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -27,7 +27,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=komili.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Komili tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Ayvalık, Balıkesir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 1878 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -58,7 +58,7 @@ const brands = [
         "website": "https://www.tariszeytin.com.tr",
         "founded": "1915",
         "highlight": true,
-        "image": "images/brand-logos/02-taris.png",
+        "image": "images/markalar/taris/taris-logo.png",
         "slug": "taris",
         "editorial": null,
         "detail": "Biz İzmir, Ege çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1915 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -76,7 +76,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=tariszeytin.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Tariş tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir, Ege çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 1915 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -107,7 +107,7 @@ const brands = [
         "website": "https://www.kristalyaglari.com",
         "founded": "1960",
         "highlight": false,
-        "image": "images/brand-logos/03-kristal.png",
+        "image": "images/markalar/kristal/kristal-logo.png",
         "slug": "kristal",
         "editorial": null,
         "detail": "Biz İzmir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1960 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -125,7 +125,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=kristalyaglari.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Kristal tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 1960 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -156,7 +156,7 @@ const brands = [
         "website": "https://www.laleli.com.tr",
         "founded": null,
         "highlight": true,
-        "image": "images/brand-logos/04-laleli.png",
+        "image": "images/markalar/laleli/laleli-logo.png",
         "slug": "laleli",
         "editorial": null,
         "detail": "Biz İzmir, Ege çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -174,7 +174,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=laleli.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Laleli tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. İzmir, Ege çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz İzmir, Ege tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -205,7 +205,7 @@ const brands = [
         "website": "https://www.sezaiomermadra.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/05-madra.png",
+        "image": "images/markalar/madra/madra-logo.png",
         "slug": "madra",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -226,7 +226,7 @@ const brands = [
             "Ayvalık",
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=sezaiomermadra.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Madra tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Edremit, Balıkesir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Edremit, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -257,7 +257,7 @@ const brands = [
         "website": "https://www.lunayag.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/06-luna.png",
+        "image": "images/markalar/luna/luna-logo.png",
         "slug": "luna",
         "editorial": null,
         "detail": "Biz İzmir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -275,7 +275,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=lunayag.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Luna tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -306,7 +306,7 @@ const brands = [
         "website": "https://www.yudum.com.tr",
         "founded": "1968",
         "highlight": false,
-        "image": "images/brand-logos/07-yudum.svg",
+        "image": "images/markalar/yudum/yudum-logo.svg",
         "slug": "yudum",
         "editorial": null,
         "detail": "Biz İstanbul çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1968 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -324,7 +324,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=yudum.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Yudum tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İstanbul çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 1968 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -355,7 +355,7 @@ const brands = [
         "website": "https://www.kirlangic.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/08-kirlangic.svg",
+        "image": "images/markalar/kirlangic/kirlangic-logo.svg",
         "slug": "kirlangic",
         "editorial": null,
         "detail": "Biz İstanbul çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -373,7 +373,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=kirlangic.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Kırlangıç tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İstanbul çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz İstanbul tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -404,7 +404,7 @@ const brands = [
         "website": "https://www.marmarabirlik.com.tr",
         "founded": "1954",
         "highlight": true,
-        "image": "images/brand-logos/09-marmarabirlik.png",
+        "image": "images/markalar/marmarabirlik/marmarabirlik-logo.png",
         "slug": "marmarabirlik",
         "editorial": null,
         "detail": "Biz Bursa, Marmara çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1954 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -422,7 +422,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=marmarabirlik.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Marmarabirlik tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Bursa, Marmara çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 1954 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -453,7 +453,7 @@ const brands = [
         "website": "https://www.oleamea.com",
         "founded": null,
         "highlight": true,
-        "image": "images/brand-logos/10-oleamea.png",
+        "image": "images/markalar/oleamea/oleamea-logo.png",
         "slug": "oleamea",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -471,7 +471,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=oleamea.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Oleamea tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -502,7 +502,7 @@ const brands = [
         "website": "https://meraovasi.com",
         "founded": null,
         "highlight": true,
-        "image": "images/brand-logos/11-mera-ovasi.png",
+        "image": "images/markalar/mera-ovasi/mera-ovasi-logo.png",
         "slug": "mera-ovasi",
         "editorial": null,
         "detail": "Biz Erdek, Marmara çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -520,7 +520,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=meraovasi.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Mera Ovası tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Erdek, Marmara çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Erdek, Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -551,7 +551,7 @@ const brands = [
         "website": "https://www.olivurla.com",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/12-olivurla.png",
+        "image": "images/markalar/olivurla/olivurla-logo.png",
         "slug": "olivurla",
         "editorial": null,
         "detail": "Biz Urla, İzmir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -569,7 +569,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=olivurla.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Olivurla tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Urla, İzmir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Urla, İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -600,7 +600,7 @@ const brands = [
         "website": "https://www.olistica.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/13-olistica.jpg",
+        "image": "images/markalar/olistica/olistica-logo.jpg",
         "slug": "olistica",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -618,7 +618,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=olistica.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Olistica tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -649,7 +649,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/14-olive-riviera.jpg",
+        "image": "images/markalar/olive-riviera/olive-riviera-logo.jpg",
         "slug": "olive-riviera",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -698,7 +698,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/15-papez.jpg",
+        "image": "images/markalar/papez/papez-logo.jpg",
         "slug": "papez",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -747,7 +747,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/16-selatin.png",
+        "image": "images/markalar/selatin/selatin-logo.png",
         "slug": "selatin",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -796,7 +796,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/17-degirmenci.png",
+        "image": "images/markalar/degirmenci/degirmenci-logo.png",
         "slug": "degirmenci",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -845,7 +845,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/18-izmir-pinari.jpg",
+        "image": "images/markalar/izmir-pinari/izmir-pinari-logo.jpg",
         "slug": "izmir-pinari",
         "editorial": null,
         "detail": "Biz İzmir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -894,7 +894,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/19-beyaz-altin.jpg",
+        "image": "images/markalar/beyaz-altin/beyaz-altin-logo.jpg",
         "slug": "beyaz-altin",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -943,7 +943,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/20-ozgun-olive.jpg",
+        "image": "images/markalar/ozgun-olive/ozgun-olive-logo.jpg",
         "slug": "ozgun-olive",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -992,7 +992,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/21-edremit-korfezi.jpg",
+        "image": "images/markalar/edremit-korfezi/edremit-korfezi-logo.jpg",
         "slug": "edremit-korfezi",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1041,7 +1041,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/22-kursat.png",
+        "image": "images/markalar/kursat/kursat-logo.png",
         "slug": "kursat",
         "editorial": null,
         "detail": "Biz Kilis, Güneydoğu Anadolu çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1093,7 +1093,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/23-zeytin-dali.jpg",
+        "image": "images/markalar/zeytin-dali/zeytin-dali-logo.jpg",
         "slug": "zeytin-dali",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1142,7 +1142,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/24-egemden.png",
+        "image": "images/markalar/egemden/egemden-logo.png",
         "slug": "egemden",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1191,7 +1191,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/25-bereket.jpg",
+        "image": "images/markalar/bereket/bereket-logo.jpg",
         "slug": "bereket",
         "editorial": null,
         "detail": "Biz Hatay, Akdeniz çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1243,7 +1243,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/26-olea-prilis.png",
+        "image": "images/markalar/olea-prilis/olea-prilis-logo.png",
         "slug": "olea-prilis",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1292,7 +1292,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/27-oliterra.gif",
+        "image": "images/markalar/oliterra/oliterra-logo.gif",
         "slug": "oliterra",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1341,7 +1341,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/28-ayla-zeytinyagi.jpg",
+        "image": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.jpg",
         "slug": "ayla-zeytinyagi",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1390,7 +1390,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/29-tarihi-kirkpinar.png",
+        "image": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.png",
         "slug": "tarihi-kirkpinar",
         "editorial": null,
         "detail": "Biz Edirne, Trakya çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1439,7 +1439,7 @@ const brands = [
         "website": "https://www.olivos.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/30-olivos.png",
+        "image": "images/markalar/olivos/olivos-logo.png",
         "slug": "olivos",
         "editorial": null,
         "detail": "Biz İstanbul çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1457,7 +1457,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=olivos.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Olivos tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. İstanbul çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz İstanbul tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -1488,7 +1488,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/31-hasat.png",
+        "image": "images/markalar/hasat/hasat-logo.png",
         "slug": "hasat",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1537,7 +1537,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/32-ayvalik-yildizi.jpg",
+        "image": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.jpg",
         "slug": "ayvalik-yildizi",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1586,7 +1586,7 @@ const brands = [
         "website": "https://ilyada.com",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/33-ilyada.png",
+        "image": "images/markalar/ilyada/ilyada-logo.png",
         "slug": "ilyada",
         "editorial": null,
         "detail": "Biz Çanakkale çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1604,7 +1604,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=ilyada.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz İlyada tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Çanakkale çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -1635,7 +1635,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/34-coskun-zeytinyaglari.png",
+        "image": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-logo.png",
         "slug": "coskun-zeytinyaglari",
         "editorial": null,
         "detail": "Biz İzmir, Ege çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1684,7 +1684,7 @@ const brands = [
         "website": "https://www.nargourmet.com",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/35-nar-gourmet.jpg",
+        "image": "images/markalar/nar-gourmet/nar-gourmet-logo.jpg",
         "slug": "nar-gourmet",
         "editorial": null,
         "detail": "Biz İstanbul çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1702,7 +1702,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=nargourmet.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Nar Gourmet tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. İstanbul çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz İstanbul tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -1733,7 +1733,7 @@ const brands = [
         "website": "https://www.monolive.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/36-monolive.jpg",
+        "image": "images/markalar/monolive/monolive-logo.jpg",
         "slug": "monolive",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1751,7 +1751,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=monolive.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz MonOlive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -1782,7 +1782,7 @@ const brands = [
         "website": "https://www.zeytursan.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/37-zeytursan.png",
+        "image": "images/markalar/zeytursan/zeytursan-logo.png",
         "slug": "zeytursan",
         "editorial": null,
         "detail": "Biz Bursa, Marmara çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1800,7 +1800,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytursan.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Zeytursan ile Bursa, Marmara tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Bursa, Marmara çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Bursa, Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -1831,7 +1831,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/38-trilye.png",
+        "image": "images/markalar/trilye/trilye-logo.png",
         "slug": "trilye",
         "editorial": null,
         "detail": "Biz Mudanya, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1883,7 +1883,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/39-vita.jpg",
+        "image": "images/markalar/vita/vita-logo.jpg",
         "slug": "vita",
         "editorial": null,
         "detail": "Biz Türkiye geneli çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1932,7 +1932,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/40-polat-zeytinyagi.png",
+        "image": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-logo.png",
         "slug": "polat-zeytinyagi",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1981,7 +1981,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/41-tego.png",
+        "image": "images/markalar/tego/tego-logo.png",
         "slug": "tego",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2030,7 +2030,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/42-bumba-zeytinyagi.png",
+        "image": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.png",
         "slug": "bumba-zeytinyagi",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2079,7 +2079,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/43-herbal-organik.jpg",
+        "image": "images/markalar/herbal-organik/herbal-organik-logo.jpg",
         "slug": "herbal-organik",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2128,7 +2128,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/44-olive-mama.png",
+        "image": "images/markalar/olive-mama/olive-mama-logo.png",
         "slug": "olive-mama",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2177,7 +2177,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/45-ekooleo.webp",
+        "image": "images/markalar/ekooleo/ekooleo-logo.webp",
         "slug": "ekooleo",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2226,7 +2226,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/46-odemis-birlik.png",
+        "image": "images/markalar/odemis-birlik/odemis-birlik-logo.png",
         "slug": "odemis-birlik",
         "editorial": null,
         "detail": "Biz Ödemiş, İzmir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2275,7 +2275,7 @@ const brands = [
         "website": "https://www.izbirlik.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/47-izmir-birlik.png",
+        "image": "images/markalar/izmir-birlik/izmir-birlik-logo.png",
         "slug": "izmir-birlik",
         "editorial": null,
         "detail": "Biz İzmir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2293,7 +2293,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=izbirlik.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz İzmir Birlik tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. İzmir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2324,7 +2324,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/48-milas-zeytinyaglari.png",
+        "image": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-logo.png",
         "slug": "milas-zeytinyaglari",
         "editorial": null,
         "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2373,7 +2373,7 @@ const brands = [
         "website": "https://nisholive.com",
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/49-nish-olive.png",
+        "image": "images/markalar/nish-olive/nish-olive-logo.png",
         "slug": "nish-olive",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2391,7 +2391,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=nisholive.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Nish Olive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2422,7 +2422,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/brand-logos/50-naturel.jpg",
+        "image": "images/markalar/naturel/naturel-logo.jpg",
         "slug": "naturel",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2471,7 +2471,7 @@ const brands = [
         "website": "https://novavera.com.tr",
         "founded": "2017",
         "highlight": true,
-        "image": "https://static.ticimax.cloud/42334/uploads/editoruploads/novavera-logo-white.png",
+        "image": "images/markalar/novavera/novavera-logo.webp",
         "slug": "novavera",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. 2017 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -2492,7 +2492,7 @@ const brands = [
             "Ayvalık",
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=novavera.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz NovaVera tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Edremit, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 2017 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -2523,7 +2523,7 @@ const brands = [
         "website": "https://www.gaiaoliva.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://static.ticimax.cloud/34601//uploads/editoruploads/go-logo-2025.svg",
+        "image": "images/markalar/gaia-oliva/gaia-oliva-logo.svg",
         "slug": "gaia-oliva",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2541,7 +2541,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=gaiaoliva.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Gaia Oliva tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2572,7 +2572,7 @@ const brands = [
         "website": "https://nizolive.com",
         "founded": null,
         "highlight": false,
-        "image": "https://nizolive.com/wp-content/uploads/2025/10/1_logo_y.webp",
+        "image": "images/markalar/nizolive/nizolive-logo.webp",
         "slug": "nizolive",
         "editorial": null,
         "detail": "Biz Gaziantep, Güneydoğu Anadolu çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2590,7 +2590,7 @@ const brands = [
         "oliveTypeLabels": [
             "Nizip Yağlık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=nizolive.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Nizolive ile Gaziantep, Güneydoğu Anadolu tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gaziantep, Güneydoğu Anadolu çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gaziantep, Güneydoğu Anadolu tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2621,7 +2621,7 @@ const brands = [
         "website": "https://www.olioverde.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.olioverde.com.tr/uploads/logo.png",
+        "image": "images/markalar/verde/verde-logo.png",
         "slug": "verde",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2642,7 +2642,7 @@ const brands = [
             "Ayvalık",
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=olioverde.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Verde tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2673,7 +2673,7 @@ const brands = [
         "website": "https://www.adatepe.com",
         "founded": null,
         "highlight": true,
-        "image": "https://www.adatepe.com/foto/6f0c3471da75.jpg",
+        "image": "images/markalar/adatepe/adatepe-logo.jpg",
         "slug": "adatepe",
         "editorial": null,
         "detail": "Biz Küçükkuyu, Çanakkale çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2691,7 +2691,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=adatepe.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Adatepe tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Küçükkuyu, Çanakkale çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Küçükkuyu, Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2722,7 +2722,7 @@ const brands = [
         "website": "https://www.oleturk.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.oleturk.com/cdn/shop/files/Logo_white.png?v=1769521626",
+        "image": "images/markalar/oleturk/oleturk-logo.webp",
         "slug": "oleturk",
         "editorial": null,
         "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2740,7 +2740,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=oleturk.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz OleTurk tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2771,7 +2771,7 @@ const brands = [
         "website": "https://kahraman.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://kahraman.com.tr/kahraman/logo/logo.png",
+        "image": "images/markalar/kahraman/kahraman-logo.png",
         "slug": "kahraman",
         "editorial": null,
         "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2789,7 +2789,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=kahraman.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Kahraman tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Akhisar, Manisa çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2820,7 +2820,7 @@ const brands = [
         "website": "https://butaassos.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://butaassos.com.tr/wp-content/uploads/2025/04/LOGO-1.png",
+        "image": "images/markalar/buta-assos/buta-assos-logo.png",
         "slug": "buta-assos",
         "editorial": null,
         "detail": "Biz Assos, Çanakkale çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2838,7 +2838,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=butaassos.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Buta Assos tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Assos, Çanakkale çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Assos, Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2869,7 +2869,7 @@ const brands = [
         "website": "https://www.ayvaco.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.ayvaco.com/cdn/shop/files/AYV_logo_final_20f77506-6e46-4a00-8884-c48658186a7d_300x.png?v=1736545014",
+        "image": "images/markalar/ayvaco/ayvaco-logo.avif",
         "slug": "ayvaco",
         "editorial": null,
         "detail": "Biz Ayvacık, Çanakkale çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2887,7 +2887,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=ayvaco.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Ayvaco ile Ayvacık, Çanakkale tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ayvacık, Çanakkale çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvacık, Çanakkale tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2918,7 +2918,7 @@ const brands = [
         "website": "https://ovefoods.com",
         "founded": null,
         "highlight": false,
-        "image": "https://ovefoods.com/ovelogonet.png",
+        "image": "images/markalar/ove-foods/ove-foods-logo.png",
         "slug": "ove-foods",
         "editorial": null,
         "detail": "Biz Aydın, Ege çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2936,7 +2936,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=ovefoods.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz OVE Foods tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Aydın, Ege çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Aydın, Ege tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -2967,7 +2967,7 @@ const brands = [
         "website": "https://granpa.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://granpa.com.tr/cdn/shop/files/image_1080_copy.png?v=1749037376&width=1445",
+        "image": "images/markalar/granpa/granpa-logo.webp",
         "slug": "granpa",
         "editorial": null,
         "detail": "Biz Bursa, Marmara çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2988,7 +2988,7 @@ const brands = [
             "Gemlik",
             "Trilye"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=granpa.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Granpa tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Bursa, Marmara çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Bursa, Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3019,7 +3019,7 @@ const brands = [
         "website": "https://mavras.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://mavras.com.tr/cdn/shop/files/MAVRAS.png?v=1753728989&width=1445",
+        "image": "images/markalar/mavras/mavras-logo.webp",
         "slug": "mavras",
         "editorial": null,
         "detail": "Biz Urla, İzmir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3037,7 +3037,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=mavras.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Mavras tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Urla, İzmir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Urla, İzmir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3068,7 +3068,7 @@ const brands = [
         "website": "https://www.hermus.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.hermus.com.tr/idea/qn/58/myassets/std_theme_files/tpl-foodavo/assets/uploads/logo.png?revision=1770746284",
+        "image": "images/markalar/hermus/hermus-logo.webp",
         "slug": "hermus",
         "editorial": null,
         "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3086,7 +3086,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=hermus.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Hermus tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Akhisar, Manisa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3117,7 +3117,7 @@ const brands = [
         "website": "https://nerminhanim.com",
         "founded": null,
         "highlight": true,
-        "image": "https://cdn.myikas.com/images/theme-images/d2fff716-f48b-48bf-b26e-6f6c800268e7/image_180.webp",
+        "image": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-logo.webp",
         "slug": "nermin-hanim-zeytinligi",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3135,7 +3135,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=nerminhanim.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Nermin Hanım Zeytinliği tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3166,7 +3166,7 @@ const brands = [
         "website": "https://olivyagokceovacik.com",
         "founded": null,
         "highlight": false,
-        "image": "https://olivyagokceovacik.com/wp-content/uploads/olivyagokceovacik-logo-100x100.webp",
+        "image": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-logo.webp",
         "slug": "olivya-gokceovacik",
         "editorial": null,
         "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3184,7 +3184,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=olivyagokceovacik.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Olivya Gökçeovacık tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3215,7 +3215,7 @@ const brands = [
         "website": "https://zetay.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://zetay.com.tr/upload/upload/8c721f08-33db-4c6b-87ed-86b21cc06ba5.png",
+        "image": "images/markalar/zetay/zetay-logo.png",
         "slug": "zetay",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3233,7 +3233,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zetay.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Zetay ile Edremit, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Edremit, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Edremit, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3264,7 +3264,7 @@ const brands = [
         "website": "https://www.mrzeytin.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.mrzeytin.com.tr/galeri/2442132831.webp",
+        "image": "images/markalar/mr-zeytin/mr-zeytin-logo.webp",
         "slug": "mr-zeytin",
         "editorial": null,
         "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3282,7 +3282,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=mrzeytin.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz MR Zeytin ile Akhisar, Manisa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Akhisar, Manisa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3313,7 +3313,7 @@ const brands = [
         "website": "https://dalgicoglu.com",
         "founded": null,
         "highlight": false,
-        "image": "https://dalgicoglu.com/wp-content/uploads/2023/08/dalgicoglu.com-904410.png",
+        "image": "images/markalar/dalgicoglu/dalgicoglu-logo.png",
         "slug": "dalgicoglu",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3331,7 +3331,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=dalgicoglu.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Dalgıçoğlu ile Edremit, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Edremit, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Edremit, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3362,7 +3362,7 @@ const brands = [
         "website": "https://www.sabuncugil.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://ideacdn.net/idea/di/87/themes/selftpl_6912dd7f4fb18/assets/uploads/logo.png?revision=1770973431",
+        "image": "images/markalar/sabuncugil/sabuncugil-logo.webp",
         "slug": "sabuncugil",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3380,7 +3380,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=sabuncugil.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Sabuncugil ile Ayvalık, Balıkesir tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Ayvalık, Balıkesir çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3411,7 +3411,7 @@ const brands = [
         "website": "https://koralzeytin.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.koralzeytin.com/image/cache/catalog/site-resimleri/logo_band_white@2x-912x64.png",
+        "image": "images/markalar/koral-zeytin/koral-zeytin-logo.png",
         "slug": "koral-zeytin",
         "editorial": null,
         "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3429,7 +3429,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=koralzeytin.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Koral Zeytin ile Akhisar, Manisa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Akhisar, Manisa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3460,7 +3460,7 @@ const brands = [
         "website": "https://semylasa.com",
         "founded": null,
         "highlight": false,
-        "image": "https://semylasa.com/cdn/shop/files/Untitled_design_10.png?v=1732443014&width=600",
+        "image": "images/markalar/semylasa/semylasa-logo.webp",
         "slug": "semylasa",
         "editorial": null,
         "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3478,7 +3478,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=semylasa.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Semylasa tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3509,7 +3509,7 @@ const brands = [
         "website": "https://olivamore.com",
         "founded": null,
         "highlight": false,
-        "image": "https://olivamore.com/wp-content/uploads/2024/12/olivamore-logo.svg",
+        "image": "images/markalar/olivamore/olivamore-logo.svg",
         "slug": "olivamore",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3527,7 +3527,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=olivamore.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Olivamore tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3558,7 +3558,7 @@ const brands = [
         "website": "https://www.ayolis.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.ticimax.cloud/cdn-cgi/image/width=1903,quality=99/55671/uploads/editoruploads/footer-logo.png",
+        "image": "images/markalar/ayolis/ayolis-logo.png",
         "slug": "ayolis",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3576,7 +3576,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=ayolis.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Ayolis tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3607,7 +3607,7 @@ const brands = [
         "website": "https://gemlika.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://gemlika.com.tr/wp-content/uploads/2024/08/gemlika.png",
+        "image": "images/markalar/gemlika/gemlika-logo.png",
         "slug": "gemlika",
         "editorial": null,
         "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3625,7 +3625,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=gemlika.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Gemlika ile Gemlik, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gemlik, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3656,7 +3656,7 @@ const brands = [
         "website": "https://www.zeytinsan.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytinsan.com.tr/wp-content/uploads/2021/10/zeytinsan-logo180.png",
+        "image": "images/markalar/zeytinsan/zeytinsan-logo.png",
         "slug": "zeytinsan",
         "editorial": null,
         "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3674,7 +3674,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytinsan.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Zeytinsan tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Akhisar, Manisa çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3705,7 +3705,7 @@ const brands = [
         "website": "https://www.anolive.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.anolive.com.tr/img/anolive-logo-header_1.png",
+        "image": "images/markalar/anolive/anolive-logo.png",
         "slug": "anolive",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3723,7 +3723,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=anolive.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Anolive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3754,7 +3754,7 @@ const brands = [
         "website": "https://artemoliva.com",
         "founded": null,
         "highlight": false,
-        "image": "https://artemoliva.com/wp-content/uploads/2021/02/logo_bckrgoundOK_sizeOK_GRNT250X250_TVL270X270.png",
+        "image": "images/markalar/artem-oliva/artem-oliva-logo.png",
         "slug": "artem-oliva",
         "editorial": null,
         "detail": "Biz Marmara çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3772,7 +3772,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=artemoliva.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Artem Oliva tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Marmara çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Marmara tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3803,7 +3803,7 @@ const brands = [
         "website": "https://www.oliveoilsland.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.oliveoilsland.com/wp-content/themes/neve/olive/images/logo.png",
+        "image": "images/markalar/oliveoilsland/oliveoilsland-logo.png",
         "slug": "oliveoilsland",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3821,7 +3821,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=oliveoilsland.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz OliveOilsLand tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ege Bölgesi çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ege Bölgesi tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3852,7 +3852,7 @@ const brands = [
         "website": "https://www.hatnar.com",
         "founded": null,
         "highlight": true,
-        "image": "https://www.hatnar.com/wp-content/uploads/2021/10/hatnar-logo-H-8.png",
+        "image": "images/markalar/hatnar/hatnar-logo.png",
         "slug": "hatnar",
         "editorial": null,
         "detail": "Biz Erzin, Hatay çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3870,7 +3870,7 @@ const brands = [
         "oliveTypeLabels": [
             "Halhalı"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=hatnar.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Hatnar tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Erzin, Hatay çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Erzin, Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3901,7 +3901,7 @@ const brands = [
         "website": "https://zetiya.com",
         "founded": null,
         "highlight": true,
-        "image": "https://zetiya.com/cdn/shop/files/Logo.Zetiya4.png?v=1756152630&width=500",
+        "image": "images/markalar/zetiya/zetiya-logo.webp",
         "slug": "zetiya",
         "editorial": null,
         "detail": "Biz Hatay çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3919,7 +3919,7 @@ const brands = [
         "oliveTypeLabels": [
             "Halhalı"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zetiya.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Zetiya tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Hatay çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3950,7 +3950,7 @@ const brands = [
         "website": "https://eceden.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://eceden.com.tr/logo3.png",
+        "image": "images/markalar/eceden-sofraniza/eceden-sofraniza-logo.png",
         "slug": "ece-den-sofraniza",
         "editorial": null,
         "detail": "Biz Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -3968,7 +3968,7 @@ const brands = [
         "oliveTypeLabels": [
             "Halhalı"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=eceden.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Ece'den Sofranıza ile Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -3999,7 +3999,7 @@ const brands = [
         "website": "https://uygurzeytinyagi.com",
         "founded": "1972",
         "highlight": true,
-        "image": "https://uygurzeytinyagi.com/images/logo.png",
+        "image": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-logo.png",
         "slug": "uygur-zeytinyagi",
         "editorial": null,
         "detail": "Biz Nizip, Gaziantep çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1972 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -4017,7 +4017,7 @@ const brands = [
         "oliveTypeLabels": [
             "Nizip Yağlık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=uygurzeytinyagi.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Uygur Zeytinyağı tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Nizip, Gaziantep çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 1972 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -4048,7 +4048,7 @@ const brands = [
         "website": "https://www.yalimzeytinyaglari.com.tr",
         "founded": "1997",
         "highlight": false,
-        "image": "https://www.yalimzeytinyaglari.com.tr/assets/images/logo.png",
+        "image": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-logo.png",
         "slug": "yalim-zeytin-yaglari",
         "editorial": null,
         "detail": "Biz Gaziantep çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 1997 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -4066,7 +4066,7 @@ const brands = [
         "oliveTypeLabels": [
             "Nizip Yağlık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=yalimzeytinyaglari.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Yalım Zeytin Yağları tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Gaziantep çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 1997 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -4097,7 +4097,7 @@ const brands = [
         "website": "https://www.zeytincir.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytincir.com.tr/wp-content/uploads/2021/12/zeytinyagi-logo1-1.png",
+        "image": "images/markalar/zeytincir/zeytincir-logo.png",
         "slug": "zeytincir",
         "editorial": null,
         "detail": "Biz Gaziantep çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4115,7 +4115,7 @@ const brands = [
         "oliveTypeLabels": [
             "Nizip Yağlık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytincir.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Zeytincir ile Gaziantep tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gaziantep çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gaziantep tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4146,7 +4146,7 @@ const brands = [
         "website": "https://www.bazilika.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.bazilika.com.tr/upload/bazilika-zeytinyaglari-hatay-antakya-altinozu.png",
+        "image": "images/markalar/bazilika/bazilika-logo.png",
         "slug": "bazilika",
         "editorial": null,
         "detail": "Biz Altınözü, Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4164,7 +4164,7 @@ const brands = [
         "oliveTypeLabels": [
             "Halhalı"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=bazilika.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Bazilika ile Altınözü, Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Altınözü, Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Altınözü, Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4195,7 +4195,7 @@ const brands = [
         "website": "https://arslanzeytinyagi.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://arslanzeytinyagi.com.tr/upload//arslan-zeytinyagi10.png",
+        "image": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-logo.png",
         "slug": "arslan-zeytinyagi",
         "editorial": null,
         "detail": "Biz Antakya, Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4213,7 +4213,7 @@ const brands = [
         "oliveTypeLabels": [
             "Halhalı"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=arslanzeytinyagi.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Arslan Zeytinyağı ile Antakya, Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Antakya, Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Antakya, Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4244,7 +4244,7 @@ const brands = [
         "website": "https://www.hataytadinda.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.hataytadinda.com/wp-content/uploads/2019/04/hatay-tad%C4%B1nda-logo2.png",
+        "image": "images/markalar/hatay-tadinda/hatay-tadinda-logo.png",
         "slug": "hatay-tadinda",
         "editorial": null,
         "detail": "Biz Hatay çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4262,7 +4262,7 @@ const brands = [
         "oliveTypeLabels": [
             "Halhalı"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=hataytadinda.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Hatay Tadında ile Hatay tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Hatay çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Hatay tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4293,7 +4293,7 @@ const brands = [
         "website": "https://www.gemtar.com.tr",
         "founded": null,
         "highlight": true,
-        "image": "https://ideacdn.net/idea/ln/94/themes/selftpl_63c93921dff4b/assets/uploads/logo.png?revision=1761118145",
+        "image": "images/markalar/gemtar/gemtar-logo.png",
         "slug": "gemtar",
         "editorial": null,
         "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4311,7 +4311,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=gemtar.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Gemtar tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Gemlik, Bursa çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4342,7 +4342,7 @@ const brands = [
         "website": "https://www.gemlikzeytincisi.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://www.gemlikzeytincisi.com.tr/wp-content/uploads/2024/05/op.png",
+        "image": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-logo.png",
         "slug": "gemlik-zeytincisi",
         "editorial": null,
         "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4360,7 +4360,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=gemlikzeytincisi.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Gemlik Zeytincisi ile Gemlik, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gemlik, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4391,7 +4391,7 @@ const brands = [
         "website": "https://www.gemlikzeytinevi.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.gemlikzeytinevi.com/image/catalog/logohy.png",
+        "image": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-logo.png",
         "slug": "gemlik-zeytin-evi",
         "editorial": null,
         "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4409,7 +4409,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=gemlikzeytinevi.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Gemlik Zeytin Evi ile Gemlik, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Gemlik, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4440,7 +4440,7 @@ const brands = [
         "website": "https://www.zeytinagaci.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytinagaci.com/shop/bu/35/themes/selftpl_61814615742ac/assets/uploads/logo.png?revision=1767075887",
+        "image": "images/markalar/solive/solive-logo.webp",
         "slug": "solive",
         "editorial": null,
         "detail": "Biz Gemlik, Bursa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4458,7 +4458,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytinagaci.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Solive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Gemlik, Bursa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gemlik, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4489,7 +4489,7 @@ const brands = [
         "website": "https://yelkenlizeytinyagi.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://yelkenlizeytinyagi.com.tr/wp-content/uploads/2024/03/logo-1.png",
+        "image": "images/markalar/yelkenli/yelkenli-logo.webp",
         "slug": "yelkenli",
         "editorial": null,
         "detail": "Biz Mudanya, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4507,7 +4507,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=yelkenlizeytinyagi.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Yelkenli ile Mudanya, Bursa tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mudanya, Bursa çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mudanya, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4538,7 +4538,7 @@ const brands = [
         "website": "https://www.vivaxolea.com",
         "founded": "2021",
         "highlight": true,
-        "image": "https://www.vivaxolea.com/tema/kurumsal/uploads/logo/VivaxOlea_Logo.png",
+        "image": "images/markalar/vivax-olea/vivax-olea-logo.png",
         "slug": "vivax-olea",
         "editorial": null,
         "detail": "Biz Şarköy, Tekirdağ çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. 2021 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -4556,7 +4556,7 @@ const brands = [
         "oliveTypeLabels": [
             "Trilye"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=vivaxolea.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Vivax Olea tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Şarköy, Tekirdağ çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 2021 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -4587,7 +4587,7 @@ const brands = [
         "website": "https://sarkoyciftlik.com.tr",
         "founded": null,
         "highlight": true,
-        "image": "https://cdn.myikas.com/images/15ce70ae-d38f-457b-b820-715d906f980d/b83b2e19-7134-48e7-9e43-cd9f159202b8/image_1080.webp",
+        "image": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-logo.jpg",
         "slug": "sarkoy-ciftlik",
         "editorial": null,
         "detail": "Biz Şarköy, Tekirdağ çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4605,7 +4605,7 @@ const brands = [
         "oliveTypeLabels": [
             "Trilye"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=sarkoyciftlik.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Şarköy Çiftlik ile Şarköy, Tekirdağ tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Şarköy, Tekirdağ çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Şarköy, Tekirdağ tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4636,7 +4636,7 @@ const brands = [
         "website": "https://www.mutuna.com",
         "founded": null,
         "highlight": true,
-        "image": "https://www.mutuna.com/idea/if/09/themes/selftpl_65798a840c0eb/assets/uploads/logo.png?revision=1729753622",
+        "image": "images/markalar/mutuna/mutuna-logo.webp",
         "slug": "mutuna",
         "editorial": null,
         "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4654,7 +4654,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=mutuna.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Mutuna ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4685,7 +4685,7 @@ const brands = [
         "website": "https://mutili.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://mutili.com.tr/wp-content/uploads/2025/05/Mutili-Logo-2.png",
+        "image": "images/markalar/mutili/mutili-logo.webp",
         "slug": "mutili",
         "editorial": null,
         "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4703,7 +4703,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=mutili.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Mutili tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Mut, Mersin çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4734,7 +4734,7 @@ const brands = [
         "website": "https://mutincisi.com",
         "founded": null,
         "highlight": false,
-        "image": "https://mutincisi.com/assets/images/logo_1772443738.png",
+        "image": "images/markalar/mut-incisi/mut-incisi-logo.png",
         "slug": "mut-incisi",
         "editorial": null,
         "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4752,7 +4752,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=mutincisi.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Mut İncisi ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4783,7 +4783,7 @@ const brands = [
         "website": "https://www.zeytinyagievi.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.zeytinyagievi.com/shop/rr/76/themes/selftpl_5de7a2fdcd356/assets/uploads/logo.png?revision=1767710058",
+        "image": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-logo.png",
         "slug": "zeytinyagi-evi",
         "editorial": null,
         "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4801,7 +4801,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zeytinyagievi.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Zeytinyağı Evi ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4832,7 +4832,7 @@ const brands = [
         "website": "https://www.sazakzeytincilik.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.sazakzeytincilik.com/idea/bf/61/themes/selftpl_65a925bc527ae/assets/uploads/logo.png?revision=1770703548",
+        "image": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-logo.png",
         "slug": "sazak-zeytincilik",
         "editorial": null,
         "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4850,7 +4850,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=sazakzeytincilik.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Sazak Zeytincilik ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4881,7 +4881,7 @@ const brands = [
         "website": "https://www.adrasos.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.adrasos.com/idea/hd/67/themes/selftpl_5faad86c5cff0/assets/uploads/logo.jpg?revision=1728927645",
+        "image": "images/markalar/adrasos/adrasos-logo.webp",
         "slug": "adrasos",
         "editorial": null,
         "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4899,7 +4899,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=adrasos.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Adrasos tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Mut, Mersin çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4930,7 +4930,7 @@ const brands = [
         "website": "https://mutolea.com",
         "founded": null,
         "highlight": false,
-        "image": "https://mutolea.com/Resim/mut-olea-3000-3000-piksel-pdf-1000-x-1000-piksel-14_tr_TR.png",
+        "image": "images/markalar/mutolea/mutolea-logo.png",
         "slug": "mutolea",
         "editorial": null,
         "detail": "Biz Mut, Mersin çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4948,7 +4948,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=mutolea.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Mutolea ile Mut, Mersin tarafının yer duygusunu sofraya taşımayı hedefliyoruz. Mut, Mersin çıkışlı bu yağı geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Mut, Mersin tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -4979,7 +4979,7 @@ const brands = [
         "website": "https://www.palamidas.com",
         "founded": null,
         "highlight": false,
-        "image": "https://shop.palamidas.com/uploads/logo.swceh.png",
+        "image": "images/markalar/palamidas/palamidas-logo.png",
         "slug": "palamidas",
         "editorial": null,
         "detail": "Biz Akhisar, Manisa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -4997,7 +4997,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=palamidas.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Palamidas tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Akhisar, Manisa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Akhisar, Manisa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -5028,7 +5028,7 @@ const brands = [
         "website": "https://www.orodimilas.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/1ab336_32e95f3d4bd14e92945b0eab059a8a28~mv2.png/v1/fill/w_366,h_73,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/pic-site-15.png",
+        "image": "images/markalar/oro-di-milas/oro-di-milas-logo.avif",
         "slug": "oro-di-milas",
         "editorial": null,
         "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -5046,7 +5046,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=orodimilas.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Oro di Milas tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -5077,7 +5077,7 @@ const brands = [
         "website": "https://www.velvetoliveoil.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/734c68_8d8c98a6135e49b0b41911349c6d5f2b~mv2.png/v1/crop/x_0,y_132,w_450,h_185/fill/w_209,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Velvet%20Logo%20Yeni%20Boyut.png",
+        "image": "images/markalar/velvet/velvet-logo.avif",
         "slug": "velvet",
         "editorial": null,
         "detail": "Biz Orhangazi, Bursa çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -5095,7 +5095,7 @@ const brands = [
         "oliveTypeLabels": [
             "Gemlik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=velvetoliveoil.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Velvet tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Orhangazi, Bursa çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Orhangazi, Bursa tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -5126,7 +5126,7 @@ const brands = [
         "website": "https://www.masmana.com",
         "founded": null,
         "highlight": false,
-        "image": "https://www.masmana.com/cdn/shop/files/masmana-logo-png.png?v=1754565017",
+        "image": "images/markalar/masmana/masmana-logo.webp",
         "slug": "masmana",
         "editorial": null,
         "detail": "Biz Kilis, Güneydoğu Anadolu çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -5144,7 +5144,7 @@ const brands = [
         "oliveTypeLabels": [
             "Nizip Yağlık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=masmana.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz MASMANA tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Kilis, Güneydoğu Anadolu çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Kilis, Güneydoğu Anadolu tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -5175,7 +5175,7 @@ const brands = [
         "website": "https://www.josevia.com",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/bc44bf_7d1e1648ecd748c791e6bf92acc65fb5~mv2.png",
+        "image": "images/markalar/josevia/josevia-logo.png",
         "slug": "josevia",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -5193,7 +5193,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=josevia.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Josevia tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Ayvalık, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Ayvalık, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -5224,7 +5224,7 @@ const brands = [
         "website": "https://efsusnatural.com",
         "founded": "2010",
         "highlight": false,
-        "image": "https://efsusnatural.com/wp-content/uploads/2023/05/logo-300x89.png",
+        "image": "images/markalar/efsus/efsus-logo.webp",
         "slug": "efsus",
         "editorial": null,
         "detail": "Biz Tarsus, Mersin çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. 2010 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -5242,7 +5242,7 @@ const brands = [
         "oliveTypeLabels": [
             "Sarı Ulak"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=efsusnatural.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz EFSUS tarafında temiz içerik hassasiyetini lezzetle bir arada tutuyoruz. Tarsus, Mersin çıkışlı bu yağı içeriği kadar üretim hassasiyeti de önemli olan temiz bir çizgi anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 2010 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -5273,7 +5273,7 @@ const brands = [
         "website": "https://www.guvenasazeytinyagi.com",
         "founded": "2014",
         "highlight": false,
-        "image": "https://static.ticimax.cloud/5032/uploads/editoruploads/site/guven-asa-logo.png",
+        "image": "images/markalar/guven-asa/guven-asa-logo.webp",
         "slug": "guven-asa",
         "editorial": null,
         "detail": "Biz Gömeç, Balıkesir çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. 2014 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -5294,7 +5294,7 @@ const brands = [
             "Ayvalık",
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=guvenasazeytinyagi.com&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Güven Asa tarafında her gün mutfakta yer bulacak güvenilir bir çizgi sunuyoruz. Gömeç, Balıkesir çıkışlı bu yağı günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 2014 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -5325,7 +5325,7 @@ const brands = [
         "website": "https://zenolive.com.tr",
         "founded": "2004",
         "highlight": false,
-        "image": "https://zenolive.com.tr/wp-content/uploads/2020/04/Logo_ZenOlive.webp",
+        "image": "images/markalar/zenolive/zenolive-logo.webp",
         "slug": "zenolive",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. 2004 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -5343,7 +5343,7 @@ const brands = [
         "oliveTypeLabels": [
             "Ayvalık"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=zenolive.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz ZenOlive tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Edremit, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Bizim hikayemizde 2004 ve sonrasına yayılan bir emek var. Bu süreklilik bize her sezonda aynı özeni koruma sorumluluğu veriyor.",
@@ -5374,7 +5374,7 @@ const brands = [
         "website": "https://kozoliv.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://static.ticimax.cloud/61978/uploads/editoruploads/logo_band_colored1x.png",
+        "image": "images/markalar/kozoliv/kozoliv-logo.webp",
         "slug": "kozoliv",
         "editorial": null,
         "detail": "Biz Gömeç, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -5395,7 +5395,7 @@ const brands = [
             "Ayvalık",
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=kozoliv.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Kozoliv tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Gömeç, Balıkesir çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Gömeç, Balıkesir tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -5426,7 +5426,7 @@ const brands = [
         "website": "https://milasso.com.tr",
         "founded": null,
         "highlight": false,
-        "image": "https://spaces.wikiapis.com/milasso/milassologo.png",
+        "image": "images/markalar/milasso/milasso-logo.png",
         "slug": "milasso",
         "editorial": null,
         "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -5444,7 +5444,7 @@ const brands = [
         "oliveTypeLabels": [
             "Memecik"
         ],
-        "logoFallback": "https://www.google.com/s2/favicons?domain=milasso.com.tr&sz=256",
+        "logoFallback": "",
         "longDetailParagraphs": [
             "Biz Milasso tarafında daha seçici sofralara yakışacak karakterli bir çizgi kuruyoruz. Milas, Muğla çıkışlı bu yağı özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya getiriyor, şişe açıldığında hem lezzet hem güven hissedilsin istiyoruz.",
             "Biz Milas, Muğla tarafının karakterini olduğu gibi sofraya taşımaya çalışıyoruz; şişedeki tat, toprağın ve iklimin birlikte kurduğu dengenin uzantısı olsun istiyoruz.",
@@ -5475,7 +5475,8 @@ const brands = [
         "website": "https://www.oliellaseferihisar.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/9f2182_7c2ed85fdb44468084ad530ebebbd9a4~mv2.png"
+        "image": "images/markalar/oliella/oliella-logo.png",
+        "logoFallback": ""
     },
     {
         "id": 113,
@@ -5486,7 +5487,8 @@ const brands = [
         "website": "https://seosfarm.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://seosfarm.com/wp-content/uploads/seos-farm-logo.png"
+        "image": "images/markalar/seosfarm/seosfarm-logo.png",
+        "logoFallback": ""
     },
     {
         "id": 114,
@@ -5497,7 +5499,8 @@ const brands = [
         "website": "https://www.seferis.org/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.seferis.org/images/slider/seferis.png"
+        "image": "images/markalar/seferis/seferis-logo.png",
+        "logoFallback": ""
     },
     {
         "id": 115,
@@ -5508,7 +5511,8 @@ const brands = [
         "website": "https://www.kucukbahce.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.kucukbahce.com.tr/content/kucukbahce/images/kucukbahce_logo.png"
+        "image": "images/markalar/kucukbahce/kucukbahce-logo.png",
+        "logoFallback": ""
     },
     {
         "id": 116,
@@ -5519,7 +5523,8 @@ const brands = [
         "website": "https://buzey.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://cdn.myikas.com/images/9c404b1d-06c2-4b9c-b463-ee240be49443/89874136-b4ff-48f0-90c1-75cc98654458/image_1080.webp"
+        "image": "images/markalar/buzey/buzey-logo.webp",
+        "logoFallback": ""
     },
     {
         "id": 117,
@@ -5530,7 +5535,8 @@ const brands = [
         "website": "https://www.kegefood.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://static.wixstatic.com/media/b329ca_e40e46dbf07b452cb7c4d9acb3a10206~mv2.png"
+        "image": "images/markalar/kege-food/kege-food-logo.png",
+        "logoFallback": ""
     },
     {
         "id": 118,
@@ -5541,7 +5547,8 @@ const brands = [
         "website": "https://www.pazarbasilar.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://shop.pazarbasilar.com/image/cache/catalog/logo-787x197.png"
+        "image": "images/markalar/pazarbasilar/pazarbasilar-logo.png",
+        "logoFallback": ""
     },
     {
         "id": 119,
@@ -5552,7 +5559,8 @@ const brands = [
         "website": "https://kirte.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://kirte.com.tr/wp-content/uploads/2023/11/logo-min.png"
+        "image": "images/markalar/kirte/kirte-logo.png",
+        "logoFallback": ""
     },
     {
         "id": 120,
@@ -5563,7 +5571,8 @@ const brands = [
         "website": "https://www.anafortis.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.anafortis.com.tr/images/ANAFORTIS_LOGO.svg"
+        "image": "images/markalar/anafortis/anafortis-logo.svg",
+        "logoFallback": ""
     },
     {
         "id": 121,
@@ -5574,7 +5583,8 @@ const brands = [
         "website": "https://www.datcam.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.datcam.com.tr/idea/jl/13/themes/selftpl_620dfb3921634/assets/uploads/logo.png?revision=1737105670"
+        "image": "images/markalar/datcam/datcam-logo.webp",
+        "logoFallback": ""
     }
 ];
 
@@ -5604,58 +5614,7 @@ const oliveTypeLabels = {
     'sari-ulak': 'Sarı Ulak'
 };
 
-const manualLogoOverrides = {
-    1: 'images/brand-logos/01-komili.svg',
-    2: 'images/brand-logos/02-taris.png',
-    3: 'images/brand-logos/03-kristal.png',
-    4: 'images/brand-logos/04-laleli.png',
-    5: 'images/brand-logos/05-madra.png',
-    6: 'images/brand-logos/06-luna.png',
-    7: 'images/brand-logos/07-yudum.svg',
-    8: 'images/brand-logos/08-kirlangic.svg',
-    9: 'images/brand-logos/09-marmarabirlik.png',
-    10: 'images/brand-logos/10-oleamea.png',
-    11: 'images/brand-logos/11-mera-ovasi.png',
-    12: 'images/brand-logos/12-olivurla.png',
-    13: 'images/brand-logos/13-olistica.jpg',
-    14: 'images/brand-logos/14-olive-riviera.jpg',
-    15: 'images/brand-logos/15-papez.jpg',
-    16: 'images/brand-logos/16-selatin.png',
-    17: 'images/brand-logos/17-degirmenci.png',
-    18: 'images/brand-logos/18-izmir-pinari.jpg',
-    19: 'images/brand-logos/19-beyaz-altin.jpg',
-    20: 'images/brand-logos/20-ozgun-olive.jpg',
-    21: 'images/brand-logos/21-edremit-korfezi.jpg',
-    22: 'images/brand-logos/22-kursat.png',
-    23: 'images/brand-logos/23-zeytin-dali.jpg',
-    24: 'images/brand-logos/24-egemden.png',
-    25: 'images/brand-logos/25-bereket.jpg',
-    26: 'images/brand-logos/26-olea-prilis.png',
-    27: 'images/brand-logos/27-oliterra.gif',
-    28: 'images/brand-logos/28-ayla-zeytinyagi.jpg',
-    29: 'images/brand-logos/29-tarihi-kirkpinar.png',
-    30: 'images/brand-logos/30-olivos.png',
-    31: 'images/brand-logos/31-hasat.png',
-    32: 'images/brand-logos/32-ayvalik-yildizi.jpg',
-    33: 'images/brand-logos/33-ilyada.png',
-    34: 'images/brand-logos/34-coskun-zeytinyaglari.png',
-    35: 'images/brand-logos/35-nar-gourmet.jpg',
-    36: 'images/brand-logos/36-monolive.jpg',
-    37: 'images/brand-logos/37-zeytursan.png',
-    38: 'images/brand-logos/38-trilye.png',
-    39: 'images/brand-logos/39-vita.jpg',
-    40: 'images/brand-logos/40-polat-zeytinyagi.png',
-    41: 'images/brand-logos/41-tego.png',
-    42: 'images/brand-logos/42-bumba-zeytinyagi.png',
-    43: 'images/brand-logos/43-herbal-organik.jpg',
-    44: 'images/brand-logos/44-olive-mama.png',
-    45: 'images/brand-logos/45-ekooleo.webp',
-    46: 'images/brand-logos/46-odemis-birlik.png',
-    47: 'images/brand-logos/47-izmir-birlik.png',
-    48: 'images/brand-logos/48-milas-zeytinyaglari.png',
-    49: 'images/brand-logos/49-nish-olive.png',
-    50: 'images/brand-logos/50-naturel.jpg'
-};
+const manualLogoOverrides = {};
 
 function normalizeSlug(value) {
     return value
@@ -5823,7 +5782,7 @@ function getBrandDetailUrl(brand) {
 function getBrandBottleImages(brand) {
     const media = getMediaForBrand(brand);
     if (!media || !Array.isArray(media.bottles)) return [];
-    return media.bottles.filter(isSafeHttpUrl).slice(0, 3);
+    return media.bottles.filter((value) => isSafeHttpUrl(value) || isLocalImagePath(value)).slice(0, 3);
 }
 
 const editorialDataset = typeof brandEditorialData !== 'undefined'
@@ -5872,7 +5831,7 @@ brands.forEach((brand) => {
     const media = getMediaForBrand(brand);
     const editorial = getEditorialForBrand(brand);
     const manualLogo = normalizeLogoUrlForBrand(brand, getManualLogoOverride(brand));
-    const fallbackLogo = getWebsiteFaviconUrl(brand.website);
+    const fallbackLogo = '';
     const baseLogo = normalizeLogoUrlForBrand(brand, brand.image);
     const mediaLogo = media ? normalizeLogoUrlForBrand(brand, media.logo) : null;
 
@@ -5887,11 +5846,11 @@ brands.forEach((brand) => {
     brand.oliveTopicUrls = brand.oliveTypes.map((type) => getOliveTypeTopicUrl(type));
     brand.regionClusterLabel = regionClusterLabels[brand.regionCluster];
     brand.oliveTypeLabels = brand.oliveTypes.map((type) => oliveTypeLabels[type]).filter(Boolean);
-    brand.logoFallback = fallbackLogo || '';
+    brand.logoFallback = '';
     if (!brand.founded && editorial && editorial.founded) {
         brand.founded = editorial.founded;
     }
-    brand.image = manualLogo || baseLogo || fallbackLogo || '';
+    brand.image = manualLogo || baseLogo || '';
 
     if (!manualLogo && media && isTrustedLogoForBrand(brand, mediaLogo)) {
         brand.image = mediaLogo;

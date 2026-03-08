@@ -117,9 +117,7 @@ function getBrandFromQuery() {
 }
 
 function getFallbackBottles(brand) {
-    return [
-        `https://source.unsplash.com/1600x1200/?olive-oil,bottle,${encodeURIComponent(brand.name)}`
-    ];
+    return brand.image ? [brand.image] : [];
 }
 
 function renderBrandDetail() {
