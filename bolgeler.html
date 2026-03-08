@@ -67,7 +67,7 @@
             <div class="brand-map-copy">
                 <span class="topic-label">Türkiye Haritası</span>
                 <h2>Zeytinyağı Markalarının Konumları</h2>
-                <p>Markaları Türkiye haritası üzerinde logo ve isimleriyle görün. Kamuya açık resmi adres bulunabilen kayıtlar doğrudan işaretlenir; kalan markalar için üretim veya merkez bölgesi kullanılır.</p>
+                <p>Markaları Türkiye haritası üzerinde isimleri ve harf işaretleriyle görün. Kamuya açık resmi adres bulunabilen kayıtlar doğrudan işaretlenir; kalan markalar için üretim veya merkez bölgesi kullanılır.</p>
             </div>
             <div class="brand-map-actions">
                 <a class="topic-link" href="data/brand-locations.json" target="_blank" rel="noopener">Adres veritabanını aç</a>
@@ -78,7 +78,7 @@
             <div class="brand-map-stats" id="brandMapStats" aria-live="polite"></div>
         </div>
         <div id="brandMap" class="brand-map-canvas" role="img" aria-label="Türkiye üzerindeki zeytinyağı markaları haritası"></div>
-        <p class="brand-map-note">Haritadaki kartlarda marka logosu ve adı görünür. Tam sokak adresi bulunamayan markalarda kamuya açık bölge merkezi kullanılır ve popup içinde bu durum açıkça belirtilir.</p>
+        <p class="brand-map-note">Haritadaki işaretlerde markanın ilk harfi ve adı görünür. Tam sokak adresi bulunamayan markalarda kamuya açık bölge merkezi kullanılır ve popup içinde bu durum açıkça belirtilir.</p>
     </div>
 </section>
 
@@ -285,6 +285,12 @@ function buildBrandLogoImage(record, className) {
     return `<img class="${className}" src="${escapeHtml(record.logo)}"${fallbackAttr} alt="${escapeHtml(record.name)}" loading="lazy" onerror="const fb=this.dataset.fallback;if(fb&&this.src!==fb){this.src=fb;return;}this.style.display='none';">`;
 }
 
+function getBrandMarkerInitial(record) {
+    const text = String(record && record.name ? record.name : '').trim();
+    if (!text) return '?';
+    return Array.from(text)[0].toLocaleUpperCase('tr-TR');
+}
+
 function populateRegionHubLinks() {
     const dataset = getBrandsDataset();
     if (!Array.isArray(dataset)) return;
@@ -351,8 +357,8 @@ function createBrandMapIcon(record) {
         popupAnchor: [0, -66],
         html: `
             <div class="brand-map-pin ${stateClass}">
-                <div class="brand-map-pin-logo">
-                    ${buildBrandLogoImage(record, 'brand-map-marker-image')}
+                <div class="brand-map-pin-badge" aria-hidden="true">
+                    ${escapeHtml(getBrandMarkerInitial(record))}
                 </div>
                 <div class="brand-map-pin-name">${escapeHtml(record.name)}</div>
             </div>
