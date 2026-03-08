@@ -144,6 +144,30 @@
     "category": "organik"
   },
   {
+    "id": 140,
+    "name": "Ekozey",
+    "slug": "ekozey",
+    "url": "https://www.ekozey.com.tr/",
+    "region": "Gökçeada, Çanakkale",
+    "category": "organik"
+  },
+  {
+    "id": 139,
+    "name": "Elta Ada",
+    "slug": "elta-ada",
+    "url": "https://elta-ada.com.tr/",
+    "region": "Gökçeada, Çanakkale",
+    "category": "organik"
+  },
+  {
+    "id": 136,
+    "name": "Fethi Çelik",
+    "slug": "fethi-celik",
+    "url": "https://www.fethicelik.com/",
+    "region": "Gemlik, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 52,
     "name": "Gaia Oliva",
     "slug": "gaia-oliva",
@@ -278,6 +302,22 @@
     "url": "https://kahraman.com.tr",
     "region": "Akhisar, Manisa",
     "category": "market-endustriyel"
+  },
+  {
+    "id": 135,
+    "name": "Karşıbağ",
+    "slug": "karsibag",
+    "url": "https://karsibag.com/",
+    "region": "Mudanya, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 138,
+    "name": "Kavaki",
+    "slug": "kavaki",
+    "url": "https://kavakiolive.com/",
+    "region": "Erdek, Marmara",
+    "category": "premium-butik"
   },
   {
     "id": 117,
@@ -829,6 +869,14 @@
     "slug": "zeytursan",
     "url": "https://www.zeytursan.com.tr",
     "region": "Bursa, Marmara",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 137,
+    "name": "Zivane",
+    "slug": "zivane",
+    "url": "https://www.zivane.com.tr/",
+    "region": "Edincik, Marmara",
     "category": "bolgesel-yerel"
   }
 ]

@@ -253,6 +253,48 @@ const exactAddressOverrides = {
     precision: 'street',
     sourceType: 'official',
     sourceUrl: 'https://www.galliolive.com/iletisim'
+  },
+  135: {
+    displayAddress: 'Mudanya, Bursa, Türkiye',
+    geocodeQuery: 'Mudanya, Bursa, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://karsibag.com/'
+  },
+  136: {
+    displayAddress: 'Gemlik, Bursa, Türkiye',
+    geocodeQuery: 'Gemlik, Bursa, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://www.fethicelik.com/'
+  },
+  137: {
+    displayAddress: 'Ulu Cadde No:3 Edincik, Bandırma, Balıkesir, Türkiye',
+    geocodeQuery: 'Ulu Cadde No:3 Edincik, Bandırma, Balıkesir, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.zivane.com.tr/iletisim'
+  },
+  138: {
+    displayAddress: 'Erdek, Balıkesir, Türkiye',
+    geocodeQuery: 'Erdek, Balıkesir, Türkiye',
+    precision: 'district',
+    sourceType: 'official-region',
+    sourceUrl: 'https://kavakiolive.com/'
+  },
+  139: {
+    displayAddress: 'Fatih Mahallesi Çiftlik Caddesi No:12 Gökçeada, Çanakkale, Türkiye',
+    geocodeQuery: 'Fatih Mahallesi Çiftlik Caddesi No:12 Gökçeada, Çanakkale, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://elta-ada.com.tr/iletisim/'
+  },
+  140: {
+    displayAddress: 'Eski Cezaevleri No:156-159 PK 17760 Şirinköy, Gökçeada, Çanakkale, Türkiye',
+    geocodeQuery: 'Eski Cezaevleri No:156-159 Şirinköy, Gökçeada, Çanakkale, Türkiye',
+    precision: 'street',
+    sourceType: 'official',
+    sourceUrl: 'https://www.ekozey.com.tr/index.php?route=information/contact'
   }
 };
 

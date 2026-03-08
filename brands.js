@@ -649,7 +649,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/olive-riviera/olive-riviera-logo.jpg",
+        "image": "images/markalar/olive-riviera/olive-riviera-logo.svg",
         "slug": "olive-riviera",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -698,7 +698,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/papez/papez-logo.jpg",
+        "image": "images/markalar/papez/papez-logo.svg",
         "slug": "papez",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -796,7 +796,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/degirmenci/degirmenci-logo.png",
+        "image": "images/markalar/degirmenci/degirmenci-logo.svg",
         "slug": "degirmenci",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -845,7 +845,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/izmir-pinari/izmir-pinari-logo.jpg",
+        "image": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
         "slug": "izmir-pinari",
         "editorial": null,
         "detail": "Biz İzmir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -894,7 +894,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/beyaz-altin/beyaz-altin-logo.jpg",
+        "image": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
         "slug": "beyaz-altin",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -992,7 +992,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/edremit-korfezi/edremit-korfezi-logo.jpg",
+        "image": "images/markalar/edremit-korfezi/edremit-korfezi-logo.svg",
         "slug": "edremit-korfezi",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1093,7 +1093,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/zeytin-dali/zeytin-dali-logo.jpg",
+        "image": "images/markalar/zeytin-dali/zeytin-dali-logo.svg",
         "slug": "zeytin-dali",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1142,7 +1142,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/egemden/egemden-logo.png",
+        "image": "images/markalar/egemden/egemden-logo.svg",
         "slug": "egemden",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1191,7 +1191,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/bereket/bereket-logo.jpg",
+        "image": "images/markalar/bereket/bereket-logo.svg",
         "slug": "bereket",
         "editorial": null,
         "detail": "Biz Hatay, Akdeniz çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1243,7 +1243,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/olea-prilis/olea-prilis-logo.png",
+        "image": "images/markalar/olea-prilis/olea-prilis-logo.svg",
         "slug": "olea-prilis",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1292,7 +1292,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/oliterra/oliterra-logo.gif",
+        "image": "images/markalar/oliterra/oliterra-logo.svg",
         "slug": "oliterra",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1341,7 +1341,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.jpg",
+        "image": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
         "slug": "ayla-zeytinyagi",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1390,7 +1390,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.png",
+        "image": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
         "slug": "tarihi-kirkpinar",
         "editorial": null,
         "detail": "Biz Edirne, Trakya çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1488,7 +1488,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/hasat/hasat-logo.png",
+        "image": "images/markalar/hasat/hasat-logo.svg",
         "slug": "hasat",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1537,7 +1537,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.jpg",
+        "image": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
         "slug": "ayvalik-yildizi",
         "editorial": null,
         "detail": "Biz Ayvalık, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1831,7 +1831,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/trilye/trilye-logo.png",
+        "image": "images/markalar/trilye/trilye-logo.svg",
         "slug": "trilye",
         "editorial": null,
         "detail": "Biz Mudanya, Bursa çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1883,7 +1883,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/vita/vita-logo.jpg",
+        "image": "images/markalar/vita/vita-logo.svg",
         "slug": "vita",
         "editorial": null,
         "detail": "Biz Türkiye geneli çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1932,7 +1932,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-logo.png",
+        "image": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-logo.svg",
         "slug": "polat-zeytinyagi",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -1981,7 +1981,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/tego/tego-logo.png",
+        "image": "images/markalar/tego/tego-logo.svg",
         "slug": "tego",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2030,7 +2030,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.png",
+        "image": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
         "slug": "bumba-zeytinyagi",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2079,7 +2079,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/herbal-organik/herbal-organik-logo.jpg",
+        "image": "images/markalar/herbal-organik/herbal-organik-logo.svg",
         "slug": "herbal-organik",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2177,7 +2177,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/ekooleo/ekooleo-logo.webp",
+        "image": "images/markalar/ekooleo/ekooleo-logo.svg",
         "slug": "ekooleo",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını temiz içerik hassasiyetini lezzetle bir arada tutan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2226,7 +2226,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/odemis-birlik/odemis-birlik-logo.png",
+        "image": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
         "slug": "odemis-birlik",
         "editorial": null,
         "detail": "Biz Ödemiş, İzmir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2324,7 +2324,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-logo.png",
+        "image": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-logo.svg",
         "slug": "milas-zeytinyaglari",
         "editorial": null,
         "detail": "Biz Milas, Muğla çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2422,7 +2422,7 @@ const brands = [
         "website": null,
         "founded": null,
         "highlight": false,
-        "image": "images/markalar/naturel/naturel-logo.jpg",
+        "image": "images/markalar/naturel/naturel-logo.svg",
         "slug": "naturel",
         "editorial": null,
         "detail": "Biz Ege Bölgesi çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -2471,7 +2471,7 @@ const brands = [
         "website": "https://novavera.com.tr",
         "founded": "2017",
         "highlight": true,
-        "image": "images/markalar/novavera/novavera-logo.webp",
+        "image": "images/markalar/novavera/novavera-logo.svg",
         "slug": "novavera",
         "editorial": null,
         "detail": "Biz Edremit, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. 2017 ve sonrasına yayılan emeğimiz, bu tadı her sezon aynı ciddiyetle koruma isteği taşıyor.",
@@ -3852,7 +3852,7 @@ const brands = [
         "website": "https://www.hatnar.com",
         "founded": null,
         "highlight": true,
-        "image": "images/markalar/hatnar/hatnar-logo.png",
+        "image": "images/markalar/hatnar/hatnar-logo.svg",
         "slug": "hatnar",
         "editorial": null,
         "detail": "Biz Erzin, Hatay çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya getiriyoruz. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakmayı hedefliyoruz.",
@@ -5595,7 +5595,7 @@ const brands = [
         "website": "https://www.efemarmara.com.tr/efe/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=efemarmara.com.tr&sz=256",
+        "image": "images/markalar/efe-marmara/efe-marmara-logo.png",
         "logoFallback": ""
     },
     {
@@ -5607,7 +5607,7 @@ const brands = [
         "website": "https://terraarteka.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=terraarteka.com&sz=256",
+        "image": "images/markalar/terra-arteka/terra-arteka-logo.png",
         "logoFallback": ""
     },
     {
@@ -5619,7 +5619,7 @@ const brands = [
         "website": "https://www.zeytincisalih.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=zeytincisalih.com&sz=256",
+        "image": "images/markalar/zeytinci-salih/zeytinci-salih-logo.jpg",
         "logoFallback": ""
     },
     {
@@ -5631,7 +5631,7 @@ const brands = [
         "website": "https://zeytinoz.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=zeytinoz.com&sz=256",
+        "image": "images/markalar/zeytinoz/zeytinoz-logo.png",
         "logoFallback": ""
     },
     {
@@ -5643,7 +5643,7 @@ const brands = [
         "website": "https://gumetepe.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=gumetepe.com.tr&sz=256",
+        "image": "images/markalar/gumetepe/gumetepe-logo.png",
         "logoFallback": ""
     },
     {
@@ -5655,7 +5655,7 @@ const brands = [
         "website": "https://lamponia.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=lamponia.com&sz=256",
+        "image": "images/markalar/lamponia/lamponia-logo.gif",
         "logoFallback": ""
     },
     {
@@ -5667,7 +5667,7 @@ const brands = [
         "website": "https://berolivo.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=berolivo.com&sz=256",
+        "image": "images/markalar/berolivo/berolivo-logo.png",
         "logoFallback": ""
     },
     {
@@ -5679,7 +5679,7 @@ const brands = [
         "website": "https://www.macaroglu.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=macaroglu.com&sz=256",
+        "image": "images/markalar/macaroglu/macaroglu-logo.png",
         "logoFallback": ""
     },
     {
@@ -5691,7 +5691,7 @@ const brands = [
         "website": "https://on7zeytinyagi.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=on7zeytinyagi.com.tr&sz=256",
+        "image": "images/markalar/on7-zeytinyagi/on7-zeytinyagi-logo.png",
         "logoFallback": ""
     },
     {
@@ -5703,7 +5703,7 @@ const brands = [
         "website": "https://www.coralolive.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=coralolive.com&sz=256",
+        "image": "images/markalar/coral/coral-logo.png",
         "logoFallback": ""
     },
     {
@@ -5715,7 +5715,7 @@ const brands = [
         "website": "https://www.galliolive.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=galliolive.com&sz=256",
+        "image": "images/markalar/galli-premium/galli-premium-logo.png",
         "logoFallback": ""
     },
     {
@@ -5727,7 +5727,7 @@ const brands = [
         "website": "https://gallipolive.com/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=gallipolive.com&sz=256",
+        "image": "images/markalar/gallipolive/gallipolive-logo.png",
         "logoFallback": ""
     },
     {
@@ -5739,7 +5739,79 @@ const brands = [
         "website": "https://shop.kilye.com.tr/",
         "founded": null,
         "highlight": false,
-        "image": "https://www.google.com/s2/favicons?domain=shop.kilye.com.tr&sz=256",
+        "image": "images/markalar/kilye/kilye-logo.png",
+        "logoFallback": ""
+    },
+    {
+        "id": 135,
+        "name": "Karşıbağ",
+        "desc": "Mudanya yöresindeki yerel üreticilerden seçilen tepe zeytinleriyle soğuk sıkım natürel sızma zeytinyağı sunan yerel üretici.",
+        "region": "Mudanya, Bursa",
+        "category": "bolgesel-yerel",
+        "website": "https://karsibag.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "images/markalar/karsibag/karsibag-logo.jpg",
+        "logoFallback": ""
+    },
+    {
+        "id": 136,
+        "name": "Fethi Çelik",
+        "desc": "Gemlik zeytini ve Gemlik zeytinyağına odaklanan, yöresel üretim geleneğini sürdüren köklü aile işletmesi.",
+        "region": "Gemlik, Bursa",
+        "category": "bolgesel-yerel",
+        "website": "https://www.fethicelik.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "images/markalar/fethi-celik/fethi-celik-logo.jpg",
+        "logoFallback": ""
+    },
+    {
+        "id": 137,
+        "name": "Zivane",
+        "desc": "Edincik Su çeşidinin yetiştiği Edincik hattında aile zeytinliklerinden sofralık zeytin ve natürel sızma zeytinyağı sunan yerel üretici.",
+        "region": "Edincik, Marmara",
+        "category": "bolgesel-yerel",
+        "website": "https://www.zivane.com.tr/",
+        "founded": "1962",
+        "highlight": false,
+        "image": "images/markalar/zivane/zivane-logo.webp",
+        "logoFallback": ""
+    },
+    {
+        "id": 138,
+        "name": "Kavaki",
+        "desc": "Erdek çıkışlı erken hasat natürel sızma zeytinyağı serileriyle öne çıkan butik üretici.",
+        "region": "Erdek, Marmara",
+        "category": "premium-butik",
+        "website": "https://kavakiolive.com/",
+        "founded": null,
+        "highlight": false,
+        "image": "images/markalar/kavaki/kavaki-logo.png",
+        "logoFallback": ""
+    },
+    {
+        "id": 139,
+        "name": "Elta Ada",
+        "desc": "2004 yılında Gökçeada’da kurulan çiftliğinde organik sertifikalı zeytinyağı üreten yerel üretici.",
+        "region": "Gökçeada, Çanakkale",
+        "category": "organik",
+        "website": "https://elta-ada.com.tr/",
+        "founded": "2004",
+        "highlight": false,
+        "image": "images/markalar/elta-ada/elta-ada-logo.png",
+        "logoFallback": ""
+    },
+    {
+        "id": 140,
+        "name": "Ekozey",
+        "desc": "Gökçeada Şirinköy tesislerinde adanın doğal zeytinlerini soğuk sıkım yöntemiyle işleyen organik odaklı üretici.",
+        "region": "Gökçeada, Çanakkale",
+        "category": "organik",
+        "website": "https://www.ekozey.com.tr/",
+        "founded": "2007",
+        "highlight": false,
+        "image": "images/markalar/ekozey/ekozey-logo.png",
         "logoFallback": ""
     }
 ];
@@ -5770,35 +5842,7 @@ const oliveTypeLabels = {
     'sari-ulak': 'Sarı Ulak'
 };
 
-const manualLogoOverrides = {
-    'ayla-zeytinyagi': 'images/ayla-zeytinyagi.svg',
-    'ayvalik-yildizi': 'images/ayvalik-yildizi.svg',
-    bereket: 'images/bereket.svg',
-    'beyaz-altin': 'images/beyaz-altin.svg',
-    'bumba-zeytinyagi': 'images/bumba-zeytinyagi.svg',
-    degirmenci: 'images/degirmenci.svg',
-    'edremit-korfezi': 'images/edremit-korfezi.svg',
-    egemden: 'images/egemden.svg',
-    ekooleo: 'images/ekooleo.svg',
-    hasat: 'images/hasat.svg',
-    hatnar: 'images/hatnar.svg',
-    'herbal-organik': 'images/herbal-organik.svg',
-    'izmir-pinari': 'images/i-zmir-pinari.svg',
-    'milas-zeytinyaglari': 'images/milas-zeytinyaglari.svg',
-    naturel: 'images/naturel.svg',
-    novavera: 'images/novavera.svg',
-    'odemis-birlik': 'images/odemis-birlik.svg',
-    'olea-prilis': 'images/olea-prilis.svg',
-    oliterra: 'images/oliterra.svg',
-    'olive-riviera': 'images/olive-riviera.svg',
-    papez: 'images/papez.svg',
-    'polat-zeytinyagi': 'images/polat-zeytinyagi.svg',
-    'tarihi-kirkpinar': 'images/tarihi-kirkpinar.svg',
-    tego: 'images/tego.svg',
-    trilye: 'images/trilye.svg',
-    vita: 'images/vita.svg',
-    'zeytin-dali': 'images/zeytin-dali.svg'
-};
+const manualLogoOverrides = {};
 
 function normalizeSlug(value) {
     return value
@@ -5836,7 +5880,7 @@ function inferRegionCluster(regionText) {
 
     if (/(kilis|güneydoğu|guneydogu|nizip|gaziantep|mardin|şanlıurfa|sanliurfa)/.test(text)) return 'guneydogu';
     if (/(edirne|trakya|tekirdağ|tekirdag|kırklareli|kirklareli|şarköy|sarkoy)/.test(text)) return 'trakya';
-    if (/(bursa|marmara|mudanya|gemlik|istanbul)/.test(text)) return 'marmara';
+    if (/(bursa|marmara|mudanya|gemlik|istanbul|erdek|bandırma|bandirma|edincik|gökçeada|gokceada|bozcaada)/.test(text)) return 'marmara';
     if (/(mersin|antalya|adana|akdeniz|hatay|antakya|altınözü|altinozu|erzin|samandağ|samandag)/.test(text)) return 'akdeniz';
     if (/(izmir|ege|ayvalık|ayvalik|balıkesir|balikesir|edremit|urla|ödemiş|odemis|milas|muğla|mugla|çanakkale|canakkale)/.test(text)) return 'ege';
     if (/(türkiye|turkiye)/.test(text)) return 'turkiye';
@@ -5846,10 +5890,12 @@ function inferRegionCluster(regionText) {
 function inferOliveTypes(brand) {
     const text = `${brand.region} ${brand.desc}`.toLowerCase('tr-TR');
     const types = [];
+    const hasGokceadaProfile = /(gökçeada|gokceada|ladolia)/.test(text);
+    const hasEdincikProfile = /(edincik|bandırma|bandirma|edincik su)/.test(text);
 
     if (/(ayvalık|ayvalik|edremit|balıkesir|balikesir)/.test(text)) types.push('ayvalik');
-    if (/(izmir|urla|ege|ödemiş|odemis|milas|muğla|mugla|memecik)/.test(text)) types.push('memecik');
-    if (/(bursa|marmara|gemlik|mudanya)/.test(text)) types.push('gemlik');
+    if (!hasGokceadaProfile && /(izmir|urla|ege|ödemiş|odemis|milas|muğla|mugla|memecik)/.test(text)) types.push('memecik');
+    if (!hasEdincikProfile && /(bursa|marmara|gemlik|mudanya)/.test(text)) types.push('gemlik');
     if (/(trilye|trakya|edirne|tekirdağ|tekirdag|şarköy|sarkoy)/.test(text)) types.push('trilye');
     if (/(hatay|antakya|altınözü|altinozu|erzin|samandağ|samandag|halhalı|halhali)/.test(text)) types.push('halhali');
     if (/(nizip|gaziantep|kilis)/.test(text)) types.push('nizip');
