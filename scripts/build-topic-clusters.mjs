@@ -143,7 +143,7 @@ function footer(prefix) {
             <a href="${prefix}markalar.html">Markalar</a>
             <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
             <a href="${prefix}rehber/index.html">Rehber</a>
-            <a href="${prefix}zeytinyagi-websiteleri.html">Zeytinyağı Websiteleri</a>
+            <a href="${prefix}zeytinyagi-websiteleri.html">Zeytinyağı Keşvet</a>
             <a href="${prefix}kalite-rehberi.html">Kalite Rehberi</a>
             <a href="${prefix}bolgeler.html">Bölgeler</a>
         </div>
