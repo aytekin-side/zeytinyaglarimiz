@@ -98,6 +98,7 @@ function nav(prefix, topicActive = false) {
             <li><a href="${prefix}rehber/index.html">Rehber</a></li>
         </ul>
         <div class="nav-actions">
+            <a href="${prefix}zeytinyagi-websiteleri.html" class="nav-discover-btn">Bi' Kesfet</a>
             <div class="nav-search">
                 <button class="nav-search-toggle" type="button" aria-label="Marka ara" aria-expanded="false">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
@@ -122,6 +123,7 @@ function nav(prefix, topicActive = false) {
     <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
+    <a href="${prefix}zeytinyagi-websiteleri.html" class="mobile-nav-cta">Bi' Kesfet</a>
     <a href="${prefix}markalar.html">Zeytinyağları</a>
     <a href="${prefix}topic/index.html">Zeytinyağı Çeşitleri</a>
     <a href="${prefix}bolgeler.html">Bölgeler</a>

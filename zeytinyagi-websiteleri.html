@@ -28,6 +28,7 @@
             <li><a href="rehber/index.html">Rehber</a></li>
         </ul>
         <div class="nav-actions">
+            <a href="zeytinyagi-websiteleri.html" class="nav-discover-btn">Bi' Kesfet</a>
             <div class="nav-search">
                 <button class="nav-search-toggle" type="button" aria-label="Marka ara" aria-expanded="false">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
@@ -52,6 +53,7 @@
     <button class="mobile-nav-close" onclick="toggleMobileNav()" aria-label="Kapat">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
+    <a href="zeytinyagi-websiteleri.html" class="mobile-nav-cta">Bi' Kesfet</a>
     <a href="markalar.html">Zeytinyağları</a>
     <a href="topic/index.html">Zeytinyağı Çeşitleri</a>
     <a href="bolgeler.html">Bölgeler</a>
@@ -61,10 +63,6 @@
 
 <main class="website-explorer-page">
     <div class="website-explorer-inner">
-        <div class="website-explorer-bar">
-            <button class="website-random-btn" id="websiteRandomBtn" type="button">Rastgele Zeytinyağı Keşfet</button>
-        </div>
-
         <section class="website-frame-section">
             <div class="website-frame-shell">
                 <div class="website-frame-loading" id="websiteFrameLoading" aria-hidden="true"></div>
@@ -141,7 +139,7 @@ function renderSite(index) {
 }
 
 async function initWebsiteExplorer() {
-    websiteRandomBtn.disabled = true;
+    if (websiteRandomBtn) websiteRandomBtn.disabled = true;
 
     try {
         const response = await fetch('data/brand-websites-iframe.json', { cache: 'no-store' });
@@ -155,17 +153,19 @@ async function initWebsiteExplorer() {
             throw new Error('Gösterilecek resmi website bulunamadı.');
         }
 
-        websiteRandomBtn.disabled = false;
+        if (websiteRandomBtn) websiteRandomBtn.disabled = false;
         renderSite(Math.floor(Math.random() * websiteState.sites.length));
     } catch (error) {
         setEmptyState();
     }
 }
 
-websiteRandomBtn.addEventListener('click', () => {
-    if (!websiteState.sites.length) return;
-    renderSite(getRandomIndex());
-});
+if (websiteRandomBtn) {
+    websiteRandomBtn.addEventListener('click', () => {
+        if (!websiteState.sites.length) return;
+        renderSite(getRandomIndex());
+    });
+}
 
 websiteFrame.addEventListener('load', () => {
     clearTimeout(websiteState.hideLoadingTimer);
