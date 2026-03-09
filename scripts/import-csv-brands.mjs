@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import vm from 'node:vm';
 
 const ROOT = process.cwd();
@@ -10,8 +11,6 @@ if (!CSV_PATH) {
 
 const BRANDS_PATH = path.join(ROOT, 'brands.js');
 const BRAND_MEDIA_PATH = path.join(ROOT, 'brand-media.js');
-const INDEX_PATH = path.join(ROOT, 'index.html');
-const MARKALAR_PATH = path.join(ROOT, 'markalar.html');
 const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36';
 
 const aliasMap = new Map([
@@ -456,13 +455,13 @@ async function main() {
   fs.writeFileSync(BRAND_MEDIA_PATH, patchedMedia);
 
   const nextCount = brands.length + additions.length;
-  const indexHtml = fs.readFileSync(INDEX_PATH, 'utf8')
-    .replace(/<h3>\d+ Marka<\/h3>/, `<h3>${nextCount} Marka</h3>`);
-  fs.writeFileSync(INDEX_PATH, indexHtml);
-
-  const markalarHtml = fs.readFileSync(MARKALAR_PATH, 'utf8')
-    .replace(/Türkiye'deki \d+ zeytinyağı markasını keşfedin\./, `Türkiye'deki ${nextCount} zeytinyağı markasını keşfedin.`);
-  fs.writeFileSync(MARKALAR_PATH, markalarHtml);
+  const rebuild = spawnSync('bash', [path.join(ROOT, 'scripts', 'rebuild-brand-directory.sh')], {
+    cwd: ROOT,
+    stdio: 'inherit'
+  });
+  if (rebuild.status !== 0) {
+    throw new Error(`Rebuild pipeline failed with exit code ${rebuild.status ?? 'unknown'}`);
+  }
 
   console.log(`Added ${additions.length} brands. Total is now ${nextCount}.`);
 }

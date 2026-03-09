@@ -105,6 +105,14 @@ function downloadFile(url, targetPath) {
   execFileSync('curl', ['-A', USER_AGENT, '-sSL', '--max-time', CURL_MAX_TIME, '-o', targetPath, String(url)], {
     stdio: ['ignore', 'pipe', 'pipe']
   });
+  const mime = execFileSync('file', ['--mime-type', '-b', targetPath], {
+    encoding: 'utf8',
+    stdio: ['ignore', 'pipe', 'pipe']
+  }).trim().toLowerCase();
+  if (!mime.startsWith('image/')) {
+    fs.rmSync(targetPath, { force: true });
+    throw new Error(`Downloaded non-image content (${mime}) from ${url}`);
+  }
 }
 
 function loadBrands() {
@@ -439,18 +447,28 @@ function main() {
     const relativePath = path.posix.join('images', 'markalar', brand.slug, `${baseName}${ext}`);
     const absolutePath = path.join(ROOT, relativePath);
 
-    downloadFile(candidate.fileUrl, absolutePath);
-    usedSources.add(candidate.sourceUrl);
-    records[brand.slug] = {
-      src: relativePath,
-      alt: buildAlt(brand, candidate),
-      title: buildTitle(brand, candidate),
-      sourceUrl: candidate.sourceUrl,
-      license: candidate.license,
-      artist: candidate.artist,
-      query: candidate.query
-    };
-    console.log(`scene ${brand.slug} <- ${candidate.pageTitle} [${candidate.query}]`);
+    try {
+      downloadFile(candidate.fileUrl, absolutePath);
+      usedSources.add(candidate.sourceUrl);
+      records[brand.slug] = {
+        src: relativePath,
+        alt: buildAlt(brand, candidate),
+        title: buildTitle(brand, candidate),
+        sourceUrl: candidate.sourceUrl,
+        license: candidate.license,
+        artist: candidate.artist,
+        query: candidate.query
+      };
+      console.log(`scene ${brand.slug} <- ${candidate.pageTitle} [${candidate.query}]`);
+    } catch (error) {
+      failures.push({
+        slug: brand.slug,
+        name: brand.name,
+        region: brand.region,
+        cluster: brand.regionCluster,
+        error: String(error.message || error)
+      });
+    }
   }
 
   writeOutputs(records);

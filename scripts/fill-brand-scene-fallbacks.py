@@ -3,7 +3,7 @@ import json
 import os
 import subprocess
 from pathlib import Path
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, UnidentifiedImageError
 
 ROOT = Path.cwd()
 MANIFEST_PATH = ROOT / 'data' / 'brand-scene-manifest.json'
@@ -104,7 +104,7 @@ def choose_bases(cluster: str, manifest: dict):
         if not item:
             continue
         path = ROOT / item['src']
-        if path.exists():
+        if path.exists() and is_valid_image(path):
             bases.append({
                 'path': path,
                 'alt': item.get('alt', ''),
@@ -115,7 +115,7 @@ def choose_bases(cluster: str, manifest: dict):
             })
     for rel_path, alt in CLUSTER_REGION_FALLBACKS.get(cluster, []):
         path = ROOT / rel_path
-        if path.exists():
+        if path.exists() and is_valid_image(path):
             bases.append({
                 'path': path,
                 'alt': alt,
@@ -125,6 +125,15 @@ def choose_bases(cluster: str, manifest: dict):
                 'artist': ''
             })
     return bases
+
+
+def is_valid_image(image_path: Path) -> bool:
+    try:
+        with Image.open(image_path) as img:
+            img.verify()
+        return True
+    except (UnidentifiedImageError, OSError):
+        return False
 
 
 def crop_image(base_path: Path, output_path: Path, seed: int):

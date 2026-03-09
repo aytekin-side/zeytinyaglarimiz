@@ -68,19 +68,19 @@
     <p class="fade-up">Türkiye'deki zeytinyağı markalarını keşfedin. Premium butik üreticilerden köklü endüstriyel markalara, organik sertifikalılardan bölgesel lezzetlere kadar kapsamlı bir rehber.</p>
     <div class="hero-stats fade-up">
         <a href="markalar.html" class="hero-stat">
-            <span class="num">140</span>
+            <span class="num" data-home-stat="brands">383</span>
             <span class="label">Marka</span>
         </a>
         <a href="topic/kategoriler/index.html" class="hero-stat">
-            <span class="num">4</span>
+            <span class="num" data-home-stat="categories">4</span>
             <span class="label">Kategori</span>
         </a>
         <a href="topic/bolgeler/index.html" class="hero-stat">
-            <span class="num">6</span>
+            <span class="num" data-home-stat="regions">6</span>
             <span class="label">Bölge</span>
         </a>
         <a href="topic/zeytin-cesitleri/index.html" class="hero-stat">
-            <span class="num">7</span>
+            <span class="num" data-home-stat="olive-types">7</span>
             <span class="label">Zeytin Çeşidi</span>
         </a>
     </div>
@@ -119,7 +119,7 @@
         <div class="cta-card-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
         </div>
-        <h3>383 Marka</h3>
+        <h3 data-home-brand-heading>383 Marka</h3>
         <p>Premium, market, organik ve bölgesel kategorilerde Türkiye'nin tüm zeytinyağı markalarını listeleyin.</p>
         <span class="link-arrow">Kataloga Git <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></span>
     </a>
@@ -167,6 +167,30 @@
 <script src="brand-media.js"></script>
 <script src="brands.js"></script>
 <script>
+function updateHomeStats() {
+    const categoryCount = new Set(brands.map(brand => brand.category).filter(Boolean)).size;
+    const regionCount = new Set(brands.map(brand => brand.regionCluster).filter(Boolean)).size;
+    const oliveTypeCount = new Set(brands.flatMap(brand => Array.isArray(brand.oliveTypes) ? brand.oliveTypes : [])).size;
+    const statMap = {
+        brands: brands.length,
+        categories: categoryCount,
+        regions: regionCount,
+        'olive-types': oliveTypeCount
+    };
+
+    document.querySelectorAll('[data-home-stat]').forEach(el => {
+        const key = el.dataset.homeStat;
+        if (Object.prototype.hasOwnProperty.call(statMap, key)) {
+            el.textContent = String(statMap[key]);
+        }
+    });
+
+    const brandHeading = document.querySelector('[data-home-brand-heading]');
+    if (brandHeading) {
+        brandHeading.textContent = `${brands.length} Marka`;
+    }
+}
+
 // Render featured brands (highlighted only)
 function renderFeatured() {
     const grid = document.getElementById('featuredGrid');
@@ -199,6 +223,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    updateHomeStats();
     renderFeatured();
     document.querySelectorAll('.fade-up:not(.brand-card)').forEach(el => observer.observe(el));
 });
