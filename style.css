@@ -1822,7 +1822,7 @@ a.variety-tag:hover {
    WEBSITE EXPLORER
    ======================================== */
 .website-explorer-page {
-    padding: 104px 24px 72px;
+    padding: 84px 24px 72px;
 }
 .website-explorer-inner {
     max-width: 1380px;
@@ -2653,7 +2653,7 @@ footer .copyright {
         border-radius: 20px;
     }
     .website-explorer-page {
-        padding: 96px 20px 64px;
+        padding: 80px 20px 64px;
     }
     .website-frame-shell,
     .website-frame {
