@@ -144,7 +144,7 @@ async function initWebsiteExplorer() {
     websiteRandomBtn.disabled = true;
 
     try {
-        const response = await fetch('data/brand-websites.json', { cache: 'no-store' });
+        const response = await fetch('data/brand-websites-iframe.json', { cache: 'no-store' });
         if (!response.ok) throw new Error('Website listesi yüklenemedi.');
         const sites = await response.json();
         websiteState.sites = Array.isArray(sites)
