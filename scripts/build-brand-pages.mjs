@@ -88,7 +88,7 @@ function renderFacts(brand) {
 function renderGallery(brand) {
   const images = Array.isArray(brand.bottleImages) && brand.bottleImages.length
     ? brand.bottleImages
-    : [brand.image].filter(Boolean);
+    : ['images/rehber/olive-oil-bottle.jpg', 'images/rehber/olive-oil-bottles.jpg'];
 
   return images.map((url, index) => `
     <figure class="brand-gallery-item">
@@ -123,8 +123,8 @@ function renderRegionGallery(brand, regionMediaByCluster, brandSceneMedia) {
 
 function renderInlineBottlePhoto(brand) {
   const bottleSrc = Array.isArray(brand.bottleImages) && brand.bottleImages.length
-    ? brand.bottleImages[0]
-    : '';
+    ? brand.bottleImages[brand.bottleImages.length - 1]
+    : 'images/rehber/olive-oil-bottle.jpg';
 
   if (!bottleSrc) return '';
 

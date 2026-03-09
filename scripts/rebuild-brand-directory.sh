@@ -9,7 +9,6 @@ node scripts/build-brand-websites.mjs
 node scripts/build-brand-locations.mjs
 node scripts/build-topic-clusters.mjs
 node scripts/build-rehber.mjs
-node scripts/build-brand-scene-media.mjs || true
-python3 scripts/fill-brand-scene-fallbacks.py
+python3 scripts/normalize-brand-page-media.py
 node scripts/build-brand-pages.mjs
 node scripts/sync-root-brand-counts.mjs

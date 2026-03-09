@@ -136,7 +136,7 @@ function getBrandFromQuery() {
 }
 
 function getFallbackBottles(brand) {
-    return brand.image ? [brand.image] : [];
+    return ['images/rehber/olive-oil-bottle.jpg', 'images/rehber/olive-oil-bottles.jpg'];
 }
 
 function renderRegionGallery(brand) {
@@ -171,8 +171,8 @@ function renderRegionGallery(brand) {
 
 function renderInlineBottlePhoto(brand) {
     const bottleSrc = Array.isArray(brand.bottleImages) && brand.bottleImages.length > 0
-        ? brand.bottleImages[0]
-        : '';
+        ? brand.bottleImages[brand.bottleImages.length - 1]
+        : 'images/rehber/olive-oil-bottle.jpg';
 
     if (!bottleSrc) return '';
 
