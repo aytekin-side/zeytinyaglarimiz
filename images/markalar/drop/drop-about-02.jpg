@@ -1,0 +1,1401 @@
+<!doctype HTML>
+<html lang="tr">
+<head>
+
+<title>Drop Zeytinyağı / Damla Zeytincilik - Drop Zeytinyağı</title>
+
+<meta charset="UTF-8">
+<meta name="description" content="Hakkımzda"/>
+<meta name="author" content="SoftTr E-Ticaret Sitesi Yazılımı">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+		<link rel="canonical" href="https://www.drop.com.tr/kurumsal/hakkimizda" />
+  	
+
+
+
+
+
+
+
+
+
+<meta property="og:locale" content='tr_TR' />
+<meta property="og:type" content='Website' />
+<meta property="og:site_name" content='Drop Zeytinyağı' />
+
+<meta property="og:title" content='Drop Zeytinyağı / Damla Zeytincilik - Drop Zeytinyağı' />
+<meta property="og:description" content='Hakkımzda' />
+<meta property="og:url" content="https://www.drop.com.tr/kurumsal/hakkimizda"/>
+
+<meta property="og:image" content=""/>
+<meta property="og:image:width" content=""/>
+<meta property="og:image:height" content=""/>
+
+
+
+<base href="https://www.drop.com.tr/views/theme/" />
+
+
+<link rel="shortcut icon" href="../../img/favicon/favicon_22.09.2021_8cadb77.ico">
+<link rel="icon" type="image/png" href="../../img/favicon/favicon_22.09.2021_8cadb77.ico">
+
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap-icons.css">
+
+
+	
+	<link type="text/css" href="css/style.min.css" rel="stylesheet">
+		
+
+
+<script type="text/javascript" src="js/jquery-3.7.1.min.js" as="script" rel="preload"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="js/slickslider/slick.css">
+<link rel="stylesheet" type="text/css" href="js/slickslider/slick-theme.css">
+
+<script src="js/slickslider/slick.js?v=" type="text/javascript" charset="utf-8" as="script" rel="preload"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					 
+			<link rel="alternate" hreflang="tr" href="https://www.drop.com.tr/kurumsal/hakkimizda" />
+																						<link rel="alternate" hreflang="x-default" href="https://www.drop.com.tr/kurumsal/hakkimizda" />
+	
+
+</head>
+<body>
+
+
+<div id="popup"></div>
+
+<div class="window" id="window"></div>
+<div class="window" id="window-product"></div>
+<div class="window" id="window-picture"></div>
+<div class="window" id="window-news"></div>
+
+<div id="error" class="error">
+	<div class="row col-8 mx-auto rounded" style="background: #fff; margin-top: 8%;">
+
+<div class="col text-end">
+	<button type="button" class="btn-close me-1 mt-1 p-3" id="error-btn" data-bs-dismiss="modal" aria-label="Close" onclick="msgClose(); return false;"></button>
+</div>
+
+<div class="row">
+
+	<div class="col-auto mx-auto"><i class="bi note-ikon"></i></div>
+
+	<div class="col-12 p-3 text-center text-dark" id="errormsg"></div>
+
+</div>
+
+</div></div>
+
+<div id="success" class="error">
+	<div class="row col-8 mx-auto bg-white" style="margin-top: 8%;">
+
+<div class="col text-end">
+	<button type="button" class="btn-close me-1 mt-1 p-3" id="error-btn" data-bs-dismiss="modal" aria-label="Close" onclick="msgClose(); return false;"></button>
+</div>
+
+<div class="row">
+
+	<div class="col-auto mx-auto"><i class="bi tick-ikon me-2"></i></div>
+
+	<div class="col-12 p-3 text-center text-dark" id="successmsg"></div>
+
+</div>
+
+</div></div>
+
+<div id="hemenalsuccess"></div>
+
+<div class="sortingloading bg-light opacity-75 text-center" id="sortingloading">
+<!-- <img src="img/loading.gif" width="50" height="50" />-->
+<div class="spinner-border mt-5" style="width: 5rem; height: 5rem;" role="status"></div>
+ <!--<i class="bi sortingloading-loading"></i> -->
+</div>
+
+
+<header class="header" id="header-changing">
+
+		
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+								
+									
+							
+						
+							
+					
+		
+<!-- header top -->
+
+
+
+					
+
+
+<div class="container-fluid header-top ">
+	<div class="container header-top-content-middle">
+		<div class="row mx-0">
+			
+			<div class="col-6 header-top-left">
+				<div class="row mx-0 hstack">
+				
+								
+									
+										
+																
+																
+																
+																
+																
+																
+																
+																
+																		<div class="col-auto hstack ps-0"><i class="bi header-top-tel-icon hstack"></i><a href="tel:0266 396 7262" class="header-top-account-text">0266 396 7262</a></div>
+							
+												
+																		
+							<div class="col-auto hstack ps-0"><i class="bi header-top-email-icon hstack"></i><a href="mailto:info@drop.com.tr" class="header-top-account-text">info@drop.com.tr</a></div>
+					
+												
+																
+							<div class="col-auto hstack ps-0"><i class="bi header-top-whatsapp-icon hstack"></i><a href="https://api.whatsapp.com/send?phone=0552 396 3767&text=Merhaba" target="_blank" class="header-top-account-text">0552 396 3767</a></div>
+					
+												
+																
+																
+										
+										
+					
+					
+								
+						
+										
+										
+				</div>
+			</div>
+
+			
+			
+			<div class="col-6 header-top-right ms-auto d-flex justify-content-end">
+				<div class="row mx-0 hstack">
+				
+										
+										
+					
+											<div class="col-auto hstack header-top-right-texts">
+						
+						<a href="../../index.php?pagename=kargo-takibi&lang=tr" class="header-top-account-text hstack">
+						
+													<i class="bi header-top-cargo-icon hstack"></i>&nbsp;&nbsp;
+												
+													Kargo Takibi
+												</a>
+						</div>
+										
+											<div class="col-auto hstack header-top-right-texts">
+						
+						<a href="../../account/tr" class="header-top-account-text hstack">
+						
+													<i class="bi header-top-account-icon hstack"></i>&nbsp;&nbsp;
+												
+													Hesabım
+												
+						</a></div>
+										
+											<div class="col-auto hstack header-top-right-texts">
+						
+						<a href="../../shopping/tr" class="header-top-account-text hstack">
+						
+													<i class="bi header-top-cart-icon hstack"></i>&nbsp;&nbsp;
+												
+													Sepetim
+												</a>
+						</div>
+										
+										
+												<div class="col-auto hstack header-top-right-texts">
+						
+						<a href="../../giris/tr" class="header-top-account-text hstack">
+						
+													<i class="bi header-top-user-icon hstack"></i>&nbsp;&nbsp;
+												
+													Üye Girişi
+												</a>
+						</div>
+						
+												
+						
+						
+													<div class="col-auto hstack header-top-right-texts"><a href="../../kayit/tr" class="header-top-account-text">Yeni Kayıt</a></div>
+												
+											
+										
+										
+										<!-- Diller -->
+					
+					
+					<!-- Diller Son -->
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- header top son -->
+
+<!-- header orta -->
+
+
+		
+		
+		
+		
+					
+<div class="container-fluid header-content ">
+	<div class="container header-content-middle">
+		
+		<div class="d-flex">
+		
+				
+				
+		
+		
+				
+		
+				
+		
+		
+				
+		
+							<!-- header logo -->
+				<div class="col-4 px-0">&nbsp;</div>
+				<div class="col-4 header-logo-box">
+					<div class="header-logo">
+					
+																					
+						<a href="../../"><img src="../../../../img/setting/logo_22.09.2021_ed554c9.png" alt="logo" class="img-fluid header-logo-image" /></a>
+					</div>
+				</div>
+				<!-- header logo son -->
+							
+				
+		<!-- yeni son -->
+
+			<!-- header sepet -->
+			
+												<div class="col-4 px-0 header-sepet-box" ">
+					
+					<div class="row mx-0 justify-content-end">
+																									
+							<div class="col-auto px-0 me-1">
+								<div class="header-search">
+									<button class="btn header-search-button" style="cursor:pointer;" onclick="headerSearchDown(); return false;"><i class="bi header-search-icon"></i></button>
+								</div>
+							</div>
+							
+																							
+										
+										
+					
+											
+													<div class="col-auto header-sepet position-relative">
+								
+																	<a href="../../#" onclick="getHemenALSuccess(0 , null , 0 , 0 , 'tr' , 'icerik'); return false;" class="header-sepet-link position-relative hstack">
+																
+																	<i class="bi header-sepet-icon ps-1 hstack"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+																
+																	Sepetim &nbsp;
+																
+								<div class="col-auto ms-auto header-sepet-count hstack">
+									<span id="shoppingquantity"></span>
+								</div>
+								
+																
+								
+								<!--<span id="shoppingtime"></span>--></a>
+								
+								<div id="hemenalsuccessMenuHover"></div>
+								
+							</div>
+												
+						</div>
+					</div>
+								<!-- header sepet son -->
+						
+			</div>
+			
+	</div>
+</div>
+<!-- header orta son -->
+
+<!-- header menu -->
+
+<div class="container-fluid header-menu-navbar">
+	<div class="container header-menu-navbar-in">
+	
+		<div class="header-menu-navbar-content">
+
+		
+				
+		
+				
+				
+				
+				
+			<ul class="row navbar-list">
+			
+								
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../../../" class="navbar-items-link" >ANASAYFA </a>
+								
+								
+				
+				
+									
+								
+				</li>
+
+							
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../zeytinyagi" class="navbar-items-link" >ZEYTİNYAĞI <i class="bi navbar-down-icon"></i></a>
+								
+								
+				
+				
+											<div class="navbar-drop" >
+															<div class="navbar-drop-column" >
+								
+																	
+																		
+																		
+																					<div class="navbar-drop-column-title" ><a href="../../zeytinyagi/klasik-ambalaj-zeytinyagi" class="navbar-drop-column-title-a">Klasik Ambalaj Zeytinyağı</a></div>
+																				
+																			
+																		
+								</div>
+															<div class="navbar-drop-column" >
+								
+																	
+																		
+																		
+																					<div class="navbar-drop-column-title" ><a href="../../zeytinyagi/butik-ambalaj-zeytinyagi" class="navbar-drop-column-title-a">Butik Ambalaj Zeytinyağı</a></div>
+																				
+																			
+																		
+								</div>
+													</div>
+									
+								
+				</li>
+
+							
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../yesil-zeytin" class="navbar-items-link" >YEŞİL ZEYTİN <i class="bi navbar-down-icon"></i></a>
+								
+								
+				
+				
+											<div class="navbar-drop" >
+															<div class="navbar-drop-column" >
+								
+																	
+																		
+																		
+																					<div class="navbar-drop-column-title" ><a href="../../yesil-zeytin/yesil-cizik-zeytin" class="navbar-drop-column-title-a">Yeşil Çizik Zeytin</a></div>
+																				
+																			
+																		
+								</div>
+															<div class="navbar-drop-column" >
+								
+																	
+																		
+																		
+																					<div class="navbar-drop-column-title" ><a href="../../yesil-zeytin/kirma-yesil-zeytin" class="navbar-drop-column-title-a">Kırma Yeşil Zeytin</a></div>
+																				
+																			
+																		
+								</div>
+													</div>
+									
+								
+				</li>
+
+							
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../siyah-zeytin" class="navbar-items-link" >SİYAH ZEYTİN </a>
+								
+								
+				
+				
+									
+								
+				</li>
+
+							
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../sabun" class="navbar-items-link" >SABUN </a>
+								
+								
+				
+				
+									
+								
+				</li>
+
+							
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../ozel-urunler" class="navbar-items-link" >ÖZEL ÜRÜNLER </a>
+								
+								
+				
+				
+									
+								
+				</li>
+
+							
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../kampanyalar/tr" class="navbar-items-link" >KAMPANYALAR </a>
+								
+								
+				
+				
+									
+								
+				</li>
+
+							
+																	
+					
+																		
+																	
+																	
+								
+								
+				<li class="col-auto navbar-items " >
+				
+								
+				
+									<a href="../../kurumsal/iletisim" class="navbar-items-link" >İLETİŞİM <i class="bi navbar-down-icon"></i></a>
+								
+								
+				
+				
+											<div class="navbar-drop" >
+															<div class="navbar-drop-column" >
+								
+																	
+																		
+																		
+																					<div class="navbar-drop-column-title" ><a href="../../../../kurumsal/hakkimizda" class="navbar-drop-column-title-a">KURUMSAL</a></div>
+																				
+																																	<div class="navbar-drop-column-link" ><a href="../../kurumsal/hakkimizda" class="navbar-drop-column-link-a">HAKKIMIZDA</a></div>
+																							<div class="navbar-drop-column-link" ><a href="../../kurumsal/banka-hesabi" class="navbar-drop-column-link-a">BANKA HESABI</a></div>
+																														
+																		
+								</div>
+													</div>
+									
+								
+				</li>
+
+						
+			</ul>
+			
+						
+													
+			
+					
+						
+						
+						
+						
+						
+			</div>
+			
+	</div>
+</div>
+
+<!-- header menu son -->
+
+		
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+								
+									
+							
+						
+							
+					
+		
+</header>
+
+<div id="header-search-down" class="mx-auto header-search-down">
+	<div class="header-search">
+		<form method="GET" action="../../index.php">
+			<div class="input-group">
+				<input type="hidden" name="pagename" value="search"  />
+				
+				<input type="text" class="form-control header-search-input" name="q" placeholder="Ara.." value="" autocomplete="off" aria-label="Ara.." aria-describedby="button-addon7">
+				<input type="hidden" name="lang" value="tr"  />
+				<button class="btn header-search-button-down" type="submit" id="button-addon7" title="Ara"><i class="bi header-search-button-icon"></i></button>
+			</div>
+		</form>
+		
+	</div>
+</div>
+
+<script type="text/javascript">
+	function headerSearchDown(){
+		$('div#header-search-down').slideToggle(50);
+	}
+</script>
+
+<div class="content-background-menu" style="width: 100%; height: 100%; position: fixed; z-index: -9999;"></div>
+
+
+<div class="container-fluid mobile-header px-0">
+
+		
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+								
+									
+							
+						
+							
+					
+		
+<!-- header top -->
+
+<div class="row p-2 mobile-header-row hstack">
+
+	<div class="col-4 mobil-menu-button-tab">
+		<a href="../../#" onclick="newMenuWindowOpen(); return false;" id="newMenuWindowOpenActive" title="Menü"><i class="bi mobile-menu-icon p-0"></i></a>
+		<a href="../../#" onclick="newMenuWindowClose(); return false;" id="newMenuWindowOpenPasive" title="Menü" style="display: none;"><i class="bi mobile-menu-icon p-0"></i></a>
+	</div>
+
+	<div class="col-4 text-center mobil-menu-logo-tab">
+		<a href="../../tr"><img src="../../img/setting/logo_22.09.2021_ed554c9.png" alt="Drop Zeytinyağı" class="img-fluid header-mobile-logo" /></a>
+	</div>
+	
+	<div class="col-auto ms-auto pe-0">
+
+		<div class="row mx-0 hstack">
+		
+							<!-- header search -->
+				<div class="col-auto px-0">
+					<div class="header-search">
+						<button class="btn header-mobil-search-top-button" style="cursor:pointer;" onclick="headerSearchDownMobile(); return false;" title="Ara"><i class="bi header-mobil-search-icon"></i></button>
+					</div>
+				</div>
+				<!-- header search son -->
+						
+			<a href="../../#" onclick="newMenuAccountOpen(); return false;" id="newMenuAccountOpenActive" title="Hesabım" class="col-auto px-0 ms-auto">
+				<i class="bi header-mobil-top-user-icon"></i>
+			</a>
+
+
+			<a href="../../#" onclick="newMenuAccountClose(); return false;" id="newMenuAccountOpenPasive" title="Hesabım" class="col-auto px-0 ms-auto" style="display: none;">
+				<i class="bi header-mobil-top-user-icon"></i>
+			</a>
+			
+						<a href="../../#" onclick="getHemenALSuccess(0 , null , 0 , 0 , 'tr'); return false;" class="col-auto ms-auto header-mobil-shoppingquantity-box">
+				<i class="bi header-mobil-top-cart-icon"></i>
+				<div class="col-auto ms-auto header-mobil-count"><span id="shoppingquantity"></span></div>
+			</a>
+						
+			<div id="mobile-hemenalsuccessMenuHover"></div>
+		
+		</div>
+
+
+	</div>
+
+</div>
+
+
+
+
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
+
+
+	
+	
+
+
+	
+
+
+
+
+
+
+<div class="row mt-3 mx-0">
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+			<a href="tel:0266 396 7262" class="col-12 text-center header-mobil-telefon">
+			<i class="bi header-mobil-telefon-icon"></i>&nbsp;&nbsp;0266 396 7262
+		</a> 
+	
+
+	
+
+</div>
+
+
+
+
+<div class="row mt-3 mx-0">
+
+																																										<a href="https://api.whatsapp.com/send?phone=905523963767&text=Merhaba" class="col-12 text-center header-mobil-telefon">
+			<i class="bi header-mobil-whatsapp-icon"></i>&nbsp;&nbsp;0552 396 3767</a>
+			
+</div>
+
+
+
+	
+		<!-- header search -->
+		<div class="row mx-0 text-center" style="display: none;" id="header-search-down-mobile">
+			<div class="header-search mx-auto">
+				<form method="GET" action="../../index.php">
+					<div class="input-group">
+						<input type="hidden" name="pagename" value="search"  />
+						<input type="text" class="form-control header-mobil-search-input" name="q" placeholder="Ara.." value="" autocomplete="off" aria-label="Ara.." aria-describedby="button-addon2">
+						<input type="hidden" name="lang" value="tr"  />
+						<button class="btn header-mobil-search-button" type="submit" id="button-addon2" title="Ara"><i class="bi header-mobil-search-icon"></i></button>
+					</div>
+				</form>
+			</div>
+		</div>
+	<!-- header search son -->
+
+
+<script type="text/javascript">
+	function headerSearchDownMobile(){
+		$('div#header-search-down-mobile').slideToggle(50);
+	}
+</script>
+
+<script tyle="text/javascript">
+	function NewMenuCategoryMobileSub_bs(id, lang){
+	
+		$('i#header-mobile-down-icon'+id).slideToggle(0);
+		$('i#header-mobile-down-icon-close'+id).slideToggle(0);
+	
+		$('div#new-mobile-window-line_'+id).slideToggle(0);
+	}
+</script>
+
+
+
+
+
+<div class="new-mobile-window-fix window" onclick="newMenuWindowClose(); return false;"></div>
+
+<div class="new-mobile-window" id="new-mobile-window">
+
+<div class="row mx-0">
+
+<div class="col-12 new-mobile-window-title hstack">
+	<a href="../../tr"><img src="../../img/setting/logo_22.09.2021_ed554c9.png" alt="Drop Zeytinyağı" class="img-fluid w-50" /></a>
+	<a href="../../#" onclick="newMenuWindowClose(); return false;" title="Menü" class="bi header-mobile-close-icon ms-auto me-3"></a>
+</div>
+
+
+
+
+<style>
+.menu-slide-in {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.menu-slide-in.animate {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+</style>
+
+
+
+						
+				<div class="row mx-0 new-mobile-window-line">
+				
+					<a href="../../../../zeytinyagi" class="col-12 new-mobile-window-line-a">
+					
+										
+					ZEYTİNYAĞI<i onclick="NewMenuCategoryMobileSub_bs(37 , 'tr'); return false;" id="header-mobile-down-icon37" class="bi header-mobile-down-icon float-end ms-auto me-3"></i>
+					
+					<i class="bi bi-dash float-end ms-auto me-3" style="display: none;" id="header-mobile-down-icon-close37" onclick="NewMenuCategoryMobileSub_bs(37 , 'tr'); return false;"></i>
+					
+					</a>
+					
+										
+										<div class="row mx-0 new-mobile-window-line" id="new-mobile-window-line_37" style="padding: 0px; display: none; border-bottom: 1px #fff solid;">
+					
+																					<div class="row mx-0 new-mobile-window-line">
+									<a href="../../../../zeytinyagi/klasik-ambalaj-zeytinyagi" class="col-12 new-mobile-window-line-a">Klasik Ambalaj Zeytinyağı</a>
+								</div>
+																												<div class="row mx-0 new-mobile-window-line">
+									<a href="../../../../zeytinyagi/butik-ambalaj-zeytinyagi" class="col-12 new-mobile-window-line-a">Butik Ambalaj Zeytinyağı</a>
+								</div>
+																		
+					</div>
+					
+									</div>
+			
+					
+
+
+						
+				<div class="row mx-0 new-mobile-window-line">
+				
+					<a href="../../../../yesil-zeytin" class="col-12 new-mobile-window-line-a">
+					
+										
+					YEŞİL ZEYTİN<i onclick="NewMenuCategoryMobileSub_bs(66 , 'tr'); return false;" id="header-mobile-down-icon66" class="bi header-mobile-down-icon float-end ms-auto me-3"></i>
+					
+					<i class="bi bi-dash float-end ms-auto me-3" style="display: none;" id="header-mobile-down-icon-close66" onclick="NewMenuCategoryMobileSub_bs(66 , 'tr'); return false;"></i>
+					
+					</a>
+					
+										
+										<div class="row mx-0 new-mobile-window-line" id="new-mobile-window-line_66" style="padding: 0px; display: none; border-bottom: 1px #fff solid;">
+					
+																					<div class="row mx-0 new-mobile-window-line">
+									<a href="../../../../yesil-zeytin/yesil-cizik-zeytin" class="col-12 new-mobile-window-line-a">Yeşil Çizik Zeytin</a>
+								</div>
+																												<div class="row mx-0 new-mobile-window-line">
+									<a href="../../../../yesil-zeytin/kirma-yesil-zeytin" class="col-12 new-mobile-window-line-a">Kırma Yeşil Zeytin</a>
+								</div>
+																		
+					</div>
+					
+									</div>
+			
+					
+
+
+							<div class="row mx-0 new-mobile-window-line">
+					<a href="../../../../siyah-zeytin" class="col-12 new-mobile-window-line-a">
+										SİYAH ZEYTİN</a>
+				</div>
+					
+
+
+							<div class="row mx-0 new-mobile-window-line">
+					<a href="../../../../sabun" class="col-12 new-mobile-window-line-a">
+										SABUN</a>
+				</div>
+					
+
+
+							<div class="row mx-0 new-mobile-window-line">
+					<a href="../../../../ozel-urunler" class="col-12 new-mobile-window-line-a">
+										ÖZEL ÜRÜNLER</a>
+				</div>
+					
+
+
+
+
+<div class="row mx-0 new-mobile-window-line hstack">
+	
+	<i class="col-auto bi header-mobil-top-user-icon"></i>
+
+	
+	<a href="../../giris/tr" class="col-auto button header-mobile-login-buttons hstack me-1">Üye Girişi</a>
+	
+		
+	<a href="../../kayit/tr" class="col-auto button header-mobile-login-buttons hstack">Yeni Kayıt</a>
+
+	
+</div>
+
+
+
+	<div class="row mx-0 new-mobile-window-line hstack">
+
+		
+	</div>
+
+
+
+
+
+</div>
+
+</div>
+
+
+<div class="new-mobile-account-fix" onclick="newMenuAccountClose(); return false;"></div>
+
+<div class="col-auto new-mobile-account-drop" id="new-mobile-account-drop">
+
+<div class="row mx-0">
+	<div class="col-12 new-mobile-window-title hstack">Hesap Bilgilerim <a href="../../#" onclick="newMenuAccountClose(); return false;" class="bi header-mobile-user-close-icon me-3 ms-auto"></a></div>
+	<a href="../../account/tr" class="col-12 new-mobile-account-drop-line hstack">Hesabım</a>
+	<a href="../../orders/tr" class="col-12 new-mobile-account-drop-line hstack">Siparişlerim</a>
+	<a href="../../discountcoupons/tr" class="col-12 new-mobile-account-drop-line hstack">İndirim Kuponlarım</a>
+	<a href="../../havalebildirimi/tr" class="col-12 new-mobile-account-drop-line hstack">Havale Bildirimi</a>
+</div>
+
+<div class="row mx-0">
+
+
+		
+				
+		
+
+<div class="row mx-0 new-mobile-account-drop-line hstack">
+
+	<i class="col-auto bi header-mobil-top-user-icon"></i>
+
+			<a href="../../giris/tr" class="col-auto button header-mobile-login-buttons hstack me-2">Üye Girişi</a>
+		<a href="../../kayit/tr" class="col-auto button header-mobile-login-buttons hstack">Yeni Kayıt</a>
+	
+</div>
+
+
+<div class="row mx-0 new-mobile-account-drop-line hstack">
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="container-fluid">
+
+	<div class="container">
+
+		
+	<div class="col-auto mt-3">
+	
+	<p><span style="color: rgb(0, 0, 0); font-size: medium;"><font size="3">Damla Zeytincilik, her geçen gün, büyüyen müşteri kitlesine karşı artan sorumluluğunun bilincinde olarak kendi kalite ölçütlerini aşmayı hedefleyerek,&nbsp;</font></span><span style="color: rgb(0, 0, 0); font-size: medium;"><font style=""><strong>Kalite Bizim Önceliğimizdir</strong><font size="3"> anlayışını kendine görev edinmiştir.</font></font></span></p><p><br></p><p><span style="color: rgb(0, 0, 0); font-size: medium;"><font size="3">Yasaların ve konuluş kuralların, insanların insanca yaşaması ve sağlıklı gıdalar ile beslenmesini sağlamayı amaçladığının bilincindeyiz. Bu amaçla öncelikle kaliteli, gıda sağlığı ve güvenliği ilkelerine uygun ve çevre dostu ürünler üreterek, markamıza güvenen ve her zaman bizi arayan müşterilerimizin oluşmasına çalışmak bizim kalite politikamızdır. Bu sayede toplumda kalite bilincinin yayılmasını sağlayacak ana kuruluşlardan biri olmak istiyoruz.</font></span></p><p><br></p><p><span style="color: rgb(0, 0, 0); font-size: medium;"><font size="3">Çabalarımız, sürekli iyileştirmelerle maliyeti düşürmek, kalitesiz ürünlerin üretimini sıfıra çekerek kazancımızı artırmaktır.</font></span></p><p><br></p><p><span style="color: rgb(0, 0, 0); font-size: medium;"><font size="3">Her geçen günde kurumsal bazda yenilikler yapmak, gelişen tekniğin imkanlarından daha çok faydalanarak karlılık hedeflerimizi aşmak, ama hepsinden önemlisi müşteri memnuniyetini her yıl artırarak zeytin ve zeytinyağı sektöründe </font><strong>Drop Zeytinyağı / Damla Zeytincilik</strong><font size="3"> adının; her zaman kaliteden ödün vermeden tüketici memnuniyetini her şeyden üstün tutan ana kuruluşlardan biri olmasını sağlamaktır.</font></span></p>
+
+	
+		
+	</div>
+	
+	
+		
+		
+	</div>
+	
+</div>
+
+
+		
+				
+															
+														
+								
+								
+				<div class="container-fluid pt-3">
+					<div class="container"><img src="../../img/widgets/altbant_17.11.2023_9d09096.png" class="img-fluid w-100" alt="" title="" width="1200" height="103" /></div>
+				</div>
+			
+					
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+	
+
+
+
+<div class="container-fluid mt-3 ebulten">
+	
+	<div class="container ebulten-in">
+		
+		<div class="row">
+		
+			<div class="col-8 ebulten-left">
+				<div class="row ebulten-orta-cerceve">
+										<div class="col-10 ebulten-form">
+					
+						<div id="emailaddsuccess" class="col-12 success" style="display: none; margin-top: 0px;">Teşekkürler, E-Mail Adresiniz Kaydedildi</div>
+						
+						<div id="emailaddform_">
+							<form id="emailaddform" onsubmit="EmailAdd(); return false;">
+							
+							<input type="hidden" name="lang" value="tr">
+								
+								<div class="row">
+									<div class="col-12 col-lg-5 ebulten-form-in">
+										<div class="input-group">
+										
+										<input type="text" class="form-control ebulten-input" name="email" placeholder="Email Adresiniz.." value="" autocomplete="off" aria-label="Email Adresiniz.." aria-describedby="ebulten-button">
+										<button class="btn ebulten-button" type="submit" id="ebulten-button" title="E-Bülten"><i class="bi ebulten-button-icon"></i></button>
+										
+										</div>
+									</div>
+									
+								</div>
+								
+							</form>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+			
+			
+					<div class="col-7 ebulten-desc">
+				İndirimli ürünler ve fırsatlardan ilk önce siz haberdar olmak istermisiniz?
+			</div>
+						
+				
+		</div>
+		
+	</div>
+	
+</div>
+
+
+
+<div class="container-fluid footer" id="footer">
+		<div class="container footer-content">
+		
+				
+				
+					
+			<div class="row m-0 footer-blog-box">
+		
+		
+					
+					
+																	
+				<div class="col footer-blog" >
+					
+				<div class="row m-0">	
+					
+										
+					<div class="col-12 footer-column-title">KURUMSAL</div>
+					
+																		<div class="col-12 px-0 py-1"><a href="../../kurumsal/hakkimizda" class="footer-column-line" >HAKKIMIZDA</a></div>
+													<div class="col-12 px-0 py-1"><a href="../../kurumsal/iletisim" class="footer-column-line" >İLETİŞİM</a></div>
+													<div class="col-12 px-0 py-1"><a href="../../kurumsal/banka-hesabi" class="footer-column-line" >BANKA HESABI</a></div>
+																
+									
+				</div>
+				
+				</div>
+				
+			
+					
+					
+																	
+				<div class="col footer-blog" >
+					
+				<div class="row m-0">	
+					
+										
+					<div class="col-12 footer-column-title">ÜYELİK</div>
+					
+																		<div class="col-12 px-0 py-1"><a href="/kayit" class="footer-column-line" >Yeni Üyelik</a></div>
+													<div class="col-12 px-0 py-1"><a href="/account" class="footer-column-line" >Üyelik Bilgilerim</a></div>
+													<div class="col-12 px-0 py-1"><a href="/kayit" class="footer-column-line" >Şifremi Unuttum</a></div>
+																
+									
+				</div>
+				
+				</div>
+				
+			
+					
+					
+																	
+				<div class="col footer-blog" >
+					
+				<div class="row m-0">	
+					
+										
+					<div class="col-12 footer-column-title">SİPARİŞ</div>
+					
+																		<div class="col-12 px-0 py-1"><a href="/shopping" class="footer-column-line" >Sepetim</a></div>
+													<div class="col-12 px-0 py-1"><a href="../../index.php?pagename=kargo-takibi" class="footer-column-line" >Sipariş Takibi</a></div>
+													<div class="col-12 px-0 py-1"><a href="../../siparis/yardim" class="footer-column-line" >Yardım</a></div>
+																
+									
+				</div>
+				
+				</div>
+				
+			
+					
+					
+																	
+				<div class="col footer-blog" >
+					
+				<div class="row m-0">	
+					
+										
+					<div class="col-12 footer-column-title">TESLİMAT & İADE</div>
+					
+																		<div class="col-12 px-0 py-1"><a href="../../teslimat-ve-iade/teslimat-bilgileri" class="footer-column-line" >Teslimat Bilgileri</a></div>
+													<div class="col-12 px-0 py-1"><a href="../../teslimat-ve-iade/iade-ve-degisim" class="footer-column-line" >İade & Değişim</a></div>
+																
+									
+				</div>
+				
+				</div>
+				
+			
+					
+					
+																	
+				<div class="col footer-blog" >
+					
+				<div class="row m-0">	
+					
+										
+					<div class="col-12 footer-column-title">HİZMET & DESTEK</div>
+					
+																		<div class="col-12 px-0 py-1"><a href="../../hizmet-ve-destek/gizlilik" class="footer-column-line" >Gizlilik</a></div>
+													<div class="col-12 px-0 py-1"><a href="../../hizmet-ve-destek/guvenli-odeme" class="footer-column-line" >Güvenli Ödeme</a></div>
+													<div class="col-12 px-0 py-1"><a href="../../hizmet-ve-destek/musteri-hizmetleri" class="footer-column-line" >Müşteri Hizmetleri</a></div>
+																
+									
+				</div>
+				
+				</div>
+				
+			
+						
+			</div>
+					
+				
+				
+		
+		<div class="row py-3">			
+			
+					
+						
+							
+						
+								
+																	<div class="text-center"><img src="../../img/widgets/footer_13.10.2021_69929b3.png" alt="" title="" class="img-fluid w-50 mx-auto footer-guvenlik" width="800" height="60" /></div>
+					
+									
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+					
+					
+		</div>
+		
+		</div>
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+	</div>
+	
+	
+<div onclick="Up(); return false;" class="Up"><i class="bi UpIcon"></i></div>
+	
+		
+
+<script async type="text/javascript" src="js/popper.js" as="script" rel="preload"></script>
+<script async type="text/javascript" src="js/bootstrap.min.js" as="script" rel="preload"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">				<div class="footer-whatsapp hstack">
+		 <a href="https://api.whatsapp.com/send?phone=05523963767&text=Sizlere nasıl yardımcı olabiliriz?" title="whatsapp" target="_blank"><i class="bi footer-whatsapp-icon"></i></a>
+		 <a href="https://api.whatsapp.com/send?phone=05523963767&text=Sizlere nasıl yardımcı olabiliriz?" title="whatsapp" class="footer-whatsapp-link" target="_blank">
+		   Whatsapp Destek Hattı
+		  </a> 
+		</div> 
+	
+
+		<div class="footer-harici-butons">
+		
+				
+		<div class="footer-harici-sosyal-satir" style="background: #c0392b;">
+			<a href="tel:02663967262" target="_blank">
+				<img src="../../img/genel_sosyalmedya_butonlari/telefon.png" class="footer-harici-sosyal-icons" alt="Telefon" width="40" height="40" />
+			</a>
+		 </div>
+		
+				
+		<div class="footer-harici-sosyal-satir" style="background: #27d045;">
+			<a href="https://api.whatsapp.com/send?phone=05523963767&text=Merhaba, site üzerinden ulaşıyorum yardımcı olur musunuz ?" target="_blank">
+				<img src="../../img/genel_sosyalmedya_butonlari/wp-anasayfa.png" class="footer-harici-sosyal-icons" alt="Whatsapp" width="40" height="40" />
+			</a>
+		 </div>
+		
+				
+		<div class="footer-harici-sosyal-satir" style="background: #1c2e44;">
+			<a href="https://www.facebook.com/drop.zeytin.1" target="_blank">
+				<img src="../../img/genel_sosyalmedya_butonlari/facebook-anasayfa.png" class="footer-harici-sosyal-icons" alt="Facebook" width="40" height="40" />
+			</a>
+		 </div>
+		
+				
+		<div class="footer-harici-sosyal-satir" style="background: #527fa2;">
+			<a href="https://www.instagram.com/drop_zeytin_" target="_blank">
+				<img src="../../img/genel_sosyalmedya_butonlari/instagram-anasayfa.png" class="footer-harici-sosyal-icons" alt="Instagram" width="40" height="40" />
+			</a>
+		 </div>
+		
+				
+		</div> 
+	
+	
+<script src="../../js/function.js?v=5.03.01.48&tv=" type="text/javascript"></script>
+<script src="../../js/ajax.js?v=5.03.01.48&tv=" type="text/javascript"></script>
+<script src="../../js/shopping.js?v=5.03.01.48&tv=" type="text/javascript"></script>
+<script src="../../js/filters.js?v=5.03.01.48&tv=" type="text/javascript"></script>
+<script src="../../js/products.js?v=5.03.01.48&tv=" type="text/javascript"></script>
+<script src="../../js/instashop.js?v=5.03.01.48&tv=" type="text/javascript"></script>
+<script src="../../js/mobile.js?v=5.03.01.48&tv=" type="text/javascript"></script>
+
+
+
+	
+
+		
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?v=5.03.01.48&tv=" as="script" rel="preload"></script>
+
+<script>
+	AOS.init();
+</script>
+
+<script type="text/javascript">PopupAction('pages' , 2);</script>
+<script type="text/javascript">ShoppingQuantity('tr');</script>
+
+
+</body>
+</html><div style="float: left; width: 100%; background: #fff; box-sizing: border-box; padding: 0px 0px 7px 0px;">
+	<div style="width: 90%; padding: 0px; vertical-align: middle; font-size: 0.8em; font-weight: normal; color: #000; font-family: Tahoma; margin: auto; text-align: center;">
+	<a href="https://www.softtr.com" style="color: #ff6600; font-weight: 600;" title="E-Ticaret Sitesi">softtr<sup style="color: #888;">®</sup></a> | <span>Profesyonel</span> <a href="https://www.softtr.com" style="color: #000;" title="E-Ticaret Sitesi">E-Ticaret</a> <span title="E-Ticaret Sitesi" style="color: #000;">Sistemleri ile hazırlanmıştır.</span> 
+	</div>
+</div>

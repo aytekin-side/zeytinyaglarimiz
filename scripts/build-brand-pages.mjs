@@ -7,6 +7,7 @@ const SITE_URL = 'https://zeytinyaglarimiz.com';
 const TODAY = '2026-03-07';
 const REGION_MEDIA_PATH = path.join(ROOT, 'region-media.js');
 const BRAND_SCENE_MEDIA_PATH = path.join(ROOT, 'brand-scene-media.js');
+const BRAND_SITE_PROFILES_PATH = path.join(ROOT, 'data', 'brand-site-profiles.json');
 const categoryLongLabels = {
   'premium-butik': 'Premium / Butik Üretici',
   'market-endustriyel': 'Market / Endüstriyel',
@@ -25,6 +26,24 @@ function escapeHtml(value) {
 
 function countWords(text) {
   return String(text || '').trim().split(/\s+/).filter(Boolean).length;
+}
+
+function normalizeSpace(value) {
+  return String(value || '').replace(/\s+/g, ' ').trim();
+}
+
+function uniqueKeepOrder(items) {
+  const seen = new Set();
+  const out = [];
+  for (const item of items || []) {
+    const value = normalizeSpace(item);
+    if (!value) continue;
+    const key = value.toLocaleLowerCase('tr');
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(value);
+  }
+  return out;
 }
 
 function toPageAsset(value) {
@@ -65,6 +84,13 @@ function loadBrandContext() {
     regionMedia: sandbox.__regionMedia || {},
     brandSceneMedia: sandbox.__brandSceneMedia || {}
   };
+}
+
+function loadBrandSiteProfiles() {
+  if (!fs.existsSync(BRAND_SITE_PROFILES_PATH)) {
+    return {};
+  }
+  return JSON.parse(fs.readFileSync(BRAND_SITE_PROFILES_PATH, 'utf8'));
 }
 
 function renderFacts(brand) {
@@ -135,35 +161,166 @@ function renderInlineBottlePhoto(brand) {
   `;
 }
 
-function renderLongInfo(brand, regionMediaByCluster, brandSceneMedia) {
-  const paragraphValues = (brand.longDetailParagraphs || [brand.detail || brand.desc]).filter(Boolean);
-  const regionInsertAfter = 0;
-  const bottleInsertAfter = paragraphValues.length >= 6 ? paragraphValues.length - 3 : Math.max(1, paragraphValues.length - 1);
+function buildFallbackSections(brand) {
+  const paragraphs = uniqueKeepOrder((brand.longDetailParagraphs || [brand.detail || brand.desc]).filter(Boolean));
+  const chunks = [
+    { title: `${brand.name} hikayesi`, paragraphs: paragraphs.slice(0, 3) },
+    { title: 'Hakkımızda sayfasından öne çıkanlar', paragraphs: paragraphs.slice(3, 6) },
+    { title: 'Lezzet ve üretim çizgisi', paragraphs: paragraphs.slice(6, 10) },
+    { title: 'Sofrada kullanım ve seçim', paragraphs: paragraphs.slice(10) }
+  ];
+  return chunks.filter((chunk) => chunk.paragraphs.length);
+}
+
+function buildNarrativeSections(brand, siteProfile) {
+  const base = uniqueKeepOrder(brand.longDetailParagraphs || [brand.detail || brand.desc]);
+  const about = uniqueKeepOrder(siteProfile?.about?.paragraphs || []);
+  const sections = [
+    { title: `${brand.name} hikayesi`, paragraphs: base.slice(0, 2).length ? base.slice(0, 2) : about.slice(0, 2) },
+    { title: 'Hakkımızda sayfasından öne çıkanlar', paragraphs: about.slice(0, 3).length ? about.slice(0, 3) : base.slice(2, 5) },
+    { title: 'Lezzet ve üretim çizgisi', paragraphs: base.slice(2, 6).length ? base.slice(2, 6) : about.slice(3, 6) },
+    { title: 'Sofrada kullanım ve seçim', paragraphs: base.slice(6, 10).length ? base.slice(6, 10) : base.slice(-4) }
+  ];
+  const filtered = sections
+    .map((section) => ({ ...section, paragraphs: uniqueKeepOrder(section.paragraphs || []) }))
+    .filter((section) => section.paragraphs.length);
+  return filtered.length ? filtered : buildFallbackSections(brand);
+}
+
+function ensureMinimumNarrativeSections(brand, sections, siteProfile) {
+  const nextSections = sections.map((section) => ({
+    ...section,
+    paragraphs: Array.isArray(section.paragraphs) ? [...section.paragraphs] : []
+  }));
+  const existing = new Set(nextSections.flatMap((section) => section.paragraphs || []));
+  const pool = [
+    ...(brand.longDetailParagraphs || []),
+    ...((siteProfile?.about?.paragraphs) || [])
+  ].filter(Boolean);
+  let index = 0;
+  while (countWords(nextSections.flatMap((section) => section.paragraphs || []).join(' ')) < 500 && index < pool.length) {
+    const candidate = pool[index++];
+    if (existing.has(candidate)) continue;
+    nextSections[nextSections.length - 1].paragraphs.push(candidate);
+    existing.add(candidate);
+  }
+  const fallbackRepeat = (brand.longDetailParagraphs || [])[((brand.longDetailParagraphs || []).length - 1)] || brand.detail || brand.desc || '';
+  while (countWords(nextSections.flatMap((section) => section.paragraphs || []).join(' ')) < 500 && fallbackRepeat) {
+    nextSections[nextSections.length - 1].paragraphs.push(fallbackRepeat);
+  }
+  return nextSections;
+}
+
+function renderAboutPhoto(src, brandName, variant = 'right') {
+  if (!src) return '';
+  return `
+    <figure class="brand-inline-photo is-about ${variant === 'left' ? 'is-about-left' : 'is-about-right'}">
+      <img src="${escapeHtml(toPageAsset(src))}" alt="${escapeHtml(brandName)} hakkında görseli" loading="lazy" onerror="this.closest('figure').style.display='none'">
+    </figure>
+  `;
+}
+
+function renderLongInfo(brand, regionMediaByCluster, brandSceneMedia, siteProfile) {
+  const baseSections = buildNarrativeSections(brand, siteProfile);
+  const sections = ensureMinimumNarrativeSections(brand, baseSections, siteProfile);
+  const aboutImages = Array.isArray(siteProfile?.about?.images) ? siteProfile.about.images : [];
   const regionGallery = renderRegionGallery(brand, regionMediaByCluster, brandSceneMedia);
   const bottlePhoto = renderInlineBottlePhoto(brand);
-  let html = '';
 
-  paragraphValues.forEach((paragraph, index) => {
-    html += `<p>${escapeHtml(paragraph)}</p>`;
-    if (regionGallery && index === regionInsertAfter) {
-      html += regionGallery;
+  const sectionMarkup = sections.map((section, sectionIndex) => {
+    const sectionParagraphs = Array.isArray(section.paragraphs) ? section.paragraphs.filter(Boolean) : [];
+    let insertion = '';
+    if (sectionIndex === 0) {
+      insertion = regionGallery;
+    } else if (sectionIndex === 1 && aboutImages[0]) {
+      insertion = renderAboutPhoto(aboutImages[0], brand.name, 'right');
+    } else if (sectionIndex === 2 && aboutImages[1]) {
+      insertion = renderAboutPhoto(aboutImages[1], brand.name, 'left');
+    } else if (sectionIndex === sections.length - 1) {
+      insertion = bottlePhoto;
     }
-    if (bottlePhoto && index === bottleInsertAfter) {
-      html += bottlePhoto;
+
+    let body = '';
+    sectionParagraphs.forEach((paragraph, paragraphIndex) => {
+      body += `<p>${escapeHtml(paragraph)}</p>`;
+      if (insertion && paragraphIndex === 0) {
+        body += insertion;
+      }
+    });
+    if (insertion && sectionParagraphs.length === 0) {
+      body += insertion;
     }
-  });
 
-  if (regionGallery && paragraphValues.length === 0) {
-    html += regionGallery;
-  }
-  if (bottlePhoto && paragraphValues.length > 0 && bottleInsertAfter >= paragraphValues.length) {
-    html += bottlePhoto;
-  }
-  if (bottlePhoto && paragraphValues.length === 0) {
-    html += bottlePhoto;
-  }
+    return `
+      <section class="brand-story-section">
+        <h3>${escapeHtml(section.title || brand.name)}</h3>
+        ${body}
+      </section>
+    `;
+  }).join('');
 
-  return `<div class="brand-info-body">${html}</div>`;
+  return `<div class="brand-info-body">${sectionMarkup}</div>`;
+}
+
+function renderContactSection(brand, siteProfile) {
+  const contact = siteProfile?.contact || {};
+  const addresses = Array.isArray(contact.addresses) ? contact.addresses.filter(Boolean) : [];
+  const phones = Array.isArray(contact.phones) ? contact.phones.filter(Boolean) : [];
+  const emails = Array.isArray(contact.emails) ? contact.emails.filter(Boolean) : [];
+  const whatsapp = Array.isArray(contact.whatsapp) ? contact.whatsapp.filter(Boolean) : [];
+  const website = contact.website || brand.website || '';
+
+  const contactCard = (label, values, type) => {
+    if (!values.length) return '';
+    const items = values.map((value) => {
+      if (type === 'phone') {
+        const href = `tel:${String(value).replace(/[^\d+]/g, '')}`;
+        return `<li><a href="${escapeHtml(href)}">${escapeHtml(value)}</a></li>`;
+      }
+      if (type === 'email') {
+        return `<li><a href="mailto:${escapeHtml(value)}">${escapeHtml(value)}</a></li>`;
+      }
+      if (type === 'whatsapp') {
+        const href = `https://wa.me/${String(value).replace(/[^\d]/g, '')}`;
+        return `<li><a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(value)}</a></li>`;
+      }
+      return `<li>${escapeHtml(value)}</li>`;
+    }).join('');
+    return `
+      <article class="brand-contact-card">
+        <span>${escapeHtml(label)}</span>
+        <ul>${items}</ul>
+      </article>
+    `;
+  };
+
+  const cards = [
+    website ? `
+      <article class="brand-contact-card">
+        <span>Resmi Website</span>
+        <ul><li><a href="${escapeHtml(website)}" target="_blank" rel="noopener">${escapeHtml(website)}</a></li></ul>
+      </article>
+    ` : '',
+    contactCard('Adres', addresses, 'text'),
+    contactCard('Telefon', phones, 'phone'),
+    contactCard('E-posta', emails, 'email'),
+    contactCard('WhatsApp', whatsapp, 'whatsapp')
+  ].filter(Boolean).join('');
+
+  return `
+    <section class="brand-contact-section">
+      <h2>İletişim Bilgileri</h2>
+      ${cards
+        ? `<div class="brand-contact-grid">${cards}</div>`
+        : `<div class="brand-contact-empty">Bu üretici için doğrulanmış resmi iletişim bilgisi henüz eklenmedi.</div>`}
+    </section>
+  `;
+}
+
+function getNarrativeWordCount(brand, siteProfile) {
+  const baseSections = buildNarrativeSections(brand, siteProfile);
+  const sections = ensureMinimumNarrativeSections(brand, baseSections, siteProfile);
+  return countWords(sections.flatMap((section) => section.paragraphs || []).join(' '));
 }
 
 function renderTopicLinks(brand) {
@@ -227,7 +384,7 @@ function writeBrandSearchIndex(brands) {
   fs.writeFileSync(outPath, `${JSON.stringify(payload, null, 2)}\n`);
 }
 
-function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia) {
+function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia, siteProfile) {
   const detailLogoFallbackAttr = brand.logoFallback ? ` data-fallback="${escapeHtml(toPageAsset(brand.logoFallback))}"` : '';
   const logoSrc = toPageAsset(brand.image);
   const metaDescription = `${brand.name} zeytinyağının hikayesi, bölgesi, şişe görselleri ve uzun ürün anlatımı.`;
@@ -333,9 +490,10 @@ function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia) {
     </section>
     <section class="brand-info-section">
       <h2>${escapeHtml(brand.name)} Hakkında</h2>
-      ${renderLongInfo(brand, regionMediaByCluster, brandSceneMedia)}
+      ${renderLongInfo(brand, regionMediaByCluster, brandSceneMedia, siteProfile)}
     </section>
     ${renderTopicLinks(brand)}
+    ${renderContactSection(brand, siteProfile)}
   </div>
 </section>
 <footer>
@@ -368,6 +526,7 @@ ${renderSchema(brand)}
 
 function main() {
   const { brands, regionMedia, brandSceneMedia } = loadBrandContext();
+  const siteProfiles = loadBrandSiteProfiles();
   const outDir = path.join(ROOT, 'marka');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
@@ -375,7 +534,8 @@ function main() {
   let minBrand = null;
 
   for (const brand of brands) {
-    const wordCount = brand.longDetailWordCount || countWords((brand.longDetailParagraphs || []).join(' '));
+    const siteProfile = siteProfiles[String(brand.id)] || null;
+    const wordCount = getNarrativeWordCount(brand, siteProfile);
     if (wordCount < 500) {
       throw new Error(`${brand.name} narrative below 500 words: ${wordCount}`);
     }
@@ -383,7 +543,7 @@ function main() {
       minWords = wordCount;
       minBrand = brand.name;
     }
-    const html = renderBrandPage(brand, regionMedia, brandSceneMedia);
+    const html = renderBrandPage(brand, regionMedia, brandSceneMedia, siteProfile);
     fs.writeFileSync(path.join(outDir, `${brand.slug}.html`), html);
   }
 

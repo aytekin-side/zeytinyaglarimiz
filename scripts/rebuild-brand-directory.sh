@@ -8,6 +8,7 @@ node scripts/mirror-brand-assets.mjs
 node scripts/build-brand-websites.mjs
 python3 scripts/filter-iframe-brand-websites.py
 node scripts/build-brand-locations.mjs
+python3 scripts/build-brand-site-database.py
 node scripts/build-topic-clusters.mjs
 node scripts/build-rehber.mjs
 python3 scripts/normalize-brand-page-media.py

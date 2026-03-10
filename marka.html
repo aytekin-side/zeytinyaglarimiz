@@ -103,6 +103,7 @@
 <script src="region-media.js"></script>
 <script src="brands.js"></script>
 <script>
+let brandSiteProfiles = {};
 const categoryLongLabels = {
     'premium-butik': 'Premium / Butik Üretici',
     'market-endustriyel': 'Market / Endüstriyel',
@@ -139,6 +140,34 @@ function getBrandFromQuery() {
 
 function getFallbackBottles(brand) {
     return ['images/rehber/olive-oil-bottle.jpg', 'images/rehber/olive-oil-bottles.jpg'];
+}
+
+function normalizeSpace(value) {
+    return String(value || '').replace(/\s+/g, ' ').trim();
+}
+
+function uniqueKeepOrder(items) {
+    const seen = new Set();
+    const out = [];
+    (items || []).forEach((item) => {
+        const value = normalizeSpace(item);
+        if (!value) return;
+        const key = value.toLocaleLowerCase('tr');
+        if (seen.has(key)) return;
+        seen.add(key);
+        out.push(value);
+    });
+    return out;
+}
+
+async function loadBrandSiteProfiles() {
+    try {
+        const response = await fetch('data/brand-site-profiles.json', { cache: 'no-store' });
+        if (!response.ok) return;
+        brandSiteProfiles = await response.json();
+    } catch (_error) {
+        brandSiteProfiles = {};
+    }
 }
 
 function renderRegionGallery(brand) {
@@ -185,7 +214,118 @@ function renderInlineBottlePhoto(brand) {
     `;
 }
 
-function renderBrandDetail() {
+function renderAboutPhoto(src, brandName, variant) {
+    if (!src) return '';
+    return `
+        <figure class="brand-inline-photo is-about ${variant === 'left' ? 'is-about-left' : 'is-about-right'}">
+            <img src="${src}" alt="${brandName} hakkında görseli" loading="lazy" onerror="this.closest('figure').style.display='none'">
+        </figure>
+    `;
+}
+
+function buildFallbackSections(brand) {
+    const paragraphs = uniqueKeepOrder((brand.longDetailParagraphs || [brand.desc]).filter(Boolean));
+    const chunks = [
+        { title: `${brand.name} hikayesi`, paragraphs: paragraphs.slice(0, 3) },
+        { title: 'Hakkımızda sayfasından öne çıkanlar', paragraphs: paragraphs.slice(3, 6) },
+        { title: 'Lezzet ve üretim çizgisi', paragraphs: paragraphs.slice(6, 10) },
+        { title: 'Sofrada kullanım ve seçim', paragraphs: paragraphs.slice(10) }
+    ];
+    return chunks.filter((chunk) => chunk.paragraphs.length);
+}
+
+function buildNarrativeSections(brand, siteProfile) {
+    const base = uniqueKeepOrder(brand.longDetailParagraphs || [brand.desc]);
+    const about = uniqueKeepOrder(((siteProfile && siteProfile.about && siteProfile.about.paragraphs) || []));
+    const sections = [
+        { title: `${brand.name} hikayesi`, paragraphs: base.slice(0, 2).length ? base.slice(0, 2) : about.slice(0, 2) },
+        { title: 'Hakkımızda sayfasından öne çıkanlar', paragraphs: about.slice(0, 3).length ? about.slice(0, 3) : base.slice(2, 5) },
+        { title: 'Lezzet ve üretim çizgisi', paragraphs: base.slice(2, 6).length ? base.slice(2, 6) : about.slice(3, 6) },
+        { title: 'Sofrada kullanım ve seçim', paragraphs: base.slice(6, 10).length ? base.slice(6, 10) : base.slice(-4) }
+    ];
+    const filtered = sections
+        .map((section) => ({ ...section, paragraphs: uniqueKeepOrder(section.paragraphs || []) }))
+        .filter((section) => section.paragraphs.length);
+    return filtered.length ? filtered : buildFallbackSections(brand);
+}
+
+function sectionWordCount(sections) {
+    return sections.flatMap((section) => section.paragraphs || []).join(' ').trim().split(/\s+/).filter(Boolean).length;
+}
+
+function ensureMinimumNarrativeSections(brand, sections, siteProfile) {
+    const nextSections = sections.map((section) => ({
+        ...section,
+        paragraphs: Array.isArray(section.paragraphs) ? [...section.paragraphs] : []
+    }));
+    const existing = new Set(nextSections.flatMap((section) => section.paragraphs || []));
+    const pool = [
+        ...(brand.longDetailParagraphs || []),
+        ...((siteProfile && siteProfile.about && siteProfile.about.paragraphs) || [])
+    ].filter(Boolean);
+    let index = 0;
+    while (sectionWordCount(nextSections) < 500 && index < pool.length) {
+        const candidate = pool[index++];
+        if (existing.has(candidate)) continue;
+        nextSections[nextSections.length - 1].paragraphs.push(candidate);
+        existing.add(candidate);
+    }
+    const fallbackRepeat = ((brand.longDetailParagraphs || [])[((brand.longDetailParagraphs || []).length - 1)]) || brand.detail || brand.desc || '';
+    while (sectionWordCount(nextSections) < 500 && fallbackRepeat) {
+        nextSections[nextSections.length - 1].paragraphs.push(fallbackRepeat);
+    }
+    return nextSections;
+}
+
+function renderContactSection(brand, siteProfile) {
+    const contact = (siteProfile && siteProfile.contact) || {};
+    const website = contact.website || brand.website || '';
+    const addresses = Array.isArray(contact.addresses) ? contact.addresses.filter(Boolean) : [];
+    const phones = Array.isArray(contact.phones) ? contact.phones.filter(Boolean) : [];
+    const emails = Array.isArray(contact.emails) ? contact.emails.filter(Boolean) : [];
+    const whatsapp = Array.isArray(contact.whatsapp) ? contact.whatsapp.filter(Boolean) : [];
+
+    const card = (label, values, type) => {
+        if (!values.length) return '';
+        return `
+            <article class="brand-contact-card">
+                <span>${label}</span>
+                <ul>
+                    ${values.map((value) => {
+                        if (type === 'phone') return `<li><a href="tel:${String(value).replace(/[^\d+]/g, '')}">${value}</a></li>`;
+                        if (type === 'email') return `<li><a href="mailto:${value}">${value}</a></li>`;
+                        if (type === 'whatsapp') return `<li><a href="https://wa.me/${String(value).replace(/[^\d]/g, '')}" target="_blank" rel="noopener">${value}</a></li>`;
+                        return `<li>${value}</li>`;
+                    }).join('')}
+                </ul>
+            </article>
+        `;
+    };
+
+    const cards = [
+        website ? `
+            <article class="brand-contact-card">
+                <span>Resmi Website</span>
+                <ul><li><a href="${website}" target="_blank" rel="noopener">${website}</a></li></ul>
+            </article>
+        ` : '',
+        card('Adres', addresses, 'text'),
+        card('Telefon', phones, 'phone'),
+        card('E-posta', emails, 'email'),
+        card('WhatsApp', whatsapp, 'whatsapp')
+    ].filter(Boolean).join('');
+
+    return `
+        <section class="brand-contact-section">
+            <h2>İletişim Bilgileri</h2>
+            ${cards
+                ? `<div class="brand-contact-grid">${cards}</div>`
+                : `<div class="brand-contact-empty">Bu üretici için doğrulanmış resmi iletişim bilgisi henüz eklenmedi.</div>`}
+        </section>
+    `;
+}
+
+async function renderBrandDetail() {
     const root = document.getElementById('brandDetailRoot');
     const breadcrumbNav = document.getElementById('brandBreadcrumbs');
     const brand = getBrandFromQuery();
@@ -211,6 +351,7 @@ function renderBrandDetail() {
     const bottleImages = Array.isArray(brand.bottleImages) && brand.bottleImages.length > 0
         ? brand.bottleImages
         : getFallbackBottles(brand);
+    const siteProfile = brandSiteProfiles[String(brand.id)] || null;
 
     const facts = [
         { label: 'Kategori', value: categoryLongLabels[brand.category] || brand.category, url: brand.categoryTopicUrl },
@@ -257,16 +398,42 @@ function renderBrandDetail() {
         if (!url) return '';
         return `<a class=\"topic-link\" href=\"${url}\">${label}</a>`;
     }).filter(Boolean);
-    const paragraphs = (brand.longDetailParagraphs || [brand.desc]).filter(Boolean);
-    const regionInsertAfter = 0;
-    const bottleInsertAfter = paragraphs.length >= 6 ? paragraphs.length - 3 : Math.max(1, paragraphs.length - 1);
+    const baseSections = buildNarrativeSections(brand, siteProfile);
+    const sections = ensureMinimumNarrativeSections(brand, baseSections, siteProfile);
+    const aboutImages = siteProfile && siteProfile.about && Array.isArray(siteProfile.about.images)
+        ? siteProfile.about.images
+        : [];
     const regionGallery = renderRegionGallery(brand);
     const bottlePhoto = renderInlineBottlePhoto(brand);
-    const paragraphMarkup = paragraphs.map((paragraph, index) => `
-        <p>${paragraph}</p>
-        ${regionGallery && index === regionInsertAfter ? regionGallery : ''}
-        ${bottlePhoto && index === bottleInsertAfter ? bottlePhoto : ''}
-    `).join('') + ((bottlePhoto && paragraphs.length > 0 && bottleInsertAfter >= paragraphs.length) ? bottlePhoto : '');
+    const sectionMarkup = sections.map((section, sectionIndex) => {
+        const insertion = sectionIndex === 0
+            ? regionGallery
+            : sectionIndex === 1 && aboutImages[0]
+                ? renderAboutPhoto(aboutImages[0], brand.name, 'right')
+                : sectionIndex === 2 && aboutImages[1]
+                    ? renderAboutPhoto(aboutImages[1], brand.name, 'left')
+                    : sectionIndex === sections.length - 1
+                        ? bottlePhoto
+                        : '';
+
+        let body = '';
+        (section.paragraphs || []).forEach((paragraph, paragraphIndex) => {
+            body += `<p>${paragraph}</p>`;
+            if (insertion && paragraphIndex === 0) {
+                body += insertion;
+            }
+        });
+        if (insertion && !(section.paragraphs || []).length) {
+            body += insertion;
+        }
+
+        return `
+            <section class="brand-story-section">
+                <h3>${section.title}</h3>
+                ${body}
+            </section>
+        `;
+    }).join('');
 
     root.innerHTML = `
         <div class="brand-detail-inner">
@@ -306,7 +473,7 @@ function renderBrandDetail() {
             <section class="brand-info-section">
                 <h2>${brand.name} Hakkında</h2>
                 <div class="brand-info-body">
-                    ${paragraphMarkup}
+                    ${sectionMarkup}
                 </div>
             </section>
             <section class="brand-topic-links">
@@ -317,6 +484,7 @@ function renderBrandDetail() {
                     ${oliveTopicLinks.join('')}
                 </div>
             </section>
+            ${renderContactSection(brand, siteProfile)}
         </div>
     `;
 
@@ -347,7 +515,10 @@ function renderBrandDetail() {
     document.head.appendChild(schemaEl);
 }
 
-document.addEventListener('DOMContentLoaded', renderBrandDetail);
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadBrandSiteProfiles();
+    await renderBrandDetail();
+});
 </script>
 
 </body>
