@@ -46,7 +46,7 @@ function main() {
   );
   indexHtml = replaceOrThrow(
     indexHtml,
-    /(<a href="topic\/bolgeler\/index\.html" class="hero-stat">\s*<span class="num"[^>]*>)(\d+)(<\/span>\s*<span class="label">Bölge<\/span>)/,
+    /(<a href="bolgeler\.html" class="hero-stat">\s*<span class="num"[^>]*>)(\d+)(<\/span>\s*<span class="label">Bölge<\/span>)/,
     `$1${regionCount}$3`,
     'index hero region count'
   );
