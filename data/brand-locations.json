@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-10T13:43:38.810Z",
-  "totalBrands": 327,
+  "generatedAt": "2026-03-10T13:50:29.722Z",
+  "totalBrands": 326,
   "exactAddressCount": 27,
   "officialSourceCount": 38,
-  "approximateCount": 299,
+  "approximateCount": 298,
   "records": [
     {
       "id": 1,
@@ -6408,27 +6408,6 @@
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
       "sourceUrl": "https://www.namlizeytinleri.com/",
-      "coordinateProvider": "nominatim"
-    },
-    {
-      "id": 411,
-      "slug": "nicaea",
-      "name": "Nicaea",
-      "logo": "images/markalar/nicaea/nicaea-logo.svg",
-      "website": "https://nicaea.com.tr/",
-      "region": "Edremit, Balıkesir",
-      "regionCluster": "ege",
-      "regionClusterLabel": "Ege Bölgesi",
-      "category": "premium-butik",
-      "displayAddress": "Edremit, Balıkesir, Türkiye",
-      "geocodeQuery": "Edremit, Balıkesir, Türkiye",
-      "lat": 39.593835,
-      "lng": 27.015684,
-      "precision": "district",
-      "precisionLabel": "İlçe / üretim merkezi",
-      "sourceType": "origin-region",
-      "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "https://nicaea.com.tr/",
       "coordinateProvider": "nominatim"
     },
     {

@@ -3849,6 +3849,7 @@
       "Ayvalık çeşidi zeytinlerimizi erken dönemde hasat ederek yüksek kaliteyi sağlamayı hedefliyotuz. Serbest asitlik değeri %0,4 olan zeytinyağımız boğazda bıraktığı yanma hissiyle de kalitesinin üst seviyelerde olduğunu kanıtlar niteliktedir. Her adımında özenle ve titizlikte ürettiğimiz bu ürünlerle Akdeniz kokularını ve lezzetlerini sofralarınıza getirmeyi hedeflemektedir."
     ],
     "images": [
+      "images/markalar/monterosso/monterosso-about-01.jpg",
       "images/markalar/monterosso/monterosso-about-02.jpg"
     ],
     "sourceUrls": [
@@ -3988,7 +3989,8 @@
       "Gazi İlyas Mahallesi İnönü Caddesi No:53/A 10300 Edremit/Balıkesir"
     ],
     "images": [
-      "images/markalar/uzman-ciftlik/uzman-ciftlik-about-01.jpg"
+      "images/markalar/uzman-ciftlik/uzman-ciftlik-about-01.jpg",
+      "images/markalar/uzman-ciftlik/uzman-ciftlik-about-02.png"
     ],
     "sourceUrls": [
       "https://www.uzmanciftlik.com/"
@@ -4090,9 +4092,9 @@
   "236": {
     "website": "https://www.angelos.com.tr/tr/",
     "headings": [
+      "Müteşebbis Sertifikası",
       "BIO Sertifikası",
       "NOP Sertifikası",
-      "Müteşebbis Sertifikası",
       "Ürünlerimiz",
       "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
       "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -4837,7 +4839,9 @@
     "website": "https://www.ayvalik-zeytinyagi.com/",
     "headings": [],
     "paragraphs": [],
-    "images": [],
+    "images": [
+      "images/markalar/karadag-zeytincilik/karadag-zeytincilik-about-01.png"
+    ],
     "sourceUrls": [
       "https://www.ayvalik-zeytinyagi.com/"
     ]
@@ -5233,10 +5237,12 @@
       "SİZİN İÇİN"
     ],
     "paragraphs": [
-      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
     ],
     "images": [
       "images/markalar/ustali/ustali-about-01.jpg",
@@ -6250,11 +6256,11 @@
       "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
       "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
       "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-      "İznik Zeytin Evi’ne internette tuzsuz zeytin ararken denk geldim, sipariş verdikten sonra telefon ile arayıp siparişimle ilgili bilgi verildi, gayet ilgiliydi arayan hanımefendi. Sipariş yola çıktıktan 1 gün sonra Ankara’ya adresime ulaştı ve paketleme oldukça özenliydi. Teşekkürler.",
-      "Gönül rahatlığı ile tuketiyorum.her bir tanesi mükemmel çok lezzetli ve hiç tuz yok 24 saatte çok özenli paketleme ile elime ulaştı. IYIKI sizi keşfettim.Her bir tanesi için cokk teşekkür ediyorum .Emeğinize sağlık.. Hep birlikte olmak dileklerimle kazancınız bol olsun",
+      "İznik irisi zeytininizden sipariş vermiştik , gerçekten harika",
       "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
       "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
-      "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
+      "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik.",
+      "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
     ],
     "images": [
       "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-about-02.jpg"
@@ -6474,38 +6480,6 @@
     ],
     "sourceUrls": [
       "https://www.namlizeytinleri.com/hakkimizda/"
-    ]
-  },
-  "411": {
-    "website": "https://nicaea.com.tr/",
-    "headings": [
-      "Sepetiniz",
-      "Sepetiniz boş",
-      "Toplam",
-      "Her Gün Güvenle Kullanacağınız Gerçek Zeytinyağı",
-      "Uluslararası Ödüllü",
-      "Soğuk Sıkım",
-      "Doğrudan Üreticiden",
-      "Let customers speak for us"
-    ],
-    "paragraphs": [
-      "Tadı ayrı güzel cilde iyi gelişi ayrı güzel. 2si bir arada birşey üretmişler ve umarım hiç bir zaman değişmez. Çok memnun kaldık devam edeceğiz inşallah. Teşekkürler.",
-      "Çok beğendik, ellerinize sağlık. Yemeğin üstüne bile yiyoruz leblebi gibi. Müptelası olduk...",
-      "Çok kaliteli zeytinyağı üretiyorlar, müşteri memnuniyetini ön planda tutan bir işletme, müşteri iletişimleri de çok iyi sürekli alışveriş yapıyoruz",
-      "Düzenli satın alıyoruz çok memnunuz ve kargo sürecini çok hızlı yönetiyorlar",
-      "Ürünlerimden 1 lt Cam Galon yağ kırılıp dökülmüştü. Kargo şirketinden arandım. Nicaea yı bilgilendirdiğimde yenisini gönderileceğini söylediler. Ertesi gün ürünüm adresime teslim edildi. İlgilerinden dolayı teşekkür ederim.",
-      "Zeytin sütlerim geldi. Kahvaltılarda ekmek banarak tüketiyoruz. Teşekkürler NİCAEA",
-      "İznik Kuru Sele Zeytininiz bir efsane.Yeniden almak isterim.",
-      "Edremit çizik yeşil zeytini çok beğendim.Bir dahaki siparişimde mutlakaEdremit Çizik Yeşil Zeytin olacak."
-    ],
-    "images": [
-      "images/markalar/nicaea/nicaea-about-01.png",
-      "images/markalar/nicaea/nicaea-about-02.png"
-    ],
-    "sourceUrls": [
-      "https://nicaea.com.tr/pages/hakkimizda1",
-      "https://nicaea.com.tr/blogs/gonderiler/soguk-sikim-zeytinyagi-nedir-i%CC%87znikten-sofraniza-gelen-asirlik-saglik-mirasi",
-      "https://nicaea.com.tr/pages/hakkimizda"
     ]
   },
   "412": {

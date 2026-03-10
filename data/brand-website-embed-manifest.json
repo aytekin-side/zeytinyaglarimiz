@@ -2520,24 +2520,6 @@
     ]
   },
   {
-    "id": 411,
-    "name": "Nicaea",
-    "slug": "nicaea",
-    "url": "https://nicaea.com.tr/",
-    "region": "Edremit, Balıkesir",
-    "category": "premium-butik",
-    "checkedAt": "2026-03-10T12:08:12.605050Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://nicaea.com.tr/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "DENY",
-    "frameAncestors": [
-      "'none'"
-    ]
-  },
-  {
     "id": 218,
     "name": "Nidazeytin",
     "slug": "nidazeytin",

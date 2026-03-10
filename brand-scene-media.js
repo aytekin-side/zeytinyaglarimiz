@@ -1455,14 +1455,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'nicaea': {
-    src: 'images/markalar/nicaea/nicaea-scene-nature-1.jpg',
-    alt: 'Edremit çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Edremit zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'nidazeytin': {
     src: 'images/markalar/nidazeytin/nidazeytin-scene-nature-2.jpg',
     alt: 'Edremit çevresinde zeytin ağaçları ve doğal görünüm',

@@ -7758,18 +7758,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 411,
-        "name": "Nicaea",
-        "desc": "İznik’te aile üretimi, düşük asitli ve yüksek polifenollü natürel sızma zeytinyağı. Uluslararası ödüllü premium kaliteyi keşfedin.",
-        "region": "Edremit, Balıkesir",
-        "category": "premium-butik",
-        "website": "https://nicaea.com.tr/",
-        "founded": "",
-        "highlight": false,
-        "image": "images/markalar/nicaea/nicaea-logo.svg",
-        "logoFallback": ""
-    },
-    {
         "id": 412,
         "name": "Ninurta",
         "desc": "Ninurta, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",

@@ -2869,15 +2869,6 @@ const brandMedia = {
         ],
         "info": "Namlı Zeytinleri, Gemlik, Bursa çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Namlı Zeytinleri &#8211; Kurumsal ve Toptan Satış"
     },
-    "411": {
-        "slug": "nicaea",
-        "logo": "images/markalar/nicaea/nicaea-logo.svg",
-        "bottles": [
-            "images/markalar/nicaea/nicaea-bottle-01-zeytinyagi.webp",
-            "images/markalar/nicaea/nicaea-bottle-02-bottle-detail-02.jpg"
-        ],
-        "info": "Nicaea, Edremit, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. İznik’te aile üretimi, düşük asitli ve yüksek polifenollü natürel sızma zeytinyağı. Uluslararası ödüllü premium kaliteyi keşfedin."
-    },
     "412": {
         "slug": "ninurta",
         "logo": "",

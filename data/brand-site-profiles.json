@@ -2905,6 +2905,19 @@
           "Havale Bildirim Formu"
         ],
         "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://www.olivos.com.tr/iletisim",
+        "statusCode": 200,
+        "title": "Olivos Sabunları | %100 Zeytinyağlı Sabun",
+        "headings": [],
+        "blocks": [
+          "Misyon&Vizyon ve Kalite Politikası",
+          "İptal, İade Koşulları",
+          "Havale Bildirim Formu"
+        ],
+        "error": ""
       }
     ],
     "contact": {
@@ -2914,17 +2927,23 @@
         "Olivos Aphrodite’s Secret %100 Zeytinyağlı El Yapımı Katı Sabun, Premium Kutulu, 2×100 g"
       ],
       "phones": [
-        "+90 536 743 52 94"
+        "+90 536 743 52 94",
+        "+90 236 332 50 32",
+        "+90 236 332 50 33",
+        "+90 236 332 50 40"
       ],
       "emails": [
-        "info@olivos.com.tr"
+        "info@olivos.com.tr",
+        "olivos@olivos.com.tr",
+        "olivospazarlamaltd@hs02.kep.tr"
       ],
       "whatsapp": [
         "+90 536 743 52 94"
       ]
     },
     "contactSources": [
-      "https://www.olivos.com.tr/"
+      "https://www.olivos.com.tr/",
+      "https://www.olivos.com.tr/iletisim"
     ],
     "about": {
       "headings": [],
@@ -3240,8 +3259,8 @@
     "contact": {
       "website": "https://ilyada.com/",
       "addresses": [
-        "5 lt Teneke Doğal Sızma Zeytinyağı, en iyi kalitede sızma zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir.",
-        "5 Lt Teneke Natürel 1. Zeytinyağı, natürel birinci zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir."
+        "5 Lt Teneke Natürel 1. Zeytinyağı, natürel birinci zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir.",
+        "5 lt Teneke Doğal Sızma Zeytinyağı, en iyi kalitede sızma zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir."
       ],
       "phones": [
         "+90 286 638 55 77"
@@ -4941,7 +4960,7 @@
       },
       {
         "kind": "contact",
-        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#a7cec9c1c8e7c0c6cec6c8cbced1c689c4c8ca98f4d2c5cdc2c4d39ae0c6cec687e8cbced1c687e3c2d4d3c2cc",
+        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#452c2b232a0522242c242a292c33246b262a287a1630272f2026317802242c24650a292c33246501203631202e",
         "statusCode": 200,
         "title": "Email Protection | Cloudflare",
         "headings": [
@@ -20407,6 +20426,26 @@
           "Vergi Numarası: 3011054691"
         ],
         "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://www.asiltane.com/sayfa/magazalarimiz",
+        "statusCode": 200,
+        "title": "Mağazalarımız",
+        "headings": [],
+        "blocks": [
+          "Limited Özel Hasat Soğuk Sıkım Natürel Sızma",
+          "Erken Hasat Soğuk Sıkım Natürel Sızma",
+          "Soğuk Sıkım Natürel Sızma",
+          "Olgun Hasat Soğuk Sıkım Natürel Sızma",
+          "En Asil Hediye Setleri",
+          "Limited Özel Hasat Soğuk Sıkım Natürel Sızma Zeytinyağı",
+          "Erken Hasat Soğuk Sıkım Natürel Sızma Zeytinyağı",
+          "Soğuk Sıkım Natürel Sızma Zeytinyağı",
+          "Natürel Sızma Zeytinyağı",
+          "İade Koşulları ve Geri Gönderim"
+        ],
+        "error": ""
       }
     ],
     "contact": {
@@ -20432,7 +20471,8 @@
     },
     "contactSources": [
       "https://www.asiltane.com/",
-      "https://www.asiltane.com/sayfa/asiltane-iletisim"
+      "https://www.asiltane.com/sayfa/asiltane-iletisim",
+      "https://www.asiltane.com/sayfa/magazalarimiz"
     ],
     "about": {
       "headings": [],
@@ -26644,6 +26684,7 @@
         "Ayvalık çeşidi zeytinlerimizi erken dönemde hasat ederek yüksek kaliteyi sağlamayı hedefliyotuz. Serbest asitlik değeri %0,4 olan zeytinyağımız boğazda bıraktığı yanma hissiyle de kalitesinin üst seviyelerde olduğunu kanıtlar niteliktedir. Her adımında özenle ve titizlikte ürettiğimiz bu ürünlerle Akdeniz kokularını ve lezzetlerini sofralarınıza getirmeyi hedeflemektedir."
       ],
       "images": [
+        "images/markalar/monterosso/monterosso-about-01.jpg",
         "images/markalar/monterosso/monterosso-about-02.jpg"
       ],
       "sourceUrls": [
@@ -27707,7 +27748,8 @@
         "Gazi İlyas Mahallesi İnönü Caddesi No:53/A 10300 Edremit/Balıkesir"
       ],
       "images": [
-        "images/markalar/uzman-ciftlik/uzman-ciftlik-about-01.jpg"
+        "images/markalar/uzman-ciftlik/uzman-ciftlik-about-01.jpg",
+        "images/markalar/uzman-ciftlik/uzman-ciftlik-about-02.png"
       ],
       "sourceUrls": [
         "https://www.uzmanciftlik.com/"
@@ -28457,9 +28499,9 @@
         "statusCode": 200,
         "title": "Angelos Organik Zeytinyağı Değirmeni - Anasayfa",
         "headings": [
+          "Müteşebbis Sertifikası",
           "BIO Sertifikası",
           "NOP Sertifikası",
-          "Müteşebbis Sertifikası",
           "Ürünlerimiz",
           "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
           "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -28630,9 +28672,9 @@
     ],
     "about": {
       "headings": [
+        "Müteşebbis Sertifikası",
         "BIO Sertifikası",
         "NOP Sertifikası",
-        "Müteşebbis Sertifikası",
         "Ürünlerimiz",
         "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
         "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -32229,6 +32271,26 @@
           "Fevzi Paşa Mah. Atatürk Cad. No:172 AYVALIK"
         ],
         "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://www.comertzeytin.com/iletisim-formu",
+        "statusCode": 200,
+        "title": "Cömert Zeytin I Ayvalık Zeytinyağı Mağazası, CMRT Zeytin",
+        "headings": [],
+        "blocks": [
+          "Naturel Sızma (Soğuk Sıkım) 2025-2026",
+          "Taş Baskı 2025-2026 (Filitresiz)",
+          "Erken Hasat 2025-2026 (Filitresiz)",
+          "Yanaklı Zeytin (Yeni Sezon)",
+          "Doğal Alyanak Yeni Sezon",
+          "Doğal Ayvalık Kırma Yeni Sezon",
+          "Doğal Çizik Zeytin Yeni Sezon",
+          "Doğal Domat Kırma 1 Yeni Sezon",
+          "Üye ve Ziyaretçi Kişisel Veri Aydınlatma Metni",
+          "Vehbibey Mah. Gümrük Cd. No:33 AYVALIK"
+        ],
+        "error": ""
       }
     ],
     "contact": {
@@ -32250,7 +32312,8 @@
     },
     "contactSources": [
       "https://www.comertzeytin.com/",
-      "https://www.comertzeytin.com/iletisim"
+      "https://www.comertzeytin.com/iletisim",
+      "https://www.comertzeytin.com/iletisim-formu"
     ],
     "about": {
       "headings": [
@@ -34310,10 +34373,12 @@
       {
         "kind": "home",
         "url": "https://www.ayvalik-zeytinyagi.com/",
-        "statusCode": 500,
+        "statusCode": 200,
         "title": "",
         "headings": [],
-        "blocks": [],
+        "blocks": [
+          "Tüm Hakları Saklıdır."
+        ],
         "error": ""
       },
       {
@@ -34341,7 +34406,9 @@
     "about": {
       "headings": [],
       "paragraphs": [],
-      "images": [],
+      "images": [
+        "images/markalar/karadag-zeytincilik/karadag-zeytincilik-about-01.png"
+      ],
       "sourceUrls": [
         "https://www.ayvalik-zeytinyagi.com/"
       ]
@@ -34471,6 +34538,26 @@
           "Ayvalık Yuvarlama Zeytin"
         ],
         "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://www.kokluzeytincilik.com.tr/sayfa/magazalarimiz",
+        "statusCode": 200,
+        "title": "Ayvalık Köklü Zeytincilik",
+        "headings": [],
+        "blocks": [
+          "BANKA HESAP NUMARALARI",
+          "Naturel Sızma Zeytinyağı",
+          "Naturel Birinci Zeytinyağı",
+          "Yüksek Polifenol Zeytinyağı",
+          "Ayvalık Çizik Zeytin",
+          "Ayvalık Kırma Zeytin",
+          "Yeşil Kalamata Zeytin",
+          "Gemlik Yağlı Sele Zeytini",
+          "Ayvalık Sele Zeytini",
+          "Ayvalık Yuvarlama Zeytin"
+        ],
+        "error": ""
       }
     ],
     "contact": {
@@ -34495,7 +34582,8 @@
     "contactSources": [
       "https://www.kokluzeytincilik.com.tr/",
       "https://www.kokluzeytincilik.com.tr/sayfa/hakkimizda",
-      "https://www.kokluzeytincilik.com.tr/iletisim"
+      "https://www.kokluzeytincilik.com.tr/iletisim",
+      "https://www.kokluzeytincilik.com.tr/sayfa/magazalarimiz"
     ],
     "about": {
       "headings": [
@@ -36952,16 +37040,16 @@
           "SİZİN İÇİN"
         ],
         "blocks": [
-          "Natürel Sızma Zeytinyağı 500 ml",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
-          "Doğal Zeytinyağlı Sabun 200G",
-          "Filtresiz Natural Sızma Zeytinyağı 5 L",
-          "Galon Şişe Natürel Sızma Zeytinyağı 2 L",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+          "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
+          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
           "Midilli'nin Yereli köyünden mübadele ile Ayvalık'a göç eden aile büyüklerimiz Midilli'de sürdürdükleri Zeytincilik faaliyetlerini Ayvalık'ta da sürdürüp bu günlere kadar taşımıştır. Soyadımız olan USTALI kelimesi Midilli'deki en büyük zeytinliğin ismini taşımaktadır. 2006 yılına kadar ailemiz mübadelen beri kendi bahçelerini işleyip müstahsil olarak zeytinciliğe devam ederken Aile fertlerimiz ile 2006 yılının Nisan ayında kendi üretim tesisimizin temelini attık. Ustalı Zeytincilik Aile İşletmesi olarak 2008 yılı zeytin hasat döneminden beride kendi fabrikasında USTALI markası ile üretim yapmaktadır.",
           "Kazımkarabekir Mahallesi",
           "Kışla Mevkisi Eski Altınova Yolu",
           "Ayvalık / Balıkesir / TÜRKİYE",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG"
+          "Natürel Sızma Zeytinyağı 500 ml"
         ],
         "error": ""
       },
@@ -36972,11 +37060,11 @@
         "title": "Hakkımızda",
         "headings": [],
         "blocks": [
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
-          "Doğal Zeytinyağlı Sabun 200G",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
           "Filtresiz Natural Sızma Zeytinyağı 5 L",
-          "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
-          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
+          "Galon Şişe Natürel Sızma Zeytinyağı 2 L",
+          "Natürel Sızma Zeytinyağı 2 L",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
           "Midilli’nin yereli köyünden mübadele ile Ayvalık’a göç eden aile büyüklerimiz Midilli de sürdürdükleri Zeytincilik faaliyetlerini Ayvalık’ tada sürdürüp bu günlere kadar taşıdı. Soyadımız olan USTALI kelimesi Midilli deki en büyük zeytinliğin ismini taşımaktadır. 2006 yılına kadar ailemiz mübadelen beri kendi bahçelerini işleyip müstahsil olarak zeytinciliğe devam ederken Aile fertlerimiz 2006 yılının Nisan ayında kendi üretim tesisimizin temelini attı. Ustalı Zeytin, Zeytincilik Aile İşletmesi olarak 2008 yılı zeytin hasat döneminden beride kendi fabrikamızda USTALI markası ile üretim yapmaktadır.",
@@ -36993,10 +37081,10 @@
         "headings": [],
         "blocks": [
           "Natürel Sızma Zeytinyağı 500 ml",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
           "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
           "Doğal Zeytinyağlı Sabun 200G",
-          "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
+          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
           "Kazımkarabekir Mahallesi",
@@ -37033,10 +37121,12 @@
         "SİZİN İÇİN"
       ],
       "paragraphs": [
-        "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
         "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
         "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
       ],
       "images": [
         "images/markalar/ustali/ustali-about-01.jpg",
@@ -37053,15 +37143,16 @@
         "paragraphs": [
           "Ustalı, daha seçici sofralara yakışacak karakterli bir çizgi sunar. Ayvalık, Balıkesir çıkışlı bu yağ, özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
           "Ustalı, Ayvalık, Balıkesir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG"
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
           "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG"
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG"
         ]
       },
       {
@@ -37070,7 +37161,8 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Ustalı anlatılırken önce damakta bıraktığı iz öne çıkar. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Ustalı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
         ]
       },
       {
@@ -44501,7 +44593,8 @@
     "contact": {
       "website": "https://www.iznikzeytinevi.com/",
       "addresses": [
-        "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
+        "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
+        "HASTAM OLDUĞU İÇİN %100 TUZSUZ SİYAH ZEYTİN ALDIM. ACI OLUR DİYE DÜŞÜNDÜM FAKAT GERÇEKTEN ÇOK LEZZETLİ BİR ZEYTİN GELDİ. ÖZELLİKLE SAĞLIK İÇİN ALMAK İSTEYEN HERKESE TAVSİYE EDERİM. SİPARİŞİMİN ERTESİ GÜNÜ TESLİM EDİLDİ. HEM LEZZET, HEM KALİTE, HEMDE HIZLI TESLİMAT İÇİN TEŞEKKÜR EDERİM."
       ],
       "phones": [
         "+90 545 419 16 16",
@@ -44525,11 +44618,11 @@
         "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
         "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
         "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-        "İznik Zeytin Evi’ne internette tuzsuz zeytin ararken denk geldim, sipariş verdikten sonra telefon ile arayıp siparişimle ilgili bilgi verildi, gayet ilgiliydi arayan hanımefendi. Sipariş yola çıktıktan 1 gün sonra Ankara’ya adresime ulaştı ve paketleme oldukça özenliydi. Teşekkürler.",
-        "Gönül rahatlığı ile tuketiyorum.her bir tanesi mükemmel çok lezzetli ve hiç tuz yok 24 saatte çok özenli paketleme ile elime ulaştı. IYIKI sizi keşfettim.Her bir tanesi için cokk teşekkür ediyorum .Emeğinize sağlık.. Hep birlikte olmak dileklerimle kazancınız bol olsun",
+        "İznik irisi zeytininizden sipariş vermiştik , gerçekten harika",
         "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
         "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
-        "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
+        "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik.",
+        "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
       ],
       "images": [
         "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-about-02.jpg"
@@ -44545,7 +44638,8 @@
         "paragraphs": [
           "İznik Zeytin Evi, daha seçici sofralara yakışacak karakterli bir çizgi sunar. İzmir çıkışlı bu yağ, özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
           "İznik Zeytin Evi, İzmir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "İznik Zeytin Evi’ne internette tuzsuz zeytin ararken denk geldim, sipariş verdikten sonra telefon ile arayıp siparişimle ilgili bilgi verildi, gayet ilgiliydi arayan hanımefendi. Sipariş yola çıktıktan 1 gün sonra Ankara’ya adresime ulaştı ve paketleme oldukça özenliydi. Teşekkürler."
+          "İznik irisi zeytininizden sipariş vermiştik , gerçekten harika",
+          "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
         ]
       },
       {
@@ -44554,7 +44648,7 @@
           "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
           "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
           "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-          "Gönül rahatlığı ile tuketiyorum.her bir tanesi mükemmel çok lezzetli ve hiç tuz yok 24 saatte çok özenli paketleme ile elime ulaştı. IYIKI sizi keşfettim.Her bir tanesi için cokk teşekkür ediyorum .Emeğinize sağlık.. Hep birlikte olmak dileklerimle kazancınız bol olsun"
+          "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
         ]
       },
       {
@@ -44564,7 +44658,7 @@
           "İznik Zeytin Evi anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "İznik Zeytin Evi tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
           "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
-          "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
+          "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
         ]
       },
       {
@@ -44574,7 +44668,7 @@
           "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
           "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
-          "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
+          "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
         ]
       }
     ]
@@ -46010,311 +46104,6 @@
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
           "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
           "Sağlık, lezzet ve saflık kaynağı zeytinin zeytinin ve mucizevi hayat iksiri’ olarak anılan zeytinyağının bugün Türkiye ve dünyadaki en önemli üretim merkezlerinden biri Bursa’nın Gemlik ilçesinde 1978 yılından bu yana hizmet vermekteyiz."
-        ]
-      }
-    ]
-  },
-  "411": {
-    "id": 411,
-    "name": "Nicaea",
-    "slug": "nicaea",
-    "website": "https://nicaea.com.tr/",
-    "rawPages": [
-      {
-        "kind": "home",
-        "url": "https://nicaea.com.tr/",
-        "statusCode": 200,
-        "title": "Nicaea | Uluslararası Ödüllü İznik Natürel Sızma Zeytinyağı – Nicaea Zeytinyağı",
-        "headings": [
-          "Sepetiniz",
-          "Sepetiniz boş",
-          "Toplam",
-          "Her Gün Güvenle Kullanacağınız Gerçek Zeytinyağı",
-          "Uluslararası Ödüllü",
-          "Soğuk Sıkım",
-          "Doğrudan Üreticiden",
-          "Let customers speak for us"
-        ],
-        "blocks": [
-          "Daha hızlı ödeme yapmak için",
-          "Her Gün Güvenle Kullanacağınız Gerçek Zeytinyağı",
-          "Medya 1 modda oynatın",
-          "Let customers speak for us",
-          "Çok lezzetli bir siyah sele.Elinize sağlık.",
-          "Tadı ayrı güzel cilde iyi gelişi ayrı güzel. 2si bir arada birşey üretmişler ve umarım hiç bir zaman değişmez. Çok memnun kaldık devam edeceğiz inşallah. Teşekkürler.",
-          "Çok beğendik, ellerinize sağlık. Yemeğin üstüne bile yiyoruz leblebi gibi. Müptelası olduk...",
-          "Çok kaliteli zeytinyağı üretiyorlar, müşteri memnuniyetini ön planda tutan bir işletme, müşteri iletişimleri de çok iyi sürekli alışveriş yapıyoruz",
-          "Taze kaliteli ürünleri ile İznik ın yerli markası",
-          "Düzenli satın alıyoruz çok memnunuz ve kargo sürecini çok hızlı yönetiyorlar"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "about",
-        "url": "https://nicaea.com.tr/pages/hakkimizda1",
-        "statusCode": 200,
-        "title": "Hakkımızda – Nicaea Zeytinyağı",
-        "headings": [
-          "Sepetiniz",
-          "Sepetiniz boş",
-          "Toplam",
-          "Herkes İçin Kaliteli Zeytinyağı",
-          "Aile İşletmesi",
-          "Atalarımızdan Miras",
-          "Üretim",
-          "Dalından Sofraya Sürecimiz"
-        ],
-        "blocks": [
-          "Daha hızlı ödeme yapmak için",
-          "Herkes İçin Kaliteli Zeytinyağı",
-          "Nicaea Zeytinyağı 3 kıta, 6 ülkede prestijli ödüllere layık görülmüştür.",
-          "Tübitak tarafından her hasat çeşitlerimiz analiz edilip kalitemiz kanıtlanmıştır.",
-          "Türkiyenin en bereketli topraklarında, İznik Gölü kıyısında üretilen Zeytinlerden elde edilir.",
-          "Tüm ürünlerimiz kendi bahçelerimizde, kendi tesisimizde üretilip satışa sunulur.",
-          "Dalından Sofraya Sürecimiz",
-          "Zeytinler Makine Kullanılmadan Elle Toplanır",
-          "Sabahın ilk ışıklarında zeytinliklerimizde başlayan hasat süreci 17:00 gibi son bulur ve boylama sürecinden geçirilerek zeytinler kalite boyutlarına göre sınıflandırılır",
-          "Bekletmeden Soğuk Sıkım"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "about",
-        "url": "https://nicaea.com.tr/blogs/gonderiler/soguk-sikim-zeytinyagi-nedir-i%CC%87znikten-sofraniza-gelen-asirlik-saglik-mirasi",
-        "statusCode": 200,
-        "title": "Soğuk Sıkım Zeytinyağı Nedir? İznik'ten Sofranıza Gelen Asırlık Sağlık – Nicaea Zeytinyağı",
-        "headings": [
-          "Sepetiniz",
-          "Sepetiniz boş",
-          "Toplam",
-          "Soğuk Sıkım Zeytinyağı Nedir? İznik'ten Sofranıza Gelen Asırlık Sağlık Mirası",
-          "Mutfağınızda hangi zeytinyağını kullandığınızı hiç düşündünüz mü?",
-          "İçindekiler",
-          "Soğuk Sıkım Zeytinyağı Nedir?",
-          "Peki \"Soğuk Sıkım\" Neden Bu Kadar Önemli?"
-        ],
-        "blocks": [
-          "Daha hızlı ödeme yapmak için",
-          "Soğuk Sıkım Zeytinyağı Nedir? İznik'ten Sofranıza Gelen Asırlık Sağlık Mirası",
-          "Mutfağınızda hangi zeytinyağını kullandığınızı hiç düşündünüz mü?",
-          "Belki de her gün salataların üzerine döktüğünüz, kahvaltılık zeytinlerinizle birleştirdiğiniz o altın renkli sıvı, aslında ailenizin sağlığını derinden etkiliyor. Ya da tam tersi, zarar veriyor olabilir.",
-          "Bu yazıda size sadece zeytinyağı hakkında bilgi vermeyeceğim. Sizinle asırlardır yıllık bir hikaye, İznik'in bereketli topraklarından sofranıza uzanan bir yolculuk ve en önemlisi - ailenizin sağlığı için neden doğru zeytinyağını seçmeniz gerektiğini paylaşacağım.",
-          "Soğuk Sıkım Zeytinyağı Nedir?",
-          "Rafine vs Soğuk Sıkım: Neden Bu Kadar Önemli?",
-          "Kaliteli Zeytinyağını Nasıl Anlarız?",
-          "Soğuk Sıkım Zeytinyağının Sağlık Faydaları",
-          "İznik Zeytinyağı Geleneği ve Nicaea'nın Hikayesi"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "about",
-        "url": "https://nicaea.com.tr/pages/hakkimizda",
-        "statusCode": 200,
-        "title": "Hakkımızda – Nicaea Zeytinyağı",
-        "headings": [
-          "Sepetiniz",
-          "Sepetiniz boş",
-          "Toplam",
-          "Herkes İçin Kaliteli Zeytinyağı",
-          "Nicaea Zeytinyağı, Yüksek Kaliteli Bir İznik Markasıdır",
-          "İlk siparişe özel",
-          "Tebrikler! Listemize Başarıyla Katıldınız.",
-          "Nicaea Zeytinyağı"
-        ],
-        "blocks": [
-          "Daha hızlı ödeme yapmak için",
-          "Herkes İçin Kaliteli Zeytinyağı",
-          "Sofralarınızın Saf Lezzeti",
-          "Nicaea Zeytinyağı, Yüksek Kaliteli Bir İznik Markasıdır",
-          "Her mutfak, her gün kullanılabilecek kadar uygun fiyatlı, kaliteli ve taze zeytinyağını hak eder. Ülkemizin en verimli toprakları olan İznik'te zeytinyağlarımız özenle üretilip, her gün yüzlerce sofrada kullanılıyor.",
-          "\"Medeniyetlerin Başkenti\" İznik, binlerce yıllık tarihiyle olduğu kadar bereketli topraklarıyla da öne çıkar. İznik Gölü’nün oluşturduğu eşsiz mikroklima, zeytin ağaçlarına en verimli koşulları sunar. Doğal aroması, düşük asit oranı ve yüksek besin değerleriyle İznik zeytinleri, kadim bir kültürün mirasıdır. Bu zeytinlerden elde edilen soğuk sıkım zeytinyağı ise doğanın ve tarihin gerçek armağanıdır.",
-          "Zeytinliklerimizde başlayan bu yolculuk, titiz bir üretim süreciyle en saf halini alıyor ve doğrudan sofralarınıza ulaşıyor. Her bir damla zeytinyağımız, İznik’in bereketli topraklarının, temiz havasının ve tarihinin izlerini taşır. Ürünlerimizde katkı maddesi ya da yapay süreçler yoktur; yalnızca doğanın ve emeğin saf dokunuşu vardır. Bu yüzden her lokmada doğallığın ve sağlığın tadını alırsınız.",
-          "Biz, kökleri geleneklere dayanan bir aile şirketiyiz. Nesiller boyu aktarılan bilgi ve deneyimle, ürünlerimizi doğallık, kalite ve samimiyetle üretiyoruz.",
-          "Bizim hikâyemiz, şehri bırakıp köye yerleşme hevesiyle başlamadı. Zeytinin ve onun kültürünün içine doğduk. Atalarımızın emek verdiği, kökleriyle bize miras kalan zeytinliklerimizde toprağın kokusunu, yağmurun bereketini ve çiçeklerin tazeliğini hep hissettik. Zeytin bizim için sadece bir ürün değil; saygı, sevgi ve sorumlulukla bağlı olduğumuz kadim bir mirastır. Bugün yaptığımız iş, bu kutsal bağa sahip çıkarak onu geleceğe taşımaktır.",
-          "Nicaea’yı denemek isteyenler için sınırlı bir hoş geldin avantajı:"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://nicaea.com.tr/pages/contact",
-        "statusCode": 200,
-        "title": "İletişim – Nicaea Zeytinyağı",
-        "headings": [
-          "Sepetiniz",
-          "Sepetiniz boş",
-          "Toplam",
-          "İletişim",
-          "Bizlerle iletişime geçin",
-          "İlk siparişe özel",
-          "Tebrikler! Listemize Başarıyla Katıldınız.",
-          "Nicaea Zeytinyağı"
-        ],
-        "blocks": [
-          "Daha hızlı ödeme yapmak için",
-          "Bizlerle hızlı ve kolay bir şekilde iletişime geçebilirsiniz",
-          "Bizlerle iletişime geçin",
-          "Nicaea’yı denemek isteyenler için sınırlı bir hoş geldin avantajı:",
-          "Tebrikler! Listemize Başarıyla Katıldınız.",
-          "Aşağıdaki kod ile tüm indirimlere ek %5 indirim hakkınızı alışverişinizde kullanabilirsiniz.",
-          "anında haberdar olabilirsiniz!",
-          "Sıkça Sorulan Sorular",
-          "Mesafeli Satış Sözleşmesi",
-          "doğallığı ve sağlığı sofralara taşımak; İznik’in bereketli topraklarında yetişen zeytinleri en saf haliyle zeytinyağına dönüştürerek kaliteyi ve güveni tüketicilerimize sunmaktır."
-        ],
-        "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://nicaea.com.tr/pages/subelerimiz",
-        "statusCode": 200,
-        "title": "Şubelerimiz – Nicaea Zeytinyağı",
-        "headings": [
-          "Sepetiniz",
-          "Sepetiniz boş",
-          "Toplam",
-          "İlk siparişe özel",
-          "Tebrikler! Listemize Başarıyla Katıldınız.",
-          "Nicaea Zeytinyağı",
-          "Kurumsal",
-          "İznik"
-        ],
-        "blocks": [
-          "Daha hızlı ödeme yapmak için",
-          "İznik’in tarihi dokusunu yansıtan, otantik atmosferiyle öne çıkan şubemiz; geçmişin izlerini günümüzün modern kalite anlayışıyla bir araya getiriyor. Her detayında tarihin ruhunu hissedeceğiniz bu özel mekan, misafirlerimize benzersiz bir ortam sunuyor.",
-          "Burada yalnızca alışveriş yapmıyor, aynı zamanda geleneksel zeytin ve zeytinyağı kültürünü yakından tanıma fırsatı buluyorsunuz. Böylece, hem keyifli bir deneyim yaşıyor hem de bu kadim kültürün parçası oluyorsunuz.",
-          "Modern tasarımı ve ferah atmosferiyle şubemiz, günümüz ihtiyaçlarına uygun keyifli bir alışveriş deneyimi sunuyor.",
-          "Kolay ulaşılabilir konumu ve geniş ürün yelpazesiyle, kalitemizi çağdaş bir ortamda sizlere ulaştırıyoruz.",
-          "Nicaea’yı denemek isteyenler için sınırlı bir hoş geldin avantajı:",
-          "Tebrikler! Listemize Başarıyla Katıldınız.",
-          "Aşağıdaki kod ile tüm indirimlere ek %5 indirim hakkınızı alışverişinizde kullanabilirsiniz.",
-          "anında haberdar olabilirsiniz!",
-          "Sıkça Sorulan Sorular"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://nicaea.com.tr/policies/contact-information",
-        "statusCode": 200,
-        "title": "İletişim bilgileri – Nicaea Zeytinyağı",
-        "headings": [
-          "Sepetiniz",
-          "Sepetiniz boş",
-          "Toplam",
-          "İletişim bilgileri",
-          "İlk siparişe özel",
-          "Tebrikler! Listemize Başarıyla Katıldınız.",
-          "Nicaea Zeytinyağı",
-          "Kurumsal"
-        ],
-        "blocks": [
-          "Daha hızlı ödeme yapmak için",
-          "Ticari ad: Asil Zeytincilik Sanayi ve Ticaret Limited Şirketi",
-          "Telefon numarası: (0224) 757 15 70",
-          "E-posta: info@nicaea.com.tr",
-          "Fiziksel adres: Nicaea Zeytinyağı, İznik, Göllüce Mahallesi Susam/3 Sokak Oğuz Yıldırım Blok No:1/1 , 16860 Bursa , Türkiye",
-          "Nicaea’yı denemek isteyenler için sınırlı bir hoş geldin avantajı:",
-          "Tebrikler! Listemize Başarıyla Katıldınız.",
-          "Aşağıdaki kod ile tüm indirimlere ek %5 indirim hakkınızı alışverişinizde kullanabilirsiniz.",
-          "anında haberdar olabilirsiniz!",
-          "Sıkça Sorulan Sorular"
-        ],
-        "error": ""
-      }
-    ],
-    "contact": {
-      "website": "https://nicaea.com.tr/",
-      "addresses": [
-        "YENİ MAHSUL Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı - 5 Lt. 0,4 Asit",
-        "YENİ MAHSUL Erken Hasat Soğuk Sıkım Naturel Sızma Zeytinyağı - 5 Lt. 0,4 Asit için adedi azaltın"
-      ],
-      "phones": [
-        "+90 224 757 15 70",
-        "+90 532 657 48 10"
-      ],
-      "emails": [
-        "info@nicaea.com.tr"
-      ],
-      "whatsapp": []
-    },
-    "contactSources": [
-      "https://nicaea.com.tr/",
-      "https://nicaea.com.tr/pages/hakkimizda1",
-      "https://nicaea.com.tr/blogs/gonderiler/soguk-sikim-zeytinyagi-nedir-i%CC%87znikten-sofraniza-gelen-asirlik-saglik-mirasi",
-      "https://nicaea.com.tr/pages/contact",
-      "https://nicaea.com.tr/policies/contact-information"
-    ],
-    "about": {
-      "headings": [
-        "Sepetiniz",
-        "Sepetiniz boş",
-        "Toplam",
-        "Her Gün Güvenle Kullanacağınız Gerçek Zeytinyağı",
-        "Uluslararası Ödüllü",
-        "Soğuk Sıkım",
-        "Doğrudan Üreticiden",
-        "Let customers speak for us"
-      ],
-      "paragraphs": [
-        "Tadı ayrı güzel cilde iyi gelişi ayrı güzel. 2si bir arada birşey üretmişler ve umarım hiç bir zaman değişmez. Çok memnun kaldık devam edeceğiz inşallah. Teşekkürler.",
-        "Çok beğendik, ellerinize sağlık. Yemeğin üstüne bile yiyoruz leblebi gibi. Müptelası olduk...",
-        "Çok kaliteli zeytinyağı üretiyorlar, müşteri memnuniyetini ön planda tutan bir işletme, müşteri iletişimleri de çok iyi sürekli alışveriş yapıyoruz",
-        "Düzenli satın alıyoruz çok memnunuz ve kargo sürecini çok hızlı yönetiyorlar",
-        "Ürünlerimden 1 lt Cam Galon yağ kırılıp dökülmüştü. Kargo şirketinden arandım. Nicaea yı bilgilendirdiğimde yenisini gönderileceğini söylediler. Ertesi gün ürünüm adresime teslim edildi. İlgilerinden dolayı teşekkür ederim.",
-        "Zeytin sütlerim geldi. Kahvaltılarda ekmek banarak tüketiyoruz. Teşekkürler NİCAEA",
-        "İznik Kuru Sele Zeytininiz bir efsane.Yeniden almak isterim.",
-        "Edremit çizik yeşil zeytini çok beğendim.Bir dahaki siparişimde mutlakaEdremit Çizik Yeşil Zeytin olacak."
-      ],
-      "images": [
-        "images/markalar/nicaea/nicaea-about-01.png",
-        "images/markalar/nicaea/nicaea-about-02.png"
-      ],
-      "sourceUrls": [
-        "https://nicaea.com.tr/pages/hakkimizda1",
-        "https://nicaea.com.tr/blogs/gonderiler/soguk-sikim-zeytinyagi-nedir-i%CC%87znikten-sofraniza-gelen-asirlik-saglik-mirasi",
-        "https://nicaea.com.tr/pages/hakkimizda"
-      ]
-    },
-    "summary": "Nicaea, Edremit, Balıkesir çıkışlı bir zeytinyağını daha seçici sofralara yakışacak karakterli bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
-    "sections": [
-      {
-        "title": "Nicaea hikayesi",
-        "paragraphs": [
-          "Nicaea, daha seçici sofralara yakışacak karakterli bir çizgi sunar. Edremit, Balıkesir çıkışlı bu yağ, özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Nicaea, Edremit, Balıkesir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "Düzenli satın alıyoruz çok memnunuz ve kargo sürecini çok hızlı yönetiyorlar",
-          "Edremit çizik yeşil zeytini çok beğendim.Bir dahaki siparişimde mutlakaEdremit Çizik Yeşil Zeytin olacak."
-        ]
-      },
-      {
-        "title": "Hakkımızda sayfasından öne çıkanlar",
-        "paragraphs": [
-          "Tadı ayrı güzel cilde iyi gelişi ayrı güzel. 2si bir arada birşey üretmişler ve umarım hiç bir zaman değişmez. Çok memnun kaldık devam edeceğiz inşallah. Teşekkürler.",
-          "Çok beğendik, ellerinize sağlık. Yemeğin üstüne bile yiyoruz leblebi gibi. Müptelası olduk...",
-          "Çok kaliteli zeytinyağı üretiyorlar, müşteri memnuniyetini ön planda tutan bir işletme, müşteri iletişimleri de çok iyi sürekli alışveriş yapıyoruz",
-          "Ürünlerimden 1 lt Cam Galon yağ kırılıp dökülmüştü. Kargo şirketinden arandım. Nicaea yı bilgilendirdiğimde yenisini gönderileceğini söylediler. Ertesi gün ürünüm adresime teslim edildi. İlgilerinden dolayı teşekkür ederim."
-        ]
-      },
-      {
-        "title": "Lezzet ve üretim çizgisi",
-        "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Nicaea anlatılırken önce damakta bıraktığı iz öne çıkar. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Nicaea tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
-          "Zeytin sütlerim geldi. Kahvaltılarda ekmek banarak tüketiyoruz. Teşekkürler NİCAEA"
-        ]
-      },
-      {
-        "title": "Sofrada kullanım ve seçim",
-        "paragraphs": [
-          "Nicaea alındığında yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim alınmış olur. Bu yüzden şişenin bıraktığı genel iz, ürünün uzun vadede mutfakta yer bulup bulmayacağını da belirler.",
-          "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
-          "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
-          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
-          "İznik Kuru Sele Zeytininiz bir efsane.Yeniden almak isterim."
         ]
       }
     ]

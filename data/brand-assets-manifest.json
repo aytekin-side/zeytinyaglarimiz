@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T13:43:38.144Z",
+  "generatedAt": "2026-03-10T13:50:29.057Z",
   "brands": [
     {
       "id": 1,
@@ -3173,16 +3173,6 @@
       "bottles": [
         "images/markalar/namli-zeytinleri/namli-zeytinleri-bottle-01-1-1024x683.jpg",
         "images/markalar/namli-zeytinleri/namli-zeytinleri-bottle-02-bottle-detail-02.jpg"
-      ]
-    },
-    {
-      "id": 411,
-      "name": "Nicaea",
-      "slug": "nicaea",
-      "logo": "images/markalar/nicaea/nicaea-logo.svg",
-      "bottles": [
-        "images/markalar/nicaea/nicaea-bottle-01-zeytinyagi.webp",
-        "images/markalar/nicaea/nicaea-bottle-02-bottle-detail-02.jpg"
       ]
     },
     {

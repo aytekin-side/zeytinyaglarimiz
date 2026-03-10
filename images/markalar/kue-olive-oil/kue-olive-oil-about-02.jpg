@@ -91,7 +91,7 @@
                                             globalModel.isAndroidDevice = false; 
                                             globalModel.urlReferrer = ''; 
                                             globalModel.pageUrl = 'www.kueolive.com/hakkimizda'; 
-                                            if (typeof globalModel.member == 'undefined') { globalModel.member = {"memberId":0,"memberName":null,"memberFirstName":null,"memberSurName":null,"memberEMail":null,"memberPhone":null,"memberGSMPhone":null,"memberCity":null,"memberProvince":null,"memberCountry":null,"memberCountryId":0,"memberCountryCode":null,"memberCountryAlpha2Code":null,"memberGender":0,"membershipDate":"0001-01-01T00:00:00","memberLastLoginDate":"0001-01-01T00:00:00","memberRole":null,"moneyPoints":0,"memberType":null,"isMember":true,"priceType":0,"priceTypeCurrencyID":0,"emailPermit":false,"smsPermit":false,"customerCode":null,"authDate":"0001-01-01T00:00:00","user_register_date":null,"user_last_session":null,"user_last_purchase":null,"user_register_type":null,"userRegisterTypeValue":null,"user_total_purchases":0,"user_total_revenue_online":0.0,"user_total_revenue_offline":0.0,"birthday":"0001-01-01T00:00:00","hashingEmail":null,"hashingPhone":null,"hashingFirstName":null,"hashingLastName":null,"hashingBirthday":null,"hashingGender":null,"hashingCountryCode":null,"hashingCity":null,"loginStatus":null,"memberStatus":null,"sessionIpAddress":null,"twofA_AKTIF":false,"smsLoginActive":false,"multiSessionLogin":false,"isSecuritySetupComplete":false,"authExpired":true,"domainName":null,"isEmployee":false,"iban":null,"hash":"639087471418855012A423EAF1B8434A62B1E7FF77E64318DE","passwordVersion":null,"memberLastUpdateDate":"0001-01-01T00:00:00"}; }
+                                            if (typeof globalModel.member == 'undefined') { globalModel.member = {"memberId":0,"memberName":null,"memberFirstName":null,"memberSurName":null,"memberEMail":null,"memberPhone":null,"memberGSMPhone":null,"memberCity":null,"memberProvince":null,"memberCountry":null,"memberCountryId":0,"memberCountryCode":null,"memberCountryAlpha2Code":null,"memberGender":0,"membershipDate":"0001-01-01T00:00:00","memberLastLoginDate":"0001-01-01T00:00:00","memberRole":null,"moneyPoints":0,"memberType":null,"isMember":true,"priceType":0,"priceTypeCurrencyID":0,"emailPermit":false,"smsPermit":false,"customerCode":null,"authDate":"0001-01-01T00:00:00","user_register_date":null,"user_last_session":null,"user_last_purchase":null,"user_register_type":null,"userRegisterTypeValue":null,"user_total_purchases":0,"user_total_revenue_online":0.0,"user_total_revenue_offline":0.0,"birthday":"0001-01-01T00:00:00","hashingEmail":null,"hashingPhone":null,"hashingFirstName":null,"hashingLastName":null,"hashingBirthday":null,"hashingGender":null,"hashingCountryCode":null,"hashingCity":null,"loginStatus":null,"memberStatus":null,"sessionIpAddress":null,"twofA_AKTIF":false,"smsLoginActive":false,"multiSessionLogin":false,"isSecuritySetupComplete":false,"authExpired":true,"domainName":null,"isEmployee":false,"iban":null,"hash":"63908747553652703750978243E40041CC915F1E2F3CAD4DDB","passwordVersion":null,"memberLastUpdateDate":"0001-01-01T00:00:00"}; }
                                             var numFormatDefaults = {currencySymbol : '₺',currencySymbolLocation:0,decimalChar:',',decimalPlaces:2};
                                             siteSettings.isAuthenticated = globalModel.isAuthenticated;
                                             globalModel.searchUrl = '/Arama';
@@ -120,7 +120,7 @@
 <body id="bodyGlobal" class="global_body" data-language="tr" data-currency="try">
     <form method="post" action="./hakkimizda" id="formGlobal">
 <div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="6sl4PvJOB7Lo+gc0R9GDtwrCj5a3q0zoFKZCmG4JP+p2sa29lYoLohKcBQ6WFWcgLER3VUF8ooLyw9SrvyjDNnUr8oddLHZOrPJx+JBdGUI=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="S4cT1AEPx1OAwGPqFlEcxGoq4t+a8OKRA/e48dzJQR9tfAIanBT0gyo3y2VBt6MtS7krk6zSgGiY0JWlZ4afjjN56fGj625T+WhymLXMdjw=" />
 </div>
 
 
@@ -133,7 +133,7 @@ var pageType = 'Content';var pageDesingId = 29;var productsModel = {"pageType":6
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C092E9BD" />
 </div>
-        <input name="__RequestVerificationToken" type="hidden" value="1YELwV3DOuHj3C9eQbsdfA3qcCz17zjK88qFmD06Qqb9hO2hlZ9RGUdbl7xWKIMGt9Ctx9U9boyZfA_sra9yoWUeXwF2HWNEQOZp_-b3WLE1" />
+        <input name="__RequestVerificationToken" type="hidden" value="tFMU3LK9AgkxHU4PKcYRdaHqkrPicdy4pKNtVMy3jYvYGqAGCgBoigdpgM8bCDsGK7jYGfu_ovjMkqEDFz0J4R1N5Iejcuht3TO_20ivkhk1" />
 
             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9PFFQTX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <link href="https://static.ticimax.cloud/59923/CustomCss/e7baade0/style.css?v=8.13.651.0.124821" rel="stylesheet"  />
@@ -1022,8 +1022,8 @@ DNA</span></h3>
 		        document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
 		        
-		        fbq('init', '800488338614462', {external_id: 'ee3c3961de9ef7e1335737bbf255a3111cd134461afa89f53b285657ecfef266', user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36' });
-		        fbq('track','PageView', {event_source_url: 'https://www.kueolive.com/hakkimizda' }, { eventID: '20260310_ejagcysfmnmim0wsq3afsfzc_PageView' });
+		        fbq('init', '800488338614462', {external_id: '47c971f804ef846d2bb9e165b919e9160dd0a4e59049bad5d1c1728fac3f026c', user_agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36' });
+		        fbq('track','PageView', {event_source_url: 'https://www.kueolive.com/hakkimizda' }, { eventID: '20260310_xlq5szwuodxijdffwljdujux_PageView' });
 		        
 	        }
         </script>
@@ -1091,7 +1091,7 @@ DNA</span></h3>
 <ul>
 	<li><a href="https://www.kueolive.com/iletisim">Viranşehir mah. Cengiz Topel cad. Ören sitesi no:58 Mezitli/ Mersin</a></li>
 	<li><a href="tel:+905339699583">+90 533 969 95 83</a></li>
-	<li><a href="/cdn-cgi/l/email-protection#5d34333b321d3628383231342b38733e3230"><span class="__cf_email__" data-cfemail="20494e464f604b55454f4c4956450e434f4d">[email&#160;protected]</span></a></li>
+	<li><a href="/cdn-cgi/l/email-protection#bad3d4dcd5fad1cfdfd5d6d3ccdf94d9d5d7"><span class="__cf_email__" data-cfemail="eb82858d84ab809e8e8487829d8ec5888486">[email&#160;protected]</span></a></li>
 </ul>
 </div>
 </div>
