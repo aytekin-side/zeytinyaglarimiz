@@ -1,21 +1,5 @@
 [
   {
-    "id": 249,
-    "name": "Abalı",
-    "slug": "abali",
-    "url": "https://www.abali.com.tr/",
-    "region": "Aydın, Ege",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:02.656375Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.abali.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 55,
     "name": "Adatepe",
     "slug": "adatepe",

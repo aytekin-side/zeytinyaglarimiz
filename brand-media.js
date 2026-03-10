@@ -1924,15 +1924,6 @@ const brandMedia = {
         ],
         "info": "Orkide, Milas, Muğla çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Sıvıyağ, zeytinyağı, bitkisel margarin, ev dışı tüketim yağları, pastacılık yağları ve endüstriyel yağ �?..."
     },
-    "249": {
-        "slug": "abali",
-        "logo": "images/markalar/abali/abali-logo.png",
-        "bottles": [
-            "images/markalar/abali/abali-bottle-01-image3-home1.png",
-            "images/markalar/abali/abali-bottle-02-bottle-detail-02.jpg"
-        ],
-        "info": "Abalı, Aydın, Ege çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Abalı, Aydın, Ege çizgisinde geniş dağıtım ağıyla zeytinyağı ürünleri sunan üretici olarak öne çıkar."
-    },
     "252": {
         "slug": "olin",
         "logo": "images/markalar/olin/olin-logo.png",

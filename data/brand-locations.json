@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-10T13:32:10.037Z",
-  "totalBrands": 328,
+  "generatedAt": "2026-03-10T13:43:38.810Z",
+  "totalBrands": 327,
   "exactAddressCount": 27,
   "officialSourceCount": 38,
-  "approximateCount": 300,
+  "approximateCount": 299,
   "records": [
     {
       "id": 1,
@@ -4203,27 +4203,6 @@
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
       "sourceUrl": "https://www.orkide.com/",
-      "coordinateProvider": "nominatim"
-    },
-    {
-      "id": 249,
-      "slug": "abali",
-      "name": "Abalı",
-      "logo": "images/markalar/abali/abali-logo.png",
-      "website": "https://www.abali.com.tr/",
-      "region": "Aydın, Ege",
-      "regionCluster": "ege",
-      "regionClusterLabel": "Ege Bölgesi",
-      "category": "market-endustriyel",
-      "displayAddress": "Aydın, Türkiye",
-      "geocodeQuery": "Aydın, Türkiye",
-      "lat": 37.74058,
-      "lng": 28.06764,
-      "precision": "city",
-      "precisionLabel": "İl merkezi",
-      "sourceType": "origin-region",
-      "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "https://www.abali.com.tr/",
       "coordinateProvider": "nominatim"
     },
     {

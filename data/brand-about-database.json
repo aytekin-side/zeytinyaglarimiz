@@ -3849,7 +3849,6 @@
       "Ayvalık çeşidi zeytinlerimizi erken dönemde hasat ederek yüksek kaliteyi sağlamayı hedefliyotuz. Serbest asitlik değeri %0,4 olan zeytinyağımız boğazda bıraktığı yanma hissiyle de kalitesinin üst seviyelerde olduğunu kanıtlar niteliktedir. Her adımında özenle ve titizlikte ürettiğimiz bu ürünlerle Akdeniz kokularını ve lezzetlerini sofralarınıza getirmeyi hedeflemektedir."
     ],
     "images": [
-      "images/markalar/monterosso/monterosso-about-01.jpg",
       "images/markalar/monterosso/monterosso-about-02.jpg"
     ],
     "sourceUrls": [
@@ -4091,8 +4090,8 @@
   "236": {
     "website": "https://www.angelos.com.tr/tr/",
     "headings": [
-      "NOP Sertifikası",
       "BIO Sertifikası",
+      "NOP Sertifikası",
       "Müteşebbis Sertifikası",
       "Ürünlerimiz",
       "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
@@ -4251,36 +4250,31 @@
   },
   "246": {
     "website": "https://www.orkide.com/",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.orkide.com/hakkimizda",
-      "https://www.orkide.com/hakkimizda/",
-      "https://www.orkide.com/about"
-    ]
-  },
-  "249": {
-    "website": "https://www.abali.com.tr/",
     "headings": [
-      "Teklif Formu",
-      "KAHVEYE BEKLİYORUZ",
-      "Hakkımızda"
+      "Küresel standartlarda yerli üretimin gücü",
+      "Her öğünde bir Orkide",
+      "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
+      "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
+      "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
+      "ÜRÜNLERİMİZ",
+      "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU",
+      "KÜRESEL STANDARTLARDA ENTEGRE ÜRETİM"
     ],
     "paragraphs": [
-      "2013 yılından itibaren Mimarlık hizmetlerinin yanında inşaat faaliyetlerinde danışmanlık yapmaya başlayan firmamız, resmi daireler, kurumsal firmalar ve birçok şahıs işlerinde müşteri memnuniyet odaklı çalışmalarına devam etmektedir.",
-      "Abalı Mimarlık’ın temelleri kurucumuz Mimar Hasan Tahsin Abalı tarafından 2004 yılında, Mimarlık faaliyetleri ile başlamıştır. 2013 yılında şirketleşerek kurumsal yapıda çalışmanın ilk adımları atılmıştır.",
-      "2025 yılında Abalı Mimarlık sektöründeki yenilikler ve kaliteyi hedefleyerek; İnşaat yapım faaliyetlerine kaliteli malzeme markalarının temsilcisi olarak bölgesinde hizmet verme kararı alarak, sunduğumuz kaliteli ve müşteri memnuniyet odaklı çalışma yelpazesini genişletmiştir.",
-      "Sunduğumuz kaliteli hizmet, ürün çeşitliliği, ve temiz, saygılı ve titiz personellerimizle hizmet verdiğimiz mimarlık sektörünün güçlü bir firması olduk. Bu sayede çalıştığımız bölgelerimizde sizlerin her zaman öncelikli tercihi olduk. Bütçenizi hazırlarken ve bu büçeyi kullanırken ki şeffaflığımızla, daima müşterilerimizin takdirini kazandık.",
-      "Bu ilkelerden taviz vermeyen ve kaliteli hizmeti hedefleyen Abalı Mimarlık olarak bizler, profesyonel ve eğitimli ekibimiz ile birlikte projelendirme, inşaat taahhüt (uygulama, duvar, sıva, alçı, boya, seramik, elektrik, su tesisatı, demir ve çelik işleri, alüminyum, cam işleri) ve mobilya üretiminie kadar tüm inşaat hizmetlerinde hep yanınızda olduk. Yaptığımız ve bitirmiş olduğumuz yüzlerce projenin hep arkasında",
-      "durduk, ve yıllar sonra bile gerekli tüm teknik servisi sağladık."
+      "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
+      "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
+      "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
+      "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız...",
+      "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU"
     ],
     "images": [
-      "images/markalar/abali/abali-about-01.jpg",
-      "images/markalar/abali/abali-about-02.png"
+      "images/markalar/orkide/orkide-about-01.jpg",
+      "images/markalar/orkide/orkide-about-02.jpg"
     ],
     "sourceUrls": [
-      "https://www.abali.com.tr/icerik/hakkimizda"
+      "https://www.orkide.com/6-kurumsal/",
+      "https://www.orkide.com/6-kurumsal/244-hakkimizda/",
+      "https://www.orkide.com/6-kurumsal/247-uretim-tesislerimiz/"
     ]
   },
   "252": {
@@ -4843,9 +4837,7 @@
     "website": "https://www.ayvalik-zeytinyagi.com/",
     "headings": [],
     "paragraphs": [],
-    "images": [
-      "images/markalar/karadag-zeytincilik/karadag-zeytincilik-about-01.png"
-    ],
+    "images": [],
     "sourceUrls": [
       "https://www.ayvalik-zeytinyagi.com/"
     ]
@@ -5241,12 +5233,10 @@
       "SİZİN İÇİN"
     ],
     "paragraphs": [
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG"
+      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
     ],
     "images": [
       "images/markalar/ustali/ustali-about-01.jpg",
@@ -6260,11 +6250,11 @@
       "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
       "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
       "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-      "İznik Zeytin Evi ile tanışmam yaklaşık bir yıl önce reklam amaçlı gelen bir e-mail yolu ile oldu. %100 tuzsuz zeytin favorim olmakla birlikte, geleneksel sele zeytini, siyah ve yeşil zeytin ezmesi, sirkeleri ve tarhanaları muhteşem. Dün İznik’e gitmişken Çamdibi Köyü’nde İznik Zeytin Evi’ni ziyaret etmemek olmazdı. Ilgın Hanım ve Özgür Bey İle tanışma fırsatı bulduk.",
+      "İznik Zeytin Evi’ne internette tuzsuz zeytin ararken denk geldim, sipariş verdikten sonra telefon ile arayıp siparişimle ilgili bilgi verildi, gayet ilgiliydi arayan hanımefendi. Sipariş yola çıktıktan 1 gün sonra Ankara’ya adresime ulaştı ve paketleme oldukça özenliydi. Teşekkürler.",
+      "Gönül rahatlığı ile tuketiyorum.her bir tanesi mükemmel çok lezzetli ve hiç tuz yok 24 saatte çok özenli paketleme ile elime ulaştı. IYIKI sizi keşfettim.Her bir tanesi için cokk teşekkür ediyorum .Emeğinize sağlık.. Hep birlikte olmak dileklerimle kazancınız bol olsun",
       "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
       "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
-      "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik.",
-      "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
+      "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
     ],
     "images": [
       "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-about-02.jpg"
@@ -6784,16 +6774,21 @@
     "headings": [
       "Tirilye Zeytini",
       "Doğal Katkısız Zeytin Zeytinyağı",
-      "Tirilyeden Evinize"
+      "Tirilyeden Evinize",
+      "Hakkımızda"
     ],
     "paragraphs": [
       "Trilye zeytinin yağ oranı %30’dur. Genelde yağ oranı yüksek olan besin kaynakları daha lezzetli olur. Trilye zeytini de yağlı olduğu için lezzetli zeytin çeşitleri arasında ilk sıradadır. Yağ oranının yüksek olması fiyat olarak da zeytin çeşitleri arasında yüksek fiyat farkı oluşturur.",
       "Bursanın Mudanya ilçe sınırlarında kalan antik bir Rum Kasabasıdır. Bir tarafında Marmara Denizinin maviliği diğer tarafta zeytin ağaçları ve tarihe tanıklık eden Kültürel mirasları ile Mudanyanın incisidir. Antik Trilye Şehrinde Yüzyıllar boyunca zeytin üretimi yapılmıştır ve halende yerel halkın geçim kaynağının büyük bir kısmını zeytin üretimininden sağlamaktadır",
       "Yeşil ve mavinin hakim olduğu tonlarda olan belde üç medeniyetin kesişim noktasında olduğu kadar 3 iklim kuşağının da ortak noktasında bulunmaktadır. Kuzey rüzgarlarıyla yazları serinliği Güney Rüzgarları ile ise kışları ılıman bir durumda",
-      "Değişkenliği ile dikkat çeker Tirilye'de Balıkçılık ve ziraat başlıca geçim kaynaklarındandır."
+      "Değişkenliği ile dikkat çeker Tirilye'de Balıkçılık ve ziraat başlıca geçim kaynaklarındandır.",
+      "Zeyer olarak bu sebepleri bilinçli üretim ve doğaya saygılı temiz tarım uygulaması ile hayata geçiriyoruz... Bu sebep ve amaçlar ile burdayız.",
+      "1950 yılından bugüne kadar güney marmaranın en önemli zeytin zeytinyağı üreticilerinden olan zeyer zeytincilik yükselen marka değeri ile sofralarınızda şifa ve sağlık olmaya devam etmektedir. Güney marmaranın incisi Mudanya yöresinin eşsiz oksijeni ile birleşen Tirilye mevkii ve çevresinden elde edilen zeytinler Erken hasat olarak henüz siyah rengine dönüşmeden yeşil ve diriyken hasat edilir.",
+      "Tarım esaslarına uygun olarak yetiştirilen ve hasat edilen",
+      "Hasadı yapılan zeytinler özel hava alabilir ve hiljyenik kasalara konulmaktadır. Son sistem yıkama teknolojisine sahip tesislerde içme suyu kalitesinde su kullanılarak temiz bir yıkama yapılmakta olup soğuk sıkıma uygun Zeytin hamuru malatşörde en fazla 24 derecede tutulmaktadır. Temassız yöntemle ayrıştırılan zeytinler"
     ],
     "images": [
-      "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-about-01.webp",
+      "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-about-01.png",
       "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-about-02.webp"
     ],
     "sourceUrls": [

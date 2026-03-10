@@ -6498,18 +6498,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 249,
-        "name": "Abalı",
-        "desc": "Abalı, Aydın, Ege çizgisinde geniş dağıtım ağıyla zeytinyağı ürünleri sunan üretici olarak öne çıkar.",
-        "region": "Aydın, Ege",
-        "category": "market-endustriyel",
-        "website": "https://www.abali.com.tr/",
-        "founded": "",
-        "highlight": false,
-        "image": "images/markalar/abali/abali-logo.png",
-        "logoFallback": ""
-    },
-    {
         "id": 252,
         "name": "Olin",
         "desc": "Olin, Urla, İzmir çizgisinde geniş dağıtım ağıyla zeytinyağı ürünleri sunan üretici olarak öne çıkar.",

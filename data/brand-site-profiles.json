@@ -2905,19 +2905,6 @@
           "Havale Bildirim Formu"
         ],
         "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.olivos.com.tr/iletisim",
-        "statusCode": 200,
-        "title": "Olivos Sabunları | %100 Zeytinyağlı Sabun",
-        "headings": [],
-        "blocks": [
-          "Misyon&Vizyon ve Kalite Politikası",
-          "İptal, İade Koşulları",
-          "Havale Bildirim Formu"
-        ],
-        "error": ""
       }
     ],
     "contact": {
@@ -2927,23 +2914,17 @@
         "Olivos Aphrodite’s Secret %100 Zeytinyağlı El Yapımı Katı Sabun, Premium Kutulu, 2×100 g"
       ],
       "phones": [
-        "+90 536 743 52 94",
-        "+90 236 332 50 32",
-        "+90 236 332 50 33",
-        "+90 236 332 50 40"
+        "+90 536 743 52 94"
       ],
       "emails": [
-        "info@olivos.com.tr",
-        "olivos@olivos.com.tr",
-        "olivospazarlamaltd@hs02.kep.tr"
+        "info@olivos.com.tr"
       ],
       "whatsapp": [
         "+90 536 743 52 94"
       ]
     },
     "contactSources": [
-      "https://www.olivos.com.tr/",
-      "https://www.olivos.com.tr/iletisim"
+      "https://www.olivos.com.tr/"
     ],
     "about": {
       "headings": [],
@@ -3259,8 +3240,8 @@
     "contact": {
       "website": "https://ilyada.com/",
       "addresses": [
-        "5 Lt Teneke Natürel 1. Zeytinyağı, natürel birinci zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir.",
-        "5 lt Teneke Doğal Sızma Zeytinyağı, en iyi kalitede sızma zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir."
+        "5 lt Teneke Doğal Sızma Zeytinyağı, en iyi kalitede sızma zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir.",
+        "5 Lt Teneke Natürel 1. Zeytinyağı, natürel birinci zeytinyağını kullanarak yemek ve salatalarınıza lezzet katabilirsiniz. Bu özel ürün, mükemmel tazelik ve lezzetiyle ön plana çıkar. Geyikli Yöresi’nin bereketli topraklarından gelen özenle seçilmiş zeytinlerden üretilir."
       ],
       "phones": [
         "+90 286 638 55 77"
@@ -4960,7 +4941,7 @@
       },
       {
         "kind": "contact",
-        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#abc2c5cdc4ebcccac2cac4c7c2ddca85c8c4c694f8dec9c1cec8df96eccac2ca8be4c7c2ddca8befced8dfcec0",
+        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#a7cec9c1c8e7c0c6cec6c8cbced1c689c4c8ca98f4d2c5cdc2c4d39ae0c6cec687e8cbced1c687e3c2d4d3c2cc",
         "statusCode": 200,
         "title": "Email Protection | Cloudflare",
         "headings": [
@@ -20426,26 +20407,6 @@
           "Vergi Numarası: 3011054691"
         ],
         "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.asiltane.com/sayfa/magazalarimiz",
-        "statusCode": 200,
-        "title": "Mağazalarımız",
-        "headings": [],
-        "blocks": [
-          "Limited Özel Hasat Soğuk Sıkım Natürel Sızma",
-          "Erken Hasat Soğuk Sıkım Natürel Sızma",
-          "Soğuk Sıkım Natürel Sızma",
-          "Olgun Hasat Soğuk Sıkım Natürel Sızma",
-          "En Asil Hediye Setleri",
-          "Limited Özel Hasat Soğuk Sıkım Natürel Sızma Zeytinyağı",
-          "Erken Hasat Soğuk Sıkım Natürel Sızma Zeytinyağı",
-          "Soğuk Sıkım Natürel Sızma Zeytinyağı",
-          "Natürel Sızma Zeytinyağı",
-          "İade Koşulları ve Geri Gönderim"
-        ],
-        "error": ""
       }
     ],
     "contact": {
@@ -20471,8 +20432,7 @@
     },
     "contactSources": [
       "https://www.asiltane.com/",
-      "https://www.asiltane.com/sayfa/asiltane-iletisim",
-      "https://www.asiltane.com/sayfa/magazalarimiz"
+      "https://www.asiltane.com/sayfa/asiltane-iletisim"
     ],
     "about": {
       "headings": [],
@@ -26684,7 +26644,6 @@
         "Ayvalık çeşidi zeytinlerimizi erken dönemde hasat ederek yüksek kaliteyi sağlamayı hedefliyotuz. Serbest asitlik değeri %0,4 olan zeytinyağımız boğazda bıraktığı yanma hissiyle de kalitesinin üst seviyelerde olduğunu kanıtlar niteliktedir. Her adımında özenle ve titizlikte ürettiğimiz bu ürünlerle Akdeniz kokularını ve lezzetlerini sofralarınıza getirmeyi hedeflemektedir."
       ],
       "images": [
-        "images/markalar/monterosso/monterosso-about-01.jpg",
         "images/markalar/monterosso/monterosso-about-02.jpg"
       ],
       "sourceUrls": [
@@ -28498,8 +28457,8 @@
         "statusCode": 200,
         "title": "Angelos Organik Zeytinyağı Değirmeni - Anasayfa",
         "headings": [
-          "NOP Sertifikası",
           "BIO Sertifikası",
+          "NOP Sertifikası",
           "Müteşebbis Sertifikası",
           "Ürünlerimiz",
           "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
@@ -28671,8 +28630,8 @@
     ],
     "about": {
       "headings": [
-        "NOP Sertifikası",
         "BIO Sertifikası",
+        "NOP Sertifikası",
         "Müteşebbis Sertifikası",
         "Ürünlerimiz",
         "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
@@ -29706,34 +29665,7 @@
     "website": "https://www.orkide.com/",
     "rawPages": [
       {
-        "kind": "about",
-        "url": "https://www.orkide.com/hakkimizda",
-        "statusCode": 0,
-        "title": "",
-        "headings": [],
-        "blocks": [],
-        "error": "HTTPSConnectionPool(host='www.orkide.com', port=443): Read timed out. (read timeout=18)"
-      },
-      {
-        "kind": "about",
-        "url": "https://www.orkide.com/hakkimizda/",
-        "statusCode": 0,
-        "title": "",
-        "headings": [],
-        "blocks": [],
-        "error": "HTTPSConnectionPool(host='www.orkide.com', port=443): Read timed out. (read timeout=18)"
-      },
-      {
-        "kind": "about",
-        "url": "https://www.orkide.com/about",
-        "statusCode": 0,
-        "title": "",
-        "headings": [],
-        "blocks": [],
-        "error": "HTTPSConnectionPool(host='www.orkide.com', port=443): Read timed out. (read timeout=18)"
-      },
-      {
-        "kind": "contact",
+        "kind": "home",
         "url": "https://www.orkide.com/",
         "statusCode": 200,
         "title": "Anasayfa | Orkide",
@@ -29760,81 +29692,127 @@
         "error": ""
       },
       {
-        "kind": "contact",
-        "url": "https://www.orkide.com/",
+        "kind": "about",
+        "url": "https://www.orkide.com/6-kurumsal/",
         "statusCode": 200,
-        "title": "Anasayfa | Orkide",
+        "title": "Kurumsal | Orkide",
+        "headings": [],
+        "blocks": [
+          "GIDA GÜVENLİĞİ VE KALİTE POLİTİKAMIZ",
+          "SÜRDÜRÜLEBİLİRLİK POLİTİKAMIZ",
+          "ÇEVRE VE İŞ SAĞLIĞI POLİTİKASI",
+          "BİLGİ GÜVENLİĞİ POLİTİKAMIZ",
+          "ORKİDE'YE HOŞ GELDİNİZ!",
+          "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız..."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://www.orkide.com/6-kurumsal/244-hakkimizda/",
+        "statusCode": 200,
+        "title": "Hakkımızda | Kurumsal | Orkide",
         "headings": [
-          "Küresel standartlarda yerli üretimin gücü",
-          "Her öğünde bir Orkide",
-          "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
-          "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
-          "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
-          "ÜRÜNLERİMİZ"
+          "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU"
         ],
         "blocks": [
           "GIDA GÜVENLİĞİ VE KALİTE POLİTİKAMIZ",
           "SÜRDÜRÜLEBİLİRLİK POLİTİKAMIZ",
           "ÇEVRE VE İŞ SAĞLIĞI POLİTİKASI",
           "BİLGİ GÜVENLİĞİ POLİTİKAMIZ",
-          "Küresel standartlarda yerli üretimin gücü",
-          "Her öğünde bir Orkide",
-          "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
-          "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
-          "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
-          "ORKİDE'YE HOŞ GELDİNİZ!"
+          "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU",
+          "ORKİDE'YE HOŞ GELDİNİZ!",
+          "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız..."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://www.orkide.com/6-kurumsal/247-uretim-tesislerimiz/",
+        "statusCode": 200,
+        "title": "Üretim Tesislerimiz | Kurumsal | Orkide",
+        "headings": [
+          "KÜRESEL STANDARTLARDA ENTEGRE ÜRETİM"
+        ],
+        "blocks": [
+          "GIDA GÜVENLİĞİ VE KALİTE POLİTİKAMIZ",
+          "SÜRDÜRÜLEBİLİRLİK POLİTİKAMIZ",
+          "ÇEVRE VE İŞ SAĞLIĞI POLİTİKASI",
+          "BİLGİ GÜVENLİĞİ POLİTİKAMIZ",
+          "KÜRESEL STANDARTLARDA ENTEGRE ÜRETİM",
+          "ORKİDE'YE HOŞ GELDİNİZ!",
+          "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız..."
         ],
         "error": ""
       },
       {
         "kind": "contact",
-        "url": "https://www.orkide.com/",
+        "url": "https://www.orkide.com/8-iletisim/",
         "statusCode": 200,
-        "title": "Anasayfa | Orkide",
+        "title": "İletişim | Orkide",
         "headings": [
-          "Küresel standartlarda yerli üretimin gücü",
-          "Her öğünde bir Orkide",
-          "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
-          "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
-          "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
-          "ÜRÜNLERİMİZ"
+          "İLETİŞİM",
+          "BİZE ULAŞIN"
         ],
         "blocks": [
           "GIDA GÜVENLİĞİ VE KALİTE POLİTİKAMIZ",
           "SÜRDÜRÜLEBİLİRLİK POLİTİKAMIZ",
           "ÇEVRE VE İŞ SAĞLIĞI POLİTİKASI",
           "BİLGİ GÜVENLİĞİ POLİTİKAMIZ",
-          "Küresel standartlarda yerli üretimin gücü",
-          "Her öğünde bir Orkide",
-          "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
-          "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
-          "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
-          "ORKİDE'YE HOŞ GELDİNİZ!"
+          "ORKİDE'YE HOŞ GELDİNİZ!",
+          "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız..."
         ],
         "error": ""
       }
     ],
     "contact": {
       "website": "https://www.orkide.com/",
-      "addresses": [],
+      "addresses": [
+        "1979 yılından bugüne sürdürülebilir büyüme kaydeden Orkide, günümüzde ülkemizin önde gelen bitkisel sıvı yağ üreticilerinden biridir. Ülkemizde hane tüketiminde ön sıralarda yer alan Orkide, yaygın ihracat ağıyla 100'e yakın ülkeye gerçekleştirdiği ihracat ile ülke ekonomisine katkı sunmaktadır.",
+        "Ankara Cad. No: 102, Bornova, İzmir"
+      ],
       "phones": [
         "+90 850 833 02 42",
+        "+90 216 988 16 04",
+        "+90 232 388 25 57",
         "+90 232 388 37 92"
       ],
       "emails": [],
       "whatsapp": []
     },
     "contactSources": [
-      "https://www.orkide.com/"
+      "https://www.orkide.com/",
+      "https://www.orkide.com/6-kurumsal/",
+      "https://www.orkide.com/6-kurumsal/244-hakkimizda/",
+      "https://www.orkide.com/6-kurumsal/247-uretim-tesislerimiz/",
+      "https://www.orkide.com/8-iletisim/"
     ],
     "about": {
-      "headings": [],
-      "paragraphs": [],
-      "images": [],
+      "headings": [
+        "Küresel standartlarda yerli üretimin gücü",
+        "Her öğünde bir Orkide",
+        "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
+        "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
+        "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
+        "ÜRÜNLERİMİZ",
+        "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU",
+        "KÜRESEL STANDARTLARDA ENTEGRE ÜRETİM"
+      ],
+      "paragraphs": [
+        "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
+        "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
+        "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
+        "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız...",
+        "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU"
+      ],
+      "images": [
+        "images/markalar/orkide/orkide-about-01.jpg",
+        "images/markalar/orkide/orkide-about-02.jpg"
+      ],
       "sourceUrls": [
-        "https://www.orkide.com/hakkimizda",
-        "https://www.orkide.com/hakkimizda/",
-        "https://www.orkide.com/about"
+        "https://www.orkide.com/6-kurumsal/",
+        "https://www.orkide.com/6-kurumsal/244-hakkimizda/",
+        "https://www.orkide.com/6-kurumsal/247-uretim-tesislerimiz/"
       ]
     },
     "summary": "Orkide, Milas, Muğla çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
@@ -29843,15 +29821,17 @@
         "title": "Orkide hikayesi",
         "paragraphs": [
           "Orkide, her gün mutfakta yer bulacak güvenilir bir çizgi sunar. Milas, Muğla çıkışlı bu yağ, günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Orkide, Milas, Muğla tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler."
+          "Orkide, Milas, Muğla tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
+          "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız..."
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Orkide anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Orkide tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir."
+          "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
+          "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
+          "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
+          "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU"
         ]
       },
       {
@@ -29867,165 +29847,6 @@
         "title": "Sofrada kullanım ve seçim",
         "paragraphs": [
           "Orkide alındığında yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim alınmış olur. Bu yüzden şişenin bıraktığı genel iz, ürünün uzun vadede mutfakta yer bulup bulmayacağını da belirler.",
-          "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
-          "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
-          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir."
-        ]
-      }
-    ]
-  },
-  "249": {
-    "id": 249,
-    "name": "Abalı",
-    "slug": "abali",
-    "website": "https://www.abali.com.tr/",
-    "rawPages": [
-      {
-        "kind": "home",
-        "url": "https://www.abali.com.tr/",
-        "statusCode": 200,
-        "title": "Abalı Mimarlık",
-        "headings": [
-          "Teklif Formu",
-          "KAHVEYE BEKLİYORUZ"
-        ],
-        "blocks": [
-          "Lütfen Site Dili Seçiniz",
-          "Seramik ve Taş Malzemeler",
-          "Esnek, LVT ve Tekstil Malzemeleri",
-          "Ahşap Zeminler İçin Ürünler",
-          "Isı Yalıtım Ürünleri",
-          "TEPE BETOPAN ÜRÜNLERİ",
-          "Çimentolu Yonga Levhalar",
-          "Elyaf Takviyeli Çimentolu Levhalar",
-          "Onduline Zigana Tile",
-          "Kiremit Altı Su Yalıtımı"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "about",
-        "url": "https://www.abali.com.tr/icerik/hakkimizda",
-        "statusCode": 200,
-        "title": "Hakkımızda",
-        "headings": [
-          "Hakkımızda"
-        ],
-        "blocks": [
-          "Lütfen Site Dili Seçiniz",
-          "Seramik ve Taş Malzemeler",
-          "Esnek, LVT ve Tekstil Malzemeleri",
-          "Ahşap Zeminler İçin Ürünler",
-          "Isı Yalıtım Ürünleri",
-          "TEPE BETOPAN ÜRÜNLERİ",
-          "Çimentolu Yonga Levhalar",
-          "Elyaf Takviyeli Çimentolu Levhalar",
-          "Onduline Zigana Tile",
-          "Kiremit Altı Su Yalıtımı"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.abali.com.tr/iletisim",
-        "statusCode": 200,
-        "title": "İletişim",
-        "headings": [
-          "İletişim",
-          "İletişim Formu",
-          "Yeni Projelere Hazırız"
-        ],
-        "blocks": [
-          "Lütfen Site Dili Seçiniz",
-          "Seramik ve Taş Malzemeler",
-          "Esnek, LVT ve Tekstil Malzemeleri",
-          "Ahşap Zeminler İçin Ürünler",
-          "Isı Yalıtım Ürünleri",
-          "TEPE BETOPAN ÜRÜNLERİ",
-          "Çimentolu Yonga Levhalar",
-          "Elyaf Takviyeli Çimentolu Levhalar",
-          "Onduline Zigana Tile",
-          "Kiremit Altı Su Yalıtımı"
-        ],
-        "error": ""
-      }
-    ],
-    "contact": {
-      "website": "https://www.abali.com.tr/",
-      "addresses": [
-        "2013 yılından itibaren Mimarlık hizmetlerinin yanında inşaat faaliyetlerinde danışmanlık yapmaya başlayan firmamız, resmi daireler, kurumsal firmalar ve birçok şahıs işlerinde müşteri memnuniyet odaklı çalışmalarına devam etmektedir.",
-        "Kayabaşı Mah. Kadıhanı Cad. No: 13A Merkez/KIRŞEHİR"
-      ],
-      "phones": [
-        "+90 532 461 95 32",
-        "+90 386 214 07 07"
-      ],
-      "emails": [
-        "bilgi@abali.com.tr"
-      ],
-      "whatsapp": [
-        "+90 532 461 95 32"
-      ]
-    },
-    "contactSources": [
-      "https://www.abali.com.tr/",
-      "https://www.abali.com.tr/icerik/hakkimizda",
-      "https://www.abali.com.tr/iletisim"
-    ],
-    "about": {
-      "headings": [
-        "Teklif Formu",
-        "KAHVEYE BEKLİYORUZ",
-        "Hakkımızda"
-      ],
-      "paragraphs": [
-        "2013 yılından itibaren Mimarlık hizmetlerinin yanında inşaat faaliyetlerinde danışmanlık yapmaya başlayan firmamız, resmi daireler, kurumsal firmalar ve birçok şahıs işlerinde müşteri memnuniyet odaklı çalışmalarına devam etmektedir.",
-        "Abalı Mimarlık’ın temelleri kurucumuz Mimar Hasan Tahsin Abalı tarafından 2004 yılında, Mimarlık faaliyetleri ile başlamıştır. 2013 yılında şirketleşerek kurumsal yapıda çalışmanın ilk adımları atılmıştır.",
-        "2025 yılında Abalı Mimarlık sektöründeki yenilikler ve kaliteyi hedefleyerek; İnşaat yapım faaliyetlerine kaliteli malzeme markalarının temsilcisi olarak bölgesinde hizmet verme kararı alarak, sunduğumuz kaliteli ve müşteri memnuniyet odaklı çalışma yelpazesini genişletmiştir.",
-        "Sunduğumuz kaliteli hizmet, ürün çeşitliliği, ve temiz, saygılı ve titiz personellerimizle hizmet verdiğimiz mimarlık sektörünün güçlü bir firması olduk. Bu sayede çalıştığımız bölgelerimizde sizlerin her zaman öncelikli tercihi olduk. Bütçenizi hazırlarken ve bu büçeyi kullanırken ki şeffaflığımızla, daima müşterilerimizin takdirini kazandık.",
-        "Bu ilkelerden taviz vermeyen ve kaliteli hizmeti hedefleyen Abalı Mimarlık olarak bizler, profesyonel ve eğitimli ekibimiz ile birlikte projelendirme, inşaat taahhüt (uygulama, duvar, sıva, alçı, boya, seramik, elektrik, su tesisatı, demir ve çelik işleri, alüminyum, cam işleri) ve mobilya üretiminie kadar tüm inşaat hizmetlerinde hep yanınızda olduk. Yaptığımız ve bitirmiş olduğumuz yüzlerce projenin hep arkasında",
-        "durduk, ve yıllar sonra bile gerekli tüm teknik servisi sağladık."
-      ],
-      "images": [
-        "images/markalar/abali/abali-about-01.jpg",
-        "images/markalar/abali/abali-about-02.png"
-      ],
-      "sourceUrls": [
-        "https://www.abali.com.tr/icerik/hakkimizda"
-      ]
-    },
-    "summary": "Abalı, Aydın, Ege çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
-    "sections": [
-      {
-        "title": "Abalı hikayesi",
-        "paragraphs": [
-          "Abalı, her gün mutfakta yer bulacak güvenilir bir çizgi sunar. Aydın, Ege çıkışlı bu yağ, günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Abalı, Aydın, Ege tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "Sunduğumuz kaliteli hizmet, ürün çeşitliliği, ve temiz, saygılı ve titiz personellerimizle hizmet verdiğimiz mimarlık sektörünün güçlü bir firması olduk. Bu sayede çalıştığımız bölgelerimizde sizlerin her zaman öncelikli tercihi olduk. Bütçenizi hazırlarken ve bu büçeyi kullanırken ki şeffaflığımızla, daima müşterilerimizin takdirini kazandık."
-        ]
-      },
-      {
-        "title": "Hakkımızda sayfasından öne çıkanlar",
-        "paragraphs": [
-          "2013 yılından itibaren Mimarlık hizmetlerinin yanında inşaat faaliyetlerinde danışmanlık yapmaya başlayan firmamız, resmi daireler, kurumsal firmalar ve birçok şahıs işlerinde müşteri memnuniyet odaklı çalışmalarına devam etmektedir.",
-          "Abalı Mimarlık’ın temelleri kurucumuz Mimar Hasan Tahsin Abalı tarafından 2004 yılında, Mimarlık faaliyetleri ile başlamıştır. 2013 yılında şirketleşerek kurumsal yapıda çalışmanın ilk adımları atılmıştır.",
-          "2025 yılında Abalı Mimarlık sektöründeki yenilikler ve kaliteyi hedefleyerek; İnşaat yapım faaliyetlerine kaliteli malzeme markalarının temsilcisi olarak bölgesinde hizmet verme kararı alarak, sunduğumuz kaliteli ve müşteri memnuniyet odaklı çalışma yelpazesini genişletmiştir.",
-          "Bu ilkelerden taviz vermeyen ve kaliteli hizmeti hedefleyen Abalı Mimarlık olarak bizler, profesyonel ve eğitimli ekibimiz ile birlikte projelendirme, inşaat taahhüt (uygulama, duvar, sıva, alçı, boya, seramik, elektrik, su tesisatı, demir ve çelik işleri, alüminyum, cam işleri) ve mobilya üretiminie kadar tüm inşaat hizmetlerinde hep yanınızda olduk. Yaptığımız ve bitirmiş olduğumuz yüzlerce projenin hep arkasında"
-        ]
-      },
-      {
-        "title": "Lezzet ve üretim çizgisi",
-        "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Abalı anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Abalı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
-        ]
-      },
-      {
-        "title": "Sofrada kullanım ve seçim",
-        "paragraphs": [
-          "Abalı alındığında yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim alınmış olur. Bu yüzden şişenin bıraktığı genel iz, ürünün uzun vadede mutfakta yer bulup bulmayacağını da belirler.",
           "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
           "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir."
@@ -32408,26 +32229,6 @@
           "Fevzi Paşa Mah. Atatürk Cad. No:172 AYVALIK"
         ],
         "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.comertzeytin.com/iletisim-formu",
-        "statusCode": 200,
-        "title": "Cömert Zeytin I Ayvalık Zeytinyağı Mağazası, CMRT Zeytin",
-        "headings": [],
-        "blocks": [
-          "Naturel Sızma (Soğuk Sıkım) 2025-2026",
-          "Taş Baskı 2025-2026 (Filitresiz)",
-          "Erken Hasat 2025-2026 (Filitresiz)",
-          "Yanaklı Zeytin (Yeni Sezon)",
-          "Doğal Alyanak Yeni Sezon",
-          "Doğal Ayvalık Kırma Yeni Sezon",
-          "Doğal Çizik Zeytin Yeni Sezon",
-          "Doğal Domat Kırma 1 Yeni Sezon",
-          "Üye ve Ziyaretçi Kişisel Veri Aydınlatma Metni",
-          "Vehbibey Mah. Gümrük Cd. No:33 AYVALIK"
-        ],
-        "error": ""
       }
     ],
     "contact": {
@@ -32449,8 +32250,7 @@
     },
     "contactSources": [
       "https://www.comertzeytin.com/",
-      "https://www.comertzeytin.com/iletisim",
-      "https://www.comertzeytin.com/iletisim-formu"
+      "https://www.comertzeytin.com/iletisim"
     ],
     "about": {
       "headings": [
@@ -34510,12 +34310,10 @@
       {
         "kind": "home",
         "url": "https://www.ayvalik-zeytinyagi.com/",
-        "statusCode": 200,
+        "statusCode": 500,
         "title": "",
         "headings": [],
-        "blocks": [
-          "Tüm Hakları Saklıdır."
-        ],
+        "blocks": [],
         "error": ""
       },
       {
@@ -34543,9 +34341,7 @@
     "about": {
       "headings": [],
       "paragraphs": [],
-      "images": [
-        "images/markalar/karadag-zeytincilik/karadag-zeytincilik-about-01.png"
-      ],
+      "images": [],
       "sourceUrls": [
         "https://www.ayvalik-zeytinyagi.com/"
       ]
@@ -34675,26 +34471,6 @@
           "Ayvalık Yuvarlama Zeytin"
         ],
         "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.kokluzeytincilik.com.tr/sayfa/magazalarimiz",
-        "statusCode": 200,
-        "title": "Ayvalık Köklü Zeytincilik",
-        "headings": [],
-        "blocks": [
-          "BANKA HESAP NUMARALARI",
-          "Naturel Sızma Zeytinyağı",
-          "Naturel Birinci Zeytinyağı",
-          "Yüksek Polifenol Zeytinyağı",
-          "Ayvalık Çizik Zeytin",
-          "Ayvalık Kırma Zeytin",
-          "Yeşil Kalamata Zeytin",
-          "Gemlik Yağlı Sele Zeytini",
-          "Ayvalık Sele Zeytini",
-          "Ayvalık Yuvarlama Zeytin"
-        ],
-        "error": ""
       }
     ],
     "contact": {
@@ -34719,8 +34495,7 @@
     "contactSources": [
       "https://www.kokluzeytincilik.com.tr/",
       "https://www.kokluzeytincilik.com.tr/sayfa/hakkimizda",
-      "https://www.kokluzeytincilik.com.tr/iletisim",
-      "https://www.kokluzeytincilik.com.tr/sayfa/magazalarimiz"
+      "https://www.kokluzeytincilik.com.tr/iletisim"
     ],
     "about": {
       "headings": [
@@ -37177,16 +36952,16 @@
           "SİZİN İÇİN"
         ],
         "blocks": [
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
-          "Natürel Sızma Zeytinyağı 2 L",
+          "Natürel Sızma Zeytinyağı 500 ml",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+          "Doğal Zeytinyağlı Sabun 200G",
+          "Filtresiz Natural Sızma Zeytinyağı 5 L",
+          "Galon Şişe Natürel Sızma Zeytinyağı 2 L",
           "Midilli'nin Yereli köyünden mübadele ile Ayvalık'a göç eden aile büyüklerimiz Midilli'de sürdürdükleri Zeytincilik faaliyetlerini Ayvalık'ta da sürdürüp bu günlere kadar taşımıştır. Soyadımız olan USTALI kelimesi Midilli'deki en büyük zeytinliğin ismini taşımaktadır. 2006 yılına kadar ailemiz mübadelen beri kendi bahçelerini işleyip müstahsil olarak zeytinciliğe devam ederken Aile fertlerimiz ile 2006 yılının Nisan ayında kendi üretim tesisimizin temelini attık. Ustalı Zeytincilik Aile İşletmesi olarak 2008 yılı zeytin hasat döneminden beride kendi fabrikasında USTALI markası ile üretim yapmaktadır.",
           "Kazımkarabekir Mahallesi",
           "Kışla Mevkisi Eski Altınova Yolu",
           "Ayvalık / Balıkesir / TÜRKİYE",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG"
         ],
         "error": ""
       },
@@ -37197,11 +36972,11 @@
         "title": "Hakkımızda",
         "headings": [],
         "blocks": [
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
           "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-          "Natürel Sızma Zeytinyağı 2 L",
+          "Doğal Zeytinyağlı Sabun 200G",
+          "Filtresiz Natural Sızma Zeytinyağı 5 L",
+          "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
+          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
           "Midilli’nin yereli köyünden mübadele ile Ayvalık’a göç eden aile büyüklerimiz Midilli de sürdürdükleri Zeytincilik faaliyetlerini Ayvalık’ tada sürdürüp bu günlere kadar taşıdı. Soyadımız olan USTALI kelimesi Midilli deki en büyük zeytinliğin ismini taşımaktadır. 2006 yılına kadar ailemiz mübadelen beri kendi bahçelerini işleyip müstahsil olarak zeytinciliğe devam ederken Aile fertlerimiz 2006 yılının Nisan ayında kendi üretim tesisimizin temelini attı. Ustalı Zeytin, Zeytincilik Aile İşletmesi olarak 2008 yılı zeytin hasat döneminden beride kendi fabrikamızda USTALI markası ile üretim yapmaktadır.",
@@ -37217,11 +36992,11 @@
         "title": "İletişim",
         "headings": [],
         "blocks": [
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
+          "Natürel Sızma Zeytinyağı 500 ml",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+          "Doğal Zeytinyağlı Sabun 200G",
           "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
-          "Galon Şişe Natürel Sızma Zeytinyağı 2 L",
-          "Natürel Sızma Zeytinyağı 2 L",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
           "Kazımkarabekir Mahallesi",
@@ -37258,12 +37033,10 @@
         "SİZİN İÇİN"
       ],
       "paragraphs": [
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
         "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG"
+        "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
       ],
       "images": [
         "images/markalar/ustali/ustali-about-01.jpg",
@@ -37280,16 +37053,15 @@
         "paragraphs": [
           "Ustalı, daha seçici sofralara yakışacak karakterli bir çizgi sunar. Ayvalık, Balıkesir çıkışlı bu yağ, özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
           "Ustalı, Ayvalık, Balıkesir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG"
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG"
         ]
       },
       {
@@ -37298,8 +37070,7 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Ustalı anlatılırken önce damakta bıraktığı iz öne çıkar. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Ustalı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG"
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
         ]
       },
       {
@@ -44754,11 +44525,11 @@
         "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
         "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
         "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-        "İznik Zeytin Evi ile tanışmam yaklaşık bir yıl önce reklam amaçlı gelen bir e-mail yolu ile oldu. %100 tuzsuz zeytin favorim olmakla birlikte, geleneksel sele zeytini, siyah ve yeşil zeytin ezmesi, sirkeleri ve tarhanaları muhteşem. Dün İznik’e gitmişken Çamdibi Köyü’nde İznik Zeytin Evi’ni ziyaret etmemek olmazdı. Ilgın Hanım ve Özgür Bey İle tanışma fırsatı bulduk.",
+        "İznik Zeytin Evi’ne internette tuzsuz zeytin ararken denk geldim, sipariş verdikten sonra telefon ile arayıp siparişimle ilgili bilgi verildi, gayet ilgiliydi arayan hanımefendi. Sipariş yola çıktıktan 1 gün sonra Ankara’ya adresime ulaştı ve paketleme oldukça özenliydi. Teşekkürler.",
+        "Gönül rahatlığı ile tuketiyorum.her bir tanesi mükemmel çok lezzetli ve hiç tuz yok 24 saatte çok özenli paketleme ile elime ulaştı. IYIKI sizi keşfettim.Her bir tanesi için cokk teşekkür ediyorum .Emeğinize sağlık.. Hep birlikte olmak dileklerimle kazancınız bol olsun",
         "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
         "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
-        "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik.",
-        "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
+        "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
       ],
       "images": [
         "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-about-02.jpg"
@@ -44774,7 +44545,7 @@
         "paragraphs": [
           "İznik Zeytin Evi, daha seçici sofralara yakışacak karakterli bir çizgi sunar. İzmir çıkışlı bu yağ, özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
           "İznik Zeytin Evi, İzmir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "İznik Zeytin Evi ile tanışmam yaklaşık bir yıl önce reklam amaçlı gelen bir e-mail yolu ile oldu. %100 tuzsuz zeytin favorim olmakla birlikte, geleneksel sele zeytini, siyah ve yeşil zeytin ezmesi, sirkeleri ve tarhanaları muhteşem. Dün İznik’e gitmişken Çamdibi Köyü’nde İznik Zeytin Evi’ni ziyaret etmemek olmazdı. Ilgın Hanım ve Özgür Bey İle tanışma fırsatı bulduk."
+          "İznik Zeytin Evi’ne internette tuzsuz zeytin ararken denk geldim, sipariş verdikten sonra telefon ile arayıp siparişimle ilgili bilgi verildi, gayet ilgiliydi arayan hanımefendi. Sipariş yola çıktıktan 1 gün sonra Ankara’ya adresime ulaştı ve paketleme oldukça özenliydi. Teşekkürler."
         ]
       },
       {
@@ -44783,7 +44554,7 @@
           "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
           "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
           "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-          "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
+          "Gönül rahatlığı ile tuketiyorum.her bir tanesi mükemmel çok lezzetli ve hiç tuz yok 24 saatte çok özenli paketleme ile elime ulaştı. IYIKI sizi keşfettim.Her bir tanesi için cokk teşekkür ediyorum .Emeğinize sağlık.. Hep birlikte olmak dileklerimle kazancınız bol olsun"
         ]
       },
       {
@@ -44793,7 +44564,7 @@
           "İznik Zeytin Evi anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "İznik Zeytin Evi tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
           "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
-          "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
+          "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
         ]
       },
       {
@@ -44803,7 +44574,7 @@
           "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
           "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
-          "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
+          "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
         ]
       }
     ]
@@ -48462,11 +48233,24 @@
       {
         "kind": "about",
         "url": "https://zeyertirilye.com/hakkimizda",
-        "statusCode": 0,
-        "title": "",
-        "headings": [],
-        "blocks": [],
-        "error": "HTTPSConnectionPool(host='zeyertirilye.com', port=443): Max retries exceeded with url: /hakkimizda (Caused by ConnectTimeoutError(<HTTPSConnection(host='zeyertirilye.com', port=443) at 0x10602b460>, 'Connection to zeyertirilye.com timed out. (connect timeout=6)'))"
+        "statusCode": 200,
+        "title": "Zeyer Tirilye Hakkında",
+        "headings": [
+          "Hakkımızda"
+        ],
+        "blocks": [
+          "Domates Soslu Acı Biber",
+          "Zeyer olarak bu sebepleri bilinçli üretim ve doğaya saygılı temiz tarım uygulaması ile hayata geçiriyoruz... Bu sebep ve amaçlar ile burdayız.",
+          "1950 yılından bugüne kadar güney marmaranın en önemli zeytin zeytinyağı üreticilerinden olan zeyer zeytincilik yükselen marka değeri ile sofralarınızda şifa ve sağlık olmaya devam etmektedir. Güney marmaranın incisi Mudanya yöresinin eşsiz oksijeni ile birleşen Tirilye mevkii ve çevresinden elde edilen zeytinler Erken hasat olarak henüz siyah rengine dönüşmeden yeşil ve diriyken hasat edilir.",
+          "Tarım esaslarına uygun olarak yetiştirilen ve hasat edilen",
+          "Gemlik tipi zeytinler",
+          "herhangibir bekletmeye maruz bırakılmadan en fazla dört saat içerisinde sıkım tesisine ulaştırılır. Yarım asırı aşkın tecrübemizle topladığımız yağlık zeytinleri zeytinyağı fabrikasında soğum sıkım yöntemi ile işlemekte ve naturel sızma zeytinyağı üretmektedir. Günlük 120 ton zeytinyağı üretim kapasitesi bulunan tesislerde en kaliteli zeytinyağı üretilmektedir. 1950 den beri üç kuşaktır Doğanın mucizesi olan Zeytin Zeyer için bir tutku ve gelenktir.",
+          "Hasadı yapılan zeytinler özel hava alabilir ve hiljyenik kasalara konulmaktadır. Son sistem yıkama teknolojisine sahip tesislerde içme suyu kalitesinde su kullanılarak temiz bir yıkama yapılmakta olup soğuk sıkıma uygun Zeytin hamuru malatşörde en fazla 24 derecede tutulmaktadır. Temassız yöntemle ayrıştırılan zeytinler",
+          "zeytinyağının en saf en temiz en doğal haliyle",
+          "siz değerli tüketicilere ulaşmasını sağlamaktadır. Üretilen zeytinyağları kapalı ortamda havaya maruz bırakılmadan filtreden geçirilir.",
+          "Özel azot gazlı krom tanklarda 20 derecede sabit tutulan zeytinyağları ugun koşullarda depolanmaktadır. Bir çok kalite ödülüne layık görülen Zeytinyağlarımızı sitemizden"
+        ],
+        "error": ""
       },
       {
         "kind": "contact",
@@ -48511,6 +48295,7 @@
     },
     "contactSources": [
       "https://zeyertirilye.com/",
+      "https://zeyertirilye.com/hakkimizda",
       "https://zeyertirilye.com/iletisim",
       "https://zeyertirilye.com/urunler/"
     ],
@@ -48518,16 +48303,21 @@
       "headings": [
         "Tirilye Zeytini",
         "Doğal Katkısız Zeytin Zeytinyağı",
-        "Tirilyeden Evinize"
+        "Tirilyeden Evinize",
+        "Hakkımızda"
       ],
       "paragraphs": [
         "Trilye zeytinin yağ oranı %30’dur. Genelde yağ oranı yüksek olan besin kaynakları daha lezzetli olur. Trilye zeytini de yağlı olduğu için lezzetli zeytin çeşitleri arasında ilk sıradadır. Yağ oranının yüksek olması fiyat olarak da zeytin çeşitleri arasında yüksek fiyat farkı oluşturur.",
         "Bursanın Mudanya ilçe sınırlarında kalan antik bir Rum Kasabasıdır. Bir tarafında Marmara Denizinin maviliği diğer tarafta zeytin ağaçları ve tarihe tanıklık eden Kültürel mirasları ile Mudanyanın incisidir. Antik Trilye Şehrinde Yüzyıllar boyunca zeytin üretimi yapılmıştır ve halende yerel halkın geçim kaynağının büyük bir kısmını zeytin üretimininden sağlamaktadır",
         "Yeşil ve mavinin hakim olduğu tonlarda olan belde üç medeniyetin kesişim noktasında olduğu kadar 3 iklim kuşağının da ortak noktasında bulunmaktadır. Kuzey rüzgarlarıyla yazları serinliği Güney Rüzgarları ile ise kışları ılıman bir durumda",
-        "Değişkenliği ile dikkat çeker Tirilye'de Balıkçılık ve ziraat başlıca geçim kaynaklarındandır."
+        "Değişkenliği ile dikkat çeker Tirilye'de Balıkçılık ve ziraat başlıca geçim kaynaklarındandır.",
+        "Zeyer olarak bu sebepleri bilinçli üretim ve doğaya saygılı temiz tarım uygulaması ile hayata geçiriyoruz... Bu sebep ve amaçlar ile burdayız.",
+        "1950 yılından bugüne kadar güney marmaranın en önemli zeytin zeytinyağı üreticilerinden olan zeyer zeytincilik yükselen marka değeri ile sofralarınızda şifa ve sağlık olmaya devam etmektedir. Güney marmaranın incisi Mudanya yöresinin eşsiz oksijeni ile birleşen Tirilye mevkii ve çevresinden elde edilen zeytinler Erken hasat olarak henüz siyah rengine dönüşmeden yeşil ve diriyken hasat edilir.",
+        "Tarım esaslarına uygun olarak yetiştirilen ve hasat edilen",
+        "Hasadı yapılan zeytinler özel hava alabilir ve hiljyenik kasalara konulmaktadır. Son sistem yıkama teknolojisine sahip tesislerde içme suyu kalitesinde su kullanılarak temiz bir yıkama yapılmakta olup soğuk sıkıma uygun Zeytin hamuru malatşörde en fazla 24 derecede tutulmaktadır. Temassız yöntemle ayrıştırılan zeytinler"
       ],
       "images": [
-        "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-about-01.webp",
+        "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-about-01.png",
         "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-about-02.webp"
       ],
       "sourceUrls": [
@@ -48549,7 +48339,8 @@
         "paragraphs": [
           "Trilye zeytinin yağ oranı %30’dur. Genelde yağ oranı yüksek olan besin kaynakları daha lezzetli olur. Trilye zeytini de yağlı olduğu için lezzetli zeytin çeşitleri arasında ilk sıradadır. Yağ oranının yüksek olması fiyat olarak da zeytin çeşitleri arasında yüksek fiyat farkı oluşturur.",
           "Bursanın Mudanya ilçe sınırlarında kalan antik bir Rum Kasabasıdır. Bir tarafında Marmara Denizinin maviliği diğer tarafta zeytin ağaçları ve tarihe tanıklık eden Kültürel mirasları ile Mudanyanın incisidir. Antik Trilye Şehrinde Yüzyıllar boyunca zeytin üretimi yapılmıştır ve halende yerel halkın geçim kaynağının büyük bir kısmını zeytin üretimininden sağlamaktadır",
-          "Yeşil ve mavinin hakim olduğu tonlarda olan belde üç medeniyetin kesişim noktasında olduğu kadar 3 iklim kuşağının da ortak noktasında bulunmaktadır. Kuzey rüzgarlarıyla yazları serinliği Güney Rüzgarları ile ise kışları ılıman bir durumda"
+          "Yeşil ve mavinin hakim olduğu tonlarda olan belde üç medeniyetin kesişim noktasında olduğu kadar 3 iklim kuşağının da ortak noktasında bulunmaktadır. Kuzey rüzgarlarıyla yazları serinliği Güney Rüzgarları ile ise kışları ılıman bir durumda",
+          "Zeyer olarak bu sebepleri bilinçli üretim ve doğaya saygılı temiz tarım uygulaması ile hayata geçiriyoruz... Bu sebep ve amaçlar ile burdayız."
         ]
       },
       {
@@ -48558,7 +48349,8 @@
           "Marmara tarafının daha yuvarlak ama karakterini geriden hissettiren yapısı, sofrada sakin ama kalıcı bir iz bırakır. Bu çizgi dengeli kaldığında günlük kullanım için de rahat bir tercih oluşturur.",
           "Zeyer Zeytincilik anlatılırken önce damakta bıraktığı iz öne çıkar. Gemlik çizgisinin yuvarlak açılan ama geriden karakter bırakan yapısını mümkün olduğunca net tutar. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Zeyer Zeytincilik tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+          "1950 yılından bugüne kadar güney marmaranın en önemli zeytin zeytinyağı üreticilerinden olan zeyer zeytincilik yükselen marka değeri ile sofralarınızda şifa ve sağlık olmaya devam etmektedir. Güney marmaranın incisi Mudanya yöresinin eşsiz oksijeni ile birleşen Tirilye mevkii ve çevresinden elde edilen zeytinler Erken hasat olarak henüz siyah rengine dönüşmeden yeşil ve diriyken hasat edilir."
         ]
       },
       {

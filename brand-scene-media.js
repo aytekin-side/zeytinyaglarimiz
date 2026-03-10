@@ -1,12 +1,4 @@
 const brandSceneMedia = {
-  'abali': {
-    src: 'images/markalar/abali/abali-scene-nature-3.jpg',
-    alt: 'Aydın çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Aydın zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'adatepe': {
     src: 'images/markalar/adatepe/adatepe-scene-nature-1.jpg',
     alt: 'Küçükkuyu çevresinde zeytin ağaçları ve doğal görünüm',
