@@ -37,7 +37,14 @@ const aliasMap = new Map([
   ['bella mordane bella serra', 'Bella Mordane'],
   ['yasemin hanim', 'Yasemin Hanım Zeytinyağları'],
   ['tlos olive fenolive', 'Tlos Olive'],
-  ['fenolive', 'Tlos Olive']
+  ['fenolive', 'Tlos Olive'],
+  ['kursat zeytinyagi', 'Kürşat'],
+  ['nilbag zeytinyaglari', 'Nilbağ'],
+  ['ganos zeytinyagi', 'Ganos Olive Oil'],
+  ['elta ada', 'Elta Ada'],
+  ['elta-ada', 'Elta Ada'],
+  ['dizem', 'Dizem Organik'],
+  ['varol zeytin', 'Varol']
 ]);
 
 const industrialNames = new Set([
@@ -95,6 +102,10 @@ function normalize(value) {
     .trim();
 }
 
+function compact(value) {
+  return normalize(value).replace(/[^a-z0-9]+/g, '');
+}
+
 function slugify(value) {
   return normalize(value).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
@@ -105,6 +116,17 @@ function getHost(value) {
   } catch {
     return '';
   }
+}
+
+function getCanonicalHost(value) {
+  const host = getHost(value);
+  if (!host) return '';
+  const parts = host.split('.');
+  if (parts.length >= 3 && parts.at(-1) === 'tr' && ['com', 'net', 'org', 'gov', 'edu'].includes(parts.at(-2))) {
+    return parts.slice(-3).join('.');
+  }
+  if (parts.length >= 2) return parts.slice(-2).join('.');
+  return host;
 }
 
 function decodeHtml(value) {
@@ -166,10 +188,23 @@ function parseCsv(csvText) {
     throw new Error('CSV must include brand/name and website columns.');
   }
 
-  return lines.slice(1).map(parseCsvRow).map((cells) => ({
+  const rows = lines.slice(1).map(parseCsvRow).map((cells) => ({
     name: cells[nameIndex] || '',
     website: /^https?:\/\//i.test(cells[websiteIndex] || '') ? (cells[websiteIndex] || '') : ''
   })).filter((row) => row.name);
+
+  const deduped = new Map();
+  for (const row of rows) {
+    const key = compact(row.name) || normalize(row.name);
+    const current = deduped.get(key);
+    const nextScore = `${row.website ? 1 : 0}${String(row.name || '').length.toString().padStart(4, '0')}`;
+    const currentScore = current ? `${current.website ? 1 : 0}${String(current.name || '').length.toString().padStart(4, '0')}` : '';
+    if (!current || nextScore > currentScore) {
+      deduped.set(key, row);
+    }
+  }
+
+  return [...deduped.values()];
 }
 
 function loadBrands() {
@@ -391,24 +426,60 @@ function renderMediaEntry(id, entry) {
   return `    ${JSON.stringify(String(id))}: ${JSON.stringify(entry, null, 4).split('\n').join('\n    ')}`;
 }
 
+function findExistingBrand(row, brands) {
+  const normalized = normalize(row.name);
+  const compacted = compact(row.name);
+  const directAlias = aliasMap.get(normalized);
+  const host = getHost(row.website);
+  const canonicalHost = getCanonicalHost(row.website);
+
+  for (const brand of brands) {
+    const candidateNormalized = normalize(brand.name);
+    const candidateCompact = compact(brand.name);
+    if (
+      brand.name === row.name ||
+      candidateNormalized === normalized ||
+      candidateCompact === compacted ||
+      directAlias === brand.name
+    ) {
+      return brand;
+    }
+  }
+
+  if (host || canonicalHost) {
+    for (const brand of brands) {
+      const brandHost = getHost(brand.website);
+      const brandCanonicalHost = getCanonicalHost(brand.website);
+      if ((host && brandHost === host) || (canonicalHost && brandCanonicalHost === canonicalHost)) {
+        return brand;
+      }
+    }
+  }
+
+  for (const brand of brands) {
+    const candidateNormalized = normalize(brand.name);
+    const candidateCompact = compact(brand.name);
+    if (
+      candidateNormalized.includes(normalized) ||
+      normalized.includes(candidateNormalized) ||
+      candidateCompact.includes(compacted) ||
+      compacted.includes(candidateCompact)
+    ) {
+      return brand;
+    }
+  }
+
+  return null;
+}
+
 async function main() {
   const csvRows = parseCsv(fs.readFileSync(CSV_PATH, 'utf8'));
   const { source: brandsSource, brands } = loadBrands();
   const { source: mediaSource, brandMedia } = loadBrandMedia();
 
-  const existingNames = brands.map((brand) => brand.name);
-  const existingHosts = new Map(brands.map((brand) => [getHost(brand.website), brand.name]).filter(([h]) => h));
   const maxId = Math.max(...brands.map((brand) => Number(brand.id) || 0));
 
-  const missingRows = csvRows.filter((row) => {
-    const normalized = normalize(row.name);
-    const byName = existingNames.find((name) => {
-      const candidate = normalize(name);
-      return candidate === normalized || aliasMap.get(normalized) === name;
-    });
-    const byHost = existingHosts.get(getHost(row.website));
-    return !(byName || byHost);
-  });
+  const missingRows = csvRows.filter((row) => !findExistingBrand(row, brands));
 
   const additions = [];
   const mediaAdditions = [];

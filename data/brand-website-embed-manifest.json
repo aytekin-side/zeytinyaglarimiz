@@ -114,6 +114,22 @@
     ]
   },
   {
+    "id": 384,
+    "name": "Akey Çatal Zeytin",
+    "slug": "akey-catal-zeytin",
+    "url": "https://akeycatalzeytin.com/",
+    "region": "Ayvacık, Çanakkale",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.291979Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://akeycatalzeytin.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 165,
     "name": "Aktepe Zeytin Zeytinyağı",
     "slug": "aktepe-zeytin-zeytinyagi",
@@ -323,6 +339,22 @@
     "error": "HTTPSConnectionPool(host='www.antikteos.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.antikteos.com', port=443): Failed to resolve 'www.antikteos.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
+    "id": 387,
+    "name": "Armutlu Zeytincilik",
+    "slug": "armutlu-zeytincilik",
+    "url": "https://www.armutluzeytincilik.com/",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.292416Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.armutluzeytincilik.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 86,
     "name": "Arslan Zeytinyağı",
     "slug": "arslan-zeytinyagi",
@@ -467,6 +499,22 @@
     "finalUrl": "https://www.ayolis.com/",
     "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "SAMEORIGIN",
+    "frameAncestors": []
+  },
+  {
+    "id": 388,
+    "name": "Aysan",
+    "slug": "aysan",
+    "url": "https://aysanyaglari.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T12:08:12.292738Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://aysanyaglari.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
     "frameAncestors": []
   },
   {
@@ -864,6 +912,22 @@
     ]
   },
   {
+    "id": 389,
+    "name": "Çobanöz Zeytincilik",
+    "slug": "cobanoz-zeytincilik",
+    "url": "https://www.cobanozzeytincilik.com/",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.292924Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.cobanozzeytincilik.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 131,
     "name": "Çoral",
     "slug": "coral",
@@ -982,6 +1046,22 @@
     "status": 200,
     "finalUrl": "https://www.demgreenayvalik.com/",
     "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 390,
+    "name": "Dervişoğlu Zeytin",
+    "slug": "dervisoglu-zeytin",
+    "url": "https://dervisogluzeytin.com/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.293275Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://dervisogluzeytin.com/",
+    "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -1751,6 +1831,22 @@
     "frameAncestors": []
   },
   {
+    "id": 396,
+    "name": "Güngör Zeytin",
+    "slug": "gungor-zeytin",
+    "url": "https://gungorelit.com/",
+    "region": "Aydın, Ege",
+    "category": "organik",
+    "checkedAt": "2026-03-10T12:08:12.293457Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://gungorelit.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 108,
     "name": "Güven Asa",
     "slug": "guven-asa",
@@ -2090,6 +2186,22 @@
     "error": "HTTPSConnectionPool(host='www.izbirlik.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.izbirlik.com.tr', port=443): Failed to resolve 'www.izbirlik.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
+    "id": 400,
+    "name": "İznik Zeytin Evi",
+    "slug": "iznik-zeytin-evi",
+    "url": "https://www.iznikzeytinevi.com/",
+    "region": "İzmir",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.293693Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.iznikzeytinevi.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 361,
     "name": "İzorya",
     "slug": "izorya",
@@ -2199,6 +2311,22 @@
     "finalUrl": "https://www.ayvalik-zeytinyagi.com/",
     "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 401,
+    "name": "Karadane",
+    "slug": "karadane",
+    "url": "https://www.karadane.com.tr/",
+    "region": "Çanakkale",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.293843Z",
+    "embeddable": false,
+    "reason": "x-frame-options:SAMEORIGIN",
+    "status": 200,
+    "finalUrl": "https://www.karadane.com.tr/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "SAMEORIGIN",
     "frameAncestors": []
   },
   {
@@ -2546,6 +2674,22 @@
     "frameAncestors": []
   },
   {
+    "id": 402,
+    "name": "Kudret Zeytinyağları",
+    "slug": "kudret-zeytinyaglari",
+    "url": "https://kudretzeytinyaglari.com/",
+    "region": "Edremit, Balıkesir",
+    "category": "market-endustriyel",
+    "checkedAt": "2026-03-10T12:08:12.293955Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://kudretzeytinyaglari.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 343,
     "name": "Kue Olive Oil",
     "slug": "kue-olive-oil",
@@ -2706,6 +2850,22 @@
     "frameAncestors": []
   },
   {
+    "id": 405,
+    "name": "Malhun Hatun",
+    "slug": "malhun-hatun",
+    "url": "https://malhunhatun.com/",
+    "region": "Bursa, Marmara",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.294080Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://malhunhatun.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 227,
     "name": "Maraj",
     "slug": "maraj",
@@ -2786,6 +2946,22 @@
     "frameAncestors": []
   },
   {
+    "id": 406,
+    "name": "Mekece Işık",
+    "slug": "mekece-isik",
+    "url": "https://www.mekece.com.tr/",
+    "region": "Urla, İzmir",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.294165Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.mekece.com.tr/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 11,
     "name": "Mera Ovası",
     "slug": "mera-ovasi",
@@ -2812,6 +2988,22 @@
     "embeddable": false,
     "reason": "ConnectionError",
     "error": "HTTPSConnectionPool(host='www.merayzeytincilik.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.merayzeytincilik.com.tr', port=443): Failed to resolve 'www.merayzeytincilik.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
+  },
+  {
+    "id": 407,
+    "name": "Mete Zeytin",
+    "slug": "mete-zeytin",
+    "url": "https://metezeytin.com/",
+    "region": "Gemlik, Bursa",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.294267Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://metezeytin.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
   },
   {
     "id": 190,
@@ -2885,6 +3077,22 @@
     "reason": "ok",
     "status": 200,
     "finalUrl": "https://mirliya.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 408,
+    "name": "Miryağ",
+    "slug": "miryag",
+    "url": "https://miryag.com/",
+    "region": "Mudanya, Bursa",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.403606Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://miryag.com/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
@@ -3033,6 +3241,38 @@
     ]
   },
   {
+    "id": 409,
+    "name": "Naif Ege Zeytincilik",
+    "slug": "naif-ege-zeytincilik",
+    "url": "https://www.naifoliveoil.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T12:08:12.462075Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.naifoliveoil.com/",
+    "contentType": "text/html",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 410,
+    "name": "Namlı Zeytinleri",
+    "slug": "namli-zeytinleri",
+    "url": "https://www.namlizeytinleri.com/",
+    "region": "Gemlik, Bursa",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T12:08:12.504692Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.namlizeytinleri.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 35,
     "name": "Nar Gourmet",
     "slug": "nar-gourmet",
@@ -3101,6 +3341,24 @@
     "frameAncestors": [
       "'self'",
       "*"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "Nicaea",
+    "slug": "nicaea",
+    "url": "https://nicaea.com.tr/",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.605050Z",
+    "embeddable": false,
+    "reason": "x-frame-options:DENY",
+    "status": 200,
+    "finalUrl": "https://nicaea.com.tr/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "DENY",
+    "frameAncestors": [
+      "'none'"
     ]
   },
   {
@@ -3235,6 +3493,22 @@
     "finalUrl": "https://www.novavera.com.tr/",
     "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "SAMEORIGIN",
+    "frameAncestors": []
+  },
+  {
+    "id": 414,
+    "name": "OKAY Zeytinleri",
+    "slug": "okay-zeytinleri",
+    "url": "https://www.okayzeytinleri.com/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "organik",
+    "checkedAt": "2026-03-10T12:08:12.630560Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.okayzeytinleri.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
     "frameAncestors": []
   },
   {
@@ -3508,6 +3782,25 @@
     "frameAncestors": []
   },
   {
+    "id": 417,
+    "name": "Olivogue",
+    "slug": "olivogue",
+    "url": "https://olivogue.com.tr/",
+    "region": "Aydın, Ege",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.663342Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://olivogue.com.tr/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": [
+      "'self'",
+      "*"
+    ]
+  },
+  {
     "id": 30,
     "name": "Olivos",
     "slug": "olivos",
@@ -3624,6 +3917,22 @@
     "status": 200,
     "finalUrl": "https://www.orfion.com.tr/",
     "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 418,
+    "name": "Orhangazi Zeytincilik",
+    "slug": "orhangazi-zeytincilik",
+    "url": "https://orhangazizeytin.com.tr/",
+    "region": "Urla, İzmir",
+    "category": "market-endustriyel",
+    "checkedAt": "2026-03-10T12:08:12.711099Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://orhangazizeytin.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -4042,6 +4351,30 @@
     "frameAncestors": []
   },
   {
+    "id": 420,
+    "name": "Rumeli Zeytincilik",
+    "slug": "rumeli-zeytincilik",
+    "url": "https://kiaraolive.com/",
+    "region": "Gemlik, Bursa",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.771850Z",
+    "embeddable": false,
+    "reason": "frame-ancestors:'self' godaddy.com *.godaddy.com dev-godaddy.com *.dev-godaddy.com test-godaddy.com *.test-godaddy.com",
+    "status": 200,
+    "finalUrl": "https://kiaraolive.com/",
+    "contentType": "text/html;charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": [
+      "'self'",
+      "godaddy.com",
+      "*.godaddy.com",
+      "dev-godaddy.com",
+      "*.dev-godaddy.com",
+      "test-godaddy.com",
+      "*.test-godaddy.com"
+    ]
+  },
+  {
     "id": 69,
     "name": "Sabuncugil",
     "slug": "sabuncugil",
@@ -4181,6 +4514,25 @@
     "embeddable": false,
     "reason": "SSLError",
     "error": "HTTPSConnectionPool(host='www.seferis.org', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError(\"hostname 'www.seferis.org' doesn't match 'seferis.org'\")))"
+  },
+  {
+    "id": 421,
+    "name": "Semiz Zeytin",
+    "slug": "semiz-zeytin",
+    "url": "https://www.semizzeytin.com/",
+    "region": "Gemlik, Bursa",
+    "category": "organik",
+    "checkedAt": "2026-03-10T12:08:12.811120Z",
+    "embeddable": false,
+    "reason": "frame-ancestors:'self' http://webvisor.com",
+    "status": 200,
+    "finalUrl": "https://www.semizzeytin.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": [
+      "'self'",
+      "http://webvisor.com"
+    ]
   },
   {
     "id": 71,
@@ -4905,6 +5257,22 @@
     ]
   },
   {
+    "id": 428,
+    "name": "Yeşil İris",
+    "slug": "yesil-iris",
+    "url": "https://www.yesiliris.com/",
+    "region": "Çanakkale",
+    "category": "organik",
+    "checkedAt": "2026-03-10T12:08:12.813813Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.yesiliris.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 186,
     "name": "YILANCI ZEYTİNLERİ",
     "slug": "yilanci-zeytinleri",
@@ -4931,6 +5299,22 @@
     "embeddable": false,
     "reason": "ReadTimeout",
     "error": "HTTPSConnectionPool(host='www.yudum.com.tr', port=443): Read timed out. (read timeout=8)"
+  },
+  {
+    "id": 429,
+    "name": "Yükseloğulları",
+    "slug": "yukselogullari",
+    "url": "https://www.yukselogullari.com/",
+    "region": "Türkiye geneli",
+    "category": "organik",
+    "checkedAt": "2026-03-10T12:08:12.911084Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.yukselogullari.com/",
+    "contentType": "text/html; Charset=ISO-8859-9",
+    "xFrameOptions": "",
+    "frameAncestors": []
   },
   {
     "id": 351,
@@ -5130,6 +5514,22 @@
     ]
   },
   {
+    "id": 431,
+    "name": "Zeyer Zeytincilik",
+    "slug": "zeyer-zeytincilik",
+    "url": "https://zeyertirilye.com/",
+    "region": "Gemlik, Bursa",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-10T12:08:12.936375Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://zeyertirilye.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 260,
     "name": "Zeytin Hanım",
     "slug": "zeytin-hanim",
@@ -5156,6 +5556,22 @@
     "embeddable": false,
     "reason": "ConnectionError",
     "error": "HTTPSConnectionPool(host='www.zeytiniskelesi.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.zeytiniskelesi.com', port=443): Failed to establish a new connection: [Errno 51] Network is unreachable\"))"
+  },
+  {
+    "id": 432,
+    "name": "ZeytinAna",
+    "slug": "zeytinana",
+    "url": "https://zeytinana.com/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "organik",
+    "checkedAt": "2026-03-10T12:08:13.035482Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://zeytinana.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
   },
   {
     "id": 124,

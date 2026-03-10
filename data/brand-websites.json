@@ -56,6 +56,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 384,
+    "name": "Akey Çatal Zeytin",
+    "slug": "akey-catal-zeytin",
+    "url": "https://akeycatalzeytin.com/",
+    "region": "Ayvacık, Çanakkale",
+    "category": "premium-butik"
+  },
+  {
     "id": 165,
     "name": "Aktepe Zeytin Zeytinyağı",
     "slug": "aktepe-zeytin-zeytinyagi",
@@ -168,6 +176,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 387,
+    "name": "Armutlu Zeytincilik",
+    "slug": "armutlu-zeytincilik",
+    "url": "https://www.armutluzeytincilik.com/",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 86,
     "name": "Arslan Zeytinyağı",
     "slug": "arslan-zeytinyagi",
@@ -246,6 +262,14 @@
     "url": "https://www.ayolis.com",
     "region": "Ayvalık, Balıkesir",
     "category": "premium-butik"
+  },
+  {
+    "id": 388,
+    "name": "Aysan",
+    "slug": "aysan",
+    "url": "https://aysanyaglari.com.tr/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 59,
@@ -448,6 +472,14 @@
     "category": "organik"
   },
   {
+    "id": 389,
+    "name": "Çobanöz Zeytincilik",
+    "slug": "cobanoz-zeytincilik",
+    "url": "https://www.cobanozzeytincilik.com/",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 131,
     "name": "Çoral",
     "slug": "coral",
@@ -509,6 +541,14 @@
     "slug": "dem-green",
     "url": "https://www.demgreenayvalik.com/",
     "region": "Urla, İzmir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 390,
+    "name": "Dervişoğlu Zeytin",
+    "slug": "dervisoglu-zeytin",
+    "url": "https://dervisogluzeytin.com/",
+    "region": "Ayvalık, Balıkesir",
     "category": "premium-butik"
   },
   {
@@ -896,6 +936,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 396,
+    "name": "Güngör Zeytin",
+    "slug": "gungor-zeytin",
+    "url": "https://gungorelit.com/",
+    "region": "Aydın, Ege",
+    "category": "organik"
+  },
+  {
     "id": 108,
     "name": "Güven Asa",
     "slug": "guven-asa",
@@ -1072,6 +1120,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 400,
+    "name": "İznik Zeytin Evi",
+    "slug": "iznik-zeytin-evi",
+    "url": "https://www.iznikzeytinevi.com/",
+    "region": "İzmir",
+    "category": "premium-butik"
+  },
+  {
     "id": 361,
     "name": "İzorya",
     "slug": "izorya",
@@ -1126,6 +1182,14 @@
     "url": "https://www.ayvalik-zeytinyagi.com/",
     "region": "Ayvalık, Balıkesir",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 401,
+    "name": "Karadane",
+    "slug": "karadane",
+    "url": "https://www.karadane.com.tr/",
+    "region": "Çanakkale",
+    "category": "premium-butik"
   },
   {
     "id": 235,
@@ -1304,6 +1368,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 402,
+    "name": "Kudret Zeytinyağları",
+    "slug": "kudret-zeytinyaglari",
+    "url": "https://kudretzeytinyaglari.com/",
+    "region": "Edremit, Balıkesir",
+    "category": "market-endustriyel"
+  },
+  {
     "id": 343,
     "name": "Kue Olive Oil",
     "slug": "kue-olive-oil",
@@ -1392,6 +1464,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 405,
+    "name": "Malhun Hatun",
+    "slug": "malhun-hatun",
+    "url": "https://malhunhatun.com/",
+    "region": "Bursa, Marmara",
+    "category": "premium-butik"
+  },
+  {
     "id": 227,
     "name": "Maraj",
     "slug": "maraj",
@@ -1432,6 +1512,14 @@
     "category": "organik"
   },
   {
+    "id": 406,
+    "name": "Mekece Işık",
+    "slug": "mekece-isik",
+    "url": "https://www.mekece.com.tr/",
+    "region": "Urla, İzmir",
+    "category": "premium-butik"
+  },
+  {
     "id": 11,
     "name": "Mera Ovası",
     "slug": "mera-ovasi",
@@ -1446,6 +1534,14 @@
     "url": "https://www.merayzeytincilik.com.tr/",
     "region": "Aydın, Ege",
     "category": "organik"
+  },
+  {
+    "id": 407,
+    "name": "Mete Zeytin",
+    "slug": "mete-zeytin",
+    "url": "https://metezeytin.com/",
+    "region": "Gemlik, Bursa",
+    "category": "premium-butik"
   },
   {
     "id": 190,
@@ -1485,6 +1581,14 @@
     "slug": "mirliya",
     "url": "https://mirliya.com.tr/",
     "region": "Türkiye geneli",
+    "category": "premium-butik"
+  },
+  {
+    "id": 408,
+    "name": "Miryağ",
+    "slug": "miryag",
+    "url": "https://miryag.com/",
+    "region": "Mudanya, Bursa",
     "category": "premium-butik"
   },
   {
@@ -1560,6 +1664,22 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 409,
+    "name": "Naif Ege Zeytincilik",
+    "slug": "naif-ege-zeytincilik",
+    "url": "https://www.naifoliveoil.com/",
+    "region": "Türkiye geneli",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 410,
+    "name": "Namlı Zeytinleri",
+    "slug": "namli-zeytinleri",
+    "url": "https://www.namlizeytinleri.com/",
+    "region": "Gemlik, Bursa",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 35,
     "name": "Nar Gourmet",
     "slug": "nar-gourmet",
@@ -1597,6 +1717,14 @@
     "slug": "nermin-hanim-zeytinligi",
     "url": "https://nerminhanim.com",
     "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
+    "id": 411,
+    "name": "Nicaea",
+    "slug": "nicaea",
+    "url": "https://nicaea.com.tr/",
+    "region": "Edremit, Balıkesir",
     "category": "premium-butik"
   },
   {
@@ -1662,6 +1790,14 @@
     "url": "https://novavera.com.tr",
     "region": "Edremit, Balıkesir",
     "category": "premium-butik"
+  },
+  {
+    "id": 414,
+    "name": "OKAY Zeytinleri",
+    "slug": "okay-zeytinleri",
+    "url": "https://www.okayzeytinleri.com/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "organik"
   },
   {
     "id": 293,
@@ -1800,6 +1936,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 417,
+    "name": "Olivogue",
+    "slug": "olivogue",
+    "url": "https://olivogue.com.tr/",
+    "region": "Aydın, Ege",
+    "category": "premium-butik"
+  },
+  {
     "id": 30,
     "name": "Olivos",
     "slug": "olivos",
@@ -1854,6 +1998,14 @@
     "url": "https://www.orfion.com.tr/",
     "region": "Ayvalık, Balıkesir",
     "category": "premium-butik"
+  },
+  {
+    "id": 418,
+    "name": "Orhangazi Zeytincilik",
+    "slug": "orhangazi-zeytincilik",
+    "url": "https://orhangazizeytin.com.tr/",
+    "region": "Urla, İzmir",
+    "category": "market-endustriyel"
   },
   {
     "id": 246,
@@ -2072,6 +2224,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 420,
+    "name": "Rumeli Zeytincilik",
+    "slug": "rumeli-zeytincilik",
+    "url": "https://kiaraolive.com/",
+    "region": "Gemlik, Bursa",
+    "category": "premium-butik"
+  },
+  {
     "id": 69,
     "name": "Sabuncugil",
     "slug": "sabuncugil",
@@ -2141,6 +2301,14 @@
     "slug": "seferis",
     "url": "https://www.seferis.org/",
     "region": "Seferihisar, İzmir",
+    "category": "organik"
+  },
+  {
+    "id": 421,
+    "name": "Semiz Zeytin",
+    "slug": "semiz-zeytin",
+    "url": "https://www.semizzeytin.com/",
+    "region": "Gemlik, Bursa",
     "category": "organik"
   },
   {
@@ -2504,6 +2672,14 @@
     "category": "organik"
   },
   {
+    "id": 428,
+    "name": "Yeşil İris",
+    "slug": "yesil-iris",
+    "url": "https://www.yesiliris.com/",
+    "region": "Çanakkale",
+    "category": "organik"
+  },
+  {
     "id": 186,
     "name": "YILANCI ZEYTİNLERİ",
     "slug": "yilanci-zeytinleri",
@@ -2518,6 +2694,14 @@
     "url": "https://www.yudum.com.tr",
     "region": "İstanbul",
     "category": "market-endustriyel"
+  },
+  {
+    "id": 429,
+    "name": "Yükseloğulları",
+    "slug": "yukselogullari",
+    "url": "https://www.yukselogullari.com/",
+    "region": "Türkiye geneli",
+    "category": "organik"
   },
   {
     "id": 351,
@@ -2616,6 +2800,14 @@
     "category": "bolgesel-yerel"
   },
   {
+    "id": 431,
+    "name": "Zeyer Zeytincilik",
+    "slug": "zeyer-zeytincilik",
+    "url": "https://zeyertirilye.com/",
+    "region": "Gemlik, Bursa",
+    "category": "premium-butik"
+  },
+  {
     "id": 260,
     "name": "Zeytin Hanım",
     "slug": "zeytin-hanim",
@@ -2630,6 +2822,14 @@
     "url": "https://www.zeytiniskelesi.com",
     "region": "Türkiye geneli",
     "category": "bolgesel-yerel"
+  },
+  {
+    "id": 432,
+    "name": "ZeytinAna",
+    "slug": "zeytinana",
+    "url": "https://zeytinana.com/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "organik"
   },
   {
     "id": 124,

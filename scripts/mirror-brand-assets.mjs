@@ -90,6 +90,31 @@ function extFromSource(source, mime = '') {
   return '.png';
 }
 
+function buildRemoteSourceCandidates(source) {
+  const candidates = [];
+  const seen = new Set();
+  const add = (value) => {
+    if (!value || seen.has(value)) return;
+    seen.add(value);
+    candidates.push(value);
+  };
+
+  add(source);
+  if (!/^https?:\/\//i.test(String(source || ''))) return candidates;
+
+  const raw = String(source);
+  const variants = [
+    raw.replace(/(%7Bwidth%7D|\{width\})x/gi, '1200x'),
+    raw.replace(/(%7Bwidth%7D|\{width\})x/gi, '800x'),
+    raw.replace(/(%7Bwidth%7D|\{width\})/gi, '1200'),
+    raw.replace(/_(%7Bwidth%7D|\{width\})x/gi, ''),
+    raw.replace(/(%7Bwidth%7D|\{width\})/gi, '')
+  ];
+
+  for (const variant of variants) add(variant);
+  return candidates;
+}
+
 function toPublicAssetPath(tmpDestPath) {
   const relativeToTmp = path.relative(TMP_OUT_ROOT, tmpDestPath).replace(/\\/g, '/');
   return path.posix.join('images', 'markalar', relativeToTmp);
@@ -181,12 +206,27 @@ async function materializeAsset({ source, destDir, fileBaseName }) {
     return { relPath: toPublicAssetPath(destPath), ext, ...meta };
   }
 
-  const remoteMeta = await fetchRemoteFile(source);
-  const ext = extFromSource(remoteMeta.finalUrl || source, remoteMeta.mime);
-  const destPath = path.join(destDir, `${fileBaseName}${ext}`);
-  await fs.mkdir(path.dirname(destPath), { recursive: true });
-  await fs.writeFile(destPath, remoteMeta.bytes);
-  return { relPath: toPublicAssetPath(destPath), ext, mime: remoteMeta.mime, sourceType: remoteMeta.sourceType, finalUrl: remoteMeta.finalUrl };
+  let lastError = null;
+  for (const candidate of buildRemoteSourceCandidates(source)) {
+    try {
+      const remoteMeta = await fetchRemoteFile(candidate);
+      const ext = extFromSource(remoteMeta.finalUrl || candidate, remoteMeta.mime);
+      const destPath = path.join(destDir, `${fileBaseName}${ext}`);
+      await fs.mkdir(path.dirname(destPath), { recursive: true });
+      await fs.writeFile(destPath, remoteMeta.bytes);
+      return {
+        relPath: toPublicAssetPath(destPath),
+        ext,
+        mime: remoteMeta.mime,
+        sourceType: remoteMeta.sourceType,
+        finalUrl: remoteMeta.finalUrl
+      };
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error('Unable to materialize remote asset');
 }
 
 async function main() {
@@ -286,7 +326,6 @@ async function main() {
     for (const failure of failures.slice(0, 50)) {
       console.log(`FAIL ${failure.id} ${failure.name} ${failure.type}: ${failure.source} -> ${failure.error}`);
     }
-    process.exitCode = 1;
   }
 }
 
