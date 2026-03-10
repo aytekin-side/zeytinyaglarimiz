@@ -216,6 +216,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 21,
+    "name": "Edremit Körfezi",
+    "slug": "edremit-korfezi",
+    "url": "https://edremitzeytinyagi.com.tr/",
+    "region": "Edremit, Balıkesir",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 275,
     "name": "Edremit’in Zeytini",
     "slug": "edremitin-zeytini",
@@ -656,6 +664,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 48,
+    "name": "Milas Zeytinyağları",
+    "slug": "milas-zeytinyaglari",
+    "url": "https://milasyag.com.tr/",
+    "region": "Milas, Muğla",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 111,
     "name": "Milasso",
     "slug": "milasso",
@@ -1000,6 +1016,14 @@
     "category": "organik"
   },
   {
+    "id": 40,
+    "name": "Polat Zeytinyağı",
+    "slug": "polat-zeytinyagi",
+    "url": "https://www.polattarim.com.tr/",
+    "region": "Ege Bölgesi",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 232,
     "name": "Polea Natural",
     "slug": "polea-natural",
@@ -1286,6 +1310,14 @@
     "url": "https://zeyertirilye.com/",
     "region": "Gemlik, Bursa",
     "category": "premium-butik"
+  },
+  {
+    "id": 23,
+    "name": "Zeytin Dalı",
+    "slug": "zeytin-dali",
+    "url": "https://organikzeytindali.com/",
+    "region": "Ege Bölgesi",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 260,

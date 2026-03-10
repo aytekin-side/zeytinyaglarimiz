@@ -2378,21 +2378,148 @@
     "id": 21,
     "name": "Edremit Körfezi",
     "slug": "edremit-korfezi",
-    "website": null,
-    "rawPages": [],
+    "website": "https://edremitzeytinyagi.com.tr/",
+    "rawPages": [
+      {
+        "kind": "home",
+        "url": "https://edremitzeytinyagi.com.tr/",
+        "statusCode": 200,
+        "title": "Ana Sayfa - Edremit Zeytinyağı Coğrafi İşareti",
+        "headings": [
+          "Edremit Zeytinyağı",
+          "Coğrafi İşareti",
+          "Coğrafi İşaret Nedir?",
+          "Bizden Haberler"
+        ],
+        "blocks": [
+          "Coğrafi İşretli Markalar",
+          "Coğrafi İşaret Nedir?",
+          "Coğrafi İşaretin Adı : Edremit Zeytinyağı",
+          "Zeytinyağı / Tereyağı dâhil katı ve sıvı yağlar",
+          "Coğrafi İşaretin Türü :",
+          "Başvuru Yapan : Edremit Ticaret Odası",
+          "Başvuru Yapanın Adresi :",
+          "Camivasat Mah. Menderes Blv. No:45 10300 Edremit/Balıkesir",
+          "Kuzeyde Kazdağları, batıda Çanakkale Ayvacık ilçesine bağlı Küçükkuyu beldesi ile Edremit ilçesi sınırında akan Çanakkale/Balıkesir il sınırı kesişme noktasını da teşkil eden Mıhlı Çayı, doğuda Havran ilçesi ile yine Balıkesir iline bağlı olan Burhaniye ilçesi sınırları ile çevrelenen yaklaşık 224.580 dekar alandır.",
+          "Coğrafi işaret, tüketiciler için ürünün kaynağını, karakteristik özelliklerini ve ürünün söz konusu karakteristik özellikleri ile coğrafi alan arasındaki bağlantıyı gösteren ve garanti eden kalite işaretidir. Coğrafi işaret tescili ile kalitesi, gelenekselliği, yöreden elde edilen hammaddesi ile yerel niteliklere bağlı olarak belli bir üne kavuşmuş ürünlerin korunması sağlanır."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://edremitzeytinyagi.com.tr/zamana-meydan-okuyan-miras-edremit-zeytinyaginin-tazelik-sirri/",
+        "statusCode": 200,
+        "title": "Zamana Meydan Okuyan Miras: Edremit Zeytinyağının Tazelik Sırrı - Edremit Zeytinyağı Coğrafi İşareti",
+        "headings": [
+          "Zamana Meydan Okuyan Miras: Edremit Zeytinyağının Tazelik Sırrı",
+          "Diğer Haberler"
+        ],
+        "blocks": [
+          "Coğrafi İşretli Markalar",
+          "Coğrafi İşaret Nedir?",
+          "Zamana Meydan Okuyan Miras: Edremit Zeytinyağının Tazelik Sırrı",
+          "Zamana Meydan Okuyan Miras: Edremit…",
+          "Edremit zeytinlerinden elde edilen zeytinyağı, yalnızca tadıyla değil, yıllara meydan okuyan dayanıklılığıyla da bilinir. Birçok zeytinyağı çeşidi zamanla aromasını kaybederken, Edremit Zeytinyağı uzun süre taze kalmayı başarır. Bu durum, bölgede yetişen zeytinin doğasından üretim yöntemlerine kadar uzanan bir hikâyenin sonucudur.",
+          "Bu hikâye, Edremit Körfezi’nin kendine özgü iklimiyle başlar. Bölge, serin esintilerin sıcak yazlarla dengelendiği, zeytinlerin yavaş ama sağlıklı bir şekilde olgunlaştığı bir coğrafyadır. Rüzgârın taşıdığı serinlik, güneşin verdiği enerjiyle birleştiğinde zeytinler daha dayanıklı bir yapı kazanır. Bu dayanıklılık, yağın kimyasal istikrarına doğrudan katkı sağlar. Olgunlaşmasını aceleye getirmeyen Edremit zeytini, içeriğinde kararlı bir yağ yapısı geliştirir.",
+          "Edremit Zeytinyağının uzun raf ömrünün en görünmez kahramanlarından biri de",
+          ". Edremit çeşidinin doğal olarak yüksek oleik asit oranı, yağı oksidasyona karşı korur. Oksidasyon, zeytinyağının zamanla acılaşmasına ve aroma kaybetmesine neden olan süreçtir. Oleik asit ne kadar yüksekse, bu süreç o kadar yavaş işler. Bu nedenle Edremit Zeytinyağının tadı ve kokusu, şişede aylar geçse bile etkileyici biçimde korunur.",
+          "Fenolik bileşikler de hikâyenin bir diğer parçasıdır. Zeytinyağının “koruyucu zırhı” olarak bilinen bu bileşikler, yağın hem sağlıklı yapısını destekler hem de bozulmaya karşı direnç kazandırır. Edremit zeytinleri, dengeli iklim sayesinde bu fenolik yapıyı doğal olarak güçlü bir seviyede taşır. Bu sayede yağ, oksijenle temas ettiğinde bile karakterini kolay kolay kaybetmez.",
+          "Ama raf ömrünü uzatan yalnızca zeytinin doğası değildir; Edremit bölgesindeki geleneksel üretim anlayışı da bu dayanıklılığın önemli bir parçasıdır. Zeytinler genellikle zarar görmeyecek yöntemlerle toplanır, bekletilmeden sıkıma alınır ve temiz bir meyve suyu elde edilir. Hasattan sıkıma giden bu özenli yol, yağın daha ilk aşamada oksidasyon riskini azaltır. “Temiz meyve suyu”, daha uzun süre taze kalır; kokusu ve tadı zamana karşı çok daha dayanıklıdır."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://edremitzeytinyagi.com.tr/edremit-zeytin-agacinin-1000-yillik-hikayesi-bolgenin-kulturel-mirasi/",
+        "statusCode": 200,
+        "title": "Edremit Zeytin Ağacının 1000 Yıllık Hikâyesi: Bölgenin Kültürel Mirası - Edremit Zeytinyağı Coğrafi İşareti",
+        "headings": [
+          "Edremit Zeytin Ağacının 1000 Yıllık Hikâyesi: Bölgenin Kültürel Mirası",
+          "Diğer Haberler"
+        ],
+        "blocks": [
+          "Coğrafi İşretli Markalar",
+          "Coğrafi İşaret Nedir?",
+          "Edremit Zeytin Ağacının 1000 Yıllık Hikâyesi: Bölgenin Kültürel Mirası",
+          "Edremit Zeytin Ağacının 1000 Yıllık…",
+          "Edremit Körfezi, yalnızca zeytin ağaçlarının yetiştiği bir bölge değil; binlerce yıldır Akdeniz medeniyetlerinin kesişim noktası olan bir kültür havzasıdır. Bölgenin bereketli topraklarında büyüyen zeytin ağaçları, tarih boyunca hem insanların yaşam biçimini hem de ekonomik düzenini şekillendirmiştir. Bugün Edremit Zeytinyağı olarak bildiğimiz lezzetin arkasında, uzun soluklu bir kültürel yolculuk ve neredeyse kutsal sayılabilecek bir ağaç geleneği bulunur.",
+          "Zeytin ağacı, Edremit coğrafyasında sadece bir bitki değildir; pek çok aile için geçmişin hatıralarını taşıyan bir mirastır. Bölgedeki birçok zeytin ağacının yaşı 300, 500, hatta 1000 yılı bulur. Bu ağaçlar, Osmanlı’dan önceki beylik dönemlerini, Roma ve Bizans ticaret yollarını ve Antik Çağ’ın tarım kültürünü görmüş canlı tanıklardır. Bir zeytin ağacının gövdesindeki her kıvrım, her çatlak, Edremit’in rüzgârını, yağmurunu, güneşini ve tarih boyunca yaşadığı kırılmaları içinde saklar.",
+          "Antik çağda Edremit Körfezi, zeytinyağı ticaretinin merkezlerinden biri olarak biliniyordu. Ezine’den Ayvalık’a uzanan sahil hattı, antik limanlarla doluydu ve bu limanlardan özellikle zeytinyağı amphoraları taşınıyordu. O dönemlerde Edremit’ten çıkan yağlar, Ege adalarına, Anadolu içlerine ve Akdeniz’in batısına kadar uzanan geniş bir ticaret ağının parçası olmuştu. Bu ticaret yalnızca ekonomik bir faaliyet değil, Edremit’in kültürel kimliğinin de şekillendiği bir süreçti. Zeytin ağacı, bölge halkının üretim biçimlerini, ritüellerini, hatta yaşam felsefelerini belirliyordu.",
+          "Edremit halkı için zeytin toplamak bir işten çok daha fazlasıdır. Hasat zamanı, ailelerin bir araya geldiği, yemeklerin paylaşıldığı, uzun sohbetlerin yapıldığı bir kültür şölenine dönüşür. Her evde nesilden nesile aktarılan el presleri, eski toplama eldivenleri ya da büyüklerin sakladığı zeytinyağı tenekeleri, bu kültürün yaşayan parçalarıdır. Edremit’in zeytinyağı yalnızca bir ürün değil; geçmişle bugün arasında kurulan bir bağdır.",
+          "Bu kültürel mirasın bir başka önemli yönü de zeytin ağacının kutsallığıdır. Zeytin, Akdeniz’de barışı, bereketi ve ölümsüzlüğü temsil eder. Edremit Körfezi’nde yaşlı bir zeytin ağacına zarar vermek neredeyse büyük bir saygısızlık olarak görülür. Çünkü o ağaç, geçmiş kuşakların emeğini, bölgenin karakterini ve yaşam döngüsünü temsil eder. Birçok aile, en yaşlı zeytin ağacını ata yadigârı sayar ve nesiller boyunca korur.",
+          "Bugün Edremit Zeytinyağı coğrafi işaretle korunurken, aslında bu koruma yalnızca bir gıda ürününü değil, binlerce yıllık bir kültürel arşivi de kapsar. Toprak yapısı, rüzgâr sistemi, geleneksel hasat yöntemleri ve bölgedeki üreticilerin bilgi birikimi, bir anlamda kolektif bir hafızayı oluşturur. Edremit Zeytinyağı, bu nedenle asla sadece bir üretim sonucu değildir; bölgenin insanının, doğasının ve tarihinin ortak eseridir."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://edremitzeytinyagi.com.tr/iletisim/",
+        "statusCode": 200,
+        "title": "İletişim - Edremit Zeytinyağı Coğrafi İşareti",
+        "headings": [
+          "Edremit Ticaret Odası",
+          "Bize Mesaj Gönderin"
+        ],
+        "blocks": [
+          "Coğrafi İşretli Markalar",
+          "Coğrafi İşaret Nedir?",
+          "Edremit Ticaret Odası",
+          "Camivasat Mh., Menderes Blv., No:45 Edremit/Balıkesir",
+          "edremitto@tobb.org.tr",
+          "edremitto@hs01.kep.tr",
+          "E-posta adresiniz (gerekli)"
+        ],
+        "error": ""
+      }
+    ],
     "contact": {
-      "website": null,
-      "addresses": [],
-      "phones": [],
-      "emails": [],
+      "website": "https://edremitzeytinyagi.com.tr/",
+      "addresses": [
+        "Camivasat Mah. Menderes Blv. No:45 10300 Edremit/Balıkesir",
+        "Kuzeyde Kazdağları, batıda Çanakkale Ayvacık ilçesine bağlı Küçükkuyu beldesi ile Edremit ilçesi sınırında akan Çanakkale/Balıkesir il sınırı kesişme noktasını da teşkil eden Mıhlı Çayı, doğuda Havran ilçesi ile yine Balıkesir iline bağlı olan Burhaniye ilçesi sınırları ile çevrelenen yaklaşık 224.580 dekar alandır."
+      ],
+      "phones": [
+        "+90 266 373 10 61",
+        "+90 266 373 39 63"
+      ],
+      "emails": [
+        "edremitto@tobb.org.tr",
+        "edremitto@hs01.kep.tr"
+      ],
       "whatsapp": []
     },
-    "contactSources": [],
+    "contactSources": [
+      "https://edremitzeytinyagi.com.tr/",
+      "https://edremitzeytinyagi.com.tr/iletisim/"
+    ],
     "about": {
-      "headings": [],
-      "paragraphs": [],
-      "images": [],
-      "sourceUrls": []
+      "headings": [
+        "Edremit Zeytinyağı",
+        "Coğrafi İşareti",
+        "Coğrafi İşaret Nedir?",
+        "Bizden Haberler",
+        "Zamana Meydan Okuyan Miras: Edremit Zeytinyağının Tazelik Sırrı",
+        "Diğer Haberler",
+        "Edremit Zeytin Ağacının 1000 Yıllık Hikâyesi: Bölgenin Kültürel Mirası"
+      ],
+      "paragraphs": [
+        "Camivasat Mah. Menderes Blv. No:45 10300 Edremit/Balıkesir",
+        "Kuzeyde Kazdağları, batıda Çanakkale Ayvacık ilçesine bağlı Küçükkuyu beldesi ile Edremit ilçesi sınırında akan Çanakkale/Balıkesir il sınırı kesişme noktasını da teşkil eden Mıhlı Çayı, doğuda Havran ilçesi ile yine Balıkesir iline bağlı olan Burhaniye ilçesi sınırları ile çevrelenen yaklaşık 224.580 dekar alandır.",
+        "Coğrafi işaret, tüketiciler için ürünün kaynağını, karakteristik özelliklerini ve ürünün söz konusu karakteristik özellikleri ile coğrafi alan arasındaki bağlantıyı gösteren ve garanti eden kalite işaretidir. Coğrafi işaret tescili ile kalitesi, gelenekselliği, yöreden elde edilen hammaddesi ile yerel niteliklere bağlı olarak belli bir üne kavuşmuş ürünlerin korunması sağlanır.",
+        "Zamana Meydan Okuyan Miras: Edremit Zeytinyağının Tazelik Sırrı",
+        "Edremit zeytinlerinden elde edilen zeytinyağı, yalnızca tadıyla değil, yıllara meydan okuyan dayanıklılığıyla da bilinir. Birçok zeytinyağı çeşidi zamanla aromasını kaybederken, Edremit Zeytinyağı uzun süre taze kalmayı başarır. Bu durum, bölgede yetişen zeytinin doğasından üretim yöntemlerine kadar uzanan bir hikâyenin sonucudur.",
+        "Edremit Zeytinyağının uzun raf ömrünün en görünmez kahramanlarından biri de",
+        ". Edremit çeşidinin doğal olarak yüksek oleik asit oranı, yağı oksidasyona karşı korur. Oksidasyon, zeytinyağının zamanla acılaşmasına ve aroma kaybetmesine neden olan süreçtir. Oleik asit ne kadar yüksekse, bu süreç o kadar yavaş işler. Bu nedenle Edremit Zeytinyağının tadı ve kokusu, şişede aylar geçse bile etkileyici biçimde korunur.",
+        "Fenolik bileşikler de hikâyenin bir diğer parçasıdır. Zeytinyağının “koruyucu zırhı” olarak bilinen bu bileşikler, yağın hem sağlıklı yapısını destekler hem de bozulmaya karşı direnç kazandırır. Edremit zeytinleri, dengeli iklim sayesinde bu fenolik yapıyı doğal olarak güçlü bir seviyede taşır. Bu sayede yağ, oksijenle temas ettiğinde bile karakterini kolay kolay kaybetmez."
+      ],
+      "images": [
+        "images/markalar/edremit-korfezi/edremit-korfezi-about-01.jpg",
+        "images/markalar/edremit-korfezi/edremit-korfezi-about-02.jpg"
+      ],
+      "sourceUrls": [
+        "https://edremitzeytinyagi.com.tr/zamana-meydan-okuyan-miras-edremit-zeytinyaginin-tazelik-sirri/",
+        "https://edremitzeytinyagi.com.tr/edremit-zeytin-agacinin-1000-yillik-hikayesi-bolgenin-kulturel-mirasi/"
+      ]
     },
     "summary": "Edremit Körfezi, Edremit, Balıkesir çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
     "sections": [
@@ -2400,15 +2527,17 @@
         "title": "Edremit Körfezi hikayesi",
         "paragraphs": [
           "Edremit Körfezi, Edremit, Balıkesir tarafının yer duygusunu sofraya taşır. Edremit, Balıkesir çıkışlı bu yağ, geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Edremit Körfezi, Edremit, Balıkesir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler."
+          "Edremit Körfezi, Edremit, Balıkesir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
+          "Zamana Meydan Okuyan Miras: Edremit Zeytinyağının Tazelik Sırrı"
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Edremit Körfezi anlatılırken önce damakta bıraktığı iz öne çıkar. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Edremit Körfezi tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir."
+          "Camivasat Mah. Menderes Blv. No:45 10300 Edremit/Balıkesir",
+          "Kuzeyde Kazdağları, batıda Çanakkale Ayvacık ilçesine bağlı Küçükkuyu beldesi ile Edremit ilçesi sınırında akan Çanakkale/Balıkesir il sınırı kesişme noktasını da teşkil eden Mıhlı Çayı, doğuda Havran ilçesi ile yine Balıkesir iline bağlı olan Burhaniye ilçesi sınırları ile çevrelenen yaklaşık 224.580 dekar alandır.",
+          "Coğrafi işaret, tüketiciler için ürünün kaynağını, karakteristik özelliklerini ve ürünün söz konusu karakteristik özellikleri ile coğrafi alan arasındaki bağlantıyı gösteren ve garanti eden kalite işaretidir. Coğrafi işaret tescili ile kalitesi, gelenekselliği, yöreden elde edilen hammaddesi ile yerel niteliklere bağlı olarak belli bir üne kavuşmuş ürünlerin korunması sağlanır.",
+          "Edremit zeytinlerinden elde edilen zeytinyağı, yalnızca tadıyla değil, yıllara meydan okuyan dayanıklılığıyla da bilinir. Birçok zeytinyağı çeşidi zamanla aromasını kaybederken, Edremit Zeytinyağı uzun süre taze kalmayı başarır. Bu durum, bölgede yetişen zeytinin doğasından üretim yöntemlerine kadar uzanan bir hikâyenin sonucudur."
         ]
       },
       {
@@ -2417,7 +2546,8 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Edremit Körfezi anlatılırken önce damakta bıraktığı iz öne çıkar. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Edremit Körfezi tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+          "Edremit Zeytinyağının uzun raf ömrünün en görünmez kahramanlarından biri de"
         ]
       },
       {
@@ -2426,7 +2556,8 @@
           "Edremit Körfezi alındığında yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim alınmış olur. Bu yüzden şişenin bıraktığı genel iz, ürünün uzun vadede mutfakta yer bulup bulmayacağını da belirler.",
           "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
-          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir."
+          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
+          ". Edremit çeşidinin doğal olarak yüksek oleik asit oranı, yağı oksidasyona karşı korur. Oksidasyon, zeytinyağının zamanla acılaşmasına ve aroma kaybetmesine neden olan süreçtir. Oleik asit ne kadar yüksekse, bu süreç o kadar yavaş işler. Bu nedenle Edremit Zeytinyağının tadı ve kokusu, şişede aylar geçse bile etkileyici biçimde korunur."
         ]
       }
     ]
@@ -2492,21 +2623,129 @@
     "id": 23,
     "name": "Zeytin Dalı",
     "slug": "zeytin-dali",
-    "website": null,
-    "rawPages": [],
+    "website": "https://organikzeytindali.com/",
+    "rawPages": [
+      {
+        "kind": "home",
+        "url": "https://organikzeytindali.com/",
+        "statusCode": 200,
+        "title": "Organik Zeytin Dalı - Organik Zeytin Yağı",
+        "headings": [
+          "Doğanın Armağanı: Saf Zeytin Yağı",
+          "ZEYTİN DALI",
+          "Hakkımızda",
+          "ÜRÜNLERİMİZ",
+          "Doğallıkla Dolu Sofralar İçin",
+          "Şimdi Keşfet: Saf Lezzetin Kaynağı",
+          "Memnun Müşteri",
+          "Doğanın Saf Hediyesi: Organik Zeytin Yağı"
+        ],
+        "blocks": [
+          "info@organikzeytindali.com",
+          "Soğuk Sıkım Zeytinyağı 250ml",
+          "Soğuk Sıkım Zeytinyağı 750ml",
+          "Soğuk Sıkım Zeytinyağı 2lt",
+          "Soğuk Sıkım Zeytinyağı 5lt",
+          "Doğanın Armağanı: Saf Zeytin Yağı",
+          "Sağlıklı bir yaşam sürdürmenin anahtarlarından biri olan zeytin yağı ile tanışın. Yüksek kaliteli zeytinlerimizden elde edilen doğal zeytin yağlarımız, mutfaklarınızın vazgeçilmezi olacak. Sağlık ve lezzeti bir arada sunuyoruz.",
+          "Sağlıklı Yaşamın Sırrı",
+          "Sağlıklı bir yaşam sürdürmenin anahtarlarından biri olan zeytin yağı ile tanışın.",
+          "Zeytinin yolculuğu; hasattan şişeye, her damlada kalite ve tazelik."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://organikzeytindali.com/hakkimizda/",
+        "statusCode": 200,
+        "title": "Hakkımızda - Organik Zeytin Dalı",
+        "headings": [
+          "Hakkımızda",
+          "ZEYTİN DALI",
+          "Hayatınıza Lezzet Katın: Hemen Alışverişe Başlayın"
+        ],
+        "blocks": [
+          "info@organikzeytindali.com",
+          "Soğuk Sıkım Zeytinyağı 250ml",
+          "Soğuk Sıkım Zeytinyağı 750ml",
+          "Soğuk Sıkım Zeytinyağı 2lt",
+          "Soğuk Sıkım Zeytinyağı 5lt",
+          "Zeytin dalı, müşteri memnuniyeti ve üstün ürün kalitesini önceliklendiren, Ege Bölgesi’nin zengin zeytinliklerinden elde edilen zeytin yağlarıyla hizmet veren bir markadır. Ege’nin zengin ve bereketli topraklarında yetişen zeytinlerden üretilen premium zeytin yağlarımızla, sofralarınıza hem sağlık hem de lezzet katmayı amaçlıyoruz. Her bir ürünümüz, Ege’nin doğal güzelliklerini ve zeytinin saf lezzetini siz değerli müşterilerimize ulaştırmak için özenle seçilmiştir. Zeytin dalı olarak, beklentilerinizi aşmak ve sürekli iyileştirme ile sektörde öncü bir marka olma yolunda ilerliyoruz.",
+          "Global pazarda lider marka olmak.",
+          "Sürdürülebilir, yenilikçi",
+          "Sağlık, lezzetle her sofraya katmak.",
+          "Kaliteli zeytin yağları üretmek."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://organikzeytindali.com/iletisim/",
+        "statusCode": 200,
+        "title": "İletişim - Organik Zeytin Dalı",
+        "headings": [
+          "İletişim",
+          "ZEYTİN DALI"
+        ],
+        "blocks": [
+          "info@organikzeytindali.com",
+          "Soğuk Sıkım Zeytinyağı 250ml",
+          "Soğuk Sıkım Zeytinyağı 750ml",
+          "Soğuk Sıkım Zeytinyağı 2lt",
+          "Soğuk Sıkım Zeytinyağı 5lt",
+          "Doğadan Sofranıza Gelen Lezzete çok yakınsınız.",
+          "Telefon: 02322596614",
+          "Email: info@organikzeytindali.com",
+          "Adres: Teleferik Mah. Ata Cad. No: 1/A Balçova / İzmir​",
+          "Sağlıklı bir yaşam sürdürmenin anahtarlarından biri olan zeytin yağı ile tanışın. Yüksek kaliteli zeytinlerimizden elde edilen doğal zeytin yağlarımız, mutfaklarınızın vazgeçilmezi olacak. Sağlık ve lezzeti bir arada sunuyoruz."
+        ],
+        "error": ""
+      }
+    ],
     "contact": {
-      "website": null,
-      "addresses": [],
-      "phones": [],
-      "emails": [],
+      "website": "https://organikzeytindali.com/",
+      "addresses": [
+        "Teleferik Mah. Ata Cad. No: 1/A Balçova / İZMİR",
+        "Adres: Teleferik Mah. Ata Cad. No: 1/A Balçova / İzmir​"
+      ],
+      "phones": [
+        "+90 232 259 66 14"
+      ],
+      "emails": [
+        "info@organikzeytindali.com"
+      ],
       "whatsapp": []
     },
-    "contactSources": [],
+    "contactSources": [
+      "https://organikzeytindali.com/",
+      "https://organikzeytindali.com/hakkimizda/",
+      "https://organikzeytindali.com/iletisim/"
+    ],
     "about": {
-      "headings": [],
-      "paragraphs": [],
-      "images": [],
-      "sourceUrls": []
+      "headings": [
+        "Doğanın Armağanı: Saf Zeytin Yağı",
+        "ZEYTİN DALI",
+        "Hakkımızda",
+        "ÜRÜNLERİMİZ",
+        "Doğallıkla Dolu Sofralar İçin",
+        "Şimdi Keşfet: Saf Lezzetin Kaynağı",
+        "Memnun Müşteri",
+        "Doğanın Saf Hediyesi: Organik Zeytin Yağı"
+      ],
+      "paragraphs": [
+        "Sağlıklı bir yaşam sürdürmenin anahtarlarından biri olan zeytin yağı ile tanışın. Yüksek kaliteli zeytinlerimizden elde edilen doğal zeytin yağlarımız, mutfaklarınızın vazgeçilmezi olacak. Sağlık ve lezzeti bir arada sunuyoruz.",
+        "Sağlıklı bir yaşam sürdürmenin anahtarlarından biri olan zeytin yağı ile tanışın.",
+        "Zeytinin yolculuğu; hasattan şişeye, her damlada kalite ve tazelik.",
+        "Anadolu'nun sırrı damlalarında; yemeklere eşsiz aroma, zengin lezzet katan zeytin yağımız.",
+        "Kaliteden ödün vermeden hazırladığımız zeytin yağlarımızı keşfetmek için web sitemizi ziyaret edin ve sağlıklı bir yaşama adım atın. İster kendiniz için, ister sevdikleriniz için, her seçim bir hediye. Şimdi alışverişe başlayın ve Zeytin dalı farkını yaşayın. Sofralarınızın vazgeçilmez lezzeti sizi bekliyor!"
+      ],
+      "images": [
+        "images/markalar/zeytin-dali/zeytin-dali-about-01.jpg",
+        "images/markalar/zeytin-dali/zeytin-dali-about-02.jpg"
+      ],
+      "sourceUrls": [
+        "https://organikzeytindali.com/hakkimizda/"
+      ]
     },
     "summary": "Zeytin Dalı, Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
     "sections": [
@@ -2514,15 +2753,17 @@
         "title": "Zeytin Dalı hikayesi",
         "paragraphs": [
           "Zeytin Dalı, Ege Bölgesi tarafının yer duygusunu sofraya taşır. Ege Bölgesi çıkışlı bu yağ, geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Zeytin Dalı, Ege Bölgesi tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler."
+          "Zeytin Dalı, Ege Bölgesi tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
+          "Anadolu'nun sırrı damlalarında; yemeklere eşsiz aroma, zengin lezzet katan zeytin yağımız."
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Zeytin Dalı anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Zeytin Dalı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir."
+          "Sağlıklı bir yaşam sürdürmenin anahtarlarından biri olan zeytin yağı ile tanışın. Yüksek kaliteli zeytinlerimizden elde edilen doğal zeytin yağlarımız, mutfaklarınızın vazgeçilmezi olacak. Sağlık ve lezzeti bir arada sunuyoruz.",
+          "Sağlıklı bir yaşam sürdürmenin anahtarlarından biri olan zeytin yağı ile tanışın.",
+          "Zeytinin yolculuğu; hasattan şişeye, her damlada kalite ve tazelik.",
+          "Kaliteden ödün vermeden hazırladığımız zeytin yağlarımızı keşfetmek için web sitemizi ziyaret edin ve sağlıklı bir yaşama adım atın. İster kendiniz için, ister sevdikleriniz için, her seçim bir hediye. Şimdi alışverişe başlayın ve Zeytin dalı farkını yaşayın. Sofralarınızın vazgeçilmez lezzeti sizi bekliyor!"
         ]
       },
       {
@@ -2531,7 +2772,7 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Zeytin Dalı anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Zeytin Dalı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
         ]
       },
       {
@@ -2606,21 +2847,101 @@
     "id": 25,
     "name": "Bereket",
     "slug": "bereket",
-    "website": null,
-    "rawPages": [],
+    "website": "https://bereketnatural.com/",
+    "rawPages": [
+      {
+        "kind": "home",
+        "url": "https://bereketnatural.com/",
+        "statusCode": 200,
+        "title": "Bereket Natural Avrupa'nın En Özel Türk Yöresel Ürünleri Satıcısı",
+        "headings": [
+          "Ülke/bölge",
+          "Ürün sepetinize eklendi",
+          "Orjinal SÜRMENE Bıçakları",
+          "Çeşitlerimiz",
+          "En çok Satılanlar",
+          "Doğal Olarak Bizden!",
+          "Teslimat ve İade",
+          "Teslimat"
+        ],
+        "blocks": [
+          "EKSTRA İNDİRİMLİ ÜRÜNLER",
+          "Lokumlar Ve Pestiller",
+          "Pekmezler Ve Reçeller",
+          "Zeytinler ve zeytinyağları",
+          "Orjinal SÜRMENE Bıçakları",
+          "NATURAL KURU MEYVELER",
+          "LOKUMLAR VE PESTİLLER",
+          "SİRKELER VE TURŞULAR",
+          "Tüm siparişleriniz 2 gün içerisinde kargolanır.",
+          "ANTEP DOMATES SALCASI GUN KURUTMA 1000 gr"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://bereketnatural.com/pages/hakkimizda",
+        "statusCode": 200,
+        "title": "Hakkımızda – Bereket Natural",
+        "headings": [
+          "Ülke/bölge",
+          "Ürün sepetinize eklendi",
+          "Hakkımızda",
+          "Bereket Natural",
+          "Mağaza"
+        ],
+        "blocks": [
+          "EKSTRA İNDİRİMLİ ÜRÜNLER",
+          "Lokumlar Ve Pestiller",
+          "Pekmezler Ve Reçeller",
+          "Zeytinler ve zeytinyağları",
+          "Sint Bernardsesteenweg 513",
+          "2660 Hoboken/Belçika",
+          "Telefon +32487372220",
+          "Genel Şartlar ve Sözleşme",
+          "Bir seçim yapmanız sayfanın tamamının yenilenmesine neden olur.",
+          "Yeni bir pencerede açılır."
+        ],
+        "error": ""
+      }
+    ],
     "contact": {
-      "website": null,
+      "website": "https://bereketnatural.com/",
       "addresses": [],
-      "phones": [],
+      "phones": [
+        "+90 324 873 72 22"
+      ],
       "emails": [],
       "whatsapp": []
     },
-    "contactSources": [],
+    "contactSources": [
+      "https://bereketnatural.com/",
+      "https://bereketnatural.com/pages/hakkimizda"
+    ],
     "about": {
-      "headings": [],
-      "paragraphs": [],
-      "images": [],
-      "sourceUrls": []
+      "headings": [
+        "Ülke/bölge",
+        "Ürün sepetinize eklendi",
+        "Orjinal SÜRMENE Bıçakları",
+        "Çeşitlerimiz",
+        "En çok Satılanlar",
+        "Doğal Olarak Bizden!",
+        "Teslimat ve İade",
+        "Teslimat"
+      ],
+      "paragraphs": [
+        "Natural Bereket, Türk yöresel ürünlerinin online adresi! birçok ürünü tek tıkla kapınıza getiriyoruz.",
+        "Satın alınan tüm ürünler en geç 2 iş günü içerisinde Belçika'dan DPD Kargo veya Post NL ile kapınıza kadar gönderimi sağlanır.",
+        "Ürünleriniz Belçika, Almanya, Avusturya, Danimarka, Finlandiya, Fransa, Yunanistan, Hollanda, İrlanda, İspanya, İsveç, Lüksemburg, Polonya, Romanya ülkelerine gönderilir.",
+        "Bir seçim yapmanız sayfanın tamamının yenilenmesine neden olur."
+      ],
+      "images": [
+        "images/markalar/bereket/bereket-about-01.jpg",
+        "images/markalar/bereket/bereket-about-02.jpg"
+      ],
+      "sourceUrls": [
+        "https://bereketnatural.com/pages/hakkimizda"
+      ]
     },
     "summary": "Bereket, Hatay, Akdeniz çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
     "sections": [
@@ -2628,15 +2949,16 @@
         "title": "Bereket hikayesi",
         "paragraphs": [
           "Bereket, Hatay, Akdeniz tarafının yer duygusunu sofraya taşır. Hatay, Akdeniz çıkışlı bu yağ, geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Bereket, Hatay, Akdeniz tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler."
+          "Bereket, Hatay, Akdeniz tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
+          "Bir seçim yapmanız sayfanın tamamının yenilenmesine neden olur."
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Bu canlılık temiz işlendiğinde hem kahvaltıda hem sıcak mutfakta güçlü karşılık bulur.",
-          "Bereket anlatılırken önce damakta bıraktığı iz öne çıkar. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya doğrudan taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Bereket tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir."
+          "Natural Bereket, Türk yöresel ürünlerinin online adresi! birçok ürünü tek tıkla kapınıza getiriyoruz.",
+          "Satın alınan tüm ürünler en geç 2 iş günü içerisinde Belçika'dan DPD Kargo veya Post NL ile kapınıza kadar gönderimi sağlanır.",
+          "Ürünleriniz Belçika, Almanya, Avusturya, Danimarka, Finlandiya, Fransa, Yunanistan, Hollanda, İrlanda, İspanya, İsveç, Lüksemburg, Polonya, Romanya ülkelerine gönderilir."
         ]
       },
       {
@@ -2645,7 +2967,7 @@
           "Akdeniz tarafının sıcak iklimi ve uzun sezonu, yağa daha güneşli ve cömert bir ifade verir. Bu canlılık temiz işlendiğinde hem kahvaltıda hem sıcak mutfakta güçlü karşılık bulur.",
           "Bereket anlatılırken önce damakta bıraktığı iz öne çıkar. Halhalı tarafının tok ve yöresini hemen hissettiren duruşunu sofraya doğrudan taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Bereket tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
         ]
       },
       {
@@ -3824,21 +4146,134 @@
     "id": 40,
     "name": "Polat Zeytinyağı",
     "slug": "polat-zeytinyagi",
-    "website": null,
-    "rawPages": [],
+    "website": "https://www.polattarim.com.tr/",
+    "rawPages": [
+      {
+        "kind": "home",
+        "url": "https://www.polattarim.com.tr/",
+        "statusCode": 200,
+        "title": "POLAT Tarım ve Gıda Olivirgin ve Dilmit Zeytinyağı – POLAT Tarım ve Gıda Olivirgin ve Dilmit Zeytinyağı",
+        "headings": [
+          "Polat Tarım",
+          "laboratuvar",
+          "Üretim",
+          "BELGELENDİRME",
+          "Ürün Kategorilerimiz",
+          "İletişim",
+          "Polat Grup",
+          "Hızlı Menü"
+        ],
+        "blocks": [
+          "Zeytinyagi Dolum Tesisi",
+          "Pirina İşleme Tesisi",
+          "Pirina Kurutma Tesisi",
+          "Polat Tarım bir Polat Grup Holding kuruluşudur. Öncelikli amacımız Polat Makine A.Ş üretmiş olduğu Kontüni sistem zeytinyağı çıkarma makinelerinin test ve kontrolünü gerçekleştirmektir. Yani Polat Tarım aynı zamanda Polat Makine A.Ş nin bir arge tesisidir.",
+          "Zamanla büyüyerek 20 dönüm arazi üzerinde kurulu olan Polat Tarım bünyesinde zeytin sıkma bölümü, zeytinyağı dolum bölümü, prina tesis bölümü ve prina kurutma bölümü olmak üzere dört adet tesisin birleşiminden oluşan bölgenin en büyük tesisi olmuştur.. Tesisimiz Türkiye’de dört tesisin aynı yerde bir bütün olarak çalışmasından dolayı tam entegre tesis olma özelliği ilk olan bir firmadır.",
+          "Ürün Kategorilerimiz",
+          "Sağlık Kaynağı Zeytinyağından Üretilen Sağlıklı Sabunlar",
+          "Ozon gazı ile birleştirilmiş saf zeytinyağı",
+          "Kuru prina çevre dostudur",
+          "Sadece çevre dostu ürünler kullandığımız için yüksek kalitede organik zeytinyağı üretiyoruz."
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://www.polattarim.com.tr/hakkimizda/",
+        "statusCode": 200,
+        "title": "Hakkımızda – POLAT Tarım ve Gıda Olivirgin ve Dilmit Zeytinyağı",
+        "headings": [
+          "Polat tarım",
+          "İletişim",
+          "Polat Grup",
+          "Hızlı Menü",
+          "Son Haberler"
+        ],
+        "blocks": [
+          "Zeytinyagi Dolum Tesisi",
+          "Pirina İşleme Tesisi",
+          "Pirina Kurutma Tesisi",
+          "Polat Tarım bir Polat Grup Holding kuruluşudur. Öncelikli amacımız Polat Makine A.Ş üretmiş olduğu Kontüni sistem zeytinyağı çıkarma makinelerinin test ve kontrolünü gerçekleştirmektir. Yani Polat Tarım aynı zamanda Polat Makine A.Ş nin bir arge tesisidir.",
+          "Zamanla büyüyerek 20 dönüm arazi üzerinde kurulu olan Polat Tarım bünyesinde zeytin sıkma bölümü, zeytinyağı dolum bölümü, prina tesis bölümü ve prina kurutma bölümü olmak üzere dört adet tesisin birleşiminden oluşan bölgenin en büyük tesisi olmuştur.. Tesisimiz Türkiye’de dört tesisin aynı yerde bir bütün olarak çalışmasından dolayı tam entegre tesis olma özelliği ilk olan bir firmadır.",
+          "Yeni Mahalle Bentbaşı Mevkii Küme evler no.29 Bozdoğan Aydın",
+          "info@polattarim.com.tr",
+          "https://polattarim.com.tr",
+          "Polat Group Reduktor",
+          "Polat Group A.E. Trade Machine"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://www.polattarim.com.tr/iletisim/",
+        "statusCode": 200,
+        "title": "İletişim – POLAT Tarım ve Gıda Olivirgin ve Dilmit Zeytinyağı",
+        "headings": [
+          "Polat tarım",
+          "İletişim",
+          "Polat Grup",
+          "Hızlı Menü",
+          "Son Haberler"
+        ],
+        "blocks": [
+          "Zeytinyagi Dolum Tesisi",
+          "Pirina İşleme Tesisi",
+          "Pirina Kurutma Tesisi",
+          "Yeni Mahalle Bentbaşı Mevkii Küme Evler No:29",
+          "info@polattarim.com.tr",
+          "Yeni Mahalle Bentbaşı Mevkii Küme evler no.29 Bozdoğan Aydın",
+          "https://polattarim.com.tr",
+          "Polat Group Reduktor",
+          "Polat Group A.E. Trade Machine",
+          "Polat Italia Group S.R.L."
+        ],
+        "error": ""
+      }
+    ],
     "contact": {
-      "website": null,
-      "addresses": [],
-      "phones": [],
-      "emails": [],
+      "website": "https://www.polattarim.com.tr/",
+      "addresses": [
+        "Yeni Mahalle Bentbaşı Mevkii Küme evler no.29 Bozdoğan Aydın",
+        "Yeni Mahalle Bentbaşı Mevkii Küme Evler No:29"
+      ],
+      "phones": [
+        "+90 256 414 11 78"
+      ],
+      "emails": [
+        "info@polattarim.com.tr"
+      ],
       "whatsapp": []
     },
-    "contactSources": [],
+    "contactSources": [
+      "https://www.polattarim.com.tr/",
+      "https://www.polattarim.com.tr/hakkimizda/",
+      "https://www.polattarim.com.tr/iletisim/"
+    ],
     "about": {
-      "headings": [],
-      "paragraphs": [],
-      "images": [],
-      "sourceUrls": []
+      "headings": [
+        "Polat Tarım",
+        "laboratuvar",
+        "Üretim",
+        "BELGELENDİRME",
+        "Ürün Kategorilerimiz",
+        "İletişim",
+        "Polat Grup",
+        "Hızlı Menü"
+      ],
+      "paragraphs": [
+        "Polat Tarım bir Polat Grup Holding kuruluşudur. Öncelikli amacımız Polat Makine A.Ş üretmiş olduğu Kontüni sistem zeytinyağı çıkarma makinelerinin test ve kontrolünü gerçekleştirmektir. Yani Polat Tarım aynı zamanda Polat Makine A.Ş nin bir arge tesisidir.",
+        "Zamanla büyüyerek 20 dönüm arazi üzerinde kurulu olan Polat Tarım bünyesinde zeytin sıkma bölümü, zeytinyağı dolum bölümü, prina tesis bölümü ve prina kurutma bölümü olmak üzere dört adet tesisin birleşiminden oluşan bölgenin en büyük tesisi olmuştur.. Tesisimiz Türkiye’de dört tesisin aynı yerde bir bütün olarak çalışmasından dolayı tam entegre tesis olma özelliği ilk olan bir firmadır.",
+        "Sağlık Kaynağı Zeytinyağından Üretilen Sağlıklı Sabunlar",
+        "Sadece çevre dostu ürünler kullandığımız için yüksek kalitede organik zeytinyağı üretiyoruz.",
+        "Yeni Mahalle Bentbaşı Mevkii Küme evler no.29 Bozdoğan Aydın"
+      ],
+      "images": [
+        "images/markalar/polat-zeytinyagi/polat-zeytinyagi-about-01.jpg",
+        "images/markalar/polat-zeytinyagi/polat-zeytinyagi-about-02.jpg"
+      ],
+      "sourceUrls": [
+        "https://www.polattarim.com.tr/hakkimizda/"
+      ]
     },
     "summary": "Polat Zeytinyağı, Ege Bölgesi çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
     "sections": [
@@ -3846,15 +4281,17 @@
         "title": "Polat Zeytinyağı hikayesi",
         "paragraphs": [
           "Polat Zeytinyağı, Ege Bölgesi tarafının yer duygusunu sofraya taşır. Ege Bölgesi çıkışlı bu yağ, geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Polat Zeytinyağı, Ege Bölgesi tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler."
+          "Polat Zeytinyağı, Ege Bölgesi tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
+          "Sadece çevre dostu ürünler kullandığımız için yüksek kalitede organik zeytinyağı üretiyoruz."
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Polat Zeytinyağı anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Polat Zeytinyağı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir."
+          "Polat Tarım bir Polat Grup Holding kuruluşudur. Öncelikli amacımız Polat Makine A.Ş üretmiş olduğu Kontüni sistem zeytinyağı çıkarma makinelerinin test ve kontrolünü gerçekleştirmektir. Yani Polat Tarım aynı zamanda Polat Makine A.Ş nin bir arge tesisidir.",
+          "Zamanla büyüyerek 20 dönüm arazi üzerinde kurulu olan Polat Tarım bünyesinde zeytin sıkma bölümü, zeytinyağı dolum bölümü, prina tesis bölümü ve prina kurutma bölümü olmak üzere dört adet tesisin birleşiminden oluşan bölgenin en büyük tesisi olmuştur.. Tesisimiz Türkiye’de dört tesisin aynı yerde bir bütün olarak çalışmasından dolayı tam entegre tesis olma özelliği ilk olan bir firmadır.",
+          "Sağlık Kaynağı Zeytinyağından Üretilen Sağlıklı Sabunlar",
+          "Yeni Mahalle Bentbaşı Mevkii Küme evler no.29 Bozdoğan Aydın"
         ]
       },
       {
@@ -3863,7 +4300,7 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Polat Zeytinyağı anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Polat Zeytinyağı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
         ]
       },
       {
@@ -4340,21 +4777,160 @@
     "id": 48,
     "name": "Milas Zeytinyağları",
     "slug": "milas-zeytinyaglari",
-    "website": null,
-    "rawPages": [],
+    "website": "https://milasyag.com.tr/",
+    "rawPages": [
+      {
+        "kind": "home",
+        "url": "https://milasyag.com.tr/",
+        "statusCode": 200,
+        "title": "MİLAS ZEYTİNYAĞI – Doğadan Gelen Sağlık",
+        "headings": [
+          "Anasayfa",
+          "Avrupa Birliği Tescilli Milas Zeytinyağı Üreticisi",
+          "ÇOK SATANLAR",
+          "Hayatı Sevenlere Doğanın Gerçek Mucizesini Sunuyoruz…",
+          "Hızlı Erişim",
+          "Bilgilendirme",
+          "İletişim"
+        ],
+        "blocks": [
+          "Doğadan Gelen Sağlık",
+          "T.C. TARIM VE ORMAN BAKANLIĞI LABORATUVAR SONUÇLARI",
+          "Avrupa Birliği Tescilli Milas Zeytinyağı Üreticisi",
+          "Milas Drupa 5 Litre Yeni Sezon",
+          "Milas Çam Balı 850 GR",
+          "Milas Oilcity İnce Uzun Şişe 500 ML",
+          "Milas Drupa 1 Litre Yeni Sezon",
+          "Milas Oilcity Kulplu Şişe 1 Litre",
+          "Milas Drupa 2 Litre Yeni sezon",
+          "Milas Yağlı Zeytin 400 GR Yeni Sezon"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://milasyag.com.tr/hakkimizda/",
+        "statusCode": 200,
+        "title": "Hakkımızda – MİLAS ZEYTİNYAĞI",
+        "headings": [
+          "Hakkımızda",
+          "Avrupa Birliği Tescilli Milas Zeytinyağı Üreticisi",
+          "Hızlı Erişim",
+          "Bilgilendirme",
+          "İletişim"
+        ],
+        "blocks": [
+          "Doğadan Gelen Sağlık",
+          "1970 yılında kolektif şirket olarak kurulan, dayanıklı tüketim malları ticaretiyle işe başlayan firmamız; daha sonra tarım makinaları, su motorları, traktör, otomotiv gibi sektörlerde de faaliyet göstermiştir. Şirketi oluşturan aile bireyleri, asıl olarak tarımsal faaliyetlere ilgi duymuş ve bu alandaki çalışmalar, onlar için her zaman ilgi çeken, merak uyandıran çalışmalar olmuştur. Şirket kurucusu için de, bu alan her zaman ilgi duyulan bir alan olmuş ve bu alana olan ilgisi de her geçen gün artmaktadır.",
+          "Kurucumuz çocukken, babaannesinin evde ayak yağı ürettiğini hiç unutamamış ve o, babaannesinin ayaklarıyla zeytin danelerini çiğneyişini, onları ezişini ilgiyle izlermiş. Bu olay, babaannesinin ayak yağı; o zamanlar kurucumuzun çocuksu ruhunda, belleğinde yer etmiş. Yine o zamanlar kontinu sistem de olmadığından, zeytinyağı preslerde ilkel yöntemlerle sıkılırdı. Kurucumuzun unutamadığı bu durumlar, içinde zeytinyağına karşı inanılmaz bir isteğin, ilginin ve sevginin oluşmasını sağladı. Bir bakıma o küçük yaşlarda, zeytinyağının billur renkli sarısına sevdalandı, ona aşık oldu. Büyüdüğünde bir zeytinyağı fabrikası kurmayı düşledi, hayal etti.",
+          "1993 yılında kolektif şirket, limited şirkete dönüştürüldü. Modern usuller ve yöntemlerle çalışan bir zeytinyağı fabrikası kurmak isteyen şirket yönetimi, bu konuda yoğun bir araştırma içine girdi. Bölgede ne kadar zeytinyağı fabrikası varsa üşenmeden ve bıkmadan hepsine gidildi ve oralarda incelemeler yapıldı. Amaç en iyi teknolojiyi yakalamak veya onlarda olmayan bir teknolojiyi hayata geçirebilmekti. Şirket yönetimi, bu inceleme ve araştırma gezilerinden çok büyük dersler çıkardı ve vardığı sonuç şu oldu: Zeytin sıkma tesisleri bilinçli ellerde değildi ve bu iş iyi yapılmıyordu.",
+          "Yıl 2000 ve karar verdik zeytinyağı sıkma tesisi kurmak için gerekli makinaları(ithal kontinu) almaya. Gerekli ruhsat ve belgeler için çok hızlı bir çalışma sergiledik. Zeytin sıkma tesisini tamamlayarak, son sistem hijyenik bir tesisi faaliyete geçirdik. Tesisimizin plan ve projeleri bütün Ege’de örnek oldu. Çok kaliteli ve leziz zeytinyağları üreterek, herkesin damak tadına uygun, beğenisini kazanan bir ürünü ortaya çıkardık. Bundan sonra ürettiğimiz zeytinyağlarının paketleme işi için ayrı bir ünite kurduk. Muğla ilinin güzel ve şirin ilçesi, kültür ve tarih kenti Milas’ımızın adını yağlarımıza marka olarak seçtik ve ürünlerimizi “",
+          "” olarak markalandırdık.",
+          "Tarım Bakanlığından almış olduğumuz üretim belgesi ile üretmiş olduğumuz ”",
+          "”, kısa zamanda kalitesini kanıtlayarak, her yerde aranır hale gelmiştir. Üretim alanımızda rafine yoktur. Tüm bölge zeytinleri organik olduğu için; tesislerimizde çok kaliteli ürün(yağ) elde edilmekte ve bu nedenle zeytinyağlarımız tamamen doğal yağ durumundadır. Pazar payımız bölgede çok yüksektir. Ürünlerimizin yurt dışı pazarlarında satılmasını sağlamak temel hedeflerimiz arasındadır. Geçmiş yıllarda dökme yağ olarak yurt dışına ihracatımızı gerçekleştirmiştik. Şimdi de, ambalajlı olarak ihracat yapıyoruz plan ve projelerimiz devam ediyor. Amacımız; markamız olan o güzel “",
+          "”nı hem iç pazarda, hem dış pazarda tüketicilere ucuz ve kaliteli bir şekilde sunabilmektir. E vitamini deposu, kolesterol içermeyen, sağlığımız için yararlı olan zeytinyağını herkese sevdirmek, bundan herkesin yararlanmasını sağlamak için şimdi fiyatlarımızı iyice aşağıya çektik. 1970 yıllarında yapılan bir araştırmada kalp hastalığına en az yakalananların Egeliler olduğu ortaya çıkmıştır. Ege Bölgesinde yaşayanların bol miktarda tükettiği zeytinyağının, bunda bir payı bulunduğu düşünüldü. Ayrıca zeytinyağı damar sertliğinin önlenmesine yardımcı olan tekli doymamış yağ, yani iyi yağ oranı ve anti-oksidonlar açısından da zengindir.1980’lerin sonunda batı ülkelerinde zeytinyağı tüketiminde büyük bir patlama yaşandı. Bu durum, bir dizi olumlu gelişmenin de aynı zamana denk gelmesinden kaynaklanıyordu.",
+          "Tüketiciler, artık bilinçli beslenmeyle daha çok ilgiliydiler, daha çok katkı maddesi içermeyen doğal/natürel ürünleri tercih ediyorlardı. İşte, kurucumuzun, babaannesinin ayak yağı çıkarmak için uğraşırken o anda hayal ettiği düş gerçek olmuş, kurulan çağdaş tesislerde elde edilen en kaliteli ve lezzetli “"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://milasyag.com.tr/magaza/",
+        "statusCode": 200,
+        "title": "Products – MİLAS ZEYTİNYAĞI",
+        "headings": [
+          "Mağaza",
+          "Milas Çam Balı 850 GR",
+          "Milas Drupa 1 Litre Yeni Sezon",
+          "Milas Drupa 2 Litre Yeni sezon",
+          "Milas Drupa 5 Litre Yeni Sezon",
+          "Milas Drupa 500 ml Yeni Sezon",
+          "Milas Oilcity Anne Bebek 250 ML",
+          "Milas Oilcity Delice 250 ML"
+        ],
+        "blocks": [
+          "Doğadan Gelen Sağlık",
+          "Showing all 11 results",
+          "Milas Çam Balı 850 GR",
+          "Milas Drupa 1 Litre Yeni Sezon",
+          "Milas Drupa 2 Litre Yeni sezon",
+          "Milas Drupa 5 Litre Yeni Sezon",
+          "Milas Drupa 500 ml Yeni Sezon",
+          "Milas Oilcity Anne Bebek 250 ML",
+          "Milas Oilcity Delice 250 ML",
+          "Milas Oilcity İnce Uzun Şişe 500 ML"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://milasyag.com.tr/iletisim/",
+        "statusCode": 200,
+        "title": "İletişim – MİLAS ZEYTİNYAĞI",
+        "headings": [
+          "İletişim",
+          "Hızlı Erişim",
+          "Bilgilendirme"
+        ],
+        "blocks": [
+          "Doğadan Gelen Sağlık",
+          "info@milasyag.com.tr",
+          "0252 559 03 45-46-47",
+          "MİLAS BODRUM KARAYOLU GÜLLÜK KAVŞAĞI, MİLAS\\ MUĞLA",
+          "Sıkça Sorulan Sorular",
+          "İade ve İptal Şartları",
+          "Kişisel Verilerin İşlenmesi",
+          "Mesafeli Satış Sözleşmesi"
+        ],
+        "error": ""
+      }
+    ],
     "contact": {
-      "website": null,
+      "website": "https://milasyag.com.tr/",
       "addresses": [],
-      "phones": [],
-      "emails": [],
+      "phones": [
+        "+90 252 559 03 45",
+        "+90 252 559 03 44"
+      ],
+      "emails": [
+        "info@milasyag.com.tr"
+      ],
       "whatsapp": []
     },
-    "contactSources": [],
+    "contactSources": [
+      "https://milasyag.com.tr/",
+      "https://milasyag.com.tr/hakkimizda/",
+      "https://milasyag.com.tr/magaza/",
+      "https://milasyag.com.tr/iletisim/"
+    ],
     "about": {
-      "headings": [],
-      "paragraphs": [],
-      "images": [],
-      "sourceUrls": []
+      "headings": [
+        "Anasayfa",
+        "Avrupa Birliği Tescilli Milas Zeytinyağı Üreticisi",
+        "ÇOK SATANLAR",
+        "Hayatı Sevenlere Doğanın Gerçek Mucizesini Sunuyoruz…",
+        "Hızlı Erişim",
+        "Bilgilendirme",
+        "İletişim",
+        "Hakkımızda"
+      ],
+      "paragraphs": [
+        "Sağlıklı beslenmede zeytinyağının önemine dikkat çeken uzmanlar",
+        "“Zeytinyağı, zayıflamanın hem genel olarak doku ve organlar hem de beyin fonksiyonları üzerindeki etkilerini azaltır.”",
+        "Uzmanlara göre Akdeniz mutfağının geleneksel lezzeti zeytinyağı, düşük kolesterollü oluşu nedeniyle kalp sağlığı açısından çok önemli.",
+        "İçeriğindeki zengin E vitamini sayesinde kanser hastalığına karşı koruyucu bir etkiye sahip.",
+        "Çocukluktan yaşlılığa kadar yaşamın her evresinde sağlık ve gelişim üzerinde son derece etkili olan zeytinyağı’nın faydaları saymakla bitmiyor;",
+        "Kalp ve damar hastalıklarının önlenmesinde önemli rol oynar.",
+        "Hücreleri korur. İçeriğindeki Oleiprine adlı madde, hücreleri yenileyerek",
+        "Tarım Bakanlığından almış olduğumuz üretim belgesi ile üretmiş olduğumuz ”"
+      ],
+      "images": [
+        "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-about-01.jpg",
+        "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-about-02.jpg"
+      ],
+      "sourceUrls": [
+        "https://milasyag.com.tr/hakkimizda/"
+      ]
     },
     "summary": "Milas Zeytinyağları, Milas, Muğla çıkışlı bir zeytinyağını geldiği yerin karakterini saklamayan bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
     "sections": [
@@ -4362,15 +4938,18 @@
         "title": "Milas Zeytinyağları hikayesi",
         "paragraphs": [
           "Milas Zeytinyağları, Milas, Muğla tarafının yer duygusunu sofraya taşır. Milas, Muğla çıkışlı bu yağ, geldiği yerin kimliğini doğrudan hissettiren bir lezzet anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Milas Zeytinyağları, Milas, Muğla tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler."
+          "Milas Zeytinyağları, Milas, Muğla tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
+          "İçeriğindeki zengin E vitamini sayesinde kanser hastalığına karşı koruyucu bir etkiye sahip.",
+          "Tarım Bakanlığından almış olduğumuz üretim belgesi ile üretmiş olduğumuz ”"
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Milas Zeytinyağları anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Milas Zeytinyağları tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir."
+          "Sağlıklı beslenmede zeytinyağının önemine dikkat çeken uzmanlar",
+          "“Zeytinyağı, zayıflamanın hem genel olarak doku ve organlar hem de beyin fonksiyonları üzerindeki etkilerini azaltır.”",
+          "Uzmanlara göre Akdeniz mutfağının geleneksel lezzeti zeytinyağı, düşük kolesterollü oluşu nedeniyle kalp sağlığı açısından çok önemli.",
+          "Çocukluktan yaşlılığa kadar yaşamın her evresinde sağlık ve gelişim üzerinde son derece etkili olan zeytinyağı’nın faydaları saymakla bitmiyor;"
         ]
       },
       {
@@ -4379,7 +4958,8 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Milas Zeytinyağları anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Milas Zeytinyağları tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+          "Kalp ve damar hastalıklarının önlenmesinde önemli rol oynar."
         ]
       },
       {
@@ -4388,7 +4968,8 @@
           "Milas Zeytinyağları alındığında yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim alınmış olur. Bu yüzden şişenin bıraktığı genel iz, ürünün uzun vadede mutfakta yer bulup bulmayacağını da belirler.",
           "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
-          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir."
+          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
+          "Hücreleri korur. İçeriğindeki Oleiprine adlı madde, hücreleri yenileyerek"
         ]
       }
     ]
@@ -4606,21 +5187,111 @@
     "id": 50,
     "name": "Naturel",
     "slug": "naturel",
-    "website": null,
-    "rawPages": [],
+    "website": "https://nedimyildiznaturel.com/",
+    "rawPages": [
+      {
+        "kind": "home",
+        "url": "https://nedimyildiznaturel.com/",
+        "statusCode": 200,
+        "title": "Sızma Zeytinyağı, Zeytin ve Köy Ürünleri - Nedim Yıldız Naturel",
+        "headings": [
+          "Müşterilerimiz ne diyor",
+          "Sıkça Sorulan Sorular"
+        ],
+        "blocks": [
+          "Direkt üreticiden, hiç aracı yok",
+          "Müşterilerimiz ne diyor",
+          "Sıkça Sorulan Sorular",
+          "Zeytinyağlı İncir Kürü 650 gr",
+          "Çatlak Aydın Kuru İnciri 1 kg",
+          "Soğuk Sıkım Erken Hasat Zeytinyağı",
+          "5 kg Naturel Birinci (Yemeklik) Zeytinyağı",
+          "Orta Boy Aydın Dağ Kuru İncir",
+          "Doğal Zeytinyağı Köy Sabunu 1 Kg",
+          "Küçük Boy Atıştırmalık Dağ İnciri 1 kg"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://nedimyildiznaturel.com/hakkimizda",
+        "statusCode": 200,
+        "title": "Hakkımızda | Nedim Yıldız Naturel",
+        "headings": [],
+        "blocks": [
+          "Nedim Yıldız Naturel, doğanın en saf ve özenle seçilmiş nimetlerini sizlerle buluşturmak amacıyla kurulmuş bir aile işletmesidir. Kökleri, dedelerimizden ve babalarımızdan bize miras kalan zeytin ve incir bahçelerine dayanan bu yolculuk, doğaya saygı ve geleneksel üretim yöntemlerine bağlılıkla şekillenmiştir. Bugün, bu mirası modern çağın beklentileriyle harmanlayarak sizlere en kaliteli ve doğal ürünleri sunmanın gururunu yaşıyoruz.",
+          "Doğanın Özü, Sofralarınızda",
+          "Zeytinyağı, zeytin, kuru incir, zeytinyağlı sabun ve daha pek çok doğal ürünü özenle işliyoruz. Üretim sürecimizin her aşamasında doğal yöntemlerden ödün vermeden, kimyasal ilaç kullanmadan ve çevreye duyarlı bir şekilde çalışıyoruz. Amacımız, sizlere sadece lezzetli değil, aynı zamanda sağlıklı ve güvenilir ürünler sunmaktır.",
+          "Geleneksel Bilgi, Modern Kalite",
+          "Nesiller boyu aktarlılan tarım bilgisi ve deneyimimizle, zeytin ve incir bahçelerimizde üretim yaparken modern kalite standartlarını da göz ardı etmiyoruz.",
+          "Zeytinyağımız, normal ve soğuk sıkım yöntemiyle elde edilerek doğal aromasını ve besin değerlerini korur.",
+          "Kuru incirlerimiz, güneşin altında doğal yöntemlerle kurutularak eşsiz lezzetini ve dokusunu muhafaza eder.",
+          "Zeytinyağlı sabunlarımız ise tamamen el yapımı olup, cildinize doğal bir bakım sunar.",
+          "Müşterilerimizle kurduğumuz ilişkide güven ve şeffaflık en temel prensiplerimizdir. Sipariş ettiğiniz her ürün, titizlikle hazırlanır ve sorunsuz bir şekilde sizlere ulaştırılır. Web sitemiz üzerinden yaptığınız alışverişlerde her türlü soru ve ihtiyacınız için bizimle iletişime geçebilirsiniz. Müşteri memnuniyeti bizim için her zaman önceliklidir.",
+          "Nedim Yıldız Naturel'i Tercih Etmeniz İçin 5 Neden"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "contact",
+        "url": "https://nedimyildiznaturel.com/iletisim.aspx",
+        "statusCode": 200,
+        "title": "İletişim | Sızma Zeytinyağı, Zeytin ve Köy Ürünleri - Nedim Yıldız Naturel",
+        "headings": [],
+        "blocks": [
+          "İptal İade Koşulları",
+          "Sıkça Sorulan Sorular",
+          "🧪 İncir Analiz Raporu",
+          "🧪 Zeytinyağı Analiz Raporu",
+          "Internet Explorer tarayıcısının 9.0 ve daha eski sürümlerini desteklememekteyiz.",
+          "Web sitemizi doğru görüntüleyebilmek için tarayıcınızı güncelleyebilirsiniz,",
+          "güncelleyemiyorsanız başka bir tarayıcıyı",
+          "sözleşmesini inceleyebilirsiniz."
+        ],
+        "error": ""
+      }
+    ],
     "contact": {
-      "website": null,
-      "addresses": [],
-      "phones": [],
+      "website": "https://nedimyildiznaturel.com/",
+      "addresses": [
+        "Aynen öyle. Biz çiftçiyiz. Hayatımız bu topraklarda geçti. Ne satıyorsak kendi elimizin emeği, kendi toprağımızın mahsulü.",
+        "Dampınar Mahallesi 3510 Sokak No 10 Germencik/Aydın, Germencik, Aydın, -09700, TR"
+      ],
+      "phones": [
+        "+90 533 639 00 35",
+        "+90 539 717 23 23"
+      ],
       "emails": [],
-      "whatsapp": []
+      "whatsapp": [
+        "+90 539 717 23 23"
+      ]
     },
-    "contactSources": [],
+    "contactSources": [
+      "https://nedimyildiznaturel.com/",
+      "https://nedimyildiznaturel.com/hakkimizda",
+      "https://nedimyildiznaturel.com/iletisim.aspx"
+    ],
     "about": {
-      "headings": [],
-      "paragraphs": [],
-      "images": [],
-      "sourceUrls": []
+      "headings": [
+        "Müşterilerimiz ne diyor",
+        "Sıkça Sorulan Sorular"
+      ],
+      "paragraphs": [
+        "Internet Explorer tarayıcısının 9.0 ve daha eski sürümlerini desteklememekteyiz.",
+        "Web sitemizi doğru görüntüleyebilmek için tarayıcınızı güncelleyebilirsiniz,",
+        "Zeytinyağı, zeytin, kuru incir, zeytinyağlı sabun ve daha pek çok doğal ürünü özenle işliyoruz. Üretim sürecimizin her aşamasında doğal yöntemlerden ödün vermeden, kimyasal ilaç kullanmadan ve çevreye duyarlı bir şekilde çalışıyoruz. Amacımız, sizlere sadece lezzetli değil, aynı zamanda sağlıklı ve güvenilir ürünler sunmaktır.",
+        "Nesiller boyu aktarlılan tarım bilgisi ve deneyimimizle, zeytin ve incir bahçelerimizde üretim yaparken modern kalite standartlarını da göz ardı etmiyoruz.",
+        "Zeytinyağımız, normal ve soğuk sıkım yöntemiyle elde edilerek doğal aromasını ve besin değerlerini korur.",
+        "Kuru incirlerimiz, güneşin altında doğal yöntemlerle kurutularak eşsiz lezzetini ve dokusunu muhafaza eder.",
+        "Zeytinyağlı sabunlarımız ise tamamen el yapımı olup, cildinize doğal bir bakım sunar.",
+        "Müşterilerimizle kurduğumuz ilişkide güven ve şeffaflık en temel prensiplerimizdir. Sipariş ettiğiniz her ürün, titizlikle hazırlanır ve sorunsuz bir şekilde sizlere ulaştırılır. Web sitemiz üzerinden yaptığınız alışverişlerde her türlü soru ve ihtiyacınız için bizimle iletişime geçebilirsiniz. Müşteri memnuniyeti bizim için her zaman önceliklidir."
+      ],
+      "images": [
+        "images/markalar/naturel/naturel-about-01.jpg"
+      ],
+      "sourceUrls": [
+        "https://nedimyildiznaturel.com/hakkimizda"
+      ]
     },
     "summary": "Naturel, Ege Bölgesi çıkışlı bir zeytinyağını her gün mutfakta rahat yer bulacak güvenilir bir çizgide sofraya sunar. Sofraya ulaşan her şişede temiz, karakterli ve hatırlanır bir tat bırakması beklenir.",
     "sections": [
@@ -4628,15 +5299,18 @@
         "title": "Naturel hikayesi",
         "paragraphs": [
           "Naturel, her gün mutfakta yer bulacak güvenilir bir çizgi sunar. Ege Bölgesi çıkışlı bu yağ, günlük kullanımda da güven veren temiz bir akış anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
-          "Naturel, Ege Bölgesi tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler."
+          "Naturel, Ege Bölgesi tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
+          "Nesiller boyu aktarlılan tarım bilgisi ve deneyimimizle, zeytin ve incir bahçelerimizde üretim yaparken modern kalite standartlarını da göz ardı etmiyoruz.",
+          "Müşterilerimizle kurduğumuz ilişkide güven ve şeffaflık en temel prensiplerimizdir. Sipariş ettiğiniz her ürün, titizlikle hazırlanır ve sorunsuz bir şekilde sizlere ulaştırılır. Web sitemiz üzerinden yaptığınız alışverişlerde her türlü soru ve ihtiyacınız için bizimle iletişime geçebilirsiniz. Müşteri memnuniyeti bizim için her zaman önceliklidir."
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
-          "Naturel anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
-          "Naturel tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir."
+          "Internet Explorer tarayıcısının 9.0 ve daha eski sürümlerini desteklememekteyiz.",
+          "Web sitemizi doğru görüntüleyebilmek için tarayıcınızı güncelleyebilirsiniz,",
+          "Zeytinyağı, zeytin, kuru incir, zeytinyağlı sabun ve daha pek çok doğal ürünü özenle işliyoruz. Üretim sürecimizin her aşamasında doğal yöntemlerden ödün vermeden, kimyasal ilaç kullanmadan ve çevreye duyarlı bir şekilde çalışıyoruz. Amacımız, sizlere sadece lezzetli değil, aynı zamanda sağlıklı ve güvenilir ürünler sunmaktır.",
+          "Zeytinyağımız, normal ve soğuk sıkım yöntemiyle elde edilerek doğal aromasını ve besin değerlerini korur."
         ]
       },
       {
@@ -4645,7 +5319,8 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Naturel anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Naturel tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez deneyecekseniz küçük boylarla başlayıp size nasıl hissettirdiğini görmek, ardından düzenli kullanım için daha büyük ambalaja geçmek en rahat yoldur."
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
+          "Kuru incirlerimiz, güneşin altında doğal yöntemlerle kurutularak eşsiz lezzetini ve dokusunu muhafaza eder."
         ]
       },
       {
@@ -4654,7 +5329,8 @@
           "Naturel alındığında yalnızca bir yağ değil; emeği hissedilen, geldiği yer belli olan ve hangi sofrada parlayacağını bilen bir seçim alınmış olur. Bu yüzden şişenin bıraktığı genel iz, ürünün uzun vadede mutfakta yer bulup bulmayacağını da belirler.",
           "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
-          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir."
+          "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
+          "Zeytinyağlı sabunlarımız ise tamamen el yapımı olup, cildinize doğal bir bakım sunar."
         ]
       }
     ]
@@ -4960,7 +5636,7 @@
       },
       {
         "kind": "contact",
-        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#452c2b232a0522242c242a292c33246b262a287a1630272f2026317802242c24650a292c33246501203631202e",
+        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#c1a8afa7ae81a6a0a8a0aeada8b7a0efa2aeacfe92b4a3aba4a2b5fc86a0a8a0e18eada8b7a0e185a4b2b5a4aa",
         "statusCode": 200,
         "title": "Email Protection | Cloudflare",
         "headings": [
@@ -14957,11 +15633,11 @@
     "id": 110,
     "name": "Kozoliv",
     "slug": "kozoliv",
-    "website": "https://kozoliv.com.tr/",
+    "website": "https://www.kozoliv.com.tr/",
     "rawPages": [
       {
         "kind": "home",
-        "url": "https://kozoliv.com.tr/",
+        "url": "https://www.kozoliv.com.tr/",
         "statusCode": 200,
         "title": "Kozoliv - Kuzey Ege'nin Havasını Çok Seven Ağaçlarımızdan 🫒",
         "headings": [],
@@ -15025,7 +15701,7 @@
       }
     ],
     "contact": {
-      "website": "https://kozoliv.com.tr/",
+      "website": "https://www.kozoliv.com.tr/",
       "addresses": [
         "HACIOSMAN MAH POSTACI SOK KOZAKLI LTD ŞTİ KOZAKLI ZEYTİN NO:1/2 GÖMEÇ / BALIKESİR, Gömeç, Balıkesir, 10715, TR",
         "Hacıosman Mah. Postacı Sk."
@@ -15039,7 +15715,7 @@
       ]
     },
     "contactSources": [
-      "https://kozoliv.com.tr/",
+      "https://www.kozoliv.com.tr/",
       "https://www.kozoliv.com.tr/hakkimizda",
       "https://www.kozoliv.com.tr/iletisim"
     ],
@@ -21133,8 +21809,8 @@
     "contact": {
       "website": "https://www.halilesen.com/",
       "addresses": [
-        "Zeytinyağının sağlık, hastalıklarla mücadele, saç ve cilt faydaları gibi yüz...",
-        "Zeytinli Mahallesi, Mustafa Kemal Bulvarı No:37"
+        "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (2 KG)",
+        "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (1,5 KG)"
       ],
       "phones": [
         "+90 537 701 00 10",
@@ -28499,9 +29175,9 @@
         "statusCode": 200,
         "title": "Angelos Organik Zeytinyağı Değirmeni - Anasayfa",
         "headings": [
-          "Müteşebbis Sertifikası",
-          "BIO Sertifikası",
           "NOP Sertifikası",
+          "BIO Sertifikası",
+          "Müteşebbis Sertifikası",
           "Ürünlerimiz",
           "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
           "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -28672,9 +29348,9 @@
     ],
     "about": {
       "headings": [
-        "Müteşebbis Sertifikası",
-        "BIO Sertifikası",
         "NOP Sertifikası",
+        "BIO Sertifikası",
+        "Müteşebbis Sertifikası",
         "Ürünlerimiz",
         "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
         "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -37040,16 +37716,16 @@
           "SİZİN İÇİN"
         ],
         "blocks": [
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+          "Natürel Sızma Zeytinyağı 500 ml",
           "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-          "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
+          "Galon Şişe Natürel Sızma Zeytinyağı 2 L",
+          "Natürel Sızma Zeytinyağı 2 L",
           "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
           "Midilli'nin Yereli köyünden mübadele ile Ayvalık'a göç eden aile büyüklerimiz Midilli'de sürdürdükleri Zeytincilik faaliyetlerini Ayvalık'ta da sürdürüp bu günlere kadar taşımıştır. Soyadımız olan USTALI kelimesi Midilli'deki en büyük zeytinliğin ismini taşımaktadır. 2006 yılına kadar ailemiz mübadelen beri kendi bahçelerini işleyip müstahsil olarak zeytinciliğe devam ederken Aile fertlerimiz ile 2006 yılının Nisan ayında kendi üretim tesisimizin temelini attık. Ustalı Zeytincilik Aile İşletmesi olarak 2008 yılı zeytin hasat döneminden beride kendi fabrikasında USTALI markası ile üretim yapmaktadır.",
           "Kazımkarabekir Mahallesi",
           "Kışla Mevkisi Eski Altınova Yolu",
           "Ayvalık / Balıkesir / TÜRKİYE",
-          "Natürel Sızma Zeytinyağı 500 ml"
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG"
         ],
         "error": ""
       },
@@ -37061,10 +37737,10 @@
         "headings": [],
         "blocks": [
           "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+          "Doğal Zeytinyağlı Sabun 200G",
           "Filtresiz Natural Sızma Zeytinyağı 5 L",
-          "Galon Şişe Natürel Sızma Zeytinyağı 2 L",
-          "Natürel Sızma Zeytinyağı 2 L",
+          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
           "Midilli’nin yereli köyünden mübadele ile Ayvalık’a göç eden aile büyüklerimiz Midilli de sürdürdükleri Zeytincilik faaliyetlerini Ayvalık’ tada sürdürüp bu günlere kadar taşıdı. Soyadımız olan USTALI kelimesi Midilli deki en büyük zeytinliğin ismini taşımaktadır. 2006 yılına kadar ailemiz mübadelen beri kendi bahçelerini işleyip müstahsil olarak zeytinciliğe devam ederken Aile fertlerimiz 2006 yılının Nisan ayında kendi üretim tesisimizin temelini attı. Ustalı Zeytin, Zeytincilik Aile İşletmesi olarak 2008 yılı zeytin hasat döneminden beride kendi fabrikamızda USTALI markası ile üretim yapmaktadır.",
@@ -37081,10 +37757,10 @@
         "headings": [],
         "blocks": [
           "Natürel Sızma Zeytinyağı 500 ml",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
           "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-          "Doğal Zeytinyağlı Sabun 200G",
-          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+          "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
           "Kazımkarabekir Mahallesi",
@@ -37121,11 +37797,10 @@
         "SİZİN İÇİN"
       ],
       "paragraphs": [
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
         "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
         "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
         "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
       ],
       "images": [
@@ -37143,16 +37818,16 @@
         "paragraphs": [
           "Ustalı, daha seçici sofralara yakışacak karakterli bir çizgi sunar. Ayvalık, Balıkesir çıkışlı bu yağ, özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
           "Ustalı, Ayvalık, Balıkesir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG"
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
         ]
       },
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
           "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG"
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
         ]
       },
       {
@@ -37161,8 +37836,7 @@
           "Ege tarafında yetişen zeytinlerin rüzgarı, güneşi ve uzun mevsim ritmi tadın dengesine doğrudan yansır. Bu doğallık şişede fazla süslenmeden korunduğunda ürün çok daha ikna edici bir hale gelir.",
           "Ustalı anlatılırken önce damakta bıraktığı iz öne çıkar. Ayvalık çizgisinin dengeli, meyvemsi ve kolay sevilen tarafını sofraya taşır. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "Ustalı tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
-          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
+          "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin."
         ]
       },
       {
@@ -41878,7 +42552,7 @@
           "Naturel Sızma Zeytinyağı"
         ],
         "blocks": [
-          "Tabaklarına karakter katmak isteyenler için tütsülenmiş ve acı biblerli bir dokunuş",
+          "Tabaklarına karakter katmak isteyenler için tütsülenmiş ve acı biberli bir dokunuş",
           "MUTFAKTA YENİ STANDART",
           "İsli, Acı ve Tamamen İkonik Zeytinyağı",
           "Her yemeğe benzersiz bir tat katmak için tasarlanan zeytinyağlar",
@@ -41950,7 +42624,7 @@
         "Naturel Sızma Zeytinyağı"
       ],
       "paragraphs": [
-        "Tabaklarına karakter katmak isteyenler için tütsülenmiş ve acı biblerli bir dokunuş",
+        "Tabaklarına karakter katmak isteyenler için tütsülenmiş ve acı biberli bir dokunuş",
         "Her yemeğe benzersiz bir tat katmak için tasarlanan zeytinyağlar",
         "Yerel değerlerine sahip çıkan bir marka olarak sizlere en iyisini sunma tutkumuzu, kaliteyle birleştirerek en taze, en lezzetli ve en sağlıklı ürünler ile sofralarınıza geliyoruz.",
         "Ürün çeşitliliğimiz; doğal tarım ve soğuk sıkım yöntemleriyle üretilen natürel zeytinyağlarımızın yanı sıra, birlikte sıkım yöntemiyle doğanın lezzetlerini bir araya getirdiğimiz özgün ve zengin seçeneklerden oluşmaktadır.",
@@ -41980,7 +42654,7 @@
       {
         "title": "Hakkımızda sayfasından öne çıkanlar",
         "paragraphs": [
-          "Tabaklarına karakter katmak isteyenler için tütsülenmiş ve acı biblerli bir dokunuş",
+          "Tabaklarına karakter katmak isteyenler için tütsülenmiş ve acı biberli bir dokunuş",
           "Her yemeğe benzersiz bir tat katmak için tasarlanan zeytinyağlar",
           "Yerel değerlerine sahip çıkan bir marka olarak sizlere en iyisini sunma tutkumuzu, kaliteyle birleştirerek en taze, en lezzetli ve en sağlıklı ürünler ile sofralarınıza geliyoruz.",
           "Dardanos Fine Foods' un natürel sızma zeytinyağları, yüzyıllardır süregelen zeytin yetiştiriciliği geleneğimizin en seçkin yansımasıdır. Bu mirasa eşlik eden; limon, kekik ve fesleğen gibi taze meyve ve bitkilerle harmanladığımız zeytinyağlarımız yemeklerinize lezzet katacaktır."
@@ -44593,8 +45267,7 @@
     "contact": {
       "website": "https://www.iznikzeytinevi.com/",
       "addresses": [
-        "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
-        "HASTAM OLDUĞU İÇİN %100 TUZSUZ SİYAH ZEYTİN ALDIM. ACI OLUR DİYE DÜŞÜNDÜM FAKAT GERÇEKTEN ÇOK LEZZETLİ BİR ZEYTİN GELDİ. ÖZELLİKLE SAĞLIK İÇİN ALMAK İSTEYEN HERKESE TAVSİYE EDERİM. SİPARİŞİMİN ERTESİ GÜNÜ TESLİM EDİLDİ. HEM LEZZET, HEM KALİTE, HEMDE HIZLI TESLİMAT İÇİN TEŞEKKÜR EDERİM."
+        "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
       ],
       "phones": [
         "+90 545 419 16 16",
@@ -44618,11 +45291,11 @@
         "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
         "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
         "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-        "İznik irisi zeytininizden sipariş vermiştik , gerçekten harika",
+        "Tuzsuz zeytin arıyorsanız doğru yerdesiniz. Biz 2 senedir sipariş veriyoruz. Teşekkür ederiz.",
+        "Uzun zamandır ürünlerini kullanıyoruz. İlaçsız, sağlıklı, çocuklarımıza gönül rahatlığıyla yedirebildiğimiz, aradığımız lezzeti bulabildiğimiz ürünler için teşekkürler.",
         "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
         "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
-        "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik.",
-        "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
+        "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
       ],
       "images": [
         "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-about-02.jpg"
@@ -44638,8 +45311,8 @@
         "paragraphs": [
           "İznik Zeytin Evi, daha seçici sofralara yakışacak karakterli bir çizgi sunar. İzmir çıkışlı bu yağ, özenli seçilmiş, sofrada karakteri hemen fark edilen bir tat anlayışıyla sofraya ulaşır; şişe açıldığında hem lezzet hem güven hissi bırakması beklenir.",
           "İznik Zeytin Evi, İzmir tarafının karakterini sofraya taşır; şişedeki tat toprağın ve iklimin birlikte kurduğu dengenin uzantısı gibi ilerler.",
-          "İznik irisi zeytininizden sipariş vermiştik , gerçekten harika",
-          "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
+          "Tuzsuz zeytin arıyorsanız doğru yerdesiniz. Biz 2 senedir sipariş veriyoruz. Teşekkür ederiz.",
+          "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
         ]
       },
       {
@@ -44648,7 +45321,7 @@
           "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
           "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
           "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-          "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
+          "Uzun zamandır ürünlerini kullanıyoruz. İlaçsız, sağlıklı, çocuklarımıza gönül rahatlığıyla yedirebildiğimiz, aradığımız lezzeti bulabildiğimiz ürünler için teşekkürler."
         ]
       },
       {
@@ -44658,7 +45331,7 @@
           "İznik Zeytin Evi anlatılırken önce damakta bıraktığı iz öne çıkar. Memecik tarafının daha yeşil, daha diri ve hafifçe boğazda iz bırakan karakterini korur. Bu yüzden kahvaltıda ekmeğe gezdirildiğinde, salatada son dokunuşta kullanıldığında ya da zeytinyağlı bir yemekte temel lezzeti kurduğunda farklı biçimde karşılık verir.",
           "İznik Zeytin Evi tarafında güçlü görünen nokta yalnızca tat iddiası değildir; şişede verilen söz ile sofrada karşılaşılan lezzetin birbirini tutmasıdır. İyi yağ, kokusuyla temiz açılmalı, damakta akıcı ilerlemeli ve ikinci lokmada da aynı güveni vermelidir.",
           "Bu yağı ilk kez deneyecekseniz önce kullanım anını düşünmek gerekir. Daha canlı ve karakterli bir ifade arayanlar kahvaltı ve çiğ dokunuşlara, daha yumuşak bir akış isteyenler günlük mutfak kullanımına uygun serilere yönelebilir. İlk kez tanışacaksanız küçük hacimle başlayıp damakta bıraktığı izi görün, mutfakta sürekli kullanacaksanız daha büyük ambalaja geçin.",
-          "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
+          "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
         ]
       },
       {
@@ -44668,7 +45341,7 @@
           "Şişe açıldığında önce gelen koku, sonra dilde bıraktığı akış ve en son boğazda kalan kısa iz, iyi bir zeytinyağını anlatan temel ayrıntılardır. Bu üçü bir araya geldiğinde ürün kendini gerçekten göstermeye başlar.",
           "İster kahvaltı sofrasında ekmeğe gezdirilsin ister salatada son dokunuş olarak kullanılsın, iyi bir şişe her kullanımda aynı güveni vermelidir. Düzenli tercih edilmesini sağlayan şey de bu tutarlılıktır.",
           "Sofrada fark edilen iyi yağ, yalnızca parlak bir etiketle değil, ikinci lokmada da aynı temizliği sürdürebilmesiyle anlaşılır. Kalıcılığı belirleyen şey çoğu zaman tam olarak bu dengedir.",
-          "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
+          "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
         ]
       }
     ]

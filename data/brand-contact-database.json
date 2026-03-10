@@ -249,12 +249,24 @@
     "sourceUrls": []
   },
   "21": {
-    "website": null,
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://edremitzeytinyagi.com.tr/",
+    "addresses": [
+      "Camivasat Mah. Menderes Blv. No:45 10300 Edremit/Balıkesir",
+      "Kuzeyde Kazdağları, batıda Çanakkale Ayvacık ilçesine bağlı Küçükkuyu beldesi ile Edremit ilçesi sınırında akan Çanakkale/Balıkesir il sınırı kesişme noktasını da teşkil eden Mıhlı Çayı, doğuda Havran ilçesi ile yine Balıkesir iline bağlı olan Burhaniye ilçesi sınırları ile çevrelenen yaklaşık 224.580 dekar alandır."
+    ],
+    "phones": [
+      "+90 266 373 10 61",
+      "+90 266 373 39 63"
+    ],
+    "emails": [
+      "edremitto@tobb.org.tr",
+      "edremitto@hs01.kep.tr"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://edremitzeytinyagi.com.tr/",
+      "https://edremitzeytinyagi.com.tr/iletisim/"
+    ]
   },
   "22": {
     "website": null,
@@ -265,12 +277,23 @@
     "sourceUrls": []
   },
   "23": {
-    "website": null,
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://organikzeytindali.com/",
+    "addresses": [
+      "Teleferik Mah. Ata Cad. No: 1/A Balçova / İZMİR",
+      "Adres: Teleferik Mah. Ata Cad. No: 1/A Balçova / İzmir​"
+    ],
+    "phones": [
+      "+90 232 259 66 14"
+    ],
+    "emails": [
+      "info@organikzeytindali.com"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://organikzeytindali.com/",
+      "https://organikzeytindali.com/hakkimizda/",
+      "https://organikzeytindali.com/iletisim/"
+    ]
   },
   "24": {
     "website": null,
@@ -281,12 +304,17 @@
     "sourceUrls": []
   },
   "25": {
-    "website": null,
+    "website": "https://bereketnatural.com/",
     "addresses": [],
-    "phones": [],
+    "phones": [
+      "+90 324 873 72 22"
+    ],
     "emails": [],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://bereketnatural.com/",
+      "https://bereketnatural.com/pages/hakkimizda"
+    ]
   },
   "26": {
     "website": null,
@@ -437,12 +465,23 @@
     "sourceUrls": []
   },
   "40": {
-    "website": null,
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://www.polattarim.com.tr/",
+    "addresses": [
+      "Yeni Mahalle Bentbaşı Mevkii Küme evler no.29 Bozdoğan Aydın",
+      "Yeni Mahalle Bentbaşı Mevkii Küme Evler No:29"
+    ],
+    "phones": [
+      "+90 256 414 11 78"
+    ],
+    "emails": [
+      "info@polattarim.com.tr"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://www.polattarim.com.tr/",
+      "https://www.polattarim.com.tr/hakkimizda/",
+      "https://www.polattarim.com.tr/iletisim/"
+    ]
   },
   "41": {
     "website": null,
@@ -501,12 +540,22 @@
     "sourceUrls": []
   },
   "48": {
-    "website": null,
+    "website": "https://milasyag.com.tr/",
     "addresses": [],
-    "phones": [],
-    "emails": [],
+    "phones": [
+      "+90 252 559 03 45",
+      "+90 252 559 03 44"
+    ],
+    "emails": [
+      "info@milasyag.com.tr"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://milasyag.com.tr/",
+      "https://milasyag.com.tr/hakkimizda/",
+      "https://milasyag.com.tr/magaza/",
+      "https://milasyag.com.tr/iletisim/"
+    ]
   },
   "49": {
     "website": "https://nisholive.com/",
@@ -529,12 +578,24 @@
     ]
   },
   "50": {
-    "website": null,
-    "addresses": [],
-    "phones": [],
+    "website": "https://nedimyildiznaturel.com/",
+    "addresses": [
+      "Aynen öyle. Biz çiftçiyiz. Hayatımız bu topraklarda geçti. Ne satıyorsak kendi elimizin emeği, kendi toprağımızın mahsulü.",
+      "Dampınar Mahallesi 3510 Sokak No 10 Germencik/Aydın, Germencik, Aydın, -09700, TR"
+    ],
+    "phones": [
+      "+90 533 639 00 35",
+      "+90 539 717 23 23"
+    ],
     "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "whatsapp": [
+      "+90 539 717 23 23"
+    ],
+    "sourceUrls": [
+      "https://nedimyildiznaturel.com/",
+      "https://nedimyildiznaturel.com/hakkimizda",
+      "https://nedimyildiznaturel.com/iletisim.aspx"
+    ]
   },
   "51": {
     "website": "https://www.novavera.com.tr/",
@@ -1709,7 +1770,7 @@
     "sourceUrls": []
   },
   "110": {
-    "website": "https://kozoliv.com.tr/",
+    "website": "https://www.kozoliv.com.tr/",
     "addresses": [
       "HACIOSMAN MAH POSTACI SOK KOZAKLI LTD ŞTİ KOZAKLI ZEYTİN NO:1/2 GÖMEÇ / BALIKESİR, Gömeç, Balıkesir, 10715, TR",
       "Hacıosman Mah. Postacı Sk."
@@ -1722,7 +1783,7 @@
       "+90 539 266 25 00"
     ],
     "sourceUrls": [
-      "https://kozoliv.com.tr/",
+      "https://www.kozoliv.com.tr/",
       "https://www.kozoliv.com.tr/hakkimizda",
       "https://www.kozoliv.com.tr/iletisim"
     ]
@@ -2397,8 +2458,8 @@
   "149": {
     "website": "https://www.halilesen.com/",
     "addresses": [
-      "Zeytinyağının sağlık, hastalıklarla mücadele, saç ve cilt faydaları gibi yüz...",
-      "Zeytinli Mahallesi, Mustafa Kemal Bulvarı No:37"
+      "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (2 KG)",
+      "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (1,5 KG)"
     ],
     "phones": [
       "+90 537 701 00 10",
@@ -5106,8 +5167,7 @@
   "400": {
     "website": "https://www.iznikzeytinevi.com/",
     "addresses": [
-      "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
-      "HASTAM OLDUĞU İÇİN %100 TUZSUZ SİYAH ZEYTİN ALDIM. ACI OLUR DİYE DÜŞÜNDÜM FAKAT GERÇEKTEN ÇOK LEZZETLİ BİR ZEYTİN GELDİ. ÖZELLİKLE SAĞLIK İÇİN ALMAK İSTEYEN HERKESE TAVSİYE EDERİM. SİPARİŞİMİN ERTESİ GÜNÜ TESLİM EDİLDİ. HEM LEZZET, HEM KALİTE, HEMDE HIZLI TESLİMAT İÇİN TEŞEKKÜR EDERİM."
+      "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
     ],
     "phones": [
       "+90 545 419 16 16",

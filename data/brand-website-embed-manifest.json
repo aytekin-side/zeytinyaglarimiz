@@ -403,6 +403,24 @@
     "frameAncestors": []
   },
   {
+    "id": 25,
+    "name": "Bereket",
+    "slug": "bereket",
+    "url": "https://bereketnatural.com/",
+    "region": "Hatay, Akdeniz",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T15:19:52.847305Z",
+    "embeddable": false,
+    "reason": "x-frame-options:DENY",
+    "status": 200,
+    "finalUrl": "https://bereketnatural.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "DENY",
+    "frameAncestors": [
+      "'none'"
+    ]
+  },
+  {
     "id": 128,
     "name": "Berolivo",
     "slug": "berolivo",
@@ -780,6 +798,22 @@
     "frameAncestors": [
       "'self'"
     ]
+  },
+  {
+    "id": 21,
+    "name": "Edremit Körfezi",
+    "slug": "edremit-korfezi",
+    "url": "https://edremitzeytinyagi.com.tr/",
+    "region": "Edremit, Balıkesir",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T15:19:52.847492Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://edremitzeytinyagi.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
   },
   {
     "id": 275,
@@ -2234,6 +2268,22 @@
     "frameAncestors": []
   },
   {
+    "id": 48,
+    "name": "Milas Zeytinyağları",
+    "slug": "milas-zeytinyaglari",
+    "url": "https://milasyag.com.tr/",
+    "region": "Milas, Muğla",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T15:19:52.847625Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://milasyag.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 111,
     "name": "Milasso",
     "slug": "milasso",
@@ -2498,6 +2548,22 @@
     "finalUrl": "https://www.naturale.com.tr/",
     "contentType": "text/html",
     "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 50,
+    "name": "Naturel",
+    "slug": "naturel",
+    "url": "https://nedimyildiznaturel.com/",
+    "region": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "checkedAt": "2026-03-10T15:19:52.847738Z",
+    "embeddable": false,
+    "reason": "x-frame-options:SAMEORIGIN",
+    "status": 200,
+    "finalUrl": "https://nedimyildiznaturel.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "SAMEORIGIN",
     "frameAncestors": []
   },
   {
@@ -3210,6 +3276,22 @@
     "reason": "ok",
     "status": 200,
     "finalUrl": "https://plantgarde.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 40,
+    "name": "Polat Zeytinyağı",
+    "slug": "polat-zeytinyagi",
+    "url": "https://www.polattarim.com.tr/",
+    "region": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T15:19:52.847823Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.polattarim.com.tr/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
@@ -4251,6 +4333,22 @@
     "reason": "ok",
     "status": 200,
     "finalUrl": "https://zeyertirilye.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 23,
+    "name": "Zeytin Dalı",
+    "slug": "zeytin-dali",
+    "url": "https://organikzeytindali.com/",
+    "region": "Ege Bölgesi",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-10T15:19:52.847907Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://organikzeytindali.com/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []

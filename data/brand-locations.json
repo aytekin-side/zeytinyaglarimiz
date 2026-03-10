@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T13:50:29.722Z",
+  "generatedAt": "2026-03-10T15:19:56.015Z",
   "totalBrands": 326,
   "exactAddressCount": 27,
   "officialSourceCount": 38,
@@ -430,7 +430,7 @@
       "slug": "edremit-korfezi",
       "name": "Edremit Körfezi",
       "logo": "images/markalar/edremit-korfezi/edremit-korfezi-logo.svg",
-      "website": "",
+      "website": "https://edremitzeytinyagi.com.tr/",
       "region": "Edremit, Balıkesir",
       "regionCluster": "ege",
       "regionClusterLabel": "Ege Bölgesi",
@@ -443,7 +443,7 @@
       "precisionLabel": "İlçe / üretim merkezi",
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
+      "sourceUrl": "https://edremitzeytinyagi.com.tr/",
       "coordinateProvider": "nominatim"
     },
     {
@@ -472,7 +472,7 @@
       "slug": "zeytin-dali",
       "name": "Zeytin Dalı",
       "logo": "images/markalar/zeytin-dali/zeytin-dali-logo.svg",
-      "website": "",
+      "website": "https://organikzeytindali.com/",
       "region": "Ege Bölgesi",
       "regionCluster": "ege",
       "regionClusterLabel": "Ege Bölgesi",
@@ -485,7 +485,7 @@
       "precisionLabel": "Bölge merkezi",
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
+      "sourceUrl": "https://organikzeytindali.com/",
       "coordinateProvider": "manual"
     },
     {
@@ -514,7 +514,7 @@
       "slug": "bereket",
       "name": "Bereket",
       "logo": "images/markalar/bereket/bereket-logo.svg",
-      "website": "",
+      "website": "https://bereketnatural.com/",
       "region": "Hatay, Akdeniz",
       "regionCluster": "akdeniz",
       "regionClusterLabel": "Akdeniz Bölgesi",
@@ -527,7 +527,7 @@
       "precisionLabel": "İl merkezi",
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
+      "sourceUrl": "https://bereketnatural.com/",
       "coordinateProvider": "nominatim"
     },
     {
@@ -808,7 +808,7 @@
       "slug": "polat-zeytinyagi",
       "name": "Polat Zeytinyağı",
       "logo": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-logo.svg",
-      "website": "",
+      "website": "https://www.polattarim.com.tr/",
       "region": "Ege Bölgesi",
       "regionCluster": "ege",
       "regionClusterLabel": "Ege Bölgesi",
@@ -821,7 +821,7 @@
       "precisionLabel": "Bölge merkezi",
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.polattarim.com.tr/",
       "coordinateProvider": "manual"
     },
     {
@@ -976,7 +976,7 @@
       "slug": "milas-zeytinyaglari",
       "name": "Milas Zeytinyağları",
       "logo": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-logo.svg",
-      "website": "",
+      "website": "https://milasyag.com.tr/",
       "region": "Milas, Muğla",
       "regionCluster": "ege",
       "regionClusterLabel": "Ege Bölgesi",
@@ -989,7 +989,7 @@
       "precisionLabel": "İlçe / üretim merkezi",
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
+      "sourceUrl": "https://milasyag.com.tr/",
       "coordinateProvider": "nominatim"
     },
     {
@@ -1018,7 +1018,7 @@
       "slug": "naturel",
       "name": "Naturel",
       "logo": "images/markalar/naturel/naturel-logo.svg",
-      "website": "",
+      "website": "https://nedimyildiznaturel.com/",
       "region": "Ege Bölgesi",
       "regionCluster": "ege",
       "regionClusterLabel": "Ege Bölgesi",
@@ -1031,7 +1031,7 @@
       "precisionLabel": "Bölge merkezi",
       "sourceType": "origin-region",
       "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
+      "sourceUrl": "https://nedimyildiznaturel.com/",
       "coordinateProvider": "manual"
     },
     {

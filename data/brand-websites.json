@@ -192,6 +192,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 25,
+    "name": "Bereket",
+    "slug": "bereket",
+    "url": "https://bereketnatural.com/",
+    "region": "Hatay, Akdeniz",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 128,
     "name": "Berolivo",
     "slug": "berolivo",
@@ -365,6 +373,14 @@
     "slug": "eceden-sofraniza",
     "url": "https://eceden.com.tr",
     "region": "Hatay",
+    "category": "bolgesel-yerel"
+  },
+  {
+    "id": 21,
+    "name": "Edremit Körfezi",
+    "slug": "edremit-korfezi",
+    "url": "https://edremitzeytinyagi.com.tr/",
+    "region": "Edremit, Balıkesir",
     "category": "bolgesel-yerel"
   },
   {
@@ -1088,6 +1104,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 48,
+    "name": "Milas Zeytinyağları",
+    "slug": "milas-zeytinyaglari",
+    "url": "https://milasyag.com.tr/",
+    "region": "Milas, Muğla",
+    "category": "bolgesel-yerel"
+  },
+  {
     "id": 111,
     "name": "Milasso",
     "slug": "milasso",
@@ -1222,6 +1246,14 @@
     "url": "https://www.naturale.com.tr/",
     "region": "Ayvalık, Balıkesir",
     "category": "premium-butik"
+  },
+  {
+    "id": 50,
+    "name": "Naturel",
+    "slug": "naturel",
+    "url": "https://nedimyildiznaturel.com/",
+    "region": "Ege Bölgesi",
+    "category": "market-endustriyel"
   },
   {
     "id": 64,
@@ -1574,6 +1606,14 @@
     "url": "https://plantgarde.com/",
     "region": "Mudanya, Bursa",
     "category": "organik"
+  },
+  {
+    "id": 40,
+    "name": "Polat Zeytinyağı",
+    "slug": "polat-zeytinyagi",
+    "url": "https://www.polattarim.com.tr/",
+    "region": "Ege Bölgesi",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 232,
@@ -2070,6 +2110,14 @@
     "url": "https://zeyertirilye.com/",
     "region": "Gemlik, Bursa",
     "category": "premium-butik"
+  },
+  {
+    "id": 23,
+    "name": "Zeytin Dalı",
+    "slug": "zeytin-dali",
+    "url": "https://organikzeytindali.com/",
+    "region": "Ege Bölgesi",
+    "category": "bolgesel-yerel"
   },
   {
     "id": 260,
