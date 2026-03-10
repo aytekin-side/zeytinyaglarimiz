@@ -90,7 +90,7 @@
                                             globalModel.isAndroidDevice = false; 
                                             globalModel.urlReferrer = ''; 
                                             globalModel.pageUrl = 'www.imbatto.com/hakkimizda'; 
-                                            if (typeof globalModel.member == 'undefined') { globalModel.member = {"memberId":0,"memberName":null,"memberFirstName":null,"memberSurName":null,"memberEMail":null,"memberPhone":null,"memberGSMPhone":null,"memberCity":null,"memberProvince":null,"memberCountry":null,"memberCountryId":0,"memberCountryCode":null,"memberCountryAlpha2Code":null,"memberGender":0,"membershipDate":"0001-01-01T00:00:00","memberLastLoginDate":"0001-01-01T00:00:00","memberRole":null,"moneyPoints":0,"memberType":null,"isMember":true,"priceType":0,"priceTypeCurrencyID":0,"emailPermit":false,"smsPermit":false,"customerCode":null,"authDate":"0001-01-01T00:00:00","user_register_date":null,"user_last_session":null,"user_last_purchase":null,"user_register_type":null,"userRegisterTypeValue":null,"user_total_purchases":0,"user_total_revenue_online":0.0,"user_total_revenue_offline":0.0,"birthday":"0001-01-01T00:00:00","hashingEmail":null,"hashingPhone":null,"hashingFirstName":null,"hashingLastName":null,"hashingBirthday":null,"hashingGender":null,"hashingCountryCode":null,"hashingCity":null,"loginStatus":null,"memberStatus":null,"sessionIpAddress":null,"twofA_AKTIF":false,"smsLoginActive":false,"multiSessionLogin":false,"isSecuritySetupComplete":false,"authExpired":true,"domainName":null,"isEmployee":false,"iban":null,"hash":"6390874137621273129F5EAC5ACD6E4A3B989ADE6C26C4A7F6","passwordVersion":null,"memberLastUpdateDate":"0001-01-01T00:00:00"}; }
+                                            if (typeof globalModel.member == 'undefined') { globalModel.member = {"memberId":0,"memberName":null,"memberFirstName":null,"memberSurName":null,"memberEMail":null,"memberPhone":null,"memberGSMPhone":null,"memberCity":null,"memberProvince":null,"memberCountry":null,"memberCountryId":0,"memberCountryCode":null,"memberCountryAlpha2Code":null,"memberGender":0,"membershipDate":"0001-01-01T00:00:00","memberLastLoginDate":"0001-01-01T00:00:00","memberRole":null,"moneyPoints":0,"memberType":null,"isMember":true,"priceType":0,"priceTypeCurrencyID":0,"emailPermit":false,"smsPermit":false,"customerCode":null,"authDate":"0001-01-01T00:00:00","user_register_date":null,"user_last_session":null,"user_last_purchase":null,"user_register_type":null,"userRegisterTypeValue":null,"user_total_purchases":0,"user_total_revenue_online":0.0,"user_total_revenue_offline":0.0,"birthday":"0001-01-01T00:00:00","hashingEmail":null,"hashingPhone":null,"hashingFirstName":null,"hashingLastName":null,"hashingBirthday":null,"hashingGender":null,"hashingCountryCode":null,"hashingCity":null,"loginStatus":null,"memberStatus":null,"sessionIpAddress":null,"twofA_AKTIF":false,"smsLoginActive":false,"multiSessionLogin":false,"isSecuritySetupComplete":false,"authExpired":true,"domainName":null,"isEmployee":false,"iban":null,"hash":"639087463904624840B771E8707E5648EEA58FF2E4A0EA9D3F","passwordVersion":null,"memberLastUpdateDate":"0001-01-01T00:00:00"}; }
                                             var numFormatDefaults = {currencySymbol : '₺',currencySymbolLocation:0,decimalChar:',',decimalPlaces:2};
                                             siteSettings.isAuthenticated = globalModel.isAuthenticated;
                                             globalModel.searchUrl = '/Arama';
@@ -117,7 +117,7 @@
 <body id="bodyGlobal" class="global_body" data-language="tr" data-currency="try">
     <form method="post" action="./hakkimizda" id="formGlobal">
 <div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="2hKeVvfD/5xedR60eKIYyNfL7Er9GSjj8EANmZNFApOQUObc9F66QI3NM/PJDeWPt9F/E941NYSUNC9bJo949zFyIdxXtc5Sri/J1zvxr1Q=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="rT9kZu0vAi5a7LqUeS4xHWMPiiEzq3R3/en6b27dyrkaiZtToGgn2bmqp9sYbej6rdGw4v/aiYMhpj/AOGdqt1Shi1TLLO+8EkyRu/v0vs4=" />
 </div>
 
 
@@ -130,7 +130,7 @@ var pageType = 'Content';var productsModel = {"pageType":6,"pageName":"","target
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C092E9BD" />
 </div>
-        <input name="__RequestVerificationToken" type="hidden" value="i48PrcCtuIDysgZO7bv5WNDFPqeCCqvyliTIlE4hYsrqjpxZQ1CUhBzTxJNvvlpteoIM9Cxgh0N1wQIqugFPq2RgyLKZMr3gfFAg9eNRH3U1" />
+        <input name="__RequestVerificationToken" type="hidden" value="gjUssg4nrPF89FeBpCWQkFFW2Y9KUORJr2IDv71nEiM6BoiGdiWfhCHToskvZeuZ4o_h_Hu2ar4YiHi0LWeM61jrMVFeOsQ6JfOhBHP_ImI1" />
 
             <link href="https://assets.ticimax.cloud/v8100/App_Themes/elittema33/style.css?v=8.13.649.0.124853" rel="stylesheet"  />
     <style></style>

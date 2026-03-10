@@ -16,22 +16,6 @@
     "frameAncestors": []
   },
   {
-    "id": 362,
-    "name": "Adalinda",
-    "slug": "adalinda",
-    "url": "https://www.adalinda.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "premium-butik",
-    "checkedAt": "2026-03-09T06:53:02.656739Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.adalinda.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 55,
     "name": "Adatepe",
     "slug": "adatepe",
@@ -65,18 +49,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 358,
-    "name": "Ahsaf",
-    "slug": "ahsaf",
-    "url": "https://www.ahsaf.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:02.657163Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.ahsaf.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ahsaf.com.tr', port=443): Failed to resolve 'www.ahsaf.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 262,
@@ -130,18 +102,6 @@
     "frameAncestors": []
   },
   {
-    "id": 165,
-    "name": "Aktepe Zeytin Zeytinyağı",
-    "slug": "aktepe-zeytin-zeytinyagi",
-    "url": "https://www.aktepezeytin.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:02.657416Z",
-    "embeddable": false,
-    "reason": "SSLError",
-    "error": "HTTPSConnectionPool(host='www.aktepezeytin.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))"
-  },
-  {
     "id": 212,
     "name": "Alaboğaz",
     "slug": "alabogaz",
@@ -156,18 +116,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 375,
-    "name": "Aleli",
-    "slug": "aleli",
-    "url": "https://www.aleli.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:02.657676Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.aleli.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.aleli.com.tr', port=443): Failed to resolve 'www.aleli.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 163,
@@ -223,62 +171,6 @@
     ]
   },
   {
-    "id": 357,
-    "name": "Altın Hasat (Ülker)",
-    "slug": "altin-hasat",
-    "url": "https://altinhasat.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:02.843788Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://altinhasat.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 258,
-    "name": "Alyattes",
-    "slug": "alyattes",
-    "url": "https://www.alyattes.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:02.949963Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.alyattes.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.alyattes.com.tr', port=443): Failed to resolve 'www.alyattes.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 323,
-    "name": "Amichia",
-    "slug": "amichia",
-    "url": "https://www.amichia.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:02.953746Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.amichia.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.amichia.com', port=443): Failed to resolve 'www.amichia.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 173,
-    "name": "AnadOlive Gıda",
-    "slug": "anadolive-gida",
-    "url": "http://www.anadolive.com/",
-    "region": "Türkiye geneli",
-    "category": "premium-butik",
-    "checkedAt": "2026-03-09T06:53:02.956652Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.anadolive.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 120,
     "name": "Anafortis",
     "slug": "anafortis",
@@ -325,18 +217,6 @@
     "contentType": "text/html",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 259,
-    "name": "Antik Teos",
-    "slug": "antik-teos",
-    "url": "https://www.antikteos.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.067530Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.antikteos.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.antikteos.com', port=443): Failed to resolve 'www.antikteos.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 387,
@@ -404,86 +284,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 365,
-    "name": "Aspro Kastro",
-    "slug": "aspro-kastro",
-    "url": "https://www.asprokastro.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.143625Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.asprokastro.com/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 225,
-    "name": "Atölye SO",
-    "slug": "atolye-so",
-    "url": "https://www.atolyeyeso.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.153145Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.atolyeyeso.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.atolyeyeso.com', port=443): Failed to resolve 'www.atolyeyeso.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 352,
-    "name": "Avilo",
-    "slug": "avilo",
-    "url": "https://www.avilo.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.182165Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.avilo.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.avilo.com.tr', port=443): Failed to resolve 'www.avilo.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 230,
-    "name": "Aybal Organik",
-    "slug": "aybal-organik",
-    "url": "https://www.aybalorganik.com",
-    "region": "Türkiye geneli",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:03.252027Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.aybalorganik.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.aybalorganik.com', port=443): Failed to resolve 'www.aybalorganik.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 360,
-    "name": "Aydoğanlar",
-    "slug": "aydoganlar",
-    "url": "https://www.aydoganlarzeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.258491Z",
-    "embeddable": false,
-    "reason": "ReadTimeout",
-    "error": "HTTPSConnectionPool(host='www.aydoganlarzeytinyagi.com', port=443): Read timed out. (read timeout=8)"
-  },
-  {
-    "id": 320,
-    "name": "Ayhan Sicimoğlu",
-    "slug": "ayhan-sicimoglu",
-    "url": "https://www.ayhansicimoglu.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.262119Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.ayhansicimoglu.com/",
-    "contentType": "text/html",
-    "xFrameOptions": "",
-    "frameAncestors": []
   },
   {
     "id": 73,
@@ -587,34 +387,6 @@
     "frameAncestors": []
   },
   {
-    "id": 267,
-    "name": "Barbunun Çiftliği",
-    "slug": "barbunun-ciftligi",
-    "url": "https://www.instagram.com/barbununciftligi/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.406087Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://www.instagram.com/barbununciftligi/",
-    "contentType": "text/html; charset=\"utf-8\"",
-    "xFrameOptions": "DENY",
-    "frameAncestors": []
-  },
-  {
-    "id": 234,
-    "name": "Bata Tarim",
-    "slug": "bata-tarim",
-    "url": "https://www.batatarim.com",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:03.463957Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.batatarim.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.batatarim.com', port=443): Failed to resolve 'www.batatarim.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 85,
     "name": "Bazilika",
     "slug": "bazilika",
@@ -671,22 +443,6 @@
     ]
   },
   {
-    "id": 248,
-    "name": "Besler",
-    "slug": "besler",
-    "url": "https://www.besler.com.tr/tr",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:03.709749Z",
-    "embeddable": false,
-    "reason": "x-frame-options:SAMEORIGIN",
-    "status": 200,
-    "finalUrl": "https://www.besler.com.tr/tr",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "SAMEORIGIN",
-    "frameAncestors": []
-  },
-  {
     "id": 208,
     "name": "Bilgem Zeytin",
     "slug": "bilgem-zeytin",
@@ -719,42 +475,6 @@
     "frameAncestors": []
   },
   {
-    "id": 166,
-    "name": "Bireller Zeytin Zeytinyağ",
-    "slug": "bireller-zeytin-zeytinyag",
-    "url": "https://www.bireller.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.966320Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.bireller.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.bireller.com', port=443): Failed to resolve 'www.bireller.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 206,
-    "name": "Bizimefe Olive Oil",
-    "slug": "bizimefe-olive-oil",
-    "url": "https://www.bizimefe.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:04.004370Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.bizimefe.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.bizimefe.com', port=443): Failed to resolve 'www.bizimefe.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 183,
-    "name": "Blacksea Zeytinyağı",
-    "slug": "blacksea-zeytinyagi",
-    "url": "https://www.blackseazeytinyagi.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:04.051083Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.blackseazeytinyagi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.blackseazeytinyagi.com', port=443): Failed to resolve 'www.blackseazeytinyagi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 150,
     "name": "Bozelli",
     "slug": "bozelli",
@@ -769,18 +489,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 366,
-    "name": "Boztepe",
-    "slug": "boztepe",
-    "url": "https://www.boztepezeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:04.109031Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.boztepezeytinyagi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.boztepezeytinyagi.com', port=443): Failed to resolve 'www.boztepezeytinyagi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 58,
@@ -848,30 +556,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 226,
-    "name": "Cmrt zeytinyağı",
-    "slug": "cmrt-zeytinyagi",
-    "url": "https://www.cmrtzeytinyagi.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:05.191246Z",
-    "embeddable": false,
-    "reason": "ReadTimeout",
-    "error": "HTTPSConnectionPool(host='www.cmrtzeytinyagi.com', port=443): Read timed out. (read timeout=12)"
-  },
-  {
-    "id": 217,
-    "name": "cnt organic",
-    "slug": "cnt-organic",
-    "url": "https://www.cntorganic.com",
-    "region": "Türkiye geneli",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:05.273973Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.cntorganic.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.cntorganic.com', port=443): Failed to resolve 'www.cntorganic.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 271,
@@ -960,18 +644,6 @@
     "frameAncestors": []
   },
   {
-    "id": 229,
-    "name": "Dandalas",
-    "slug": "dandalas",
-    "url": "https://www.dandalas.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:05.883045Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.dandalas.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.dandalas.com.tr', port=443): Failed to resolve 'www.dandalas.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 367,
     "name": "Dardanos Fine Foods",
     "slug": "dardanos-fine-foods",
@@ -1010,30 +682,6 @@
     ]
   },
   {
-    "id": 198,
-    "name": "DELIOLİ",
-    "slug": "delioli",
-    "url": "https://www.delioli.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:05.948246Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.delioli.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.delioli.com.tr', port=443): Failed to resolve 'www.delioli.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 214,
-    "name": "DELLOLIVA EXTRA VİRGİN OLİVE OİL",
-    "slug": "delloliva-extra-virgin-olive-oil",
-    "url": "https://www.delloliva.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:05.997644Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.delloliva.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.delloliva.com', port=443): Failed to resolve 'www.delloliva.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 272,
     "name": "Dem Green",
     "slug": "dem-green",
@@ -1064,18 +712,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 174,
-    "name": "DEVRİM Zeytin ve Zeytinyağı",
-    "slug": "devrim-zeytin-ve-zeytinyagi",
-    "url": "https://www.devrimzeytin.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:06.232167Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.devrimzeytin.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.devrimzeytin.com', port=443): Failed to resolve 'www.devrimzeytin.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 317,
@@ -1242,18 +878,6 @@
     "frameAncestors": []
   },
   {
-    "id": 250,
-    "name": "Ekiz",
-    "slug": "ekiz",
-    "url": "https://www.ekiz.com.tr",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:06.902792Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.ekiz.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ekiz.com.tr', port=443): Failed to resolve 'www.ekiz.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 140,
     "name": "Ekozey",
     "slug": "ekozey",
@@ -1280,18 +904,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "SAMEORIGIN",
     "frameAncestors": []
-  },
-  {
-    "id": 374,
-    "name": "Emek",
-    "slug": "emek",
-    "url": "https://www.emekzeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:07.168565Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.emekzeytinyagi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.emekzeytinyagi.com', port=443): Failed to resolve 'www.emekzeytinyagi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 167,
@@ -1340,18 +952,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 180,
-    "name": "ESİN Zeytin",
-    "slug": "esin-zeytin",
-    "url": "https://www.esinzeytin.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:07.811989Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.esinzeytin.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.esinzeytin.com.tr', port=443): Failed to resolve 'www.esinzeytin.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 319,
@@ -1424,22 +1024,6 @@
     ]
   },
   {
-    "id": 201,
-    "name": "Felovia",
-    "slug": "felovia",
-    "url": "https://www.felovia.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:08.328983Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.felovia.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 278,
     "name": "Ferhatoğlu",
     "slug": "ferhatoglu",
@@ -1502,24 +1086,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 324,
-    "name": "Fresh Future",
-    "slug": "fresh-future",
-    "url": "https://freshfuture.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:08.921781Z",
-    "embeddable": false,
-    "reason": "http-402",
-    "status": 402,
-    "finalUrl": "https://freshfuture.com.tr/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "DENY",
-    "frameAncestors": [
-      "'none'"
-    ]
   },
   {
     "id": 143,
@@ -1623,22 +1189,6 @@
     ]
   },
   {
-    "id": 379,
-    "name": "Gedene",
-    "slug": "gedene",
-    "url": "https://www.gedene.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:09.451376Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.gedene.com/",
-    "contentType": "text/html",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 90,
     "name": "Gemlik Zeytin Evi",
     "slug": "gemlik-zeytin-evi",
@@ -1704,34 +1254,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 279,
-    "name": "Genç Ağa Çiftliği",
-    "slug": "genc-aga-ciftligi",
-    "url": "https://www.instagram.com/gencagaciftligi/?hl=en",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:10.041148Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://www.instagram.com/gencagaciftligi/?hl=en",
-    "contentType": "text/html; charset=\"utf-8\"",
-    "xFrameOptions": "DENY",
-    "frameAncestors": []
-  },
-  {
-    "id": 204,
-    "name": "Girenis",
-    "slug": "girenis",
-    "url": "https://www.girenis.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:10.076876Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.girenis.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.girenis.com', port=443): Failed to resolve 'www.girenis.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 344,
@@ -1815,22 +1337,6 @@
     "frameAncestors": []
   },
   {
-    "id": 220,
-    "name": "Gümüşlü Zeytin Zeytinyağı",
-    "slug": "gumuslu-zeytin-zeytinyagi",
-    "url": "http://www.gumuslu.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "premium-butik",
-    "checkedAt": "2026-03-09T06:53:10.465697Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.gumuslu.com.tr/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 396,
     "name": "Güngör Zeytin",
     "slug": "gungor-zeytin",
@@ -1879,18 +1385,6 @@
     "frameAncestors": []
   },
   {
-    "id": 368,
-    "name": "Harras",
-    "slug": "harras",
-    "url": "https://www.harraszeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:10.642409Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.harraszeytinyagi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.harraszeytinyagi.com', port=443): Failed to resolve 'www.harraszeytinyagi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 162,
     "name": "HAS PREMIUM",
     "slug": "has-premium",
@@ -1926,18 +1420,6 @@
     ]
   },
   {
-    "id": 205,
-    "name": "Haskanlı Husbey zeytinyağları",
-    "slug": "haskanli-husbey-zeytinyaglari",
-    "url": "https://www.husbey.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:10.821032Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.husbey.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.husbey.com', port=443): Failed to resolve 'www.husbey.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 87,
     "name": "Hatay Tadında",
     "slug": "hatay-tadinda",
@@ -1967,40 +1449,6 @@
     "finalUrl": "https://www.hatnar.com/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 261,
-    "name": "Hekimzade",
-    "slug": "hekimzade",
-    "url": "https://hekimzade.com/",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:11.043861Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://hekimzade.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "DENY",
-    "frameAncestors": [
-      "'none'"
-    ]
-  },
-  {
-    "id": 282,
-    "name": "Helike Zeytinyağları",
-    "slug": "helike-zeytinyaglari",
-    "url": "https://www.instagram.com/helikezeytinyaglari/?hl=tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:11.050396Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://www.instagram.com/helikezeytinyaglari/?hl=tr",
-    "contentType": "text/html; charset=\"utf-8\"",
-    "xFrameOptions": "DENY",
     "frameAncestors": []
   },
   {
@@ -2058,18 +1506,6 @@
     ]
   },
   {
-    "id": 372,
-    "name": "Hızırlar",
-    "slug": "hizirlar",
-    "url": "https://www.hizirlar.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:11.551345Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.hizirlar.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.hizirlar.com.tr', port=443): Failed to resolve 'www.hizirlar.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 318,
     "name": "Hiç Urla",
     "slug": "hic-urla",
@@ -2100,30 +1536,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 169,
-    "name": "İDA Lina BECEREN",
-    "slug": "ida-lina-beceren",
-    "url": "https://www.idalina.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:11.666477Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.idalina.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.idalina.com.tr', port=443): Failed to resolve 'www.idalina.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 200,
-    "name": "İlion",
-    "slug": "ilion",
-    "url": "https://www.ilion.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:11.718814Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.ilion.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ilion.com.tr', port=443): Failed to resolve 'www.ilion.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 33,
@@ -2282,22 +1694,6 @@
     "frameAncestors": []
   },
   {
-    "id": 354,
-    "name": "Kandiba",
-    "slug": "kandiba",
-    "url": "https://kandiba.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:12.725737Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://kandiba.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 285,
     "name": "Karadağ Zeytincilik",
     "slug": "karadag-zeytincilik",
@@ -2330,30 +1726,6 @@
     "frameAncestors": []
   },
   {
-    "id": 235,
-    "name": "Karma Olive Oil",
-    "slug": "karma-olive-oil",
-    "url": "https://www.karmaoliveoil.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:12.918724Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.karmaoliveoil.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.karmaoliveoil.com', port=443): Failed to resolve 'www.karmaoliveoil.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 363,
-    "name": "Karşı Köyden",
-    "slug": "karsi-koyden",
-    "url": "https://www.karsikoydenzeytin.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:12.938376Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.karsikoydenzeytin.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.karsikoydenzeytin.com', port=443): Failed to resolve 'www.karsikoydenzeytin.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 135,
     "name": "Karşıbağ",
     "slug": "karsibag",
@@ -2367,22 +1739,6 @@
     "finalUrl": "https://karsibag.com/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 286,
-    "name": "Katre Noon",
-    "slug": "katre-noon",
-    "url": "https://www.instagram.com/katrenoon?igsh=MTRrd2sxY2Z5bWkz",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:13.073369Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://www.instagram.com/katrenoon?igsh=MTRrd2sxY2Z5bWkz",
-    "contentType": "text/html; charset=\"utf-8\"",
-    "xFrameOptions": "DENY",
     "frameAncestors": []
   },
   {
@@ -2453,22 +1809,6 @@
     "frameAncestors": []
   },
   {
-    "id": 371,
-    "name": "Kekliktepe",
-    "slug": "kekliktepe",
-    "url": "http://www.kekliktepe.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:13.627678Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.kekliktepe.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 337,
     "name": "Kesebir",
     "slug": "kesebir",
@@ -2501,18 +1841,6 @@
     "frameAncestors": []
   },
   {
-    "id": 189,
-    "name": "KİBELEM",
-    "slug": "kibelem",
-    "url": "https://www.kibelem.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:13.691345Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.kibelem.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.kibelem.com', port=443): Failed to resolve 'www.kibelem.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 134,
     "name": "Kilye",
     "slug": "kilye",
@@ -2543,22 +1871,6 @@
     "status": 200,
     "finalUrl": "https://kirte.com.tr/",
     "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 370,
-    "name": "Kisthene",
-    "slug": "kisthene",
-    "url": "http://www.kisthene.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:13.906019Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.kisthene.com/",
-    "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -2646,18 +1958,6 @@
     ]
   },
   {
-    "id": 364,
-    "name": "Körfezim",
-    "slug": "korfezim",
-    "url": "https://www.korfezimzeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:14.506433Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.korfezimzeytinyagi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.korfezimzeytinyagi.com', port=443): Failed to resolve 'www.korfezimzeytinyagi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 3,
     "name": "Kristal",
     "slug": "kristal",
@@ -2722,18 +2022,6 @@
     "frameAncestors": []
   },
   {
-    "id": 240,
-    "name": "La Mia Oliva",
-    "slug": "la-mia-oliva",
-    "url": "https://www.lamiaoliva.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:14.735250Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.lamiaoliva.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.lamiaoliva.com', port=443): Failed to resolve 'www.lamiaoliva.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 4,
     "name": "Laleli",
     "slug": "laleli",
@@ -2760,22 +2048,6 @@
     "embeddable": false,
     "reason": "SSLError",
     "error": "HTTPSConnectionPool(host='lamponia.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError(\"hostname 'lamponia.com' doesn't match either of '*.server-home.org', 'server-home.org', 'www.server-home.org'\")))"
-  },
-  {
-    "id": 211,
-    "name": "LENUS",
-    "slug": "lenus",
-    "url": "http://www.lenus.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:15.017576Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.lenus.com.tr/",
-    "contentType": "text/html",
-    "xFrameOptions": "",
-    "frameAncestors": []
   },
   {
     "id": 288,
@@ -2834,22 +2106,6 @@
     "frameAncestors": []
   },
   {
-    "id": 231,
-    "name": "MAGNUS OLIVEOIL",
-    "slug": "magnus-oliveoil",
-    "url": "https://www.magnus.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:15.355746Z",
-    "embeddable": false,
-    "reason": "http-500",
-    "status": 500,
-    "finalUrl": "https://magnus.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 405,
     "name": "Malhun Hatun",
     "slug": "malhun-hatun",
@@ -2864,18 +2120,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 227,
-    "name": "Maraj",
-    "slug": "maraj",
-    "url": "https://www.maraj.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:15.417049Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.maraj.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.maraj.com.tr', port=443): Failed to resolve 'www.maraj.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 9,
@@ -3001,34 +2245,6 @@
     "reason": "ok",
     "status": 200,
     "finalUrl": "https://metezeytin.com/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 190,
-    "name": "Metebey",
-    "slug": "metebey",
-    "url": "https://www.metebey.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:15.842255Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.metebey.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.metebey.com', port=443): Failed to resolve 'www.metebey.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 356,
-    "name": "Midas",
-    "slug": "midas",
-    "url": "https://www.midaszeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:15.881205Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.midaszeytinyagi.com/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
@@ -3285,18 +2501,6 @@
     "error": "HTTPSConnectionPool(host='www.nargourmet.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))"
   },
   {
-    "id": 168,
-    "name": "naturagean",
-    "slug": "naturagean",
-    "url": "https://www.naturagean.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:17.584657Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.naturagean.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.naturagean.com', port=443): Failed to resolve 'www.naturagean.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 291,
     "name": "Naturale",
     "slug": "naturale",
@@ -3311,18 +2515,6 @@
     "contentType": "text/html",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 350,
-    "name": "Ne Extra Oleas (Çakalya)",
-    "slug": "ne-extra-oleas",
-    "url": "https://www.neextraoleas.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:17.732460Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.neextraoleas.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.neextraoleas.com', port=443): Failed to resolve 'www.neextraoleas.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 64,
@@ -3395,22 +2587,6 @@
       "'self'",
       "*"
     ]
-  },
-  {
-    "id": 353,
-    "name": "Nily",
-    "slug": "nily",
-    "url": "https://nilco.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:17.866911Z",
-    "embeddable": false,
-    "reason": "x-frame-options:SAMEORIGIN",
-    "status": 200,
-    "finalUrl": "https://nilco.com.tr/",
-    "contentType": "text/html;charset=UTF-8",
-    "xFrameOptions": "SAMEORIGIN",
-    "frameAncestors": []
   },
   {
     "id": 377,
@@ -3672,18 +2848,6 @@
     "frameAncestors": []
   },
   {
-    "id": 191,
-    "name": "OLİVA SOFRALIK ZEYTİN",
-    "slug": "oliva-sofralik-zeytin",
-    "url": "https://www.olivazeytin.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:18.893379Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.olivazeytin.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.olivazeytin.com', port=443): Failed to resolve 'www.olivazeytin.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 294,
     "name": "Olivalley",
     "slug": "olivalley",
@@ -3746,24 +2910,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 224,
-    "name": "Olivias Fine Olives",
-    "slug": "olivias-fine-olives",
-    "url": "https://www.olivias.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:19.234336Z",
-    "embeddable": false,
-    "reason": "http-402",
-    "status": 402,
-    "finalUrl": "https://olivias.com.tr/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "DENY",
-    "frameAncestors": [
-      "'none'"
-    ]
   },
   {
     "id": 181,
@@ -3853,24 +2999,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "SAMEORIGIN",
     "frameAncestors": []
-  },
-  {
-    "id": 315,
-    "name": "Olizzi",
-    "slug": "olizzi",
-    "url": "https://olizzi.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:19.804382Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://olizzi.com.tr/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "DENY",
-    "frameAncestors": [
-      "'none'"
-    ]
   },
   {
     "id": 130,
@@ -3997,18 +3125,6 @@
     "frameAncestors": []
   },
   {
-    "id": 316,
-    "name": "Ottoman (Darvari Gıda)",
-    "slug": "ottoman",
-    "url": "https://ottoman.organic",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:20.374808Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='ottoman.organic', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ottoman.organic', port=443): Failed to resolve 'ottoman.organic' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 60,
     "name": "OVE Foods",
     "slug": "ove-foods",
@@ -4053,34 +3169,6 @@
     "error": "HTTPSConnectionPool(host='www.ozkoyum.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ozkoyum.com.tr', port=443): Failed to resolve 'www.ozkoyum.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
-    "id": 254,
-    "name": "Özem",
-    "slug": "ozem",
-    "url": "https://ozem.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:20.755224Z",
-    "embeddable": false,
-    "reason": "x-frame-options:SAMEORIGIN",
-    "status": 200,
-    "finalUrl": "https://ozem.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "SAMEORIGIN",
-    "frameAncestors": []
-  },
-  {
-    "id": 256,
-    "name": "Özlem",
-    "slug": "ozlem",
-    "url": "https://www.ozlemzeytinyaglari.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:20.788830Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.ozlemzeytinyaglari.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ozlemzeytinyaglari.com', port=443): Failed to resolve 'www.ozlemzeytinyaglari.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 102,
     "name": "Palamidas",
     "slug": "palamidas",
@@ -4110,34 +3198,6 @@
     "finalUrl": "https://www.pazarbasilar.com/",
     "contentType": "text/html",
     "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 209,
-    "name": "Phellos Zeytinyağı",
-    "slug": "phellos-zeytinyagi",
-    "url": "https://www.phellosoliveoil.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:21.175332Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.phellosoliveoil.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.phellosoliveoil.com', port=443): Failed to resolve 'www.phellosoliveoil.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 373,
-    "name": "Pınar",
-    "slug": "pinar",
-    "url": "https://www.pinar.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "premium-butik",
-    "checkedAt": "2026-03-09T06:53:21.209993Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.pinar.com.tr/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "strict-origin-when-cross-origin",
     "frameAncestors": []
   },
   {
@@ -4208,50 +3268,6 @@
     ]
   },
   {
-    "id": 222,
-    "name": "Puranda",
-    "slug": "puranda",
-    "url": "https://www.puranda.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:22.191222Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.puranda.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.puranda.com.tr', port=443): Failed to resolve 'www.puranda.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 196,
-    "name": "Quinceland",
-    "slug": "quinceland",
-    "url": "https://www.quinceland.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:22.222932Z",
-    "embeddable": false,
-    "reason": "http-404",
-    "status": 404,
-    "finalUrl": "https://www.quinceland.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 243,
-    "name": "Ravika",
-    "slug": "ravika",
-    "url": "https://www.ravika.com.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:22.261538Z",
-    "embeddable": false,
-    "reason": "http-403",
-    "status": 403,
-    "finalUrl": "https://ravika.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 156,
     "name": "Ravla Gurme",
     "slug": "ravla-gurme",
@@ -4287,22 +3303,6 @@
     "frameAncestors": []
   },
   {
-    "id": 298,
-    "name": "Revna",
-    "slug": "revna",
-    "url": "http://revnazeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:22.820088Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://revnazeytinyagi.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 348,
     "name": "Riccolivo",
     "slug": "riccolivo",
@@ -4315,22 +3315,6 @@
     "status": 200,
     "finalUrl": "https://www.riccolivo.com/tr/",
     "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 215,
-    "name": "Riwolli",
-    "slug": "riwolli",
-    "url": "https://www.riwolli.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:22.904765Z",
-    "embeddable": false,
-    "reason": "http-404",
-    "status": 404,
-    "finalUrl": "https://www.riwolli.com/",
-    "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -4394,22 +3378,6 @@
     ]
   },
   {
-    "id": 182,
-    "name": "Safiden Zeytinyağları",
-    "slug": "safiden-zeytinyaglari",
-    "url": "http://www.safiden.com/",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:23.041312Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.safiden.com/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 142,
     "name": "Safitad",
     "slug": "safitad",
@@ -4471,18 +3439,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "SAMEORIGIN",
     "frameAncestors": []
-  },
-  {
-    "id": 187,
-    "name": "SAVOREL",
-    "slug": "savorel",
-    "url": "https://www.savorel.com.tr",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:24.008972Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.savorel.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.savorel.com.tr', port=443): Failed to resolve 'www.savorel.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 99,
@@ -4553,22 +3509,6 @@
     ]
   },
   {
-    "id": 380,
-    "name": "Senole",
-    "slug": "senole",
-    "url": "http://www.senole.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:24.052146Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.senole.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 113,
     "name": "Seosfarm",
     "slug": "seosfarm",
@@ -4599,18 +3539,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 376,
-    "name": "Sırım",
-    "slug": "sirim",
-    "url": "https://www.sirimzeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:24.499584Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.sirimzeytinyagi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.sirimzeytinyagi.com', port=443): Failed to resolve 'www.sirimzeytinyagi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 245,
@@ -4664,22 +3592,6 @@
     ]
   },
   {
-    "id": 300,
-    "name": "Som Zeytin",
-    "slug": "som-zeytin",
-    "url": "http://somzeytin.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:24.537684Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://somzeytin.com/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 301,
     "name": "Somak",
     "slug": "somak",
@@ -4692,22 +3604,6 @@
     "status": 200,
     "finalUrl": "https://www.somakzeytin.com.tr/",
     "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 251,
-    "name": "Sunar",
-    "slug": "sunar",
-    "url": "http://www.sunar.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:24.654463Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.sunar.com.tr/",
-    "contentType": "text/html",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -4796,34 +3692,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 239,
-    "name": "Tayga İyi Gıda",
-    "slug": "tayga-iyi-gida",
-    "url": "https://www.tayga.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:25.064622Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.tayga.com.tr/",
-    "contentType": "text/html; charset=utf-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 359,
-    "name": "Teosole",
-    "slug": "teosole",
-    "url": "https://www.teosole.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:25.176222Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.teosole.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.teosole.com', port=443): Failed to resolve 'www.teosole.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 123,
@@ -4952,30 +3820,6 @@
     ]
   },
   {
-    "id": 170,
-    "name": "Turan Erden Zeytinyağları",
-    "slug": "turan-erden-zeytinyaglari",
-    "url": "https://www.turanerden.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:25.591369Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.turanerden.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.turanerden.com', port=443): Failed to resolve 'www.turanerden.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 195,
-    "name": "Ulvi Bey Zeytinyağları",
-    "slug": "ulvi-bey-zeytinyaglari",
-    "url": "https://www.ulvibey.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:25.732949Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.ulvibey.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ulvibey.com', port=443): Failed to resolve 'www.ulvibey.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 305,
     "name": "Ustalı",
     "slug": "ustali",
@@ -5022,30 +3866,6 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
-  },
-  {
-    "id": 210,
-    "name": "Ünsal yılmaz zeytinleri",
-    "slug": "unsal-yilmaz-zeytinleri",
-    "url": "https://www.unsalyilmaz.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:25.971299Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.unsalyilmaz.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.unsalyilmaz.com', port=443): Failed to resolve 'www.unsalyilmaz.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
-    "id": 253,
-    "name": "Vakıf Zeytinleri",
-    "slug": "vakif-zeytinleri",
-    "url": "https://www.vakifzeytinleri.gov.tr",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:26.000862Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.vakifzeytinleri.gov.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.vakifzeytinleri.gov.tr', port=443): Failed to resolve 'www.vakifzeytinleri.gov.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 306,
@@ -5210,18 +4030,6 @@
     "frameAncestors": []
   },
   {
-    "id": 219,
-    "name": "Yedibahçe Zeytincilik",
-    "slug": "yedibahce-zeytincilik",
-    "url": "https://www.yedibahce.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:26.525433Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.yedibahce.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.yedibahce.com', port=443): Failed to resolve 'www.yedibahce.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 92,
     "name": "Yelkenli",
     "slug": "yelkenli",
@@ -5317,38 +4125,6 @@
     "frameAncestors": []
   },
   {
-    "id": 351,
-    "name": "Z Organik",
-    "slug": "z-organik",
-    "url": "http://www.zeytinyagci.com/",
-    "region": "Türkiye geneli",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:26.748768Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "http://www.zeytinyagci.com/",
-    "contentType": "text/html",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 247,
-    "name": "Zade",
-    "slug": "zade",
-    "url": "https://www.zade.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:26.842524Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.zade.com.tr/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 144,
     "name": "Zagoda",
     "slug": "zagoda",
@@ -5393,22 +4169,6 @@
     "status": 200,
     "finalUrl": "https://zavendikzeytinyagi.com/",
     "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 172,
-    "name": "ZENDE",
-    "slug": "zende",
-    "url": "https://www.zende.com.tr/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:27.293378Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.zende.com.tr/",
-    "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -5699,18 +4459,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 177,
-    "name": "ZEYTKARİ",
-    "slug": "zeytkari",
-    "url": "https://www.zeytkari.com",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:29.550074Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.zeytkari.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.zeytkari.com', port=443): Failed to resolve 'www.zeytkari.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 311,

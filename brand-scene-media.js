@@ -7,14 +7,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'adalinda': {
-    src: 'images/markalar/adalinda/adalinda-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'adatepe': {
     src: 'images/markalar/adatepe/adatepe-scene-nature-1.jpg',
     alt: 'Küçükkuyu çevresinde zeytin ağaçları ve doğal görünüm',
@@ -30,14 +22,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'ahsaf': {
-    src: 'images/markalar/ahsaf/ahsaf-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'aivalia': {
     src: 'images/markalar/aivalia/aivalia-scene-nature-3.jpg',
@@ -63,26 +47,10 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'aktepe-zeytin-zeytinyagi': {
-    src: 'images/markalar/aktepe-zeytin-zeytinyagi/aktepe-zeytin-zeytinyagi-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'alabogaz': {
     src: 'images/markalar/alabogaz/alabogaz-scene-nature-3.jpg',
     alt: 'Milas çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Milas zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'aleli': {
-    src: 'images/markalar/aleli/aleli-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -119,38 +87,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'altin-hasat': {
-    src: 'images/markalar/altin-hasat/altin-hasat-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'alyattes': {
-    src: 'images/markalar/alyattes/alyattes-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'amichia': {
-    src: 'images/markalar/amichia/amichia-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'anadolive-gida': {
-    src: 'images/markalar/anadolive-gida/anadolive-gida-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'anafortis': {
     src: 'images/markalar/anafortis/anafortis-scene-nature-2.jpg',
     alt: 'Eceabat çevresinde zeytin ağaçları ve doğal görünüm',
@@ -183,14 +119,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'antik-teos': {
-    src: 'images/markalar/antik-teos/antik-teos-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'armutlu-zeytincilik': {
     src: 'images/markalar/armutlu-zeytincilik/armutlu-zeytincilik-scene-nature-1.jpg',
     alt: 'Edremit çevresinde zeytin ağaçları ve doğal görünüm',
@@ -219,54 +147,6 @@ const brandSceneMedia = {
     src: 'images/markalar/asiltane/asiltane-scene-nature-3.jpg',
     alt: 'Aydın çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Aydın zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'aspro-kastro': {
-    src: 'images/markalar/aspro-kastro/aspro-kastro-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'atolye-so': {
-    src: 'images/markalar/atolye-so/atolye-so-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'avilo': {
-    src: 'images/markalar/avilo/avilo-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'aybal-organik': {
-    src: 'images/markalar/aybal-organik/aybal-organik-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'aydoganlar': {
-    src: 'images/markalar/aydoganlar/aydoganlar-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'ayhan-sicimoglu': {
-    src: 'images/markalar/ayhan-sicimoglu/ayhan-sicimoglu-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -327,14 +207,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'baba-topragi': {
-    src: 'images/markalar/baba-topragi/baba-topragi-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'baktat-zeytin': {
     src: 'images/markalar/baktat-zeytin/baktat-zeytin-scene-nature-1.jpg',
     alt: 'Gemlik çevresinde zeytin ağaçları ve doğal görünüm',
@@ -342,22 +214,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Gemlik_zeytini.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'Kızıldeniz'
-  },
-  'barbunun-ciftligi': {
-    src: 'images/markalar/barbunun-ciftligi/barbunun-ciftligi-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'bata-tarim': {
-    src: 'images/markalar/bata-tarim/bata-tarim-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'bazilika': {
     src: 'images/markalar/bazilika/bazilika-scene-nature-2.jpg',
@@ -391,14 +247,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'besler': {
-    src: 'images/markalar/besler/besler-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'beyaz-altin': {
     src: 'images/markalar/beyaz-altin/beyaz-altin-scene-nature-1.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
@@ -423,30 +271,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'bireller-zeytin-zeytinyag': {
-    src: 'images/markalar/bireller-zeytin-zeytinyag/bireller-zeytin-zeytinyag-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'bizimefe-olive-oil': {
-    src: 'images/markalar/bizimefe-olive-oil/bizimefe-olive-oil-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'blacksea-zeytinyagi': {
-    src: 'images/markalar/blacksea-zeytinyagi/blacksea-zeytinyagi-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'bozelli': {
     src: 'images/markalar/bozelli/bozelli-scene-nature-2.jpg',
     alt: 'Akhisar çevresinde zeytin ağaçları ve doğal görünüm',
@@ -454,14 +278,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'boztepe': {
-    src: 'images/markalar/boztepe/boztepe-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'bukem-zeytinyaglari': {
     src: 'images/markalar/bukem-zeytinyaglari/bukem-zeytinyaglari-scene-nature-2.jpg',
@@ -511,22 +327,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'cmrt-zeytinyagi': {
-    src: 'images/markalar/cmrt-zeytinyagi/cmrt-zeytinyagi-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'cnt-organic': {
-    src: 'images/markalar/cnt-organic/cnt-organic-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'cobanoz-zeytincilik': {
     src: 'images/markalar/cobanoz-zeytincilik/cobanoz-zeytincilik-scene-nature-1.jpg',
     alt: 'Edremit çevresinde zeytin ağaçları ve doğal görünüm',
@@ -567,14 +367,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'dandalas': {
-    src: 'images/markalar/dandalas/dandalas-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'dardanos-fine-foods': {
     src: 'images/markalar/dardanos-fine-foods/dardanos-fine-foods-scene-nature-1.jpg',
     alt: 'Çanakkale çevresinde zeytin ağaçları ve doğal görünüm',
@@ -599,30 +391,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'deli-dane': {
-    src: 'images/markalar/deli-dane/deli-dane-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'delioli': {
-    src: 'images/markalar/delioli/delioli-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'delloliva-extra-virgin-olive-oil': {
-    src: 'images/markalar/delloliva-extra-virgin-olive-oil/delloliva-extra-virgin-olive-oil-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'dem-green': {
     src: 'images/markalar/dem-green/dem-green-scene-nature-3.jpg',
     alt: 'Urla çevresinde zeytin ağaçları ve doğal görünüm',
@@ -639,14 +407,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'devrim-zeytin-ve-zeytinyagi': {
-    src: 'images/markalar/devrim-zeytin-ve-zeytinyagi/devrim-zeytin-ve-zeytinyagi-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'dino-ayvalik': {
     src: 'images/markalar/dino-ayvalik/dino-ayvalik-scene-nature-3.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
@@ -659,14 +419,6 @@ const brandSceneMedia = {
     src: 'images/markalar/dizem-organik/dizem-organik-scene-nature-3.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Ayvalık zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'dolive': {
-    src: 'images/markalar/dolive/dolive-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -767,14 +519,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'ekiz': {
-    src: 'images/markalar/ekiz/ekiz-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'ekooleo': {
     src: 'images/markalar/ekooleo/ekooleo-scene-nature-3.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
@@ -799,14 +543,6 @@ const brandSceneMedia = {
     license: 'CC BY-SA 4.0',
     artist: 'Kızıldeniz'
   },
-  'emek': {
-    src: 'images/markalar/emek/emek-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'eminems-olive-oil': {
     src: 'images/markalar/eminems-olive-oil/eminems-olive-oil-scene-nature-3.jpg',
     alt: 'Milas çevresinde zeytin ağaçları ve doğal görünüm',
@@ -830,14 +566,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'esin-zeytin': {
-    src: 'images/markalar/esin-zeytin/esin-zeytin-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'esref-bey-zeytincilik': {
     src: 'images/markalar/esref-bey-zeytincilik/esref-bey-zeytincilik-scene-nature-2.jpg',
@@ -867,14 +595,6 @@ const brandSceneMedia = {
     src: 'images/markalar/fayton/fayton-scene-nature-1.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Ayvalık zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'felovia': {
-    src: 'images/markalar/felovia/felovia-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
@@ -918,14 +638,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
-  },
-  'fresh-future': {
-    src: 'images/markalar/fresh-future/fresh-future-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
   },
   'funoli': {
     src: 'images/markalar/funoli/funoli-scene-nature-2.jpg',
@@ -983,26 +695,10 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'gargarus': {
-    src: 'images/markalar/gargarus/gargarus-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'garisar': {
     src: 'images/markalar/garisar/garisar-scene-nature-2.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Ege Bölgesi zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'gedene': {
-    src: 'images/markalar/gedene/gedene-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1038,30 +734,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Gemlik_zeytini.jpg',
     license: 'CC BY-SA 4.0',
     artist: 'Kızıldeniz'
-  },
-  'genc-aga-ciftligi': {
-    src: 'images/markalar/genc-aga-ciftligi/genc-aga-ciftligi-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'gida-ormani': {
-    src: 'images/markalar/gida-ormani/gida-ormani-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'girenis': {
-    src: 'images/markalar/girenis/girenis-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'giz-olive-oil': {
     src: 'images/markalar/giz-olive-oil/giz-olive-oil-scene-nature-3.jpg',
@@ -1103,14 +775,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'gumuslu-zeytin-zeytinyagi': {
-    src: 'images/markalar/gumuslu-zeytin-zeytinyagi/gumuslu-zeytin-zeytinyagi-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'gungor-zeytin': {
     src: 'images/markalar/gungor-zeytin/gungor-zeytin-scene-nature-2.jpg',
     alt: 'Aydın çevresinde zeytin ağaçları ve doğal görünüm',
@@ -1131,14 +795,6 @@ const brandSceneMedia = {
     src: 'images/markalar/halil-esen/halil-esen-scene-nature-2.jpg',
     alt: 'Gemlik çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Gemlik zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'harras': {
-    src: 'images/markalar/harras/harras-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1167,14 +823,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'haskanli-husbey-zeytinyaglari': {
-    src: 'images/markalar/haskanli-husbey-zeytinyaglari/haskanli-husbey-zeytinyaglari-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'hatay-tadinda': {
     src: 'images/markalar/hatay-tadinda/hatay-tadinda-scene-nature-1.jpg',
     alt: 'Hatay çevresinde zeytin ağaçları ve doğal görünüm',
@@ -1191,22 +839,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'hayal-bahce': {
-    src: 'images/markalar/hayal-bahce/hayal-bahce-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'hekimzade': {
-    src: 'images/markalar/hekimzade/hekimzade-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'hektors': {
     src: 'images/markalar/hektors/hektors-scene-nature-2.jpg',
     alt: 'Çanakkale çevresinde zeytin ağaçları ve doğal görünüm',
@@ -1214,14 +846,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'helike-zeytinyaglari': {
-    src: 'images/markalar/helike-zeytinyaglari/helike-zeytinyaglari-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'hellenia': {
     src: 'images/markalar/hellenia/hellenia-scene-nature-2.jpg',
@@ -1286,46 +910,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
-  },
-  'hizirlar': {
-    src: 'images/markalar/hizirlar/hizirlar-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'hizirlar-medikal-gida': {
-    src: 'images/markalar/hizirlar-medikal-gida/hizirlar-medikal-gida-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'ida-lina-beceren': {
-    src: 'images/markalar/ida-lina-beceren/ida-lina-beceren-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'ilion': {
-    src: 'images/markalar/ilion/ilion-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'ilya': {
-    src: 'images/markalar/ilya/ilya-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
   },
   'ilyada': {
     src: 'images/markalar/ilyada/ilyada-scene-nature-3.jpg',
@@ -1415,14 +999,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'kandiba': {
-    src: 'images/markalar/kandiba/kandiba-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'karadag-zeytincilik': {
     src: 'images/markalar/karadag-zeytincilik/karadag-zeytincilik-scene-nature-2.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
@@ -1439,34 +1015,10 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'karma-olive-oil': {
-    src: 'images/markalar/karma-olive-oil/karma-olive-oil-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'karsi-koyden': {
-    src: 'images/markalar/karsi-koyden/karsi-koyden-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'karsibag': {
     src: 'images/markalar/karsibag/karsibag-scene-nature-2.jpg',
     alt: 'Mudanya çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Mudanya zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'katre-noon': {
-    src: 'images/markalar/katre-noon/katre-noon-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1503,14 +1055,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'kekliktepe': {
-    src: 'images/markalar/kekliktepe/kekliktepe-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'kesebir': {
     src: 'images/markalar/kesebir/kesebir-scene-nature-3.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
@@ -1518,14 +1062,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'kibelem': {
-    src: 'images/markalar/kibelem/kibelem-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'kilye': {
     src: 'images/markalar/kilye/kilye-scene-nature-2.jpg',
@@ -1547,14 +1083,6 @@ const brandSceneMedia = {
     src: 'images/markalar/kirte/kirte-scene-nature-2.jpg',
     alt: 'Eceabat çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Eceabat zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'kisthene': {
-    src: 'images/markalar/kisthene/kisthene-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1590,14 +1118,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
-  },
-  'korfezim': {
-    src: 'images/markalar/korfezim/korfezim-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
   },
   'kozoliv': {
     src: 'images/markalar/kozoliv/kozoliv-scene-nature-3.jpg',
@@ -1655,14 +1175,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'la-mia-oliva': {
-    src: 'images/markalar/la-mia-oliva/la-mia-oliva-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'laleli': {
     src: 'images/markalar/laleli/laleli-scene-nature-2.jpg',
     alt: 'İzmir çevresinde zeytin ağaçları ve doğal görünüm',
@@ -1675,14 +1187,6 @@ const brandSceneMedia = {
     src: 'images/markalar/lamponia/lamponia-scene-nature-2.jpg',
     alt: 'Ayvacık çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Ayvacık zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'lenus': {
-    src: 'images/markalar/lenus/lenus-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1727,26 +1231,10 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'magnus-oliveoil': {
-    src: 'images/markalar/magnus-oliveoil/magnus-oliveoil-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
   'malhun-hatun': {
     src: 'images/markalar/malhun-hatun/malhun-hatun-scene-nature-2.jpg',
     alt: 'Bursa çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Bursa zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'maraj': {
-    src: 'images/markalar/maraj/maraj-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1815,22 +1303,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'metebey': {
-    src: 'images/markalar/metebey/metebey-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'midas': {
-    src: 'images/markalar/midas/midas-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'milas-zeytinyaglari': {
     src: 'images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-scene-nature-3.jpg',
     alt: 'Milas çevresinde zeytin ağaçları ve doğal görünüm',
@@ -1843,14 +1315,6 @@ const brandSceneMedia = {
     src: 'images/markalar/milasso/milasso-scene-nature-3.jpg',
     alt: 'Milas çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Milas zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'millora': {
-    src: 'images/markalar/millora/millora-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1875,14 +1339,6 @@ const brandSceneMedia = {
     src: 'images/markalar/miryag/miryag-scene-nature-3.jpg',
     alt: 'Mudanya çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Mudanya zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'misya': {
-    src: 'images/markalar/misya/misya-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -1983,14 +1439,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'naturagean': {
-    src: 'images/markalar/naturagean/naturagean-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'naturale': {
     src: 'images/markalar/naturale/naturale-scene-nature-3.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2003,14 +1451,6 @@ const brandSceneMedia = {
     src: 'images/markalar/naturel/naturel-scene-nature-3.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Ege Bölgesi zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'ne-extra-oleas': {
-    src: 'images/markalar/ne-extra-oleas/ne-extra-oleas-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -2043,14 +1483,6 @@ const brandSceneMedia = {
     src: 'images/markalar/nilbag/nilbag-scene-nature-3.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Ayvalık zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'nily': {
-    src: 'images/markalar/nily/nily-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -2231,14 +1663,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'oliva-sofralik-zeytin': {
-    src: 'images/markalar/oliva-sofralik-zeytin/oliva-sofralik-zeytin-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'oliva-troas': {
     src: 'images/markalar/oliva-troas/oliva-troas-scene-nature-2.jpg',
     alt: 'Çanakkale çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2295,14 +1719,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'olivias-fine-olives': {
-    src: 'images/markalar/olivias-fine-olives/olivias-fine-olives-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'olivner': {
     src: 'images/markalar/olivner/olivner-scene-nature-1.jpg',
     alt: 'Mut çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2347,14 +1763,6 @@ const brandSceneMedia = {
     src: 'images/markalar/olivya-gokceovacik/olivya-gokceovacik-scene-nature-2.jpg',
     alt: 'Milas çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Milas zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'olizzi': {
-    src: 'images/markalar/olizzi/olizzi-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -2423,14 +1831,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'ottoman': {
-    src: 'images/markalar/ottoman/ottoman-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'ove-foods': {
     src: 'images/markalar/ove-foods/ove-foods-scene-nature-1.jpg',
     alt: 'Aydın çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2455,14 +1855,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'ozem': {
-    src: 'images/markalar/ozem/ozem-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'ozgun-olive': {
     src: 'images/markalar/ozgun-olive/ozgun-olive-scene-nature-1.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2470,14 +1862,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
-  },
-  'ozlem': {
-    src: 'images/markalar/ozlem/ozlem-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
   },
   'palamidas': {
     src: 'images/markalar/palamidas/palamidas-scene-nature-2.jpg',
@@ -2503,26 +1887,10 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'phellos-zeytinyagi': {
-    src: 'images/markalar/phellos-zeytinyagi/phellos-zeytinyagi-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'pidasus': {
     src: 'images/markalar/pidasus/pidasus-scene-nature-3.jpg',
     alt: 'Urla çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Urla zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'pinar': {
-    src: 'images/markalar/pinar/pinar-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -2559,30 +1927,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'puranda': {
-    src: 'images/markalar/puranda/puranda-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'quinceland': {
-    src: 'images/markalar/quinceland/quinceland-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'ravika': {
-    src: 'images/markalar/ravika/ravika-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'ravla-gurme': {
     src: 'images/markalar/ravla-gurme/ravla-gurme-scene-nature-2.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2599,22 +1943,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'rengin-suar': {
-    src: 'images/markalar/rengin-suar/rengin-suar-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'revna': {
-    src: 'images/markalar/revna/revna-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'riccolivo': {
     src: 'images/markalar/riccolivo/riccolivo-scene-nature-3.jpg',
     alt: 'Urla çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2622,14 +1950,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'riwolli': {
-    src: 'images/markalar/riwolli/riwolli-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'roda-farm': {
     src: 'images/markalar/roda-farm/roda-farm-scene-nature-2.jpg',
@@ -2654,14 +1974,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
-  },
-  'safiden-zeytinyaglari': {
-    src: 'images/markalar/safiden-zeytinyaglari/safiden-zeytinyaglari-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
   },
   'safitad': {
     src: 'images/markalar/safitad/safitad-scene-nature-2.jpg',
@@ -2699,14 +2011,6 @@ const brandSceneMedia = {
     src: 'images/markalar/sarraf-olive-oil/sarraf-olive-oil-scene-nature-3.jpg',
     alt: 'Edremit çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Edremit zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'savorel': {
-    src: 'images/markalar/savorel/savorel-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -2751,14 +2055,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'senole': {
-    src: 'images/markalar/senole/senole-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'seosfarm': {
     src: 'images/markalar/seosfarm/seosfarm-scene-nature-2.jpg',
     alt: 'Seferihisar çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2771,14 +2067,6 @@ const brandSceneMedia = {
     src: 'images/markalar/seroliva/seroliva-scene-nature-3.jpg',
     alt: 'Aydın çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Aydın zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'sirim': {
-    src: 'images/markalar/sirim/sirim-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -2807,14 +2095,6 @@ const brandSceneMedia = {
     license: 'CC BY-SA 4.0',
     artist: 'Kızıldeniz'
   },
-  'som-zeytin': {
-    src: 'images/markalar/som-zeytin/som-zeytin-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'somak': {
     src: 'images/markalar/somak/somak-scene-nature-1.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2822,14 +2102,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
-  },
-  'sunar': {
-    src: 'images/markalar/sunar/sunar-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
   },
   'tadin-tarifi': {
     src: 'images/markalar/tadin-tarifi/tadin-tarifi-scene-nature-2.jpg',
@@ -2879,14 +2151,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'tayga-iyi-gida': {
-    src: 'images/markalar/tayga-iyi-gida/tayga-iyi-gida-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'tego': {
     src: 'images/markalar/tego/tego-scene-nature-3.jpg',
     alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2899,14 +2163,6 @@ const brandSceneMedia = {
     src: 'images/markalar/tenedos/tenedos-scene-nature-2.jpg',
     alt: 'Çanakkale çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Çanakkale zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'teosole': {
-    src: 'images/markalar/teosole/teosole-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -2983,14 +2239,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'turan-erden-zeytinyaglari': {
-    src: 'images/markalar/turan-erden-zeytinyaglari/turan-erden-zeytinyaglari-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'ugurlu-zeytinyaglari': {
     src: 'images/markalar/ugurlu-zeytinyaglari/ugurlu-zeytinyaglari-scene-nature-2.jpg',
     alt: 'Çanakkale çevresinde zeytin ağaçları ve doğal görünüm',
@@ -2998,22 +2246,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'ulvi-bey-zeytinyaglari': {
-    src: 'images/markalar/ulvi-bey-zeytinyaglari/ulvi-bey-zeytinyaglari-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'unsal-yilmaz-zeytinleri': {
-    src: 'images/markalar/unsal-yilmaz-zeytinleri/unsal-yilmaz-zeytinleri-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'ustali': {
     src: 'images/markalar/ustali/ustali-scene-nature-3.jpg',
@@ -3035,14 +2267,6 @@ const brandSceneMedia = {
     src: 'images/markalar/uzman-ciftlik/uzman-ciftlik-scene-nature-3.jpg',
     alt: 'Edremit çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Edremit zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'vakif-zeytinleri': {
-    src: 'images/markalar/vakif-zeytinleri/vakif-zeytinleri-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -3111,14 +2335,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'vita': {
-    src: 'images/markalar/vita/vita-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'vivax-olea': {
     src: 'images/markalar/vivax-olea/vivax-olea-scene-nature-2.jpg',
     alt: 'Şarköy çevresinde zeytin ağaçları ve doğal görünüm',
@@ -3131,14 +2347,6 @@ const brandSceneMedia = {
     src: 'images/markalar/vivendi/vivendi-scene-nature-3.jpg',
     alt: 'Çanakkale çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Çanakkale zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'yagderesi': {
-    src: 'images/markalar/yagderesi/yagderesi-scene-nature-3.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
@@ -3158,14 +2366,6 @@ const brandSceneMedia = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
     license: 'CC BY 3.0',
     artist: 'Ollios'
-  },
-  'yedibahce-zeytincilik': {
-    src: 'images/markalar/yedibahce-zeytincilik/yedibahce-zeytincilik-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
   },
   'yelkenli': {
     src: 'images/markalar/yelkenli/yelkenli-scene-nature-1.jpg',
@@ -3215,22 +2415,6 @@ const brandSceneMedia = {
     license: 'CC BY 3.0',
     artist: 'Ollios'
   },
-  'z-organik': {
-    src: 'images/markalar/z-organik/z-organik-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
-  },
-  'zade': {
-    src: 'images/markalar/zade/zade-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'zagoda': {
     src: 'images/markalar/zagoda/zagoda-scene-nature-2.jpg',
     alt: 'Akhisar çevresinde zeytin ağaçları ve doğal görünüm',
@@ -3262,14 +2446,6 @@ const brandSceneMedia = {
     sourceUrl: '',
     license: '',
     artist: ''
-  },
-  'zende': {
-    src: 'images/markalar/zende/zende-scene-nature-1.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pelitk%C3%B6yde_bir_zeytinlik,_T%C3%BCrkiye.jpg',
-    license: 'CC BY 3.0',
-    artist: 'Ollios'
   },
   'zenolive': {
     src: 'images/markalar/zenolive/zenolive-scene-nature-2.jpg',
@@ -3419,14 +2595,6 @@ const brandSceneMedia = {
     src: 'images/markalar/zeytinyagi-evi/zeytinyagi-evi-scene-nature-2.jpg',
     alt: 'Mut çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Mut zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'zeytkari': {
-    src: 'images/markalar/zeytkari/zeytkari-scene-nature-2.jpg',
-    alt: 'Türkiye geneli çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Türkiye geneli zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''

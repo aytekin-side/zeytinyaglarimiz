@@ -136,17 +136,6 @@
             <p class="brand-region-map-copy">Tekirdağ, Edirne ve Kırklareli çevresindeki sınırlı ama büyüyen üretim alanlarını görün.</p>
             <div id="brandMap-trakya" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Trakya üzerindeki zeytinyağı markaları haritası"></div>
         </article>
-        <article class="brand-region-map-card fade-up">
-            <div class="brand-region-map-head">
-                <div>
-                    <span class="brand-region-map-eyebrow">Türkiye Geneli</span>
-                    <h3><a href="topic/bolgeler/turkiye.html">Türkiye Geneli</a></h3>
-                </div>
-                <div class="brand-map-stats" id="brandMapStats-turkiye" aria-live="polite"></div>
-            </div>
-            <p class="brand-region-map-copy">Belirli bir ana havzaya bağlı olmayan veya ülke geneli konumlanan kayıtları ayrı görün.</p>
-            <div id="brandMap-turkiye" class="brand-map-canvas brand-map-canvas-region" role="img" aria-label="Türkiye geneli zeytinyağı markaları haritası"></div>
-        </article>
     </div>
 </section>
 
@@ -248,7 +237,6 @@
                     <a class="topic-link" href="topic/bolgeler/akdeniz.html">Akdeniz Bölgesi (14)</a>
                     <a class="topic-link" href="topic/bolgeler/guneydogu.html">Güneydoğu Anadolu (5)</a>
                     <a class="topic-link" href="topic/bolgeler/trakya.html">Trakya Bölgesi (3)</a>
-                    <a class="topic-link" href="topic/bolgeler/turkiye.html">Türkiye Geneli (1)</a>
                 </div>
             </div>
             <div class="region-link-group">
@@ -312,8 +300,7 @@ const regionQuickLinkConfig = [
     { key: 'marmara', label: 'Marmara Bölgesi', href: 'topic/bolgeler/marmara.html' },
     { key: 'akdeniz', label: 'Akdeniz Bölgesi', href: 'topic/bolgeler/akdeniz.html' },
     { key: 'guneydogu', label: 'Güneydoğu Anadolu', href: 'topic/bolgeler/guneydogu.html' },
-    { key: 'trakya', label: 'Trakya Bölgesi', href: 'topic/bolgeler/trakya.html' },
-    { key: 'turkiye', label: 'Türkiye Geneli', href: 'topic/bolgeler/turkiye.html' }
+    { key: 'trakya', label: 'Trakya Bölgesi', href: 'topic/bolgeler/trakya.html' }
 ];
 
 const oliveTypeQuickLinkConfig = [
@@ -397,8 +384,7 @@ const regionMapConfig = [
     { key: 'marmara', label: 'Marmara Bölgesi', href: 'topic/bolgeler/marmara.html', minZoom: 7, maxZoom: 9 },
     { key: 'akdeniz', label: 'Akdeniz Bölgesi', href: 'topic/bolgeler/akdeniz.html', minZoom: 6, maxZoom: 8 },
     { key: 'guneydogu', label: 'Güneydoğu Anadolu', href: 'topic/bolgeler/guneydogu.html', minZoom: 6, maxZoom: 8 },
-    { key: 'trakya', label: 'Trakya', href: 'topic/bolgeler/trakya.html', minZoom: 7, maxZoom: 9 },
-    { key: 'turkiye', label: 'Türkiye Geneli', href: 'topic/bolgeler/turkiye.html', minZoom: 5, maxZoom: 7 }
+    { key: 'trakya', label: 'Trakya', href: 'topic/bolgeler/trakya.html', minZoom: 7, maxZoom: 9 }
 ];
 
 function createBrandPopup(record) {
