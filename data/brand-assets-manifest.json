@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T18:14:07.228Z",
+  "generatedAt": "2026-03-11T18:35:56.927Z",
   "brands": [
     {
       "id": 1,
@@ -210,38 +210,6 @@
       ]
     },
     {
-      "id": 14,
-      "name": "Olive Riviera",
-      "slug": "olive-riviera",
-      "logo": "images/markalar/olive-riviera/olive-riviera-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/olive-riviera/olive-riviera-logo.svg",
-        "finalUrl": "images/markalar/olive-riviera/olive-riviera-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/olive-riviera/olive-riviera-bottle-01-bottle-03-oliverivierapellegrino-1.webp",
-        "images/markalar/olive-riviera/olive-riviera-bottle-02-bottle-01-sizma-zeytinyagi-aydinli.jpg",
-        "images/markalar/olive-riviera/olive-riviera-bottle-03-bottle-02-taris-riviera-zeytinyagi.jpg"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Papez",
-      "slug": "papez",
-      "logo": "images/markalar/papez/papez-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/papez/papez-logo.svg",
-        "finalUrl": "images/markalar/papez/papez-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/papez/papez-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
-        "images/markalar/papez/papez-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
-        "images/markalar/papez/papez-bottle-03-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp"
-      ]
-    },
-    {
       "id": 16,
       "name": "Selatin",
       "slug": "selatin",
@@ -255,38 +223,6 @@
         "images/markalar/selatin/selatin-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/selatin/selatin-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
         "images/markalar/selatin/selatin-bottle-03-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "İzmir Pınarı",
-      "slug": "izmir-pinari",
-      "logo": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
-        "finalUrl": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/izmir-pinari/izmir-pinari-bottle-01-izmir-tire-den-naturel-siz.jpg",
-        "images/markalar/izmir-pinari/izmir-pinari-bottle-02-bottle-03-izmir-tire-den-naturel-siz.jpg",
-        "images/markalar/izmir-pinari/izmir-pinari-bottle-03-bottle-02-izmir-tire-den-naturel-siz.jpg"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Beyaz Altın",
-      "slug": "beyaz-altin",
-      "logo": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
-        "finalUrl": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/beyaz-altin/beyaz-altin-bottle-01-beige-and-stone-natural-ston.avif",
-        "images/markalar/beyaz-altin/beyaz-altin-bottle-02-bottle-03-misto-tritan-cam-sprey-zeyti.jpg",
-        "images/markalar/beyaz-altin/beyaz-altin-bottle-03-bottle-02-monini-beyaz-truflu-zeytinya.jpg"
       ]
     },
     {
@@ -354,22 +290,6 @@
       ]
     },
     {
-      "id": 24,
-      "name": "Egemden",
-      "slug": "egemden",
-      "logo": "images/markalar/egemden/egemden-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/egemden/egemden-logo.svg",
-        "finalUrl": "images/markalar/egemden/egemden-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/egemden/egemden-bottle-01-bottle-03-yudum-egemden-riviera-zeytinyagi-5-l.jpg",
-        "images/markalar/egemden/egemden-bottle-02-yudum-egemden-sizma-zeytinyagi-500-m.png",
-        "images/markalar/egemden/egemden-bottle-03-bottle-01-a101-28-ekim-3-kasim-yudum-egemden-s.jpg"
-      ]
-    },
-    {
       "id": 25,
       "name": "Bereket",
       "slug": "bereket",
@@ -389,48 +309,16 @@
       "id": 26,
       "name": "Olea Prilis",
       "slug": "olea-prilis",
-      "logo": "images/markalar/olea-prilis/olea-prilis-logo.svg",
+      "logo": "images/markalar/olea-prilis/olea-prilis-logo.png",
       "logoSource": {
-        "source": "images/markalar/olea-prilis/olea-prilis-logo.svg",
-        "finalUrl": "images/markalar/olea-prilis/olea-prilis-logo.svg",
-        "sourceType": "local-copy"
+        "source": "https://www.oleaprilis.com/wp-content/uploads/2024/12/olea_prilis_logo.png",
+        "finalUrl": "https://www.oleaprilis.com/wp-content/uploads/2024/12/olea_prilis_logo.png",
+        "sourceType": "remote-download"
       },
       "bottles": [
         "images/markalar/olea-prilis/olea-prilis-bottle-01-bottle-03-zeytinyagi-sisesi-yesil-500.webp",
         "images/markalar/olea-prilis/olea-prilis-bottle-02-organic-tuscan-p.jpg",
         "images/markalar/olea-prilis/olea-prilis-bottle-03-bottle-01-organic-tuscan-p.jpg"
-      ]
-    },
-    {
-      "id": 27,
-      "name": "Oliterra",
-      "slug": "oliterra",
-      "logo": "images/markalar/oliterra/oliterra-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/oliterra/oliterra-logo.svg",
-        "finalUrl": "images/markalar/oliterra/oliterra-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/oliterra/oliterra-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
-        "images/markalar/oliterra/oliterra-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
-        "images/markalar/oliterra/oliterra-bottle-03-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Tarihi Kırkpınar",
-      "slug": "tarihi-kirkpinar",
-      "logo": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
-        "finalUrl": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-01-bottle-03-663-tarihi-kirkpin.jpg",
-        "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-02-bottle-01-tayfun-canli-edrem.webp",
-        "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-03-bottle-02-tayfun-canli-edrem.webp"
       ]
     },
     {
@@ -447,38 +335,6 @@
         "images/markalar/olivos/olivos-bottle-01-amber-sise-soft-etiket-premium-gorunum.webp",
         "images/markalar/olivos/olivos-bottle-02-bottle-03-sari-min.webp",
         "images/markalar/olivos/olivos-bottle-03-bottle-02-yesil-min.png"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "Hasat",
-      "slug": "hasat",
-      "logo": "images/markalar/hasat/hasat-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/hasat/hasat-logo.svg",
-        "finalUrl": "images/markalar/hasat/hasat-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/hasat/hasat-bottle-01-zeytinyagi-erken-hasat-2000-ml.jpg",
-        "images/markalar/hasat/hasat-bottle-02-bottle-03-1-litre-erken-hasat-zeytinyagi-erken-has.jpg",
-        "images/markalar/hasat/hasat-bottle-03-bottle-02-0000467-erken-hasat-zeytinyagi-5-lt-bag.jpg"
-      ]
-    },
-    {
-      "id": 32,
-      "name": "Ayvalık Yıldızı",
-      "slug": "ayvalik-yildizi",
-      "logo": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
-        "finalUrl": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-01-ayvalik-erken-hasat.webp",
-        "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-02-bottle-03-naturel-sizma-zeytin.jpg",
-        "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-03-bottle-02-naturel-sizma-zeytin.jpg"
       ]
     },
     {
@@ -562,22 +418,6 @@
       ]
     },
     {
-      "id": 38,
-      "name": "Trilye",
-      "slug": "trilye",
-      "logo": "images/markalar/trilye/trilye-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/trilye/trilye-logo.svg",
-        "finalUrl": "images/markalar/trilye/trilye-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/trilye/trilye-bottle-01-bottle-02-erken-hasat-naturel-sizma-zeyti.webp",
-        "images/markalar/trilye/trilye-bottle-02-bottle-03-erken-hasat-naturel-sizma-zeyti.webp",
-        "images/markalar/trilye/trilye-bottle-03-bottle-01-granpa-premium-trilye-zeytinyagi-hediy.webp"
-      ]
-    },
-    {
       "id": 40,
       "name": "Polat Zeytinyağı",
       "slug": "polat-zeytinyagi",
@@ -594,54 +434,6 @@
       ]
     },
     {
-      "id": 41,
-      "name": "Tego",
-      "slug": "tego",
-      "logo": "images/markalar/tego/tego-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/tego/tego-logo.svg",
-        "finalUrl": "images/markalar/tego/tego-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/tego/tego-bottle-01-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
-        "images/markalar/tego/tego-bottle-02-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
-        "images/markalar/tego/tego-bottle-03-bottle-02-1-lt-seffaf-pet-gida-sisesi-24-adet-gida-s.avif"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "Bumba Zeytinyağı",
-      "slug": "bumba-zeytinyagi",
-      "logo": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
-        "finalUrl": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-01-bottle-03-naturel-sizma-zeyt.jpg",
-        "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-02-bottle-01-zeytinyagi-sisesi.webp",
-        "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-03-bottle-02-beige-and-stone-na.avif"
-      ]
-    },
-    {
-      "id": 43,
-      "name": "Herbal Organik",
-      "slug": "herbal-organik",
-      "logo": "images/markalar/herbal-organik/herbal-organik-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/herbal-organik/herbal-organik-logo.svg",
-        "finalUrl": "images/markalar/herbal-organik/herbal-organik-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/herbal-organik/herbal-organik-bottle-01-ozonlanmis-zeytinyagi.webp",
-        "images/markalar/herbal-organik/herbal-organik-bottle-02-bottle-03-naturel-sizma-zeytinya.jpg",
-        "images/markalar/herbal-organik/herbal-organik-bottle-03-bottle-02-zeytinyagi-bira-sirke.avif"
-      ]
-    },
-    {
       "id": 44,
       "name": "Olive Mama",
       "slug": "olive-mama",
@@ -655,38 +447,6 @@
         "images/markalar/olive-mama/olive-mama-bottle-01-bottle-03-kadin-figurlu-el-yapimi-serami.png",
         "images/markalar/olive-mama/olive-mama-bottle-02-melek-figurlu-el-yapimi-serami.png",
         "images/markalar/olive-mama/olive-mama-bottle-03-bottle-01-kiraz-cicegi-motifli-el-yapimi.png"
-      ]
-    },
-    {
-      "id": 45,
-      "name": "Ekooleo",
-      "slug": "ekooleo",
-      "logo": "images/markalar/ekooleo/ekooleo-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/ekooleo/ekooleo-logo.svg",
-        "finalUrl": "images/markalar/ekooleo/ekooleo-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/ekooleo/ekooleo-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
-        "images/markalar/ekooleo/ekooleo-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
-        "images/markalar/ekooleo/ekooleo-bottle-03-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp"
-      ]
-    },
-    {
-      "id": 46,
-      "name": "Ödemiş Birlik",
-      "slug": "odemis-birlik",
-      "logo": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
-        "finalUrl": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/odemis-birlik/odemis-birlik-bottle-01-bottle-03-naturel-sizma-zeytinyagi.jpg",
-        "images/markalar/odemis-birlik/odemis-birlik-bottle-02-marmarabirlik-naturel-si.png",
-        "images/markalar/odemis-birlik/odemis-birlik-bottle-03-bottle-01-odemis-cekiste-zeytinyag.png"
       ]
     },
     {

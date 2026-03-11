@@ -90,7 +90,7 @@ export function buildLogoAuditSnapshot() {
       ? 'missing'
       : issue === 'placeholder'
         ? 'needs-review'
-        : (previous.status || 'verified');
+        : 'verified';
 
     return {
       id: brand.id,

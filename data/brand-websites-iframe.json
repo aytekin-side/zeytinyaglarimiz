@@ -896,6 +896,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 26,
+    "name": "Olea Prilis",
+    "slug": "olea-prilis",
+    "url": "https://www.oleaprilis.com/",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
     "id": 197,
     "name": "OLIVNER",
     "slug": "olivner",

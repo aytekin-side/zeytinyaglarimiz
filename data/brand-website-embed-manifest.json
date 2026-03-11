@@ -2834,6 +2834,22 @@
     "frameAncestors": []
   },
   {
+    "id": 26,
+    "name": "Olea Prilis",
+    "slug": "olea-prilis",
+    "url": "https://www.oleaprilis.com/",
+    "region": "Ege Bölgesi",
+    "category": "premium-butik",
+    "checkedAt": "2026-03-11T18:36:06.442990Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.oleaprilis.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 10,
     "name": "Oleamea",
     "slug": "oleamea",

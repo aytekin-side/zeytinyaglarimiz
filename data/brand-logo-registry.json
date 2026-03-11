@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T18:14:07.521Z",
+  "generatedAt": "2026-03-11T18:38:07.318Z",
   "brands": [
     {
       "id": 1,
@@ -197,36 +197,6 @@
       "notes": ""
     },
     {
-      "id": 14,
-      "slug": "olive-riviera",
-      "name": "Olive Riviera",
-      "website": "",
-      "logoPath": "images/markalar/olive-riviera/olive-riviera-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 15,
-      "slug": "papez",
-      "name": "Papez",
-      "website": "",
-      "logoPath": "images/markalar/papez/papez-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
       "id": 16,
       "slug": "selatin",
       "name": "Selatin",
@@ -239,36 +209,6 @@
       "status": "verified",
       "detectedIssue": "",
       "verifiedAt": "2026-03-11",
-      "notes": ""
-    },
-    {
-      "id": 18,
-      "slug": "izmir-pinari",
-      "name": "İzmir Pınarı",
-      "website": "",
-      "logoPath": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 19,
-      "slug": "beyaz-altin",
-      "name": "Beyaz Altın",
-      "website": "",
-      "logoPath": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
       "notes": ""
     },
     {
@@ -332,21 +272,6 @@
       "notes": ""
     },
     {
-      "id": 24,
-      "slug": "egemden",
-      "name": "Egemden",
-      "website": "",
-      "logoPath": "images/markalar/egemden/egemden-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
       "id": 25,
       "slug": "bereket",
       "name": "Bereket",
@@ -365,45 +290,15 @@
       "id": 26,
       "slug": "olea-prilis",
       "name": "Olea Prilis",
-      "website": "",
-      "logoPath": "images/markalar/olea-prilis/olea-prilis-logo.svg",
+      "website": "https://www.oleaprilis.com/",
+      "logoPath": "images/markalar/olea-prilis/olea-prilis-logo.png",
       "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 27,
-      "slug": "oliterra",
-      "name": "Oliterra",
-      "website": "",
-      "logoPath": "images/markalar/oliterra/oliterra-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 29,
-      "slug": "tarihi-kirkpinar",
-      "name": "Tarihi Kırkpınar",
-      "website": "",
-      "logoPath": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
+      "logoSourceUrl": "https://www.oleaprilis.com/wp-content/uploads/2024/12/olea_prilis_logo.png",
+      "logoSourcePage": "https://www.oleaprilis.com/",
+      "logoSourceType": "remote-download",
+      "status": "verified",
+      "detectedIssue": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -419,36 +314,6 @@
       "status": "verified",
       "detectedIssue": "",
       "verifiedAt": "2026-03-11",
-      "notes": ""
-    },
-    {
-      "id": 31,
-      "slug": "hasat",
-      "name": "Hasat",
-      "website": "",
-      "logoPath": "images/markalar/hasat/hasat-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 32,
-      "slug": "ayvalik-yildizi",
-      "name": "Ayvalık Yıldızı",
-      "website": "",
-      "logoPath": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
       "notes": ""
     },
     {
@@ -527,21 +392,6 @@
       "notes": ""
     },
     {
-      "id": 38,
-      "slug": "trilye",
-      "name": "Trilye",
-      "website": "",
-      "logoPath": "images/markalar/trilye/trilye-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
       "id": 40,
       "slug": "polat-zeytinyagi",
       "name": "Polat Zeytinyağı",
@@ -557,51 +407,6 @@
       "notes": ""
     },
     {
-      "id": 41,
-      "slug": "tego",
-      "name": "Tego",
-      "website": "",
-      "logoPath": "images/markalar/tego/tego-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 42,
-      "slug": "bumba-zeytinyagi",
-      "name": "Bumba Zeytinyağı",
-      "website": "",
-      "logoPath": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 43,
-      "slug": "herbal-organik",
-      "name": "Herbal Organik",
-      "website": "",
-      "logoPath": "images/markalar/herbal-organik/herbal-organik-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
       "id": 44,
       "slug": "olive-mama",
       "name": "Olive Mama",
@@ -614,36 +419,6 @@
       "status": "verified",
       "detectedIssue": "",
       "verifiedAt": "2026-03-11",
-      "notes": ""
-    },
-    {
-      "id": 45,
-      "slug": "ekooleo",
-      "name": "Ekooleo",
-      "website": "",
-      "logoPath": "images/markalar/ekooleo/ekooleo-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 46,
-      "slug": "odemis-birlik",
-      "name": "Ödemiş Birlik",
-      "website": "",
-      "logoPath": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
       "notes": ""
     },
     {
@@ -2156,9 +1931,9 @@
       "logoSourceUrl": "https://static.ticimax.cloud/71045/Uploads/HeaderTasarim/Header1/38c8b5f8-8219-407b-aeca-43b4f3971371.jpg",
       "logoSourcePage": "https://www.imbatto.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -2651,9 +2426,9 @@
       "logoSourceUrl": "",
       "logoSourcePage": "https://www.monterosso.com.tr",
       "logoSourceType": "",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -2846,9 +2621,9 @@
       "logoSourceUrl": "https://www.ozkoyum.com/catalog/view/theme/ozkoyum/assets/images/logo/filigran.png",
       "logoSourcePage": "https://www.ozkoyum.com.tr",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -2861,9 +2636,9 @@
       "logoSourceUrl": "https://shop.zeytiniskelesi.com/cdn/shop/files/logo_4e297952-9d71-46bb-8e7a-75d2e98885ea_4000x.png?v=1613506198",
       "logoSourcePage": "https://www.zeytiniskelesi.com",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -3551,9 +3326,9 @@
       "logoSourceUrl": "https://zarbali.com/wp-content/uploads/2025/07/Logo-Zarbali.png",
       "logoSourcePage": "https://www.zarbali.com/kategori/zarbali-zeytinyaglari",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4031,9 +3806,9 @@
       "logoSourceUrl": "https://www.alpoliva.com/idea/pu/57/themes/selftpl_67bb59401dfa2/assets/uploads/logo.jpg?revision=1743600658",
       "logoSourcePage": "https://www.alpoliva.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4046,9 +3821,9 @@
       "logoSourceUrl": "https://static.wixstatic.com/media/449bc0_b01f42d4ea7e466ea9ab6f472fa8a26a~mv2.png/v1/fill/w_228,h_106,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/unnamed.png",
       "logoSourcePage": "https://www.anityag.com.tr/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4076,9 +3851,9 @@
       "logoSourceUrl": "https://aysanyaglari.com.tr/wp-content/uploads/2025/03/aysanlogo2.png",
       "logoSourcePage": "https://aysanyaglari.com.tr/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4121,9 +3896,9 @@
       "logoSourceUrl": "https://static.ticimax.cloud/73568/Uploads/HeaderTasarim/Header4/c5f4f33c-72f7-4d15-a753-7754098de51d.jpg",
       "logoSourcePage": "https://www.durukaanoliveoil.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4136,9 +3911,9 @@
       "logoSourceUrl": "https://cdn.myikas.com/images/theme-images/9aceea67-9155-4682-99fa-69b88659b2e4/image_1080.webp",
       "logoSourcePage": "https://egeonorte.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4151,9 +3926,9 @@
       "logoSourceUrl": "https://femes.com.tr/wp-content/uploads/2025/05/logowhite.webp",
       "logoSourcePage": "https://femes.com.tr/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4166,9 +3941,9 @@
       "logoSourceUrl": "https://www.galiaolive.com.tr/resimler/siteayarlari/b1f6d05d3afe035306983ecc67fb4040o.png",
       "logoSourcePage": "https://www.galiaolive.com.tr/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4196,9 +3971,9 @@
       "logoSourceUrl": "https://heraliv.com.tr/wp-content/uploads/2024/12/heraliv-white-logo.png",
       "logoSourcePage": "https://heraliv.com.tr/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4256,9 +4031,9 @@
       "logoSourceUrl": "https://kulahlizeytinyagi.com/wp-content/uploads/logo.png",
       "logoSourcePage": "https://kulahlizeytinyagi.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4271,9 +4046,9 @@
       "logoSourceUrl": "https://levifarm.com/wp-content/uploads/2024/09/logo-white.png",
       "logoSourcePage": "https://levifarm.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4361,9 +4136,9 @@
       "logoSourceUrl": "https://ninurta.com.tr/wp-content/uploads/2021/08/ninurta-logo.png",
       "logoSourcePage": "https://ninurta.com.tr/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4376,9 +4151,9 @@
       "logoSourceUrl": "https://odesaolive.com/wp-content/uploads/2020/08/1000060735.png",
       "logoSourcePage": "https://odesaolive.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4406,9 +4181,9 @@
       "logoSourceUrl": "https://static.wixstatic.com/media/2f3dbd_91ebbba1210648eba8a02af30de83f83~mv2.png/v1/fill/w_113,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/oliova%20logo.png",
       "logoSourcePage": "https://www.herbafarm.com.tr/oliova",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4421,9 +4196,9 @@
       "logoSourceUrl": "https://olivatroas.com/storage/settings/November2024/YttWpipg6ceX6W6OlXbJ.png",
       "logoSourcePage": "https://olivatroas.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4496,9 +4271,9 @@
       "logoSourceUrl": "https://static.ticimax.cloud/56736//uploads/bankalogo/421919624-890305739767747-464029.jpg",
       "logoSourcePage": "https://www.ugurluzeytinyaglari.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
@@ -4541,9 +4316,9 @@
       "logoSourceUrl": "https://cdn.myikas.com/images/theme-images/11a41409-2a90-4554-bb98-32c7809de9c1/image_1080.webp",
       "logoSourcePage": "https://zelenaolive.com/",
       "logoSourceType": "remote-download",
-      "status": "missing",
+      "status": "verified",
       "detectedIssue": "",
-      "verifiedAt": "",
+      "verifiedAt": "2026-03-11",
       "notes": ""
     },
     {
