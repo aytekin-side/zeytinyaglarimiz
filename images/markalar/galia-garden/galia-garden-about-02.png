@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html style="overflow-x: hidden !important;" lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<base href="https://www.galiaolive.com.tr/">
+        <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="resimler/siteayarlari/bc5e62f5446e9ef3cb559da23179dcfan.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resimler/siteayarlari/bc5e62f5446e9ef3cb559da23179dcfan.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resimler/siteayarlari/bc5e62f5446e9ef3cb559da23179dcfan.png">
+    <link rel="mask-icon" href="resimler/siteayarlari/bc5e62f5446e9ef3cb559da23179dcfan.png" color="#666666">
+    <link rel="shortcut icon" href="resimler/siteayarlari/bc5e62f5446e9ef3cb559da23179dcfan.png">
+    <!-- Plugins CSS File -->
+	<link rel="stylesheet" href="default/assets/vendor/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="default/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="default/assets/css/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="default/assets/css/plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="default/assets/css/plugins/jquery.countdown.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="default/assets/css/style.css">
+    <link rel="stylesheet" href="default/assets/css/skins/skin-demo-4.css">
+    <link rel="stylesheet" href="default/assets/css/demos/demo-4.css">
+	<link rel="stylesheet" href="default/assets/css/plugins/nouislider/nouislider.css">
+            <!-- WhatsApp Button -->
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+    <button onclick="openWhatsAppChat()" style="
+        background-color: #25D366;
+        color: white;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 40px; height: 40px;">
+    </button>
+</div>
+
+<!-- Modal -->
+<div id="whatsappModal" style="
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    justify-content: center;
+    align-items: center;">
+    <div style="
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 400px;
+        width: 90%;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <h3>Bizimle WhatsApp Üzerinden İletişime Geçin</h3><p></p>
+        <p>Canlı olarak konuşmaya başlamak için aşağıdaki butona tıklayın:</p><p></p>
+        <a href="https://wa.me/905325015197" target="_blank" style="
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;">
+           Sohbete Başla
+        </a>
+        <br><br>
+        <button onclick="closeWhatsAppChat()" style="
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;">
+            Kapat
+        </button>
+    </div>
+</div>
+
+<script>
+    function openWhatsAppChat() {
+        document.getElementById('whatsappModal').style.display = 'flex';
+    }
+
+    function closeWhatsAppChat() {
+        document.getElementById('whatsappModal').style.display = 'none';
+    }
+</script>
+</head>
+
+<body>
+
+		
+		<div >
+		
+		<a href="http://galiaolive.com.tr/"><img   style="width: 100%;" src="resimler/temaayarlari/00192660f510e90a98244d8cf7bdf3ecr.jpg" alt="banner"></img></a>
+	
+		</div>
+
+    <div class="page-wrapper">
+        <header class="header header-intro-clearance header-4">
+		
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-left">
+                        <a href="tel:0532 501 51 97"><i class="icon-phone"></i>Destek Hattı: 0532 501 51 97</a>
+                    </div><!-- End .header-left -->
+					
+					<div class="mobiluyelik">
+                    					<a href="#signin-modal" data-toggle="modal"><i class="icon-user" aria-hidden="true"></i> Üyelik Kaydı / Üye Girişi</a>
+                    					</div>				
+                    <div class="header-right">
+
+                        <ul class="top-menu">
+                            <li>
+                                
+                                <ul>
+																	    <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user" aria-hidden="true"></i> Üyelik Kaydı / Üye Girişi</a></li>
+                                                                        <li>
+                                    <a href="siparissorgulama/"><i class="icon-truck" aria-hidden="true"></i> Sipariş Sorgulama</a>
+                                    </li>
+                                    <li>
+                                     <a href="/sayfa/odeme-secenekleri-11"><i class="icon-check" aria-hidden="true"></i> Ödeme Seçeneklerimiz</a>
+                                    </li>
+								
+								
+								
+								</ul>
+                            </li>
+                        </ul><!-- End .top-menu -->
+                    </div><!-- End .header-right -->
+
+                </div><!-- End .container -->
+            </div><!-- End .header-top -->
+
+            <div class="header-middle">
+                <div class="container">
+                    <div class="header-left">
+                        <button class="mobile-menu-toggler">
+                            <span class="sr-only">Mobil Menü</span>
+                            <i class="icon-bars"></i>
+                        </button>
+                        
+                        <a href="anasayfa" class="logo">
+                            <img   src="resimler/siteayarlari/b1f6d05d3afe035306983ecc67fb4040o.png" alt="Logo">
+                        </a>
+                    </div><!-- End .header-left -->
+
+                    <div class="header-center">
+                        <div class="header-search header-search-extended header-search-visible d-none d-lg-block">
+                            <a href="#" class="search-toggle" role="button"><i class="icon-search"></i></a>
+                            <form action="arama/" method="GET">
+                                <div class="header-search-wrapper search-wrapper-wide">
+                                    <label for="q" class="sr-only">Arama</label>
+                                    <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+                                    <input type="search" class="form-control" name="arama" id="q" placeholder="Ne aramıştınız ?" required>
+                                </div><!-- End .header-search-wrapper -->
+                            </form>
+                        </div><!-- End .header-search -->
+                    </div>
+
+                    <div class="header-right">
+					
+
+
+
+
+                        <div class="wishlist">
+                            <a href="favorilerim/" title="Wishlist">
+                                <div class="icon">
+                                    <i class="icon-heart-o"></i>
+                                    <span class="wishlist-count badge">0</span>
+                                </div>
+                                <p>Favorilerim</p>
+                            </a>
+                        </div><!-- End .compare-dropdown -->
+						
+						
+						
+                       
+                        <div class="dropdown cart-dropdown">
+                            <a href="" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                                <div class="icon">
+                                    <i class="icon-shopping-cart"></i>
+                                    <span class="cart-count">0</span>
+                                </div>
+                                <p>Sepet</p>
+                            </a>
+							
+                            							
+							
+							
+                        </div><!-- End .cart-dropdown -->
+						
+                    </div><!-- End .header-right -->
+                </div><!-- End .container -->
+            </div><!-- End .header-middle -->
+
+            <div class="header-bottom header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="dropdown category-dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static" title="Browse Categories">
+                                Ürün Kategorilerimiz <i class="icon-angle-down"></i>
+                            </a>
+
+                            <div class="dropdown-menu">
+                                <nav class="side-nav">
+                                    <ul class="menu-vertical sf-arrows sf-js-enabled" style="touch-action: pan-y;">
+                                       
+
+				
+               			   
+                                            <li class="megamenu-container"> 
+                                            <a class="sf-with-ul" href="kategori/zeytinyagi-1">
+                                            <div><img style="width: 14px;height: 14px;max-width: 16px;position: initial;float: left;margin-right: 6px;margin-top: 3px;" src="resimler/kategoriler/a609ab5924a58ffba938e3b0e373f2272.png"></img> Zeytinyağı</div>
+											</a>
+
+                                            <div class="megamenu" style="display: none;">
+                                                <div class="menu-col">
+                                                    <div class="row">
+													
+													
+                                                        <div class="col-md-4">
+                                                            <div class="menu-title"><a href="kategori/teneke-5">Teneke</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+
+													
+                                                        <div class="col-md-4">
+                                                            <div class="menu-title"><a href="kategori/sise-6">Şişe</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+
+													
+                                                        <div class="col-md-4">
+                                                            <div class="menu-title"><a href="kategori/pet-8">Pet</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+
+															
+                                                    </div><!-- End .row -->
+
+                                                </div><!-- End .menu-col -->
+                                            </div><!-- End .megamenu -->
+                                        </li>
+                                      
+										  
+									  
+						   
+               			   
+                                            <li class="megamenu-container"> 
+                                            <a class="sf-with-ul" href="kategori/zeytin-12">
+                                            <div><img style="width: 14px;height: 14px;max-width: 16px;position: initial;float: left;margin-right: 6px;margin-top: 3px;" src="resimler/kategoriler/a6f86065056bd08e74a650d28ff218391.png"></img> Zeytin</div>
+											</a>
+
+                                            <div class="megamenu" style="display: none;">
+                                                <div class="menu-col">
+                                                    <div class="row">
+													
+													
+                                                        <div class="col-md-4">
+                                                            <div class="menu-title"><a href="kategori/yesil-zeytin-9">Yeşil Zeytin</a></div><!-- End .menu-title -->
+                                                            <ul>
+																
+															
+                                                                <li><a href="kategori/cizik-zeytin-19">Çizik Zeytin</a></li>
+                                                       												
+															
+                                                                <li><a href="kategori/kirma-zeytin-20">Kırma Zeytin</a></li>
+                                                       	
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+
+													
+                                                        <div class="col-md-4">
+                                                            <div class="menu-title"><a href="kategori/siyah-zeytin-10">Siyah Zeytin</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+
+															
+                                                    </div><!-- End .row -->
+
+                                                </div><!-- End .menu-col -->
+                                            </div><!-- End .megamenu -->
+                                        </li>
+                                      
+										  
+									  
+						   
+               			   
+                                            <li class="megamenu-container"> 
+                                            <a class="sf-with-ul" href="kategori/sabun-17">
+                                            <div><img style="width: 14px;height: 14px;max-width: 16px;position: initial;float: left;margin-right: 6px;margin-top: 3px;" src="resimler/kategoriler/92492d6ff790cf514b35653a81e39bf53.png"></img> Sabun</div>
+											</a>
+
+                                            <div class="megamenu" style="display: none;">
+                                                <div class="menu-col">
+                                                    <div class="row">
+													
+													
+                                                        <div class="col-md-4">
+                                                            <div class="menu-title"><a href="kategori/zeytinyagi-sabunu-18">Zeytinyağı Sabunu</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+
+															
+                                                    </div><!-- End .row -->
+
+                                                </div><!-- End .menu-col -->
+                                            </div><!-- End .megamenu -->
+                                        </li>
+                                      
+										  
+									  
+						   							
+                                    </ul>
+                                </nav><!-- End .side-nav -->
+                            </div><!-- End .dropdown-menu -->
+                        </div><!-- End .category-dropdown -->
+                    </div><!-- End .header-left -->
+
+                    <div class="header-center tamekranmenu">
+                        <nav class="main-nav">
+                            <ul class="menu sf-arrows">
+                    <li><a href="anasayfa">Anasayfa</a>
+					
+						
+					
+										
+                                <li>
+                                    <a href="kategori/zeytinyagi-1" class="sf-with-ul">Zeytinyağı</a>
+
+                                    <div class="megamenu megamenu-md">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-8">
+                                                <div class="menu-col">
+                                                    <div class="row">
+													
+																										
+                                                        <div class="col-md-6">
+                                                            <div class="menu-title"><a href="kategori/teneke-5">Teneke</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+													
+                                                        
+													
+                                                        <div class="col-md-6">
+                                                            <div class="menu-title"><a href="kategori/sise-6">Şişe</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+													
+                                                        
+													
+                                                        <div class="col-md-6">
+                                                            <div class="menu-title"><a href="kategori/pet-8">Pet</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+													
+                                                        
+						
+													 
+													 
+                                                    </div><!-- End .row -->
+                                                </div><!-- End .menu-col -->
+                                            </div><!-- End .col-md-8 -->
+
+                                            <div class="col-md-4">
+                                                <div class="banner banner-overlay">
+                                                    <a href="kategori/zeytinyagi-1" class="banner banner-menu">
+                                                        <img   src="resimler/kategoriler/8264a260bbec94c854c80f332a01a8907.png" alt="Banner">
+
+                                                    </a>
+                                                </div><!-- End .banner banner-overlay -->
+                                            </div><!-- End .col-md-4 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .megamenu megamenu-md -->
+                                </li>
+								
+								
+								
+						   	
+					
+										
+                                <li>
+                                    <a href="kategori/zeytin-12" class="sf-with-ul">Zeytin</a>
+
+                                    <div class="megamenu megamenu-md">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-8">
+                                                <div class="menu-col">
+                                                    <div class="row">
+													
+																										
+                                                        <div class="col-md-6">
+                                                            <div class="menu-title"><a href="kategori/yesil-zeytin-9">Yeşil Zeytin</a></div><!-- End .menu-title -->
+                                                            <ul>
+																
+															
+                                                                <li><a href="kategori/cizik-zeytin-19">Çizik Zeytin</a></li>
+                                                       												
+															
+                                                                <li><a href="kategori/kirma-zeytin-20">Kırma Zeytin</a></li>
+                                                       	
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+													
+                                                        
+													
+                                                        <div class="col-md-6">
+                                                            <div class="menu-title"><a href="kategori/siyah-zeytin-10">Siyah Zeytin</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+													
+                                                        
+						
+													 
+													 
+                                                    </div><!-- End .row -->
+                                                </div><!-- End .menu-col -->
+                                            </div><!-- End .col-md-8 -->
+
+                                            <div class="col-md-4">
+                                                <div class="banner banner-overlay">
+                                                    <a href="kategori/zeytin-12" class="banner banner-menu">
+                                                        <img   src="resimler/kategoriler/9cda7384bef9810b89d02691eb3908298.png" alt="Banner">
+
+                                                    </a>
+                                                </div><!-- End .banner banner-overlay -->
+                                            </div><!-- End .col-md-4 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .megamenu megamenu-md -->
+                                </li>
+								
+								
+								
+						   	
+					
+										
+                                <li>
+                                    <a href="kategori/sabun-17" class="sf-with-ul">Sabun</a>
+
+                                    <div class="megamenu megamenu-md">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-8">
+                                                <div class="menu-col">
+                                                    <div class="row">
+													
+																										
+                                                        <div class="col-md-6">
+                                                            <div class="menu-title"><a href="kategori/zeytinyagi-sabunu-18">Zeytinyağı Sabunu</a></div><!-- End .menu-title -->
+                                                            <ul>
+					
+                                                            </ul>
+                                                        </div><!-- End .col-md-4 -->
+													
+                                                        
+						
+													 
+													 
+                                                    </div><!-- End .row -->
+                                                </div><!-- End .menu-col -->
+                                            </div><!-- End .col-md-8 -->
+
+                                            <div class="col-md-4">
+                                                <div class="banner banner-overlay">
+                                                    <a href="kategori/sabun-17" class="banner banner-menu">
+                                                        <img   src="resimler/kategoriler/f3f36c4500f0eb5a6c43aca72644ed746.png" alt="Banner">
+
+                                                    </a>
+                                                </div><!-- End .banner banner-overlay -->
+                                            </div><!-- End .col-md-4 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .megamenu megamenu-md -->
+                                </li>
+								
+								
+								
+						   						   
+                             <li><a href="iletisim/">Bize Ulaşın</a> 
+							  
+                                
+                            </ul><!-- End .menu -->
+                        </nav><!-- End .main-nav -->
+                    </div><!-- End .header-center -->
+
+                   
+                </div><!-- End .container -->
+            </div><!-- End .header-bottom -->
+        </header><!-- End .header -->
+	    
+<title></title>
+<meta name="keywords" content="galia,galia garden,galia zeytinyağları,galia zeytin,Galia Garden iletişim,Galia Zeytinyağı">
+<meta name="description" content="GALİA ZEYTİNYAĞI ve ZEYTİNCİLİK GIDA SANAYİ LTD. ŞTİ.">
+<meta property="og:url" content="https://www.galiaolive.com.tr"/>
+<meta property="og:title" content=""/>
+<meta property="og:description" content="GALİA ZEYTİNYAĞI ve ZEYTİNCİLİK GIDA SANAYİ LTD. ŞTİ."/>
+	   
+		   <main class="main">
+        	<div class="page-header text-center" style="background-image: url('default/assets/images/page-header-bg.jpg')">
+        		<div class="container">
+        			<h1 class="page-title"><span>Anasayfa</span></h1>
+        		</div><!-- End .container -->
+        	</div><!-- End .page-header -->
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="anasayfa">Anasayfa</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"></li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav><!-- End .breadcrumb-nav -->
+
+            <div class="page-content pb-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="about-text text-left">
+                                <h2 class="title text-left mb-2"></h2><!-- End .title text-center mb-2 -->
+                                <a class="image-popup-no-margins" href="resimler/sayfalar/">
+								<img src="resimler/sayfalar/" alt="signature" class="mx-auto mb-5" >
+								<p> </p>
+                                </a>
+                               
+                            </div><!-- End .about-text -->
+                        </div><!-- End .col-lg-10 offset-1 -->
+                    </div><!-- End .row -->
+                    <div class="row justify-content-left">
+					
+					
+			        					 
+					 
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+
+                <div class="mb-2"></div><!-- End .mb-2 -->
+
+            </div><!-- End .page-content -->
+        </main><footer class="footer">
+            <div class="cta bg-image bg-dark pt-4 pb-5 mb-0" style="background-image: url(default/assets/images/demos/demo-4/bg-5.jpg);">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="cta-heading text-center">
+                                <h3 class="cta-title text-white">E-Bülten</h3><!-- End .cta-title -->
+                                <p class="cta-desc text-white"><span class="font-weight-normal">Ebülten listemize kayıt olarak güncel kampanya ve duyurulardan anında haberdar olabilirsiniz.</span></p><!-- End .cta-desc -->
+                            </div><!-- End .text-center -->
+                        
+                            <form action="" method="POST">
+                                <div class="input-group input-group-round">
+                                    <input type="email" class="form-control form-control-white" name="eposta" placeholder="Eposta Adresiniz" aria-label="Eposta Adresiniz" required>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" name="ebulten" type="submit"><span>Kaydet</span><i class="icon-long-arrow-right"></i></button>
+                                    </div><!-- .End .input-group-append -->
+                                </div><!-- .End .input-group -->
+                            </form>
+                        </div><!-- End .col-sm-10 col-md-8 col-lg-6 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+            </div><!-- End .cta -->
+        	<div class="footer-middle">
+	            <div class="container">
+	            	<div class="row">
+	            		<div class="col-sm-6 col-lg-3">
+	            			<div class="widget widget-about">
+	            				<img src="resimler/siteayarlari/b1f6d05d3afe035306983ecc67fb4040o.png" class="footer-logo" alt="Footer Logo" width="220" height="25">
+	            				<p>Burayı tema ayarlarınızdan değiştirebilirsiniz.</p>
+
+	            				<div class="widget-call">
+                                    <i class="icon-phone"></i>
+                                   Aklınıza takılan birşey mi var ?
+                                    <a href="tel:0532 501 51 97">0532 501 51 97</a>         
+                                </div><!-- End .widget-call -->
+	            			</div><!-- End .widget about-widget -->
+	            		</div><!-- End .col-sm-6 col-lg-3 -->
+
+	
+					
+	            		<div class="col-sm-6 col-lg-3">
+	            			<div class="widget">
+	            				<h4 class="widget-title">Müşteri Hizmetleri</h4><!-- End .widget-title -->
+
+	            				<ul class="widget-list">
+	            				
+                            <li><a href="sayfa/hakkimizda-1">Hakkımızda</a></li>
+								
+                            <li><a href="sayfa/guvenli-alisveris-2">Güvenli Alışveriş</a></li>
+								
+                            <li><a href="sayfa/iade-kosullar8-3">İade Koşulları</a></li>
+								
+                            <li><a href="sayfa/mesafeli-satis-sozlesmesi-5">Mesafeli Satış Sözleşmesi</a></li>
+								
+                            <li><a href="sayfa/uyelik-sozlesmesi-6">Üyelik Sözleşmesi</a></li>
+								
+                            <li><a href="sayfa/gizlilik-politikasi-7">Gizlilik Politikası</a></li>
+								            				</ul><!-- End .widget-list -->
+	            			</div><!-- End .widget -->
+	            		</div><!-- End .col-sm-6 col-lg-3 -->
+
+	            		<div class="col-sm-6 col-lg-3">
+	            			<div class="widget">
+	            				<h4 class="widget-title">Çözüm Merkezi</h4><!-- End .widget-title -->
+
+	            				<ul class="widget-list">
+	            				
+                            <li><a href="sayfa/cozum-merkezi-8">Çözüm Merkezi</a></li>
+								
+                            <li><a href="sayfa/cerez-politikasi-9">Çerez Politikası</a></li>
+								
+                            <li><a href="sayfa/kvkk-metni-10">KVKK Metni</a></li>
+								
+                            <li><a href="sayfa/odeme-secenekleri-11">Ödeme Seçenekleri</a></li>
+								
+                            <li><a href="sayfa/nasil-urun-alirim-12">Nasıl Ürün Alırım ?</a></li>
+								            				</ul><!-- End .widget-list -->
+	            			</div><!-- End .widget -->
+	            		</div><!-- End .col-sm-6 col-lg-3 -->
+<!-- End .row -->
+					            		<div class="col-sm-6 col-lg-3">
+	            			<div class="widget">
+	            				<h4 class="widget-title">Hızlı Linkler</h4><!-- End .widget-title -->
+
+	            				<ul class="widget-list">
+								<li><a href="siparissorgulama/">Sipariş Sorgulama</a></li>
+								<li><a href="bankabilgilerimiz/">Banka Bilgilerimiz</a></li>
+								<li><a href="uyeol/">Üyelik İşlemleri</a></li>
+								 <li><a href="kampanyalar/">Kampanyalar</a>
+	            				<li><a href="bloglar/">Blog</a></li>
+								<li><a href="sss/">Sıkça Sorulan Sorular</a></li>
+							 	<li><a href="iletisim/">Bize Ulaşın</a></li>
+	            				</ul><!-- End .widget-list -->
+	            			</div><!-- End .widget -->
+	            		</div><!-- End .col-sm-6 col-lg-3 -->
+	            	</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-ss-12">
+							<div class="Etiketalani">
+								<div class="etiketgenel">
+									<div class="Etiketbaslik">En Çok Aranan Kelimeler:</div>
+									<ul class="Etiketliste">
+														                <li><a target="_blank" href="https://www.galiaolive.com.tr/kategori/zeytinyagi-1">Natürel Sızma Zeytinyağı</a></li>
+														                <li><a target="_blank" href="https://www.galiaolive.com.tr/kategori/zeytinyagi-1">Soğuk SIkım Zeytinyağı</a></li>
+																		</ul>
+								</div>
+							</div>
+							
+						</div>
+				
+					
+	            </div><!-- End .container -->
+	        </div><!-- End .footer-middle -->
+
+	        <div class="footer-bottom">
+	        	<div class="container">
+	        		<p class="footer-copyright">2024 @ Copyright Tüm Hakkı Saklıdır. | GALİA ZEYTİNYAĞI ve ZEYTİNCİLİK GIDA SANAYİ LTD. ŞTİ. | Bilişim26 Projesidir.</p><!-- End .footer-copyright -->
+	        		<figure class="footer-payments">
+	        			<img src="default/assets/images/payments.png" alt="Payment methods" width="272" height="20">
+	        		</figure><!-- End .footer-payments -->
+	        	</div><!-- End .container -->
+	        </div><!-- End .footer-bottom -->
+        </footer><!-- End .footer -->
+    </div><!-- End .page-wrapper -->
+    <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+    <div class="mobile-menu-container mobile-menu-light">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-close"></i></span>
+            
+            <form action="arama/" method="GET" class="mobile-search">
+                <label for="mobile-search" class="sr-only">Arama</label>
+                <input type="search" class="form-control" name="arama" id="mobile-search" placeholder="Ne aramıştınız ?" required>
+                <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+            </form>
+
+            <ul class="nav nav-pills-mobile nav-border-anim" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab" role="tab" aria-controls="mobile-menu-tab" aria-selected="true">Kategorilerimiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="mobile-cats-link" data-toggle="tab" href="#mobile-cats-tab" role="tab" aria-controls="mobile-cats-tab" aria-selected="false">Menü</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel" aria-labelledby="mobile-menu-link">
+                    <nav class="mobile-nav">
+                        <ul class="mobile-menu">
+                        
+                                                            <li>
+                                <a href="kategori/zeytinyagi-1">Zeytinyağı</a>
+                                <ul>
+									
+								
+                                    <li>
+                                        <a href="kategori/teneke-5">Teneke</a>
+
+                                        <ul>
+										
+										   
+										   
+                                        </ul>
+                                    </li>
+			  
+						   	
+								
+                                    <li>
+                                        <a href="kategori/sise-6">Şişe</a>
+
+                                        <ul>
+										
+										   
+										   
+                                        </ul>
+                                    </li>
+			  
+						   	
+								
+                                    <li>
+                                        <a href="kategori/pet-8">Pet</a>
+
+                                        <ul>
+										
+										   
+										   
+                                        </ul>
+                                    </li>
+			  
+						   							
+                  
+
+                                </ul>
+                            </li>
+
+									  
+						                                               <li>
+                                <a href="kategori/zeytin-12">Zeytin</a>
+                                <ul>
+									
+								
+                                    <li>
+                                        <a href="kategori/yesil-zeytin-9">Yeşil Zeytin</a>
+
+                                        <ul>
+										
+											
+										
+                                            <li><a href="kategori/cizik-zeytin-19">Çizik Zeytin</a></li>
+                                           
+										   
+											
+										
+                                            <li><a href="kategori/kirma-zeytin-20">Kırma Zeytin</a></li>
+                                           
+										   
+										   
+										   
+                                        </ul>
+                                    </li>
+			  
+						   	
+								
+                                    <li>
+                                        <a href="kategori/siyah-zeytin-10">Siyah Zeytin</a>
+
+                                        <ul>
+										
+										   
+										   
+                                        </ul>
+                                    </li>
+			  
+						   							
+                  
+
+                                </ul>
+                            </li>
+
+									  
+						                                               <li>
+                                <a href="kategori/sabun-17">Sabun</a>
+                                <ul>
+									
+								
+                                    <li>
+                                        <a href="kategori/zeytinyagi-sabunu-18">Zeytinyağı Sabunu</a>
+
+                                        <ul>
+										
+										   
+										   
+                                        </ul>
+                                    </li>
+			  
+						   							
+                  
+
+                                </ul>
+                            </li>
+
+									  
+						   							
+							
+							
+                            
+                        </ul>
+                    </nav><!-- End .mobile-nav -->
+                </div><!-- .End .tab-pane -->
+                <div class="tab-pane fade" id="mobile-cats-tab" role="tabpanel" aria-labelledby="mobile-cats-link">
+                    <nav class="mobile-cats-nav">
+                        <ul class="mobile-cats-menu">
+                            <li><a class="mobile-cats-lead" href="anasayfa">Anasayfa</a></li>
+                            <li><a class="mobile-cats-lead" href="kampanyalar/">Kampanyalar</a>
+							<li><a class="mobile-cats-lead" href="siparissorgulama/">Sipariş Sorgulama</a></li>
+							<li><a class="mobile-cats-lead" href="bankabilgilerimiz/">Banka Bilgilerimiz</a></li>
+							<li><a class="mobile-cats-lead" href="bloglar/">Blog</a> 
+							<li><a class="mobile-cats-lead" href="sss/">Sıkça Sorulan Sorular</a> 
+							<li><a class="mobile-cats-lead" href="iletisim/">Bize Ulaşın</a> 
+                        </ul><!-- End .mobile-cats-menu -->
+                    </nav><!-- End .mobile-cats-nav -->
+                </div><!-- .End .tab-pane -->
+            </div><!-- End .tab-content -->
+
+            <div class="social-icons">
+                <a  href="https://www.facebook.com/galiaoliveoil/" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
+                <a style="display:none;" href="" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+                <a style="display:none;" href="" class="social-icon" target="_blank" title="pinterest"><i class="icon-pinterest"></i></a>
+                <a style="display:none;" href="" class="social-icon" target="_blank" title="linkedin	"><i class="icon-linkedin"></i></a>
+                <a  href="https://www.instagram.com/galiazeytinyagi/" class="social-icon" target="_blank" title="instagram"><i class="icon-instagram"></i></a>
+                <a  href="https://www.youtube.com/watch?v=Gf91Hw5assA" class="social-icon" target="_blank" title="youtube"><i class="icon-youtube"></i></a>
+                <a style="display:none;" href="" class="social-icon" target="_blank" title="googleplus"><i class="icon-google-plus"></i></a>
+               
+            </div><!-- End .social-icons -->
+			
+			
+			
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+
+    <!-- Sign in / Register Modal -->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icon-close"></i></span>
+                    </button>
+	
+                    <div class="form-box">
+                        <div class="form-tab">
+                            <ul class="nav nav-pills nav-fill nav-border-anim" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin" role="tab" aria-controls="signin" aria-selected="true">Giriş Yap</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Kayıt Ol</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="tab-content-5">
+                                <div class="tab-pane fade show active" id="signin" role="tabpanel" aria-labelledby="signin-tab">
+                                    <form action="" method="POST">
+									<input type="hidden" name="nereden" value="anauyelik"/>
+                                        <div class="form-group">
+                                            <label for="singin-email">Eposta Adresiniz *</label>
+                                            <input type="text" class="form-control"  name="email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="singin-password">Şifreniz *</label>
+                                            <input type="password" class="form-control"  name="sifre" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" name="girisyap" class="btn btn-outline-primary-2">
+                                                <span>GİRİŞ YAP</span>
+                                                <i class="icon-long-arrow-right"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="signin-remember">
+                                                <label class="custom-control-label" for="signin-remember">Beni Anımsa</label>
+                                            </div><!-- End .custom-checkbox -->
+
+                                            <a href="sifremiunuttum/" class="forgot-link">Şifremi Unuttum ?</a>
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                          
+                                </div><!-- .End .tab-pane -->
+								
+								
+	
+                                <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                    <form action="" method="POST">
+									    <input type="hidden" name="nereden" value="anauyelik"/>
+                                        <div class="form-group">
+                                            <label>Adınız Soyadınız *</label>
+                                            <input type="text" class="form-control" name="isim" required>
+                                        </div><!-- End .form-group -->
+                                        <div class="form-group">
+                                            <label for="register-email">Eposta Adresiniz *</label>
+                                            <input type="email" class="form-control" id="register-email" name="email" required>
+                                        </div><!-- End .form-group -->
+										 <div class="form-group">
+                                            <label>Telefon Numaranız *</label>
+                                            <input type="text" class="form-control" name="telefon" required>
+                                        </div><!-- End .form-group -->
+                                        <div class="form-group">
+                                            <label for="register-password">Şifreniz *</label>
+                                            <input type="password" class="form-control" id="register-password" name="sifre" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                       
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" name="sozlesme" value="1" class="custom-control-input" id="register-policy" required>
+                                                <label class="custom-control-label" for="register-policy"><a target="_blank" href="rizametni/">Üyelik Sözleşmesini</a> kabul ediyorum *</label>
+                                            </div><!-- End .custom-checkbox -->
+											
+											<div class="custom-control custom-checkbox">
+                                                <input type="checkbox" name="ebultensor" value="1" class="custom-control-input" id="register-policy2">
+                                                <label class="custom-control-label" for="register-policy2">Ebültene kayıt olmak istiyorum</label>
+                                            </div><!-- End .custom-checkbox -->
+											 
+                                        </div><!-- End .form-footer -->
+										<button type="submit" name="kayitol" class="btn btn-outline-primary-2">
+                                                <span>KAYIT OL</span>
+                                                <i class="icon-long-arrow-right"></i>
+                                            </button>
+                                    </form>
+                                    
+                                </div><!-- .End .tab-pane -->
+                            </div><!-- End .tab-content -->
+                        </div><!-- End .form-tab -->
+                    </div><!-- End .form-box -->
+                </div><!-- End .modal-body -->
+            </div><!-- End .modal-content -->
+        </div><!-- End .modal-dialog -->
+    </div><!-- End .modal -->
+
+
+
+
+
+
+   
+    <!-- Plugins JS File -->
+    <script src="default/assets/js/jquery.min.js"></script>
+    <script src="default/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="default/assets/js/jquery.hoverIntent.min.js"></script>
+    <script src="default/assets/js/jquery.waypoints.min.js"></script>
+    <script src="default/assets/js/superfish.min.js"></script>
+    <script src="default/assets/js/owl.carousel.min.js"></script>
+    <script src="default/assets/js/bootstrap-input-spinner.js"></script>
+    <script src="default/assets/js/jquery.plugin.min.js"></script>
+    <script src="default/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="default/assets/js/jquery.countdown.min.js"></script>
+	<!-- <script src="default/assets/js/nouislider.min.js"></script>-->
+    <script src="default/assets/js/wNumb.js"></script>
+    <!-- Main JS File -->
+    <script src="default/assets/js/main.js"></script>
+    <script src="default/assets/js/demos/demo-4.js"></script>
+	<script src="default/assets/js/jquery.elevateZoom.min.js"></script>
+	
+	<script src="eklentiler/lazysizes.min.js" async></script>
+    <link href="boss/assets/toastr/toastr.css" rel="stylesheet"/>
+    <script src="boss/assets/toastr/toastr.min.js"></script>
+    
+<style>
+.altbar{
+display:none !important;
+}
+#footer-bar {
+ position:fixed;
+ bottom:0;
+ left:0;
+ right:0;
+ z-index:98;
+ background-color:rgba(249,249,249,.98);
+ box-shadow:0 -5px 10px 0 rgba(0,0,0,.06);
+ min-height:60px;
+ min-height:calc(60px + (constant(safe-area-inset-bottom))*1.1);
+ min-height:calc(60px + (env(safe-area-inset-bottom))*1.1);
+ display:flex;
+ text-align:center;
+ transition:all 350ms ease
+}
+#footer-bar a {
+    color: #1f1f1f;
+    position: relative;
+    flex: 1 1 auto;
+    border: 1px solid #f5f6f9;
+    background: white;
+}
+#footer-bar a span {
+ position:relative;
+ z-index:2;
+ display:block;
+ font-size:12px;
+ font-weight:500;
+ margin-top:-6px;
+ opacity:.7;
+}
+#footer-bar a i {
+ font-size:18px;
+ position:relative;
+ z-index:2
+}
+#footer-bar .badge {
+ font-style:normal;
+ z-index:5;
+ top:0;
+ position:absolute;
+ margin-left:3px;
+ color:#fff!important;
+ width:18px;
+ text-align:center;
+ line-height:18px;
+ padding:0;
+ padding-left:0!important;
+ border-radius:18px;
+ margin-top:7px;
+ font-size:11px
+}
+.footer-bar-2 .active-nav {
+ color:#fff!important
+}
+.footer-bar-2 .active-nav strong {
+ position:absolute;
+ width:80px;
+ left:50%;
+ transform:translateX(-50%);
+ top:0;
+ bottom:0
+}
+.footer-bar-4 .active-nav {
+ color:#fff!important
+}
+.footer-bar-4 .active-nav strong {
+ position:absolute;
+ width:47px;
+ height:47px;
+ border-radius:60px;
+ left:50%;
+ top:30px;
+ transform:translate(-50%,-50%);
+ bottom:0
+}
+.footer-bar-4 span {
+ display:none!important
+}
+.footer-bar-4 i {
+ padding-top:10px
+}
+.footer-bar-5 .active-nav strong {
+ position:absolute;
+ width:50px;
+ height:2px;
+ border-radius:60px;
+ left:50%;
+ top:0;
+ transform:translateX(-50%)
+}
+.footer-bar-3 span {
+ display:none!important
+}
+.footer-bar-3 .active-nav {
+ padding-top:11px!important
+}
+.footer-bar-3 .active-nav span {
+ display:block!important
+}
+.footer-bar-3 a {
+ padding-top:18px!important
+}
+.footer-menu-hidden {
+ transition:all 100ms ease;
+ transform:translateY(100%)!important
+}
+.footer-bar-white * {
+ color:#fff
+}
+#footer-bar.position-relative {
+ z-index:2!important
+}
+.is-ios #footer-bar {
+ height:calc(65px + (constant(safe-area-inset-bottom))*1.1);
+ height:calc(65px + (env(safe-area-inset-bottom))*1.1)
+}
+.is-not-ios .footer-menu-clear {
+ height:70px;
+ display:block
+}
+.is-not-ios .footer {
+ padding-bottom:0
+}
+.is-not-ios #footer-menu a i {
+ padding-top:13px
+}
+.is-not-ios #footer-menu a span {
+ opacity:.6
+}
+.footer-bar-scroll {
+ display:block!important;
+ overflow-x:auto;
+ -webkit-overflow-scrolling:touch;
+ white-space:nowrap;
+ margin:0;
+ padding:0
+}
+.footer-bar-scroll a {
+ display:inline-block;
+ width:19.5%
+}
+.footer-bar-scroll.footer-bar-4 .active-nav strong {
+ margin-top:1px
+}
+.footer-bar-scroll.footer-bar-4 .badge {
+ margin-left:-8px!important;
+ margin-top:14px!important
+}
+.footer-bar-scroll.footer-bar-3 .badge {
+ margin-left:-7px!important;
+ margin-top:0!important
+}
+.footer-bar-scroll.footer-bar-3 i {
+ transform:translateY(-10px)
+}
+.footer-bar-scroll.footer-bar-3 .active-nav i {
+ transform:translateY(0px)
+}
+#newsletter-popup{
+  margin: 70px auto;
+  padding:30px 40px 40px;
+  background: #f5828a;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 1s ease-in-out;
+  min-height: 300px;
+}
+
+
+
+
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+.altbar{
+display:block !important;
+}
+}	
+
+@media screen and (max-width: 1366px){
+  #newsletter-popup{
+    width: 100%;
+  }
+  .altbar{
+display:block !important;
+}
+}
+
+@media screen and (max-width: 992px){
+  #newsletter-popup{
+    width: 100%;
+  }
+  .altbar{
+display:block !important;
+}
+}
+
+.newsletter-overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+  display: none;
+  z-index: 999999999999;
+}
+
+#newsletter-popup h3{
+  color: #fff;
+  font-size: 24px;
+  margin: 0 0 10px;
+  font-family: 'Gloria Hallelujah',cursive;
+}
+
+#newsletter-popup input[type="text"]{
+    width: 100%;
+    height: 36px;
+    border: none;
+    text-indent: 10px;
+    font-size: 13px;
+    border-bottom: 2px solid #faeaec;
+    border-top: 2px solid #fff;
+    padding: 0;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#newsletter-popup input[type="submit"]{
+  background: #6EC5D9;
+    border: none;
+    border-bottom: 3px solid #57B8CE;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 0;
+    line-height: 1.5;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    font-size: 21px;
+    font-family: "Gloria Hallelujah",cursive;
+}
+
+#newsletter-popup .popup-close{
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  font-family:  "Gloria Hallelujah",cursive;
+  font-weight: bold;
+}
+</style>
+<script>
+			$(function(){
+				$(".yenile_buton").click(function(){
+					$(".guvenlik_resmi").attr("src","default/captcha.php?d="+Math.random());
+				});
+			});
+</script>
+<script>
+$(document).ready(function() {
+		
+		$('input[name="uyetip"]').on("change",function(){
+			//alert($(this).prop("value"));
+		if($(this).prop("value")=="1"){
+			$("#kurumsal").show();
+			$("#kurumsal2").show();
+			$("#kurumsal3").show();
+			$("#bireysel").hide();
+		}
+		else{
+			$("#kurumsal").hide();
+			$("#kurumsal2").hide();
+			$("#kurumsal3").hide();
+			$("#bireysel").show();
+		}
+	});	
+	
+	
+	$('input[name="yeniletip"]').on("change",function(){
+			//alert($(this).prop("value"));
+		if($(this).prop("value")=="1"){
+			$("#kurumsal").show();
+			$("#kurumsal2").show();
+			$("#kurumsal3").show();
+			$("#bireysel").hide();
+		}
+		else{
+			$("#kurumsal").hide();
+			$("#kurumsal2").hide();
+			$("#kurumsal3").hide();
+			$("#bireysel").show();
+		}
+	});	
+	
+	
+		$('input[name="sifretip"]').on("change",function(){
+			//alert($(this).prop("value"));
+		if($(this).prop("value")=="1"){
+			$("#sifre1").show();
+		}
+		else{
+			$("#sifre1").hide();
+
+		}
+	});	
+	
+	
+	
+		$('input[name="faturatip"]').on("change",function(){
+			//alert($(this).prop("value"));
+		if($(this).prop("value")=="1"){
+			$("#faturaadres").show();
+			$("#faturail").show();
+			$("#faturailce").show();
+		}
+		else{
+			$("#faturaadres").hide();
+			$("#faturail").hide();
+			$("#faturailce").hide();
+		}
+	});	
+	
+	
+
+    
+		$('#adresgeldi').on('change', function() {			
+        $("#uyeadresal").val($(this).children("option:selected").attr("data-adres"));		
+        $("#adresilce").val($(this).children("option:selected").attr("data-ilce"));
+        $("#adresil").val($(this).children("option:selected").attr("data-il"));
+
+        		 
+			
+		});	
+       
+
+
+
+
+    });	
+		
+		
+	function detayfiyathesapla(obj){
+		var detayfiyat=parseFloat($("#detayfiyat").attr("data-price"));
+		$(".varyantselect option:selected").each(function(){
+			detayfiyat+=parseFloat($(this).attr("data-price"));
+		});
+		$("input[type=radio]:checked").each(function(){
+			detayfiyat+=parseFloat($(this).attr("data-price"));
+		});
+		detayfiyat*=parseInt($(".adetsayisi").val());
+		$("#sonfiyat").html(detayfiyat.toFixed(2)+" TL");
+		
+	}
+	
+
+    function printDiv(divName) {
+        var printContents = document.getElementById(divName).innerHTML;
+        var originalContents = document.body.innerHTML;
+        document.body.innerHTML = printContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+    }        
+
+	   
+	var delay = 1000; //in milleseconds
+
+jQuery(document).ready(function($){
+  setTimeout(function(){ showNewsletterPopup(); }, delay);
+  
+  $('.popup-close').click(function(){
+      $('.newsletter-overlay').hide();
+      
+      //when closed create a cookie to prevent popup to show again on refresh
+      setCookie('newsletter-popup', 'popped', 30);
+  });
+});
+
+function showNewsletterPopup(){
+  if( getCookie('newsletter-popup') == ""){
+     $('.newsletter-overlay').show();
+     setCookie('newsletter-popup', 'popped', 30);
+  }
+  else{
+    console.log("Newsletter popup blocked.");
+  }
+}
+
+
+function setCookie(cname,cvalue,exdays)
+{
+    var d = new Date();
+    d.setTime(d.getTime()+(exdays*24*60*60*1000));
+    var expires = "expires="+d.toGMTString();
+    document.cookie = cname+"="+cvalue+"; "+expires+"; path=/";
+}
+
+function getCookie(cname)
+{
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) 
+    {
+        var c = jQuery.trim(ca[i]);
+        if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+    }
+    return "";
+}
+</script>
+
+<style>
+.product-zoom-cover{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .product-main-image{
+        position: relative;
+    }
+    .product-zoom-cover{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 48;
+    }
+}
+
+
+</style>
+
+
+
+</body>
+
+</html>
+		<script>
+$(function() {
+var pageTitle = $("title").text();
+$(window).blur(function() {
+var fr_text = { "tr" : "#EvdeKal > Bizi Unutma !!" ,"en" : "Don't Forget Us ! " , "ar" : "{{TEXT_AR}}" , "ru" : "{{TEXT_RU}}"};
+var title_text = typeof fr_text[window.LANGUAGE] !== "undefined" ? fr_text[window.LANGUAGE] : fr_text["tr"];
+if(title_text!==""){
+$("title").text(title_text);
+}
+});
+$(window).focus(function() {
+$("title").text(pageTitle);
+});
+});
+</script>
+<script src="boss/assets/pages/lightbox.js"></script>
+<link href="eklentiler/cerez/cerez.css" rel="stylesheet" type="text/css">
+<script src="eklentiler/cerez/cerez.js"></script>
+<script>
+if ( window.history.replaceState ) {
+window.history.replaceState( null, null, window.location.href );
+}
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000000bd",
+      "text": "#fff"
+    },
+    "button": {
+      "background": "#000000bd"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "message": "Bu site, hizmetlerini sunmak ve trafiği analiz etmek için çerezlerden yararlanıyor.",
+    "dismiss": "Anladım",
+    "link": "Daha fazla bilgi",
+    "href": "kullanim-kosullari/"
+  }
+})});
+
+</script>
+<style>
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+#toast-container > div {
+    padding: 8px 8px 8px 50px;
+    width: 100% !important;
+    padding: px;
+}
+}	
+
+.top-image{
+width: 100% !important;	
+}	
+</style>

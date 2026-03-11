@@ -155,6 +155,25 @@
     ]
   },
   {
+    "id": 385,
+    "name": "Alpoliva",
+    "slug": "alpoliva",
+    "url": "https://www.alpoliva.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.951709Z",
+    "embeddable": false,
+    "reason": "frame-ancestors:'self' http://webvisor.com",
+    "status": 200,
+    "finalUrl": "https://www.alpoliva.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": [
+      "'self'",
+      "http://webvisor.com"
+    ]
+  },
+  {
     "id": 120,
     "name": "Anafortis",
     "slug": "anafortis",
@@ -183,6 +202,22 @@
     "status": 200,
     "finalUrl": "https://www.angelos.com.tr/tr/",
     "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 386,
+    "name": "Anıt Yağ",
+    "slug": "anit-yag",
+    "url": "https://www.anityag.com.tr/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952006Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.anityag.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -337,22 +372,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 266,
-    "name": "Ayvalık Han",
-    "slug": "ayvalik-han",
-    "url": "https://www.instagram.com/ayvalikhan/",
-    "region": "Ayvalık, Balıkesir",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:03.332777Z",
-    "embeddable": false,
-    "reason": "x-frame-options:DENY",
-    "status": 200,
-    "finalUrl": "https://www.instagram.com/ayvalikhan/",
-    "contentType": "text/html; charset=\"utf-8\"",
-    "xFrameOptions": "DENY",
-    "frameAncestors": []
   },
   {
     "id": 161,
@@ -716,18 +735,6 @@
     "frameAncestors": []
   },
   {
-    "id": 317,
-    "name": "Dino Ayvalık",
-    "slug": "dino-ayvalik",
-    "url": "https://www.dinoayvalik.com",
-    "region": "Ayvalık, Balıkesir",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:06.272851Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.dinoayvalik.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.dinoayvalik.com', port=443): Failed to resolve 'www.dinoayvalik.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 347,
     "name": "Dizem Organik",
     "slug": "dizem-organik",
@@ -779,6 +786,22 @@
     "finalUrl": "https://www.drop.com.tr/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
+    "id": 391,
+    "name": "Durukaan",
+    "slug": "durukaan",
+    "url": "https://www.durukaanoliveoil.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952128Z",
+    "embeddable": false,
+    "reason": "x-frame-options:SAMEORIGIN",
+    "status": 200,
+    "finalUrl": "https://www.durukaanoliveoil.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "SAMEORIGIN",
     "frameAncestors": []
   },
   {
@@ -894,6 +917,25 @@
     "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "",
     "frameAncestors": []
+  },
+  {
+    "id": 392,
+    "name": "Egeo Norte",
+    "slug": "egeo-norte",
+    "url": "https://egeonorte.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952266Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://egeonorte.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": [
+      "'self'",
+      "*"
+    ]
   },
   {
     "id": 140,
@@ -1042,6 +1084,22 @@
     ]
   },
   {
+    "id": 393,
+    "name": "Femes",
+    "slug": "femes",
+    "url": "https://femes.com.tr/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952375Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://femes.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 278,
     "name": "Ferhatoğlu",
     "slug": "ferhatoglu",
@@ -1135,6 +1193,22 @@
     "finalUrl": "https://www.gaiaoliva.com.tr/",
     "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "SAMEORIGIN",
+    "frameAncestors": []
+  },
+  {
+    "id": 394,
+    "name": "Galia Garden",
+    "slug": "galia-garden",
+    "url": "https://www.galiaolive.com.tr/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952491Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.galiaolive.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
     "frameAncestors": []
   },
   {
@@ -1327,18 +1401,6 @@
     ]
   },
   {
-    "id": 355,
-    "name": "Gülpınar",
-    "slug": "gulpinar",
-    "url": "https://www.gulpinarzeytinyagi.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:10.298514Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.gulpinarzeytinyagi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.gulpinarzeytinyagi.com', port=443): Failed to resolve 'www.gulpinarzeytinyagi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 126,
     "name": "Gümetepe",
     "slug": "gumetepe",
@@ -1487,6 +1549,22 @@
       "'self'",
       "http://webvisor.com"
     ]
+  },
+  {
+    "id": 399,
+    "name": "Heraliv",
+    "slug": "heraliv",
+    "url": "https://heraliv.com.tr/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952664Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://heraliv.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
   },
   {
     "id": 283,
@@ -1708,22 +1786,6 @@
     "status": 200,
     "finalUrl": "https://www.kalebogazi.com/",
     "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
-    "id": 285,
-    "name": "Karadağ Zeytincilik",
-    "slug": "karadag-zeytincilik",
-    "url": "https://www.ayvalik-zeytinyagi.com/",
-    "region": "Ayvalık, Balıkesir",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:12.864542Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.ayvalik-zeytinyagi.com/",
-    "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "",
     "frameAncestors": []
   },
@@ -2040,6 +2102,22 @@
     "frameAncestors": []
   },
   {
+    "id": 403,
+    "name": "Külahlı Zeytinyağı",
+    "slug": "kulahli-zeytinyagi",
+    "url": "https://kulahlizeytinyagi.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952738Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://kulahlizeytinyagi.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 4,
     "name": "Laleli",
     "slug": "laleli",
@@ -2066,6 +2144,22 @@
     "embeddable": false,
     "reason": "SSLError",
     "error": "HTTPSConnectionPool(host='lamponia.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError(\"hostname 'lamponia.com' doesn't match either of '*.server-home.org', 'server-home.org', 'www.server-home.org'\")))"
+  },
+  {
+    "id": 404,
+    "name": "Levi Farm",
+    "slug": "levi-farm",
+    "url": "https://levifarm.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.952882Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://levifarm.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
   },
   {
     "id": 288,
@@ -2240,18 +2334,6 @@
     "frameAncestors": []
   },
   {
-    "id": 158,
-    "name": "Meray",
-    "slug": "meray",
-    "url": "https://www.merayzeytincilik.com.tr/",
-    "region": "Aydın, Ege",
-    "category": "organik",
-    "checkedAt": "2026-03-09T06:53:15.818705Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.merayzeytincilik.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.merayzeytincilik.com.tr', port=443): Failed to resolve 'www.merayzeytincilik.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
-  },
-  {
     "id": 407,
     "name": "Mete Zeytin",
     "slug": "mete-zeytin",
@@ -2383,13 +2465,13 @@
     "id": 203,
     "name": "Monterosso",
     "slug": "monterosso",
-    "url": "https://www.monterosso.com.tr",
-    "region": "Türkiye geneli",
+    "url": "https://monterosso.com.tr/",
+    "region": "Ayvalık, Balıkesir",
     "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:16.697326Z",
+    "checkedAt": "2026-03-11T17:39:22.952975Z",
     "embeddable": false,
     "reason": "SSLError",
-    "error": "HTTPSConnectionPool(host='www.monterosso.com.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)')))"
+    "error": "HTTPSConnectionPool(host='monterosso.com.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)')))"
   },
   {
     "id": 67,
@@ -2489,22 +2571,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 409,
-    "name": "Naif Ege Zeytincilik",
-    "slug": "naif-ege-zeytincilik",
-    "url": "https://www.naifoliveoil.com/",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-10T12:08:12.462075Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.naifoliveoil.com/",
-    "contentType": "text/html",
-    "xFrameOptions": "",
-    "frameAncestors": []
   },
   {
     "id": 410,
@@ -2640,6 +2706,22 @@
     ]
   },
   {
+    "id": 412,
+    "name": "Ninurta",
+    "slug": "ninurta",
+    "url": "https://ninurta.com.tr/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.953086Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://ninurta.com.tr/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 49,
     "name": "Nish Olive",
     "slug": "nish-olive",
@@ -2701,6 +2783,22 @@
     "finalUrl": "https://www.novavera.com.tr/",
     "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "SAMEORIGIN",
+    "frameAncestors": []
+  },
+  {
+    "id": 413,
+    "name": "Odesa",
+    "slug": "odesa",
+    "url": "https://odesaolive.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:22.953228Z",
+    "embeddable": false,
+    "reason": "x-frame-options:SAMEORIGIN, SAMEORIGIN",
+    "status": 200,
+    "finalUrl": "https://odesaolive.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "SAMEORIGIN, SAMEORIGIN",
     "frameAncestors": []
   },
   {
@@ -2852,6 +2950,22 @@
     "frameAncestors": []
   },
   {
+    "id": 415,
+    "name": "Oliova",
+    "slug": "oliova",
+    "url": "https://www.herbafarm.com.tr/oliova",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:23.016119Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.herbafarm.com.tr/oliova",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
+  },
+  {
     "id": 13,
     "name": "Olistica",
     "slug": "olistica",
@@ -2877,6 +2991,22 @@
     "finalUrl": "https://www.olivamalia.com/",
     "contentType": "text/html; charset=utf-8",
     "xFrameOptions": "SAMEORIGIN",
+    "frameAncestors": []
+  },
+  {
+    "id": 416,
+    "name": "Oliva Troas",
+    "slug": "oliva-troas",
+    "url": "https://olivatroas.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:23.088308Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://olivatroas.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "xFrameOptions": "",
     "frameAncestors": []
   },
   {
@@ -3129,18 +3259,6 @@
     "frameAncestors": []
   },
   {
-    "id": 296,
-    "name": "Orpir",
-    "slug": "orpir",
-    "url": "https://www.orpir.com/rafine-pirina-yagi.html",
-    "region": "Türkiye geneli",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:20.135236Z",
-    "embeddable": false,
-    "reason": "ReadTimeout",
-    "error": "HTTPSConnectionPool(host='www.orpir.com', port=443): Read timed out. (read timeout=12)"
-  },
-  {
     "id": 154,
     "name": "Osman Menteşe Çiftliği",
     "slug": "osman-mentese-ciftligi",
@@ -3192,13 +3310,17 @@
     "id": 238,
     "name": "Öz Köyüm",
     "slug": "oz-koyum",
-    "url": "https://www.ozkoyum.com.tr",
-    "region": "Türkiye geneli",
+    "url": "https://www.ozkoyum.com/",
+    "region": "Balıkesir",
     "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:20.748299Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.ozkoyum.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ozkoyum.com.tr', port=443): Failed to resolve 'www.ozkoyum.com.tr' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "checkedAt": "2026-03-11T17:39:23.135400Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://www.ozkoyum.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": []
   },
   {
     "id": 102,
@@ -3459,18 +3581,6 @@
       "'self'",
       "http://webvisor.com"
     ]
-  },
-  {
-    "id": 216,
-    "name": "SAMANDAĞ KADIN KOOPERATİFİ",
-    "slug": "samandag-kadin-kooperatifi",
-    "url": "https://www.samandagkadinkooperatifi.com",
-    "region": "Samandağ, Hatay",
-    "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:23.806957Z",
-    "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.samandagkadinkooperatifi.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.samandagkadinkooperatifi.com', port=443): Failed to resolve 'www.samandagkadinkooperatifi.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
   },
   {
     "id": 382,
@@ -3817,22 +3927,6 @@
     ]
   },
   {
-    "id": 160,
-    "name": "True Olive",
-    "slug": "true-olive",
-    "url": "https://www.trueolive.com/",
-    "region": "Çanakkale",
-    "category": "premium-butik",
-    "checkedAt": "2026-03-09T06:53:25.429835Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://www.trueolive.com/",
-    "contentType": "text/html",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 159,
     "name": "Tuay",
     "slug": "tuay",
@@ -3866,6 +3960,22 @@
       "'self'",
       "http://webvisor.com"
     ]
+  },
+  {
+    "id": 425,
+    "name": "Uğurlu Zeytinyağları",
+    "slug": "ugurlu-zeytinyaglari",
+    "url": "https://www.ugurluzeytinyaglari.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:23.143583Z",
+    "embeddable": false,
+    "reason": "x-frame-options:SAMEORIGIN",
+    "status": 200,
+    "finalUrl": "https://www.ugurluzeytinyaglari.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "SAMEORIGIN",
+    "frameAncestors": []
   },
   {
     "id": 305,
@@ -4192,14 +4302,14 @@
     "id": 309,
     "name": "Zarbalı",
     "slug": "zarbali",
-    "url": "https://www.zarbali.com/kategori/zarbali-zeytinyaglari",
-    "region": "Türkiye geneli",
+    "url": "https://zarbali.com/",
+    "region": "Ayvalık, Balıkesir",
     "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:27.084401Z",
-    "embeddable": false,
-    "reason": "http-404",
-    "status": 404,
-    "finalUrl": "https://zarbali.com/kategori/zarbali-zeytinyaglari",
+    "checkedAt": "2026-03-11T17:39:23.192828Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://zarbali.com/",
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
@@ -4219,6 +4329,25 @@
     "contentType": "text/html; charset=UTF-8",
     "xFrameOptions": "",
     "frameAncestors": []
+  },
+  {
+    "id": 430,
+    "name": "Zelena",
+    "slug": "zelena",
+    "url": "https://zelenaolive.com/",
+    "region": "Çanakkale",
+    "category": "bolgesel-yerel",
+    "checkedAt": "2026-03-11T17:39:23.315447Z",
+    "embeddable": true,
+    "reason": "ok",
+    "status": 200,
+    "finalUrl": "https://zelenaolive.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "",
+    "frameAncestors": [
+      "'self'",
+      "*"
+    ]
   },
   {
     "id": 109,
@@ -4354,32 +4483,22 @@
     "frameAncestors": []
   },
   {
-    "id": 260,
-    "name": "Zeytin Hanım",
-    "slug": "zeytin-hanim",
-    "url": "https://zeytinhanim.com/",
-    "region": "İzmir",
-    "category": "market-endustriyel",
-    "checkedAt": "2026-03-09T06:53:28.177071Z",
-    "embeddable": true,
-    "reason": "ok",
-    "status": 200,
-    "finalUrl": "https://zeytinhanim.com/",
-    "contentType": "text/html; charset=UTF-8",
-    "xFrameOptions": "",
-    "frameAncestors": []
-  },
-  {
     "id": 241,
     "name": "Zeytin İskelesi",
     "slug": "zeytin-iskelesi",
-    "url": "https://www.zeytiniskelesi.com",
-    "region": "Türkiye geneli",
+    "url": "https://shop.zeytiniskelesi.com/",
+    "region": "Burhaniye, Balıkesir",
     "category": "bolgesel-yerel",
-    "checkedAt": "2026-03-09T06:53:28.201811Z",
+    "checkedAt": "2026-03-11T17:39:23.401491Z",
     "embeddable": false,
-    "reason": "ConnectionError",
-    "error": "HTTPSConnectionPool(host='www.zeytiniskelesi.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.zeytiniskelesi.com', port=443): Failed to establish a new connection: [Errno 51] Network is unreachable\"))"
+    "reason": "x-frame-options:DENY",
+    "status": 200,
+    "finalUrl": "https://shop.zeytiniskelesi.com/",
+    "contentType": "text/html; charset=utf-8",
+    "xFrameOptions": "DENY",
+    "frameAncestors": [
+      "'none'"
+    ]
   },
   {
     "id": 432,

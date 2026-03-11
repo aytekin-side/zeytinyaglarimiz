@@ -5846,7 +5846,7 @@ const brands = [
         "website": "https://www.imbatto.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/imbatto/imbatto-logo.jpg",
         "logoFallback": ""
     },
     {
@@ -5970,18 +5970,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 158,
-        "name": "Meray",
-        "desc": "Aydın-Çine hattında organik tarım ve zeytinyağı üretimi yapan şirket. Organik sertifikasyon ve ihracat odaklı yapısıyla öne çıkar.",
-        "region": "Aydın, Ege",
-        "category": "organik",
-        "website": "https://www.merayzeytincilik.com.tr/",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 159,
         "name": "Tuay",
         "desc": "Organik natürel sızma zeytinyağı ve farklı seri sınıflandırmaları bulunan üretici. Ege zeytinlerini soğuk sıkım ve duyusal analiz vurgusuyla sunar.",
@@ -5991,18 +5979,6 @@ const brands = [
         "founded": "",
         "highlight": false,
         "image": "images/markalar/tuay/tuay-logo.png",
-        "logoFallback": ""
-    },
-    {
-        "id": 160,
-        "name": "True Olive",
-        "desc": "Çanakkale hattından ödüllü premium natürel sızma zeytinyağı sunan üretici. Yüksek polifenol ve butik seri diliyle bilinir.",
-        "region": "Çanakkale",
-        "category": "premium-butik",
-        "website": "https://www.trueolive.com/",
-        "founded": "",
-        "highlight": false,
-        "image": "",
         "logoFallback": ""
     },
     {
@@ -6263,10 +6239,10 @@ const brands = [
         "desc": "Monterosso, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Ayvalık, Balıkesir",
         "category": "bolgesel-yerel",
-        "website": "https://www.monterosso.com.tr",
+        "website": "https://monterosso.com.tr/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/monterosso/monterosso-logo.png",
         "logoFallback": ""
     },
     {
@@ -6315,18 +6291,6 @@ const brands = [
         "founded": "",
         "highlight": false,
         "image": "images/markalar/bukem-zeytinyaglari/bukem-zeytinyaglari-logo.png",
-        "logoFallback": ""
-    },
-    {
-        "id": 216,
-        "name": "SAMANDAĞ KADIN KOOPERATİFİ",
-        "desc": "SAMANDAĞ KADIN KOOPERATİFİ, Samandağ, Hatay çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-        "region": "Samandağ, Hatay",
-        "category": "bolgesel-yerel",
-        "website": "https://www.samandagkadinkooperatifi.com",
-        "founded": "",
-        "highlight": false,
-        "image": "",
         "logoFallback": ""
     },
     {
@@ -6431,10 +6395,10 @@ const brands = [
         "desc": "Öz Köyüm, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Balıkesir",
         "category": "bolgesel-yerel",
-        "website": "https://www.ozkoyum.com.tr",
+        "website": "https://www.ozkoyum.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/oz-koyum/oz-koyum-logo.png",
         "logoFallback": ""
     },
     {
@@ -6443,10 +6407,10 @@ const brands = [
         "desc": "Zeytin İskelesi, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Burhaniye, Balıkesir",
         "category": "bolgesel-yerel",
-        "website": "https://www.zeytiniskelesi.com",
+        "website": "https://shop.zeytiniskelesi.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/zeytin-iskelesi/zeytin-iskelesi-logo.png",
         "logoFallback": ""
     },
     {
@@ -6534,18 +6498,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 260,
-        "name": "Zeytin Hanım",
-        "desc": "Zeytinhanim, Siber Güvenlik alanında güvenilir, hızlı ve ölçülebilir çözümler sunar. İzmir merkezli ekip, uçtan uca danışmanlık ve yönetilen hizmetler sağlar.",
-        "region": "İzmir",
-        "category": "market-endustriyel",
-        "website": "https://zeytinhanim.com/",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 262,
         "name": "Aivalia",
         "desc": "Aivalia zeytinyağlarını uygun koşullarda üretip tüm müşterilerimizin yüzde yüz zeytinyağının tadına varmalarını sağlıyoruz.",
@@ -6591,18 +6543,6 @@ const brands = [
         "founded": "",
         "highlight": false,
         "image": "images/markalar/ayvada/ayvada-logo.png",
-        "logoFallback": ""
-    },
-    {
-        "id": 266,
-        "name": "Ayvalık Han",
-        "desc": "Ayvalık Han, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-        "region": "Ayvalık, Balıkesir",
-        "category": "bolgesel-yerel",
-        "website": "https://www.instagram.com/ayvalikhan/",
-        "founded": "",
-        "highlight": false,
-        "image": "",
         "logoFallback": ""
     },
     {
@@ -6786,18 +6726,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 285,
-        "name": "Karadağ Zeytincilik",
-        "desc": "Karadağ Zeytincilik, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-        "region": "Ayvalık, Balıkesir",
-        "category": "bolgesel-yerel",
-        "website": "https://www.ayvalik-zeytinyagi.com/",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 287,
         "name": "Köklü",
         "desc": "Yılların verdiği tecrübeyle üstün lezzet ödüllü Ayvalık Zeytin ve Zeytinyağı firma Köklü Zeytincilik",
@@ -6903,18 +6831,6 @@ const brands = [
         "founded": "",
         "highlight": false,
         "image": "images/markalar/onursel-zeytincilik/onursel-zeytincilik-logo.png",
-        "logoFallback": ""
-    },
-    {
-        "id": 296,
-        "name": "Orpir",
-        "desc": "Orpir, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Ayvalık, Balıkesir",
-        "category": "bolgesel-yerel",
-        "website": "https://www.orpir.com/rafine-pirina-yagi.html",
-        "founded": "",
-        "highlight": false,
-        "image": "",
         "logoFallback": ""
     },
     {
@@ -7043,10 +6959,10 @@ const brands = [
         "desc": "Zarbalı, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Ayvalık, Balıkesir",
         "category": "bolgesel-yerel",
-        "website": "https://www.zarbali.com/kategori/zarbali-zeytinyaglari",
+        "website": "https://zarbali.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/zarbali/zarbali-logo.png",
         "logoFallback": ""
     },
     {
@@ -7107,18 +7023,6 @@ const brands = [
         "founded": "",
         "highlight": false,
         "image": "images/markalar/the-mill/the-mill-logo.png",
-        "logoFallback": ""
-    },
-    {
-        "id": 317,
-        "name": "Dino Ayvalık",
-        "desc": "Dino Ayvalık, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-        "region": "Ayvalık, Balıkesir",
-        "category": "bolgesel-yerel",
-        "website": "https://www.dinoayvalik.com",
-        "founded": "",
-        "highlight": false,
-        "image": "",
         "logoFallback": ""
     },
     {
@@ -7326,18 +7230,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 355,
-        "name": "Gülpınar",
-        "desc": "Gülpınar, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "https://www.gulpinarzeytinyagi.com/",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 361,
         "name": "İzorya",
         "desc": "Sağlığın İksiri Zeytinyağı İzorya",
@@ -7451,10 +7343,10 @@ const brands = [
         "desc": "Alpoliva, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://www.alpoliva.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/alpoliva/alpoliva-logo.jpg",
         "logoFallback": ""
     },
     {
@@ -7463,10 +7355,10 @@ const brands = [
         "desc": "Anıt Yağ, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://www.anityag.com.tr/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/anit-yag/anit-yag-logo.avif",
         "logoFallback": ""
     },
     {
@@ -7490,7 +7382,7 @@ const brands = [
         "website": "https://aysanyaglari.com.tr/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/aysan/aysan-logo.png",
         "logoFallback": ""
     },
     {
@@ -7523,10 +7415,10 @@ const brands = [
         "desc": "Durukaan, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://www.durukaanoliveoil.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/durukaan/durukaan-logo.webp",
         "logoFallback": ""
     },
     {
@@ -7535,10 +7427,10 @@ const brands = [
         "desc": "Egeo Norte, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://egeonorte.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/egeo-norte/egeo-norte-logo.webp",
         "logoFallback": ""
     },
     {
@@ -7547,10 +7439,10 @@ const brands = [
         "desc": "Femes, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://femes.com.tr/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/femes/femes-logo.webp",
         "logoFallback": ""
     },
     {
@@ -7559,22 +7451,10 @@ const brands = [
         "desc": "Galia Garden, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://www.galiaolive.com.tr/",
         "founded": "",
         "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
-        "id": 395,
-        "name": "Garbi Garden",
-        "desc": "Garbi Garden, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
+        "image": "images/markalar/galia-garden/galia-garden-logo.png",
         "logoFallback": ""
     },
     {
@@ -7590,39 +7470,15 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 397,
-        "name": "Hektor's",
-        "desc": "Hektor's, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
-        "id": 398,
-        "name": "Hemdem Via Ga",
-        "desc": "Hemdem Via Ga, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 399,
         "name": "Heraliv",
         "desc": "Heraliv, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://heraliv.com.tr/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/heraliv/heraliv-logo.png",
         "logoFallback": ""
     },
     {
@@ -7667,10 +7523,10 @@ const brands = [
         "desc": "Külahlı Zeytinyağı, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://kulahlizeytinyagi.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/kulahli-zeytinyagi/kulahli-zeytinyagi-logo.png",
         "logoFallback": ""
     },
     {
@@ -7679,10 +7535,10 @@ const brands = [
         "desc": "Levi Farm, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://levifarm.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/levi-farm/levi-farm-logo.png",
         "logoFallback": ""
     },
     {
@@ -7734,18 +7590,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 409,
-        "name": "Naif Ege Zeytincilik",
-        "desc": "Naif Ege Zeytincilik, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Burhaniye, Balıkesir",
-        "category": "bolgesel-yerel",
-        "website": "https://www.naifoliveoil.com/",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 410,
         "name": "Namlı Zeytinleri",
         "desc": "Namlı Zeytinleri &#8211; Kurumsal ve Toptan Satış",
@@ -7763,10 +7607,10 @@ const brands = [
         "desc": "Ninurta, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://ninurta.com.tr/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/ninurta/ninurta-logo.png",
         "logoFallback": ""
     },
     {
@@ -7775,10 +7619,10 @@ const brands = [
         "desc": "Odesa, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://odesaolive.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/odesa/odesa-logo.png",
         "logoFallback": ""
     },
     {
@@ -7799,10 +7643,10 @@ const brands = [
         "desc": "Oliova, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://www.herbafarm.com.tr/oliova",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/oliova/oliova-logo.avif",
         "logoFallback": ""
     },
     {
@@ -7811,10 +7655,10 @@ const brands = [
         "desc": "Oliva Troas, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://olivatroas.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/oliva-troas/oliva-troas-logo.png",
         "logoFallback": ""
     },
     {
@@ -7842,18 +7686,6 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 419,
-        "name": "Özbey 17",
-        "desc": "Özbey 17, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 420,
         "name": "Rumeli Zeytincilik",
         "desc": "Yüksek polifenollü zeytinyağı, Soğuk Sıkım Aromalı Zeytinyağı.Nefis iri Şarköy Zeytini,soğuk sıkım aromalı gurme zeytinyağı, sofralık siyah zeytin. doğal zeytin",
@@ -7878,75 +7710,15 @@ const brands = [
         "logoFallback": ""
     },
     {
-        "id": 422,
-        "name": "Tavoliva",
-        "desc": "Tavoliva, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
-        "id": 423,
-        "name": "Tenedos",
-        "desc": "Tenedos, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
-        "id": 424,
-        "name": "Troas",
-        "desc": "Troas, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
         "id": 425,
         "name": "Uğurlu Zeytinyağları",
         "desc": "Uğurlu Zeytinyağları, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://www.ugurluzeytinyaglari.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
-        "id": 426,
-        "name": "Vega 1923",
-        "desc": "Vega 1923, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
-        "logoFallback": ""
-    },
-    {
-        "id": 427,
-        "name": "Vivendi",
-        "desc": "Vivendi, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-        "region": "Çanakkale",
-        "category": "bolgesel-yerel",
-        "website": "",
-        "founded": "",
-        "highlight": false,
-        "image": "",
+        "image": "images/markalar/ugurlu-zeytinyaglari/ugurlu-zeytinyaglari-logo.jpg",
         "logoFallback": ""
     },
     {
@@ -7979,10 +7751,10 @@ const brands = [
         "desc": "Zelena, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
         "region": "Çanakkale",
         "category": "bolgesel-yerel",
-        "website": "",
+        "website": "https://zelenaolive.com/",
         "founded": "",
         "highlight": false,
-        "image": "",
+        "image": "images/markalar/zelena/zelena-logo.webp",
         "logoFallback": ""
     },
     {

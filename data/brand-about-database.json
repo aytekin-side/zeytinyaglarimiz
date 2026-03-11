@@ -3070,7 +3070,9 @@
       "Polifenol ve antioksidan miktarları yüksek zeytinyağlarımız, dünya standardlarında belirlenen “aroma”, “acılık” ve “yakıcılık” dengelilik özelliklerini en optimum seviyede taşısın istedik ve ZAGODA ismiyle şişeleyip damak zevkinize sunduk.",
       "“Zagoda”, Doğu Karadeniz Bölgesi’nde, halk arasında “Salamura Yeşil Zeytin”e verilen isimdir."
     ],
-    "images": [],
+    "images": [
+      "images/markalar/zagoda/zagoda-about-01.webp"
+    ],
     "sourceUrls": [
       "https://zagoda.com.tr/hakkimizda/",
       "https://zagoda.com.tr/kategori/general-information-about-olive-oil/"
@@ -3206,7 +3208,7 @@
     ],
     "images": [
       "images/markalar/bozelli/bozelli-about-01.jpg",
-      "images/markalar/bozelli/bozelli-about-02.png"
+      "images/markalar/bozelli/bozelli-about-02.jpg"
     ],
     "sourceUrls": [
       "https://www.bozelli.com.tr/hikayemiz/"
@@ -3388,17 +3390,6 @@
       "https://www.olivamalia.com/hikayemiz"
     ]
   },
-  "158": {
-    "website": "https://www.merayzeytincilik.com.tr/",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.merayzeytincilik.com.tr/hakkimizda",
-      "https://www.merayzeytincilik.com.tr/hakkimizda/",
-      "https://www.merayzeytincilik.com.tr/about"
-    ]
-  },
   "159": {
     "website": "https://www.tuay.com.tr/",
     "headings": [
@@ -3419,17 +3410,6 @@
     ],
     "sourceUrls": [
       "https://tuay.com.tr/index.php?route=information/information&information_id=1"
-    ]
-  },
-  "160": {
-    "website": "https://www.trueolive.com/",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.trueolive.com/hakkimizda",
-      "https://www.trueolive.com/hakkimizda/",
-      "https://www.trueolive.com/about"
     ]
   },
   "161": {
@@ -4058,17 +4038,6 @@
       "https://www.bukem.com.tr/"
     ]
   },
-  "216": {
-    "website": "https://www.samandagkadinkooperatifi.com",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.samandagkadinkooperatifi.com/hakkimizda",
-      "https://www.samandagkadinkooperatifi.com/hakkimizda/",
-      "https://www.samandagkadinkooperatifi.com/about"
-    ]
-  },
   "218": {
     "website": "https://www.nidazeytin.com/",
     "headings": [],
@@ -4208,9 +4177,9 @@
   "236": {
     "website": "https://www.angelos.com.tr/tr/",
     "headings": [
+      "BIO Sertifikası",
       "NOP Sertifikası",
       "Müteşebbis Sertifikası",
-      "BIO Sertifikası",
       "Ürünlerimiz",
       "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
       "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -4267,25 +4236,54 @@
     ]
   },
   "238": {
-    "website": "https://www.ozkoyum.com.tr",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
+    "website": "https://www.ozkoyum.com/",
+    "headings": [
+      "Satanlar",
+      "Öz Köyüm",
+      "Siparişleriniz Güvende!",
+      "Mutlu Müşterilerimiz",
+      "Tarihçe",
+      "Hakkımızda"
+    ],
+    "paragraphs": [
+      "Öz Köyüm ailesi olarak Müşteri Memnuniyeti, Güven, Kalite, Garanti ve Dürüstlük her zaman önceliğimizdir.",
+      "Öz Köyüm Zeytin, Zeytinyağı ve Süt Ürünleri olarak, kendi hayvanlarından topladığı sütü kendi mandırasında ürettiği peyniri, kendi zeytinliklerinden topladığı ve yine kendi fabrikasında sıktığı naturel sızma zeytinyağlarını sizlerle paylaşmaktadır.",
+      "Kökten (Öz Köyüm) Zeytinyağları, 1957 yılında Burhaniye’nin Pelitköy mevkiinde taş değirmen sulu baskı sistemiyle zeytinyağı imalathanesini kurarak zeytinyağı imalatına başladı. 1988 yılına kadar aynı yöntem ile yöre halkına hizmet ettikten sonra 1996 yılında mevcut makineler ve üretim yetersiz kalmaya başlayınca İtalya’dan Kontinü Tip Zeytin Sıkma Makineleri getirtilerek Kontinü Zeytinyağı üretilmeye başladı.",
+      "Hürriyet Mh. Hasan Kökten Zeytinyağı Fabrikası Pelitköy - Burhaniye / Balıkesir",
+      "Bunlara ek olarak 2000 li yılların sonlarına doğru süt ve süt ürünleri dalında da kendi ürünlerini üretmeye başlayıp bu köy tipi ev yapımı süt ürünlerini sizlerle paylaşmanın gururunu paylaşmaktadır.",
+      "Firma olarak müşterilerimizi her zaman memnun etmekten yana olup, aramızda her daim sıcak bir bağ bulundurmaktayız. Bizim gözümüzde müşteri her zaman haklıdır.",
+      "Bizlerden ürün alan müşterilerimizle her zaman yüksek bir güven içerisinde iş yapmaktayız. Onlar bizlere, bizse onlara güvenmekteyiz.",
+      "En önemli noktamız kaliteden geçer. Ürettiğimiz zeytinyağlarımız Türkiye ve Dünya çapında ödüller almaktadır. Her sene daha iyisini yapmak, daha kalitesini üretmek vizyonumuzdur. Kalitemizden hiçbir zaman ödün vermeyiz."
+    ],
+    "images": [
+      "images/markalar/oz-koyum/oz-koyum-about-01.jpg",
+      "images/markalar/oz-koyum/oz-koyum-about-02.jpg"
+    ],
     "sourceUrls": [
-      "https://www.ozkoyum.com.tr/hakkimizda",
-      "https://www.ozkoyum.com.tr/hakkimizda/",
-      "https://www.ozkoyum.com.tr/about"
+      "https://www.ozkoyum.com/hakkimizda"
     ]
   },
   "241": {
-    "website": "https://www.zeytiniskelesi.com",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
+    "website": "https://shop.zeytiniskelesi.com/",
+    "headings": [
+      "Neden Zeytin İskelesi?"
+    ],
+    "paragraphs": [
+      "Oleocanthal: Zeytinyağının Ünlü Fenolünün Sağlığa Faydaları",
+      "Uluslararası Zeytin Konseyi-COI- duyusal/tat ve kimyasal analiz standartlarına eşdeğer, en kaliteli, en lezzetli naturel ve organik soğuk sıkım zeytinyağı.",
+      "saflığı,tazeliği, tat eşiği, aroması ve diğer kalite standartları modern cihazlarla donatılmış laboratuvarda tecrübeli uzman tadımcı, gıda ve kimya mühendisleri tarafından kontrol edilir ve onaylanır. En modern zeytinyağı tesislerinde,",
+      ", 1889, 73x92 cm, tuval üzerine yağlıboya, Metropolitan Sanat Müzesi, New York, ABD”",
+      "Bebeklerin zeka, bağışıklık sistemi ve kemik gelişiminde E vitaminin hayati bir rolü olduğunu biliyoruz. Bunu en iyi karşılayan besin kaynağı anne sütü. İnsanoğlu bu açılardan anne sütüyle eş değerde bir ürün, en azından henüz geliştiremedi.",
+      "Doğada ise içerdiği zengin E vitaminiyle anne sütüne en yakın besin",
+      ". Bu nedenle gerek hamilelikte annelere, gerekse altı aydan büyük tüm bebeklere tavsiye ediliyor.",
+      ", 1937, 7.76x3.49 m, Kraliçe Sofia Ulusal Sanat Müzesi, Paris, Fransa.\""
+    ],
+    "images": [
+      "images/markalar/zeytin-iskelesi/zeytin-iskelesi-about-01.jpg",
+      "images/markalar/zeytin-iskelesi/zeytin-iskelesi-about-02.jpg"
+    ],
     "sourceUrls": [
-      "https://www.zeytiniskelesi.com/hakkimizda",
-      "https://www.zeytiniskelesi.com/hakkimizda/",
-      "https://www.zeytiniskelesi.com/about"
+      "https://shop.zeytiniskelesi.com/pages/zeytin-iskelesi-hakkinda"
     ]
   },
   "242": {
@@ -4368,32 +4366,10 @@
   },
   "246": {
     "website": "https://www.orkide.com/",
-    "headings": [
-      "Küresel standartlarda yerli üretimin gücü",
-      "Her öğünde bir Orkide",
-      "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
-      "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
-      "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
-      "ÜRÜNLERİMİZ",
-      "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU",
-      "KÜRESEL STANDARTLARDA ENTEGRE ÜRETİM"
-    ],
-    "paragraphs": [
-      "Natürel Sızma Zeytinyağı ve Taze Fesleğenin Mükemmel Uyumu",
-      "Natürel Sızma Zeytinyağı ve Acı Kırmızı Biberin Mükemmel Uyumu",
-      "Bitkisel beslenmeye uygun Türkiye'nin ilk vegan margarini",
-      "İlgi alanınıza özel içeriklerimizi keşfetmek için lütfen seçim yapınız...",
-      "BEREKETLİ TOPRAKLARDAN SOFRALARINIZA UZANAN LEZZET YOLCULUĞU"
-    ],
-    "images": [
-      "images/markalar/orkide/orkide-about-01.jpg",
-      "images/markalar/orkide/orkide-about-02.jpg"
-    ],
-    "sourceUrls": [
-      "https://www.orkide.com/6-kurumsal/",
-      "https://www.orkide.com/6-kurumsal/244-hakkimizda/",
-      "https://www.orkide.com/6-kurumsal/247-uretim-tesislerimiz/"
-    ]
+    "headings": [],
+    "paragraphs": [],
+    "images": [],
+    "sourceUrls": []
   },
   "252": {
     "website": "https://www.olin.com.tr/",
@@ -4460,33 +4436,6 @@
     ],
     "sourceUrls": [
       "https://www.yerlim.com/sayfa/hakkimizda"
-    ]
-  },
-  "260": {
-    "website": "https://zeytinhanim.com/",
-    "headings": [
-      "Zeytinhanim | Siber Güvenlik için Profesyonel Kurumsal Çözümler",
-      "Sizi Nasıl Hızlandırırız?",
-      "Hakkımızda",
-      "Hizmetlerimiz",
-      "Strateji & Danışmanlık",
-      "Yazılım Geliştirme",
-      "Bulut & DevOps",
-      "Siber Güvenlik"
-    ],
-    "paragraphs": [
-      "Zeytinhanim | Siber Güvenlik için Profesyonel Kurumsal Çözümler",
-      "Zeytinhanim, Siber Güvenlik alanında güvenilir, hızlı ve ölçülebilir çözümler sunar. İzmir merkezli ekip, uçtan uca danışmanlık ve yönetilen hizmetler sağlar.",
-      "Öncelikle kısa bir keşif yaparız; hedef, bütçe ve mevcut altyapıyı anladıktan sonra",
-      "günlük bir plan çıkarırız. Hızlı kazanımlar, risk azaltma ve uzun vadeli değer odağımızdır.",
-      "Zeytinhanim, Siber Güvenlik alanında uzman bir ekibin oluşturduğu kurumsal bir teknoloji şirketidir. Ölçülebilir sonuçlar, şeffaf sözleşmeler ve sürdürülebilir büyüme temel prensiplerimizdir.",
-      "Kurumsal analiz, planlama ve dijital dönüşüm stratejileri.",
-      "İşletmenize özel web, mobil ve masaüstü uygulama geliştirme hizmeti.",
-      "CI/CD, konteyner yönetimi ve otomasyonla operasyonel verimlilik."
-    ],
-    "images": [],
-    "sourceUrls": [
-      "https://zeytinhanim.com/"
     ]
   },
   "262": {
@@ -4581,17 +4530,6 @@
       "https://www.ayvada.com.tr/sayfa/kurumsal"
     ]
   },
-  "266": {
-    "website": "https://www.instagram.com/ayvalikhan/",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.instagram.com/hakkimizda",
-      "https://www.instagram.com/hakkimizda/",
-      "https://www.instagram.com/about"
-    ]
-  },
   "268": {
     "website": "https://www.birellerzeytin.com/",
     "headings": [
@@ -4626,7 +4564,8 @@
     "website": "https://www.byteo.com.tr/",
     "headings": [
       "Blog",
-      "Zeytinyağında Polifenol ve Antioksidan Hikâyesi"
+      "Zeytinyağında Polifenol ve Antioksidan Hikâyesi",
+      "Zeytinyağının Uluslararası Başarı Hikâyesi"
     ],
     "paragraphs": [
       "Byteo, erken hasat ve soğuk sıkım tekniğiyle toprağın emeğini, ağacın gölgesini ve zeytinin özünü aynı şişede buluşturur.",
@@ -4644,7 +4583,8 @@
     ],
     "sourceUrls": [
       "https://www.byteo.com.tr/hakkimizda/",
-      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/"
+      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/",
+      "https://www.byteo.com.tr/zeytinyaginin-uluslararasi-basari-hikayesi/"
     ]
   },
   "270": {
@@ -4949,17 +4889,6 @@
       "https://www.kalebogazi.com/services-4"
     ]
   },
-  "285": {
-    "website": "https://www.ayvalik-zeytinyagi.com/",
-    "headings": [],
-    "paragraphs": [],
-    "images": [
-      "images/markalar/karadag-zeytincilik/karadag-zeytincilik-about-01.png"
-    ],
-    "sourceUrls": [
-      "https://www.ayvalik-zeytinyagi.com/"
-    ]
-  },
   "287": {
     "website": "https://www.kokluzeytincilik.com.tr/",
     "headings": [
@@ -5183,15 +5112,6 @@
       "https://www.onursel.com/2025/01/15/onursel-zeytincilikin-hikayesi-gelenekten-gelecege-bir-lezzet-yolculugu/"
     ]
   },
-  "296": {
-    "website": "https://www.orpir.com/rafine-pirina-yagi.html",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.orpir.com/rafine-pirina-yagi.html"
-    ]
-  },
   "297": {
     "website": "https://pidasus.com.tr/",
     "headings": [
@@ -5351,12 +5271,11 @@
       "SİZİN İÇİN"
     ],
     "paragraphs": [
-      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG"
     ],
     "images": [
       "images/markalar/ustali/ustali-about-01.jpg",
@@ -5439,20 +5358,21 @@
     ]
   },
   "309": {
-    "website": "https://zarbali.com/kategori/zarbali-zeytinyaglari",
+    "website": "https://zarbali.com/",
     "headings": [
-      "Bulunamadı",
-      "Aradığın her neyse bulamadık, ama sana bir ipucu verebiliriz ’t ?"
+      "Lezzeti Sofranıza Taşıyın",
+      "Doğadan Gelen Saflık",
+      "Doğal Fermantasyonla Hazırlanan Özel Sirkelerimizle Tanışın"
     ],
     "paragraphs": [
-      "Aradığın her neyse bulamadık, ama sana bir ipucu verebiliriz ’t ?",
-      "Burada bir şey bulamadık. Başka bir şey aramak istermisin?",
-      "Doğal, kaliteli ve gelenekten gelen ürünlerle sofralara sağlık ve güven taşımak.",
-      "Tüm ürünlerimizi katkısız, sürdürülebilir ve etik üretim anlayışıyla sunmak.",
-      "ZARBALI markasının temelleri, 1922 yılında Ayvalık’ta zeytin, zeytinyağı, sabun ve un üretimiyle başlayan bir aile mirasına dayanır. Bu mirasın sahibi, soyadı kanunuyla “Zarplı” adını alan Hulusi Bey’dir. Ürünlerini yurt genelinde pazarlayan Hulusi Zarplı, bölgenin en eski üreticilerinden biridir.",
-      "ZARBALI ailesi olarak, büyük dedemizden kalan asırlık zeytin ağaçlarımızın bakımından başlayarak; zeytinlerin oksidasyona uğramadan soğuk sıkım yöntemiyle işlenmesine ve hijyenik koşullarda ambalajlanmasına kadar her aşamada kaliteye büyük önem veriyoruz.",
-      "Hulusi Zarplı’nın Ayvalık Ticaret Odası sicil defterindeki kaydı, 1922 tarihli olup 8. sıradadır. Ayvalık’ın en eski ve tek altıgen bacalı fabrikasına sahip olan aile, ikinci fabrikayı 1956’da kurmuş, 1980’lerden sonra üretimini TARİŞ ortaklığıyla sürdürmüş ve toptan satışa yönelmiştir.",
-      "Bugün 4. kuşak temsilcimiz Gülden Sarıbaş, Galifo, Murateli ve Keremköy çevresindeki asırlık ağaçlardan elde edilen yüksek kaliteli zeytinyağlarını yeniden “ZARBALI” markasıyla tüketiciyle buluşturmakta, aileyi yeniden perakende sektörüyle buluşturmaktadır."
+      "Büyük dedemiz ZARBALI Hulusi Bey'den miras aldığımız Ayvalık bölgesindeki Galifo , Murateli ve Keremköy 'deki asırlık zeytin ağaçlarımızdan elde ettiğimiz yüksek kaliteli, soğuk sıkım zeytinyağlarımızı siz değerli müşterilerimize sunmaktan büyük bir mutluluk duymaktayız.",
+      "ZARBALI markası olarak şu ana kadar hiçbir yarışmaya özellikle katılmamış olup, ZARBALI isminin bizler için tüm ödüllerden önemli ve değerli olduğu bilinciyle sadece yarışmaya gönderilen numuneleri değil, tüm ürünlerimizi aynı kalite ve özenle üreterek siz kıymetli müşterilerimizin beğenisine sunmaktayız.",
+      "Asırlık ağaçlarımızdan özenle toplanan zeytinlerimizden , en son teknoloji ile hijyenik ortamda üretilen ve ambalajlanan ürünlerimizi siz müşterilerimize sunmaktan büyük bir mutluluk duymaktayız.",
+      "Tüketmeden önce mis gibi zeytin kokusunu içinize çekeceğiniz, nefaseti ile nadir çıkan zeytinyağlarımızın duyusal ve kimyasal analizleri yapılmış olup, Ayvalık bölgesi zeytinyağı olarak Ayvalık Coğrafi işareti almaya hak kazanmıştır.",
+      "Yemek ve salatalarınıza eşsiz bir lezzet katarken aynı zamanda bağışıklık sisteminizi güçlendirir, form tutmaniza yardımcı olur",
+      "Doğal Fermantasyonla Hazırlanan Özel Sirkelerimizle Tanışın",
+      "Zeytin Yaprağı, nar, goji berry, alıç, kızılcık, balzamik gibi farklı aromalara sahip sirkelerimiz, geleneksel yöntemlerle ve katkı maddesi kullanılmadan üretilir. Fermente süreci boyunca besin değerini koruyan bu doğal sirkeler; salatalarınıza lezzet, sofralarınıza sağlık katmak için hazır.",
+      "Doğal, kaliteli ve gelenekten gelen ürünlerle sofralara sağlık ve güven taşımak."
     ],
     "images": [
       "images/markalar/zarbali/zarbali-about-01.png",
@@ -5550,17 +5470,6 @@
     ],
     "sourceUrls": [
       "https://www.themill.com.tr/"
-    ]
-  },
-  "317": {
-    "website": "https://www.dinoayvalik.com",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.dinoayvalik.com/hakkimizda",
-      "https://www.dinoayvalik.com/hakkimizda/",
-      "https://www.dinoayvalik.com/about"
     ]
   },
   "318": {
@@ -5935,17 +5844,6 @@
       "https://www.orfion.com.tr/hakkimizda"
     ]
   },
-  "355": {
-    "website": "https://www.gulpinarzeytinyagi.com/",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.gulpinarzeytinyagi.com/hakkimizda",
-      "https://www.gulpinarzeytinyagi.com/hakkimizda/",
-      "https://www.gulpinarzeytinyagi.com/about"
-    ]
-  },
   "361": {
     "website": "https://www.izorya.com/",
     "headings": [
@@ -6160,18 +6058,41 @@
     ]
   },
   "385": {
-    "website": "",
+    "website": "https://www.alpoliva.com/",
     "headings": [],
     "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "images": [
+      "images/markalar/alpoliva/alpoliva-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.alpoliva.com/"
+    ]
   },
   "386": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://www.anityag.com.tr/",
+    "headings": [
+      "Zeytin Çeşitlerimiz",
+      "Naturel Birinci Zeytinyağı 1 Litre",
+      "Riviera Zeytinyağı 5 Litre",
+      "Pirina Çekirdeği"
+    ],
+    "paragraphs": [
+      "Edremit Körfezi'nin bereketli topraklarında yetişen zeytinlerimizden özenle elde ettiğimiz zeytinyağlarımız, sofralarınıza Akdeniz'in güneşini ve Ege'nin es",
+      "Edremit Körfez zeytinyağlarımız, zeytinlerimiz ve yüksek enerjili pirina çekirdeğimiz Türkiye'nin her köşesine ulaşarak sofralarınıza Ege esintisini taşıyor. Lezzet ve sağlığın buluştuğu zeytin & zeytinyağlarımızla siz de ailenizle birlikte Ege mutfağının tadını çıkarabilirsiniz.",
+      "Dilediğiniz Miktarda Toptan ve Parekende Satış Olarak Hizmet Vermekteyiz.",
+      "Tüm Soru, İstek ve Önerileriniz İçin Daima Hazır ve Çözüm Odaklı Müşteri Hizmetlerimiz İle Yanınızdayız.",
+      "Gazi, Ali Saim Kayaalp Blv. NO:66, 17600 Ezine/Çanakkale",
+      "Anıt Yağ olarak, yılların tecrübesi ve özverisiyle Türkiye'nin en kaliteli zeytin ve zeytinyağlarını üretmekteyiz. Kuruluşumuzdan bu yana, doğanın bize sunduğu en değerli armağanlardan biri olan zeytini, özenle işleyerek sofralarınıza taşıyoruz.",
+      "Anıt Yağ, geleneksel yöntemlerle modern teknolojiyi bir araya getirerek, zeytin ve zeytinyağı üretiminde kalite ve güvenin adı olmuştur. Kuruluşumuzdan itibaren, her bir zeytini büyük bir titizlikle işleyerek, en doğal ve lezzetli ürünleri sunmayı misyon edindik.",
+      "Misyonumuz, tüketicilerimize doğallığı ve tazeliği bozulmamış, yüksek kaliteli zeytin ve zeytinyağı sunmaktır. Üretim süreçlerimizin her aşamasında hijyen ve kalite standartlarına en üst düzeyde uyarak, doğanın bize verdiği bu değerli ürünü en saf haliyle sizlere ulaştırmayı hedefliyoruz."
+    ],
+    "images": [
+      "images/markalar/anit-yag/anit-yag-about-01.jpg",
+      "images/markalar/anit-yag/anit-yag-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://www.anityag.com.tr/hakk%C4%B1m%C4%B1zda"
+    ]
   },
   "387": {
     "website": "https://www.armutluzeytincilik.com/",
@@ -6279,39 +6200,107 @@
     ]
   },
   "391": {
-    "website": "",
+    "website": "https://www.durukaanoliveoil.com/",
     "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "paragraphs": [
+      "Internet Explorer tarayıcısının 9.0 ve daha eski sürümlerini desteklememekteyiz.",
+      "Web sitemizi doğru görüntüleyebilmek için tarayıcınızı güncelleyebilirsiniz,",
+      "Çanakkale’nin eşsiz doğasından gelen Geyikli zeytinyağlarımızla sizlere en kaliteli, sağlıklı ve doğal ürünleri sunmaktan gurur duyuyoruz. %0.3 asidite oranıyla ödüllü zeytinyağlarımız, titizlikle seçilen zeytinlerimizin ilk sıkımından elde edilmektedir. Hem zeytinyağımızda hem de doğal zeytinlerimizde kalite ve lezzet standartlarımızdan asla ödün vermiyoruz.",
+      "Yıllardır süregelen zeytincilik tecrübemizle, en iyi mahsulü en doğru yöntemlerle işleyerek sofralarınıza ulaştırıyoruz. Geyikli’nin bereketli topraklarında yetişen zeytinlerimiz, tamamen doğal yöntemlerle hasat edilip soğuk sıkım teknolojisi ile işlenerek zeytinyağının tüm faydalarını koruyor.",
+      "Müşteri memnuniyetini en ön planda tutan firmamız, sağlıklı yaşamı desteklemek için doğal ve katkısız ürünler sunmayı ilke edinmiştir. Zeytinyağlarımız, tadı ve kokusuyla hem gurmelerin hem de günlük sofraların vazgeçilmezi olmuştur.",
+      "Sizlere güvenilir, şeffaf ve doğaya saygılı bir üretim anlayışıyla en iyisini sunmaya devam ediyoruz. Lezzetin ve sağlığın buluştuğu zeytinyağlarımızı deneyimleyin, farkı hissedin!"
+    ],
+    "images": [
+      "images/markalar/durukaan/durukaan-about-01.jpg",
+      "images/markalar/durukaan/durukaan-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.durukaanoliveoil.com/hakkimizda"
+    ]
   },
   "392": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://egeonorte.com/",
+    "headings": [
+      "🍈 Bozcaada Zeytin Hasat Festivali",
+      "500ml Bozcaada İlk Hasat Organik Naturel Sızma Zeytinyağı",
+      "1L Arbequina Organik",
+      "5L Arbequina Organik",
+      "Hurma 250gr (Yaklaşık 3-4 adet)",
+      "Body Scrub Citrus Collection",
+      "Hand Body Lotion",
+      "Citrus Roll"
+    ],
+    "paragraphs": [
+      "500ml Bozcaada İlk Hasat Organik Naturel Sızma Zeytinyağı",
+      "Tamamen kendi hasatlarımızla üretilen ürünlerimizi güvenle tüketebilirsiniz.",
+      "Antioksidan deposu: kalbi korur, diyabet riskini azaltır, yaşlanmayı geciktirir.",
+      "Bebek ve insan cildi için uygundur, cildi besler, yeniler ve parlatır.",
+      "Yüksek polifenol ve E vitamini içerir, bebekler için besleyicidir.",
+      "Çiğ bademlerimiz magnezyum, E vitamini ve lif açısından zengindir.",
+      "Arbequina, İspanyol kökenli yüksek verim ve lezzet kalitesine sahip, sağlık konusundaki etkileri dünyaca kabul görmüş özel bir zeytin türüdür. Arbequina tozlayıcıya ihtiyacı yoktur, kendine verimlidir.",
+      "Zeytininin önemli hastalıklarından biri olan Verticillum’a en dayanıklı çeşitlerden biri olması da önemli özelliklerinden biridir."
+    ],
+    "images": [
+      "images/markalar/egeo-norte/egeo-norte-about-01.webp",
+      "images/markalar/egeo-norte/egeo-norte-about-02.webp"
+    ],
+    "sourceUrls": [
+      "https://egeonorte.com/pages/hakkimizda",
+      "https://egeonorte.com/pages/marka-hikayemiz"
+    ]
   },
   "393": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://femes.com.tr/",
+    "headings": [
+      "Femes - Naturel Sızma Zeytinyağı",
+      "Menü",
+      "İletişim",
+      "Hakkımızda"
+    ],
+    "paragraphs": [
+      "Zeytinyağlarımızı dilediğiniz ölçüde satın alarak sofralarınıza lezzet katabilirsiniz.",
+      "Geyikli ve Aydın'daki bahçelerimizden, Kasım ve Aralık başında özenle topladığımız zeytinlerimizi bekletmeden fabrikaya ulaştırdık. Hijyenik koşullarda, 20°C civarında soğuk sıkım yöntemiyle zeytinyağımızı ürettik.",
+      "Zeytinlerin doğal yapısında bulunan faydalı antioksidanlar ve bileşenler, özenli üretim sürecimiz sayesinde korunmuş ve zeytinyağımıza aktarılmıştır. Hiçbir katkı maddesi içermeyen tamamen doğal üretimimizle, zeytinin özündeki tüm besin değerlerini koruyarak mutfağınıza sağlık getiriyoruz.",
+      "Femes, Geyikli bölgesinin benzersiz ikliminde yetişen zeytin ağaçlarından elde edilen en kaliteli zeytinyağını, doğallık ve özenle sofralarınıza ulaştırmak için kuruldu.",
+      "Femes – Naturel Sızma Zeytinyağı © 2025 Tüm hakları saklıdır.",
+      "Bizler, 200 yılı aşkın çiftçilik geleneğinden gelen bir aileyiz. Nesiller boyunca tarımla uğraşarak bu köklü mirası koruduk ve sürdürdük. Bugün, dördüncü kuşak olarak Ege’nin en verimli topraklarından biri olan Geyikli bölgesinde zeytinyağı üretimine odaklanıyoruz. Femes markası, bu mirası geleceğe taşıma ve kaliteyi en üst seviyede sunma hedefimizin bir sonucu olarak doğdu.",
+      "Femes, Geyikli bölgesinin benzersiz ikliminde yetişen zeytin ağaçlarından elde edilen en kaliteli zeytinyağını, doğallık ve özenle sofralarınıza ulaştırmak için kuruldu. Markamızın temelinde, geçmişten gelen deneyim ve değerler ile modern üretim anlayışı birleşiyor. Hedefimiz, hem kalite standartlarından ödün vermeden üretim yapmak hem de ailemizin tarımsal geleneğini sürdürülebilir bir şekilde geleceğe taşımaktır.",
+      "Geyikli bölgesinin bereketli doğasından ilham alan Femes, her şişesinde bu toprakların zenginliğini, ailemizin emeğini ve üstün kaliteyi taşıyor. Sizlere, doğallığı, lezzeti ve güvenilir kaliteyi bir arada sunarak sofralarınızı güzelleştirmek için buradayız."
+    ],
+    "images": [
+      "images/markalar/femes/femes-about-01.jpg",
+      "images/markalar/femes/femes-about-02.webp"
+    ],
+    "sourceUrls": [
+      "https://femes.com.tr/hakkimizda/",
+      "https://femes.com.tr/hakkimizda"
+    ]
   },
   "394": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
-  "395": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://www.galiaolive.com.tr/",
+    "headings": [
+      "Bizimle WhatsApp Üzerinden İletişime Geçin",
+      "Fırsat Ürünleri",
+      "Ayın Fırsat Ürünleri",
+      "Günün Fırsat Ürünü",
+      "Zeytinyağı",
+      "Zeytin",
+      "Sabun",
+      "Sizin İçin Seçtiklerimiz"
+    ],
+    "paragraphs": [
+      "Canlı olarak konuşmaya başlamak için aşağıdaki butona tıklayın:",
+      "Mutfaklarınızın yıldızı olmaya aday Galia Natürel Sızma Zeytinyağı, \u00100 doğal, katkı maddesi ve koruyucu içermeyen, soğuk sıkım yöntemiyle elde edilen özel ve erken hasat bir üründür.",
+      "Biz kariyerlerinden kızları için vazgeçen 2 anne zeytinyağı sevdamızla yola çıktık, sofranıza gelen bu lezzet için çok çalıştık. Araştırdık, tecrübe kazandık, çok emek verdik ve her konuda titiz davrandık. Sonunda doğallığı, tadı ve kokusuyla mükemmel bir lezzet ortaya çıkardık. Biz bu lezzeti çok sevdik, sizlerin de seveceğinize ve güvenle tüketeceğinize eminiz. Galia Ailesi..",
+      "Çanakkale / Ezine (Kemahlı Köyü) – Geyikli yörelerindeki Dedelerimizden kalma yaklaşık 50 yıllık ağaçlarımızdan zeytinleri en doğru zamanda erken hasat olarak toplayarak soğuk sıkım yöntemiyle üretim yapıyoruz."
+    ],
+    "images": [
+      "images/markalar/galia-garden/galia-garden-about-01.jpg",
+      "images/markalar/galia-garden/galia-garden-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://www.galiaolive.com.tr/sayfa/hakkimizda-1"
+    ]
   },
   "396": {
     "website": "https://gungorelit.com/",
@@ -6336,26 +6325,26 @@
       "https://gungorelit.com/kurumsal/"
     ]
   },
-  "397": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
-  "398": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
   "399": {
-    "website": "",
+    "website": "https://heraliv.com.tr/",
     "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "paragraphs": [
+      "Doğallığını ve besin değerini koruyan, zeytinin saf lezzeti ilk günkü tazeliğinde.",
+      "Katkısız, doğadan geldiği gibi; sadece zeytin ve emeğin buluşması.",
+      "Dalından tam vaktinde toplanan zeytinlerle daha yoğun aroma, daha fazla sağlık.",
+      "Damakta yumuşak bir tat bırakan, hafif ve kaliteli lezzet.",
+      "Zeytinin özünden gelen, saflığıyla sofralarınıza şifa taşıyan altın sıvı.",
+      "Her damlasında doğanın kokusu; yeşil meyvemsi, çimen ve taze lezzet notaları.",
+      "Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred.",
+      "A client that's unhappy for a reason is a problem, a client that's unhappy though he or her can't quite put a finger on it is worse. Chances are there wasn't collaboration, communication, and checkpoints, wasn't."
+    ],
+    "images": [
+      "images/markalar/heraliv/heraliv-about-01.jpg",
+      "images/markalar/heraliv/heraliv-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://heraliv.com.tr/kurumsal/"
+    ]
   },
   "400": {
     "website": "https://www.iznikzeytinevi.com/",
@@ -6369,11 +6358,11 @@
       "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
       "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
       "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-      "SİPARİŞİNİ VERDİĞİM SELE VE İZNİK İRİ ZEYTİNİNİN LEZZETİ ÇOK GÜZEL.AYRICA ÜRÜNLER CAM KAVANOZ İÇERİSİNDE SAĞLAM BİR ŞEKİLDE TARAFIMIZA ULAŞTI.HEDİYE OLARAK GÖNDERDİĞİNİZ ELMA SİRKESİ DE ÇOK GÜZEL.ALIŞVERİŞTEN ÇOK MEMNUN KALDIM.İLGİNİZ VE HEDİYENİZ İÇİN ÇOK TEŞEKKÜR EDİYORUM GÖRÜŞMEK ÜZERE.",
-      "GELDİK,GÖRDÜK,TATTIK.BİNBİR EMEKLE HAZIRLADIĞINIZ ÜRÜNLERİNİZİ BÜYÜK KEYİF VE BEĞENİYLE TÜKETİYORUZ. İYİ Kİ VARSINIZ.DOSTLARIMIZA TAVSİYE EDERKEN MUTLUYUZ.BAŞARILARINIZ DAİM OLSUN.SAĞLICAKLA...",
+      "Arkadaşlar İznik zeytinevi benim şimdiye kadar tanıdığım ender ticareti hakkı ile yapan ve müşterisine kalite olarak güven veren parayı ikinci seviyede tutan Bir kurum tüm çalışanlarına teşekkür ederim Allah böyle dürüst insanları artırsın inşAllah",
+      "Dört senedir alışveriş yaptığım İznik Zeytin Evi yetkilileriyle birçok görüşmem oldu. Öncelikli amaçlarının %100 müşteri memnuniyeti olduğunu her vesile ile ispatladılar, hiçbir zaman ürünlerin kalitesini sorgulamak gerekmedi. Hem meslek gereği, hem de internetten sıklıkla alışveriş yapmaktan dolayı karşılaştığım sorunların hiç biriyle uğraşmadım.",
+      "Kendilerine çok teşekkür ediyorum. İnternet sitesini güncelledikleri taktirde daha kolay ve zevkli bir alışveriş imkanı geleceğine inanıyorum.",
       "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
-      "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
-      "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."
+      "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
     ],
     "images": [
       "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-about-02.jpg"
@@ -6432,18 +6421,61 @@
     ]
   },
   "403": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://kulahlizeytinyagi.com/",
+    "headings": [
+      "Hakkımızda",
+      "Külahlı Zeytinyağı",
+      "\"ANTİK KENTİN NEFES ALDIĞI TOPRAKLARDA\"",
+      "Nasıl Üretiyoruz?",
+      "Zeytinliğimizden Sofranıza Ürünlerimiz",
+      "Zeytinyağının en iyisi...​",
+      "NATUREL SIZMA ZEYTİNYAĞI ERKEN HASAT 500 ML",
+      "ERKEN HASAT – SOĞUK SIKIM – NATUREL SIZMA ZEYTİNYAĞI 500 ML"
+    ],
+    "paragraphs": [
+      "ERKEN HASAT – SOĞUK SIKIM – NATUREL SIZMA ZEYTİNYAĞI 500 ML",
+      "Filtre Edilmemiş Yeni Mahsul Soğuk Sıkım Erken Hasat Natürel Sızma Zeytinyağı 5 lt 2025-2026",
+      "Filtre Edilmemiş Yeni Mahsul Natürel Birinci Zeytinyağı 5 lt 2025-2026",
+      "Milattan önce 400 senesinde Hipokrat altmıştan fazla ilaç karışımında zeytinyağı kullanıyordu. Hipokratın Yaşam İksiri Zeytinyağı, her derde devadır yüzyıllardır bizim buralarda da.",
+      "Zeytinin ve zeytinyağının kıymetini bilerek büyüyen bir aile işletmesiyiz biz ve gelecek nesillere en önemli mirasımız zeytin ve zeytinyağını tanıtmak, kıymetini anlatmak olacaktır."
+    ],
+    "images": [
+      "images/markalar/kulahli-zeytinyagi/kulahli-zeytinyagi-about-01.png",
+      "images/markalar/kulahli-zeytinyagi/kulahli-zeytinyagi-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://kulahlizeytinyagi.com/hakkimizda/"
+    ]
   },
   "404": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://levifarm.com/",
+    "headings": [
+      "HISTORY AND TRADITION",
+      "THE BEST INGREDIENTS",
+      "MEET OUR",
+      "LEARN ABOUT OUR",
+      "The Story and Philosophy of Our Olive Oil",
+      "Our Production Principles",
+      "Our Award-Winning Olive Oils",
+      "OUR QUALITY AWARDS"
+    ],
+    "paragraphs": [
+      "My grandfather, whose name I carry with pride, is one of the first industrialists of Turkey who founded the Beybi Glove factory in 1949. You cannot imagine how surprised we were when my innovative and nature-loving grandfather said “we will produce walnuts” at the age of 89. As a family, we were proud of our industrialist identity, but we did not understand farming at all.",
+      "We carefully harvest our olives from the most fertile soils, bringing them to your table without any chemical processing.",
+      "With the cold-pressing method, the natural aroma and nutritional value of the olives are perfectly preserved.",
+      "We bottle pure olive oil without using any additives. Choose what's natural!",
+      "With eco-friendly production methods, we protect the environment while offering you the purest oil.",
+      "Founded with the mission of providing access to healthy food for all, YMRT Farm aims to promote balanced nutrition, ensure food safety, and deliver organic products to your table.",
+      "Come to Casa Kilyos and discover the tranquility of nature. Refresh yourself in this unique setting embraced by greenery. A nature-filled experience awaits you!",
+      "Experience the flavors crafted by our expert chefs using the organic products we grow ourselves. Enjoy a natural experience by savoring fresh and healthy dishes in our restaurant."
+    ],
+    "images": [
+      "images/markalar/levi-farm/levi-farm-about-01.png",
+      "images/markalar/levi-farm/levi-farm-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://levifarm.com/about/"
+    ]
   },
   "405": {
     "website": "https://malhunhatun.com/",
@@ -6554,17 +6586,6 @@
       "https://www.miryag.com/hakkimizda"
     ]
   },
-  "409": {
-    "website": "https://www.naifoliveoil.com/",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": [
-      "https://www.naifoliveoil.com/hakkimizda",
-      "https://www.naifoliveoil.com/hakkimizda/",
-      "https://www.naifoliveoil.com/about"
-    ]
-  },
   "410": {
     "website": "https://www.namlizeytinleri.com/",
     "headings": [
@@ -6596,18 +6617,60 @@
     ]
   },
   "412": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://ninurta.com.tr/",
+    "headings": [
+      "Hızlı Menü",
+      "Politikalar",
+      "İletişim Bilgileri"
+    ],
+    "paragraphs": [
+      "Bu ürünün birden fazla varyasyonu var. Seçenekler ürün sayfasından seçilebilir",
+      "Kadim Troia (İlium) ve Alexandreia Troas şehirlerinin arasında, bugün Çanakkale’nin Ezine-Geyikli bölgesinde, kuşaklar boyu süregelen geleneksel zeytinyağı üretimi yapılmaktadır. Yüzlerce yıldır dikilen zeytin ağaçları, bu bölgenin kadim insanıyla birleşerek Kuzey Ege’nin oksijen yuvasında; tatlı esintileri, Kaz Dağları’ndan gelen şifalı sular ve bereketli topraklarla hayat bulmuştur.",
+      "Doğal ve özgün coğrafi koşullarda yetişen zeytinler, elle ve son teknoloji hasat makinaları ile toplanarak erken hasat ve yarı olgun dönemlerinde, bekletilmeden aynı gün soğuk sıkım yöntemiyle ustalıkla ve özenle işlenmektedir. Kimyasal işlem görmeyen, taze sıkılmış zeytinlerin meyvemsi aromasıyla, bahçemizden damaklarınıza büyülü bir şifa sunar",
+      "Ninurta olarak, geleceğin yenilikçi ESG çözümleriyle iyiliği bir değer olarak tasarlıyor ve sürdürülebilirliği yaşamın merkezine yerleştiriyoruz.",
+      "Çünkü biz, ağaç dikmenin yalnızca zeytinyağı üretmek değil, geleceği şekillendirmek ve topluma ilham vermek olduğuna inanıyoruz.",
+      "Bu yaklaşım, çevremizi korumanın ötesinde, insanlığı derin bir ruhsal dönüşümle buluşturma gücüne sahiptir.",
+      "Şişesinde bir kültürün adı saklı. Size özel bu kültürün sınırlarını keşfetmeye hazır mısınız?",
+      "Dünyanın zeytinyağı konusunda en köklü ve prestijli markalarının yarıştığı EVOO World Ranking platformunda, 12 farklı ülkede gerçekleşen yarışmalardan toplam 82 ödülle dönerek olağanüstü bir başarıya imza attık. Bu etkileyici performansın sonucunda Ninurta, dünya genelinde en iyi 6. zeytinyağı markası olarak seçilmiş ve uluslararası arenada elit üreticiler arasında gösterilmiştir."
+    ],
+    "images": [
+      "images/markalar/ninurta/ninurta-about-01.png",
+      "images/markalar/ninurta/ninurta-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://ninurta.com.tr/hakkimizda/",
+      "https://ninurta.com.tr/zeytinyaginin-yolculugu/"
+    ]
   },
   "413": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://odesaolive.com/",
+    "headings": [
+      "Gerçek",
+      "Zeytinyağı Lezzetini",
+      "Keşfet",
+      "En İyi Zeytinler",
+      "En Yüksek Kaliteyle",
+      "Doğallıkla Arın",
+      "Zeytinyağıyla Yenilen",
+      "RAMAZAN AYINA ÖZEL KAMPANYA"
+    ],
+    "paragraphs": [
+      "Memecik – Erken Hasat Natürel Sızma Zeytinyağı – 5L Teneke",
+      "Odesa Olive olarak doğallığı, kaliteyi ve Ege'nin bereketini sizlere sunmak için yola çıktık. Kuzey Ege’nin zengin topraklarında kök salmış bir gelenekle, her damlada özen taşıyoruz.",
+      "Soğuk sıkım yöntemiyle elde edilen natürel sızma zeytinyağlarımız, en olgun zeytinlerin titizlikle toplanmasıyla üretilir. Doğallığını ve lezzetini ilk günkü gibi korur.",
+      "Hasattan şişelemeye kadar her aşamada doğaya ve kaliteye sadık kalıyoruz. Sürdürülebilirlik ilkemiz, her şişede Kuzey Ege’nin özünü yansıtıyor.",
+      "Gelenekten aldığımız ilhamla, modern tarım tekniklerini birleştiriyoruz.",
+      "Yerel üretim, katkısız içerik. Doğaya en yakın haliyle, sofranıza.",
+      "Özenle seçilen ürünlerimiz, geleneksel yöntemlerle hazırlanır. Her biri doğallığın bir temsilcisidir.",
+      "Doğru zamanda hasat, doğru koşullarda üretim. Her zaman taze, her zaman doğal."
+    ],
+    "images": [
+      "images/markalar/odesa/odesa-about-01.jpg",
+      "images/markalar/odesa/odesa-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://odesaolive.com/hakkimizda/"
+    ]
   },
   "414": {
     "website": "https://www.okayzeytinleri.com/",
@@ -6638,18 +6701,51 @@
     ]
   },
   "415": {
-    "website": "",
+    "website": "https://www.herbafarm.com.tr/oliova",
     "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "paragraphs": [
+      "2025-2026 dönem, Eylül ayı hasadımızdan elde ettiğimiz zeytinyağımız sofralarla buluşuyor!",
+      "Şifalı Bitkilerden Zengin Doğanın İçinde Huzurlu Bir Ortam",
+      "HerbaFarm, 2006 yılında, Türkiye’nin Muğla ili Bodrum ilçesi, Yalıkavak – Gökçebel dağlarında 17 dönümlük, doğal yapısı bozulmamış, ekolojik çeşitlilik açısından zengin bir arazide Fitoterapi Uzmanı Eczacı Meltem Kurtsan tarafından kurulmuştur.",
+      "Bodrum'un el değmemiş ormanları içindeki ekolojik çiftliğimizde yer alan cafemizde, organik bostanımızdan hazırladığımız sağlıklı yiyecekler ile keyifli ve huzurlu vakit geçirebilirsiniz.",
+      "Şifalı Bitkiler Bahçemizin tam ortasındaki ekolojik konukevimizde kuş cıvıltıları ile uyanacağınız, tertemiz orman havasını soluyabileceğiniz, hamakta sallanarak huzur bulabileceğiniz bir tatil yapmak mümkün.",
+      "Ormanların içinde kendiliğinden yetişen ve farklı coğrafyalardan eklediğimiz binbir çeşit bitkiyi inceleyeceğiniz ve şifa bulacağınız bahçemiz sizleri bekliyor.",
+      "HerbaFarm, 2006 yılında, Türkiye’nin Muğla ili Bodrum ilçesi, Yalıkavak – Gökçebel dağlarında 17 dönümlük, doğal yapısı bozulmamış, ekolojik çeşitlilik açısından zengin bir arazide",
+      "Arazideki yapılar, Avusturyalı Mimar Georg Driendl ve Mimar And Akman tarafından projelendirilerek Yapı Biyolojisi Enstitüsü gözetiminde, ekolojik yapı ve permakültür prensiplerine uygun olarak doğal malzemeler ile inşa edilmiştir."
+    ],
+    "images": [
+      "images/markalar/oliova/oliova-about-01.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.herbafarm.com.tr/about-herbafarm",
+      "https://www.herbafarm.com.tr/hakkimizda"
+    ]
   },
   "416": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://olivatroas.com/",
+    "headings": [
+      "Sızma Zeytinyağı 1 Litre",
+      "Sızma Zeytinyağı 2 Litre",
+      "Sızma Zeytinyağı 5 Litre",
+      "Inactive"
+    ],
+    "paragraphs": [
+      "Geçmişten aldığımız güçle, doğaya duyduğu saygıyı geleceğe taşımaya devam ediyoruz.",
+      "Alexandria Troas’ın eşsiz topraklarından elde edilen zeytinler, Olivatroas Natürel Sızma Zeytinyağı’na dönüşür.",
+      "Olivatroas, doğaya duyulan saygı ve sürdürülebilirlik ilkesiyle, geçmişin mirasını geleceğe taşıyan bir markadır.",
+      "Sofralarınıza saflık ve lezzet sunarken, her damlada bu tarihi yolculuğun izlerini hissedeceksiniz.",
+      "Olivatroas olarak, Ege’nin bereketli topraklarından ilham alarak tarihin ve lezzetin izlerini taşıyan ürünler sunuyoruz.",
+      "Natürel sızma ve birinci zeytinyağlarımız, Alexandria Troas’ın zengin topraklarından gelen zeytinlerin işlenmesiyle elde edilir ve saflığıyla sofralarınıza eşsiz bir tat katar. Özenle seçilen yeşil ve siyah zeytinlerimiz, doğal yöntemlerle işlenerek sofralarınıza lezzet ve doğallık getirir.",
+      "Geleneksel tariflerle üretilen zeytinyağlı sabunlarımız ise zeytinyağının doğal bakım gücünü cildinizle buluşturur. Ayrıca, zeytin işleme sürecinden elde edilen pirinamız, doğaya duyduğumuz saygının bir yansıması olarak doğal bir enerji kaynağı sunar.",
+      "Olivatroas, her ürününde doğallığı, kaliteyi ve sürdürülebilirliği bir araya getirerek, geçmişin mirasını geleceğe taşımaya devam ediyor."
+    ],
+    "images": [
+      "images/markalar/oliva-troas/oliva-troas-about-01.png",
+      "images/markalar/oliva-troas/oliva-troas-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://olivatroas.com/hakkimizda"
+    ]
   },
   "417": {
     "website": "https://olivogue.com.tr/",
@@ -6707,13 +6803,6 @@
       "https://orhangazizeytin.com.tr/hakkimizda/"
     ]
   },
-  "419": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
   "420": {
     "website": "https://kiaraolive.com/",
     "headings": [
@@ -6755,47 +6844,30 @@
       "https://www.semizzeytin.com/sayfa/hakkimizda#magazalarimiz"
     ]
   },
-  "422": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
-  "423": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
-  "424": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
   "425": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
-  "426": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
-  },
-  "427": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://www.ugurluzeytinyaglari.com/",
+    "headings": [
+      "Kurumsal",
+      "Hızlı İşlemler",
+      "Sözleşmeler"
+    ],
+    "paragraphs": [
+      "Internet Explorer tarayıcısının 9.0 ve daha eski sürümlerini desteklememekteyiz.",
+      "Web sitemizi doğru görüntüleyebilmek için tarayıcınızı güncelleyebilirsiniz,",
+      "Kaz Dağları bölgesinden elde edilen zeytinyağları, sahip oldukları kalite özellikleriyle, hem yurt içinde hem yurt dışında haklı bir üne sahiptir. Yörenin hâkim zeytin çeşidinin yağ oranı çok yüksektir. Çeşit özelliklerinin yanı sıra, yörenin coğrafi konumunun, toprak yapısının ve esen hâkim rüzgârların, burada üretilen zeytinyağının kalite özelliklerine doğrudan etkisi vardır.",
+      "Bölge'nin zeytinyağını farklı kılan etmen, toprağın mineral yapısının klorofil ile buluşan elverişli fotosentezi, Ege Denizi ve Kaz Dağları ile yaratılan hava akımları ile arasındaki olgunlaşma devresi sırasında kıvam yoğunluğunu mümkün kılan 5-6 derecelik ısının don ve kırağıyı önlemesi burada üretilen zeytinyağının kalitesine doğrudan etki etki eden faktörlerdir.",
+      "Bölge faktörleri nedeniyle zeytinyağında ortalama 1 yıl olan dayanıklılık süresi bu yörenin yağlarında 18-24 aya çıkar.",
+      "Bu bölgenin düşük asitli ve kendine has güzel kokulu zeytinyağları, farklı bir aromaya sahiptir. Bölge zeytinlerinin zengin organoleptik yapısı yüzyıllardır bilinmektedir. Zeytinyağını kokladığınızda taze biçilmiş çimen, yeşil elma, domatesin sapındaki yeşil dal kokularını alabilirsiniz. Dünya da en kaliteli zeytinyağlarının üretildiği Kaz Dağları etekleri ülkemizin göz bebeğidir.",
+      "Dünyanın en kaliteli ve lezzetli zeytinyağının üretildiği kuzey Kaz Dağları bölgesinde bütün bölge tarım arazisinin %90'ı zeytinliktir. Yörede zeytinyağı, hem geleneksel yöntemlerden olan Taş Baskı yöntemi hem de Modern yöntemler ile kimyasal katkı maddeleri kullanılmadan elde edilmektedir.",
+      "KAZDAĞLARI 1915 UĞURLU ZEYTİNYAĞLARI olarak önceliğimiz;"
+    ],
+    "images": [
+      "images/markalar/ugurlu-zeytinyaglari/ugurlu-zeytinyaglari-about-01.jpg",
+      "images/markalar/ugurlu-zeytinyaglari/ugurlu-zeytinyaglari-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.ugurluzeytinyaglari.com/hakkimizda"
+    ]
   },
   "428": {
     "website": "https://www.yesiliris.com/",
@@ -6850,11 +6922,34 @@
     ]
   },
   "430": {
-    "website": "",
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://zelenaolive.com/",
+    "headings": [
+      "ÇOK SATANLAR",
+      "Zelena Olive",
+      "Natürel Sızma Zeytinyağı 5LT",
+      "Premium Erken Hasat Natürel Sızma Zeytinyağı 2000 ML",
+      "Premium Erken Hasat Natürel Sızma Zeytinyağı 5000 ML",
+      "Premium Erken Hasat Natürel Sızma Zeytinyağı 750 ML",
+      "Doğal Salamura Ayvalık Yeşil Çizik Zeytin 500 gr",
+      "Doğal Ayvalık Yeşil Kırma Zeytin 500gr"
+    ],
+    "paragraphs": [
+      "Natürel Sızma Erken Hasat Soğuk Sıkım Anne-Bebek Zeytinyağı 500 ML +6 Ay",
+      "Yeni Sezon Erken Hasat Natürel Sızma Zeytinyağı 2LT 2'li",
+      "Natürel Sızma Erken Hasat Soğuk Sıkım Anne-Bebek Zeytinyağı 250 ML +6 Ay",
+      "Gerçek Zeytinyağı Nasıl Anlaşılır? Evde Deneyebileceğiniz 5 Güvenilir Test",
+      "Gerçek zeytinyağı nasıl anlaşılır? Evde donma, koku, tat, ışık ve etiket testleriyle sahte ya da karışım zeytinyağını ayırt etmenin 5 etkili yolu.",
+      "Zeytinyağı, mutfakların vazgeçilmez lezzetlerinden biridir ve özellikle natürel sızma zeytinyağı, hem sağlıklı hem de aromatik yapısıyla öne çıkar.",
+      "Soğuk sıkım, zeytinyağının üretim sürecinde kullanılan bir yöntemdir ve genellikle yüksek kaliteyle ilişkilendirilir",
+      "ADRES: Cumhuriyet Mah. Çanakkale Cad. No:102 Geyikli/Ezine/Çanakkale - 17610"
+    ],
+    "images": [
+      "images/markalar/zelena/zelena-about-01.webp",
+      "images/markalar/zelena/zelena-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://zelenaolive.com/pages/hakkimizda"
+    ]
   },
   "431": {
     "website": "https://zeyertirilye.com/",

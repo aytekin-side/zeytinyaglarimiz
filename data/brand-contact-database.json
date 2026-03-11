@@ -355,16 +355,22 @@
       "Olivos Aphrodite’s Secret %100 Zeytinyağlı El Yapımı Katı Sabun, Premium Kutulu, 2×100 g"
     ],
     "phones": [
-      "+90 536 743 52 94"
+      "+90 536 743 52 94",
+      "+90 236 332 50 32",
+      "+90 236 332 50 33",
+      "+90 236 332 50 40"
     ],
     "emails": [
-      "info@olivos.com.tr"
+      "info@olivos.com.tr",
+      "olivos@olivos.com.tr",
+      "olivospazarlamaltd@hs02.kep.tr"
     ],
     "whatsapp": [
       "+90 536 743 52 94"
     ],
     "sourceUrls": [
-      "https://www.olivos.com.tr/"
+      "https://www.olivos.com.tr/",
+      "https://www.olivos.com.tr/iletisim"
     ]
   },
   "31": {
@@ -2453,8 +2459,8 @@
   "149": {
     "website": "https://www.halilesen.com/",
     "addresses": [
-      "Zeytinyağının sağlık, hastalıklarla mücadele, saç ve cilt faydaları gibi yüz...",
-      "Zeytinli Mahallesi, Mustafa Kemal Bulvarı No:37"
+      "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (2 KG)",
+      "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (1,5 KG)"
     ],
     "phones": [
       "+90 537 701 00 10",
@@ -2604,14 +2610,6 @@
       "https://www.olivamalia.com/iletisim"
     ]
   },
-  "158": {
-    "website": "https://www.merayzeytincilik.com.tr/",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "159": {
     "website": "https://www.tuay.com.tr/",
     "addresses": [
@@ -2634,14 +2632,6 @@
       "https://www.tuay.com.tr/iletisim",
       "https://tuay.com.tr/index.php?route=information/contact"
     ]
-  },
-  "160": {
-    "website": "https://www.trueolive.com/",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
   },
   "161": {
     "website": "https://www.baktat.com.tr/",
@@ -3156,14 +3146,6 @@
       "https://bukem.com.tr/index.php?route=information/contact"
     ]
   },
-  "216": {
-    "website": "https://www.samandagkadinkooperatifi.com",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "218": {
     "website": "https://www.nidazeytin.com/",
     "addresses": [
@@ -3319,20 +3301,41 @@
     ]
   },
   "238": {
-    "website": "https://www.ozkoyum.com.tr",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "website": "https://www.ozkoyum.com/",
+    "addresses": [
+      "Mahkeme Mah. Yunak Cad. No:8 Burhaniye / Balıkesir",
+      "Yalı Mevkii Kordon Cad. Pelitköy Sahili Burhaniye / Balıkesir"
+    ],
+    "phones": [
+      "+90 266 412 59 69",
+      "+90 530 263 98 96"
+    ],
+    "emails": [
+      "bilgi@ozkoyum.com"
+    ],
+    "whatsapp": [
+      "+90 530 263 98 96"
+    ],
+    "sourceUrls": [
+      "https://www.ozkoyum.com/",
+      "https://www.ozkoyum.com/hakkimizda",
+      "https://www.ozkoyum.com/iletisim"
+    ]
   },
   "241": {
-    "website": "https://www.zeytiniskelesi.com",
-    "addresses": [],
+    "website": "https://shop.zeytiniskelesi.com/",
+    "addresses": [
+      "Akhisar OSB 5.Cadde No:5 Akhisar/Manisa 45230"
+    ],
     "phones": [],
-    "emails": [],
+    "emails": [
+      "bilgi@zeytiniskelesi.com",
+      "alhatoglu@alhatoglu.com.tr"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://shop.zeytiniskelesi.com/pages/iletisim"
+    ]
   },
   "242": {
     "website": "https://www.kavlak.com.tr/",
@@ -3401,25 +3404,11 @@
   },
   "246": {
     "website": "https://www.orkide.com/",
-    "addresses": [
-      "1979 yılından bugüne sürdürülebilir büyüme kaydeden Orkide, günümüzde ülkemizin önde gelen bitkisel sıvı yağ üreticilerinden biridir. Ülkemizde hane tüketiminde ön sıralarda yer alan Orkide, yaygın ihracat ağıyla 100'e yakın ülkeye gerçekleştirdiği ihracat ile ülke ekonomisine katkı sunmaktadır.",
-      "Ankara Cad. No: 102, Bornova, İzmir"
-    ],
-    "phones": [
-      "+90 850 833 02 42",
-      "+90 216 988 16 04",
-      "+90 232 388 25 57",
-      "+90 232 388 37 92"
-    ],
+    "addresses": [],
+    "phones": [],
     "emails": [],
     "whatsapp": [],
-    "sourceUrls": [
-      "https://www.orkide.com/",
-      "https://www.orkide.com/6-kurumsal/",
-      "https://www.orkide.com/6-kurumsal/244-hakkimizda/",
-      "https://www.orkide.com/6-kurumsal/247-uretim-tesislerimiz/",
-      "https://www.orkide.com/8-iletisim/"
-    ]
+    "sourceUrls": []
   },
   "252": {
     "website": "https://www.olin.com.tr/",
@@ -3492,21 +3481,6 @@
       "https://www.yerlim.com/sayfa/hakkimizda",
       "https://www.yerlim.com/iletisim",
       "https://www.yerlim.com/iletisim-formu"
-    ]
-  },
-  "260": {
-    "website": "https://zeytinhanim.com/",
-    "addresses": [
-      "“SEO ve içerik stratejisiyle lead’ler 3 ayda 2 katına çıktı.”",
-      "İzmir, TR"
-    ],
-    "phones": [
-      "+90 212 395 90 39"
-    ],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": [
-      "https://zeytinhanim.com/"
     ]
   },
   "262": {
@@ -3593,14 +3567,6 @@
       "https://www.ayvada.com.tr/iletisim-formu"
     ]
   },
-  "266": {
-    "website": "https://www.instagram.com/ayvalikhan/",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "268": {
     "website": "https://www.birellerzeytin.com/",
     "addresses": [
@@ -3624,8 +3590,12 @@
   },
   "269": {
     "website": "https://www.byteo.com.tr/",
-    "addresses": [],
-    "phones": [],
+    "addresses": [
+      "Zeytinli Mah. 559 Sokak No:6 Edremit Balıkesir"
+    ],
+    "phones": [
+      "+90 532 270 21 51"
+    ],
     "emails": [
       "info@byteo.com.tr"
     ],
@@ -3635,7 +3605,9 @@
     "sourceUrls": [
       "https://www.byteo.com.tr/",
       "https://www.byteo.com.tr/hakkimizda/",
-      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/"
+      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/",
+      "https://www.byteo.com.tr/zeytinyaginin-uluslararasi-basari-hikayesi/",
+      "https://www.byteo.com.tr/iletisim/"
     ]
   },
   "270": {
@@ -3924,14 +3896,6 @@
       "https://www.kalebogazi.com/ma%C4%9Faza"
     ]
   },
-  "285": {
-    "website": "https://www.ayvalik-zeytinyagi.com/",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "287": {
     "website": "https://www.kokluzeytincilik.com.tr/",
     "addresses": [
@@ -4117,14 +4081,6 @@
       "https://www.onursel.com/2025/01/15/onursel-zeytincilikin-hikayesi-gelenekten-gelecege-bir-lezzet-yolculugu/",
       "https://www.onursel.com/iletisim/"
     ]
-  },
-  "296": {
-    "website": "https://www.orpir.com/rafine-pirina-yagi.html",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
   },
   "297": {
     "website": "https://pidasus.com.tr/",
@@ -4334,7 +4290,7 @@
     ]
   },
   "309": {
-    "website": "https://zarbali.com/kategori/zarbali-zeytinyaglari",
+    "website": "https://zarbali.com/",
     "addresses": [
       "Hulusi Zarplı sadece sanayici değil, aynı zamanda Kuvâ-yi Milliye’nin önemli isimlerinden ve TBMM 2. dönem milletvekilidir. Ayvalık’a yaptığı katkılar arasında, babasının adını verdiği",
       "Namık Kemal Mah."
@@ -4350,7 +4306,7 @@
       "+90 530 601 18 08"
     ],
     "sourceUrls": [
-      "https://zarbali.com/kategori/zarbali-zeytinyaglari",
+      "https://zarbali.com/",
       "https://zarbali.com/hakkimizda/",
       "https://zarbali.com/iletisim/",
       "https://zarbali.com/urunlerimiz/"
@@ -4458,14 +4414,6 @@
       "https://www.themill.com.tr/",
       "https://www.themill.com.tr/tr-iletisim/"
     ]
-  },
-  "317": {
-    "website": "https://www.dinoayvalik.com",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
   },
   "318": {
     "website": "https://hicoliveoil.com/",
@@ -4809,14 +4757,6 @@
       "https://www.orfion.com.tr/contact"
     ]
   },
-  "355": {
-    "website": "https://www.gulpinarzeytinyagi.com/",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "361": {
     "website": "https://www.izorya.com/",
     "addresses": [],
@@ -4974,20 +4914,48 @@
     ]
   },
   "385": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "website": "https://www.alpoliva.com/",
+    "addresses": [
+      "Hamidiye Mahallesi Damla Sokak No: 5 B Blok D:2 Kepez / Çanakkale",
+      "Sözleşmeden doğacak uyuşmazlıklarda mahkeme, icra dairesi, hakem heyeti gibi resmi kurum ve kuruluşlara karşı her türlü dava, cevap ve itiraz hakkının kullanılması amacıyla kimlik, iletişim, fatura, alışveriş bilgilerinizi,"
+    ],
+    "phones": [
+      "+90 544 351 10 95",
+      "+90 542 351 10 95",
+      "+90 193 423 92 07"
+    ],
+    "emails": [
+      "alpolivaa@gmail.com",
+      "gozde.korkmaz@hs03.kep.tr"
+    ],
+    "whatsapp": [
+      "95423511095"
+    ],
+    "sourceUrls": [
+      "https://www.alpoliva.com/",
+      "https://www.alpoliva.com/iletisim",
+      "https://www.alpoliva.com/iletisim-formu"
+    ]
   },
   "386": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://www.anityag.com.tr/",
+    "addresses": [
+      "Gazi, Ali Saim Kayaalp Blv. NO:66, 17600 Ezine/Çanakkale",
+      "Gazi, Ali Saim Kayaalp Blv. NO:66/1, 17600 Ezine/Çanakkale"
+    ],
+    "phones": [
+      "+90 286 618 36 19",
+      "+90 543 618 36 19"
+    ],
+    "emails": [
+      "info@anityag.com.tr"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://www.anityag.com.tr/",
+      "https://www.anityag.com.tr/hakk%C4%B1m%C4%B1zda",
+      "https://www.anityag.com.tr/bize-ula%C5%9F%C4%B1n"
+    ]
   },
   "387": {
     "website": "https://www.armutluzeytincilik.com/",
@@ -5071,44 +5039,87 @@
     ]
   },
   "391": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
+    "website": "https://www.durukaanoliveoil.com/",
+    "addresses": [
+      "Cumhuriyet Mah. Üçüncü SK. NO:25 Geyikli Belediyesi/Ezine/Çanakkale, Çanakkale, Ezine, 17600, TR",
+      "Yıllardır süregelen zeytincilik tecrübemizle, en iyi mahsulü en doğru yöntemlerle işleyerek sofralarınıza ulaştırıyoruz. Geyikli’nin bereketli topraklarında yetişen zeytinlerimiz, tamamen doğal yöntemlerle hasat edilip soğuk sıkım teknolojisi ile işlenerek zeytinyağının tüm faydalarını koruyor."
+    ],
+    "phones": [
+      "+90 549 173 20 05"
+    ],
     "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "whatsapp": [
+      "+90 549 173 20 05"
+    ],
+    "sourceUrls": [
+      "https://www.durukaanoliveoil.com/",
+      "https://www.durukaanoliveoil.com/hakkimizda",
+      "https://www.durukaanoliveoil.com/Iletisim"
+    ]
   },
   "392": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
+    "website": "https://egeonorte.com/",
+    "addresses": [
+      "Küme Evler No: 59 17680",
+      "Bozcaada halkından özenle seçilerek istihdam edilen 50 kadın çalışanımızla çıktığımız yolda, zeytinler tek tek seçilerek soğuk sıkım tekniği ile saf ve katkısız yüksek kalite zeytinyağları elde edilir."
+    ],
+    "phones": [
+      "+90 552 035 08 85",
+      "+90 533 169 08 12"
+    ],
     "emails": [],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://egeonorte.com/",
+      "https://egeonorte.com/pages/hakkimizda",
+      "https://egeonorte.com/pages/marka-hikayemiz",
+      "https://egeonorte.com/pages/iletisim"
+    ]
   },
   "393": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://femes.com.tr/",
+    "addresses": [
+      "Sadece anonim istatistiksel amaçlar için kullanılan teknik depolama veya erişim. Mahkeme celbi, İnternet Hizmet Sağlayıcınızın gönüllü uyumu veya üçüncü bir taraftan ek kayıtlar olmadan, yalnızca bu amaçla saklanan veya alınan bilgiler genellikle kimliğinizi belirlemek için kullanılamaz.",
+      "Küçükbakkalköy mah. Derman sokak Manolya apt. No:7/B Dr. 2 Atasehir-İstanbul"
+    ],
+    "phones": [
+      "+90%20541%20732%2031%2070",
+      "+90 541 732 31 70"
+    ],
+    "emails": [
+      "info@femes.com.tr"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://femes.com.tr/",
+      "https://femes.com.tr/hakkimizda/",
+      "https://femes.com.tr/hakkimizda",
+      "https://femes.com.tr/iletisim/",
+      "https://femes.com.tr/iletisim",
+      "https://femes.com.tr/urunler/"
+    ]
   },
   "394": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
-  "395": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "website": "https://www.galiaolive.com.tr/",
+    "addresses": [
+      "Mutfaklarınızın yıldızı olmaya aday Galia Natürel Sızma Zeytinyağı, \u00100 doğal, katkı maddesi ve koruyucu içermeyen, soğuk sıkım yöntemiyle elde edilen özel ve erken hasat bir üründür.",
+      "Çanakkale / Ezine (Kemahlı Köyü) – Geyikli yörelerindeki Dedelerimizden kalma yaklaşık 50 yıllık ağaçlarımızdan zeytinleri en doğru zamanda erken hasat olarak toplayarak soğuk sıkım yöntemiyle üretim yapıyoruz."
+    ],
+    "phones": [
+      "+90 532 501 51 97",
+      "+90 286 638 52 52"
+    ],
+    "emails": [
+      "bilgi@galiaolive.com.tr"
+    ],
+    "whatsapp": [
+      "+90 532 501 51 97"
+    ],
+    "sourceUrls": [
+      "https://www.galiaolive.com.tr/",
+      "https://www.galiaolive.com.tr/sayfa/hakkimizda-1",
+      "https://www.galiaolive.com.tr/iletisim/"
+    ]
   },
   "396": {
     "website": "https://gungorelit.com/",
@@ -5128,35 +5139,30 @@
       "https://gungorelit.com/iletisim/"
     ]
   },
-  "397": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
-  "398": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "399": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://heraliv.com.tr/",
+    "addresses": [
+      "Türkiye’nin yerli ve doğal zeytinyağı markası Heraliv, 2025 yılında düzenlenen Olive Istanbul IOOC (International Olive Oil Competition..."
+    ],
+    "phones": [
+      "+90 532 309 55 87"
+    ],
+    "emails": [
+      "info@heraliv.com.tr"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://heraliv.com.tr/",
+      "https://heraliv.com.tr/kurumsal/",
+      "https://heraliv.com.tr/iletisim/",
+      "https://heraliv.com.tr/shop/"
+    ]
   },
   "400": {
     "website": "https://www.iznikzeytinevi.com/",
     "addresses": [
-      "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
-      "İLK SİPARİŞİMDE UFAK BİR AKSAKLIK OLMASINA RAĞMEN TEKRAR SİPARİŞİMİ GÜNCELLEDİK .İYİ Kİ DE GÜNCELLEYİP VAZGEÇMEMİŞİM.VAZGEÇMİŞ OLSAYDIM BÖYLE BİR LEZZETTEN MAHRUM KALACAKTIM.ZEYTİN VE ZEYTİN YAĞI TADINA DOYAMADIK.ZEYTİNDE ADRESLERİMDEN BİRİ OLDU ÜRÜNLERİM BİTER BİTMEZ TEKRAR SİPARİŞLERİM OLACAK TEREDDÜT ETMEYİN ALIN"
+      "İLK SİPARİŞİMDE UFAK BİR AKSAKLIK OLMASINA RAĞMEN TEKRAR SİPARİŞİMİ GÜNCELLEDİK .İYİ Kİ DE GÜNCELLEYİP VAZGEÇMEMİŞİM.VAZGEÇMİŞ OLSAYDIM BÖYLE BİR LEZZETTEN MAHRUM KALACAKTIM.ZEYTİN VE ZEYTİN YAĞI TADINA DOYAMADIK.ZEYTİNDE ADRESLERİMDEN BİRİ OLDU ÜRÜNLERİM BİTER BİTMEZ TEKRAR SİPARİŞLERİM OLACAK TEREDDÜT ETMEYİN ALIN",
+      "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
     ],
     "phones": [
       "+90 545 419 16 16",
@@ -5165,8 +5171,8 @@
     "emails": [],
     "whatsapp": [],
     "sourceUrls": [
-      "https://www.iznikzeytinevi.com/zeytinyagi-uretenler",
-      "https://www.iznikzeytinevi.com/"
+      "https://www.iznikzeytinevi.com/",
+      "https://www.iznikzeytinevi.com/zeytinyagi-uretenler"
     ]
   },
   "401": {
@@ -5210,20 +5216,47 @@
     ]
   },
   "403": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "website": "https://kulahlizeytinyagi.com/",
+    "addresses": [
+      "Filtre Edilmemiş Yeni Mahsul Soğuk Sıkım Erken Hasat Natürel Sızma Zeytinyağı 5 lt 2025-2026",
+      "Filtre Edilmemiş Yeni Mahsul Natürel Birinci Zeytinyağı 5 lt 2025-2026"
+    ],
+    "phones": [
+      "+90 531 996 94 17",
+      "+90 286 742 80 28",
+      "+90 232 853 75 19"
+    ],
+    "emails": [
+      "siparis@kulahlizeytinyagi.com"
+    ],
+    "whatsapp": [
+      "+90 531 996 94 17",
+      "+90 506 094 35 17"
+    ],
+    "sourceUrls": [
+      "https://kulahlizeytinyagi.com/",
+      "https://kulahlizeytinyagi.com/hakkimizda/",
+      "https://kulahlizeytinyagi.com/magaza/",
+      "https://kulahlizeytinyagi.com/iletisim/"
+    ]
   },
   "404": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://levifarm.com/",
+    "addresses": [
+      "Meanwhile, our walnut and almond trees matured. Oranges, lemons, tangerines, and bergamots from Antalya were added to our harvest. We planted avocados. From our olive groves in Geyikli, we produced olive oil of “pharmaceutical quality” — one of our proudest agricultural achievements.",
+      "In February 2022, my grandfather passed away at the age of 98. I took up the flag he had carried for decades. Determined to honor his vision of delivering the right food to the right people, I continue this journey today with a wonderful team."
+    ],
+    "phones": [
+      "+90 534 321 08 53"
+    ],
+    "emails": [
+      "info@levifarm.com"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://levifarm.com/about/",
+      "https://levifarm.com/contact/"
+    ]
   },
   "405": {
     "website": "https://malhunhatun.com/",
@@ -5299,14 +5332,6 @@
       "https://www.miryag.com/iletisim"
     ]
   },
-  "409": {
-    "website": "https://www.naifoliveoil.com/",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "410": {
     "website": "https://www.namlizeytinleri.com/",
     "addresses": [
@@ -5324,20 +5349,46 @@
     ]
   },
   "412": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://ninurta.com.tr/",
+    "addresses": [
+      "İçerenköy Mh. Değirmenyolu Cd. No:18 Kutay İş Merkezi B Blok Kat:1 Üst Bostancı, Ataşehir - İSTANBUL"
+    ],
+    "phones": [
+      "+90 555 020 50 64",
+      "+90%20(555)%20020%2050%2064",
+      "+90 850 200 70 22"
+    ],
+    "emails": [
+      "info@ninurta.com.tr",
+      "info@email.com"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://ninurta.com.tr/",
+      "https://ninurta.com.tr/hakkimizda/",
+      "https://ninurta.com.tr/zeytinyaginin-yolculugu/",
+      "https://ninurta.com.tr/magaza/",
+      "https://ninurta.com.tr/bize-ulasin/"
+    ]
   },
   "413": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://odesaolive.com/",
+    "addresses": [
+      "Kemalpaşa Mahallesi, Cumhuriyet Bulvarı, Çelik İş Hanı, No10/22 Merkez Çanakkale"
+    ],
+    "phones": [
+      "+90 534 410 00 04"
+    ],
+    "emails": [
+      "reyhangulsever@kuzey-ege.com"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://odesaolive.com/",
+      "https://odesaolive.com/hakkimizda/",
+      "https://odesaolive.com/magaza/",
+      "https://odesaolive.com/iletisim/"
+    ]
   },
   "414": {
     "website": "https://www.okayzeytinleri.com/",
@@ -5362,20 +5413,33 @@
     ]
   },
   "415": {
-    "website": "",
-    "addresses": [],
+    "website": "https://www.herbafarm.com.tr/oliova",
+    "addresses": [
+      "HerbaFarm, 2006 yılında, Türkiye’nin Muğla ili Bodrum ilçesi, Yalıkavak – Gökçebel dağlarında 17 dönümlük, doğal yapısı bozulmamış, ekolojik çeşitlilik açısından zengin bir arazide Fitoterapi Uzmanı Eczacı Meltem Kurtsan tarafından kurulmuştur.",
+      "HerbaFarm, 2006 yılında, Türkiye’nin Muğla ili Bodrum ilçesi, Yalıkavak – Gökçebel dağlarında 17 dönümlük, doğal yapısı bozulmamış, ekolojik çeşitlilik açısından zengin bir arazide"
+    ],
     "phones": [],
     "emails": [],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://www.herbafarm.com.tr/about-herbafarm",
+      "https://www.herbafarm.com.tr/hakkimizda"
+    ]
   },
   "416": {
-    "website": "",
+    "website": "https://olivatroas.com/",
     "addresses": [],
-    "phones": [],
-    "emails": [],
+    "phones": [
+      "+90 286 627 41 66 / +90 545 215 76 79"
+    ],
+    "emails": [
+      "info@olivatroas.com"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://olivatroas.com/",
+      "https://olivatroas.com/hakkimizda"
+    ]
   },
   "417": {
     "website": "https://olivogue.com.tr/",
@@ -5418,14 +5482,6 @@
       "https://orhangazizeytin.com.tr/iletisim/"
     ]
   },
-  "419": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "420": {
     "website": "https://kiaraolive.com/",
     "addresses": [
@@ -5465,53 +5521,25 @@
       "https://www.semizzeytin.com/sayfa/hakkimizda#magazalarimiz"
     ]
   },
-  "422": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
-  "423": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
-  "424": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
   "425": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
+    "website": "https://www.ugurluzeytinyaglari.com/",
+    "addresses": [
+      "Cumhuriyet Mah. Başak Sok. No:4 Lapseki/Çanakkale, Lapseki, Çanakkale, TR",
+      "Dünyanın en kaliteli ve lezzetli zeytinyağının üretildiği kuzey Kaz Dağları bölgesinde bütün bölge tarım arazisinin %90'ı zeytinliktir. Yörede zeytinyağı, hem geleneksel yöntemlerden olan Taş Baskı yöntemi hem de Modern yöntemler ile kimyasal katkı maddeleri kullanılmadan elde edilmektedir."
+    ],
+    "phones": [
+      "+90 552 556 18 26"
+    ],
     "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
-  "426": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
-  },
-  "427": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
-    "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "whatsapp": [
+      "+90 552 556 18 26"
+    ],
+    "sourceUrls": [
+      "https://www.ugurluzeytinyaglari.com/",
+      "https://www.ugurluzeytinyaglari.com/hakkimizda",
+      "https://www.ugurluzeytinyaglari.com/iletisim",
+      "https://www.ugurluzeytinyaglari.com/canli-destek"
+    ]
   },
   "428": {
     "website": "https://www.yesiliris.com/",
@@ -5562,12 +5590,25 @@
     ]
   },
   "430": {
-    "website": "",
-    "addresses": [],
-    "phones": [],
+    "website": "https://zelenaolive.com/",
+    "addresses": [
+      "ADRES: Cumhuriyet Mah. Çanakkale Cad. No:102 Geyikli/Ezine/Çanakkale - 17610",
+      "Zeytinlerimizi, en iyi iklim koşullarında, özenle seçilmiş ağaçlardan topluyoruz. Soğuk sıkım yöntemiyle 20C’lerde elde ettiğimiz zeytinyağlarımız, zengin aroması ve besin değerleriyle dolup taşıyor. Her şişe, doğanın sunduğu en iyi lezzetleri sofralarınıza getirirken, aynı zamanda sağlığınıza da katkıda bulunuyor."
+    ],
+    "phones": [
+      "+90 212 367 40 70",
+      "+90 850 762 69 82",
+      "+90 535 254 97 77"
+    ],
     "emails": [],
-    "whatsapp": [],
-    "sourceUrls": []
+    "whatsapp": [
+      "+90 535 254 97 77"
+    ],
+    "sourceUrls": [
+      "https://zelenaolive.com/",
+      "https://zelenaolive.com/pages/hakkimizda",
+      "https://zelenaolive.com/pages/iletisim"
+    ]
   },
   "431": {
     "website": "https://zeyertirilye.com/",

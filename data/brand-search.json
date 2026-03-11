@@ -1560,16 +1560,6 @@
     "url": "/marka/oliva-malia.html"
   },
   {
-    "id": 158,
-    "name": "Meray",
-    "slug": "meray",
-    "region": "Aydın, Ege",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "organik",
-    "desc": "Aydın-Çine hattında organik tarım ve zeytinyağı üretimi yapan şirket. Organik sertifikasyon ve ihracat odaklı yapısıyla öne çıkar.",
-    "url": "/marka/meray.html"
-  },
-  {
     "id": 159,
     "name": "Tuay",
     "slug": "tuay",
@@ -1578,16 +1568,6 @@
     "category": "organik",
     "desc": "Organik natürel sızma zeytinyağı ve farklı seri sınıflandırmaları bulunan üretici. Ege zeytinlerini soğuk sıkım ve duyusal analiz vurgusuyla sunar.",
     "url": "/marka/tuay.html"
-  },
-  {
-    "id": 160,
-    "name": "True Olive",
-    "slug": "true-olive",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "premium-butik",
-    "desc": "Çanakkale hattından ödüllü premium natürel sızma zeytinyağı sunan üretici. Yüksek polifenol ve butik seri diliyle bilinir.",
-    "url": "/marka/true-olive.html"
   },
   {
     "id": 161,
@@ -1850,16 +1830,6 @@
     "url": "/marka/bukem-zeytinyaglari.html"
   },
   {
-    "id": 216,
-    "name": "SAMANDAĞ KADIN KOOPERATİFİ",
-    "slug": "samandag-kadin-kooperatifi",
-    "region": "Samandağ, Hatay",
-    "regionClusterLabel": "Akdeniz Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "SAMANDAĞ KADIN KOOPERATİFİ, Samandağ, Hatay çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-    "url": "/marka/samandag-kadin-kooperatifi.html"
-  },
-  {
     "id": 218,
     "name": "Nidazeytin",
     "slug": "nidazeytin",
@@ -2030,16 +2000,6 @@
     "url": "/marka/yerlim.html"
   },
   {
-    "id": 260,
-    "name": "Zeytin Hanım",
-    "slug": "zeytin-hanim",
-    "region": "İzmir",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "market-endustriyel",
-    "desc": "Zeytinhanim, Siber Güvenlik alanında güvenilir, hızlı ve ölçülebilir çözümler sunar. İzmir merkezli ekip, uçtan uca danışmanlık ve yönetilen hizmetler sağlar.",
-    "url": "/marka/zeytin-hanim.html"
-  },
-  {
     "id": 262,
     "name": "Aivalia",
     "slug": "aivalia",
@@ -2078,16 +2038,6 @@
     "category": "premium-butik",
     "desc": "1925’ten beri 4 kuşaktır Ayvalık’ta kendi zeytinliğinden üretilen tek bahçe erken hasat soğuk sıkım natürel sızma zeytinyağı. Gerçek zeytinyağını keşfedin.",
     "url": "/marka/ayvada.html"
-  },
-  {
-    "id": 266,
-    "name": "Ayvalık Han",
-    "slug": "ayvalik-han",
-    "region": "Ayvalık, Balıkesir",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Ayvalık Han, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-    "url": "/marka/ayvalik-han.html"
   },
   {
     "id": 268,
@@ -2240,16 +2190,6 @@
     "url": "/marka/kalebogazi.html"
   },
   {
-    "id": 285,
-    "name": "Karadağ Zeytincilik",
-    "slug": "karadag-zeytincilik",
-    "region": "Ayvalık, Balıkesir",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Karadağ Zeytincilik, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-    "url": "/marka/karadag-zeytincilik.html"
-  },
-  {
     "id": 287,
     "name": "Köklü",
     "slug": "koklu",
@@ -2338,16 +2278,6 @@
     "category": "premium-butik",
     "desc": "Onursel Zeytinyağları &#8211; Dalından Sofraya Gurme Zeytin Ürünleri",
     "url": "/marka/onursel-zeytincilik.html"
-  },
-  {
-    "id": 296,
-    "name": "Orpir",
-    "slug": "orpir",
-    "region": "Ayvalık, Balıkesir",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Orpir, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/orpir.html"
   },
   {
     "id": 297,
@@ -2508,16 +2438,6 @@
     "category": "premium-butik",
     "desc": "350 yıllık tarım geleneği, teknoloji ile buluştu. Zeytinyağı, zeytin, tahin, pekmez ve çok daha fazlası The Mill uzmanlarının üretimiyle sizlere sunuluyor. The Mill, ihtiyacınız olan yüksek kaliteli gıdaları sizler için",
     "url": "/marka/the-mill.html"
-  },
-  {
-    "id": 317,
-    "name": "Dino Ayvalık",
-    "slug": "dino-ayvalik",
-    "region": "Ayvalık, Balıkesir",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Dino Ayvalık, Ayvalık, Balıkesir çizgisinde yerel üretim çizgisinde zeytinyağı sunan üretici olarak öne çıkar.",
-    "url": "/marka/dino-ayvalik.html"
   },
   {
     "id": 318,
@@ -2688,16 +2608,6 @@
     "category": "premium-butik",
     "desc": "Ayvalık&#x27;ın bereketli topraklarından sofralarınıza, erken hasat ve soğuk sıkım premium zeytinyağları. Doğal lezzet, geleneksel üretim.",
     "url": "/marka/orfion.html"
-  },
-  {
-    "id": 355,
-    "name": "Gülpınar",
-    "slug": "gulpinar",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Gülpınar, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/gulpinar.html"
   },
   {
     "id": 361,
@@ -2890,16 +2800,6 @@
     "url": "/marka/galia-garden.html"
   },
   {
-    "id": 395,
-    "name": "Garbi Garden",
-    "slug": "garbi-garden",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Garbi Garden, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/garbi-garden.html"
-  },
-  {
     "id": 396,
     "name": "Güngör Zeytin",
     "slug": "gungor-zeytin",
@@ -2908,26 +2808,6 @@
     "category": "organik",
     "desc": "Güngör Zeytin Gıda Ambalaj Tic. San. AŞ.",
     "url": "/marka/gungor-zeytin.html"
-  },
-  {
-    "id": 397,
-    "name": "Hektor's",
-    "slug": "hektors",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Hektor's, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/hektors.html"
-  },
-  {
-    "id": 398,
-    "name": "Hemdem Via Ga",
-    "slug": "hemdem-via-ga",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Hemdem Via Ga, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/hemdem-via-ga.html"
   },
   {
     "id": 399,
@@ -3030,16 +2910,6 @@
     "url": "/marka/miryag.html"
   },
   {
-    "id": 409,
-    "name": "Naif Ege Zeytincilik",
-    "slug": "naif-ege-zeytincilik",
-    "region": "Burhaniye, Balıkesir",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Naif Ege Zeytincilik, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/naif-ege-zeytincilik.html"
-  },
-  {
     "id": 410,
     "name": "Namlı Zeytinleri",
     "slug": "namli-zeytinleri",
@@ -3120,16 +2990,6 @@
     "url": "/marka/orhangazi-zeytincilik.html"
   },
   {
-    "id": 419,
-    "name": "Özbey 17",
-    "slug": "ozbey-17",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Özbey 17, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/ozbey-17.html"
-  },
-  {
     "id": 420,
     "name": "Rumeli Zeytincilik",
     "slug": "rumeli-zeytincilik",
@@ -3150,36 +3010,6 @@
     "url": "/marka/semiz-zeytin.html"
   },
   {
-    "id": 422,
-    "name": "Tavoliva",
-    "slug": "tavoliva",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Tavoliva, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/tavoliva.html"
-  },
-  {
-    "id": 423,
-    "name": "Tenedos",
-    "slug": "tenedos",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Tenedos, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/tenedos.html"
-  },
-  {
-    "id": 424,
-    "name": "Troas",
-    "slug": "troas",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Troas, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/troas.html"
-  },
-  {
     "id": 425,
     "name": "Uğurlu Zeytinyağları",
     "slug": "ugurlu-zeytinyaglari",
@@ -3188,26 +3018,6 @@
     "category": "bolgesel-yerel",
     "desc": "Uğurlu Zeytinyağları, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
     "url": "/marka/ugurlu-zeytinyaglari.html"
-  },
-  {
-    "id": 426,
-    "name": "Vega 1923",
-    "slug": "vega-1923",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Vega 1923, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/vega-1923.html"
-  },
-  {
-    "id": 427,
-    "name": "Vivendi",
-    "slug": "vivendi",
-    "region": "Çanakkale",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Vivendi, yerel üretim çizgisinde zeytinyağı sunan üretici olarak dizine eklenmiştir.",
-    "url": "/marka/vivendi.html"
   },
   {
     "id": 428,
