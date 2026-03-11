@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-03-11T17:44:58.092Z",
+  "generatedAt": "2026-03-11T18:14:07.521Z",
   "summary": {
-    "totalBrands": 307,
+    "totalBrands": 305,
     "verifiedCount": 268,
-    "needsReviewCount": 18,
+    "needsReviewCount": 16,
     "missingCount": 0,
     "missingFileCount": 0,
-    "placeholderCount": 18,
-    "issueCount": 18
+    "placeholderCount": 16,
+    "issueCount": 16
   },
   "issues": [
     {
@@ -29,16 +29,6 @@
       "website": "",
       "logoSourcePage": "",
       "key": "papez|placeholder"
-    },
-    {
-      "id": 17,
-      "slug": "degirmenci",
-      "name": "Değirmenci",
-      "issue": "placeholder",
-      "logoPath": "images/markalar/degirmenci/degirmenci-logo.svg",
-      "website": "",
-      "logoSourcePage": "",
-      "key": "degirmenci|placeholder"
     },
     {
       "id": 18,
@@ -89,16 +79,6 @@
       "website": "",
       "logoSourcePage": "",
       "key": "oliterra|placeholder"
-    },
-    {
-      "id": 28,
-      "slug": "ayla-zeytinyagi",
-      "name": "Ayla Zeytinyağı",
-      "issue": "placeholder",
-      "logoPath": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
-      "website": "",
-      "logoSourcePage": "",
-      "key": "ayla-zeytinyagi|placeholder"
     },
     {
       "id": 29,

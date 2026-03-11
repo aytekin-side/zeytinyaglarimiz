@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T17:39:22.239Z",
+  "generatedAt": "2026-03-11T18:14:07.228Z",
   "brands": [
     {
       "id": 1,
@@ -258,22 +258,6 @@
       ]
     },
     {
-      "id": 17,
-      "name": "Değirmenci",
-      "slug": "degirmenci",
-      "logo": "images/markalar/degirmenci/degirmenci-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/degirmenci/degirmenci-logo.svg",
-        "finalUrl": "images/markalar/degirmenci/degirmenci-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/degirmenci/degirmenci-bottle-01-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
-        "images/markalar/degirmenci/degirmenci-bottle-02-bottle-01-zeytinyagi-sisesi-yesil-500-ml.webp",
-        "images/markalar/degirmenci/degirmenci-bottle-03-bottle-02-beige-and-stone-natural-stone.avif"
-      ]
-    },
-    {
       "id": 18,
       "name": "İzmir Pınarı",
       "slug": "izmir-pinari",
@@ -431,22 +415,6 @@
         "images/markalar/oliterra/oliterra-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/oliterra/oliterra-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
         "images/markalar/oliterra/oliterra-bottle-03-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp"
-      ]
-    },
-    {
-      "id": 28,
-      "name": "Ayla Zeytinyağı",
-      "slug": "ayla-zeytinyagi",
-      "logo": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
-      "logoSource": {
-        "source": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
-        "finalUrl": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
-        "sourceType": "local-copy"
-      },
-      "bottles": [
-        "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-01-bottle-03-naturel-sizma-zeytin.jpg",
-        "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-02-bottle-01-zeytinyagi-sisesi-ye.webp",
-        "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-03-bottle-02-beige-and-stone-natu.avif"
       ]
     },
     {
@@ -2801,8 +2769,8 @@
       "slug": "monterosso",
       "logo": "images/markalar/monterosso/monterosso-logo.png",
       "logoSource": {
-        "source": "images/_logo-sources/monterosso-logo.png",
-        "finalUrl": "images/_logo-sources/monterosso-logo.png",
+        "source": "images/markalar/monterosso/monterosso-logo.png",
+        "finalUrl": "images/markalar/monterosso/monterosso-logo.png",
         "sourceType": "local-copy"
       },
       "bottles": [

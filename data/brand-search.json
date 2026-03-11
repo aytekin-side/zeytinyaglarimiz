@@ -160,16 +160,6 @@
     "url": "/marka/selatin.html"
   },
   {
-    "id": 17,
-    "name": "Değirmenci",
-    "slug": "degirmenci",
-    "region": "Ege Bölgesi",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Ege bölgesinden taş baskı ve soğuk sıkım zeytinyağları sunan marka. Geleneksel üretim yöntemleri ile kaliteli natürel sızma zeytinyağı üretir.",
-    "url": "/marka/degirmenci.html"
-  },
-  {
     "id": 18,
     "name": "İzmir Pınarı",
     "slug": "izmir-pinari",
@@ -268,16 +258,6 @@
     "category": "premium-butik",
     "desc": "Yükselen Türk zeytinyağı markası. Natürel sızma zeytinyağında kalite odaklı üretim yapar.",
     "url": "/marka/oliterra.html"
-  },
-  {
-    "id": 28,
-    "name": "Ayla Zeytinyağı",
-    "slug": "ayla-zeytinyagi",
-    "region": "Ayvalık, Balıkesir",
-    "regionClusterLabel": "Ege Bölgesi",
-    "category": "bolgesel-yerel",
-    "desc": "Ayvalık bölgesinin geleneksel zeytinyağı markası. Ayvalık çeşidi zeytinlerden soğuk sıkım natürel sızma zeytinyağı üretir.",
-    "url": "/marka/ayla-zeytinyagi.html"
   },
   {
     "id": 29,

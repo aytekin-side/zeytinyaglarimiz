@@ -160,16 +160,6 @@ const brandMedia = {
         ],
         "info": "Selatin, Ege Bölgesi bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Geleneksel yöntemlerle üretim yapan zeytinyağı markası. Doğal ve katkısız ürünleri ile bilinir."
     },
-    "17": {
-        "slug": "degirmenci",
-        "logo": "images/markalar/degirmenci/degirmenci-logo.svg",
-        "bottles": [
-            "images/markalar/degirmenci/degirmenci-bottle-01-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
-            "images/markalar/degirmenci/degirmenci-bottle-02-bottle-01-zeytinyagi-sisesi-yesil-500-ml.webp",
-            "images/markalar/degirmenci/degirmenci-bottle-03-bottle-02-beige-and-stone-natural-stone.avif"
-        ],
-        "info": "Değirmenci, Ege Bölgesi bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Ege bölgesinden taş baskı ve soğuk sıkım zeytinyağları sunan marka. Geleneksel üretim yöntemleri ile kaliteli natürel sızma zeytinyağı üretir."
-    },
     "18": {
         "slug": "izmir-pinari",
         "logo": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
@@ -269,16 +259,6 @@ const brandMedia = {
             "images/markalar/oliterra/oliterra-bottle-03-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp"
         ],
         "info": "Oliterra, Ege Bölgesi bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Yükselen Türk zeytinyağı markası. Natürel sızma zeytinyağında kalite odaklı üretim yapar."
-    },
-    "28": {
-        "slug": "ayla-zeytinyagi",
-        "logo": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
-        "bottles": [
-            "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-01-bottle-03-naturel-sizma-zeytin.jpg",
-            "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-02-bottle-01-zeytinyagi-sisesi-ye.webp",
-            "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-03-bottle-02-beige-and-stone-natu.avif"
-        ],
-        "info": "Ayla Zeytinyağı, Ayvalık, Balıkesir bölgesiyle ilişkilendirilen bir zeytinyağı markasıdır. Ayvalık bölgesinin geleneksel zeytinyağı markası. Ayvalık çeşidi zeytinlerden soğuk sıkım natürel sızma zeytinyağı üretir."
     },
     "29": {
         "slug": "tarihi-kirkpinar",

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-11T17:39:27.087Z",
-  "totalBrands": 307,
+  "generatedAt": "2026-03-11T18:14:08.101Z",
+  "totalBrands": 305,
   "exactAddressCount": 27,
   "officialSourceCount": 38,
-  "approximateCount": 279,
+  "approximateCount": 277,
   "records": [
     {
       "id": 1,
@@ -342,27 +342,6 @@
       "coordinateProvider": "manual"
     },
     {
-      "id": 17,
-      "slug": "degirmenci",
-      "name": "Değirmenci",
-      "logo": "images/markalar/degirmenci/degirmenci-logo.svg",
-      "website": "",
-      "region": "Ege Bölgesi",
-      "regionCluster": "ege",
-      "regionClusterLabel": "Ege Bölgesi",
-      "category": "bolgesel-yerel",
-      "displayAddress": "Ege Bölgesi, Türkiye",
-      "geocodeQuery": "Ege Bölgesi, Türkiye",
-      "lat": 38.62,
-      "lng": 27.43,
-      "precision": "region",
-      "precisionLabel": "Bölge merkezi",
-      "sourceType": "origin-region",
-      "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
-      "coordinateProvider": "manual"
-    },
-    {
       "id": 18,
       "slug": "izmir-pinari",
       "name": "İzmir Pınarı",
@@ -571,27 +550,6 @@
       "sourceLabel": "Üretim / zeytin kaynağı",
       "sourceUrl": "",
       "coordinateProvider": "manual"
-    },
-    {
-      "id": 28,
-      "slug": "ayla-zeytinyagi",
-      "name": "Ayla Zeytinyağı",
-      "logo": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
-      "website": "",
-      "region": "Ayvalık, Balıkesir",
-      "regionCluster": "ege",
-      "regionClusterLabel": "Ege Bölgesi",
-      "category": "bolgesel-yerel",
-      "displayAddress": "Ayvalık, Balıkesir, Türkiye",
-      "geocodeQuery": "Ayvalık, Balıkesir, Türkiye",
-      "lat": 39.318096,
-      "lng": 26.691671,
-      "precision": "district",
-      "precisionLabel": "İlçe / üretim merkezi",
-      "sourceType": "origin-region",
-      "sourceLabel": "Üretim / zeytin kaynağı",
-      "sourceUrl": "",
-      "coordinateProvider": "nominatim"
     },
     {
       "id": 29,

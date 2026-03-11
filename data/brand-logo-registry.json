@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T17:44:58.092Z",
+  "generatedAt": "2026-03-11T18:14:07.521Z",
   "brands": [
     {
       "id": 1,
@@ -242,21 +242,6 @@
       "notes": ""
     },
     {
-      "id": 17,
-      "slug": "degirmenci",
-      "name": "Değirmenci",
-      "website": "",
-      "logoPath": "images/markalar/degirmenci/degirmenci-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
       "id": 18,
       "slug": "izmir-pinari",
       "name": "İzmir Pınarı",
@@ -397,21 +382,6 @@
       "name": "Oliterra",
       "website": "",
       "logoPath": "images/markalar/oliterra/oliterra-logo.svg",
-      "logoExists": true,
-      "logoSourceUrl": "",
-      "logoSourcePage": "",
-      "logoSourceType": "",
-      "status": "needs-review",
-      "detectedIssue": "placeholder",
-      "verifiedAt": "",
-      "notes": ""
-    },
-    {
-      "id": 28,
-      "slug": "ayla-zeytinyagi",
-      "name": "Ayla Zeytinyağı",
-      "website": "",
-      "logoPath": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
       "logoExists": true,
       "logoSourceUrl": "",
       "logoSourcePage": "",

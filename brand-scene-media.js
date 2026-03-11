@@ -143,14 +143,6 @@ const brandSceneMedia = {
     license: '',
     artist: ''
   },
-  'ayla-zeytinyagi': {
-    src: 'images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-scene-nature-2.jpg',
-    alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Ayvalık zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
   'ayolis': {
     src: 'images/markalar/ayolis/ayolis-scene-nature-1.jpg',
     alt: 'Ayvalık çevresinde zeytin ağaçları ve doğal görünüm',
@@ -363,14 +355,6 @@ const brandSceneMedia = {
     src: 'images/markalar/datcam/datcam-scene-nature-2.jpg',
     alt: 'Datça çevresinde zeytin ağaçları ve doğal görünüm',
     title: 'Datça zeytinlik görünümü',
-    sourceUrl: '',
-    license: '',
-    artist: ''
-  },
-  'degirmenci': {
-    src: 'images/markalar/degirmenci/degirmenci-scene-nature-2.jpg',
-    alt: 'Ege Bölgesi çevresinde zeytin ağaçları ve doğal görünüm',
-    title: 'Ege Bölgesi zeytinlik görünümü',
     sourceUrl: '',
     license: '',
     artist: ''
