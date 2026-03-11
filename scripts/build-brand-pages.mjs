@@ -8,6 +8,7 @@ const TODAY = '2026-03-07';
 const REGION_MEDIA_PATH = path.join(ROOT, 'region-media.js');
 const BRAND_SCENE_MEDIA_PATH = path.join(ROOT, 'brand-scene-media.js');
 const BRAND_SITE_PROFILES_PATH = path.join(ROOT, 'data', 'brand-site-profiles.json');
+const GA_MEASUREMENT_ID = 'G-S3NZ1D6ENS';
 const categoryLongLabels = {
   'premium-butik': 'Premium / Butik Üretici',
   'market-endustriyel': 'Market / Endüstriyel',
@@ -368,6 +369,16 @@ function renderSchema(brand) {
   return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
+function renderAnalytics() {
+  return `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${GA_MEASUREMENT_ID}');
+</script>`;
+}
+
 function writeBrandSearchIndex(brands) {
   const outPath = path.join(ROOT, 'data', 'brand-search.json');
   const payload = brands.map((brand) => ({
@@ -402,6 +413,7 @@ function renderBrandPage(brand, regionMediaByCluster, brandSceneMedia, siteProfi
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
+  ${renderAnalytics()}
 </head>
 <body>
 <nav id="navbar">

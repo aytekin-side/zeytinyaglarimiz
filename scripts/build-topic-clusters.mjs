@@ -3,6 +3,7 @@ import path from 'path';
 import vm from 'vm';
 
 const SITE_URL = 'https://zeytinyaglarimiz.com';
+const GA_MEASUREMENT_ID = 'G-S3NZ1D6ENS';
 
 const mediaSource = fs
   .readFileSync('brand-media.js', 'utf8')
@@ -71,6 +72,16 @@ const countBy = (items, getter) => {
   }
   return map;
 };
+
+function renderAnalytics() {
+  return `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${GA_MEASUREMENT_ID}');
+</script>`;
+}
 
 function ensureDir(relDir) {
   fs.mkdirSync(path.join(process.cwd(), relDir), { recursive: true });
@@ -196,6 +207,7 @@ function pageShell({ prefix, title, description, canonicalPath, breadcrumbItems,
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="${prefix}style.css">
+    ${renderAnalytics()}
 </head>
 <body>
 ${nav(prefix, true)}

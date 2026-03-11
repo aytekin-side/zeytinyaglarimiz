@@ -5,6 +5,7 @@ import vm from 'vm';
 const SITE_URL = 'https://zeytinyaglarimiz.com';
 const KEYWORDS_CSV = process.env.KEYWORDS_CSV || '/Users/aytekin/Downloads/google_tr_zeytinyagi_matching-terms_2026-03-07_18-58-18.csv';
 const TODAY = '2026-03-07';
+const GA_MEASUREMENT_ID = 'G-S3NZ1D6ENS';
 const EXCLUDED_GUIDE_SLUGS = new Set([
   'guvenasa-zeytinyagi'
 ]);
@@ -92,6 +93,16 @@ const imageLibrary = {
     source: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Cac%C4%B1k_with_olive_oil.jpg'
   }
 };
+
+function renderAnalytics() {
+  return `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${GA_MEASUREMENT_ID}');
+</script>`;
+}
 
 const sourceLibrary = {
   ioc: {
@@ -584,6 +595,7 @@ function pageShell({ prefix, active = 'rehber', title, description, canonicalPat
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="${prefix}style.css">
+    ${renderAnalytics()}
     ${extraHead}
 </head>
 <body>
