@@ -2898,5 +2898,255 @@
     "category": "organik",
     "desc": "Gemlik zeytini, Gemlik Zeytinyağı, yeşil zeytin, zeytinyağı, taş baskı zeytinyağı, soğuk sıkım zeytinyağı, turşu, reçel, tarhana, şarküteri ve kozmetik ürünleri satışı yapmaktadır. , Gemlik Zeytinyağı",
     "url": "/marka/zeytinana.html"
+  },
+  {
+    "id": 433,
+    "name": "Safitad Private Reserve",
+    "slug": "safitad-private-reserve",
+    "region": "Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Safitad Private Reserve, Çanakkale hattında Domat zeytinlerinden hazırlanan 2026 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/safitad-private-reserve.html"
+  },
+  {
+    "id": 434,
+    "name": "Luxe",
+    "slug": "luxe",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Luxe, Ayvalık, Balıkesir hattında Ayvalik zeytinlerinden hazırlanan 2026 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/luxe.html"
+  },
+  {
+    "id": 435,
+    "name": "Zagoda Ayvalık",
+    "slug": "zagoda-ayvalik",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Zagoda Ayvalık, Akhisar, Manisa hattında Ayvalik zeytinlerinden hazırlanan 2026 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/zagoda-ayvalik.html"
+  },
+  {
+    "id": 436,
+    "name": "True Olive Private Reserve",
+    "slug": "true-olive-private-reserve",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "True Olive Private Reserve, Edremit, Balıkesir hattında Edremit zeytinlerinden hazırlanan 2026 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/true-olive-private-reserve.html"
+  },
+  {
+    "id": 437,
+    "name": "Zagoda Trilye",
+    "slug": "zagoda-trilye",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Zagoda Trilye, Akhisar, Manisa hattında Trilye zeytinlerinden hazırlanan 2026 Silver ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/zagoda-trilye.html"
+  },
+  {
+    "id": 438,
+    "name": "Funoli Organic",
+    "slug": "funoli-organic",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Funoli Organic, Milas, Muğla hattında Memecik zeytinlerinden hazırlanan 2026 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/funoli-organic.html"
+  },
+  {
+    "id": 439,
+    "name": "Funoli Göldere",
+    "slug": "funoli-goldere",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Funoli Göldere, Milas, Muğla hattında Memecik zeytinlerinden hazırlanan 2026 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/funoli-goldere.html"
+  },
+  {
+    "id": 440,
+    "name": "Fayton Ayvalık",
+    "slug": "fayton-ayvalik",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Fayton Ayvalık, Ayvalık, Balıkesir hattında Ayvalik zeytinlerinden hazırlanan 2026 Silver ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/fayton-ayvalik.html"
+  },
+  {
+    "id": 441,
+    "name": "Asiltane Limited Özel Hasat",
+    "slug": "asiltane-limited-ozel-hasat",
+    "region": "Aydın, Ege",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Asiltane Limited Özel Hasat, Aydın, Ege hattında Edremit zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/asiltane-limited-ozel-hasat.html"
+  },
+  {
+    "id": 442,
+    "name": "Safitad Early Harvest",
+    "slug": "safitad-early-harvest",
+    "region": "Çanakkale",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Safitad Early Harvest, Çanakkale hattında Ayvalik zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/safitad-early-harvest.html"
+  },
+  {
+    "id": 443,
+    "name": "Tuay Zeytinin Efendisi",
+    "slug": "tuay-zeytinin-efendisi",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Tuay Zeytinin Efendisi, Milas, Muğla hattında Memecik zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/tuay-zeytinin-efendisi.html"
+  },
+  {
+    "id": 444,
+    "name": "Nermin Hanım Zeytinliği Edremit",
+    "slug": "nermin-hanim-zeytinligi-edremit",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Nermin Hanım Zeytinliği Edremit, Edremit, Balıkesir hattında Edremit zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/nermin-hanim-zeytinligi-edremit.html"
+  },
+  {
+    "id": 445,
+    "name": "Oleavia South Aegean Special",
+    "slug": "oleavia-south-aegean-special",
+    "region": "Milas, Muğla",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Oleavia South Aegean Special, Milas, Muğla hattında Memecik ve Ayvalık zeytinlerinden hazırlanan 2025 Silver ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/oleavia-south-aegean-special.html"
+  },
+  {
+    "id": 446,
+    "name": "Gourmet Selection Domat",
+    "slug": "gourmet-selection-domat",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Gourmet Selection Domat, Akhisar, Manisa hattında Domat zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/gourmet-selection-domat.html"
+  },
+  {
+    "id": 447,
+    "name": "Gourmet Selection Early Harvest Trilye",
+    "slug": "gourmet-selection-early-harvest-trilye",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Gourmet Selection Early Harvest Trilye, Akhisar, Manisa hattında Trilye zeytinlerinden hazırlanan 2025 Silver ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/gourmet-selection-early-harvest-trilye.html"
+  },
+  {
+    "id": 448,
+    "name": "Bozelli Picual",
+    "slug": "bozelli-picual",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Bozelli Picual, Akhisar, Manisa hattında Picual zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/bozelli-picual.html"
+  },
+  {
+    "id": 449,
+    "name": "Yudum Egemden Erken Hasat",
+    "slug": "yudum-egemden-erken-hasat",
+    "region": "Edremit, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "market-endustriyel",
+    "desc": "Yudum Egemden Erken Hasat, Edremit, Balıkesir hattında Edremit zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/yudum-egemden-erken-hasat.html"
+  },
+  {
+    "id": 450,
+    "name": "Zagoda Arbequina",
+    "slug": "zagoda-arbequina",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Zagoda Arbequina, Akhisar, Manisa hattında Arbequina zeytinlerinden hazırlanan 2025 Silver ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/zagoda-arbequina.html"
+  },
+  {
+    "id": 451,
+    "name": "Bella Mordane Arbequina",
+    "slug": "bella-mordane-arbequina",
+    "region": "Akhisar, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Bella Mordane Arbequina, Akhisar, Manisa hattında Arbequina zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/bella-mordane-arbequina.html"
+  },
+  {
+    "id": 452,
+    "name": "Granpa Premium Trilye",
+    "slug": "granpa-premium-trilye",
+    "region": "Bursa, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Granpa Premium Trilye, Bursa, Marmara hattında Trilye zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/granpa-premium-trilye.html"
+  },
+  {
+    "id": 453,
+    "name": "Granpa Memecik",
+    "slug": "granpa-memecik",
+    "region": "Bursa, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Granpa Memecik, Bursa, Marmara hattında Memecik zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/granpa-memecik.html"
+  },
+  {
+    "id": 454,
+    "name": "Granpa Gold",
+    "slug": "granpa-gold",
+    "region": "Bursa, Marmara",
+    "regionClusterLabel": "Marmara Bölgesi",
+    "category": "premium-butik",
+    "desc": "Granpa Gold, Bursa, Marmara hattında özenle seçilen zeytinlerden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/granpa-gold.html"
+  },
+  {
+    "id": 455,
+    "name": "Ayvalık Köklü",
+    "slug": "ayvalik-koklu",
+    "region": "Ayvalık, Balıkesir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "organik",
+    "desc": "Ayvalık Köklü, Ayvalık, Balıkesir hattında Tekir zeytinlerinden hazırlanan 2025 Silver ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/ayvalik-koklu.html"
+  },
+  {
+    "id": 456,
+    "name": "Armolia",
+    "slug": "armolia",
+    "region": "Selçuk, İzmir",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Armolia, Selçuk, İzmir hattında Arbequina zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/armolia.html"
+  },
+  {
+    "id": 457,
+    "name": "Birsen Hanım Arbequina",
+    "slug": "birsen-hanim-arbequina",
+    "region": "Köprübaşı, Manisa",
+    "regionClusterLabel": "Ege Bölgesi",
+    "category": "premium-butik",
+    "desc": "Birsen Hanım Arbequina, Köprübaşı, Manisa hattında Arbequina zeytinlerinden hazırlanan 2025 Gold ödüllü natürel sızma zeytinyağıdır.",
+    "url": "/marka/birsen-hanim-arbequina.html"
   }
 ]

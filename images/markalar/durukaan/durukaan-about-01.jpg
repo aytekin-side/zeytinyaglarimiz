@@ -90,7 +90,7 @@
                                             globalModel.isAndroidDevice = false; 
                                             globalModel.urlReferrer = ''; 
                                             globalModel.pageUrl = 'www.durukaanoliveoil.com/hakkimizda'; 
-                                            if (typeof globalModel.member == 'undefined') { globalModel.member = {"memberId":0,"memberName":null,"memberFirstName":null,"memberSurName":null,"memberEMail":null,"memberPhone":null,"memberGSMPhone":null,"memberCity":null,"memberProvince":null,"memberCountry":null,"memberCountryId":0,"memberCountryCode":null,"memberGender":0,"membershipDate":"0001-01-01T00:00:00","memberLastLoginDate":"0001-01-01T00:00:00","memberRole":null,"moneyPoints":0,"memberType":null,"isMember":true,"priceType":0,"priceTypeCurrencyID":0,"emailPermit":false,"smsPermit":false,"customerCode":null,"authDate":"0001-01-01T00:00:00","user_register_date":null,"user_last_session":null,"user_last_purchase":null,"user_register_type":null,"user_total_purchases":0,"user_total_revenue_online":0.0,"user_total_revenue_offline":0.0,"birthday":"0001-01-01T00:00:00","hashingEmail":null,"hashingPhone":null,"hashingFirstName":null,"hashingLastName":null,"hashingBirthday":null,"hashingGender":null,"hashingCountryCode":null,"hashingCity":null,"loginStatus":null,"memberStatus":null,"sessionIpAddress":null,"twofA_AKTIF":false,"smsLoginActive":false,"multiSessionLogin":false,"isSecuritySetupComplete":false,"authExpired":true,"domainName":null,"isEmployee":false,"iban":null,"hash":"6390884770322013377CF1A6605E854D80AAA1BF259C315FD8","passwordVersion":null,"memberLastUpdateDate":"0001-01-01T00:00:00"}; }
+                                            if (typeof globalModel.member == 'undefined') { globalModel.member = {"memberId":0,"memberName":null,"memberFirstName":null,"memberSurName":null,"memberEMail":null,"memberPhone":null,"memberGSMPhone":null,"memberCity":null,"memberProvince":null,"memberCountry":null,"memberCountryId":0,"memberCountryCode":null,"memberGender":0,"membershipDate":"0001-01-01T00:00:00","memberLastLoginDate":"0001-01-01T00:00:00","memberRole":null,"moneyPoints":0,"memberType":null,"isMember":true,"priceType":0,"priceTypeCurrencyID":0,"emailPermit":false,"smsPermit":false,"customerCode":null,"authDate":"0001-01-01T00:00:00","user_register_date":null,"user_last_session":null,"user_last_purchase":null,"user_register_type":null,"user_total_purchases":0,"user_total_revenue_online":0.0,"user_total_revenue_offline":0.0,"birthday":"0001-01-01T00:00:00","hashingEmail":null,"hashingPhone":null,"hashingFirstName":null,"hashingLastName":null,"hashingBirthday":null,"hashingGender":null,"hashingCountryCode":null,"hashingCity":null,"loginStatus":null,"memberStatus":null,"sessionIpAddress":null,"twofA_AKTIF":false,"smsLoginActive":false,"multiSessionLogin":false,"isSecuritySetupComplete":false,"authExpired":true,"domainName":null,"isEmployee":false,"iban":null,"hash":"63908852985171856161E58621CF8548E7914DE3444351F50B","passwordVersion":null,"memberLastUpdateDate":"0001-01-01T00:00:00"}; }
                                             var numFormatDefaults = {currencySymbol : '₺',currencySymbolLocation:0,decimalChar:',',decimalPlaces:2};
                                             siteSettings.isAuthenticated = globalModel.isAuthenticated;
                                             globalModel.searchUrl = '/Arama';
@@ -100,7 +100,7 @@
 <body id="bodyGlobal" class="global_body" data-language="tr" data-currency="try">
     <form method="post" action="./hakkimizda" id="formGlobal">
 <div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Vrqzi8+itI5fZ3mzCUDFxjwwTBjadD3ddHs+J5UAPywkfsar+wqUoVXJuAlB0s+r4ZxesF+jppuJo48PG8QL6oVNoIZf8ltuStNrP5v9oos=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="knmesQFOo2WkA8kz9xYWpe3f0yF7agdQJkbtf4R3fB0rvd7dnI+Fo5vUImj9tnOXgJG9jv8aNGyM/it7OVupHnodJjeisNyR6za07OaDljk=" />
 </div>
 
 
@@ -113,7 +113,7 @@ var pageType = 'Content';var productsModel = {"pageType":6,"pageName":"","target
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C092E9BD" />
 </div>
-        <input name="__RequestVerificationToken" type="hidden" value="aOIR-swPlsnvTIEdK9RLVjvPlKszZzXqr8PFEk_xzw4a7-fSF_2U8_KVxCL7p9XT29KbZ0xoilldj9OTtVbH62zIAcoV9l6evoAf05_LLVc1" />
+        <input name="__RequestVerificationToken" type="hidden" value="eoLsrS0tmrdzrHUiRLFx-H7zOf6sPyEp5_xFO8t18s1zLUHi7WHGJmiIPiv2IwdoDYOEcC5dGEQvgGC4Q2YnRuZYi88acrf-kB0le5ZQoIo1" />
 
             <link href="https://assets.ticimax.cloud/v8100/App_Themes/PremiumV2-4/style.css?v=8.13.546.0.131301" rel="stylesheet"  />
     <style>:root{ --theme-color: #e7040f;--header-bg: #f7f7f7;--header-textcolor: #222222;--header-bordercolor: #e9e9e9;--header-searchbg: #fafafa;--header-searchcolor: #3c3c3c;--header-searchborder: #eeeeee;--header-searchbutoncolor: #3c3c3c;--header-searchbutonbgcolor: #fafafa;--footer-bg: #141414;--footer-titlecolor: #ffffff;--footer-textcolor: #ffffff;--footer-bordercolor: #2a2a2a;--footer-sosyalmedyacolor: #fff;--footer-sosyalmedyabg: #e7040f;--footer-ebultenbg: #ffffff;--footer-ebultencolor: #919191;--footer-ebultenbordercolor: #ffffff;--footer-ebultenbutoncolor: #ffffff;--footer-ebultenbutonbgcolor: #e7040f;--urun-box-boyut: 100%;}</style>

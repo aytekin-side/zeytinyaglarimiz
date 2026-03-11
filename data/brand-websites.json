@@ -112,6 +112,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 456,
+    "name": "Armolia",
+    "slug": "armolia",
+    "url": "https://armollia.com/",
+    "region": "Selçuk, İzmir",
+    "category": "premium-butik"
+  },
+  {
     "id": 387,
     "name": "Armutlu Zeytincilik",
     "slug": "armutlu-zeytincilik",
@@ -139,6 +147,14 @@
     "id": 145,
     "name": "Asiltane",
     "slug": "asiltane",
+    "url": "https://www.asiltane.com/",
+    "region": "Aydın, Ege",
+    "category": "premium-butik"
+  },
+  {
+    "id": 441,
+    "name": "Asiltane Limited Özel Hasat",
+    "slug": "asiltane-limited-ozel-hasat",
     "url": "https://www.asiltane.com/",
     "region": "Aydın, Ege",
     "category": "premium-butik"
@@ -176,6 +192,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 455,
+    "name": "Ayvalık Köklü",
+    "slug": "ayvalik-koklu",
+    "url": "https://www.kokluzeytincilik.com.tr/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "organik"
+  },
+  {
     "id": 161,
     "name": "BAKTAT ZEYTİN",
     "slug": "baktat-zeytin",
@@ -195,6 +219,14 @@
     "id": 237,
     "name": "Bella Mordane",
     "slug": "bella-mordane",
+    "url": "https://www.bellaserragurme.com/",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 451,
+    "name": "Bella Mordane Arbequina",
+    "slug": "bella-mordane-arbequina",
     "url": "https://www.bellaserragurme.com/",
     "region": "Akhisar, Manisa",
     "category": "premium-butik"
@@ -232,9 +264,25 @@
     "category": "premium-butik"
   },
   {
+    "id": 457,
+    "name": "Birsen Hanım Arbequina",
+    "slug": "birsen-hanim-arbequina",
+    "url": "https://www.birsenhanim.com/",
+    "region": "Köprübaşı, Manisa",
+    "category": "premium-butik"
+  },
+  {
     "id": 150,
     "name": "Bozelli",
     "slug": "bozelli",
+    "url": "https://www.bozelli.com.tr/",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 448,
+    "name": "Bozelli Picual",
+    "slug": "bozelli-picual",
     "url": "https://www.bozelli.com.tr/",
     "region": "Akhisar, Manisa",
     "category": "premium-butik"
@@ -512,6 +560,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 440,
+    "name": "Fayton Ayvalık",
+    "slug": "fayton-ayvalik",
+    "url": "https://faytonoliveoil.com/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 393,
     "name": "Femes",
     "slug": "femes",
@@ -558,6 +614,22 @@
     "url": "https://funoli.com.tr/",
     "region": "Milas, Muğla",
     "category": "premium-butik"
+  },
+  {
+    "id": 439,
+    "name": "Funoli Göldere",
+    "slug": "funoli-goldere",
+    "url": "https://funoli.com.tr/",
+    "region": "Milas, Muğla",
+    "category": "premium-butik"
+  },
+  {
+    "id": 438,
+    "name": "Funoli Organic",
+    "slug": "funoli-organic",
+    "url": "https://funoli.com.tr/",
+    "region": "Milas, Muğla",
+    "category": "organik"
   },
   {
     "id": 52,
@@ -648,6 +720,22 @@
     "category": "organik"
   },
   {
+    "id": 446,
+    "name": "Gourmet Selection Domat",
+    "slug": "gourmet-selection-domat",
+    "url": "https://www.palamidas.com",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 447,
+    "name": "Gourmet Selection Early Harvest Trilye",
+    "slug": "gourmet-selection-early-harvest-trilye",
+    "url": "https://www.palamidas.com",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
     "id": 280,
     "name": "Gödence",
     "slug": "godence",
@@ -659,6 +747,30 @@
     "id": 61,
     "name": "Granpa",
     "slug": "granpa",
+    "url": "https://granpa.com.tr",
+    "region": "Bursa, Marmara",
+    "category": "premium-butik"
+  },
+  {
+    "id": 454,
+    "name": "Granpa Gold",
+    "slug": "granpa-gold",
+    "url": "https://granpa.com.tr",
+    "region": "Bursa, Marmara",
+    "category": "premium-butik"
+  },
+  {
+    "id": 453,
+    "name": "Granpa Memecik",
+    "slug": "granpa-memecik",
+    "url": "https://granpa.com.tr",
+    "region": "Bursa, Marmara",
+    "category": "premium-butik"
+  },
+  {
+    "id": 452,
+    "name": "Granpa Premium Trilye",
+    "slug": "granpa-premium-trilye",
     "url": "https://granpa.com.tr",
     "region": "Bursa, Marmara",
     "category": "premium-butik"
@@ -1056,6 +1168,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 434,
+    "name": "Luxe",
+    "slug": "luxe",
+    "url": "https://www.trueolive.co/",
+    "region": "Ayvalık, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 129,
     "name": "Macaroğlu",
     "slug": "macaroglu",
@@ -1288,6 +1408,14 @@
     "category": "premium-butik"
   },
   {
+    "id": 444,
+    "name": "Nermin Hanım Zeytinliği Edremit",
+    "slug": "nermin-hanim-zeytinligi-edremit",
+    "url": "https://nerminhanim.com",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 218,
     "name": "Nidazeytin",
     "slug": "nidazeytin",
@@ -1389,6 +1517,14 @@
     "slug": "oleamea",
     "url": "https://www.oleamea.com",
     "region": "Ege Bölgesi",
+    "category": "premium-butik"
+  },
+  {
+    "id": 445,
+    "name": "Oleavia South Aegean Special",
+    "slug": "oleavia-south-aegean-special",
+    "url": "https://www.oleavia.com/",
+    "region": "Milas, Muğla",
     "category": "premium-butik"
   },
   {
@@ -1736,6 +1872,22 @@
     "category": "premium-butik"
   },
   {
+    "id": 442,
+    "name": "Safitad Early Harvest",
+    "slug": "safitad-early-harvest",
+    "url": "https://safitad.com/",
+    "region": "Çanakkale",
+    "category": "premium-butik"
+  },
+  {
+    "id": 433,
+    "name": "Safitad Private Reserve",
+    "slug": "safitad-private-reserve",
+    "url": "https://safitad.com/",
+    "region": "Çanakkale",
+    "category": "premium-butik"
+  },
+  {
     "id": 345,
     "name": "Sakallı Zeytincilik",
     "slug": "sakalli-zeytincilik",
@@ -1904,9 +2056,25 @@
     "category": "organik"
   },
   {
+    "id": 436,
+    "name": "True Olive Private Reserve",
+    "slug": "true-olive-private-reserve",
+    "url": "https://www.trueolive.co/",
+    "region": "Edremit, Balıkesir",
+    "category": "premium-butik"
+  },
+  {
     "id": 159,
     "name": "Tuay",
     "slug": "tuay",
+    "url": "https://www.tuay.com.tr/",
+    "region": "Milas, Muğla",
+    "category": "organik"
+  },
+  {
+    "id": 443,
+    "name": "Tuay Zeytinin Efendisi",
+    "slug": "tuay-zeytinin-efendisi",
     "url": "https://www.tuay.com.tr/",
     "region": "Milas, Muğla",
     "category": "organik"
@@ -2072,6 +2240,14 @@
     "category": "market-endustriyel"
   },
   {
+    "id": 449,
+    "name": "Yudum Egemden Erken Hasat",
+    "slug": "yudum-egemden-erken-hasat",
+    "url": "https://www.yudum.com.tr",
+    "region": "Edremit, Balıkesir",
+    "category": "market-endustriyel"
+  },
+  {
     "id": 429,
     "name": "Yükseloğulları",
     "slug": "yukselogullari",
@@ -2083,6 +2259,30 @@
     "id": 144,
     "name": "Zagoda",
     "slug": "zagoda",
+    "url": "https://zagoda.com.tr/",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 450,
+    "name": "Zagoda Arbequina",
+    "slug": "zagoda-arbequina",
+    "url": "https://zagoda.com.tr/",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 435,
+    "name": "Zagoda Ayvalık",
+    "slug": "zagoda-ayvalik",
+    "url": "https://zagoda.com.tr/",
+    "region": "Akhisar, Manisa",
+    "category": "premium-butik"
+  },
+  {
+    "id": 437,
+    "name": "Zagoda Trilye",
+    "slug": "zagoda-trilye",
     "url": "https://zagoda.com.tr/",
     "region": "Akhisar, Manisa",
     "category": "premium-butik"

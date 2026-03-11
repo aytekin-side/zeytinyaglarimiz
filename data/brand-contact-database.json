@@ -269,12 +269,26 @@
     ]
   },
   "26": {
-    "website": null,
-    "addresses": [],
-    "phones": [],
-    "emails": [],
+    "website": "https://www.oleaprilis.com/",
+    "addresses": [
+      "Via Squadre Basse, 2 – Podere 747/a, Casotto dei Pescatori, GR, 58100, IT"
+    ],
+    "phones": [
+      "+393393984522",
+      "+90 339 398 45 22",
+      "+90 165 161 05 35"
+    ],
+    "emails": [
+      "info@oleaprilis.com"
+    ],
     "whatsapp": [],
-    "sourceUrls": []
+    "sourceUrls": [
+      "https://www.oleaprilis.com/",
+      "https://www.oleaprilis.com/about-us/",
+      "https://www.oleaprilis.com/about-our-oil/",
+      "https://www.oleaprilis.com/mediterraneo/",
+      "https://www.oleaprilis.com/contact-us/"
+    ]
   },
   "30": {
     "website": "https://www.olivos.com.tr/",
@@ -4654,7 +4668,6 @@
   "369": {
     "website": "https://www.rodafarm.com/",
     "addresses": [
-      "AYDINLI MAH. ESENLIK SK. NO: 6, IÇ KAPI NO: 2, TUZLA / ISTANBUL, Tuzla, İstanbul, 34953, TR",
       "Aydınlı Mahallesi, Esenlik Sokak, No: 6, İç Kapı No: 2, Tuzla / İstanbul"
     ],
     "phones": [
@@ -4663,7 +4676,6 @@
     "emails": [],
     "whatsapp": [],
     "sourceUrls": [
-      "https://www.rodafarm.com/",
       "https://www.rodafarm.com/iletisim"
     ]
   },
@@ -4780,8 +4792,7 @@
   "385": {
     "website": "https://www.alpoliva.com/",
     "addresses": [
-      "Hamidiye Mahallesi Damla Sokak No: 5 B Blok D:2 Kepez / Çanakkale",
-      "Sözleşmeden doğacak uyuşmazlıklarda mahkeme, icra dairesi, hakem heyeti gibi resmi kurum ve kuruluşlara karşı her türlü dava, cevap ve itiraz hakkının kullanılması amacıyla kimlik, iletişim, fatura, alışveriş bilgilerinizi,"
+      "Hamidiye Mahallesi Damla Sokak No: 5 B Blok D:2 Kepez / Çanakkale"
     ],
     "phones": [
       "+90 544 351 10 95",
@@ -4797,8 +4808,7 @@
     ],
     "sourceUrls": [
       "https://www.alpoliva.com/",
-      "https://www.alpoliva.com/iletisim",
-      "https://www.alpoliva.com/iletisim-formu"
+      "https://www.alpoliva.com/iletisim"
     ]
   },
   "386": {
@@ -5025,8 +5035,8 @@
   "400": {
     "website": "https://www.iznikzeytinevi.com/",
     "addresses": [
-      "İLK SİPARİŞİMDE UFAK BİR AKSAKLIK OLMASINA RAĞMEN TEKRAR SİPARİŞİMİ GÜNCELLEDİK .İYİ Kİ DE GÜNCELLEYİP VAZGEÇMEMİŞİM.VAZGEÇMİŞ OLSAYDIM BÖYLE BİR LEZZETTEN MAHRUM KALACAKTIM.ZEYTİN VE ZEYTİN YAĞI TADINA DOYAMADIK.ZEYTİNDE ADRESLERİMDEN BİRİ OLDU ÜRÜNLERİM BİTER BİTMEZ TEKRAR SİPARİŞLERİM OLACAK TEREDDÜT ETMEYİN ALIN",
-      "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
+      "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
+      "mahmut uysal"
     ],
     "phones": [
       "+90 545 419 16 16",
@@ -5035,8 +5045,8 @@
     "emails": [],
     "whatsapp": [],
     "sourceUrls": [
-      "https://www.iznikzeytinevi.com/",
-      "https://www.iznikzeytinevi.com/zeytinyagi-uretenler"
+      "https://www.iznikzeytinevi.com/zeytinyagi-uretenler",
+      "https://www.iznikzeytinevi.com/"
     ]
   },
   "401": {
@@ -5519,6 +5529,479 @@
       "https://zeytinana.com/sayfa/magazalarimiz",
       "https://zeytinana.com/iletisim",
       "https://zeytinana.com/iletisim-formu"
+    ]
+  },
+  "433": {
+    "website": "https://safitad.com/",
+    "addresses": [
+      "Necatibey Cad. Gayret Han. No: 53/401",
+      "Babaoğlu Çiftliği Küme Evleri No: 7"
+    ],
+    "phones": [
+      "+90 212 243 08 44",
+      "+90 533 572 80 72",
+      "+90 212 243 08 45"
+    ],
+    "emails": [
+      "safitad@safitad.com"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://safitad.com/iletisim"
+    ]
+  },
+  "434": {
+    "website": "https://trueolive.co/",
+    "addresses": [],
+    "phones": [],
+    "emails": [],
+    "whatsapp": [],
+    "sourceUrls": []
+  },
+  "435": {
+    "website": "https://zagoda.com.tr/",
+    "addresses": [
+      "(Anatolian IOOC 2022, Türkiye)",
+      "Edremit; Kaz Dağları’nın mitolojik öykülerinin hala ara sokaklarda sessizce dolaştığı, oksijeniyle sağlığın merkezi olan bir güzellik."
+    ],
+    "phones": [
+      "+90 533 369 82 49",
+      "+90 996 118 84 27",
+      "+90 869 970 37 57"
+    ],
+    "emails": [
+      "info@zagoda.com.tr"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://zagoda.com.tr/",
+      "https://zagoda.com.tr/hakkimizda/",
+      "https://zagoda.com.tr/kategori/general-information-about-olive-oil/",
+      "https://zagoda.com.tr/magazamiz/",
+      "https://zagoda.com.tr/iletisim/",
+      "https://zagoda.com.tr/magaza/arbequina-2025-erken-hasat/"
+    ]
+  },
+  "436": {
+    "website": "https://trueolive.co/",
+    "addresses": [],
+    "phones": [],
+    "emails": [],
+    "whatsapp": [],
+    "sourceUrls": []
+  },
+  "437": {
+    "website": "https://zagoda.com.tr/",
+    "addresses": [
+      "(Anatolian IOOC 2022, Türkiye)",
+      "Edremit; Kaz Dağları’nın mitolojik öykülerinin hala ara sokaklarda sessizce dolaştığı, oksijeniyle sağlığın merkezi olan bir güzellik."
+    ],
+    "phones": [
+      "+90 533 369 82 49",
+      "+90 996 118 84 27",
+      "+90 869 970 37 57"
+    ],
+    "emails": [
+      "info@zagoda.com.tr"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://zagoda.com.tr/",
+      "https://zagoda.com.tr/hakkimizda/",
+      "https://zagoda.com.tr/kategori/general-information-about-olive-oil/",
+      "https://zagoda.com.tr/magazamiz/",
+      "https://zagoda.com.tr/iletisim/",
+      "https://zagoda.com.tr/magaza/arbequina-2025-erken-hasat/"
+    ]
+  },
+  "438": {
+    "website": "https://funoli.com.tr/",
+    "addresses": [
+      "Evet, Funoli Premium Organik zeytinyağımız, %100 doğal ve katkısız olup, hiçbir ilaç ve katkı maddesi içermez.",
+      "Çamköy, Milas Ören Yolu No:318, 48200 Milas/Muğla"
+    ],
+    "phones": [
+      "+90 532 799 80 41",
+      "+90 533 034 93 79"
+    ],
+    "emails": [
+      "info@funoli.com.tr",
+      "info@goldere.org"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://funoli.com.tr/",
+      "https://funoli.com.tr/hakkimizda/",
+      "https://funoli.com.tr/hikayemiz/",
+      "https://funoli.com.tr/iletisim/"
+    ]
+  },
+  "439": {
+    "website": "https://funoli.com.tr/",
+    "addresses": [
+      "Evet, Funoli Premium Organik zeytinyağımız, %100 doğal ve katkısız olup, hiçbir ilaç ve katkı maddesi içermez.",
+      "Çamköy, Milas Ören Yolu No:318, 48200 Milas/Muğla"
+    ],
+    "phones": [
+      "+90 532 799 80 41",
+      "+90 533 034 93 79"
+    ],
+    "emails": [
+      "info@funoli.com.tr",
+      "info@goldere.org"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://funoli.com.tr/",
+      "https://funoli.com.tr/hakkimizda/",
+      "https://funoli.com.tr/hikayemiz/",
+      "https://funoli.com.tr/iletisim/"
+    ]
+  },
+  "440": {
+    "website": "https://faytonoliveoil.com/",
+    "addresses": [
+      "Bizi Takip Edin!",
+      "Çınarlı Mahallesi 1572 Sokak No. 33 Konak, İzmir, Türkiye"
+    ],
+    "phones": [
+      "+90 541 329 86 60"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://faytonoliveoil.com/",
+      "https://faytonoliveoil.com/magaza",
+      "https://faytonoliveoil.com/pages/contact"
+    ]
+  },
+  "441": {
+    "website": "https://www.asiltane.com/",
+    "addresses": [
+      "Merkez Mh. Yunus Emre Cd. No:2",
+      "Mithatpaşa Mh. Dağınık Küme Evleri No:1/A"
+    ],
+    "phones": [
+      "//4447944",
+      "+90 216 641 90 75",
+      "+90 266 357 10 10",
+      "4447944"
+    ],
+    "emails": [
+      "musterihizmetleri@asiltane.com",
+      "info@asiltane.com",
+      "dirimticaret@hs09.kep.tr"
+    ],
+    "whatsapp": [
+      "+90 531 262 36 28"
+    ],
+    "sourceUrls": [
+      "https://www.asiltane.com/",
+      "https://www.asiltane.com/sayfa/asiltane-iletisim",
+      "https://www.asiltane.com/sayfa/magazalarimiz"
+    ]
+  },
+  "442": {
+    "website": "https://safitad.com/",
+    "addresses": [
+      "Necatibey Cad. Gayret Han. No: 53/401",
+      "Babaoğlu Çiftliği Küme Evleri No: 7"
+    ],
+    "phones": [
+      "+90 212 243 08 44",
+      "+90 533 572 80 72",
+      "+90 212 243 08 45"
+    ],
+    "emails": [
+      "safitad@safitad.com"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://safitad.com/iletisim"
+    ]
+  },
+  "443": {
+    "website": "https://www.tuay.com.tr/",
+    "addresses": [
+      "YENİKÖY MAHALLESİ YENİKÖY SOKAK NO:144 YATAĞAN/MUĞLA"
+    ],
+    "phones": [
+      "0(532)645 8001 - 0(252)572 7474",
+      "+90 532 645 80 01",
+      "+90 252 572 74 74"
+    ],
+    "emails": [
+      "info@tuay.com.tr"
+    ],
+    "whatsapp": [
+      "+90 532 645 80 01"
+    ],
+    "sourceUrls": [
+      "https://www.tuay.com.tr/",
+      "https://tuay.com.tr/index.php?route=information/information&information_id=1",
+      "https://www.tuay.com.tr/iletisim",
+      "https://tuay.com.tr/index.php?route=information/contact"
+    ]
+  },
+  "444": {
+    "website": "https://nerminhanim.com/",
+    "addresses": [
+      "Tüm zeytinyağlarımızı hava ve ışık girmeyen çelik tanklarda 18-20 derece arası iklimlendirilmiş mahzende saklıyoruz. Her siparişi taze taze şişeleyip sizlere ulaştırıyoruz.",
+      "Zeytinlerimizi sonbaharda, lezzet ve aromasının zirvesindeyken erken hasat ediyoruz. Edremit Kazdağları'nda bulunan 50.000 zeytin ağacımızın mahsülünü kullanıyoruz."
+    ],
+    "phones": [
+      "+90 542 392 14 96",
+      "+90 266 392 14 96"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "+90 542 392 14 96"
+    ],
+    "sourceUrls": [
+      "https://nerminhanim.com/",
+      "https://nerminhanim.com/kurumsal-hediyeler",
+      "https://nerminhanim.com/pages/iletisim"
+    ]
+  },
+  "445": {
+    "website": "https://www.oleavia.com/",
+    "addresses": [
+      "4946 France Avenue South, Edina, MN, 55410-1760, US",
+      "Olive oil tends to increase over the last decades as a valuable source of antioxidants and essential fatty acids in the human diet and constitutes one of the most important dietary trends worldwide."
+    ],
+    "phones": [
+      "+90 952 456 60 58",
+      "+90 952 479 70 15"
+    ],
+    "emails": [
+      "info@oleavia.com"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://www.oleavia.com/",
+      "https://www.oleavia.com/about-us",
+      "https://www.oleavia.com/our-story",
+      "https://www.oleavia.com/contact-us"
+    ]
+  },
+  "446": {
+    "website": "https://www.palamidas.com/",
+    "addresses": [
+      "Palamidas markası olarak en büyük gururumuz; sadece kendi bahçelerimizin mahsülünü üretip ve yine sadece Akhisar bölgesinin gerçek soğuk sıkım zeytinyağını sizlere gönül rahatlığıyla ulaştırıyor olabilmemiz.",
+      "Cad. No: 150 Akhisar/MANİSA"
+    ],
+    "phones": [
+      "+90 236 606 06 61"
+    ],
+    "emails": [
+      "info@palamidas.com",
+      "export@palamidas.com"
+    ],
+    "whatsapp": [
+      "+90 236 606 06 61"
+    ],
+    "sourceUrls": [
+      "https://www.palamidas.com/",
+      "https://www.palamidas.com/hakkimizda/",
+      "https://www.palamidas.com/hikayemiz/",
+      "https://www.palamidas.com/toptan-satis-bayilik/",
+      "https://www.palamidas.com/iletisim/",
+      "https://www.palamidas.com/shopx/"
+    ]
+  },
+  "447": {
+    "website": "https://www.palamidas.com/",
+    "addresses": [
+      "Palamidas markası olarak en büyük gururumuz; sadece kendi bahçelerimizin mahsülünü üretip ve yine sadece Akhisar bölgesinin gerçek soğuk sıkım zeytinyağını sizlere gönül rahatlığıyla ulaştırıyor olabilmemiz.",
+      "Cad. No: 150 Akhisar/MANİSA"
+    ],
+    "phones": [
+      "+90 236 606 06 61"
+    ],
+    "emails": [
+      "info@palamidas.com",
+      "export@palamidas.com"
+    ],
+    "whatsapp": [
+      "+90 236 606 06 61"
+    ],
+    "sourceUrls": [
+      "https://www.palamidas.com/",
+      "https://www.palamidas.com/hakkimizda/",
+      "https://www.palamidas.com/hikayemiz/",
+      "https://www.palamidas.com/toptan-satis-bayilik/",
+      "https://www.palamidas.com/iletisim/",
+      "https://www.palamidas.com/shopx/"
+    ]
+  },
+  "448": {
+    "website": "https://www.bozelli.com.tr/",
+    "addresses": [],
+    "phones": [
+      "+90 532 708 50 49"
+    ],
+    "emails": [
+      "info@bozelli.com.tr"
+    ],
+    "whatsapp": [
+      "+90 532 708 50 49"
+    ],
+    "sourceUrls": [
+      "https://www.bozelli.com.tr/",
+      "https://www.bozelli.com.tr/hikayemiz/",
+      "https://www.bozelli.com.tr/magaza/",
+      "https://www.bozelli.com.tr/bize-ulasin/"
+    ]
+  },
+  "449": {
+    "website": "https://www.yudum.com.tr",
+    "addresses": [],
+    "phones": [],
+    "emails": [],
+    "whatsapp": [],
+    "sourceUrls": []
+  },
+  "450": {
+    "website": "https://zagoda.com.tr/",
+    "addresses": [
+      "(Anatolian IOOC 2022, Türkiye)",
+      "Edremit; Kaz Dağları’nın mitolojik öykülerinin hala ara sokaklarda sessizce dolaştığı, oksijeniyle sağlığın merkezi olan bir güzellik."
+    ],
+    "phones": [
+      "+90 533 369 82 49",
+      "+90 996 118 84 27",
+      "+90 869 970 37 57"
+    ],
+    "emails": [
+      "info@zagoda.com.tr"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://zagoda.com.tr/",
+      "https://zagoda.com.tr/hakkimizda/",
+      "https://zagoda.com.tr/kategori/general-information-about-olive-oil/",
+      "https://zagoda.com.tr/magazamiz/",
+      "https://zagoda.com.tr/iletisim/",
+      "https://zagoda.com.tr/magaza/arbequina-2025-erken-hasat/"
+    ]
+  },
+  "451": {
+    "website": "https://www.bellaserragurme.com/",
+    "addresses": [
+      "Adalet Mah. Manas Blv. Folkart Towers No: 47 B İç Kapı No: 2601 Bayraklı/İzmir"
+    ],
+    "phones": [
+      "+90 850 307 44 78"
+    ],
+    "emails": [
+      "info@bellaserrafood.com"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://www.bellaserragurme.com/bella-mordaneye-ulasin/"
+    ]
+  },
+  "452": {
+    "website": "https://granpa.com.tr/",
+    "addresses": [
+      "Fenerbahçe Mahallesi Operatör Cemil Topuzlu Caddesi No: 41E, Kadıköy 34726"
+    ],
+    "phones": [],
+    "emails": [],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://granpa.com.tr/",
+      "https://granpa.com.tr/pages/iletisim"
+    ]
+  },
+  "453": {
+    "website": "https://granpa.com.tr/",
+    "addresses": [
+      "Fenerbahçe Mahallesi Operatör Cemil Topuzlu Caddesi No: 41E, Kadıköy 34726"
+    ],
+    "phones": [],
+    "emails": [],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://granpa.com.tr/",
+      "https://granpa.com.tr/pages/iletisim"
+    ]
+  },
+  "454": {
+    "website": "https://granpa.com.tr/",
+    "addresses": [
+      "Fenerbahçe Mahallesi Operatör Cemil Topuzlu Caddesi No: 41E, Kadıköy 34726"
+    ],
+    "phones": [],
+    "emails": [],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://granpa.com.tr/",
+      "https://granpa.com.tr/pages/iletisim"
+    ]
+  },
+  "455": {
+    "website": "https://www.kokluzeytincilik.com.tr/",
+    "addresses": [
+      "Köklü Katkısız Ev Tarhanası 500 gr Tatlı",
+      "Küçükköy Mah. İzmir Çanakkale Yolu Blv. Köklü Zeytincilik No:519/1 Ayvalık/Balıkesir"
+    ],
+    "phones": [
+      "+90 850 532 14 44",
+      "+90 266 331 10 20",
+      "+90 583 033 38 00"
+    ],
+    "emails": [
+      "info@kokluzeytincilik.com.tr",
+      "siparis@kokluzeytincilik.com.tr"
+    ],
+    "whatsapp": [
+      "+90 552 355 10 10"
+    ],
+    "sourceUrls": [
+      "https://www.kokluzeytincilik.com.tr/",
+      "https://www.kokluzeytincilik.com.tr/sayfa/hakkimizda",
+      "https://www.kokluzeytincilik.com.tr/iletisim",
+      "https://www.kokluzeytincilik.com.tr/sayfa/magazalarimiz"
+    ]
+  },
+  "456": {
+    "website": "https://armollia.com/",
+    "addresses": [
+      "Our long-standing expertise ensures that you receive only the finest quality, carefully crafted to perfection. Trust in a brand that has been delivering excellence for decades."
+    ],
+    "phones": [],
+    "emails": [
+      "info@armollia.com"
+    ],
+    "whatsapp": [],
+    "sourceUrls": [
+      "https://armollia.com/about-us/",
+      "https://armollia.com/contact-us/"
+    ]
+  },
+  "457": {
+    "website": "https://www.birsenhanim.com/",
+    "addresses": [
+      "IFE 2025 Food, Drink & Hospitality Fuarına Katıldık - 17-19 Mart 2025",
+      "Birsen Hanım Zeytinyağları lezzetini Las Vegas'taki 2024 Winter Fancy Food Show'a katılıyor"
+    ],
+    "phones": [
+      "+90 216 593 19 20",
+      "+90 530 522 21 07",
+      "+90 790 001 00 21",
+      "+90 159 752 91 93"
+    ],
+    "emails": [
+      "info@birsenhanim.com"
+    ],
+    "whatsapp": [
+      "+90 530 522 21 07"
+    ],
+    "sourceUrls": [
+      "https://www.birsenhanim.com/",
+      "https://www.birsenhanim.com/hakkimizda",
+      "https://www.birsenhanim.com/iletisim"
     ]
   }
 }

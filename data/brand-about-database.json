@@ -387,11 +387,36 @@
     ]
   },
   "26": {
-    "website": null,
-    "headings": [],
-    "paragraphs": [],
-    "images": [],
-    "sourceUrls": []
+    "website": "https://www.oleaprilis.com/",
+    "headings": [
+      "Absolute Olive Oils",
+      "The Essence of Italian Culinary Excellence and a Promise of Well-Being",
+      "Awards and Recognition: Olea Prilis Excellence Celebrated Worldwide",
+      "A New Era in Olive Oil",
+      "The Excellence of Olea Prilis: A Selection of Fine Oils",
+      "All the News from the World of Olea Prilis",
+      "A Novelty Under The Tuscan Sun",
+      "Olea Prilis"
+    ],
+    "paragraphs": [
+      "The Essence of Italian Culinary Excellence and a Promise of Well-Being",
+      "Every farm, every mill, and every bottle of olive oil is, at its core, a human story one shaped by passion, vision, and the pursuit of excellence. Behind every drop of oil are emotions, craftsmanship, and values. Olea Prilis is the result of those choices a meeting of intuition, knowledge, and respect for nature.",
+      "Awards and Recognition: Olea Prilis Excellence Celebrated Worldwide",
+      "Our organic olive oils are more than a culinary ingredient—they are",
+      "a journey of taste and well-being, a connection between the earth and those who savor its gifts.",
+      "is just a starting point. It is a threshold—not a definition of excellence.",
+      ", making our oils among the most nourishing in the world",
+      "Olea Prilis is more than an olive estate – it’s the heart and soul of a family, deeply rooted in the creative and nurturing energy of women. Inspired by a passion for sustainable living and well-being, Candice and Fabrizio’s family brought their dream to life."
+    ],
+    "images": [
+      "images/markalar/olea-prilis/olea-prilis-about-01.jpg",
+      "images/markalar/olea-prilis/olea-prilis-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://www.oleaprilis.com/about-us/",
+      "https://www.oleaprilis.com/about-our-oil/",
+      "https://www.oleaprilis.com/mediterraneo/"
+    ]
   },
   "30": {
     "website": "https://www.olivos.com.tr/",
@@ -3236,8 +3261,7 @@
       "Ravla Mor Meyveli Karışım - 330g"
     ],
     "paragraphs": [
-      "Ravla Kids Organik Erken Hasat Zeytinyağı – İçimlik 500 ml",
-      "Ravla Organik Erken Hasat Naturel Sızma Zeytinyağı - Sofralık 5L"
+      "Ravla Kids Organik Erken Hasat Zeytinyağı – İçimlik 500 ml"
     ],
     "images": [],
     "sourceUrls": [
@@ -4058,9 +4082,9 @@
   "236": {
     "website": "https://www.angelos.com.tr/tr/",
     "headings": [
-      "BIO Sertifikası",
-      "NOP Sertifikası",
       "Müteşebbis Sertifikası",
+      "NOP Sertifikası",
+      "BIO Sertifikası",
       "Ürünlerimiz",
       "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
       "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -5152,11 +5176,11 @@
       "SİZİN İÇİN"
     ],
     "paragraphs": [
-      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG"
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
     ],
     "images": [
       "images/markalar/ustali/ustali-about-01.jpg",
@@ -5785,25 +5809,26 @@
   "369": {
     "website": "https://www.rodafarm.com/",
     "headings": [
-      "Taze toplanmış zeytin ve zengin baharatlarla hazırlanan",
-      "çeşnili zeytinyağlarımızla tanışın.",
-      "Her damlasında doğanın saf tadını keşfedin!",
-      "Gurme Zeytinyağı ve Doğal Lezzetler",
+      "Browser",
+      "Host",
+      "What happened?",
+      "What can I do?",
+      "If you are a visitor of this website:",
+      "If you are the owner of this website:",
       "Hakkımızda"
     ],
     "paragraphs": [
-      "Roda Farm Memecik Teneke Natürel Sızma Zeytinyağı 1000 ml",
-      "Roda Farm Ayvalık Teneke Natürel Sızma Zeytinyağı 1000 ml",
-      "Roda Farm Gemlik Teneke Natürel Sızma Zeytinyağı 1000 ml",
-      "Roda Farm Acı Kırmızı Biber Çeşnili Natürel Sızma Zeytinyağı 175 ml",
-      "Roda Farm Sarımsak Çeşnili Natürel Sızma Zeytinyağı 175 ml",
-      "Roda Farm Fesleğen Çeşnili Natürel Sızma Zeytinyağı 175 ml",
-      "Roda Farm Bergamot Çeşnili Natürel Sızma Zeytinyağı 175 ml",
-      "Roda Farm Kekik Çeşnili Natürel Sızma Zeytinyağı 175 ml"
+      "There is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed.",
+      "There is an issue between Cloudflare's cache and your origin web server. Cloudflare monitors for these errors and automatically investigates the cause. To help support the investigation, you can pull the corresponding error log from your web server and submit it our support team. Please include the Ray ID (which is at the bottom of this error page).",
+      "2020 yılında kurulan Roda Farm, ismini kurulduğu bölgenin konuşma dilinde hala kullanılan eski Rumca adı “Roda”dan alır.",
+      "Erdek’te bulunan eski adıyla Roda, yeni adıyla Narlı bölgesi, zeytin ağaçlarının güneye bakması ve yüksek rakımlı bahçelerde bulunması sayesinde zeytin ve zeytinyağı konusunda özel bir hatıraya sahiptir.",
+      "Roda Farm, bu gastronomik hatırayı modern tekniklerle ve lezzetlerle buluşturarak bir Ege Rivierası hayaline kavuşturmayı amaçlar.",
+      "Zeytinlerimiz Memecik, Ayvalık ve Gemlik’teki üç farklı coğrafi işaretli bölgeden toplanır. Çeşnili zeytinyağlarımız, aynı gün içinde tarlamızda hasat edilen zeytinlerimiz ile, taze meyve ve baharatlarla sıkıma girer. Soğuk sıkım metoduyla elde edilir. Hasattan üretime her adımda, son ürünün özel ve incelikli dokunuşunun korunmasına öncelik verilir.",
+      "Roda Farm Established in 2020 and derives its name from the old Greek name \"Roda,\" still used colloquially in the region where it was founded.",
+      "Formerly known as Roda and now as Narlı, the area in Erdek holds a special significance in olive oil production due to its olive trees facing south and being located in high-altitude gardens."
     ],
     "images": [
-      "images/markalar/roda-farm/roda-farm-about-01.jpg",
-      "images/markalar/roda-farm/roda-farm-about-02.png"
+      "images/markalar/roda-farm/roda-farm-about-01.jpg"
     ],
     "sourceUrls": [
       "https://www.rodafarm.com/hakkimizda"
@@ -6239,11 +6264,11 @@
       "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
       "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
       "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-      "Arkadaşlar İznik zeytinevi benim şimdiye kadar tanıdığım ender ticareti hakkı ile yapan ve müşterisine kalite olarak güven veren parayı ikinci seviyede tutan Bir kurum tüm çalışanlarına teşekkür ederim Allah böyle dürüst insanları artırsın inşAllah",
-      "Dört senedir alışveriş yaptığım İznik Zeytin Evi yetkilileriyle birçok görüşmem oldu. Öncelikli amaçlarının %100 müşteri memnuniyeti olduğunu her vesile ile ispatladılar, hiçbir zaman ürünlerin kalitesini sorgulamak gerekmedi. Hem meslek gereği, hem de internetten sıklıkla alışveriş yapmaktan dolayı karşılaştığım sorunların hiç biriyle uğraşmadım.",
-      "Kendilerine çok teşekkür ediyorum. İnternet sitesini güncelledikleri taktirde daha kolay ve zevkli bir alışveriş imkanı geleceğine inanıyorum.",
+      "Uzun yıllardan sonra Özgür Bey ve eşi Ilgın hanımla Marmaris te denk gelip sohbet etme imkanımız oldu.Zeytin üretimindeki detayları anlatırken heyecanını samimiyetini hissetmemek mümkün değil..Özellikle üretimde tamamen doğallıktan yana oluşu ve kimyasal kullanmayışı..Tüm üreticilere örnek olmanız dileğiyle. Başarılarınızın devamını dilerim.",
       "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
-      "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik."
+      "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
+      "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik.",
+      "Daha önce sorgulama gereği duymadığımız bu iki tarih aralığının nasıl bu kadar uzun tutulabildiğini düşünmeye ve bu konuda araştırmaya başladık."
     ],
     "images": [
       "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-about-02.jpg"
@@ -6867,6 +6892,603 @@
     "images": [],
     "sourceUrls": [
       "https://zeytinana.com/"
+    ]
+  },
+  "433": {
+    "website": "https://safitad.com/",
+    "headings": [
+      "Toplam",
+      "SAFİ: Katıksız, Duru, Temiz; Yalnız, Sadece..."
+    ],
+    "paragraphs": [
+      "“Senin şehrin Heliopolis’i zeytin ağaçlarıyla süsledim. O zeytin ağaçları ki, meyvelerinden halis zeytinyağı elde edilir.”",
+      "Zeytin ağacının on binlerce yıllık tarihçesi gelişen DNA analiz teknikleri sayesinde günden güne aydınlığa kavuşuyor. Santorini Adası’nda bulunan ilk “deli zeytin” fosillerinin 39 bin yaşında olduğu ortaya çıktı. Çanakkale civarında da en az 8 bin yıldır zeytin ağaçlarının olduğu biliniyor. Milattan önce 8. yüzyılda Homeros’un destanlarında zeytin ağacı sözünün defalarca geçmesi de bu durumu destekliyor.",
+      "Bu sezon yeni çıkan ürünümüz Private Reserve Altın Madalya kazandı!",
+      "Safitad artık birbirinden farklı içerikleriyle Instagram'da!",
+      "Safitad zeytinyağları, tek perakende satış noktası olan İntema Yaşam Raflarında...",
+      "Zeytinyağının kutsal kitabı Flos Olei 2018 yıllığına girmeyi başaran 7 Türk zeytinyağı markasından biri olmaktan gurur duyuyoruz!",
+      "Özel olarak seçilmiş zeytinlerimizi hiçbir katkı maddesi ilave etmeden ve hiçbir kimyevi süreçten geçirmeden sıkıyoruz.",
+      "; Vücut için çok gerekli ancak sentez edilemeyen temel yağ asitleri ile sadece yağda eriyebilen E vitamininin kaynağını oluşturması ile, meyve suyu gibi natürel tüketilebilen tek yağ olma özelliği, kendine has renk, koku, tat ve aromasıyla insan beslenmesinde çok önemli bir konuma sahiptir zeytinyağı."
+    ],
+    "images": [
+      "images/markalar/safitad-private-reserve/safitad-private-reserve-about-01.jpg",
+      "images/markalar/safitad-private-reserve/safitad-private-reserve-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://safitad.com/page/16-Hakkimizda.html",
+      "https://safitad.com/page/21-Hakkimizda.html"
+    ]
+  },
+  "434": {
+    "website": "https://trueolive.co/",
+    "headings": [],
+    "paragraphs": [],
+    "images": [
+      "images/markalar/luxe/luxe-about-01.png"
+    ],
+    "sourceUrls": [
+      "https://trueolive.co/hakkimizda",
+      "https://trueolive.co/hakkimizda/",
+      "https://trueolive.co/about"
+    ]
+  },
+  "435": {
+    "website": "https://zagoda.com.tr/",
+    "headings": [
+      "Hakkımızda",
+      "2025-2026 YENİ SEZON NATÜREL SIZMA ZEYTİNYAĞLARIMIZ",
+      "2024-2025 SEZON NATÜREL SIZMA ZEYTİNYAĞLARIMIZ",
+      "Bahçemizin Bilgesi",
+      "General Information About Olive Oil"
+    ],
+    "paragraphs": [
+      ", 1947 yılında kaleme aldığı “Yaşamaya Dair” isimli şiirinde böyle seslenmiş her birimize.",
+      "Bizim için de yaşamak yanı ağır bastı ve üstadın öğüdünü tuttuk, hem de yetmişimizi beklemeden, 16.500 adet zeytin ağacı diktik. Ha öyle çocuklarımıza falan kalsın diye de değil, ömrümüze bereket olsun; sevdiklerimizle ve çevremizle bu keyfimizi paylaşalim diye.",
+      "”ne göre ağaçlarımızı tamamen doğal olarak yetiştirmek için her türlü doğal uygulamaları sistemimize entegre ettik.",
+      "Zeytinlerimizi erken hasat ettik, tek tek elle topladık ve 27 °C’nin altında soğuk olarak özenle sıktık.",
+      "Zeytinyağlarımızı hiçbir kimyasal işleme tabi tutmadan, katkı maddesi ve koruyucu kullanmadan ürettik.",
+      "Üretim ve yönetim süreçlerimizde ISO 9001:2015 Kalite Yönetim Sistemi Standartları ile ISO 22000:2018 Gıda Güvenliği Yönetim Sistemlerini uyguluyoruz.",
+      "Polifenol ve antioksidan miktarları yüksek zeytinyağlarımız, dünya standardlarında belirlenen “aroma”, “acılık” ve “yakıcılık” dengelilik özelliklerini en optimum seviyede taşısın istedik ve ZAGODA ismiyle şişeleyip damak zevkinize sunduk.",
+      "“Zagoda”, Doğu Karadeniz Bölgesi’nde, halk arasında “Salamura Yeşil Zeytin”e verilen isimdir."
+    ],
+    "images": [
+      "images/markalar/zagoda-ayvalik/zagoda-ayvalik-about-01.webp"
+    ],
+    "sourceUrls": [
+      "https://zagoda.com.tr/hakkimizda/",
+      "https://zagoda.com.tr/kategori/general-information-about-olive-oil/"
+    ]
+  },
+  "436": {
+    "website": "https://trueolive.co/",
+    "headings": [],
+    "paragraphs": [],
+    "images": [
+      "images/markalar/true-olive-private-reserve/true-olive-private-reserve-about-01.png"
+    ],
+    "sourceUrls": [
+      "https://trueolive.co/hakkimizda",
+      "https://trueolive.co/hakkimizda/",
+      "https://trueolive.co/about"
+    ]
+  },
+  "437": {
+    "website": "https://zagoda.com.tr/",
+    "headings": [
+      "Hakkımızda",
+      "2025-2026 YENİ SEZON NATÜREL SIZMA ZEYTİNYAĞLARIMIZ",
+      "2024-2025 SEZON NATÜREL SIZMA ZEYTİNYAĞLARIMIZ",
+      "Bahçemizin Bilgesi",
+      "General Information About Olive Oil"
+    ],
+    "paragraphs": [
+      ", 1947 yılında kaleme aldığı “Yaşamaya Dair” isimli şiirinde böyle seslenmiş her birimize.",
+      "Bizim için de yaşamak yanı ağır bastı ve üstadın öğüdünü tuttuk, hem de yetmişimizi beklemeden, 16.500 adet zeytin ağacı diktik. Ha öyle çocuklarımıza falan kalsın diye de değil, ömrümüze bereket olsun; sevdiklerimizle ve çevremizle bu keyfimizi paylaşalim diye.",
+      "”ne göre ağaçlarımızı tamamen doğal olarak yetiştirmek için her türlü doğal uygulamaları sistemimize entegre ettik.",
+      "Zeytinlerimizi erken hasat ettik, tek tek elle topladık ve 27 °C’nin altında soğuk olarak özenle sıktık.",
+      "Zeytinyağlarımızı hiçbir kimyasal işleme tabi tutmadan, katkı maddesi ve koruyucu kullanmadan ürettik.",
+      "Üretim ve yönetim süreçlerimizde ISO 9001:2015 Kalite Yönetim Sistemi Standartları ile ISO 22000:2018 Gıda Güvenliği Yönetim Sistemlerini uyguluyoruz.",
+      "Polifenol ve antioksidan miktarları yüksek zeytinyağlarımız, dünya standardlarında belirlenen “aroma”, “acılık” ve “yakıcılık” dengelilik özelliklerini en optimum seviyede taşısın istedik ve ZAGODA ismiyle şişeleyip damak zevkinize sunduk.",
+      "“Zagoda”, Doğu Karadeniz Bölgesi’nde, halk arasında “Salamura Yeşil Zeytin”e verilen isimdir."
+    ],
+    "images": [
+      "images/markalar/zagoda-trilye/zagoda-trilye-about-01.webp"
+    ],
+    "sourceUrls": [
+      "https://zagoda.com.tr/hakkimizda/",
+      "https://zagoda.com.tr/kategori/general-information-about-olive-oil/"
+    ]
+  },
+  "438": {
+    "website": "https://funoli.com.tr/",
+    "headings": [
+      "Ürünlerimiz",
+      "Funoli Premium JUS Yüksek Polifenol (770mg/kg) 1x250ml",
+      "Funoli Premium Tadım Seti Yüksek Polifenollü (600+ & 650+) 2x500ml.",
+      "Funoli Premium Organik Yüksek Polifenol (600+) 500ml.",
+      "Funoli Premium Organik Seti Yüksek Polifenol(600+) 2x500ml",
+      "Funoli Premium Göldere Seti Yüksek Polifenol (650+) 2×500 ml",
+      "Funoli Premium Göldere Yüksek Polifenol (650+) 1x500ml.",
+      "Funoli Premium Gourmet 2LT (300+)"
+    ],
+    "paragraphs": [
+      "2500 TL ve üzeri siparişlerde – Kargo bedeli Funoli’den!",
+      "Funoli Premium Tadım Seti Yüksek Polifenollü (600+ & 650+) 2x500ml.",
+      "Funoli Premium Organik Seti Yüksek Polifenol(600+) 2x500ml",
+      "Funoli Premium Göldere Seti Yüksek Polifenol (650+) 2×500 ml",
+      "Funoli Premium Göldere Yüksek Polifenol (650+) 1x500ml.",
+      "Bu ürünün birden fazla varyasyonu var. Seçenekler ürün sayfasından seçilebilir",
+      "Funoli zeytinyağları, yalnızca kendi markası için üretim yapan,",
+      "yüksek teknolojiye sahip ve gıda güvenliği standartlarına uygun butik"
+    ],
+    "images": [
+      "images/markalar/funoli-organic/funoli-organic-about-01.png",
+      "images/markalar/funoli-organic/funoli-organic-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://funoli.com.tr/hakkimizda/",
+      "https://funoli.com.tr/hikayemiz/"
+    ]
+  },
+  "439": {
+    "website": "https://funoli.com.tr/",
+    "headings": [
+      "Ürünlerimiz",
+      "Funoli Premium JUS Yüksek Polifenol (770mg/kg) 1x250ml",
+      "Funoli Premium Tadım Seti Yüksek Polifenollü (600+ & 650+) 2x500ml.",
+      "Funoli Premium Organik Yüksek Polifenol (600+) 500ml.",
+      "Funoli Premium Organik Seti Yüksek Polifenol(600+) 2x500ml",
+      "Funoli Premium Göldere Seti Yüksek Polifenol (650+) 2×500 ml",
+      "Funoli Premium Göldere Yüksek Polifenol (650+) 1x500ml.",
+      "Funoli Premium Gourmet 2LT (300+)"
+    ],
+    "paragraphs": [
+      "2500 TL ve üzeri siparişlerde – Kargo bedeli Funoli’den!",
+      "Funoli Premium Tadım Seti Yüksek Polifenollü (600+ & 650+) 2x500ml.",
+      "Funoli Premium Organik Seti Yüksek Polifenol(600+) 2x500ml",
+      "Funoli Premium Göldere Seti Yüksek Polifenol (650+) 2×500 ml",
+      "Funoli Premium Göldere Yüksek Polifenol (650+) 1x500ml.",
+      "Bu ürünün birden fazla varyasyonu var. Seçenekler ürün sayfasından seçilebilir",
+      "Funoli zeytinyağları, yalnızca kendi markası için üretim yapan,",
+      "yüksek teknolojiye sahip ve gıda güvenliği standartlarına uygun butik"
+    ],
+    "images": [
+      "images/markalar/funoli-goldere/funoli-goldere-about-01.png",
+      "images/markalar/funoli-goldere/funoli-goldere-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://funoli.com.tr/hakkimizda/",
+      "https://funoli.com.tr/hikayemiz/"
+    ]
+  },
+  "440": {
+    "website": "https://faytonoliveoil.com/",
+    "headings": [
+      "İlk siparişe özel %10 indirim için ÜYE OL",
+      "Sepetiniz Boş",
+      "Naturel Sızma Zeytinyağı",
+      "Blog",
+      "Biz",
+      "Giriş Yap",
+      "Hesap Oluştur",
+      "GEÇMİŞE YOLCULUK"
+    ],
+    "paragraphs": [
+      "Dünyanın en seçkin zeytinlerinden elde edilen zeytinyağı.",
+      "Toprakla kurulan bağın, nesillerden aktarılan geleneğin ve çocukluk anılarının izini süren bir yolculuktur. Geçmişin sade hikâyelerini, bugünün kalite anlayışıyla buluşturuyoruz.",
+      "Markamızın kökeni, Ayvalık’ta dededen kalan zeytinliklere dayanır. Sabah çiğiyle ıslanan toprak, zeytin ağaçlarının gölgesi ve yadigâr bir fayton… Bu detaylar, yalnızca geçmişi değil, bugünün doğallığını ve sadeliğini de yansıtır. Fayton, bu mirası her damlada sofralarınıza taşır.",
+      "Bu geçmişten aldığı ilhamla, aynı topraklarda yetişen zeytinleri aynı özenle şişeliyor. Geleneksel üretim yöntemlerini modern kalite standartlarıyla buluştururken, tüketicisini sadece lezzetle değil; anıların dinginliği ve doğallığın samimiyetiyle de buluşturuyor.",
+      "Zeytinlerimiz, Eylül – Ekim aylarında erken hasat döneminde, tamamen elle toplanarak seçilir.",
+      "Zeytinler aynı gün entegre tesisimize ulaştırılır ve maksimum 27°C sıcaklıkta, soğuk sıkım yöntemiyle işlenir.",
+      "Böylece polifenoller başta olmak üzere besin değeri yüksek bileşenler korunur.",
+      "Üretim tesisimiz, IFS, ISO 22000 ve ISO 9001 kalite yönetim standartlarına uygun şekilde yapılandırılmıştır."
+    ],
+    "images": [
+      "images/markalar/fayton-ayvalik/fayton-ayvalik-about-01.webp",
+      "images/markalar/fayton-ayvalik/fayton-ayvalik-about-02.webp"
+    ],
+    "sourceUrls": [
+      "https://faytonoliveoil.com/"
+    ]
+  },
+  "441": {
+    "website": "https://www.asiltane.com/",
+    "headings": [],
+    "paragraphs": [
+      "Limited Özel Hasat Soğuk Sıkım Natürel Sızma Zeytinyağı"
+    ],
+    "images": [
+      "images/markalar/asiltane-limited-ozel-hasat/asiltane-limited-ozel-hasat-about-01.jpg",
+      "images/markalar/asiltane-limited-ozel-hasat/asiltane-limited-ozel-hasat-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.asiltane.com/"
+    ]
+  },
+  "442": {
+    "website": "https://safitad.com/",
+    "headings": [
+      "Toplam",
+      "SAFİ: Katıksız, Duru, Temiz; Yalnız, Sadece..."
+    ],
+    "paragraphs": [
+      "“Senin şehrin Heliopolis’i zeytin ağaçlarıyla süsledim. O zeytin ağaçları ki, meyvelerinden halis zeytinyağı elde edilir.”",
+      "Zeytin ağacının on binlerce yıllık tarihçesi gelişen DNA analiz teknikleri sayesinde günden güne aydınlığa kavuşuyor. Santorini Adası’nda bulunan ilk “deli zeytin” fosillerinin 39 bin yaşında olduğu ortaya çıktı. Çanakkale civarında da en az 8 bin yıldır zeytin ağaçlarının olduğu biliniyor. Milattan önce 8. yüzyılda Homeros’un destanlarında zeytin ağacı sözünün defalarca geçmesi de bu durumu destekliyor.",
+      "Bu sezon yeni çıkan ürünümüz Private Reserve Altın Madalya kazandı!",
+      "Safitad artık birbirinden farklı içerikleriyle Instagram'da!",
+      "Safitad zeytinyağları, tek perakende satış noktası olan İntema Yaşam Raflarında...",
+      "Zeytinyağının kutsal kitabı Flos Olei 2018 yıllığına girmeyi başaran 7 Türk zeytinyağı markasından biri olmaktan gurur duyuyoruz!",
+      "Özel olarak seçilmiş zeytinlerimizi hiçbir katkı maddesi ilave etmeden ve hiçbir kimyevi süreçten geçirmeden sıkıyoruz.",
+      "; Vücut için çok gerekli ancak sentez edilemeyen temel yağ asitleri ile sadece yağda eriyebilen E vitamininin kaynağını oluşturması ile, meyve suyu gibi natürel tüketilebilen tek yağ olma özelliği, kendine has renk, koku, tat ve aromasıyla insan beslenmesinde çok önemli bir konuma sahiptir zeytinyağı."
+    ],
+    "images": [
+      "images/markalar/safitad-early-harvest/safitad-early-harvest-about-01.jpg",
+      "images/markalar/safitad-early-harvest/safitad-early-harvest-about-02.png"
+    ],
+    "sourceUrls": [
+      "https://safitad.com/page/16-Hakkimizda.html",
+      "https://safitad.com/page/21-Hakkimizda.html"
+    ]
+  },
+  "443": {
+    "website": "https://www.tuay.com.tr/",
+    "headings": [
+      "Tuay'dan Makaleler",
+      "Trend Ürünler",
+      "Brands",
+      "Hakkımızda"
+    ],
+    "paragraphs": [
+      "Yatağan’ın ve Ege’nin Zeytinyağını Dünyaya Tanıtan Eczacı Atilla Totoş - DEMEÇ GAZETESİ",
+      "Milliyetçilik işte budur. Kuru kuruya Vatan, Millet ve Sakarya edebiyatıyla ve hamaset yapmakla olmuyor. Milliyetçilik üretmekle, emekle ve çalışmakla oluyor. Atilla Bey, bizleri bu yönüyle temsil ettiği içinde teşekkür ediyoruz. Bu başarısını gördüğüm ve takdir ettiğim için, ayrıca kendisini de Yatağanlı bir hemşerimiz olduğu içinde bu söyleşiyi yapma ihtiyacı hissettim. Güzel ve anlamlı bir söyleşi oldu....",
+      "Dünya’nın en kaliteli zeytinyağları belli oldu - Zeytin Ağacı Dergisi",
+      "Uluslararası New York Zeytinyağı Yarışması (NIOOC) sonuçlandı.Türkiye'den OLEAMEA (Meray Zeytincilik) ve TUAY (Turgut Yatırım) zirvede yer aldılar... ..."
+    ],
+    "images": [
+      "images/markalar/tuay-zeytinin-efendisi/tuay-zeytinin-efendisi-about-01.jpg",
+      "images/markalar/tuay-zeytinin-efendisi/tuay-zeytinin-efendisi-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://tuay.com.tr/index.php?route=information/information&information_id=1"
+    ]
+  },
+  "444": {
+    "website": "https://nerminhanim.com/",
+    "headings": [
+      "Nermin Hanım Zeytinliği",
+      "Kurumsal Hediyeler"
+    ],
+    "paragraphs": [
+      "Kendi bahçelerimizden en taze ve soğuk sıkım %100 gerçek zeytinyağını üreterek, zeytinlerimizin hakkını veriyoruz.",
+      "Tüm zeytinyağlarımızı hava ve ışık girmeyen çelik tanklarda 18-20 derece arası iklimlendirilmiş mahzende saklıyoruz. Her siparişi taze taze şişeleyip sizlere ulaştırıyoruz.",
+      "Mükemmel ve taze zeytinyağı üretmek uzmanlık, eğitim, titizlik ve tutku ister. Nermin hanımın en iyi zeytinyağını üretme tutkusu, bu mükemmel üretim sürecini sürdürmesi ve geliştirmesi için ona yol gösterdi.",
+      "Zeytinlerimizi sonbaharda, lezzet ve aromasının zirvesindeyken erken hasat ediyoruz. Edremit Kazdağları'nda bulunan 50.000 zeytin ağacımızın mahsülünü kullanıyoruz.",
+      "Soğuk sıkımın kabul gördüğü 27 derecenin de altında 20 derecelerde ve kendi fabrikamızda sadece kendi zeytinlerimizi işliyoruz. Zeytinden çok yağ elde etmek için enzim kullanmıyoruz, sıcak su kullanmıyoruz. Tazelik ve lezzet ağaçtan şişeye kadar bizim kontrolümüzde.",
+      "Taze zeytinyağının en büyük düşmanları hava, ışık ve sıcaklıktır. Toplandıktan birkaç saat sonra soğuk sıkım yapıyor ve çelik tanklarda ısı, ışık ve havadan koruyarak yağlarımızı 18 derecelerde ilk tazeliğinde saklıyoruz.",
+      "Sipariş geldikçe taze taze şişeleme yapıyoruz. Şişelerimiz yağlarımızın tazeliğini koruyacak özelliklere sahip. Tazelik ve yağlarımızın yüksek kalitesi konusunda iddialıyız. Dünyanın en taze ve yüksek polifenollü yağları arasında olduğumuzu gönül rahatlığıyla söyleyebiliriz.",
+      "Günün yorgunluğu üzerinizde, iftar vaktine ise sayılı dakikalar var... Ezan okunmadan hemen önce sofraya o son dokunuşu yapmak, hem göze hem damağa hitap eden renkli bir tabak eklemek istersiniz ya; işte o an zeytinyağının mucizesi devreye girer."
+    ],
+    "images": [
+      "images/markalar/nermin-hanim-zeytinligi-edremit/nermin-hanim-zeytinligi-edremit-about-01.webp",
+      "images/markalar/nermin-hanim-zeytinligi-edremit/nermin-hanim-zeytinligi-edremit-about-02.webp"
+    ],
+    "sourceUrls": [
+      "https://nerminhanim.com/kurumsal-hediyeler"
+    ]
+  },
+  "445": {
+    "website": "https://www.oleavia.com/",
+    "headings": [],
+    "paragraphs": [
+      "As a special family-owned brand, Oleavia produces award-winning, delicious, ideal extra virgin olive oils thanks to its unique taste, aroma, natural and healthy components, vitamin E, and polyphenol compounds.",
+      "Read about the history of olive trees, selecting a premium variety of olives, and the process used to make Oleavia Olive Oils with maximum freshness, taste, and quality.",
+      "Because the sun has poured the purest colors in the wavelength of its light mostly onto Anatolia. Covering itself with the smile of the sun, without wearing off or forgetting its own colors; Anatolia has been the cradle of many ancient civilizations. Its oldest tree is the olive. The olive tree is older than history. According to",
+      ", “Olive cultivation has begun in Anatolia about six thousand years ago.” Olive forms the most important part and tradition of Anatolian culture.",
+      "Olives, which have been processed with traditional methods for hundreds of years, today are carefully collected and they are transformed into olive oil with the most advanced, modern techniques, and meticulous, high quality, cold pressing methods.",
+      "The method and duration of olive fruit collection, the transformation of the olives into the oil with modern pressing methods, the preservation conditions of olive oil, and the taste, smell, and appearance properties determine its quality. Heat, light, and weather conditions affect olive oil.",
+      "Oleavia Extra Virgin Olive Oil's aroma, smell, and nutritional values are unique and it is special for this reason.",
+      "Oleavia is an award-winning brand that passed these tests. And our award is the symbol of the trust placed in us."
+    ],
+    "images": [],
+    "sourceUrls": [
+      "https://www.oleavia.com/about-us",
+      "https://www.oleavia.com/our-story"
+    ]
+  },
+  "446": {
+    "website": "https://www.palamidas.com/",
+    "headings": [
+      "Hakkımızda",
+      "Hikayemiz"
+    ],
+    "paragraphs": [
+      "Palamidas kendine ait 300 dönümlük arazide yaklaşık 10.000 adet ağacı geleneksel yöntemle yani el ile toplamaktadır. Bu da zeytin ağacı ve meyvesine hiç zarar vermeden toplamanın en zahmetli ancak en uygun yoludur.",
+      "Palamidas; Türkiye’de sadece birkaç fabrikada kurulu olan ve kendine ait Alman GEA Westfalia marka gerçek",
+      "tekniğine uygun dünyanın en iyi sıkım makinesini kullanmaktadır.",
+      "önde gelen isimlerinden olan Palamidas; bu sayede benzerlerinden farklılaşmak adına önemli yatırımlar yapmaktadır.",
+      "Palamidas Zeytinyağı 2006 yılında Manisa’nın Akhisar ilçesine bağlı Mecidiye Mahallesinde ilk olarak bölgesindeki halka zeytin sıkım hizmeti vermek amacıyla kuruldu. 5000 metrekare sıkım tesisi, 2000 metrekare kapalı stok alanı ve 3000 metrekare açık alan ile birlikte 250 tonluk stok kapasitesi ile hizmet vermektedir.",
+      "Palamidas’ın kendi öz sermayesine ait yaklaşık 400.000 metrekare zeytin bahçesinde toplamda 9300 ağaç bulunmakta ve her yıl ortalama 500.000 metrekare ekstra zeytin bahçesi kiralamakta ve kendine ait bahçeleri “İYİ TARIM UYGULAMALARI” kapsamında işlemektedir.",
+      "Alman teknolojisine ait GEA Westfalia marka makinesiyle hizmet vermeye başlayan firmamız ilk yılından itibaren zeytinyağı kalitesi, verim artışı ve %100 soğuk sıkım yapma tekniği ile ön plana çıkmasıyla birlikte bölgede oldukça tercih edilen bir tesis haline geldi.",
+      "Kaliteli zeytinyağı üretme konusunda oldukça deneyim kazanması ile birlikte Palamidas, kendi dolum hattını kurarak Palamidas markasıyla yurtiçi ve yurtdışı pazarlarında toptan ve perakende olarak satış hizmetleri vermeye başladı."
+    ],
+    "images": [
+      "images/markalar/gourmet-selection-domat/gourmet-selection-domat-about-01.jpg",
+      "images/markalar/gourmet-selection-domat/gourmet-selection-domat-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.palamidas.com/hakkimizda/",
+      "https://www.palamidas.com/hikayemiz/"
+    ]
+  },
+  "447": {
+    "website": "https://www.palamidas.com/",
+    "headings": [
+      "Hakkımızda",
+      "Hikayemiz"
+    ],
+    "paragraphs": [
+      "Palamidas kendine ait 300 dönümlük arazide yaklaşık 10.000 adet ağacı geleneksel yöntemle yani el ile toplamaktadır. Bu da zeytin ağacı ve meyvesine hiç zarar vermeden toplamanın en zahmetli ancak en uygun yoludur.",
+      "Palamidas; Türkiye’de sadece birkaç fabrikada kurulu olan ve kendine ait Alman GEA Westfalia marka gerçek",
+      "tekniğine uygun dünyanın en iyi sıkım makinesini kullanmaktadır.",
+      "önde gelen isimlerinden olan Palamidas; bu sayede benzerlerinden farklılaşmak adına önemli yatırımlar yapmaktadır.",
+      "Palamidas Zeytinyağı 2006 yılında Manisa’nın Akhisar ilçesine bağlı Mecidiye Mahallesinde ilk olarak bölgesindeki halka zeytin sıkım hizmeti vermek amacıyla kuruldu. 5000 metrekare sıkım tesisi, 2000 metrekare kapalı stok alanı ve 3000 metrekare açık alan ile birlikte 250 tonluk stok kapasitesi ile hizmet vermektedir.",
+      "Palamidas’ın kendi öz sermayesine ait yaklaşık 400.000 metrekare zeytin bahçesinde toplamda 9300 ağaç bulunmakta ve her yıl ortalama 500.000 metrekare ekstra zeytin bahçesi kiralamakta ve kendine ait bahçeleri “İYİ TARIM UYGULAMALARI” kapsamında işlemektedir.",
+      "Alman teknolojisine ait GEA Westfalia marka makinesiyle hizmet vermeye başlayan firmamız ilk yılından itibaren zeytinyağı kalitesi, verim artışı ve %100 soğuk sıkım yapma tekniği ile ön plana çıkmasıyla birlikte bölgede oldukça tercih edilen bir tesis haline geldi.",
+      "Kaliteli zeytinyağı üretme konusunda oldukça deneyim kazanması ile birlikte Palamidas, kendi dolum hattını kurarak Palamidas markasıyla yurtiçi ve yurtdışı pazarlarında toptan ve perakende olarak satış hizmetleri vermeye başladı."
+    ],
+    "images": [
+      "images/markalar/gourmet-selection-early-harvest-trilye/gourmet-selection-early-harvest-trilye-about-01.jpg",
+      "images/markalar/gourmet-selection-early-harvest-trilye/gourmet-selection-early-harvest-trilye-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.palamidas.com/hakkimizda/",
+      "https://www.palamidas.com/hikayemiz/"
+    ]
+  },
+  "448": {
+    "website": "https://www.bozelli.com.tr/",
+    "headings": [
+      "Ürünlerimiz",
+      "Hikayemiz",
+      "Bana dediler ki;"
+    ],
+    "paragraphs": [
+      "Yazları çok sıcak, kışları çok soğuk olur, üstelik yüksektir de. Yüksekte zeytin olmaz.",
+      "Olsa da yağı iyi olmaz. Yabancı ağaç, Ayvalık, o hiç olmaz.",
+      "Ben, Manisa Bozburun’da hiç tarım yapılmamış bir toprak gördüm. İşlenmemiş, kimyasal bulaşmamış.",
+      "İçinden geçen derenin bölgenin iklimini değiştirdiğini gördüm. Vadiler arazide sürekli bir rüzgar olmasını sağlıyordu. Yamaçlar, farklı lezzetler için fırsat sunuyordu.",
+      "Evlat, zeytin, güneşi, taşı sever, rüzgarla lezzet alır, hele bir de yamaçtaysa yağa yatar.",
+      "Bu notu, dedemin ve babamın bana öğrettiklerine minnet ve saygı için, görüyorlarsa aynı yolda yürüdüğümü söylemek için yazdım. Bir hayalim vardı, şimdi bir zeytinyağım var.",
+      "Ben Mustafa Birhan Hazer, Mustafa Hazer’in torunu, Kaya Hazer’in oğlu, üç nesildir zeytinyağcı."
+    ],
+    "images": [
+      "images/markalar/bozelli-picual/bozelli-picual-about-01.jpg",
+      "images/markalar/bozelli-picual/bozelli-picual-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.bozelli.com.tr/hikayemiz/"
+    ]
+  },
+  "449": {
+    "website": "https://www.yudum.com.tr",
+    "headings": [],
+    "paragraphs": [],
+    "images": [],
+    "sourceUrls": []
+  },
+  "450": {
+    "website": "https://zagoda.com.tr/",
+    "headings": [
+      "Hakkımızda",
+      "2025-2026 YENİ SEZON NATÜREL SIZMA ZEYTİNYAĞLARIMIZ",
+      "2024-2025 SEZON NATÜREL SIZMA ZEYTİNYAĞLARIMIZ",
+      "Bahçemizin Bilgesi",
+      "General Information About Olive Oil"
+    ],
+    "paragraphs": [
+      ", 1947 yılında kaleme aldığı “Yaşamaya Dair” isimli şiirinde böyle seslenmiş her birimize.",
+      "Bizim için de yaşamak yanı ağır bastı ve üstadın öğüdünü tuttuk, hem de yetmişimizi beklemeden, 16.500 adet zeytin ağacı diktik. Ha öyle çocuklarımıza falan kalsın diye de değil, ömrümüze bereket olsun; sevdiklerimizle ve çevremizle bu keyfimizi paylaşalim diye.",
+      "”ne göre ağaçlarımızı tamamen doğal olarak yetiştirmek için her türlü doğal uygulamaları sistemimize entegre ettik.",
+      "Zeytinlerimizi erken hasat ettik, tek tek elle topladık ve 27 °C’nin altında soğuk olarak özenle sıktık.",
+      "Zeytinyağlarımızı hiçbir kimyasal işleme tabi tutmadan, katkı maddesi ve koruyucu kullanmadan ürettik.",
+      "Üretim ve yönetim süreçlerimizde ISO 9001:2015 Kalite Yönetim Sistemi Standartları ile ISO 22000:2018 Gıda Güvenliği Yönetim Sistemlerini uyguluyoruz.",
+      "Polifenol ve antioksidan miktarları yüksek zeytinyağlarımız, dünya standardlarında belirlenen “aroma”, “acılık” ve “yakıcılık” dengelilik özelliklerini en optimum seviyede taşısın istedik ve ZAGODA ismiyle şişeleyip damak zevkinize sunduk.",
+      "“Zagoda”, Doğu Karadeniz Bölgesi’nde, halk arasında “Salamura Yeşil Zeytin”e verilen isimdir."
+    ],
+    "images": [
+      "images/markalar/zagoda-arbequina/zagoda-arbequina-about-01.webp"
+    ],
+    "sourceUrls": [
+      "https://zagoda.com.tr/hakkimizda/",
+      "https://zagoda.com.tr/kategori/general-information-about-olive-oil/"
+    ]
+  },
+  "451": {
+    "website": "https://www.bellaserragurme.com/",
+    "headings": [
+      "İLK HASAT",
+      "İlk hasat, henüz zeytin meyvesi yeşilken yapılır. Bu dönemde zeytin kendi potansiyeline göre en yüksek polifenol değerlerine ve en düşük asitlik değerine sahiptir.",
+      "İlk hasat zeytinyağları özellikle soğuk yemeklerde, mezelerde, salatalarda ve banmalık olarak değerlendirilmelidir. Zira zeytinyağının meyvemsi lezzetinin ve nefasetini en yoğun olduğu hasat ve sıkım dönemi bu zamandır.",
+      "ERKEN HASAT",
+      "Erken hasat dönemi ilk hasattan bir hafta 10 gün sonra, zeytin meyvesi halen yeşilken yapılır. Zeytin en yüksek polifenol değerlerini barındırmaktadır. Asitlik değeri de çok düşüktür.",
+      "Erken hasat zeytinyağları da tıpkı ilk hasat zeytinyağları gibi özellikle soğuk yemeklerde, mezelerde, salatalarda ve banmalık olarak değerlendirilmelidir.",
+      "OLGUN HASAT",
+      "Erken hasatın ardından ağaçta kalan zeytin meyveleri önce mora sonra da siyaha döner. Olgun hasat zeytinyağı işte bu zamanda yapılır. Olgun hasat zeytinyağının polifenol değeri düşük olmamakla beraber ilk ve erken hasat kadar da yüksek değildir. Bella Mordane olgun hasat zeytinyağlarının asitlik değeri genellikle %0,4 - %0,6 arasındadır. Bu da çok sağlıklı ve besleyici olgun hasat demektir."
+    ],
+    "paragraphs": [
+      "4’lü Paket 1 (2 x Arbequina + 2 x Ayvalık Zeytinyağı 0,5lt) – (2025-26)",
+      "İkisi Bir Arada Paketi 1 (Arbequina + Ayvalık Zeytinyağı 0,5lt) – (2025-26)",
+      "İkisi Bir Arada Paketi 3 (2 x Arbequina Zeytinyağı – 0,5lt) – (2025-26)",
+      "İkisi Bir Arada Paketi 2 (2 x Ayvalık 0,5lt) – (2025-26)",
+      "Arbequina – Fitresiz İlk Hasat Zeytinyağı – 0,5lt Şişe (2025-26)",
+      "Arbequina – İlk Hasat Zeytinyağı – 0,5lt Şişe (2025-26)",
+      "Arbequina – Erken Hasat Zeytinyağı – 0,5lt Şişe (2025-26)",
+      "Bella Serra ismiyle yola çıktığımız ilk günden bu yana toprağın, ağacın, zeytin meyvesinin kıymetini bildik ve bu doğa hediyelerinin hakkını vermek için çabaladık."
+    ],
+    "images": [
+      "images/markalar/bella-mordane-arbequina/bella-mordane-arbequina-about-01.jpg",
+      "images/markalar/bella-mordane-arbequina/bella-mordane-arbequina-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.bellaserragurme.com/bella-mordane-hakkimizda/"
+    ]
+  },
+  "452": {
+    "website": "https://granpa.com.tr/",
+    "headings": [
+      "Alışveriş Sepeti (0)",
+      "Bedeninizi ve",
+      "Ruhunuzu Besler...",
+      "Ruhunuzu Besler",
+      "Premium Zeytinyağları",
+      "Çeşnili Zeytinyağları",
+      "Granpa Ailesi",
+      "En Çok Satanlar"
+    ],
+    "paragraphs": [
+      "Dedelerimizin bilgeliğinden ve torunlarına duydukları sınırsız sevgiden ilham alan Granpa ürünleri zeytine duyduğumuz sonsuz saygının en leziz yansıması.",
+      "Köklerinden ilham alan bir şişe, her damlasında doğanın özü. Granpa ile nesillerin bilgeliği,sevdiklerinizle aynı sofrada buluşuyor.",
+      "Zeytinyağını sofralarınıza dahil etmenin keyifli yollarına birlikte bakalım. Zeytinyağı, binlerce yıldır mutfakların vazgeçilmez lezzetlerinden biri. Her damlasında doğanın özünü barındıran...",
+      "Bazı sofralar birlikte gülmek, paylaşmak, yaşamak için kuruluyor. Akdeniz ruhu da tam olarak bu hissin peşinden gidiyor. Gösterişten uzak, doğaya...",
+      "Zeytinyağı, çoğu zaman yalnızca bir yemek bileşeni olarak görülüyor. Oysa onun dünyası şarap ya da kahve kadar katmanlı, karakterli ve...",
+      "Zeytinyağı, doğanın sunduğu en zarif ve hassas lezzetlerden biri. Şişenin içindeki bu değerli yeşil, doğru şekilde muhafaza edildiğinde yalnızca tadını...",
+      "Fenerbahçe Mahallesi Operatör Cemil Topuzlu Caddesi No: 41E, Kadıköy 34726",
+      "En büyük ilhamımız; dedelerin torunlarına duydukları tarifsiz sevgi ve onlara gösterdikleri sonsuz özen."
+    ],
+    "images": [
+      "images/markalar/granpa-premium-trilye/granpa-premium-trilye-about-01.jpg",
+      "images/markalar/granpa-premium-trilye/granpa-premium-trilye-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://granpa.com.tr/pages/hakkimizda"
+    ]
+  },
+  "453": {
+    "website": "https://granpa.com.tr/",
+    "headings": [
+      "Alışveriş Sepeti (0)",
+      "Bedeninizi ve",
+      "Ruhunuzu Besler...",
+      "Ruhunuzu Besler",
+      "Premium Zeytinyağları",
+      "Çeşnili Zeytinyağları",
+      "Granpa Ailesi",
+      "En Çok Satanlar"
+    ],
+    "paragraphs": [
+      "Dedelerimizin bilgeliğinden ve torunlarına duydukları sınırsız sevgiden ilham alan Granpa ürünleri zeytine duyduğumuz sonsuz saygının en leziz yansıması.",
+      "Köklerinden ilham alan bir şişe, her damlasında doğanın özü. Granpa ile nesillerin bilgeliği,sevdiklerinizle aynı sofrada buluşuyor.",
+      "Zeytinyağını sofralarınıza dahil etmenin keyifli yollarına birlikte bakalım. Zeytinyağı, binlerce yıldır mutfakların vazgeçilmez lezzetlerinden biri. Her damlasında doğanın özünü barındıran...",
+      "Bazı sofralar birlikte gülmek, paylaşmak, yaşamak için kuruluyor. Akdeniz ruhu da tam olarak bu hissin peşinden gidiyor. Gösterişten uzak, doğaya...",
+      "Zeytinyağı, çoğu zaman yalnızca bir yemek bileşeni olarak görülüyor. Oysa onun dünyası şarap ya da kahve kadar katmanlı, karakterli ve...",
+      "Zeytinyağı, doğanın sunduğu en zarif ve hassas lezzetlerden biri. Şişenin içindeki bu değerli yeşil, doğru şekilde muhafaza edildiğinde yalnızca tadını...",
+      "Fenerbahçe Mahallesi Operatör Cemil Topuzlu Caddesi No: 41E, Kadıköy 34726",
+      "En büyük ilhamımız; dedelerin torunlarına duydukları tarifsiz sevgi ve onlara gösterdikleri sonsuz özen."
+    ],
+    "images": [
+      "images/markalar/granpa-memecik/granpa-memecik-about-01.jpg",
+      "images/markalar/granpa-memecik/granpa-memecik-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://granpa.com.tr/pages/hakkimizda"
+    ]
+  },
+  "454": {
+    "website": "https://granpa.com.tr/",
+    "headings": [
+      "Alışveriş Sepeti (0)",
+      "Bedeninizi ve",
+      "Ruhunuzu Besler...",
+      "Ruhunuzu Besler",
+      "Premium Zeytinyağları",
+      "Çeşnili Zeytinyağları",
+      "Granpa Ailesi",
+      "En Çok Satanlar"
+    ],
+    "paragraphs": [
+      "Dedelerimizin bilgeliğinden ve torunlarına duydukları sınırsız sevgiden ilham alan Granpa ürünleri zeytine duyduğumuz sonsuz saygının en leziz yansıması.",
+      "Köklerinden ilham alan bir şişe, her damlasında doğanın özü. Granpa ile nesillerin bilgeliği,sevdiklerinizle aynı sofrada buluşuyor.",
+      "Zeytinyağını sofralarınıza dahil etmenin keyifli yollarına birlikte bakalım. Zeytinyağı, binlerce yıldır mutfakların vazgeçilmez lezzetlerinden biri. Her damlasında doğanın özünü barındıran...",
+      "Bazı sofralar birlikte gülmek, paylaşmak, yaşamak için kuruluyor. Akdeniz ruhu da tam olarak bu hissin peşinden gidiyor. Gösterişten uzak, doğaya...",
+      "Zeytinyağı, çoğu zaman yalnızca bir yemek bileşeni olarak görülüyor. Oysa onun dünyası şarap ya da kahve kadar katmanlı, karakterli ve...",
+      "Zeytinyağı, doğanın sunduğu en zarif ve hassas lezzetlerden biri. Şişenin içindeki bu değerli yeşil, doğru şekilde muhafaza edildiğinde yalnızca tadını...",
+      "Fenerbahçe Mahallesi Operatör Cemil Topuzlu Caddesi No: 41E, Kadıköy 34726",
+      "En büyük ilhamımız; dedelerin torunlarına duydukları tarifsiz sevgi ve onlara gösterdikleri sonsuz özen."
+    ],
+    "images": [
+      "images/markalar/granpa-gold/granpa-gold-about-01.jpg",
+      "images/markalar/granpa-gold/granpa-gold-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://granpa.com.tr/pages/hakkimizda"
+    ]
+  },
+  "455": {
+    "website": "https://www.kokluzeytincilik.com.tr/",
+    "headings": [
+      "Çerez Politikası",
+      "Çerez Tercihleri"
+    ],
+    "paragraphs": [],
+    "images": [],
+    "sourceUrls": [
+      "https://www.kokluzeytincilik.com.tr/sayfa/hakkimizda"
+    ]
+  },
+  "456": {
+    "website": "https://armollia.com/",
+    "headings": [
+      "$ 27.49",
+      "$ 43.11",
+      "$ 250.80",
+      "$ 975.50",
+      "Armolia Premium Olive Oil Extra Virgin 8.45 Fl Oz / 250 mL (Pack of 1)",
+      "$27.49",
+      "Armolia Premium Olive Oil Extra Virgin",
+      "16.9 Fl Oz / 500 mL (Pack of 1)"
+    ],
+    "paragraphs": [
+      "Armolia NYIOOC 2025 Gold Award Winner Premium Olive Oil Extra Virgin, Rich Polyphenol (<400 mg/kg) Low-Acidity (0.14%) Drinking Oil, Early Harvest, Cold Pressed and Hand Picked.",
+      "Armolia Premium Olive Oil Extra Virgin 8.45 Fl Oz / 250 mL (Pack of 1)",
+      "Armolia Arbequina has indeed achieved impressive recognition, being declared one of the World’s Best Olive Oils for 2024 and receiving a Silver Award from the NYIOOC World Olive Oil Competition. The NYIOOC is one of the most prestigious olive oil competitions globally, so this recognition speaks volumes about Armolia’s commitment to excellence in olive oil production.",
+      "The name Arbequina, comes from the Spanish village Arbeca, where this hardy olive cultivar originated in the 17th century. Olea ‘Arbequina’ is now one of the most important cultivars in worldwide olive production, prized for its highly aromatic, high oil content.",
+      "ARBEQUINA is indeed a unique olive oil experience. The name itself suggests something special. Arbequina olives are known for their distinctive flavor profile-often described as fruity, nutty, and slightly sweet. These olives are primarily grown in Koprubasi,Manisa and their oil is highly regarded by chefs and food enthusiasts.",
+      "Arbequina olive oil not only delights the palate but also offers a range of health benefits. Additionally, Arbequina olive oil contains antioxidants, such as vitamin E and polyphenols, which can help combat inflammation and oxidative.",
+      "THE PREMIUM QUALITY ARMOLIA ARBEQUINA EXTRA VIRGIN OLIVE OIL has numerous benefits and properties for our health. It is a typical product of the Mediterranean diet and is recommended by nutritionists for its excellent functions for the organism.It stands out for its power",
+      "The antioxidant and anti-inflammatory chemicals that give this food great nutritional value..The fact is that early harvest extra virgin olive oil, apart from having great benefits, is a perfect food to include in any diet."
+    ],
+    "images": [
+      "images/markalar/armolia/armolia-about-01.webp",
+      "images/markalar/armolia/armolia-about-02.webp"
+    ],
+    "sourceUrls": [
+      "https://armollia.com/about-us/"
+    ]
+  },
+  "457": {
+    "website": "https://www.birsenhanim.com/",
+    "headings": [
+      "Natural Sızma Zeytinyağı",
+      "Yüksek Polifenol - Soğuk Sıkım",
+      "Ürünler",
+      "4000,00₺",
+      "3150,00₺",
+      "6150,00₺",
+      "7600,00₺",
+      "12000,00₺"
+    ],
+    "paragraphs": [
+      "IFE 2025 Food, Drink & Hospitality Fuarına Katıldık - 17-19 Mart 2025",
+      "Zeytin ağaçları için ideal habitatın güneş, taş, kuraklık, sessizlik ve yalnızlık gerektirdiği söylenir.",
+      "Birsen Hanım, ihtiyaç duyduğu beş malzemeyi, yüksek dağlarla çevrili kayalık Batı Anadolu manzarasında bulmuştur. Yazları sıcak, kışları ise serin geçen iklim, çok bireysel özelliklere sahip zeytin çeşitlerinin yetiştirilmesi için ideal ortamı yaratır.",
+      "Birsen Hanım Zeytinliği bir aile işletmesidir ve muhteşem ürünlerimizi sofralarınıza getirmekle bizzat biz ilgileniyoruz. İyi zeytinyağı, yiyeceklere harika bir tat verir ve biz yalnızca en iyi, sızma zeytinyağını seçeriz."
+    ],
+    "images": [
+      "images/markalar/birsen-hanim-arbequina/birsen-hanim-arbequina-about-01.jpg",
+      "images/markalar/birsen-hanim-arbequina/birsen-hanim-arbequina-about-02.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.birsenhanim.com/hakkimizda"
     ]
   }
 }

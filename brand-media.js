@@ -2716,5 +2716,255 @@ const brandMedia = {
             "images/markalar/zeytinana/zeytinana-bottle-02-bottle-detail-02.jpg"
         ],
         "info": "ZeytinAna, Ayvalık, Balıkesir çizgisinde zeytinyağı ile ilişkilendirilen bir üreticidir. Gemlik zeytini, Gemlik Zeytinyağı, yeşil zeytin, zeytinyağı, taş baskı zeytinyağı, soğuk sıkım zeytinyağı, turşu, reçel, tarhana, şarküteri ve kozmetik ürünleri satışı yapmaktadır. , Gemlik Zeytinyağı"
+    },
+    "433": {
+        "slug": "safitad-private-reserve",
+        "logo": "images/markalar/safitad-private-reserve/safitad-private-reserve-logo.png",
+        "bottles": [
+            "images/markalar/safitad-private-reserve/safitad-private-reserve-bottle-01-10352.png",
+            "images/markalar/safitad-private-reserve/safitad-private-reserve-bottle-02-bottle-01-10352.png",
+            "images/markalar/safitad-private-reserve/safitad-private-reserve-bottle-03-bottle-02-safitad-bottle-01-erken-750.png"
+        ],
+        "info": "Safitad Private Reserve, Çanakkale çizgisinde Domat zeytinlerinden hazırlanan 2026 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "434": {
+        "slug": "luxe",
+        "logo": "images/markalar/luxe/luxe-logo.png",
+        "bottles": [
+            "images/markalar/luxe/luxe-bottle-01-luxe.webp",
+            "images/markalar/luxe/luxe-bottle-02-750.webp",
+            "images/markalar/luxe/luxe-bottle-03-9792.png"
+        ],
+        "info": "Luxe, Ayvalık, Balıkesir çizgisinde Ayvalik zeytinlerinden hazırlanan 2026 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "435": {
+        "slug": "zagoda-ayvalik",
+        "logo": "images/markalar/zagoda-ayvalik/zagoda-ayvalik-logo.png",
+        "bottles": [
+            "images/markalar/zagoda-ayvalik/zagoda-ayvalik-bottle-01-10174.png",
+            "images/markalar/zagoda-ayvalik/zagoda-ayvalik-bottle-02-bottle-01-10174.png",
+            "images/markalar/zagoda-ayvalik/zagoda-ayvalik-bottle-03-bottle-02-zagoda-bottle-01-arbequina-erken-500ml.webp"
+        ],
+        "info": "Zagoda Ayvalık, Akhisar, Manisa çizgisinde Ayvalik zeytinlerinden hazırlanan 2026 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "436": {
+        "slug": "true-olive-private-reserve",
+        "logo": "images/markalar/true-olive-private-reserve/true-olive-private-reserve-logo.png",
+        "bottles": [
+            "images/markalar/true-olive-private-reserve/true-olive-private-reserve-bottle-01-private-reserve.webp",
+            "images/markalar/true-olive-private-reserve/true-olive-private-reserve-bottle-02-private-reserve-750.webp",
+            "images/markalar/true-olive-private-reserve/true-olive-private-reserve-bottle-03-9791.png"
+        ],
+        "info": "True Olive Private Reserve, Edremit, Balıkesir çizgisinde Edremit zeytinlerinden hazırlanan 2026 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "437": {
+        "slug": "zagoda-trilye",
+        "logo": "images/markalar/zagoda-trilye/zagoda-trilye-logo.png",
+        "bottles": [
+            "images/markalar/zagoda-trilye/zagoda-trilye-bottle-01-10175.png",
+            "images/markalar/zagoda-trilye/zagoda-trilye-bottle-02-bottle-01-10175.png",
+            "images/markalar/zagoda-trilye/zagoda-trilye-bottle-03-zagoda-bottle-01-arbequina-erken-500ml.webp"
+        ],
+        "info": "Zagoda Trilye, Akhisar, Manisa çizgisinde Trilye zeytinlerinden hazırlanan 2026 Silver ödüllü bir natürel sızma seçimidir."
+    },
+    "438": {
+        "slug": "funoli-organic",
+        "logo": "images/markalar/funoli-organic/funoli-organic-logo.svg",
+        "bottles": [
+            "images/markalar/funoli-organic/funoli-organic-bottle-01-9902.png",
+            "images/markalar/funoli-organic/funoli-organic-bottle-02-bottle-01-9902.png",
+            "images/markalar/funoli-organic/funoli-organic-bottle-03-bottle-02-funoli-bottle-01-organik-400x400.jpg"
+        ],
+        "info": "Funoli Organic, Milas, Muğla çizgisinde Memecik zeytinlerinden hazırlanan 2026 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "439": {
+        "slug": "funoli-goldere",
+        "logo": "images/markalar/funoli-goldere/funoli-goldere-logo.svg",
+        "bottles": [
+            "images/markalar/funoli-goldere/funoli-goldere-bottle-01-9903.png",
+            "images/markalar/funoli-goldere/funoli-goldere-bottle-02-bottle-01-9903.png",
+            "images/markalar/funoli-goldere/funoli-goldere-bottle-03-bottle-02-funoli-bottle-01-organik-400x400.jpg"
+        ],
+        "info": "Funoli Göldere, Milas, Muğla çizgisinde Memecik zeytinlerinden hazırlanan 2026 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "440": {
+        "slug": "fayton-ayvalik",
+        "logo": "images/markalar/fayton-ayvalik/fayton-ayvalik-logo.webp",
+        "bottles": [
+            "images/markalar/fayton-ayvalik/fayton-ayvalik-bottle-01-10327.png",
+            "images/markalar/fayton-ayvalik/fayton-ayvalik-bottle-02-bottle-01-10327.png",
+            "images/markalar/fayton-ayvalik/fayton-ayvalik-bottle-03-bottle-02-fayton-bottle-01-500-ml-1.webp"
+        ],
+        "info": "Fayton Ayvalık, Ayvalık, Balıkesir çizgisinde Ayvalik zeytinlerinden hazırlanan 2026 Silver ödüllü bir natürel sızma seçimidir."
+    },
+    "441": {
+        "slug": "asiltane-limited-ozel-hasat",
+        "logo": "images/markalar/asiltane-limited-ozel-hasat/asiltane-limited-ozel-hasat-logo.svg",
+        "bottles": [
+            "images/markalar/asiltane-limited-ozel-hasat/asiltane-limited-ozel-hasat-bottle-01-9601.png",
+            "images/markalar/asiltane-limited-ozel-hasat/asiltane-limited-ozel-hasat-bottle-02-asiltane-bottle-01-erken-hasat-soguk-sikim-naturel-sizma-zeytinyagi-500.jpg",
+            "images/markalar/asiltane-limited-ozel-hasat/asiltane-limited-ozel-hasat-bottle-03-asiltane-bottle-02-bottle-detail-02.jpg"
+        ],
+        "info": "Asiltane Limited Özel Hasat, Aydın, Ege çizgisinde Edremit zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "442": {
+        "slug": "safitad-early-harvest",
+        "logo": "images/markalar/safitad-early-harvest/safitad-early-harvest-logo.png",
+        "bottles": [
+            "images/markalar/safitad-early-harvest/safitad-early-harvest-bottle-01-9159.png",
+            "images/markalar/safitad-early-harvest/safitad-early-harvest-bottle-02-safitad-bottle-01-erken-750.png",
+            "images/markalar/safitad-early-harvest/safitad-early-harvest-bottle-03-safitad-bottle-02-bottle-detail-02.jpg"
+        ],
+        "info": "Safitad Early Harvest, Çanakkale çizgisinde Ayvalik zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "443": {
+        "slug": "tuay-zeytinin-efendisi",
+        "logo": "images/markalar/tuay-zeytinin-efendisi/tuay-zeytinin-efendisi-logo.png",
+        "bottles": [
+            "images/markalar/tuay-zeytinin-efendisi/tuay-zeytinin-efendisi-bottle-01-9662.png",
+            "images/markalar/tuay-zeytinin-efendisi/tuay-zeytinin-efendisi-bottle-02-tuay-bottle-01-500cc-koyu-renk-cam-sise-organik-icimlik-naturel-sizma-ze.jpg",
+            "images/markalar/tuay-zeytinin-efendisi/tuay-zeytinin-efendisi-bottle-03-tuay-bottle-02-bottle-detail-02.jpg"
+        ],
+        "info": "Tuay Zeytinin Efendisi, Milas, Muğla çizgisinde Memecik zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "444": {
+        "slug": "nermin-hanim-zeytinligi-edremit",
+        "logo": "images/markalar/nermin-hanim-zeytinligi-edremit/nermin-hanim-zeytinligi-edremit-logo.webp",
+        "bottles": [
+            "images/markalar/nermin-hanim-zeytinligi-edremit/nermin-hanim-zeytinligi-edremit-bottle-01-9594.png",
+            "images/markalar/nermin-hanim-zeytinligi-edremit/nermin-hanim-zeytinligi-edremit-bottle-02-nermin-hanim-zeytinligi-bottle-01-bottle-03-tril.webp",
+            "images/markalar/nermin-hanim-zeytinligi-edremit/nermin-hanim-zeytinligi-edremit-bottle-03-nermin-hanim-zeytinligi-bottle-02-arbe.webp"
+        ],
+        "info": "Nermin Hanım Zeytinliği Edremit, Edremit, Balıkesir çizgisinde Edremit zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "445": {
+        "slug": "oleavia-south-aegean-special",
+        "logo": "images/markalar/oleavia-south-aegean-special/oleavia-south-aegean-special-logo.avif",
+        "bottles": [
+            "images/markalar/oleavia-south-aegean-special/oleavia-south-aegean-special-bottle-01-9267.png",
+            "images/markalar/oleavia-south-aegean-special/oleavia-south-aegean-special-bottle-02-photoroom-20250703-122418.avif",
+            "images/markalar/oleavia-south-aegean-special/oleavia-south-aegean-special-bottle-03-asilik2-jpg.avif"
+        ],
+        "info": "Oleavia South Aegean Special, Milas, Muğla çizgisinde Memecik ve Ayvalık zeytinlerinden hazırlanan 2025 Silver ödüllü bir natürel sızma seçimidir."
+    },
+    "446": {
+        "slug": "gourmet-selection-domat",
+        "logo": "images/markalar/gourmet-selection-domat/gourmet-selection-domat-logo.png",
+        "bottles": [
+            "images/markalar/gourmet-selection-domat/gourmet-selection-domat-bottle-01-9444.png",
+            "images/markalar/gourmet-selection-domat/gourmet-selection-domat-bottle-02-palamidas-bottle-01-bottle-03-500-ml-organik-naturel-sizma-zey.webp",
+            "images/markalar/gourmet-selection-domat/gourmet-selection-domat-bottle-03-palamidas-bottle-02-bottle-01-5-lt-tnk-soguk-sikim-naturel-siz.webp"
+        ],
+        "info": "Gourmet Selection Domat, Akhisar, Manisa çizgisinde Domat zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "447": {
+        "slug": "gourmet-selection-early-harvest-trilye",
+        "logo": "images/markalar/gourmet-selection-early-harvest-trilye/gourmet-selection-early-harvest-trilye-logo.png",
+        "bottles": [
+            "images/markalar/gourmet-selection-early-harvest-trilye/gourmet-selection-early-harvest-trilye-bottle-01-9445.png",
+            "images/markalar/gourmet-selection-early-harvest-trilye/gourmet-selection-early-harvest-trilye-bottle-02-palamidas-bottle-01-bottle-03-500-ml-organik-naturel-sizma-zey.webp",
+            "images/markalar/gourmet-selection-early-harvest-trilye/gourmet-selection-early-harvest-trilye-bottle-03-palamidas-bottle-02-bottle-01-5-lt-tnk-soguk-sikim-naturel-siz.webp"
+        ],
+        "info": "Gourmet Selection Early Harvest Trilye, Akhisar, Manisa çizgisinde Trilye zeytinlerinden hazırlanan 2025 Silver ödüllü bir natürel sızma seçimidir."
+    },
+    "448": {
+        "slug": "bozelli-picual",
+        "logo": "images/markalar/bozelli-picual/bozelli-picual-logo.png",
+        "bottles": [
+            "images/markalar/bozelli-picual/bozelli-picual-bottle-01-9604.png",
+            "images/markalar/bozelli-picual/bozelli-picual-bottle-02-bozelli-bottle-01-5-lt-ehss-600x600.jpg",
+            "images/markalar/bozelli-picual/bozelli-picual-bottle-03-bozelli-bottle-02-bottle-detail-02.jpg"
+        ],
+        "info": "Bozelli Picual, Akhisar, Manisa çizgisinde Picual zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "449": {
+        "slug": "yudum-egemden-erken-hasat",
+        "logo": "images/markalar/yudum-egemden-erken-hasat/yudum-egemden-erken-hasat-logo.svg",
+        "bottles": [
+            "images/markalar/yudum-egemden-erken-hasat/yudum-egemden-erken-hasat-bottle-01-9116.png",
+            "images/markalar/yudum-egemden-erken-hasat/yudum-egemden-erken-hasat-bottle-02-yudum-bottle-01-bottle-02-naturel-sizma-5-lt-teneke-z.jpg",
+            "images/markalar/yudum-egemden-erken-hasat/yudum-egemden-erken-hasat-bottle-03-yudum-bottle-02-bottle-03-egemden-sizma-zeytinyagi-500-ml-bc.png"
+        ],
+        "info": "Yudum Egemden Erken Hasat, Edremit, Balıkesir çizgisinde Edremit zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "450": {
+        "slug": "zagoda-arbequina",
+        "logo": "images/markalar/zagoda-arbequina/zagoda-arbequina-logo.png",
+        "bottles": [
+            "images/markalar/zagoda-arbequina/zagoda-arbequina-bottle-01-9003.png",
+            "images/markalar/zagoda-arbequina/zagoda-arbequina-bottle-02-zagoda-bottle-01-arbequina-erken-500ml.webp",
+            "images/markalar/zagoda-arbequina/zagoda-arbequina-bottle-03-zagoda-bottle-02-bottle-detail-02.jpg"
+        ],
+        "info": "Zagoda Arbequina, Akhisar, Manisa çizgisinde Arbequina zeytinlerinden hazırlanan 2025 Silver ödüllü bir natürel sızma seçimidir."
+    },
+    "451": {
+        "slug": "bella-mordane-arbequina",
+        "logo": "images/markalar/bella-mordane-arbequina/bella-mordane-arbequina-logo.png",
+        "bottles": [
+            "images/markalar/bella-mordane-arbequina/bella-mordane-arbequina-bottle-01-8794.png",
+            "images/markalar/bella-mordane-arbequina/bella-mordane-arbequina-bottle-02-bella-mordane-bottle-01-yeni-hasat-bella-mordane-3.jpg",
+            "images/markalar/bella-mordane-arbequina/bella-mordane-arbequina-bottle-03-bella-mordane-bottle-02-bottle-detail-02.jpg"
+        ],
+        "info": "Bella Mordane Arbequina, Akhisar, Manisa çizgisinde Arbequina zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "452": {
+        "slug": "granpa-premium-trilye",
+        "logo": "images/markalar/granpa-premium-trilye/granpa-premium-trilye-logo.webp",
+        "bottles": [
+            "images/markalar/granpa-premium-trilye/granpa-premium-trilye-bottle-01-9587.png",
+            "images/markalar/granpa-premium-trilye/granpa-premium-trilye-bottle-02-granpa-bottle-01-bottle-02-premium-trilye-500ml-erken-hasa.webp",
+            "images/markalar/granpa-premium-trilye/granpa-premium-trilye-bottle-03-granpa-bottle-02-bottle-03-gold-250ml-erken-hasat-soguk-si.webp"
+        ],
+        "info": "Granpa Premium Trilye, Bursa, Marmara çizgisinde Trilye zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "453": {
+        "slug": "granpa-memecik",
+        "logo": "images/markalar/granpa-memecik/granpa-memecik-logo.webp",
+        "bottles": [
+            "images/markalar/granpa-memecik/granpa-memecik-bottle-01-8799.png",
+            "images/markalar/granpa-memecik/granpa-memecik-bottle-02-granpa-bottle-01-bottle-02-premium-trilye-500ml-erken-hasa.webp",
+            "images/markalar/granpa-memecik/granpa-memecik-bottle-03-granpa-bottle-02-bottle-03-gold-250ml-erken-hasat-soguk-si.webp"
+        ],
+        "info": "Granpa Memecik, Bursa, Marmara çizgisinde Memecik zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "454": {
+        "slug": "granpa-gold",
+        "logo": "images/markalar/granpa-gold/granpa-gold-logo.webp",
+        "bottles": [
+            "images/markalar/granpa-gold/granpa-gold-bottle-01-8798.png",
+            "images/markalar/granpa-gold/granpa-gold-bottle-02-granpa-bottle-01-bottle-02-premium-trilye-500ml-erken-hasa.webp",
+            "images/markalar/granpa-gold/granpa-gold-bottle-03-granpa-bottle-02-bottle-03-gold-250ml-erken-hasat-soguk-si.webp"
+        ],
+        "info": "Granpa Gold, Bursa, Marmara çizgisinde özenle seçilen zeytinlerden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "455": {
+        "slug": "ayvalik-koklu",
+        "logo": "images/markalar/ayvalik-koklu/ayvalik-koklu-logo.png",
+        "bottles": [
+            "images/markalar/ayvalik-koklu/ayvalik-koklu-bottle-01-9454.png",
+            "images/markalar/ayvalik-koklu/ayvalik-koklu-bottle-02-koklu-bottle-01-kirma-yeni-mahsul-amblemsiz-min.jpg",
+            "images/markalar/ayvalik-koklu/ayvalik-koklu-bottle-03-koklu-bottle-02-bottle-detail-02.jpg"
+        ],
+        "info": "Ayvalık Köklü, Ayvalık, Balıkesir çizgisinde Tekir zeytinlerinden hazırlanan 2025 Silver ödüllü bir natürel sızma seçimidir."
+    },
+    "456": {
+        "slug": "armolia",
+        "logo": "images/markalar/armolia/armolia-logo.webp",
+        "bottles": [
+            "images/markalar/armolia/armolia-bottle-01-9578.png",
+            "images/markalar/armolia/armolia-bottle-02-premium-olive-oil-extra-virgin-500-ml.webp",
+            "images/markalar/armolia/armolia-bottle-03-premium-olive-oil-extra-virgin-250-ml.webp"
+        ],
+        "info": "Armolia, Selçuk, İzmir çizgisinde Arbequina zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
+    },
+    "457": {
+        "slug": "birsen-hanim-arbequina",
+        "logo": "images/markalar/birsen-hanim-arbequina/birsen-hanim-arbequina-logo.png",
+        "bottles": [
+            "images/markalar/birsen-hanim-arbequina/birsen-hanim-arbequina-bottle-01-9595.png",
+            "images/markalar/birsen-hanim-arbequina/birsen-hanim-arbequina-bottle-02-arbequina-6li-sise-1599.jpg",
+            "images/markalar/birsen-hanim-arbequina/birsen-hanim-arbequina-bottle-03-3-litre-arbequina-1622.jpg"
+        ],
+        "info": "Birsen Hanım Arbequina, Köprübaşı, Manisa çizgisinde Arbequina zeytinlerinden hazırlanan 2025 Gold ödüllü bir natürel sızma seçimidir."
     }
 };
