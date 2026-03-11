@@ -800,8 +800,8 @@
       "3lü Premium Ayvalık, Premium Memecik ve Premium Yamalak Sarısı 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)",
       "3'lü Doğal Bakım Seti - Mandalinalı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Portakallı ve Zeytinyağlı Katı Sabun",
       "3'lü Doğal Bakım Seti - Yeşil Çaylı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Zeytinyağlı Katı Sabun",
-      "2li Premium Ayvalık ve Premium Memecik 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)",
-      "KIDS | Çocuklara Özel 250 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)"
+      "KIDS | Çocuklara Özel 250 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)",
+      "Premium Memecik 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)"
     ],
     "images": [
       "images/markalar/gaia-oliva/gaia-oliva-about-01.jpg",
@@ -2232,7 +2232,7 @@
     ]
   },
   "110": {
-    "website": "https://www.kozoliv.com.tr/",
+    "website": "https://kozoliv.com.tr/",
     "headings": [
       "HAKKIMIZDA"
     ],
@@ -2268,7 +2268,7 @@
     ],
     "paragraphs": [
       "Muğla'nın Milas ilçesi, binlerce yıldır zeytincilikle anılan kadim bir coğrafya. Milasso, bu toprakların sunduğu eşsiz terroir'ı modern bilimle buluşturarak ortaya çıktı.",
-      "Her şişe Milasso, mevsimin en erken döneminde — zeytinler henüz yeşilken — özenle hasat edilen meyvelerden, soğuk sıkım yöntemiyle üretilir. Bu yöntem, zeytinyağının doğal bileşenlerini ve aromasını en yüksek seviyede korur.",
+      "Her şişe Milasso, mevsimin en erken döneminde zeytinler henüz yeşilken özenle hasat edilen meyvelerden, soğuk sıkım yöntemiyle üretilir. Bu yöntem, zeytinyağının doğal bileşenlerini ve aromasını en yüksek seviyede korur.",
       "Amacımız sıradan bir zeytinyağı değil; sağlığınıza katkı sunan, damağınızda iz bırakan bir deneyim üretmek.",
       "Avrupa Gıda Güvenliği Otoritesi (EFSA), zeytinyağındaki polifenollerin kan lipitlerini oksidatif stresten korumaya katkıda bulunduğunu onaylamıştır. Milasso, bu değerli bileşenleri normalin 3 ila 5 katı oranında içerir.",
       "Yüksek polifenol içeriği, vücudun doğal antioksidan savunmasına destek sağlar. Araştırmalar, düzenli tüketimin hücre sağlığına olumlu katkıda bulunabileceğini göstermektedir.",
@@ -2281,7 +2281,8 @@
       "images/markalar/milasso/milasso-about-02.jpg"
     ],
     "sourceUrls": [
-      "https://milasso.com.tr/ultra-premium-hediyelik"
+      "https://milasso.com.tr/ultra-premium-hediyelik",
+      "https://milasso.com.tr/bizim-hikayemiz"
     ]
   },
   "112": {
@@ -3069,9 +3070,7 @@
       "Polifenol ve antioksidan miktarları yüksek zeytinyağlarımız, dünya standardlarında belirlenen “aroma”, “acılık” ve “yakıcılık” dengelilik özelliklerini en optimum seviyede taşısın istedik ve ZAGODA ismiyle şişeleyip damak zevkinize sunduk.",
       "“Zagoda”, Doğu Karadeniz Bölgesi’nde, halk arasında “Salamura Yeşil Zeytin”e verilen isimdir."
     ],
-    "images": [
-      "images/markalar/zagoda/zagoda-about-01.webp"
-    ],
+    "images": [],
     "sourceUrls": [
       "https://zagoda.com.tr/hakkimizda/",
       "https://zagoda.com.tr/kategori/general-information-about-olive-oil/"
@@ -3207,7 +3206,7 @@
     ],
     "images": [
       "images/markalar/bozelli/bozelli-about-01.jpg",
-      "images/markalar/bozelli/bozelli-about-02.jpg"
+      "images/markalar/bozelli/bozelli-about-02.png"
     ],
     "sourceUrls": [
       "https://www.bozelli.com.tr/hikayemiz/"
@@ -3357,9 +3356,7 @@
       "Ravla Kids Organik Erken Hasat Zeytinyağı – İçimlik 500 ml",
       "Ravla Organik Erken Hasat Naturel Sızma Zeytinyağı - Sofralık 5L"
     ],
-    "images": [
-      "images/markalar/ravla-gurme/ravla-gurme-about-02.webp"
-    ],
+    "images": [],
     "sourceUrls": [
       "https://ravla.com/"
     ]
@@ -3922,9 +3919,7 @@
     "website": "https://www.ganos.com.tr/",
     "headings": [],
     "paragraphs": [],
-    "images": [
-      "images/markalar/ganos-olive-oil/ganos-olive-oil-about-01.jpg"
-    ],
+    "images": [],
     "sourceUrls": [
       "https://www.ganos.com.tr/sayfa/hakkimizda"
     ]
@@ -4214,8 +4209,8 @@
     "website": "https://www.angelos.com.tr/tr/",
     "headings": [
       "NOP Sertifikası",
-      "BIO Sertifikası",
       "Müteşebbis Sertifikası",
+      "BIO Sertifikası",
       "Ürünlerimiz",
       "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
       "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -4631,8 +4626,7 @@
     "website": "https://www.byteo.com.tr/",
     "headings": [
       "Blog",
-      "Zeytinyağında Polifenol ve Antioksidan Hikâyesi",
-      "Zeytinyağının Uluslararası Başarı Hikâyesi"
+      "Zeytinyağında Polifenol ve Antioksidan Hikâyesi"
     ],
     "paragraphs": [
       "Byteo, erken hasat ve soğuk sıkım tekniğiyle toprağın emeğini, ağacın gölgesini ve zeytinin özünü aynı şişede buluşturur.",
@@ -4650,8 +4644,7 @@
     ],
     "sourceUrls": [
       "https://www.byteo.com.tr/hakkimizda/",
-      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/",
-      "https://www.byteo.com.tr/zeytinyaginin-uluslararasi-basari-hikayesi/"
+      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/"
     ]
   },
   "270": {
@@ -5358,11 +5351,12 @@
       "SİZİN İÇİN"
     ],
     "paragraphs": [
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
       "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
+      "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
     ],
     "images": [
       "images/markalar/ustali/ustali-about-01.jpg",
@@ -5541,7 +5535,7 @@
     "website": "https://www.themill.com.tr/",
     "headings": [],
     "paragraphs": [
-      "350 yıllık tarım geleneğimizi yenilikçi bakış açımızla birleştirerek sizlere harika lezzetler oluşturduk.",
+      "350 yıllık köklü tarım geçmişimizle, Edremit’te yetişen zeytinlerden elde edilen zeytinyağı başta olmak üzere doğal ve katkısız gıda ürünlerini sofranıza ulaştırıyoruz. Doğallığı koruyan üretim anlayışımız ve modern tekniklerle üretilen ürünlerimizle, güvenle tüketebileceğiniz lezzetler sunuyoruz.",
       "The Mill Natürel Sızma Zeytinyağı, kaliteli zeytinlerden özenle üretilen eşsiz bir lezzettir. Sofralarınıza sağlık ve nefis aroma katarken mutfaklarınızın vazgeçilmezi olmaya aday.",
       "The Mill Gurme Serisi, seçkin malzemelerle mutfaklara yeni bir soluk getiriyor. Özenle hazırlanan her bir enfes tat, lezzet tutkunları için mükemmel bir tercih sunuyor.",
       "The Mill Zeytin, doğanın en lezzetli armağanından ilham alarak özenle işleniyor. Taptaze zeytinlerin özel dokunuşla bir araya getirildiği bu ürün, sofranıza doğallığı ve lezzeti getiriyor.",
@@ -5552,7 +5546,7 @@
     ],
     "images": [
       "images/markalar/the-mill/the-mill-about-01.png",
-      "images/markalar/the-mill/the-mill-about-02.png"
+      "images/markalar/the-mill/the-mill-about-02.jpg"
     ],
     "sourceUrls": [
       "https://www.themill.com.tr/"
@@ -6323,7 +6317,8 @@
     "website": "https://gungorelit.com/",
     "headings": [
       "İLETİŞİM",
-      "CONTACT US"
+      "CONTACT US",
+      "Nothing Found"
     ],
     "paragraphs": [
       "Biz, Güngör Ailesi olarak, Orhangazi'de köklü bir zeytin geleneğini sürdürerek, başlangıçta ufak çaplı bir ticaretten başlayarak inovasyon ve kalite odaklı büyüme serüvenine atıldık.",
@@ -6331,9 +6326,7 @@
       "Geniş ürün yelpazemizle lezzet tutkunlarının beklentilerine cevap verirken, zeytinyağı ve zeytin ürünlerinde kaliteyi ve çeşitliliği ön planda tutuyoruz. Ürün ailemizde, naturel ve organik zeytin başta olmak üzere, turşu çeşitleri ve diğer geleneksel zeytinyağı ürünleri bulunur.",
       "Zeytin ağaçlarının bereketini, özenle topladığımız taptaze zeytinlerle işleyerek sofralarınıza getiriyoruz. Zengin aroma ve lezzetlerimiz, damaklarda unutulmaz bir iz bırakıyor, sağlıklı yaşamı ve doyumsuz lezzeti buluşturuyor.",
       "Sektördeki en yeni ve önemli konular hakkında detaylı bilgi sağlarken, aynı zamanda firmaların ve bireylerin işlerini geliştirmelerine katkıda bulunacak ipuçları ve stratejiler sunuyoruz.",
-      "Güngör Ailesi Zeytin Üretimi ve Ticareti: Bir Başarı Hikayesi",
-      "Bursa'nın Orhangazi ilçesine bağlı Narlıca kasabasında kök salan ailemiz olarak, 1990'lı yılların başında zeytin üreticiliğiyle başladığımız serüvenimizi, kısa bir süre sonra zeytin ticaretine dönüştürdük.",
-      "Zeytin ve turşu ürünlerinin yılda bir kez hasat edilen ürünler olması nedeniyle, hasat dönemlerinde alınıp uygun şartlarda depolanmasına büyük önem veriyoruz. Bu bilinçle, 2014 yılında temeli atılan ve 2016 yılında faaliyete geçen Gemiç entegre fabrikamız, 15.000 ton ürün depolama kapasitesine sahip olup, en son teknoloji paketleme üretim hatları ile günlük 100 ton ürün paketleme kapasitesine ulaştık."
+      "Apologies, but no results were found. Perhaps searching will help find a related post."
     ],
     "images": [
       "images/markalar/gungor-zeytin/gungor-zeytin-about-01.jpg",
@@ -6376,8 +6369,8 @@
       "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
       "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
       "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-      "Tuzsuz zeytin arıyorsanız doğru yerdesiniz. Biz 2 senedir sipariş veriyoruz. Teşekkür ederiz.",
-      "Uzun zamandır ürünlerini kullanıyoruz. İlaçsız, sağlıklı, çocuklarımıza gönül rahatlığıyla yedirebildiğimiz, aradığımız lezzeti bulabildiğimiz ürünler için teşekkürler.",
+      "SİPARİŞİNİ VERDİĞİM SELE VE İZNİK İRİ ZEYTİNİNİN LEZZETİ ÇOK GÜZEL.AYRICA ÜRÜNLER CAM KAVANOZ İÇERİSİNDE SAĞLAM BİR ŞEKİLDE TARAFIMIZA ULAŞTI.HEDİYE OLARAK GÖNDERDİĞİNİZ ELMA SİRKESİ DE ÇOK GÜZEL.ALIŞVERİŞTEN ÇOK MEMNUN KALDIM.İLGİNİZ VE HEDİYENİZ İÇİN ÇOK TEŞEKKÜR EDİYORUM GÖRÜŞMEK ÜZERE.",
+      "GELDİK,GÖRDÜK,TATTIK.BİNBİR EMEKLE HAZIRLADIĞINIZ ÜRÜNLERİNİZİ BÜYÜK KEYİF VE BEĞENİYLE TÜKETİYORUZ. İYİ Kİ VARSINIZ.DOSTLARIMIZA TAVSİYE EDERKEN MUTLUYUZ.BAŞARILARINIZ DAİM OLSUN.SAĞLICAKLA...",
       "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
       "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
       "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."

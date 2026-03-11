@@ -1872,23 +1872,17 @@
         "Olivos Aphrodite’s Secret %100 Zeytinyağlı El Yapımı Katı Sabun, Premium Kutulu, 2×100 g"
       ],
       "phones": [
-        "+90 536 743 52 94",
-        "+90 236 332 50 32",
-        "+90 236 332 50 33",
-        "+90 236 332 50 40"
+        "+90 536 743 52 94"
       ],
       "emails": [
-        "info@olivos.com.tr",
-        "olivos@olivos.com.tr",
-        "olivospazarlamaltd@hs02.kep.tr"
+        "info@olivos.com.tr"
       ],
       "whatsapp": [
         "+90 536 743 52 94"
       ]
     },
     "contactSources": [
-      "https://www.olivos.com.tr/",
-      "https://www.olivos.com.tr/iletisim"
+      "https://www.olivos.com.tr/"
     ],
     "about": {
       "headings": [],
@@ -1905,19 +1899,6 @@
       {
         "kind": "home",
         "url": "https://www.olivos.com.tr/",
-        "statusCode": 200,
-        "title": "Olivos Sabunları | %100 Zeytinyağlı Sabun",
-        "headings": [],
-        "blocks": [
-          "Misyon&Vizyon ve Kalite Politikası",
-          "İptal, İade Koşulları",
-          "Havale Bildirim Formu"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.olivos.com.tr/iletisim",
         "statusCode": 200,
         "title": "Olivos Sabunları | %100 Zeytinyağlı Sabun",
         "headings": [],
@@ -3175,8 +3156,8 @@
     "contact": {
       "website": "https://www.gaiaoliva.com.tr/",
       "addresses": [
-        "yeni mahsül şimdi satışta.",
-        "3'lü Doğal Bakım Seti - Mandalinalı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Lavantalı ve Zeytinyağlı Katı Sabun"
+        "3'lü Doğal Bakım Seti - Mandalinalı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Lavantalı ve Zeytinyağlı Katı Sabun",
+        "3'lü Doğal Bakım Seti - Mandalinalı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Portakallı ve Zeytinyağlı Katı Sabun"
       ],
       "phones": [
         "+90 545 458 77 56"
@@ -3211,8 +3192,8 @@
         "3lü Premium Ayvalık, Premium Memecik ve Premium Yamalak Sarısı 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)",
         "3'lü Doğal Bakım Seti - Mandalinalı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Portakallı ve Zeytinyağlı Katı Sabun",
         "3'lü Doğal Bakım Seti - Yeşil Çaylı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Zeytinyağlı Katı Sabun",
-        "2li Premium Ayvalık ve Premium Memecik 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)",
-        "KIDS | Çocuklara Özel 250 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)"
+        "KIDS | Çocuklara Özel 250 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)",
+        "Premium Memecik 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)"
       ],
       "images": [
         "images/markalar/gaia-oliva/gaia-oliva-about-01.jpg",
@@ -3236,12 +3217,12 @@
           "Olgun Hasat Zeytinyağı",
           "Zeytin ve Zeytin Ezmesi",
           "Doğanın mucizesi zeytin ağaçlarının verdiği en iyi zeytinleri özenle seçiyor; kokusunu, aromasını, besin değerlerini en iyi düzeyde koruyacak yöntemlerle, yüksek kalite soğuk sıkım zeytinyağı üretiyoruz.",
+          "Kategorinin En İyileri Seti",
           "Aile Boyu Ramazan Paketi",
           "Gurme Ramazan Paketi",
           "6lı Everyday 500 ml Natürel Sızma Zeytinyağı (Yeni Hasat)",
           "3'lü Doğal Bakım Seti - Mandalinalı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Lavantalı ve Zeytinyağlı Katı Sabun",
-          "3lü Premium Ayvalık, Premium Memecik ve Premium Yamalak Sarısı 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)",
-          "3'lü Doğal Bakım Seti - Mandalinalı ve Zeytinyağlı Sıvı Sabun ve Duş Jeli ile Portakallı ve Zeytinyağlı Katı Sabun"
+          "3lü Premium Ayvalık, Premium Memecik ve Premium Yamalak Sarısı 500 ml Erken Hasat Natürel Sızma Zeytinyağı (Yeni Hasat)"
         ],
         "error": ""
       },
@@ -3345,7 +3326,7 @@
       },
       {
         "kind": "contact",
-        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#c1a8afa7ae81a6a0a8a0aeada8b7a0efa2aeacfe92b4a3aba4a2b5fc86a0a8a0e18eada8b7a0e185a4b2b5a4aa",
+        "url": "https://www.gaiaoliva.com.tr/cdn-cgi/l/email-protection#20494e464f60474149414f4c4956410e434f4d1f7355424a4543541d67414941006f4c4956410064455354454b",
         "statusCode": 200,
         "title": "Email Protection | Cloudflare",
         "headings": [
@@ -5863,9 +5844,9 @@
           "Dünya Kadınlar Gününe Özel Tüm Ürünlerde %5 İndirim! Kupon Kodu: 8MART",
           "Zeytinyağlı Izgara Zeytin Ayvalık Yeşil Zeytin 1000 cc",
           "Size Özel Seçimlerimiz",
-          "Siyah Çevirme Yuvarlama Sele Zeytin Az Tuzlu Orta Etli 2000 cc",
-          "Siyah Zeytin Az Tuzlu Sert İri Etli Sele Jumbo Lüx 1 kg Vakum Paket",
-          "Siyah Zeytin Kıvırcık Tuzsuz Kuru Sele 2000 cc"
+          "Limonlu Zeytin Limon Dolgulu Ayvalık Yeşil Zeytin 660 cc Cam Kavanoz",
+          "Siyah Zeytin Az Tuzlu Sert İri Etli Sele Jumbo Lüx 5000 cc",
+          "Çizik Zeytin Ayvalık Yeşil Zeytin 2000 cc"
         ],
         "error": ""
       },
@@ -11057,9 +11038,9 @@
     "id": 110,
     "name": "Kozoliv",
     "slug": "kozoliv",
-    "website": "https://www.kozoliv.com.tr/",
+    "website": "https://kozoliv.com.tr/",
     "contact": {
-      "website": "https://www.kozoliv.com.tr/",
+      "website": "https://kozoliv.com.tr/",
       "addresses": [
         "HACIOSMAN MAH POSTACI SOK KOZAKLI LTD ŞTİ KOZAKLI ZEYTİN NO:1/2 GÖMEÇ / BALIKESİR, Gömeç, Balıkesir, 10715, TR",
         "Hacıosman Mah. Postacı Sk."
@@ -11073,7 +11054,7 @@
       ]
     },
     "contactSources": [
-      "https://www.kozoliv.com.tr/",
+      "https://kozoliv.com.tr/",
       "https://www.kozoliv.com.tr/hakkimizda",
       "https://www.kozoliv.com.tr/iletisim"
     ],
@@ -11102,7 +11083,7 @@
     "rawPages": [
       {
         "kind": "home",
-        "url": "https://www.kozoliv.com.tr/",
+        "url": "https://kozoliv.com.tr/",
         "statusCode": 200,
         "title": "Kozoliv - Kuzey Ege'nin Havasını Çok Seven Ağaçlarımızdan 🫒",
         "headings": [],
@@ -11186,6 +11167,7 @@
     "contactSources": [
       "https://milasso.com.tr/",
       "https://milasso.com.tr/ultra-premium-hediyelik",
+      "https://milasso.com.tr/bizim-hikayemiz",
       "https://milasso.com.tr/magaza",
       "https://milasso.com.tr/contact"
     ],
@@ -11202,7 +11184,7 @@
       ],
       "paragraphs": [
         "Muğla'nın Milas ilçesi, binlerce yıldır zeytincilikle anılan kadim bir coğrafya. Milasso, bu toprakların sunduğu eşsiz terroir'ı modern bilimle buluşturarak ortaya çıktı.",
-        "Her şişe Milasso, mevsimin en erken döneminde — zeytinler henüz yeşilken — özenle hasat edilen meyvelerden, soğuk sıkım yöntemiyle üretilir. Bu yöntem, zeytinyağının doğal bileşenlerini ve aromasını en yüksek seviyede korur.",
+        "Her şişe Milasso, mevsimin en erken döneminde zeytinler henüz yeşilken özenle hasat edilen meyvelerden, soğuk sıkım yöntemiyle üretilir. Bu yöntem, zeytinyağının doğal bileşenlerini ve aromasını en yüksek seviyede korur.",
         "Amacımız sıradan bir zeytinyağı değil; sağlığınıza katkı sunan, damağınızda iz bırakan bir deneyim üretmek.",
         "Avrupa Gıda Güvenliği Otoritesi (EFSA), zeytinyağındaki polifenollerin kan lipitlerini oksidatif stresten korumaya katkıda bulunduğunu onaylamıştır. Milasso, bu değerli bileşenleri normalin 3 ila 5 katı oranında içerir.",
         "Yüksek polifenol içeriği, vücudun doğal antioksidan savunmasına destek sağlar. Araştırmalar, düzenli tüketimin hücre sağlığına olumlu katkıda bulunabileceğini göstermektedir.",
@@ -11215,7 +11197,8 @@
         "images/markalar/milasso/milasso-about-02.jpg"
       ],
       "sourceUrls": [
-        "https://milasso.com.tr/ultra-premium-hediyelik"
+        "https://milasso.com.tr/ultra-premium-hediyelik",
+        "https://milasso.com.tr/bizim-hikayemiz"
       ]
     },
     "rawPages": [
@@ -11236,7 +11219,7 @@
         ],
         "blocks": [
           "Muğla'nın Milas ilçesi, binlerce yıldır zeytincilikle anılan kadim bir coğrafya. Milasso, bu toprakların sunduğu eşsiz terroir'ı modern bilimle buluşturarak ortaya çıktı.",
-          "Her şişe Milasso, mevsimin en erken döneminde — zeytinler henüz yeşilken — özenle hasat edilen meyvelerden, soğuk sıkım yöntemiyle üretilir. Bu yöntem, zeytinyağının doğal bileşenlerini ve aromasını en yüksek seviyede korur.",
+          "Her şişe Milasso, mevsimin en erken döneminde zeytinler henüz yeşilken özenle hasat edilen meyvelerden, soğuk sıkım yöntemiyle üretilir. Bu yöntem, zeytinyağının doğal bileşenlerini ve aromasını en yüksek seviyede korur.",
           "Amacımız sıradan bir zeytinyağı değil; sağlığınıza katkı sunan, damağınızda iz bırakan bir deneyim üretmek.",
           "Daha Yüksek Polifenol",
           "Avrupa Gıda Güvenliği Otoritesi (EFSA), zeytinyağındaki polifenollerin kan lipitlerini oksidatif stresten korumaya katkıda bulunduğunu onaylamıştır. Milasso, bu değerli bileşenleri normalin 3 ila 5 katı oranında içerir.",
@@ -11274,6 +11257,35 @@
           "Özel tasarım premium kutu",
           "Milasso Hediyelik Set,",
           "kurumsal hediye pazarında"
+        ],
+        "error": ""
+      },
+      {
+        "kind": "about",
+        "url": "https://milasso.com.tr/bizim-hikayemiz",
+        "statusCode": 200,
+        "title": "Bizim Hikayemiz | Milasso",
+        "headings": [
+          "Bizim Hikayemiz",
+          "MİLAS'IN KALBİNDEN GELEN ORTAKLIK",
+          "Her Şişe Zeytinyağı, Bir Zeytin Ağacında Başlar",
+          "Hasattan İşleme",
+          "İleri Teknoloji ile El Değmeden Üretim",
+          "Depolama ve Dinlendirme",
+          "İçindekiler",
+          "Paylaş"
+        ],
+        "blocks": [
+          "Milasso, binlerce yıllık zeytin ağacı mirasının kök saldığı topraklarda, Milas'ın eşsiz coğrafyasında doğdu.",
+          "MİLAS'IN KALBİNDEN GELEN ORTAKLIK",
+          "Her Şişe Zeytinyağı, Bir Zeytin Ağacında Başlar",
+          "İleri Teknoloji ile El Değmeden Üretim",
+          "Depolama ve Dinlendirme",
+          "Milasso, binlerce yıllık zeytin ağacı mirasının kök saldığı topraklarda, Milas'ın eşsiz coğrafyasında doğdu. Tarihi boyunca dünyanın en kaliteli zeytinlerinden biri olarak kabul edilen Memecik zeytinlerinin yetiştiği bu özel bölge, bizim ilham kaynağımız oldu.",
+          "Amacımız, yalnızca bir zeytinyağı markası yaratmak değil; doğanın bize sunduğu bu eşsiz hediyeyi, en saf ve en kaliteli haliyle sofralarınıza taşımaktı. Bu yüzden en iyi zeytinleri, erken hasat döneminde özenle topluyor, hiçbir insan eli değmeden en ileri teknolojiyle işliyor ve sağlığınız için mucizevi bir ürün sunuyoruz.",
+          "Bu yolculuğa, önce kendi çocuklarımız için en güvenilir ve en sağlıklı zeytinyağını üretme hayaliyle başladık. Şimdi ise aynı özen ve tutkuyla tüm dünyayla paylaşmayı görev edindik. Milasso'da her damla, doğanın cömertliği, teknolojinin gücü ve sizin için duyduğumuz sorumluluğun bir yansımasıdır.",
+          "Zeytinyağı bizim için sadece bir ürün değil, aynı zamanda bir yaşam biçimi. Milas'ın bereketli topraklarından sizin sofralarınıza ulaşan bu eşsiz zeytinyağıyla, sağlığınıza ve yaşamınıza değer katmayı sürdüreceğiz.",
+          "Biz Milasso olarak, zeytinyağının doğduğu topraklara ve bu eşsiz mirasa sonsuz bir bağlılıkla yaklaşıyoruz. Bu nedenle, zeytinyağımızın kalitesinin temelini oluşturan Memecik zeytinlerini sağlayan Milas'taki özel bir çiftçi ailesiyle gururla çalışıyoruz. Dört nesildir zeytin yetiştiren bu aile, geleneksel yöntemlerle zeytine sevgiyle yaklaşırken, modern tarım tekniklerini de benimseyerek doğaya olan saygısını sürdürüyor."
         ],
         "error": ""
       },
@@ -14948,9 +14960,7 @@
         "Polifenol ve antioksidan miktarları yüksek zeytinyağlarımız, dünya standardlarında belirlenen “aroma”, “acılık” ve “yakıcılık” dengelilik özelliklerini en optimum seviyede taşısın istedik ve ZAGODA ismiyle şişeleyip damak zevkinize sunduk.",
         "“Zagoda”, Doğu Karadeniz Bölgesi’nde, halk arasında “Salamura Yeşil Zeytin”e verilen isimdir."
       ],
-      "images": [
-        "images/markalar/zagoda/zagoda-about-01.webp"
-      ],
+      "images": [],
       "sourceUrls": [
         "https://zagoda.com.tr/hakkimizda/",
         "https://zagoda.com.tr/kategori/general-information-about-olive-oil/"
@@ -15630,8 +15640,8 @@
     "contact": {
       "website": "https://www.halilesen.com/",
       "addresses": [
-        "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (2 KG)",
-        "YENİ MAHSÜL SELE SİYAH ZEYTİN AZ TUZLU (1,5 KG)"
+        "Zeytinyağının sağlık, hastalıklarla mücadele, saç ve cilt faydaları gibi yüz...",
+        "Zeytinli Mahallesi, Mustafa Kemal Bulvarı No:37"
       ],
       "phones": [
         "+90 537 701 00 10",
@@ -15779,7 +15789,7 @@
       ],
       "images": [
         "images/markalar/bozelli/bozelli-about-01.jpg",
-        "images/markalar/bozelli/bozelli-about-02.jpg"
+        "images/markalar/bozelli/bozelli-about-02.png"
       ],
       "sourceUrls": [
         "https://www.bozelli.com.tr/hikayemiz/"
@@ -16540,9 +16550,7 @@
         "Ravla Kids Organik Erken Hasat Zeytinyağı – İçimlik 500 ml",
         "Ravla Organik Erken Hasat Naturel Sızma Zeytinyağı - Sofralık 5L"
       ],
-      "images": [
-        "images/markalar/ravla-gurme/ravla-gurme-about-02.webp"
-      ],
+      "images": [],
       "sourceUrls": [
         "https://ravla.com/"
       ]
@@ -19605,9 +19613,7 @@
     "about": {
       "headings": [],
       "paragraphs": [],
-      "images": [
-        "images/markalar/ganos-olive-oil/ganos-olive-oil-about-01.jpg"
-      ],
+      "images": [],
       "sourceUrls": [
         "https://www.ganos.com.tr/sayfa/hakkimizda"
       ]
@@ -20154,7 +20160,7 @@
           "Yüksek Polifenollu Zeytinyağları",
           "Çeşnili Zeytinyağları",
           "Zeytinyağı Sabunları",
-          "Sirkeler & Nar Ekşisi",
+          "Sirkeler & Nar Ekşisi & Turşular",
           "Salçalar ve Kahvaltılık Soslar",
           "Reçel ve Marmelatlar",
           "Avantajlı Mutfak Paketi - Kaan 5 Litre Olgun Zeytinyağ Domates ve Biber Salçası - Nar Ekşisi - Üzüm ve Elma Sirkesi - Katı Sabun"
@@ -20174,7 +20180,7 @@
           "Yüksek Polifenollu Zeytinyağları",
           "Çeşnili Zeytinyağları",
           "Zeytinyağı Sabunları",
-          "Sirkeler & Nar Ekşisi",
+          "Sirkeler & Nar Ekşisi & Turşular",
           "Salçalar ve Kahvaltılık Soslar",
           "Reçel ve Marmelatlar",
           "Ülkemizde değeri düşmeyen bir emtia olan arsa almak üzerinde yoğunlaşırken :) yıllardır yazlarımızı geçirdiğimiz Burhaniye, Gömeç, Ayvalık'da çevremizdeki zeytin ağaçlarını ve zeytinyağını keşfim benim için BÜYÜK, insanlık içinse küçücük bir adım olarak tarihe geçti. Yaklaşık 6 ay YouTube'dan zeytin, zeytinyağı, sıkımı hakkında neredeyse tüm videoları seyrettim."
@@ -20194,7 +20200,7 @@
           "Yüksek Polifenollu Zeytinyağları",
           "Çeşnili Zeytinyağları",
           "Zeytinyağı Sabunları",
-          "Sirkeler & Nar Ekşisi",
+          "Sirkeler & Nar Ekşisi & Turşular",
           "Salçalar ve Kahvaltılık Soslar",
           "Reçel ve Marmelatlar",
           "Zeytinyağı Analizleri"
@@ -21332,8 +21338,8 @@
     "about": {
       "headings": [
         "NOP Sertifikası",
-        "BIO Sertifikası",
         "Müteşebbis Sertifikası",
+        "BIO Sertifikası",
         "Ürünlerimiz",
         "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
         "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -21367,8 +21373,8 @@
         "title": "Angelos Organik Zeytinyağı Değirmeni - Anasayfa",
         "headings": [
           "NOP Sertifikası",
-          "BIO Sertifikası",
           "Müteşebbis Sertifikası",
+          "BIO Sertifikası",
           "Ürünlerimiz",
           "2025 Hasat! Organik Ekstra Sızma Zeytinyağları",
           "2025 Hasat! Organik İLK SIKIM BLEND Zeytinyağları",
@@ -22665,16 +22671,16 @@
         "title": "Hakkımızda - Monteida Zeytinyağı - Ayvalık Zeytinyağı",
         "headings": [],
         "blocks": [
+          "Erken Hasat Natürel Sızma Zeytinyağı",
+          "Olgun Hasat Natürel Sızma Zeytinyağı",
+          "Natürel Birinci Zeytinyağı",
+          "Çeşnili Natürel Sızma Zeytinyağı",
+          "Doğal Zeytinyağı Sabunu",
+          "Saf Zeytinyağlı Sıvı Sabun",
+          "Sıkça Sorulan Sorular",
+          "Kullanıcı adı veya e-posta adresi",
           "ne dayanıyor. Mübadele ile",
-          "’a gelen dedelerimiz burada zeytinyağı ile hayatlarını sürdürmüşler.",
-          "Biz de dedelerimizin yıllar önce başlattığı zeytinyağı geleneğini günümüzün en modern teknolojileri ile birleştirerek üretimini yaptığımız her türlü zeytin ve zeytinyağı ürününü Türkiye’ye ve dünyanın birçok ülkesine satıyoruz.",
-          "nın eteklerinde yer alan",
-          "’da kurulu tesisimizde üretiyoruz. Bilindiği gibi, Kaz Dağları mitolojide İda olarak anılır. Adını taşıdığımız bu dağlar klimatik yapısı ve ekosistemiyle, insan organizması için en ideal havaya sahip olmasıyla ve en lezzetli zeytinlerin yetiştiği topraklar olmasıyla seçkinleşir.",
-          "İdeal bir iklimde ve verimli topraklarda yetişen, özel zeytinlerden elde ettiğimiz zeytinyağlarını, en uygun koşullarda doğallığı bozulmadan sizlere sunuyoruz.",
-          "tarihi kentleri bulunan zeytinliklerimizde",
-          "döneminde bahçelerimizden elle toplanan tek tip zeytinleri doğallığı, lezzeti ve sağlığı bozulmaması için aynı gün içinde",
-          "metoduyla hemen sıkıyoruz. Ve sonunda",
-          "Monte İda Erken Hasat Natürel Sızma Zeytinyağı"
+          "’a gelen dedelerimiz burada zeytinyağı ile hayatlarını sürdürmüşler."
         ],
         "error": ""
       },
@@ -22727,16 +22733,16 @@
           "Mağaza"
         ],
         "blocks": [
+          "40 sonucun tümü gösteriliyor",
+          "İş İlkeleri Politikamız",
+          "Kalite ve Gıda Güvenliği Politikası",
+          "Kalite Sertifikalarımız",
           "Erken Hasat Natürel Sızma Zeytinyağı",
           "Olgun Hasat Natürel Sızma Zeytinyağı",
           "Natürel Birinci Zeytinyağı",
           "Çeşnili Natürel Sızma Zeytinyağı",
           "Doğal Zeytinyağı Sabunu",
-          "Saf Zeytinyağlı Sıvı Sabun",
-          "Sıkça Sorulan Sorular",
-          "Kullanıcı adı veya e-posta adresi",
-          "40 sonucun tümü gösteriliyor",
-          "İş İlkeleri Politikamız"
+          "Saf Zeytinyağlı Sıvı Sabun"
         ],
         "error": ""
       }
@@ -23903,12 +23909,8 @@
     "website": "https://www.byteo.com.tr/",
     "contact": {
       "website": "https://www.byteo.com.tr/",
-      "addresses": [
-        "Zeytinli Mah. 559 Sokak No:6 Edremit Balıkesir"
-      ],
-      "phones": [
-        "+90 532 270 21 51"
-      ],
+      "addresses": [],
+      "phones": [],
       "emails": [
         "info@byteo.com.tr"
       ],
@@ -23919,15 +23921,12 @@
     "contactSources": [
       "https://www.byteo.com.tr/",
       "https://www.byteo.com.tr/hakkimizda/",
-      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/",
-      "https://www.byteo.com.tr/zeytinyaginin-uluslararasi-basari-hikayesi/",
-      "https://www.byteo.com.tr/iletisim/"
+      "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/"
     ],
     "about": {
       "headings": [
         "Blog",
-        "Zeytinyağında Polifenol ve Antioksidan Hikâyesi",
-        "Zeytinyağının Uluslararası Başarı Hikâyesi"
+        "Zeytinyağında Polifenol ve Antioksidan Hikâyesi"
       ],
       "paragraphs": [
         "Byteo, erken hasat ve soğuk sıkım tekniğiyle toprağın emeğini, ağacın gölgesini ve zeytinin özünü aynı şişede buluşturur.",
@@ -23945,8 +23944,7 @@
       ],
       "sourceUrls": [
         "https://www.byteo.com.tr/hakkimizda/",
-        "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/",
-        "https://www.byteo.com.tr/zeytinyaginin-uluslararasi-basari-hikayesi/"
+        "https://www.byteo.com.tr/zeytinyaginda-polifenol-ve-antioksidan-hikayesi/"
       ]
     },
     "rawPages": [
@@ -24010,69 +24008,6 @@
           "na taşınıyor ve soframızdaki yağı sıradan bir yağ olmaktan çıkarıp, fonksiyonel bir gıdaya dönüştürüyor.",
           "Antioksidan kavramı ise, vücutta serbest radikallerle savaşan ve hücreleri oksidatif hasardan korumaya yardımcı olan maddeleri tanımlıyor. Serbest radikaller, stres, dengesiz beslenme, çevresel faktörler ve yaşlanma süreciyle birlikte artabilen, hücrelere zarar verme potansiyeli taşıyan moleküller. Zeytinyağında bulunan polifenoller, E vitamini gibi antioksidan bileşenler, bu radikallerin etkisini azaltmaya katkıda bulunuyor. Bu yüzden “",
           "zeytinyağı sağlığa faydalı mı"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "about",
-        "url": "https://www.byteo.com.tr/zeytinyaginin-uluslararasi-basari-hikayesi/",
-        "statusCode": 200,
-        "title": "Zeytinyağının Uluslararası Başarı Hikâyesi – Edremit'in En Lezzetli Zeytinyağları'ndan Sofranıza | Byteo Zeytincilik",
-        "headings": [
-          "Blog",
-          "Zeytinyağının Uluslararası Başarı Hikâyesi"
-        ],
-        "blocks": [
-          "Havale Bildirim Formu",
-          "Zeytinyağının Uluslararası Başarı Hikâyesi",
-          "Zeytinyağı, Akdeniz havzasında binlerce yıldır üretilen ve tüketilen bir ürün olsa da, uluslararası arenada yıldızı özellikle son yıllarda daha da parlamaya başladı. “",
-          "Türk zeytinyağı uluslararası başarı",
-          "” gibi aramaların artması, hem ihracat rakamlarının yükselmesi hem de dünya çapındaki yarışmalarda alınan ödüllerin çoğalmasıyla doğrudan ilgili. Edremit, Ayvalık, Milas gibi bölgelerden çıkan yağlar, artık yalnızca yerel pazarlarda değil, Avrupa’dan Amerika’ya kadar geniş bir coğrafyada tanınmaya başladı.",
-          "Bu başarı hikâyesinin temelinde, üretim kalitesine yapılan yatırım yatıyor. Modern tesisler, hijyen standartları ve güncel teknolojilerle donatılırken, geleneksel bilgi birikimi de sahadan çekilmiyor.",
-          "gibi coğrafi işarete sahip yağlar, hem kökenlerini vurguluyor hem de kalite standartlarını nesnel kriterlerle tanımlıyor. Uluslararası tüketici, bir üründe coğrafi işaret gördüğünde, o ürünün belirli bir bölgeye ve geleneğe dayandığını, belirli kurallara göre üretildiğini biliyor. Bu da güven duygusunu güçlendiriyor.",
-          "Uluslararası zeytinyağı yarışmaları",
-          ", bu başarı hikâyesinin vitrini niteliğinde. New York International Olive Oil Competition, London IOOC, Evo IOOC gibi organizasyonlarda, dünyanın farklı ülkelerinden yüzlerce zeytinyağı aynı masada buluşuyor. Bu platformlarda Türkiye’den, özellikle de Edremit ve çevresinden gelen natürel sızmaların üst üste madalya kazanması, ülke imajına önemli katkı sağlıyor. Yarışma sonuçları açıklandığında, dünyanın dört bir yanındaki distribütörler ve gurme tüketiciler, ödül listelerini yakından takip ediyor.",
-          "Edremit zeytinyağı uluslararası ödüller"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.byteo.com.tr/iletisim/",
-        "statusCode": 200,
-        "title": "İletişim – Edremit'in En Lezzetli Zeytinyağları'ndan Sofranıza | Byteo Zeytincilik",
-        "headings": [],
-        "blocks": [
-          "Havale Bildirim Formu",
-          "Zeytinli Mah. 559 Sokak No:6 Edremit Balıkesir",
-          "Havale/EFT ile ödeme yaptıysanız",
-          "Havale Bildirim Formu’nu",
-          "doldurmayı unutmayın. Formu doldururken:",
-          "Gönderim yaptığınız banka adını,",
-          "Gönderim tutarını ve tarihini,",
-          "Ödeme yapan kişi ad-soyad bilgisini",
-          "eksiksiz yazmanız, ödemenizin hızlı bir şekilde eşleştirilmesini ve siparişinizin gecikmeden hazırlanmasını sağlar. Havale bildirimi yapılmayan veya eksik bilgi girilen durumlarda, teyit süreci uzayabilir.",
-          "İLETİŞİM ve ÖDEME BİLDİRİM FORMU"
-        ],
-        "error": ""
-      },
-      {
-        "kind": "contact",
-        "url": "https://www.byteo.com.tr/iletisim/",
-        "statusCode": 200,
-        "title": "İletişim – Edremit'in En Lezzetli Zeytinyağları'ndan Sofranıza | Byteo Zeytincilik",
-        "headings": [],
-        "blocks": [
-          "Havale Bildirim Formu",
-          "Zeytinli Mah. 559 Sokak No:6 Edremit Balıkesir",
-          "Havale/EFT ile ödeme yaptıysanız",
-          "Havale Bildirim Formu’nu",
-          "doldurmayı unutmayın. Formu doldururken:",
-          "Gönderim yaptığınız banka adını,",
-          "Gönderim tutarını ve tarihini,",
-          "Ödeme yapan kişi ad-soyad bilgisini",
-          "eksiksiz yazmanız, ödemenizin hızlı bir şekilde eşleştirilmesini ve siparişinizin gecikmeden hazırlanmasını sağlar. Havale bildirimi yapılmayan veya eksik bilgi girilen durumlarda, teyit süreci uzayabilir.",
-          "İLETİŞİM ve ÖDEME BİLDİRİM FORMU"
         ],
         "error": ""
       }
@@ -27973,11 +27908,12 @@
         "SİZİN İÇİN"
       ],
       "paragraphs": [
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
         "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-        "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG"
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
+        "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG"
       ],
       "images": [
         "images/markalar/ustali/ustali-about-01.jpg",
@@ -27997,16 +27933,16 @@
           "SİZİN İÇİN"
         ],
         "blocks": [
-          "Natürel Sızma Zeytinyağı 500 ml",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
           "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
-          "Galon Şişe Natürel Sızma Zeytinyağı 2 L",
-          "Natürel Sızma Zeytinyağı 2 L",
-          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
+          "Doğal Zeytinyağlı Sabun 200G",
+          "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
           "Midilli'nin Yereli köyünden mübadele ile Ayvalık'a göç eden aile büyüklerimiz Midilli'de sürdürdükleri Zeytincilik faaliyetlerini Ayvalık'ta da sürdürüp bu günlere kadar taşımıştır. Soyadımız olan USTALI kelimesi Midilli'deki en büyük zeytinliğin ismini taşımaktadır. 2006 yılına kadar ailemiz mübadelen beri kendi bahçelerini işleyip müstahsil olarak zeytinciliğe devam ederken Aile fertlerimiz ile 2006 yılının Nisan ayında kendi üretim tesisimizin temelini attık. Ustalı Zeytincilik Aile İşletmesi olarak 2008 yılı zeytin hasat döneminden beride kendi fabrikasında USTALI markası ile üretim yapmaktadır.",
           "Kazımkarabekir Mahallesi",
           "Kışla Mevkisi Eski Altınova Yolu",
           "Ayvalık / Balıkesir / TÜRKİYE",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG"
+          "Natürel Sızma Zeytinyağı 500 ml"
         ],
         "error": ""
       },
@@ -28018,9 +27954,9 @@
         "headings": [],
         "blocks": [
           "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-          "Doğal Zeytinyağlı Sabun 200G",
-          "Filtresiz Natural Sızma Zeytinyağı 5 L",
+          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 2 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 1 KG",
+          "Natürel Sızma Zeytinyağı 2 L",
           "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
@@ -28037,11 +27973,11 @@
         "title": "İletişim",
         "headings": [],
         "blocks": [
-          "Natürel Sızma Zeytinyağı 500 ml",
-          "Ayvalık Doğal Fermente Sofralık Pet Siyah Yuvarlama Zeytin 1 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Çizik Zeytin 2 KG",
-          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 1 KG",
+          "Ayvalık Doğal Fermente Sofralık Pet Yeşil Kırma Zeytin 2 KG",
+          "Filtresiz Natural Sızma Zeytinyağı 5 L",
           "Galon Şişe Natürel Sızma Zeytinyağı 1 L",
+          "Natürel Sızma Zeytinyağı 2 L",
+          "Taş Baskı Natürel Sızma Zeytinyağı 500 ml",
           "KOYUN SÜTLÜ HÖŞMERİM",
           "ANTEP FISTIKLI HÖŞMERİM",
           "Kazımkarabekir Mahallesi",
@@ -29034,8 +28970,8 @@
     "contact": {
       "website": "https://www.themill.com.tr/",
       "addresses": [
-        "The Mill Natürel Sızma Zeytinyağı, Brüksel merkezli International Taste Institute tarafından hazırlanan; dünyanın önde gelen Şef ve Gurme jürilerinin birlikte yaptığı değerlendirmede tadı ve kalitesiyle %90’ın üzerinde puan alarak en üst ödül olan 3 YILDIZ LEZZET ÖDÜLÜ’ne layık görüldü.",
-        "Koşuyolu Mah. Cenap Şahabettin Sok. No: 26"
+        "350 yıllık köklü tarım geçmişimizle, Edremit’te yetişen zeytinlerden elde edilen zeytinyağı başta olmak üzere doğal ve katkısız gıda ürünlerini sofranıza ulaştırıyoruz. Doğallığı koruyan üretim anlayışımız ve modern tekniklerle üretilen ürünlerimizle, güvenle tüketebileceğiniz lezzetler sunuyoruz.",
+        "The Mill Natürel Sızma Zeytinyağı, Brüksel merkezli International Taste Institute tarafından hazırlanan; dünyanın önde gelen Şef ve Gurme jürilerinin birlikte yaptığı değerlendirmede tadı ve kalitesiyle %90’ın üzerinde puan alarak en üst ödül olan 3 YILDIZ LEZZET ÖDÜLÜ’ne layık görüldü."
       ],
       "phones": [
         "+90 850 515 06 63",
@@ -29055,7 +28991,7 @@
     "about": {
       "headings": [],
       "paragraphs": [
-        "350 yıllık tarım geleneğimizi yenilikçi bakış açımızla birleştirerek sizlere harika lezzetler oluşturduk.",
+        "350 yıllık köklü tarım geçmişimizle, Edremit’te yetişen zeytinlerden elde edilen zeytinyağı başta olmak üzere doğal ve katkısız gıda ürünlerini sofranıza ulaştırıyoruz. Doğallığı koruyan üretim anlayışımız ve modern tekniklerle üretilen ürünlerimizle, güvenle tüketebileceğiniz lezzetler sunuyoruz.",
         "The Mill Natürel Sızma Zeytinyağı, kaliteli zeytinlerden özenle üretilen eşsiz bir lezzettir. Sofralarınıza sağlık ve nefis aroma katarken mutfaklarınızın vazgeçilmezi olmaya aday.",
         "The Mill Gurme Serisi, seçkin malzemelerle mutfaklara yeni bir soluk getiriyor. Özenle hazırlanan her bir enfes tat, lezzet tutkunları için mükemmel bir tercih sunuyor.",
         "The Mill Zeytin, doğanın en lezzetli armağanından ilham alarak özenle işleniyor. Taptaze zeytinlerin özel dokunuşla bir araya getirildiği bu ürün, sofranıza doğallığı ve lezzeti getiriyor.",
@@ -29066,7 +29002,7 @@
       ],
       "images": [
         "images/markalar/the-mill/the-mill-about-01.png",
-        "images/markalar/the-mill/the-mill-about-02.png"
+        "images/markalar/the-mill/the-mill-about-02.jpg"
       ],
       "sourceUrls": [
         "https://www.themill.com.tr/"
@@ -29080,7 +29016,7 @@
         "title": "The Mill: Doğal, Sağlıklı ve Kaliteli Gıda Ürünleri",
         "headings": [],
         "blocks": [
-          "350 yıllık tarım geleneğimizi yenilikçi bakış açımızla birleştirerek sizlere harika lezzetler oluşturduk.",
+          "350 yıllık köklü tarım geçmişimizle, Edremit’te yetişen zeytinlerden elde edilen zeytinyağı başta olmak üzere doğal ve katkısız gıda ürünlerini sofranıza ulaştırıyoruz. Doğallığı koruyan üretim anlayışımız ve modern tekniklerle üretilen ürünlerimizle, güvenle tüketebileceğiniz lezzetler sunuyoruz.",
           "The Mill Natürel Sızma Zeytinyağı, kaliteli zeytinlerden özenle üretilen eşsiz bir lezzettir. Sofralarınıza sağlık ve nefis aroma katarken mutfaklarınızın vazgeçilmezi olmaya aday.",
           "The Mill Gurme Serisi, seçkin malzemelerle mutfaklara yeni bir soluk getiriyor. Özenle hazırlanan her bir enfes tat, lezzet tutkunları için mükemmel bir tercih sunuyor.",
           "The Mill Zeytin, doğanın en lezzetli armağanından ilham alarak özenle işleniyor. Taptaze zeytinlerin özel dokunuşla bir araya getirildiği bu ürün, sofranıza doğallığı ve lezzeti getiriyor.",
@@ -33018,8 +32954,7 @@
     "contact": {
       "website": "https://gungorelit.com/",
       "addresses": [
-        "GEMİÇ MAH. GEMİÇ SK. NO: 185/9 - ORHANGAZİ - BURSA - TÜRKİYE",
-        "Bursa'nın Orhangazi ilçesine bağlı Narlıca kasabasında kök salan ailemiz olarak, 1990'lı yılların başında zeytin üreticiliğiyle başladığımız serüvenimizi, kısa bir süre sonra zeytin ticaretine dönüştürdük."
+        "GEMİÇ MAH. GEMİÇ SK. NO: 185/9 - ORHANGAZİ - BURSA - TÜRKİYE"
       ],
       "phones": [
         "+90 532 131 28 17"
@@ -33037,7 +32972,8 @@
     "about": {
       "headings": [
         "İLETİŞİM",
-        "CONTACT US"
+        "CONTACT US",
+        "Nothing Found"
       ],
       "paragraphs": [
         "Biz, Güngör Ailesi olarak, Orhangazi'de köklü bir zeytin geleneğini sürdürerek, başlangıçta ufak çaplı bir ticaretten başlayarak inovasyon ve kalite odaklı büyüme serüvenine atıldık.",
@@ -33045,9 +32981,7 @@
         "Geniş ürün yelpazemizle lezzet tutkunlarının beklentilerine cevap verirken, zeytinyağı ve zeytin ürünlerinde kaliteyi ve çeşitliliği ön planda tutuyoruz. Ürün ailemizde, naturel ve organik zeytin başta olmak üzere, turşu çeşitleri ve diğer geleneksel zeytinyağı ürünleri bulunur.",
         "Zeytin ağaçlarının bereketini, özenle topladığımız taptaze zeytinlerle işleyerek sofralarınıza getiriyoruz. Zengin aroma ve lezzetlerimiz, damaklarda unutulmaz bir iz bırakıyor, sağlıklı yaşamı ve doyumsuz lezzeti buluşturuyor.",
         "Sektördeki en yeni ve önemli konular hakkında detaylı bilgi sağlarken, aynı zamanda firmaların ve bireylerin işlerini geliştirmelerine katkıda bulunacak ipuçları ve stratejiler sunuyoruz.",
-        "Güngör Ailesi Zeytin Üretimi ve Ticareti: Bir Başarı Hikayesi",
-        "Bursa'nın Orhangazi ilçesine bağlı Narlıca kasabasında kök salan ailemiz olarak, 1990'lı yılların başında zeytin üreticiliğiyle başladığımız serüvenimizi, kısa bir süre sonra zeytin ticaretine dönüştürdük.",
-        "Zeytin ve turşu ürünlerinin yılda bir kez hasat edilen ürünler olması nedeniyle, hasat dönemlerinde alınıp uygun şartlarda depolanmasına büyük önem veriyoruz. Bu bilinçle, 2014 yılında temeli atılan ve 2016 yılında faaliyete geçen Gemiç entegre fabrikamız, 15.000 ton ürün depolama kapasitesine sahip olup, en son teknoloji paketleme üretim hatları ile günlük 100 ton ürün paketleme kapasitesine ulaştık."
+        "Apologies, but no results were found. Perhaps searching will help find a related post."
       ],
       "images": [
         "images/markalar/gungor-zeytin/gungor-zeytin-about-01.jpg",
@@ -33082,22 +33016,14 @@
         "kind": "about",
         "url": "https://gungorelit.com/kurumsal/",
         "statusCode": 200,
-        "title": "Kurumsal – Güngör Zeytin Gıda Ambalaj Tic. San. AŞ.",
+        "title": "Güngör Zeytin Gıda Ambalaj Tic. San. AŞ.",
         "headings": [
+          "Nothing Found",
           "İLETİŞİM",
           "CONTACT US"
         ],
         "blocks": [
-          "Güngör Ailesi Zeytin Üretimi ve Ticareti: Bir Başarı Hikayesi",
-          "Biz, Güngör Ailesi olarak, Orhangazi'de köklü bir zeytin geleneğini sürdürerek, başlangıçta ufak çaplı bir ticaretten başlayarak inovasyon ve kalite odaklı büyüme serüvenine atıldık.",
-          "Bursa'nın Orhangazi ilçesine bağlı Narlıca kasabasında kök salan ailemiz olarak, 1990'lı yılların başında zeytin üreticiliğiyle başladığımız serüvenimizi, kısa bir süre sonra zeytin ticaretine dönüştürdük.",
-          "Başlangıçta küçük bir zeytin ticaretiyle adım atan aile olarak, zeytin tedarikçisi çiftçilerimizin destekleri ve sadık müşterilerimizin teşvikleriyle birlikte 2003 yılında Gemlik'te ambalaj ve paketleme üzerine üretim yapan bir fabrikamızı faaliyete geçirerek işimizi genişlettik. 2010 yılında ise 30 dönüm arazi üzerine kurulu, 6.000 ton zeytin depolama ve günlük 20 ton zeytin paketleme kapasitesine sahip Akhisar fabrikamızı hayata geçirerek yeşil zeytin çeşitleri ve dilimlenmiş zeytin gruplarına odaklandık. Aynı yıl içerisinde Orhangazi'nin ünlü Gedelek köyünde 40 yıldır turşu sektöründe faaliyet gösteren Pınar Turşu ve Zeytinleri firmasını bünyemize katarak zeytin ve turşu çeşitlerini bir araya getirerek müşteri taleplerine daha etkin bir şekilde karşılık verebilecek bir altyapı oluşturduk.",
-          "Zeytin ve turşu ürünlerinin yılda bir kez hasat edilen ürünler olması nedeniyle, hasat dönemlerinde alınıp uygun şartlarda depolanmasına büyük önem veriyoruz. Bu bilinçle, 2014 yılında temeli atılan ve 2016 yılında faaliyete geçen Gemiç entegre fabrikamız, 15.000 ton ürün depolama kapasitesine sahip olup, en son teknoloji paketleme üretim hatları ile günlük 100 ton ürün paketleme kapasitesine ulaştık.",
-          "Toplamda 21.000 ton zeytin ve 6.000 ton fermente turşu depolama kapasitesine sahip olan tüm fabrikalarımız, ürünlerimizi Türkiye'nin 81 ilindeki birçok market ve perakende satış noktasına ulaştırmakla kalmayıp, aynı zamanda Ortadoğu, Türk Cumhuriyetleri, Rusya ve Avrupa başta olmak üzere 20’den fazla ülkeye ihraç etmekteyiz.",
-          "Firma olarak, Hz. Mevlana'nın öğüdü \"dert, yol gösterir\" prensibiyle hareket ederek, zeytinle ilgili gelişim ve kalite hedeflerimizi belirliyoruz. Siyah zeytinlerimizin tuz oranını eski oranlara göre %25-%30 civarında azaltarak, daha az tuzlu, kurutulmuş siyah zeytinlerimizi müşterilerimizin beğenisine sunduk. Akhisar fabrikamızda biberli yeşil zeytin üretiminde kullanılan biber pimento pastası üretimine yönelik 2016'da başladığımız Ar-Ge çalışmalarının meyvelerini topladık ve Türkiye'de ilk biber pastası üretimini gerçekleştirerek sektöre yenilik getirdik.",
-          "Bu yenilikçi yaklaşımlarımızla hem ülkemizin ithalatına katkıda bulunuyor hem de diğer biberli yeşil zeytin üreticilerine ekonomik bir üretim seçeneği sunarak sektöre öncülük ediyoruz. Tüketicilerimizin daha hijyenik koşullarda üretilmiş zeytinleri tercih etmelerine olanak sağlayarak, müşteri memnuniyetini artırmayı hedefliyoruz.",
-          "Güngör Ailesi olarak, kalitemizi sürekli olarak artırmak ve geliştirmek amacıyla Ar-Ge ve çalışmalarımıza gelecekte de devam edeceğiz.",
-          "Zeytin ve turşu sektöründe öncü bir aile işletmesi olarak, müşterilerimize kaliteli, sağlıklı ve lezzetli ürünler sunmak; sürdürülebilir tarım uygulamalarıyla çevreye duyarlılığı ön planda tutmak; çalışanlarımıza adil ve destekleyici bir çalışma ortamı sağlamak."
+          "Apologies, but no results were found. Perhaps searching will help find a related post."
         ],
         "error": ""
       },
@@ -33105,25 +33031,14 @@
         "kind": "contact",
         "url": "https://gungorelit.com/iletisim/",
         "statusCode": 200,
-        "title": "İletişim – Güngör Zeytin Gıda Ambalaj Tic. San. AŞ.",
+        "title": "Güngör Zeytin Gıda Ambalaj Tic. San. AŞ.",
         "headings": [
-          "Satış Noktalarımız",
-          "Sosyal Medyadan Bizi",
-          "Takip Edin!",
-          "İletişim Formu",
+          "Nothing Found",
           "İLETİŞİM",
           "CONTACT US"
         ],
         "blocks": [
-          "Kocatepe Mahallesi Mega Center C Blok No:200-201-202",
-          "Bayrampaşa - İstanbul - Türkiye",
-          "Macunköy - Ankara - Türkiye",
-          "Gemiç Mah. Ova Ortası Mevkii No: 185",
-          "Orhangazi - Bursa - Türkiye",
-          "Zeytinliova Yolu Üzeri 6.Km.",
-          "Akhisar - Manisa - Türkiye",
-          "Sorularınızı, önerilerinizi veya işbirliği taleplerinizi dinlemek için buradayız! Güngör Zeytincilik olarak, sizinle iletişim kurmaktan memnuniyet duyarız. Güngör Zeytincilik olarak zeytin dünyasında buluşmaktan heyecan duyuyoruz. İletişim kurmak için her zaman açığız!",
-          "Sosyal Medyadan Bizi"
+          "Apologies, but no results were found. Perhaps searching will help find a related post."
         ],
         "error": ""
       }
@@ -33137,7 +33052,8 @@
     "contact": {
       "website": "https://www.iznikzeytinevi.com/",
       "addresses": [
-        "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı."
+        "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
+        "İLK SİPARİŞİMDE UFAK BİR AKSAKLIK OLMASINA RAĞMEN TEKRAR SİPARİŞİMİ GÜNCELLEDİK .İYİ Kİ DE GÜNCELLEYİP VAZGEÇMEMİŞİM.VAZGEÇMİŞ OLSAYDIM BÖYLE BİR LEZZETTEN MAHRUM KALACAKTIM.ZEYTİN VE ZEYTİN YAĞI TADINA DOYAMADIK.ZEYTİNDE ADRESLERİMDEN BİRİ OLDU ÜRÜNLERİM BİTER BİTMEZ TEKRAR SİPARİŞLERİM OLACAK TEREDDÜT ETMEYİN ALIN"
       ],
       "phones": [
         "+90 545 419 16 16",
@@ -33161,8 +33077,8 @@
         "Zeytin ve Zeytinyağı'nın en doğal halini bulmak için çıktık yola…",
         "Günümüzün endüstriyelleşmiş ürünlerine inat sabırla aradık en bozulmamış olanını…",
         "Yıllar önce tanıştığımız, alıştığımız ve vazgeçemediğimiz bu lezzeti şimdi sizlere sunmanın gururunu yaşıyoruz.",
-        "Tuzsuz zeytin arıyorsanız doğru yerdesiniz. Biz 2 senedir sipariş veriyoruz. Teşekkür ederiz.",
-        "Uzun zamandır ürünlerini kullanıyoruz. İlaçsız, sağlıklı, çocuklarımıza gönül rahatlığıyla yedirebildiğimiz, aradığımız lezzeti bulabildiğimiz ürünler için teşekkürler.",
+        "SİPARİŞİNİ VERDİĞİM SELE VE İZNİK İRİ ZEYTİNİNİN LEZZETİ ÇOK GÜZEL.AYRICA ÜRÜNLER CAM KAVANOZ İÇERİSİNDE SAĞLAM BİR ŞEKİLDE TARAFIMIZA ULAŞTI.HEDİYE OLARAK GÖNDERDİĞİNİZ ELMA SİRKESİ DE ÇOK GÜZEL.ALIŞVERİŞTEN ÇOK MEMNUN KALDIM.İLGİNİZ VE HEDİYENİZ İÇİN ÇOK TEŞEKKÜR EDİYORUM GÖRÜŞMEK ÜZERE.",
+        "GELDİK,GÖRDÜK,TATTIK.BİNBİR EMEKLE HAZIRLADIĞINIZ ÜRÜNLERİNİZİ BÜYÜK KEYİF VE BEĞENİYLE TÜKETİYORUZ. İYİ Kİ VARSINIZ.DOSTLARIMIZA TAVSİYE EDERKEN MUTLUYUZ.BAŞARILARINIZ DAİM OLSUN.SAĞLICAKLA...",
         "Öykü müz 2010 yılında başladı. 2010 yılının Nisan ayında ailemize yeni katılan kızımızla farkındalığımız arttı.",
         "Yediğimize yedirdiğimize daha önce hiç olmadığı kadar dikkat eder olduk. Sağlıklı kalabilmek için sağlıklı yemek, sağlık üzerine bir hayat inşa etmek için sağlıklı yedirmek gerekiyordu. Karnımızı doyururken aslında neler yediğimizi bilmediğimizi, marketten aldığımız bir çok gıdanın aslında ne kadar çok işlemden geçtiğini fark ettik.",
         "Daha önce sadece -tarihi geçmiş mi?- diye baktığımız son kullanma tarihinin, üretim tarihi ile arasındaki sürenin aslında ne kadar uzun olduğunu fark ettik."

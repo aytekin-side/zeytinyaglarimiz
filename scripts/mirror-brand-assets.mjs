@@ -258,6 +258,7 @@ async function main() {
       name: rawBrand.name,
       slug,
       logo: null,
+      logoSource: null,
       bottles: []
     };
 
@@ -270,6 +271,11 @@ async function main() {
           fileBaseName: `${slug}-logo`
         });
         brandRecord.logo = logoAsset.relPath;
+        brandRecord.logoSource = {
+          source: logoSource,
+          finalUrl: logoAsset.finalUrl || logoSource,
+          sourceType: logoAsset.sourceType || ''
+        };
         rawBrand.image = logoAsset.relPath;
       } catch (error) {
         failures.push({ id: rawBrand.id, name: rawBrand.name, type: 'logo', source: logoSource, error: String(error.message || error) });

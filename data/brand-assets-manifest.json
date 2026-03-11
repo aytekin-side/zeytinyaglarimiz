@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-03-10T15:19:52.374Z",
+  "generatedAt": "2026-03-11T17:10:03.831Z",
   "brands": [
     {
       "id": 1,
       "name": "Komili",
       "slug": "komili",
       "logo": "images/markalar/komili/komili-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/komili/komili-logo.svg",
+        "finalUrl": "images/markalar/komili/komili-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/komili/komili-bottle-01-bottle-02-sizma-zeytinyagi-ege-1-lt-12406.png",
         "images/markalar/komili/komili-bottle-02-bottle-03-sizma-zeytinyagi-2-lt-12409-500.png",
@@ -17,6 +22,11 @@
       "name": "Tariş",
       "slug": "taris",
       "logo": "images/markalar/taris/taris-logo.png",
+      "logoSource": {
+        "source": "images/markalar/taris/taris-logo.png",
+        "finalUrl": "images/markalar/taris/taris-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/taris/taris-bottle-01-bottle-03-maraska-sizma-zeytinyagi-500-ml-13.png",
         "images/markalar/taris/taris-bottle-02-sizma-zeytinyagi-5-lt-13537-500x50.png",
@@ -28,6 +38,11 @@
       "name": "Kristal",
       "slug": "kristal",
       "logo": "images/markalar/kristal/kristal-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kristal/kristal-logo.png",
+        "finalUrl": "images/markalar/kristal/kristal-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kristal/kristal-bottle-01-bottle-03-naturel-sizma-zeytinyagi-1-l-cam-sis.webp",
         "images/markalar/kristal/kristal-bottle-02-naturel-sizma-zeytinyagi-4-l-teneke.webp",
@@ -39,6 +54,11 @@
       "name": "Laleli",
       "slug": "laleli",
       "logo": "images/markalar/laleli/laleli-logo.png",
+      "logoSource": {
+        "source": "images/markalar/laleli/laleli-logo.png",
+        "finalUrl": "images/markalar/laleli/laleli-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/laleli/laleli-bottle-01-bottle-02-0000472-klasik-naturel-sizma-zeytinyag.jpg",
         "images/markalar/laleli/laleli-bottle-02-bottle-03-0000467-erken-hasat-zeytinyagi-5-lt-ba.jpg",
@@ -50,6 +70,11 @@
       "name": "Madra",
       "slug": "madra",
       "logo": "images/markalar/madra/madra-logo.png",
+      "logoSource": {
+        "source": "images/markalar/madra/madra-logo.png",
+        "finalUrl": "images/markalar/madra/madra-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/madra/madra-bottle-01-bottle-02-box-2.png",
         "images/markalar/madra/madra-bottle-02-bottle-03-box-3.png",
@@ -61,6 +86,11 @@
       "name": "Luna",
       "slug": "luna",
       "logo": "images/markalar/luna/luna-logo.png",
+      "logoSource": {
+        "source": "images/markalar/luna/luna-logo.png",
+        "finalUrl": "images/markalar/luna/luna-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/luna/luna-bottle-01-bottle-03-4205154-bf9a85-1650x1650.jpg",
         "images/markalar/luna/luna-bottle-02-bottle-01-kase-margarin-500-gr-13735-500x500.png",
@@ -72,6 +102,11 @@
       "name": "Yudum",
       "slug": "yudum",
       "logo": "images/markalar/yudum/yudum-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/yudum/yudum-logo.svg",
+        "finalUrl": "images/markalar/yudum/yudum-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yudum/yudum-bottle-01-bottle-02-naturel-sizma-5-lt-teneke-z.jpg",
         "images/markalar/yudum/yudum-bottle-02-bottle-03-egemden-sizma-zeytinyagi-500-ml-bc.png",
@@ -83,6 +118,11 @@
       "name": "Kırlangıç",
       "slug": "kirlangic",
       "logo": "images/markalar/kirlangic/kirlangic-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/kirlangic/kirlangic-logo.svg",
+        "finalUrl": "images/markalar/kirlangic/kirlangic-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kirlangic/kirlangic-bottle-01-sizma-naturel-5-lt-500.jpg",
         "images/markalar/kirlangic/kirlangic-bottle-02-ayvaliktaki-kirlangic-zeytinyagi.jpg",
@@ -94,6 +134,11 @@
       "name": "Marmarabirlik",
       "slug": "marmarabirlik",
       "logo": "images/markalar/marmarabirlik/marmarabirlik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/marmarabirlik/marmarabirlik-logo.png",
+        "finalUrl": "images/markalar/marmarabirlik/marmarabirlik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/marmarabirlik/marmarabirlik-bottle-01-bottle-02-naturel-si.png",
         "images/markalar/marmarabirlik/marmarabirlik-bottle-02-bottle-01-sizma-zeyt.avif",
@@ -105,6 +150,11 @@
       "name": "Oleamea",
       "slug": "oleamea",
       "logo": "images/markalar/oleamea/oleamea-logo.png",
+      "logoSource": {
+        "source": "images/markalar/oleamea/oleamea-logo.png",
+        "finalUrl": "images/markalar/oleamea/oleamea-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/oleamea/oleamea-bottle-01-bottle-03-gercek-zeytinyagi-1000x1000.webp",
         "images/markalar/oleamea/oleamea-bottle-02-bottle-01-zeytinyagi-isitilir-mi-1000x1000.webp",
@@ -116,6 +166,11 @@
       "name": "Mera Ovası",
       "slug": "mera-ovasi",
       "logo": "images/markalar/mera-ovasi/mera-ovasi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/mera-ovasi/mera-ovasi-logo.png",
+        "finalUrl": "images/markalar/mera-ovasi/mera-ovasi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mera-ovasi/mera-ovasi-bottle-01-bottle-03-meraovasi-5l-bottle.png",
         "images/markalar/mera-ovasi/mera-ovasi-bottle-02-meraovasi-2-bottle.png",
@@ -127,6 +182,11 @@
       "name": "Olivurla",
       "slug": "olivurla",
       "logo": "images/markalar/olivurla/olivurla-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olivurla/olivurla-logo.png",
+        "finalUrl": "images/markalar/olivurla/olivurla-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivurla/olivurla-bottle-01-ayvalik-5000x-min.jpg",
         "images/markalar/olivurla/olivurla-bottle-02-bottle-03-yerli-nsz-5000ml0913-1-mi.webp",
@@ -138,6 +198,11 @@
       "name": "Olistica",
       "slug": "olistica",
       "logo": "images/markalar/olistica/olistica-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/olistica/olistica-logo.jpg",
+        "finalUrl": "images/markalar/olistica/olistica-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olistica/olistica-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/olistica/olistica-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
@@ -149,6 +214,11 @@
       "name": "Olive Riviera",
       "slug": "olive-riviera",
       "logo": "images/markalar/olive-riviera/olive-riviera-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/olive-riviera/olive-riviera-logo.svg",
+        "finalUrl": "images/markalar/olive-riviera/olive-riviera-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olive-riviera/olive-riviera-bottle-01-bottle-03-oliverivierapellegrino-1.webp",
         "images/markalar/olive-riviera/olive-riviera-bottle-02-bottle-01-sizma-zeytinyagi-aydinli.jpg",
@@ -160,6 +230,11 @@
       "name": "Papez",
       "slug": "papez",
       "logo": "images/markalar/papez/papez-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/papez/papez-logo.svg",
+        "finalUrl": "images/markalar/papez/papez-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/papez/papez-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/papez/papez-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
@@ -171,6 +246,11 @@
       "name": "Selatin",
       "slug": "selatin",
       "logo": "images/markalar/selatin/selatin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/selatin/selatin-logo.png",
+        "finalUrl": "images/markalar/selatin/selatin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/selatin/selatin-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/selatin/selatin-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
@@ -182,6 +262,11 @@
       "name": "Değirmenci",
       "slug": "degirmenci",
       "logo": "images/markalar/degirmenci/degirmenci-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/degirmenci/degirmenci-logo.svg",
+        "finalUrl": "images/markalar/degirmenci/degirmenci-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/degirmenci/degirmenci-bottle-01-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/degirmenci/degirmenci-bottle-02-bottle-01-zeytinyagi-sisesi-yesil-500-ml.webp",
@@ -193,6 +278,11 @@
       "name": "İzmir Pınarı",
       "slug": "izmir-pinari",
       "logo": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
+        "finalUrl": "images/markalar/izmir-pinari/izmir-pinari-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/izmir-pinari/izmir-pinari-bottle-01-izmir-tire-den-naturel-siz.jpg",
         "images/markalar/izmir-pinari/izmir-pinari-bottle-02-bottle-03-izmir-tire-den-naturel-siz.jpg",
@@ -204,6 +294,11 @@
       "name": "Beyaz Altın",
       "slug": "beyaz-altin",
       "logo": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
+        "finalUrl": "images/markalar/beyaz-altin/beyaz-altin-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/beyaz-altin/beyaz-altin-bottle-01-beige-and-stone-natural-ston.avif",
         "images/markalar/beyaz-altin/beyaz-altin-bottle-02-bottle-03-misto-tritan-cam-sprey-zeyti.jpg",
@@ -215,6 +310,11 @@
       "name": "Özgün Olive",
       "slug": "ozgun-olive",
       "logo": "images/markalar/ozgun-olive/ozgun-olive-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/ozgun-olive/ozgun-olive-logo.jpg",
+        "finalUrl": "images/markalar/ozgun-olive/ozgun-olive-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ozgun-olive/ozgun-olive-bottle-01-zeytinyagi-ozgun-birinci-2lt.jpg",
         "images/markalar/ozgun-olive/ozgun-olive-bottle-02-bottle-03-oncu-naturel-sizma-zeytinyag.avif",
@@ -226,6 +326,11 @@
       "name": "Edremit Körfezi",
       "slug": "edremit-korfezi",
       "logo": "images/markalar/edremit-korfezi/edremit-korfezi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/edremit-korfezi/edremit-korfezi-logo.svg",
+        "finalUrl": "images/markalar/edremit-korfezi/edremit-korfezi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/edremit-korfezi/edremit-korfezi-bottle-01-ida-natura-edremit-s.jpg",
         "images/markalar/edremit-korfezi/edremit-korfezi-bottle-02-ida-natura-edremit-s.jpg",
@@ -237,6 +342,11 @@
       "name": "Kürşat",
       "slug": "kursat",
       "logo": "images/markalar/kursat/kursat-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kursat/kursat-logo.png",
+        "finalUrl": "images/markalar/kursat/kursat-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kursat/kursat-bottle-01-naturel-sizma-zeytinyagi-500-ml.avif",
         "images/markalar/kursat/kursat-bottle-02-bottle-03-naturel-sizma-zeytinyagi-3000-m.avif",
@@ -248,6 +358,11 @@
       "name": "Zeytin Dalı",
       "slug": "zeytin-dali",
       "logo": "images/markalar/zeytin-dali/zeytin-dali-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/zeytin-dali/zeytin-dali-logo.svg",
+        "finalUrl": "images/markalar/zeytin-dali/zeytin-dali-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytin-dali/zeytin-dali-bottle-01-cikartmalar-zeytinyagi-ve-ze.png",
         "images/markalar/zeytin-dali/zeytin-dali-bottle-02-bottle-03-zeytindali-kir-bahcesi-kiczq.webp",
@@ -259,6 +374,11 @@
       "name": "Egemden",
       "slug": "egemden",
       "logo": "images/markalar/egemden/egemden-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/egemden/egemden-logo.svg",
+        "finalUrl": "images/markalar/egemden/egemden-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/egemden/egemden-bottle-01-bottle-03-yudum-egemden-riviera-zeytinyagi-5-l.jpg",
         "images/markalar/egemden/egemden-bottle-02-yudum-egemden-sizma-zeytinyagi-500-m.png",
@@ -270,6 +390,11 @@
       "name": "Bereket",
       "slug": "bereket",
       "logo": "images/markalar/bereket/bereket-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/bereket/bereket-logo.svg",
+        "finalUrl": "images/markalar/bereket/bereket-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bereket/bereket-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/bereket/bereket-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
@@ -281,6 +406,11 @@
       "name": "Olea Prilis",
       "slug": "olea-prilis",
       "logo": "images/markalar/olea-prilis/olea-prilis-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/olea-prilis/olea-prilis-logo.svg",
+        "finalUrl": "images/markalar/olea-prilis/olea-prilis-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olea-prilis/olea-prilis-bottle-01-bottle-03-zeytinyagi-sisesi-yesil-500.webp",
         "images/markalar/olea-prilis/olea-prilis-bottle-02-organic-tuscan-p.jpg",
@@ -292,6 +422,11 @@
       "name": "Oliterra",
       "slug": "oliterra",
       "logo": "images/markalar/oliterra/oliterra-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/oliterra/oliterra-logo.svg",
+        "finalUrl": "images/markalar/oliterra/oliterra-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/oliterra/oliterra-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/oliterra/oliterra-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
@@ -303,6 +438,11 @@
       "name": "Ayla Zeytinyağı",
       "slug": "ayla-zeytinyagi",
       "logo": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
+        "finalUrl": "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-01-bottle-03-naturel-sizma-zeytin.jpg",
         "images/markalar/ayla-zeytinyagi/ayla-zeytinyagi-bottle-02-bottle-01-zeytinyagi-sisesi-ye.webp",
@@ -314,6 +454,11 @@
       "name": "Tarihi Kırkpınar",
       "slug": "tarihi-kirkpinar",
       "logo": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
+        "finalUrl": "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-01-bottle-03-663-tarihi-kirkpin.jpg",
         "images/markalar/tarihi-kirkpinar/tarihi-kirkpinar-bottle-02-bottle-01-tayfun-canli-edrem.webp",
@@ -325,6 +470,11 @@
       "name": "Olivos",
       "slug": "olivos",
       "logo": "images/markalar/olivos/olivos-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olivos/olivos-logo.png",
+        "finalUrl": "images/markalar/olivos/olivos-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivos/olivos-bottle-01-amber-sise-soft-etiket-premium-gorunum.webp",
         "images/markalar/olivos/olivos-bottle-02-bottle-03-sari-min.webp",
@@ -336,6 +486,11 @@
       "name": "Hasat",
       "slug": "hasat",
       "logo": "images/markalar/hasat/hasat-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/hasat/hasat-logo.svg",
+        "finalUrl": "images/markalar/hasat/hasat-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hasat/hasat-bottle-01-zeytinyagi-erken-hasat-2000-ml.jpg",
         "images/markalar/hasat/hasat-bottle-02-bottle-03-1-litre-erken-hasat-zeytinyagi-erken-has.jpg",
@@ -347,6 +502,11 @@
       "name": "Ayvalık Yıldızı",
       "slug": "ayvalik-yildizi",
       "logo": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
+        "finalUrl": "images/markalar/ayvalik-yildizi/ayvalik-yildizi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-01-ayvalik-erken-hasat.webp",
         "images/markalar/ayvalik-yildizi/ayvalik-yildizi-bottle-02-bottle-03-naturel-sizma-zeytin.jpg",
@@ -358,6 +518,11 @@
       "name": "İlyada",
       "slug": "ilyada",
       "logo": "images/markalar/ilyada/ilyada-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ilyada/ilyada-logo.png",
+        "finalUrl": "images/markalar/ilyada/ilyada-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ilyada/ilyada-bottle-01-zeytinyagi.png",
         "images/markalar/ilyada/ilyada-bottle-02-slider1.webp",
@@ -369,6 +534,11 @@
       "name": "Coşkun Zeytinyağları",
       "slug": "coskun-zeytinyaglari",
       "logo": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-logo.png",
+      "logoSource": {
+        "source": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-logo.png",
+        "finalUrl": "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-bottle-01-bottle-03-4-adet-1l.jpg",
         "images/markalar/coskun-zeytinyaglari/coskun-zeytinyaglari-bottle-02-coskun-zey.jpg",
@@ -380,6 +550,11 @@
       "name": "Nar Gourmet",
       "slug": "nar-gourmet",
       "logo": "images/markalar/nar-gourmet/nar-gourmet-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/nar-gourmet/nar-gourmet-logo.jpg",
+        "finalUrl": "images/markalar/nar-gourmet/nar-gourmet-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/nar-gourmet/nar-gourmet-bottle-01-0013121-tarimbirlik-2-lt-zey.jpg",
         "images/markalar/nar-gourmet/nar-gourmet-bottle-02-0013949-tarimbirlik-5-lt-zey.jpg",
@@ -391,6 +566,11 @@
       "name": "MonOlive",
       "slug": "monolive",
       "logo": "images/markalar/monolive/monolive-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/monolive/monolive-logo.jpg",
+        "finalUrl": "images/markalar/monolive/monolive-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/monolive/monolive-bottle-01-zeytinyagi-cesitleri.jpg",
         "images/markalar/monolive/monolive-bottle-02-bottle-03-zeytinyagi-sagliktir.jpg",
@@ -402,6 +582,11 @@
       "name": "Zeytursan",
       "slug": "zeytursan",
       "logo": "images/markalar/zeytursan/zeytursan-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytursan/zeytursan-logo.png",
+        "finalUrl": "images/markalar/zeytursan/zeytursan-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytursan/zeytursan-bottle-01-bottle-03-zeytinyagi-sisesi-yesil-500-ml-1.webp",
         "images/markalar/zeytursan/zeytursan-bottle-02-bottle-01-branch-of-olive-tree-with-ripe-g.jpg",
@@ -413,6 +598,11 @@
       "name": "Trilye",
       "slug": "trilye",
       "logo": "images/markalar/trilye/trilye-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/trilye/trilye-logo.svg",
+        "finalUrl": "images/markalar/trilye/trilye-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/trilye/trilye-bottle-01-bottle-02-erken-hasat-naturel-sizma-zeyti.webp",
         "images/markalar/trilye/trilye-bottle-02-bottle-03-erken-hasat-naturel-sizma-zeyti.webp",
@@ -424,6 +614,11 @@
       "name": "Polat Zeytinyağı",
       "slug": "polat-zeytinyagi",
       "logo": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-logo.svg",
+        "finalUrl": "images/markalar/polat-zeytinyagi/polat-zeytinyagi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/polat-zeytinyagi/polat-zeytinyagi-bottle-01-bottle-03-naturel-sizma-zeyt.jpg",
         "images/markalar/polat-zeytinyagi/polat-zeytinyagi-bottle-02-bottle-01-zeytinyagi-sisesi.webp",
@@ -435,6 +630,11 @@
       "name": "Tego",
       "slug": "tego",
       "logo": "images/markalar/tego/tego-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/tego/tego-logo.svg",
+        "finalUrl": "images/markalar/tego/tego-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/tego/tego-bottle-01-bottle-03-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/tego/tego-bottle-02-bottle-01-zeytinyagi-sisesi-yesil-500-ml-1.webp",
@@ -446,6 +646,11 @@
       "name": "Bumba Zeytinyağı",
       "slug": "bumba-zeytinyagi",
       "logo": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
+        "finalUrl": "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-01-bottle-03-naturel-sizma-zeyt.jpg",
         "images/markalar/bumba-zeytinyagi/bumba-zeytinyagi-bottle-02-bottle-01-zeytinyagi-sisesi.webp",
@@ -457,6 +662,11 @@
       "name": "Herbal Organik",
       "slug": "herbal-organik",
       "logo": "images/markalar/herbal-organik/herbal-organik-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/herbal-organik/herbal-organik-logo.svg",
+        "finalUrl": "images/markalar/herbal-organik/herbal-organik-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/herbal-organik/herbal-organik-bottle-01-ozonlanmis-zeytinyagi.webp",
         "images/markalar/herbal-organik/herbal-organik-bottle-02-bottle-03-naturel-sizma-zeytinya.jpg",
@@ -468,6 +678,11 @@
       "name": "Olive Mama",
       "slug": "olive-mama",
       "logo": "images/markalar/olive-mama/olive-mama-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olive-mama/olive-mama-logo.png",
+        "finalUrl": "images/markalar/olive-mama/olive-mama-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olive-mama/olive-mama-bottle-01-bottle-03-kadin-figurlu-el-yapimi-serami.png",
         "images/markalar/olive-mama/olive-mama-bottle-02-melek-figurlu-el-yapimi-serami.png",
@@ -479,6 +694,11 @@
       "name": "Ekooleo",
       "slug": "ekooleo",
       "logo": "images/markalar/ekooleo/ekooleo-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/ekooleo/ekooleo-logo.svg",
+        "finalUrl": "images/markalar/ekooleo/ekooleo-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ekooleo/ekooleo-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/ekooleo/ekooleo-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5lt.jpg",
@@ -490,6 +710,11 @@
       "name": "Ödemiş Birlik",
       "slug": "odemis-birlik",
       "logo": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
+        "finalUrl": "images/markalar/odemis-birlik/odemis-birlik-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/odemis-birlik/odemis-birlik-bottle-01-bottle-03-naturel-sizma-zeytinyagi.jpg",
         "images/markalar/odemis-birlik/odemis-birlik-bottle-02-marmarabirlik-naturel-si.png",
@@ -501,6 +726,11 @@
       "name": "İzmir Birlik",
       "slug": "izmir-birlik",
       "logo": "images/markalar/izmir-birlik/izmir-birlik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/izmir-birlik/izmir-birlik-logo.png",
+        "finalUrl": "images/markalar/izmir-birlik/izmir-birlik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/izmir-birlik/izmir-birlik-bottle-01-izmir-tire-den-naturel-siz.jpg",
         "images/markalar/izmir-birlik/izmir-birlik-bottle-02-bottle-03-izmir-tire-den-naturel-siz.jpg",
@@ -512,6 +742,11 @@
       "name": "Milas Zeytinyağları",
       "slug": "milas-zeytinyaglari",
       "logo": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-logo.svg",
+        "finalUrl": "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-bottle-01-bottle-02-milas-anatol.webp",
         "images/markalar/milas-zeytinyaglari/milas-zeytinyaglari-bottle-02-bottle-03-milas-nature.webp",
@@ -523,6 +758,11 @@
       "name": "Nish Olive",
       "slug": "nish-olive",
       "logo": "images/markalar/nish-olive/nish-olive-logo.png",
+      "logoSource": {
+        "source": "images/markalar/nish-olive/nish-olive-logo.png",
+        "finalUrl": "images/markalar/nish-olive/nish-olive-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/nish-olive/nish-olive-bottle-01-bottle-02-sicak-lezzetler-riviera-zeytin.avif",
         "images/markalar/nish-olive/nish-olive-bottle-02-bottle-03-riviera-zeytinyagi.avif",
@@ -534,6 +774,11 @@
       "name": "Naturel",
       "slug": "naturel",
       "logo": "images/markalar/naturel/naturel-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/naturel/naturel-logo.svg",
+        "finalUrl": "images/markalar/naturel/naturel-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/naturel/naturel-bottle-01-zeytinyagi-sisesi-yesil-250-ml-1.webp",
         "images/markalar/naturel/naturel-bottle-02-bottle-03-500ml-seffaf-pet-gida-sisesi-12-adet.avif",
@@ -545,6 +790,11 @@
       "name": "NovaVera",
       "slug": "novavera",
       "logo": "images/markalar/novavera/novavera-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/novavera/novavera-logo.svg",
+        "finalUrl": "images/markalar/novavera/novavera-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/novavera/novavera-bottle-01-ayvalik-erken-hasat-naturel-sizma.webp",
         "images/markalar/novavera/novavera-bottle-02-bottle-03-memecik-erken-hasat-naturel-sizma.webp",
@@ -556,6 +806,11 @@
       "name": "Gaia Oliva",
       "slug": "gaia-oliva",
       "logo": "images/markalar/gaia-oliva/gaia-oliva-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/gaia-oliva/gaia-oliva-logo.svg",
+        "finalUrl": "images/markalar/gaia-oliva/gaia-oliva-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gaia-oliva/gaia-oliva-bottle-01-bottle-03-zeytinyagi-947f-d.webp",
         "images/markalar/gaia-oliva/gaia-oliva-bottle-02-zeytinyagi-e-6c3b.webp",
@@ -567,6 +822,11 @@
       "name": "Nizolive",
       "slug": "nizolive",
       "logo": "images/markalar/nizolive/nizolive-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/nizolive/nizolive-logo.webp",
+        "finalUrl": "images/markalar/nizolive/nizolive-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/nizolive/nizolive-bottle-01-zeytinyagi-2000ml-450x450.webp",
         "images/markalar/nizolive/nizolive-bottle-02-bottle-03-memecik-soguk-sikim-1000ml-450x450.webp",
@@ -578,6 +838,11 @@
       "name": "Verde",
       "slug": "verde",
       "logo": "images/markalar/verde/verde-logo.png",
+      "logoSource": {
+        "source": "images/markalar/verde/verde-logo.png",
+        "finalUrl": "images/markalar/verde/verde-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/verde/verde-bottle-01-500-ml-sise-sizma-1.png",
         "images/markalar/verde/verde-bottle-02-naturel-sizma-zeytinyagi-urun-ic-g.png",
@@ -589,6 +854,11 @@
       "name": "Adatepe",
       "slug": "adatepe",
       "logo": "images/markalar/adatepe/adatepe-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/adatepe/adatepe-logo.jpg",
+        "finalUrl": "images/markalar/adatepe/adatepe-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/adatepe/adatepe-bottle-01-bottle-03-1740045949-adatepezeytinyagi1lt-1.png",
         "images/markalar/adatepe/adatepe-bottle-02-1740046344-3litre-1.jpg",
@@ -600,6 +870,11 @@
       "name": "OleTurk",
       "slug": "oleturk",
       "logo": "images/markalar/oleturk/oleturk-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/oleturk/oleturk-logo.webp",
+        "finalUrl": "images/markalar/oleturk/oleturk-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/oleturk/oleturk-bottle-01-naturel-sizma-zeytinyagi-hediye-seti.webp",
         "images/markalar/oleturk/oleturk-bottle-02-ole-turk-zeytinyagi-iki-sise-duo-set.webp",
@@ -611,6 +886,11 @@
       "name": "Kahraman",
       "slug": "kahraman",
       "logo": "images/markalar/kahraman/kahraman-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kahraman/kahraman-logo.png",
+        "finalUrl": "images/markalar/kahraman/kahraman-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kahraman/kahraman-bottle-01-bottle-03-oliveoil4.jpg",
         "images/markalar/kahraman/kahraman-bottle-02-oliveoil5.jpg",
@@ -622,6 +902,11 @@
       "name": "Buta Assos",
       "slug": "buta-assos",
       "logo": "images/markalar/buta-assos/buta-assos-logo.png",
+      "logoSource": {
+        "source": "images/markalar/buta-assos/buta-assos-logo.png",
+        "finalUrl": "images/markalar/buta-assos/buta-assos-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/buta-assos/buta-assos-bottle-01-2-lt-zeytinyagi-on.jpg",
         "images/markalar/buta-assos/buta-assos-bottle-02-bottle-03-2-lt-zeytinyagi-on-1024x1024.jpg",
@@ -633,6 +918,11 @@
       "name": "Ayvaco",
       "slug": "ayvaco",
       "logo": "images/markalar/ayvaco/ayvaco-logo.avif",
+      "logoSource": {
+        "source": "images/markalar/ayvaco/ayvaco-logo.avif",
+        "finalUrl": "images/markalar/ayvaco/ayvaco-logo.avif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ayvaco/ayvaco-bottle-01-bottle-03-ayvaco11.webp",
         "images/markalar/ayvaco/ayvaco-bottle-02-3.webp",
@@ -644,6 +934,11 @@
       "name": "OVE Foods",
       "slug": "ove-foods",
       "logo": "images/markalar/ove-foods/ove-foods-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ove-foods/ove-foods-logo.png",
+        "finalUrl": "images/markalar/ove-foods/ove-foods-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ove-foods/ove-foods-bottle-01-products-1758727566735-rosemaryi.png",
         "images/markalar/ove-foods/ove-foods-bottle-02-bottle-03-products-1759071523008-kidsolive.png",
@@ -655,6 +950,11 @@
       "name": "Granpa",
       "slug": "granpa",
       "logo": "images/markalar/granpa/granpa-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/granpa/granpa-logo.webp",
+        "finalUrl": "images/markalar/granpa/granpa-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/granpa/granpa-bottle-01-bottle-02-premium-trilye-500ml-erken-hasa.webp",
         "images/markalar/granpa/granpa-bottle-02-bottle-03-gold-250ml-erken-hasat-soguk-si.webp",
@@ -666,6 +966,11 @@
       "name": "Mavras",
       "slug": "mavras",
       "logo": "images/markalar/mavras/mavras-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/mavras/mavras-logo.webp",
+        "finalUrl": "images/markalar/mavras/mavras-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mavras/mavras-bottle-01-bottle-03-naturel-sizma-zeytinyagi-2li-photoroom.webp",
         "images/markalar/mavras/mavras-bottle-02-bottle-01-mavras9014.webp",
@@ -677,6 +982,11 @@
       "name": "Hermus",
       "slug": "hermus",
       "logo": "images/markalar/hermus/hermus-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/hermus/hermus-logo.webp",
+        "finalUrl": "images/markalar/hermus/hermus-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hermus/hermus-bottle-01-bottle-03-arbekina3lu-min.webp",
         "images/markalar/hermus/hermus-bottle-02-arbekinatek-min.png",
@@ -688,6 +998,11 @@
       "name": "Nermin Hanım Zeytinliği",
       "slug": "nermin-hanim-zeytinligi",
       "logo": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-logo.webp",
+        "finalUrl": "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-bottle-01-bottle-03-tril.webp",
         "images/markalar/nermin-hanim-zeytinligi/nermin-hanim-zeytinligi-bottle-02-arbe.webp",
@@ -699,6 +1014,11 @@
       "name": "Olivya Gökçeovacık",
       "slug": "olivya-gokceovacik",
       "logo": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-logo.webp",
+        "finalUrl": "images/markalar/olivya-gokceovacik/olivya-gokceovacik-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivya-gokceovacik/olivya-gokceovacik-bottle-01-bottle-03-urunler-20.webp",
         "images/markalar/olivya-gokceovacik/olivya-gokceovacik-bottle-02-urunler-19.webp",
@@ -710,6 +1030,11 @@
       "name": "Zetay",
       "slug": "zetay",
       "logo": "images/markalar/zetay/zetay-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zetay/zetay-logo.png",
+        "finalUrl": "images/markalar/zetay/zetay-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zetay/zetay-bottle-01-69737543d1756.png",
         "images/markalar/zetay/zetay-bottle-02-6929a85c85dea.png"
@@ -720,6 +1045,11 @@
       "name": "MR Zeytin",
       "slug": "mr-zeytin",
       "logo": "images/markalar/mr-zeytin/mr-zeytin-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/mr-zeytin/mr-zeytin-logo.webp",
+        "finalUrl": "images/markalar/mr-zeytin/mr-zeytin-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mr-zeytin/mr-zeytin-bottle-01-bottle-03-7981836199.webp",
         "images/markalar/mr-zeytin/mr-zeytin-bottle-02-474359394.webp",
@@ -731,6 +1061,11 @@
       "name": "Dalgıçoğlu",
       "slug": "dalgicoglu",
       "logo": "images/markalar/dalgicoglu/dalgicoglu-logo.png",
+      "logoSource": {
+        "source": "images/markalar/dalgicoglu/dalgicoglu-logo.png",
+        "finalUrl": "images/markalar/dalgicoglu/dalgicoglu-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/dalgicoglu/dalgicoglu-bottle-01-com-469160-qt63oivl.png",
         "images/markalar/dalgicoglu/dalgicoglu-bottle-02-bottle-03-com-591337.webp",
@@ -742,6 +1077,11 @@
       "name": "Sabuncugil",
       "slug": "sabuncugil",
       "logo": "images/markalar/sabuncugil/sabuncugil-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/sabuncugil/sabuncugil-logo.webp",
+        "finalUrl": "images/markalar/sabuncugil/sabuncugil-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/sabuncugil/sabuncugil-bottle-01-dsc4088-copy-2-min.jpg",
         "images/markalar/sabuncugil/sabuncugil-bottle-02-adsiz-900-x-1500-piksel-min.png",
@@ -753,6 +1093,11 @@
       "name": "Koral Zeytin",
       "slug": "koral-zeytin",
       "logo": "images/markalar/koral-zeytin/koral-zeytin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/koral-zeytin/koral-zeytin-logo.png",
+        "finalUrl": "images/markalar/koral-zeytin/koral-zeytin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/koral-zeytin/koral-zeytin-bottle-01-erken-hasat-5lt-250x250.jpg",
         "images/markalar/koral-zeytin/koral-zeytin-bottle-02-soguk-skm-5lt-250x250.jpg",
@@ -764,6 +1109,11 @@
       "name": "Semylasa",
       "slug": "semylasa",
       "logo": "images/markalar/semylasa/semylasa-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/semylasa/semylasa-logo.webp",
+        "finalUrl": "images/markalar/semylasa/semylasa-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/semylasa/semylasa-bottle-01-bottle-03-img-9303-jp.webp",
         "images/markalar/semylasa/semylasa-bottle-02-bottle-01-21.webp",
@@ -775,6 +1125,11 @@
       "name": "Olivamore",
       "slug": "olivamore",
       "logo": "images/markalar/olivamore/olivamore-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/olivamore/olivamore-logo.svg",
+        "finalUrl": "images/markalar/olivamore/olivamore-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivamore/olivamore-bottle-01-bottle-02-ayvalik-erken-hasat-naturel-sizm.jpg",
         "images/markalar/olivamore/olivamore-bottle-02-bottle-03-ayvalik-erken-hasat-naturel-sizm.jpg",
@@ -786,6 +1141,11 @@
       "name": "Ayolis",
       "slug": "ayolis",
       "logo": "images/markalar/ayolis/ayolis-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ayolis/ayolis-logo.png",
+        "finalUrl": "images/markalar/ayolis/ayolis-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ayolis/ayolis-bottle-01-premium-gurme-ayvalik-odullu-yu.jpg",
         "images/markalar/ayolis/ayolis-bottle-02-bottle-03-premium-gurme-trilye-odullu-yuk.jpg",
@@ -797,6 +1157,11 @@
       "name": "Gemlika",
       "slug": "gemlika",
       "logo": "images/markalar/gemlika/gemlika-logo.png",
+      "logoSource": {
+        "source": "images/markalar/gemlika/gemlika-logo.png",
+        "finalUrl": "images/markalar/gemlika/gemlika-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gemlika/gemlika-bottle-01-bottle-02-sizma-zeytinyagi-naturel.jpg",
         "images/markalar/gemlika/gemlika-bottle-02-bottle-01-hero-bottle.png",
@@ -808,6 +1173,11 @@
       "name": "Zeytinsan",
       "slug": "zeytinsan",
       "logo": "images/markalar/zeytinsan/zeytinsan-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytinsan/zeytinsan-logo.png",
+        "finalUrl": "images/markalar/zeytinsan/zeytinsan-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinsan/zeytinsan-bottle-01-3.png",
         "images/markalar/zeytinsan/zeytinsan-bottle-02-3-600x475.png",
@@ -819,6 +1189,11 @@
       "name": "Anolive",
       "slug": "anolive",
       "logo": "images/markalar/anolive/anolive-logo.png",
+      "logoSource": {
+        "source": "images/markalar/anolive/anolive-logo.png",
+        "finalUrl": "images/markalar/anolive/anolive-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/anolive/anolive-bottle-01-bottle-index.jpg",
         "images/markalar/anolive/anolive-bottle-02-bottle-03-img-anolive-in-kitchen-500ml.jpg",
@@ -830,6 +1205,11 @@
       "name": "Artem Oliva",
       "slug": "artem-oliva",
       "logo": "images/markalar/artem-oliva/artem-oliva-logo.png",
+      "logoSource": {
+        "source": "images/markalar/artem-oliva/artem-oliva-logo.png",
+        "finalUrl": "images/markalar/artem-oliva/artem-oliva-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/artem-oliva/artem-oliva-bottle-01-extra-virgin-oli.png",
         "images/markalar/artem-oliva/artem-oliva-bottle-02-bottle-03-organic-extra-vi.webp",
@@ -841,6 +1221,11 @@
       "name": "OliveOilsLand",
       "slug": "oliveoilsland",
       "logo": "images/markalar/oliveoilsland/oliveoilsland-logo.png",
+      "logoSource": {
+        "source": "images/markalar/oliveoilsland/oliveoilsland-logo.png",
+        "finalUrl": "images/markalar/oliveoilsland/oliveoilsland-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/oliveoilsland/oliveoilsland-bottle-01-pomaceoliveoil-tin-packa.png",
         "images/markalar/oliveoilsland/oliveoilsland-bottle-02-bottle-03-pomaceoliveoil-tin-packa.png",
@@ -852,6 +1237,11 @@
       "name": "Hatnar",
       "slug": "hatnar",
       "logo": "images/markalar/hatnar/hatnar-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/hatnar/hatnar-logo.svg",
+        "finalUrl": "images/markalar/hatnar/hatnar-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hatnar/hatnar-bottle-01-bottle-03-img-4002-420x420.jpg",
         "images/markalar/hatnar/hatnar-bottle-02-img-4011-420x420.jpg",
@@ -863,6 +1253,11 @@
       "name": "Zetiya",
       "slug": "zetiya",
       "logo": "images/markalar/zetiya/zetiya-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/zetiya/zetiya-logo.webp",
+        "finalUrl": "images/markalar/zetiya/zetiya-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zetiya/zetiya-bottle-01-artboard-4.webp",
         "images/markalar/zetiya/zetiya-bottle-02-artboard-2.webp",
@@ -874,6 +1269,11 @@
       "name": "Ece'den Sofranıza",
       "slug": "eceden-sofraniza",
       "logo": "images/markalar/eceden-sofraniza/eceden-sofraniza-logo.png",
+      "logoSource": {
+        "source": "images/markalar/eceden-sofraniza/eceden-sofraniza-logo.png",
+        "finalUrl": "images/markalar/eceden-sofraniza/eceden-sofraniza-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/eceden-sofraniza/eceden-sofraniza-bottle-01-bottle-03-18-litre.jpg",
         "images/markalar/eceden-sofraniza/eceden-sofraniza-bottle-02-teneke-2.png",
@@ -885,6 +1285,11 @@
       "name": "Uygur Zeytinyağı",
       "slug": "uygur-zeytinyagi",
       "logo": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-logo.png",
+        "finalUrl": "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-bottle-01-5lt.png",
         "images/markalar/uygur-zeytinyagi/uygur-zeytinyagi-bottle-02-10lt.png",
@@ -896,6 +1301,11 @@
       "name": "Yalım Zeytin Yağları",
       "slug": "yalim-zeytin-yaglari",
       "logo": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-logo.png",
+      "logoSource": {
+        "source": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-logo.png",
+        "finalUrl": "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-bottle-01-500.jpg",
         "images/markalar/yalim-zeytin-yaglari/yalim-zeytin-yaglari-bottle-02-bottle-03-2000.jpg",
@@ -907,6 +1317,11 @@
       "name": "Zeytincir",
       "slug": "zeytincir",
       "logo": "images/markalar/zeytincir/zeytincir-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytincir/zeytincir-logo.png",
+        "finalUrl": "images/markalar/zeytincir/zeytincir-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytincir/zeytincir-bottle-01-bottle-02-zeytinyagi-4.jpg",
         "images/markalar/zeytincir/zeytincir-bottle-02-bottle-03-zeytinyagi-5.jpg",
@@ -918,6 +1333,11 @@
       "name": "Bazilika",
       "slug": "bazilika",
       "logo": "images/markalar/bazilika/bazilika-logo.png",
+      "logoSource": {
+        "source": "images/markalar/bazilika/bazilika-logo.png",
+        "finalUrl": "images/markalar/bazilika/bazilika-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bazilika/bazilika-bottle-01-bottle-03-1670480621.png",
         "images/markalar/bazilika/bazilika-bottle-02-1670404910.png",
@@ -929,6 +1349,11 @@
       "name": "Arslan Zeytinyağı",
       "slug": "arslan-zeytinyagi",
       "logo": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-logo.png",
+        "finalUrl": "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-bottle-01-bottle-02-glass-bottle-1l.png",
         "images/markalar/arslan-zeytinyagi/arslan-zeytinyagi-bottle-02-bottle-01-1000-ml-glass-17.png",
@@ -940,6 +1365,11 @@
       "name": "Hatay Tadında",
       "slug": "hatay-tadinda",
       "logo": "images/markalar/hatay-tadinda/hatay-tadinda-logo.png",
+      "logoSource": {
+        "source": "images/markalar/hatay-tadinda/hatay-tadinda-logo.png",
+        "finalUrl": "images/markalar/hatay-tadinda/hatay-tadinda-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hatay-tadinda/hatay-tadinda-bottle-01-hatay-yoresel-sizma-zeyt.png",
         "images/markalar/hatay-tadinda/hatay-tadinda-bottle-02-soguk-sikim2.jpg",
@@ -951,6 +1381,11 @@
       "name": "Gemtar",
       "slug": "gemtar",
       "logo": "images/markalar/gemtar/gemtar-logo.png",
+      "logoSource": {
+        "source": "images/markalar/gemtar/gemtar-logo.png",
+        "finalUrl": "images/markalar/gemtar/gemtar-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gemtar/gemtar-bottle-01-bottle-02-1-5-l-naturel-min.webp",
         "images/markalar/gemtar/gemtar-bottle-02-bottle-01-1-l-naturel-min.webp",
@@ -962,6 +1397,11 @@
       "name": "Gemlik Zeytincisi",
       "slug": "gemlik-zeytincisi",
       "logo": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-logo.png",
+        "finalUrl": "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-bottle-01-bottle-02-1719498177768.jpg",
         "images/markalar/gemlik-zeytincisi/gemlik-zeytincisi-bottle-02-bottle-01-1719497116290.jpg",
@@ -973,6 +1413,11 @@
       "name": "Gemlik Zeytin Evi",
       "slug": "gemlik-zeytin-evi",
       "logo": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-logo.png",
+        "finalUrl": "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-bottle-01-bottle-02-natural-sizma-1.jpg",
         "images/markalar/gemlik-zeytin-evi/gemlik-zeytin-evi-bottle-02-bottle-01-5l-natural-700x7.png",
@@ -984,6 +1429,11 @@
       "name": "Solive",
       "slug": "solive",
       "logo": "images/markalar/solive/solive-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/solive/solive-logo.webp",
+        "finalUrl": "images/markalar/solive/solive-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/solive/solive-bottle-01-ilkikisaat-2littr-min.jpg",
         "images/markalar/solive/solive-bottle-02-bottle-03-1-min.png",
@@ -995,6 +1445,11 @@
       "name": "Yelkenli",
       "slug": "yelkenli",
       "logo": "images/markalar/yelkenli/yelkenli-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/yelkenli/yelkenli-logo.webp",
+        "finalUrl": "images/markalar/yelkenli/yelkenli-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yelkenli/yelkenli-bottle-01-bottle-03-500cl-kulplu1-1-300x300.webp",
         "images/markalar/yelkenli/yelkenli-bottle-02-bottle-01-2lt-teneke1-1-300x300.webp",
@@ -1006,6 +1461,11 @@
       "name": "Vivax Olea",
       "slug": "vivax-olea",
       "logo": "images/markalar/vivax-olea/vivax-olea-logo.png",
+      "logoSource": {
+        "source": "images/markalar/vivax-olea/vivax-olea-logo.png",
+        "finalUrl": "images/markalar/vivax-olea/vivax-olea-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/vivax-olea/vivax-olea-bottle-01-bottle-02-zeytinyagi-soguksikim-1.jpg",
         "images/markalar/vivax-olea/vivax-olea-bottle-02-bottle-01-whatsapp-gorsel-2024-12-17-saa.jpg"
@@ -1016,6 +1476,11 @@
       "name": "Şarköy Çiftlik",
       "slug": "sarkoy-ciftlik",
       "logo": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-logo.jpg",
+        "finalUrl": "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-bottle-01-image-1080.webp",
         "images/markalar/sarkoy-ciftlik/sarkoy-ciftlik-bottle-02-dsc04648.webp",
@@ -1027,6 +1492,11 @@
       "name": "Mutuna",
       "slug": "mutuna",
       "logo": "images/markalar/mutuna/mutuna-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/mutuna/mutuna-logo.webp",
+        "finalUrl": "images/markalar/mutuna/mutuna-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mutuna/mutuna-bottle-01-bottle-03-7c311dce-d7d5-44cd-91dd-844e00bc890b-m.jpg",
         "images/markalar/mutuna/mutuna-bottle-02-8f16ee0f-3276-4983-8030-9b21c2d5de36-m.jpg",
@@ -1038,6 +1508,11 @@
       "name": "Mutili",
       "slug": "mutili",
       "logo": "images/markalar/mutili/mutili-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/mutili/mutili-logo.webp",
+        "finalUrl": "images/markalar/mutili/mutili-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mutili/mutili-bottle-01-750ml-2-600x494-1.webp",
         "images/markalar/mutili/mutili-bottle-02-soguk-sikim-sise.webp",
@@ -1049,6 +1524,11 @@
       "name": "Mut İncisi",
       "slug": "mut-incisi",
       "logo": "images/markalar/mut-incisi/mut-incisi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/mut-incisi/mut-incisi-logo.png",
+        "finalUrl": "images/markalar/mut-incisi/mut-incisi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mut-incisi/mut-incisi-bottle-01-bottle-03-69a5cb091c0de-1772473097.jpg",
         "images/markalar/mut-incisi/mut-incisi-bottle-02-69a5cb0a205df-1772473098.jpg",
@@ -1060,6 +1540,11 @@
       "name": "Zeytinyağı Evi",
       "slug": "zeytinyagi-evi",
       "logo": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-logo.png",
+        "finalUrl": "images/markalar/zeytinyagi-evi/zeytinyagi-evi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinyagi-evi/zeytinyagi-evi-bottle-01-bottle-03-domat-naturel-sizma-ze.jpg",
         "images/markalar/zeytinyagi-evi/zeytinyagi-evi-bottle-02-bottle-01-filtresiz-naturel-sizm.png",
@@ -1071,6 +1556,11 @@
       "name": "Sazak Zeytincilik",
       "slug": "sazak-zeytincilik",
       "logo": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-logo.png",
+        "finalUrl": "images/markalar/sazak-zeytincilik/sazak-zeytincilik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/sazak-zeytincilik/sazak-zeytincilik-bottle-01-bottle-02-sizma111-min.webp",
         "images/markalar/sazak-zeytincilik/sazak-zeytincilik-bottle-02-bottle-03-erkenhasat5lt1-m.webp",
@@ -1082,6 +1572,11 @@
       "name": "Adrasos",
       "slug": "adrasos",
       "logo": "images/markalar/adrasos/adrasos-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/adrasos/adrasos-logo.webp",
+        "finalUrl": "images/markalar/adrasos/adrasos-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/adrasos/adrasos-bottle-01-bottle-02-naturel-sizma-zeytinyagi-1lt.jpg",
         "images/markalar/adrasos/adrasos-bottle-02-bottle-03-erken-hasat-sizma-zeytinyagi.jpg",
@@ -1093,6 +1588,11 @@
       "name": "Mutolea",
       "slug": "mutolea",
       "logo": "images/markalar/mutolea/mutolea-logo.png",
+      "logoSource": {
+        "source": "images/markalar/mutolea/mutolea-logo.png",
+        "finalUrl": "images/markalar/mutolea/mutolea-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mutolea/mutolea-bottle-01-bottle-03-500x500-thumb-mut-00070.png",
         "images/markalar/mutolea/mutolea-bottle-02-500x500-thumb-mut-00074.png",
@@ -1104,6 +1604,11 @@
       "name": "Palamidas",
       "slug": "palamidas",
       "logo": "images/markalar/palamidas/palamidas-logo.png",
+      "logoSource": {
+        "source": "images/markalar/palamidas/palamidas-logo.png",
+        "finalUrl": "images/markalar/palamidas/palamidas-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/palamidas/palamidas-bottle-01-bottle-03-500-ml-organik-naturel-sizma-zey.webp",
         "images/markalar/palamidas/palamidas-bottle-02-bottle-01-5-lt-tnk-soguk-sikim-naturel-siz.webp",
@@ -1115,6 +1620,11 @@
       "name": "Oro di Milas",
       "slug": "oro-di-milas",
       "logo": "images/markalar/oro-di-milas/oro-di-milas-logo.avif",
+      "logoSource": {
+        "source": "images/markalar/oro-di-milas/oro-di-milas-logo.avif",
+        "finalUrl": "images/markalar/oro-di-milas/oro-di-milas-logo.avif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/oro-di-milas/oro-di-milas-bottle-01-bottle-02-pic-site-11.avif",
         "images/markalar/oro-di-milas/oro-di-milas-bottle-02-bottle-01-1ab336-68345a0a5b164210800.png",
@@ -1126,6 +1636,11 @@
       "name": "Velvet",
       "slug": "velvet",
       "logo": "images/markalar/velvet/velvet-logo.avif",
+      "logoSource": {
+        "source": "images/markalar/velvet/velvet-logo.avif",
+        "finalUrl": "images/markalar/velvet/velvet-logo.avif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/velvet/velvet-bottle-01-734c68-0fba80ce35dc40f98003ed60b443560.png",
         "images/markalar/velvet/velvet-bottle-02-bottle-03-734c68-026eaf53169d46c4b153c7b9a344b9a.png",
@@ -1137,6 +1652,11 @@
       "name": "MASMANA",
       "slug": "masmana",
       "logo": "images/markalar/masmana/masmana-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/masmana/masmana-logo.webp",
+        "finalUrl": "images/markalar/masmana/masmana-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/masmana/masmana-bottle-01-whatsapp-image-2025-11-17-at-1-28-59.webp",
         "images/markalar/masmana/masmana-bottle-02-3-efc07da6-aec5-4932-a3ae-c9a0ceacfe.webp",
@@ -1148,6 +1668,11 @@
       "name": "Josevia",
       "slug": "josevia",
       "logo": "images/markalar/josevia/josevia-logo.png",
+      "logoSource": {
+        "source": "images/markalar/josevia/josevia-logo.png",
+        "finalUrl": "images/markalar/josevia/josevia-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/josevia/josevia-bottle-01-bottle-02-70f64e-5a67b737260245e5909e3ad6e3c60.jpg",
         "images/markalar/josevia/josevia-bottle-02-bottle-03-70f64e-da8f9bec6b9840eaaa0a22ddd40ef.jpg",
@@ -1159,6 +1684,11 @@
       "name": "EFSUS",
       "slug": "efsus",
       "logo": "images/markalar/efsus/efsus-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/efsus/efsus-logo.webp",
+        "finalUrl": "images/markalar/efsus/efsus-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/efsus/efsus-bottle-01-bottle-03-35.webp",
         "images/markalar/efsus/efsus-bottle-02-21.webp",
@@ -1170,6 +1700,11 @@
       "name": "Güven Asa",
       "slug": "guven-asa",
       "logo": "images/markalar/guven-asa/guven-asa-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/guven-asa/guven-asa-logo.webp",
+        "finalUrl": "images/markalar/guven-asa/guven-asa-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/guven-asa/guven-asa-bottle-01-erken-hasat-soguk-sikim-zeytinya.webp",
         "images/markalar/guven-asa/guven-asa-bottle-02-bottle-03-naturel-sizma-zeytinyagi-5-l-ten.webp",
@@ -1181,6 +1716,11 @@
       "name": "ZenOlive",
       "slug": "zenolive",
       "logo": "images/markalar/zenolive/zenolive-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/zenolive/zenolive-logo.webp",
+        "finalUrl": "images/markalar/zenolive/zenolive-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zenolive/zenolive-bottle-01-750ml-bottle.webp",
         "images/markalar/zenolive/zenolive-bottle-02-5l-bottle.webp",
@@ -1192,6 +1732,11 @@
       "name": "Kozoliv",
       "slug": "kozoliv",
       "logo": "images/markalar/kozoliv/kozoliv-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/kozoliv/kozoliv-logo.webp",
+        "finalUrl": "images/markalar/kozoliv/kozoliv-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kozoliv/kozoliv-bottle-01-bottle-03-2025-26-yeni-sezon-erken-hasat-soguk.webp",
         "images/markalar/kozoliv/kozoliv-bottle-02-2025-26-yeni-sezon-erken-hasat-soguk.webp",
@@ -1203,6 +1748,11 @@
       "name": "Milasso",
       "slug": "milasso",
       "logo": "images/markalar/milasso/milasso-logo.png",
+      "logoSource": {
+        "source": "images/markalar/milasso/milasso-logo.png",
+        "finalUrl": "images/markalar/milasso/milasso-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/milasso/milasso-bottle-01-ultra-premium-zeytinyagi-500.jpg",
         "images/markalar/milasso/milasso-bottle-02-premium-zeytinyagi-5lt-tenek.jpg",
@@ -1214,6 +1764,11 @@
       "name": "Oliella",
       "slug": "oliella",
       "logo": "images/markalar/oliella/oliella-logo.png",
+      "logoSource": {
+        "source": "images/markalar/oliella/oliella-logo.png",
+        "finalUrl": "images/markalar/oliella/oliella-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/oliella/oliella-bottle-01-bottle-02-9f2182-15f94cbcbaa64a139b91630f909a4.jpg",
         "images/markalar/oliella/oliella-bottle-02-bottle-01-9f2182-8c7a89f67f9b40fa9accecee13927.jpg",
@@ -1225,6 +1780,11 @@
       "name": "Seosfarm",
       "slug": "seosfarm",
       "logo": "images/markalar/seosfarm/seosfarm-logo.png",
+      "logoSource": {
+        "source": "images/markalar/seosfarm/seosfarm-logo.png",
+        "finalUrl": "images/markalar/seosfarm/seosfarm-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/seosfarm/seosfarm-bottle-01-bottle-02-sizma-toplu.jpg",
         "images/markalar/seosfarm/seosfarm-bottle-02-bottle-03-delice-toplu-900x600.jpg",
@@ -1236,6 +1796,11 @@
       "name": "Seferis",
       "slug": "seferis",
       "logo": "images/markalar/seferis/seferis-logo.png",
+      "logoSource": {
+        "source": "images/markalar/seferis/seferis-logo.png",
+        "finalUrl": "images/markalar/seferis/seferis-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/seferis/seferis-bottle-01-zeytinyaglari.jpg",
         "images/markalar/seferis/seferis-bottle-02-seferis.png"
@@ -1246,6 +1811,11 @@
       "name": "Küçükbahçe",
       "slug": "kucukbahce",
       "logo": "images/markalar/kucukbahce/kucukbahce-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kucukbahce/kucukbahce-logo.png",
+        "finalUrl": "images/markalar/kucukbahce/kucukbahce-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kucukbahce/kucukbahce-bottle-01-bottle-02-500-1000-sise.png",
         "images/markalar/kucukbahce/kucukbahce-bottle-02-bottle-03-5l-teneke-urun.png",
@@ -1257,6 +1827,11 @@
       "name": "Buzey",
       "slug": "buzey",
       "logo": "images/markalar/buzey/buzey-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/buzey/buzey-logo.webp",
+        "finalUrl": "images/markalar/buzey/buzey-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/buzey/buzey-bottle-01-750-ml-naturel-sizma-cam-sise-2-1.webp",
         "images/markalar/buzey/buzey-bottle-02-soguk-sikim-tas-baski-3lt-1.webp"
@@ -1267,6 +1842,11 @@
       "name": "Kege Food",
       "slug": "kege-food",
       "logo": "images/markalar/kege-food/kege-food-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kege-food/kege-food-logo.png",
+        "finalUrl": "images/markalar/kege-food/kege-food-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kege-food/kege-food-bottle-01-b329ca-33e98ae6f5154778b1cb001b1.jpg",
         "images/markalar/kege-food/kege-food-bottle-02-bottle-03-b329ca-44f34c7ed38a47028baa3a1fb.jpg",
@@ -1278,6 +1858,11 @@
       "name": "Pazarbaşılar",
       "slug": "pazarbasilar",
       "logo": "images/markalar/pazarbasilar/pazarbasilar-logo.png",
+      "logoSource": {
+        "source": "images/markalar/pazarbasilar/pazarbasilar-logo.png",
+        "finalUrl": "images/markalar/pazarbasilar/pazarbasilar-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/pazarbasilar/pazarbasilar-bottle-01-mit-olive-page-2-500x500w.jpg",
         "images/markalar/pazarbasilar/pazarbasilar-bottle-02-bottle-03-y3-500x500w.jpg",
@@ -1289,6 +1874,11 @@
       "name": "Kirte",
       "slug": "kirte",
       "logo": "images/markalar/kirte/kirte-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kirte/kirte-logo.png",
+        "finalUrl": "images/markalar/kirte/kirte-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kirte/kirte-bottle-01-bottle-03-delicesise-331x450.png",
         "images/markalar/kirte/kirte-bottle-02-bottle-01-1000ml.jpg",
@@ -1300,6 +1890,11 @@
       "name": "Anafortis",
       "slug": "anafortis",
       "logo": "images/markalar/anafortis/anafortis-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/anafortis/anafortis-logo.svg",
+        "finalUrl": "images/markalar/anafortis/anafortis-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/anafortis/anafortis-bottle-01-natural-sizma-zeytin-yagi-7b.jpg",
         "images/markalar/anafortis/anafortis-bottle-02-bottle-03-zeytin-yagi-11.jpg",
@@ -1311,6 +1906,11 @@
       "name": "Datçam",
       "slug": "datcam",
       "logo": "images/markalar/datcam/datcam-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/datcam/datcam-logo.webp",
+        "finalUrl": "images/markalar/datcam/datcam-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/datcam/datcam-bottle-01-premium-soguk-sikim-zeytinyagi-5-lt-mi.jpg",
         "images/markalar/datcam/datcam-bottle-02-bottle-03-zey001-034-min.webp",
@@ -1322,6 +1922,11 @@
       "name": "Efe Marmara",
       "slug": "efe-marmara",
       "logo": "images/markalar/efe-marmara/efe-marmara-logo.png",
+      "logoSource": {
+        "source": "images/markalar/efe-marmara/efe-marmara-logo.png",
+        "finalUrl": "images/markalar/efe-marmara/efe-marmara-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/efe-marmara/efe-marmara-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/efe-marmara/efe-marmara-bottle-02-bottle-fallback-02.jpg"
@@ -1332,6 +1937,11 @@
       "name": "Terra Arteka",
       "slug": "terra-arteka",
       "logo": "images/markalar/terra-arteka/terra-arteka-logo.png",
+      "logoSource": {
+        "source": "images/markalar/terra-arteka/terra-arteka-logo.png",
+        "finalUrl": "images/markalar/terra-arteka/terra-arteka-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/terra-arteka/terra-arteka-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/terra-arteka/terra-arteka-bottle-02-bottle-fallback-02.jpg"
@@ -1342,6 +1952,11 @@
       "name": "Zeytinci Salih",
       "slug": "zeytinci-salih",
       "logo": "images/markalar/zeytinci-salih/zeytinci-salih-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/zeytinci-salih/zeytinci-salih-logo.jpg",
+        "finalUrl": "images/markalar/zeytinci-salih/zeytinci-salih-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinci-salih/zeytinci-salih-bottle-01-zeytin.jpg",
         "images/markalar/zeytinci-salih/zeytinci-salih-bottle-02-zeytin2.jpg",
@@ -1353,6 +1968,11 @@
       "name": "Zeytinöz",
       "slug": "zeytinoz",
       "logo": "images/markalar/zeytinoz/zeytinoz-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytinoz/zeytinoz-logo.png",
+        "finalUrl": "images/markalar/zeytinoz/zeytinoz-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinoz/zeytinoz-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/zeytinoz/zeytinoz-bottle-02-bottle-fallback-02.jpg"
@@ -1363,6 +1983,11 @@
       "name": "Gümetepe",
       "slug": "gumetepe",
       "logo": "images/markalar/gumetepe/gumetepe-logo.png",
+      "logoSource": {
+        "source": "images/markalar/gumetepe/gumetepe-logo.png",
+        "finalUrl": "images/markalar/gumetepe/gumetepe-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gumetepe/gumetepe-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/gumetepe/gumetepe-bottle-02-bottle-fallback-02.jpg"
@@ -1373,6 +1998,11 @@
       "name": "Lamponia",
       "slug": "lamponia",
       "logo": "images/markalar/lamponia/lamponia-logo.gif",
+      "logoSource": {
+        "source": "images/markalar/lamponia/lamponia-logo.gif",
+        "finalUrl": "images/markalar/lamponia/lamponia-logo.gif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/lamponia/lamponia-bottle-01-kombi10a.jpg",
         "images/markalar/lamponia/lamponia-bottle-02-bottle-detail-02.jpg"
@@ -1383,6 +2013,11 @@
       "name": "Berolivo",
       "slug": "berolivo",
       "logo": "images/markalar/berolivo/berolivo-logo.png",
+      "logoSource": {
+        "source": "images/markalar/berolivo/berolivo-logo.png",
+        "finalUrl": "images/markalar/berolivo/berolivo-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/berolivo/berolivo-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/berolivo/berolivo-bottle-02-bottle-fallback-02.jpg"
@@ -1393,6 +2028,11 @@
       "name": "Macaroğlu",
       "slug": "macaroglu",
       "logo": "images/markalar/macaroglu/macaroglu-logo.png",
+      "logoSource": {
+        "source": "images/markalar/macaroglu/macaroglu-logo.png",
+        "finalUrl": "images/markalar/macaroglu/macaroglu-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/macaroglu/macaroglu-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/macaroglu/macaroglu-bottle-02-bottle-fallback-02.jpg"
@@ -1403,6 +2043,11 @@
       "name": "On7 Zeytinyağı",
       "slug": "on7-zeytinyagi",
       "logo": "images/markalar/on7-zeytinyagi/on7-zeytinyagi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/on7-zeytinyagi/on7-zeytinyagi-logo.png",
+        "finalUrl": "images/markalar/on7-zeytinyagi/on7-zeytinyagi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/on7-zeytinyagi/on7-zeytinyagi-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/on7-zeytinyagi/on7-zeytinyagi-bottle-02-bottle-fallback-02.jpg"
@@ -1413,6 +2058,11 @@
       "name": "Çoral",
       "slug": "coral",
       "logo": "images/markalar/coral/coral-logo.png",
+      "logoSource": {
+        "source": "images/markalar/coral/coral-logo.png",
+        "finalUrl": "images/markalar/coral/coral-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/coral/coral-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/coral/coral-bottle-02-bottle-fallback-02.jpg"
@@ -1423,6 +2073,11 @@
       "name": "Galli Premium",
       "slug": "galli-premium",
       "logo": "images/markalar/galli-premium/galli-premium-logo.png",
+      "logoSource": {
+        "source": "images/markalar/galli-premium/galli-premium-logo.png",
+        "finalUrl": "images/markalar/galli-premium/galli-premium-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/galli-premium/galli-premium-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/galli-premium/galli-premium-bottle-02-bottle-fallback-02.jpg"
@@ -1433,6 +2088,11 @@
       "name": "Gallipolive",
       "slug": "gallipolive",
       "logo": "images/markalar/gallipolive/gallipolive-logo.png",
+      "logoSource": {
+        "source": "images/markalar/gallipolive/gallipolive-logo.png",
+        "finalUrl": "images/markalar/gallipolive/gallipolive-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gallipolive/gallipolive-bottle-01-ege-2025.png",
         "images/markalar/gallipolive/gallipolive-bottle-02-karma-2025.png",
@@ -1444,6 +2104,11 @@
       "name": "Kilye",
       "slug": "kilye",
       "logo": "images/markalar/kilye/kilye-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kilye/kilye-logo.png",
+        "finalUrl": "images/markalar/kilye/kilye-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kilye/kilye-bottle-01-organik-cig-yag-500ml.jpg",
         "images/markalar/kilye/kilye-bottle-02-ilk-soguk-baski-750ml.jpg",
@@ -1455,6 +2120,11 @@
       "name": "Karşıbağ",
       "slug": "karsibag",
       "logo": "images/markalar/karsibag/karsibag-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/karsibag/karsibag-logo.jpg",
+        "finalUrl": "images/markalar/karsibag/karsibag-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/karsibag/karsibag-bottle-01-1000078407.jpg",
         "images/markalar/karsibag/karsibag-bottle-02-1000078408.jpg",
@@ -1466,6 +2136,11 @@
       "name": "Fethi Çelik",
       "slug": "fethi-celik",
       "logo": "images/markalar/fethi-celik/fethi-celik-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/fethi-celik/fethi-celik-logo.jpg",
+        "finalUrl": "images/markalar/fethi-celik/fethi-celik-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/fethi-celik/fethi-celik-bottle-01-bd9fac-df2c168b130b4ea6939471b2db0b647f-mv2.png",
         "images/markalar/fethi-celik/fethi-celik-bottle-02-bd9fac-4a32ae42539943adadcc1bebcdd9defa-mv2.jpg",
@@ -1477,6 +2152,11 @@
       "name": "Zivane",
       "slug": "zivane",
       "logo": "images/markalar/zivane/zivane-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/zivane/zivane-logo.webp",
+        "finalUrl": "images/markalar/zivane/zivane-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zivane/zivane-bottle-01-unnamed-9-duzenlendi-min.jpg",
         "images/markalar/zivane/zivane-bottle-02-unnamed-3-duzenlendi-min.webp",
@@ -1488,6 +2168,11 @@
       "name": "Kavaki",
       "slug": "kavaki",
       "logo": "images/markalar/kavaki/kavaki-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kavaki/kavaki-logo.png",
+        "finalUrl": "images/markalar/kavaki/kavaki-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kavaki/kavaki-bottle-01-zeytinyagi-500ml-1-800x800.jpg",
         "images/markalar/kavaki/kavaki-bottle-02-zeytinyagi-5l-1-800x800.jpg",
@@ -1499,6 +2184,11 @@
       "name": "Elta Ada",
       "slug": "elta-ada",
       "logo": "images/markalar/elta-ada/elta-ada-logo.png",
+      "logoSource": {
+        "source": "images/markalar/elta-ada/elta-ada-logo.png",
+        "finalUrl": "images/markalar/elta-ada/elta-ada-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/elta-ada/elta-ada-bottle-01-zeytinyaglari-2021-2.jpg",
         "images/markalar/elta-ada/elta-ada-bottle-02-organik-ladoia.jpg",
@@ -1510,6 +2200,11 @@
       "name": "Ekozey",
       "slug": "ekozey",
       "logo": "images/markalar/ekozey/ekozey-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ekozey/ekozey-logo.png",
+        "finalUrl": "images/markalar/ekozey/ekozey-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ekozey/ekozey-bottle-01-organik-naturel-sizma.jpg",
         "images/markalar/ekozey/ekozey-bottle-02-organik-naturel-sizma.jpg"
@@ -1520,6 +2215,11 @@
       "name": "Fayton",
       "slug": "fayton",
       "logo": "images/markalar/fayton/fayton-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/fayton/fayton-logo.webp",
+        "finalUrl": "images/markalar/fayton/fayton-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/fayton/fayton-bottle-01-500-ml-1.webp",
         "images/markalar/fayton/fayton-bottle-02-bottle-detail-02.jpg"
@@ -1530,6 +2230,11 @@
       "name": "Safitad",
       "slug": "safitad",
       "logo": "images/markalar/safitad/safitad-logo.png",
+      "logoSource": {
+        "source": "images/markalar/safitad/safitad-logo.png",
+        "finalUrl": "images/markalar/safitad/safitad-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/safitad/safitad-bottle-01-erken-750.png",
         "images/markalar/safitad/safitad-bottle-02-bottle-detail-02.jpg"
@@ -1540,6 +2245,11 @@
       "name": "Funoli",
       "slug": "funoli",
       "logo": "images/markalar/funoli/funoli-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/funoli/funoli-logo.svg",
+        "finalUrl": "images/markalar/funoli/funoli-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/funoli/funoli-bottle-01-organik-400x400.jpg",
         "images/markalar/funoli/funoli-bottle-02-bottle-detail-02.jpg"
@@ -1550,6 +2260,11 @@
       "name": "Zagoda",
       "slug": "zagoda",
       "logo": "images/markalar/zagoda/zagoda-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zagoda/zagoda-logo.png",
+        "finalUrl": "images/markalar/zagoda/zagoda-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zagoda/zagoda-bottle-01-arbequina-erken-500ml.webp",
         "images/markalar/zagoda/zagoda-bottle-02-bottle-detail-02.jpg"
@@ -1560,6 +2275,11 @@
       "name": "Asiltane",
       "slug": "asiltane",
       "logo": "images/markalar/asiltane/asiltane-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/asiltane/asiltane-logo.svg",
+        "finalUrl": "images/markalar/asiltane/asiltane-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/asiltane/asiltane-bottle-01-erken-hasat-soguk-sikim-naturel-sizma-zeytinyagi-500-ml-min.jpg",
         "images/markalar/asiltane/asiltane-bottle-02-bottle-detail-02.jpg"
@@ -1570,6 +2290,11 @@
       "name": "Garisar",
       "slug": "garisar",
       "logo": "images/markalar/garisar/garisar-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/garisar/garisar-logo.svg",
+        "finalUrl": "images/markalar/garisar/garisar-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/garisar/garisar-bottle-01-arbequina-high-polyphenol-extra-virgin-olive-oil.webp",
         "images/markalar/garisar/garisar-bottle-02-bottle-detail-02.jpg"
@@ -1580,6 +2305,7 @@
       "name": "İmbatto",
       "slug": "imbatto",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/imbatto/imbatto-bottle-01-urunler-065a.jpg",
         "images/markalar/imbatto/imbatto-bottle-02-bottle-detail-02.jpg"
@@ -1590,6 +2316,11 @@
       "name": "Ölberg Milet",
       "slug": "olberg-milet",
       "logo": "images/markalar/olberg-milet/olberg-milet-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olberg-milet/olberg-milet-logo.png",
+        "finalUrl": "images/markalar/olberg-milet/olberg-milet-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olberg-milet/olberg-milet-bottle-01-oelberg-produktbild-memecik-1-200x219.jpg",
         "images/markalar/olberg-milet/olberg-milet-bottle-02-bottle-detail-02.jpg"
@@ -1600,6 +2331,11 @@
       "name": "Halil Esen",
       "slug": "halil-esen",
       "logo": "images/markalar/halil-esen/halil-esen-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/halil-esen/halil-esen-logo.webp",
+        "finalUrl": "images/markalar/halil-esen/halil-esen-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/halil-esen/halil-esen-bottle-01-erken-hasat-zeytinyag-370x370.jpg",
         "images/markalar/halil-esen/halil-esen-bottle-02-bottle-detail-02.jpg"
@@ -1610,6 +2346,11 @@
       "name": "Bozelli",
       "slug": "bozelli",
       "logo": "images/markalar/bozelli/bozelli-logo.png",
+      "logoSource": {
+        "source": "images/markalar/bozelli/bozelli-logo.png",
+        "finalUrl": "images/markalar/bozelli/bozelli-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bozelli/bozelli-bottle-01-5-lt-ehss-600x600.jpg",
         "images/markalar/bozelli/bozelli-bottle-02-bottle-detail-02.jpg"
@@ -1620,6 +2361,11 @@
       "name": "Raya Organik",
       "slug": "raya-organik",
       "logo": "images/markalar/raya-organik/raya-organik-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/raya-organik/raya-organik-logo.webp",
+        "finalUrl": "images/markalar/raya-organik/raya-organik-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/raya-organik/raya-organik-bottle-01-zeytin.jpg",
         "images/markalar/raya-organik/raya-organik-bottle-02-bottle-detail-02.jpg"
@@ -1630,6 +2376,11 @@
       "name": "Zethoveen",
       "slug": "zethoveen",
       "logo": "images/markalar/zethoveen/zethoveen-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zethoveen/zethoveen-logo.png",
+        "finalUrl": "images/markalar/zethoveen/zethoveen-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zethoveen/zethoveen-bottle-01-otizm-zeytinyagi.png",
         "images/markalar/zethoveen/zethoveen-bottle-02-bottle-detail-02.jpg"
@@ -1640,6 +2391,11 @@
       "name": "Kairos Zeytinevi",
       "slug": "kairos-zeytinevi",
       "logo": "images/markalar/kairos-zeytinevi/kairos-zeytinevi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kairos-zeytinevi/kairos-zeytinevi-logo.png",
+        "finalUrl": "images/markalar/kairos-zeytinevi/kairos-zeytinevi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kairos-zeytinevi/kairos-zeytinevi-bottle-01-photo-2025-10-21-16-34-52-300x300.jpg",
         "images/markalar/kairos-zeytinevi/kairos-zeytinevi-bottle-02-bottle-detail-02.jpg"
@@ -1650,6 +2406,11 @@
       "name": "Osman Menteşe Çiftliği",
       "slug": "osman-mentese-ciftligi",
       "logo": "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-logo.png",
+        "finalUrl": "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-bottle-01-somzeytin06012026.jpg",
         "images/markalar/osman-mentese-ciftligi/osman-mentese-ciftligi-bottle-02-bottle-detail-02.jpg"
@@ -1660,6 +2421,11 @@
       "name": "Villa Turqan",
       "slug": "villa-turqan",
       "logo": "images/markalar/villa-turqan/villa-turqan-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/villa-turqan/villa-turqan-logo.webp",
+        "finalUrl": "images/markalar/villa-turqan/villa-turqan-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/villa-turqan/villa-turqan-bottle-01-yeni-sezon-500-ml-erken-hasat-soguk-sikim-memecik-naturel-sizma-zeytinya.webp",
         "images/markalar/villa-turqan/villa-turqan-bottle-02-bottle-detail-02.jpg"
@@ -1670,6 +2436,11 @@
       "name": "Ravla Gurme",
       "slug": "ravla-gurme",
       "logo": "images/markalar/ravla-gurme/ravla-gurme-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/ravla-gurme/ravla-gurme-logo.webp",
+        "finalUrl": "images/markalar/ravla-gurme/ravla-gurme-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ravla-gurme/ravla-gurme-bottle-01-organik5l-on.webp",
         "images/markalar/ravla-gurme/ravla-gurme-bottle-02-bottle-detail-02.jpg"
@@ -1680,6 +2451,11 @@
       "name": "Oliva Malia",
       "slug": "oliva-malia",
       "logo": "images/markalar/oliva-malia/oliva-malia-logo.png",
+      "logoSource": {
+        "source": "images/markalar/oliva-malia/oliva-malia-logo.png",
+        "finalUrl": "images/markalar/oliva-malia/oliva-malia-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/oliva-malia/oliva-malia-bottle-01-naturel-sizma-zeytinyagi-2-lt-soguk-si-db07cc.webp",
         "images/markalar/oliva-malia/oliva-malia-bottle-02-bottle-detail-02.jpg"
@@ -1690,6 +2466,7 @@
       "name": "Meray",
       "slug": "meray",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/meray/meray-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/meray/meray-bottle-02-bottle-fallback-02.jpg"
@@ -1700,6 +2477,11 @@
       "name": "Tuay",
       "slug": "tuay",
       "logo": "images/markalar/tuay/tuay-logo.png",
+      "logoSource": {
+        "source": "images/markalar/tuay/tuay-logo.png",
+        "finalUrl": "images/markalar/tuay/tuay-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/tuay/tuay-bottle-01-500cc-koyu-renk-cam-sise-organik-icimlik-naturel-sizma-zeytinyagi-385x46.jpg",
         "images/markalar/tuay/tuay-bottle-02-bottle-detail-02.jpg"
@@ -1710,6 +2492,7 @@
       "name": "True Olive",
       "slug": "true-olive",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/true-olive/true-olive-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/true-olive/true-olive-bottle-02-bottle-fallback-02.jpg"
@@ -1720,6 +2503,11 @@
       "name": "BAKTAT ZEYTİN",
       "slug": "baktat-zeytin",
       "logo": "images/markalar/baktat-zeytin/baktat-zeytin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/baktat-zeytin/baktat-zeytin-logo.png",
+        "finalUrl": "images/markalar/baktat-zeytin/baktat-zeytin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/baktat-zeytin/baktat-zeytin-bottle-01-tr.png",
         "images/markalar/baktat-zeytin/baktat-zeytin-bottle-02-bottle-detail-02.jpg"
@@ -1730,6 +2518,11 @@
       "name": "HAS PREMIUM",
       "slug": "has-premium",
       "logo": "images/markalar/has-premium/has-premium-logo.png",
+      "logoSource": {
+        "source": "images/markalar/has-premium/has-premium-logo.png",
+        "finalUrl": "images/markalar/has-premium/has-premium-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/has-premium/has-premium-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/has-premium/has-premium-bottle-02-bottle-fallback-02.jpg"
@@ -1740,6 +2533,11 @@
       "name": "Alhatoğlu Zeytinyağları",
       "slug": "alhatoglu-zeytinyaglari",
       "logo": "images/markalar/alhatoglu-zeytinyaglari/alhatoglu-zeytinyaglari-logo.png",
+      "logoSource": {
+        "source": "images/markalar/alhatoglu-zeytinyaglari/alhatoglu-zeytinyaglari-logo.png",
+        "finalUrl": "images/markalar/alhatoglu-zeytinyaglari/alhatoglu-zeytinyaglari-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/alhatoglu-zeytinyaglari/alhatoglu-zeytinyaglari-bottle-01-zeytin-iskelesi-zeytinyagi-uretim-yeri-alhatoglu-p921frnnkp0o475vi7zfe4o.png",
         "images/markalar/alhatoglu-zeytinyaglari/alhatoglu-zeytinyaglari-bottle-02-bottle-detail-02.jpg"
@@ -1750,6 +2548,11 @@
       "name": "PİR OLIVE OIL",
       "slug": "pir-olive-oil",
       "logo": "images/markalar/pir-olive-oil/pir-olive-oil-logo.png",
+      "logoSource": {
+        "source": "images/markalar/pir-olive-oil/pir-olive-oil-logo.png",
+        "finalUrl": "images/markalar/pir-olive-oil/pir-olive-oil-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/pir-olive-oil/pir-olive-oil-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/pir-olive-oil/pir-olive-oil-bottle-02-bottle-fallback-02.jpg"
@@ -1760,6 +2563,11 @@
       "name": "Eminems Olive Oil",
       "slug": "eminems-olive-oil",
       "logo": "images/markalar/eminems-olive-oil/eminems-olive-oil-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/eminems-olive-oil/eminems-olive-oil-logo.webp",
+        "finalUrl": "images/markalar/eminems-olive-oil/eminems-olive-oil-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/eminems-olive-oil/eminems-olive-oil-bottle-01-sldr-n-1900x778-png.webp",
         "images/markalar/eminems-olive-oil/eminems-olive-oil-bottle-02-bottle-detail-02.jpg"
@@ -1770,6 +2578,11 @@
       "name": "Olimilas",
       "slug": "olimilas",
       "logo": "images/markalar/olimilas/olimilas-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olimilas/olimilas-logo.png",
+        "finalUrl": "images/markalar/olimilas/olimilas-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olimilas/olimilas-bottle-01-olive-2.png",
         "images/markalar/olimilas/olimilas-bottle-02-bottle-detail-02.jpg"
@@ -1780,6 +2593,11 @@
       "name": "Hilmi Yıldırım Zeytinyağları",
       "slug": "hilmi-yildirim-zeytinyaglari",
       "logo": "images/markalar/hilmi-yildirim-zeytinyaglari/hilmi-yildirim-zeytinyaglari-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/hilmi-yildirim-zeytinyaglari/hilmi-yildirim-zeytinyaglari-logo.svg",
+        "finalUrl": "images/markalar/hilmi-yildirim-zeytinyaglari/hilmi-yildirim-zeytinyaglari-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hilmi-yildirim-zeytinyaglari/hilmi-yildirim-zeytinyaglari-bottle-01-hilmi-yildirim-zeytinyagi-header-gorsel-02.jpg",
         "images/markalar/hilmi-yildirim-zeytinyaglari/hilmi-yildirim-zeytinyaglari-bottle-02-bottle-detail-02.jpg"
@@ -1790,6 +2608,11 @@
       "name": "Dono Terra",
       "slug": "dono-terra",
       "logo": "images/markalar/dono-terra/dono-terra-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/dono-terra/dono-terra-logo.webp",
+        "finalUrl": "images/markalar/dono-terra/dono-terra-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/dono-terra/dono-terra-bottle-01-trilye-erken-hasat-soguk-sikim-naturel-sizma-zeytinyagi-2-lt.webp",
         "images/markalar/dono-terra/dono-terra-bottle-02-bottle-detail-02.jpg"
@@ -1800,6 +2623,11 @@
       "name": "ERGENECİ ZEYTİNCİLİK",
       "slug": "ergeneci-zeytincilik",
       "logo": "images/markalar/ergeneci-zeytincilik/ergeneci-zeytincilik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ergeneci-zeytincilik/ergeneci-zeytincilik-logo.png",
+        "finalUrl": "images/markalar/ergeneci-zeytincilik/ergeneci-zeytincilik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ergeneci-zeytincilik/ergeneci-zeytincilik-bottle-01-siyah-zeytin-yuvarlama-1.jpg",
         "images/markalar/ergeneci-zeytincilik/ergeneci-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -1810,6 +2638,11 @@
       "name": "Yasemin Hanım Zeytinyağları",
       "slug": "yasemin-hanim-zeytinyaglari",
       "logo": "images/markalar/yasemin-hanim-zeytinyaglari/yasemin-hanim-zeytinyaglari-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/yasemin-hanim-zeytinyaglari/yasemin-hanim-zeytinyaglari-logo.jpg",
+        "finalUrl": "images/markalar/yasemin-hanim-zeytinyaglari/yasemin-hanim-zeytinyaglari-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yasemin-hanim-zeytinyaglari/yasemin-hanim-zeytinyaglari-bottle-01-soguk-sikim-memecik-zeytinyagi-b4d6.webp",
         "images/markalar/yasemin-hanim-zeytinyaglari/yasemin-hanim-zeytinyaglari-bottle-02-bottle-detail-02.jpg"
@@ -1820,6 +2653,11 @@
       "name": "Olivnia Zeytinyağı",
       "slug": "olivnia-zeytinyagi",
       "logo": "images/markalar/olivnia-zeytinyagi/olivnia-zeytinyagi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/olivnia-zeytinyagi/olivnia-zeytinyagi-logo.svg",
+        "finalUrl": "images/markalar/olivnia-zeytinyagi/olivnia-zeytinyagi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivnia-zeytinyagi/olivnia-zeytinyagi-bottle-01-100urunnew-415x600.jpg",
         "images/markalar/olivnia-zeytinyagi/olivnia-zeytinyagi-bottle-02-bottle-detail-02.jpg"
@@ -1830,6 +2668,11 @@
       "name": "No 35 Urla",
       "slug": "no-35-urla",
       "logo": "images/markalar/no-35-urla/no-35-urla-logo.png",
+      "logoSource": {
+        "source": "images/markalar/no-35-urla/no-35-urla-logo.png",
+        "finalUrl": "images/markalar/no-35-urla/no-35-urla-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/no-35-urla/no-35-urla-bottle-01-zeytin-yaglari-1298x783.jpg",
         "images/markalar/no-35-urla/no-35-urla-bottle-02-bottle-detail-02.jpg"
@@ -1840,6 +2683,11 @@
       "name": "FİDELAND",
       "slug": "fideland",
       "logo": "images/markalar/fideland/fideland-logo.png",
+      "logoSource": {
+        "source": "images/markalar/fideland/fideland-logo.png",
+        "finalUrl": "images/markalar/fideland/fideland-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/fideland/fideland-bottle-01-b06042022091146.jpg",
         "images/markalar/fideland/fideland-bottle-02-bottle-detail-02.jpg"
@@ -1850,6 +2698,11 @@
       "name": "YILANCI ZEYTİNLERİ",
       "slug": "yilanci-zeytinleri",
       "logo": "images/markalar/yilanci-zeytinleri/yilanci-zeytinleri-logo.png",
+      "logoSource": {
+        "source": "images/markalar/yilanci-zeytinleri/yilanci-zeytinleri-logo.png",
+        "finalUrl": "images/markalar/yilanci-zeytinleri/yilanci-zeytinleri-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yilanci-zeytinleri/yilanci-zeytinleri-bottle-01-kapat.png",
         "images/markalar/yilanci-zeytinleri/yilanci-zeytinleri-bottle-02-bottle-detail-02.jpg"
@@ -1860,6 +2713,11 @@
       "name": "İSKELE KOOPERATİFİ",
       "slug": "iskele-kooperatifi",
       "logo": "images/markalar/iskele-kooperatifi/iskele-kooperatifi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/iskele-kooperatifi/iskele-kooperatifi-logo.png",
+        "finalUrl": "images/markalar/iskele-kooperatifi/iskele-kooperatifi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/iskele-kooperatifi/iskele-kooperatifi-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/iskele-kooperatifi/iskele-kooperatifi-bottle-02-bottle-fallback-02.jpg"
@@ -1870,6 +2728,11 @@
       "name": "ZEYTİNİN TÜRKÜSÜ",
       "slug": "zeytinin-turkusu",
       "logo": "images/markalar/zeytinin-turkusu/zeytinin-turkusu-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytinin-turkusu/zeytinin-turkusu-logo.png",
+        "finalUrl": "images/markalar/zeytinin-turkusu/zeytinin-turkusu-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinin-turkusu/zeytinin-turkusu-bottle-01-warning-bar-0000-us.jpg",
         "images/markalar/zeytinin-turkusu/zeytinin-turkusu-bottle-02-bottle-detail-02.jpg"
@@ -1880,6 +2743,11 @@
       "name": "Zeytinseli",
       "slug": "zeytinseli",
       "logo": "images/markalar/zeytinseli/zeytinseli-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytinseli/zeytinseli-logo.png",
+        "finalUrl": "images/markalar/zeytinseli/zeytinseli-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinseli/zeytinseli-bottle-01-zeytinyagi-seti-dde9c48.webp",
         "images/markalar/zeytinseli/zeytinseli-bottle-02-bottle-detail-02.jpg"
@@ -1890,6 +2758,11 @@
       "name": "Tadın Tarifi",
       "slug": "tadin-tarifi",
       "logo": "images/markalar/tadin-tarifi/tadin-tarifi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/tadin-tarifi/tadin-tarifi-logo.png",
+        "finalUrl": "images/markalar/tadin-tarifi/tadin-tarifi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/tadin-tarifi/tadin-tarifi-bottle-01-zeytin3639142043978680518672971485693864.webp",
         "images/markalar/tadin-tarifi/tadin-tarifi-bottle-02-bottle-detail-02.jpg"
@@ -1900,6 +2773,11 @@
       "name": "OLIVNER",
       "slug": "olivner",
       "logo": "images/markalar/olivner/olivner-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olivner/olivner-logo.png",
+        "finalUrl": "images/markalar/olivner/olivner-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivner/olivner-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/olivner/olivner-bottle-02-bottle-fallback-02.jpg"
@@ -1910,6 +2788,11 @@
       "name": "Ganos Olive Oil",
       "slug": "ganos-olive-oil",
       "logo": "images/markalar/ganos-olive-oil/ganos-olive-oil-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/ganos-olive-oil/ganos-olive-oil-logo.webp",
+        "finalUrl": "images/markalar/ganos-olive-oil/ganos-olive-oil-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ganos-olive-oil/ganos-olive-oil-bottle-01-150g-gure-handmade-saf-zeytinyagi-sabunu-min.webp",
         "images/markalar/ganos-olive-oil/ganos-olive-oil-bottle-02-bottle-detail-02.jpg"
@@ -1920,6 +2803,11 @@
       "name": "Plantgarde",
       "slug": "plantgarde",
       "logo": "images/markalar/plantgarde/plantgarde-logo.png",
+      "logoSource": {
+        "source": "images/markalar/plantgarde/plantgarde-logo.png",
+        "finalUrl": "images/markalar/plantgarde/plantgarde-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/plantgarde/plantgarde-bottle-01-product-06.jpg",
         "images/markalar/plantgarde/plantgarde-bottle-02-bottle-detail-02.jpg"
@@ -1930,6 +2818,7 @@
       "name": "Monterosso",
       "slug": "monterosso",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/monterosso/monterosso-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/monterosso/monterosso-bottle-02-bottle-fallback-02.jpg"
@@ -1940,6 +2829,11 @@
       "name": "ZEYDAĞ",
       "slug": "zeydag",
       "logo": "images/markalar/zeydag/zeydag-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/zeydag/zeydag-logo.webp",
+        "finalUrl": "images/markalar/zeydag/zeydag-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeydag/zeydag-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/zeydag/zeydag-bottle-02-bottle-fallback-02.jpg"
@@ -1950,6 +2844,11 @@
       "name": "Bilgem Zeytin",
       "slug": "bilgem-zeytin",
       "logo": "images/markalar/bilgem-zeytin/bilgem-zeytin-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/bilgem-zeytin/bilgem-zeytin-logo.jpg",
+        "finalUrl": "images/markalar/bilgem-zeytin/bilgem-zeytin-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bilgem-zeytin/bilgem-zeytin-bottle-01-kaan-erken-hasat-naturel-sizma-zeytiny-2012-4.webp",
         "images/markalar/bilgem-zeytin/bilgem-zeytin-bottle-02-bottle-detail-02.jpg"
@@ -1960,6 +2859,11 @@
       "name": "Alaboğaz",
       "slug": "alabogaz",
       "logo": "images/markalar/alabogaz/alabogaz-logo.png",
+      "logoSource": {
+        "source": "images/markalar/alabogaz/alabogaz-logo.png",
+        "finalUrl": "images/markalar/alabogaz/alabogaz-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/alabogaz/alabogaz-bottle-01-glass-bottle-with-olive-oil-edited.avif",
         "images/markalar/alabogaz/alabogaz-bottle-02-bottle-detail-02.jpg"
@@ -1970,6 +2874,11 @@
       "name": "BÜKEM ZEYTİNYAĞLARI",
       "slug": "bukem-zeytinyaglari",
       "logo": "images/markalar/bukem-zeytinyaglari/bukem-zeytinyaglari-logo.png",
+      "logoSource": {
+        "source": "images/markalar/bukem-zeytinyaglari/bukem-zeytinyaglari-logo.png",
+        "finalUrl": "images/markalar/bukem-zeytinyaglari/bukem-zeytinyaglari-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bukem-zeytinyaglari/bukem-zeytinyaglari-bottle-01-bukem-com-tr-250ml-erken-hasat-zeytinyagi-01-600x900w.jpg",
         "images/markalar/bukem-zeytinyaglari/bukem-zeytinyaglari-bottle-02-bottle-detail-02.jpg"
@@ -1980,6 +2889,7 @@
       "name": "SAMANDAĞ KADIN KOOPERATİFİ",
       "slug": "samandag-kadin-kooperatifi",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/samandag-kadin-kooperatifi/samandag-kadin-kooperatifi-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/samandag-kadin-kooperatifi/samandag-kadin-kooperatifi-bottle-02-bottle-fallback-02.jpg"
@@ -1990,6 +2900,11 @@
       "name": "Nidazeytin",
       "slug": "nidazeytin",
       "logo": "images/markalar/nidazeytin/nidazeytin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/nidazeytin/nidazeytin-logo.png",
+        "finalUrl": "images/markalar/nidazeytin/nidazeytin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/nidazeytin/nidazeytin-bottle-01-1-1-02-05-2016-fe85594.png",
         "images/markalar/nidazeytin/nidazeytin-bottle-02-bottle-detail-02.jpg"
@@ -2000,6 +2915,11 @@
       "name": "Uzman Çiftlik",
       "slug": "uzman-ciftlik",
       "logo": "images/markalar/uzman-ciftlik/uzman-ciftlik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/uzman-ciftlik/uzman-ciftlik-logo.png",
+        "finalUrl": "images/markalar/uzman-ciftlik/uzman-ciftlik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/uzman-ciftlik/uzman-ciftlik-bottle-01-617906295asdw.jpg",
         "images/markalar/uzman-ciftlik/uzman-ciftlik-bottle-02-bottle-detail-02.jpg"
@@ -2010,6 +2930,11 @@
       "name": "Mirliya",
       "slug": "mirliya",
       "logo": "images/markalar/mirliya/mirliya-logo.png",
+      "logoSource": {
+        "source": "images/markalar/mirliya/mirliya-logo.png",
+        "finalUrl": "images/markalar/mirliya/mirliya-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mirliya/mirliya-bottle-01-tum-urun-indirim-1920x800-1.png",
         "images/markalar/mirliya/mirliya-bottle-02-bottle-detail-02.jpg"
@@ -2020,6 +2945,11 @@
       "name": "Zeytinhouse",
       "slug": "zeytinhouse",
       "logo": "images/markalar/zeytinhouse/zeytinhouse-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytinhouse/zeytinhouse-logo.png",
+        "finalUrl": "images/markalar/zeytinhouse/zeytinhouse-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinhouse/zeytinhouse-bottle-01-turkce.jpg",
         "images/markalar/zeytinhouse/zeytinhouse-bottle-02-bottle-detail-02.jpg"
@@ -2030,6 +2960,11 @@
       "name": "Polea Natural",
       "slug": "polea-natural",
       "logo": "images/markalar/polea-natural/polea-natural-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/polea-natural/polea-natural-logo.svg",
+        "finalUrl": "images/markalar/polea-natural/polea-natural-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/polea-natural/polea-natural-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/polea-natural/polea-natural-bottle-02-bottle-fallback-02.jpg"
@@ -2040,6 +2975,11 @@
       "name": "AKDENİZ SEPETİ",
       "slug": "akdeniz-sepeti",
       "logo": "images/markalar/akdeniz-sepeti/akdeniz-sepeti-logo.png",
+      "logoSource": {
+        "source": "images/markalar/akdeniz-sepeti/akdeniz-sepeti-logo.png",
+        "finalUrl": "images/markalar/akdeniz-sepeti/akdeniz-sepeti-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/akdeniz-sepeti/akdeniz-sepeti-bottle-01-hatay-zeytin-zeytinyagi-kategori-jpg.jpg",
         "images/markalar/akdeniz-sepeti/akdeniz-sepeti-bottle-02-bottle-detail-02.jpg"
@@ -2050,6 +2990,11 @@
       "name": "Angelos",
       "slug": "angelos",
       "logo": "images/markalar/angelos/angelos-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/angelos/angelos-logo.svg",
+        "finalUrl": "images/markalar/angelos/angelos-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/angelos/angelos-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/angelos/angelos-bottle-02-bottle-fallback-02.jpg"
@@ -2060,6 +3005,11 @@
       "name": "Bella Mordane",
       "slug": "bella-mordane",
       "logo": "images/markalar/bella-mordane/bella-mordane-logo.png",
+      "logoSource": {
+        "source": "images/markalar/bella-mordane/bella-mordane-logo.png",
+        "finalUrl": "images/markalar/bella-mordane/bella-mordane-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bella-mordane/bella-mordane-bottle-01-yeni-hasat-bella-mordane-3.jpg",
         "images/markalar/bella-mordane/bella-mordane-bottle-02-bottle-detail-02.jpg"
@@ -2070,6 +3020,7 @@
       "name": "Öz Köyüm",
       "slug": "oz-koyum",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/oz-koyum/oz-koyum-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/oz-koyum/oz-koyum-bottle-02-bottle-fallback-02.jpg"
@@ -2080,6 +3031,7 @@
       "name": "Zeytin İskelesi",
       "slug": "zeytin-iskelesi",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/zeytin-iskelesi/zeytin-iskelesi-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/zeytin-iskelesi/zeytin-iskelesi-bottle-02-bottle-fallback-02.jpg"
@@ -2090,6 +3042,11 @@
       "name": "Kavlak",
       "slug": "kavlak",
       "logo": "images/markalar/kavlak/kavlak-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/kavlak/kavlak-logo.webp",
+        "finalUrl": "images/markalar/kavlak/kavlak-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kavlak/kavlak-bottle-01-zeytin-receli-290-g-3251.webp",
         "images/markalar/kavlak/kavlak-bottle-02-bottle-detail-02.jpg"
@@ -2100,6 +3057,11 @@
       "name": "Fora",
       "slug": "fora",
       "logo": "images/markalar/fora/fora-logo.png",
+      "logoSource": {
+        "source": "images/markalar/fora/fora-logo.png",
+        "finalUrl": "images/markalar/fora/fora-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/fora/fora-bottle-01-zeytin-sus-sol-ust.png",
         "images/markalar/fora/fora-bottle-02-bottle-detail-02.jpg"
@@ -2110,6 +3072,11 @@
       "name": "Sırma",
       "slug": "sirma",
       "logo": "images/markalar/sirma/sirma-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/sirma/sirma-logo.svg",
+        "finalUrl": "images/markalar/sirma/sirma-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/sirma/sirma-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/sirma/sirma-bottle-02-bottle-fallback-02.jpg"
@@ -2120,6 +3087,11 @@
       "name": "Orkide",
       "slug": "orkide",
       "logo": "images/markalar/orkide/orkide-logo.png",
+      "logoSource": {
+        "source": "images/markalar/orkide/orkide-logo.png",
+        "finalUrl": "images/markalar/orkide/orkide-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/orkide/orkide-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/orkide/orkide-bottle-02-bottle-fallback-02.jpg"
@@ -2130,6 +3102,11 @@
       "name": "Olin",
       "slug": "olin",
       "logo": "images/markalar/olin/olin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olin/olin-logo.png",
+        "finalUrl": "images/markalar/olin/olin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olin/olin-bottle-01-urunler.jpg",
         "images/markalar/olin/olin-bottle-02-bottle-detail-02.jpg"
@@ -2140,6 +3117,11 @@
       "name": "Monteida",
       "slug": "monteida",
       "logo": "images/markalar/monteida/monteida-logo.png",
+      "logoSource": {
+        "source": "images/markalar/monteida/monteida-logo.png",
+        "finalUrl": "images/markalar/monteida/monteida-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/monteida/monteida-bottle-01-sizma750mldanai-300x300.png",
         "images/markalar/monteida/monteida-bottle-02-bottle-detail-02.jpg"
@@ -2150,6 +3132,11 @@
       "name": "Yerlim",
       "slug": "yerlim",
       "logo": "images/markalar/yerlim/yerlim-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/yerlim/yerlim-logo.webp",
+        "finalUrl": "images/markalar/yerlim/yerlim-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yerlim/yerlim-bottle-01-urun-ocak262182-copy-min.webp",
         "images/markalar/yerlim/yerlim-bottle-02-bottle-detail-02.jpg"
@@ -2160,6 +3147,7 @@
       "name": "Zeytin Hanım",
       "slug": "zeytin-hanim",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/zeytin-hanim/zeytin-hanim-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/zeytin-hanim/zeytin-hanim-bottle-02-bottle-fallback-02.jpg"
@@ -2170,6 +3158,11 @@
       "name": "Aivalia",
       "slug": "aivalia",
       "logo": "images/markalar/aivalia/aivalia-logo.png",
+      "logoSource": {
+        "source": "images/markalar/aivalia/aivalia-logo.png",
+        "finalUrl": "images/markalar/aivalia/aivalia-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/aivalia/aivalia-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/aivalia/aivalia-bottle-02-bottle-fallback-02.jpg"
@@ -2180,6 +3173,11 @@
       "name": "Ali Kemal Bey",
       "slug": "ali-kemal-bey",
       "logo": "images/markalar/ali-kemal-bey/ali-kemal-bey-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/ali-kemal-bey/ali-kemal-bey-logo.jpg",
+        "finalUrl": "images/markalar/ali-kemal-bey/ali-kemal-bey-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ali-kemal-bey/ali-kemal-bey-bottle-01-213.jpg",
         "images/markalar/ali-kemal-bey/ali-kemal-bey-bottle-02-bottle-detail-02.jpg"
@@ -2190,6 +3188,11 @@
       "name": "Ali Pekin",
       "slug": "ali-pekin",
       "logo": "images/markalar/ali-pekin/ali-pekin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ali-pekin/ali-pekin-logo.png",
+        "finalUrl": "images/markalar/ali-pekin/ali-pekin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ali-pekin/ali-pekin-bottle-01-gurme-sofralik-kalamata-yesil-zeytin-min.jpg",
         "images/markalar/ali-pekin/ali-pekin-bottle-02-bottle-detail-02.jpg"
@@ -2200,6 +3203,11 @@
       "name": "Ayvada",
       "slug": "ayvada",
       "logo": "images/markalar/ayvada/ayvada-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ayvada/ayvada-logo.png",
+        "finalUrl": "images/markalar/ayvada/ayvada-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ayvada/ayvada-bottle-01-ayvalik-zeytincik-kucuk-yesil-zeytin-min.jpg",
         "images/markalar/ayvada/ayvada-bottle-02-bottle-detail-02.jpg"
@@ -2210,6 +3218,7 @@
       "name": "Ayvalık Han",
       "slug": "ayvalik-han",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/ayvalik-han/ayvalik-han-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/ayvalik-han/ayvalik-han-bottle-02-bottle-fallback-02.jpg"
@@ -2220,6 +3229,11 @@
       "name": "Bireller Olive",
       "slug": "bireller-olive",
       "logo": "images/markalar/bireller-olive/bireller-olive-logo.png",
+      "logoSource": {
+        "source": "images/markalar/bireller-olive/bireller-olive-logo.png",
+        "finalUrl": "images/markalar/bireller-olive/bireller-olive-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/bireller-olive/bireller-olive-bottle-01-ucretsiz-kargo.jpg",
         "images/markalar/bireller-olive/bireller-olive-bottle-02-bottle-detail-02.jpg"
@@ -2230,6 +3244,11 @@
       "name": "By TEO",
       "slug": "by-teo",
       "logo": "images/markalar/by-teo/by-teo-logo.png",
+      "logoSource": {
+        "source": "images/markalar/by-teo/by-teo-logo.png",
+        "finalUrl": "images/markalar/by-teo/by-teo-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/by-teo/by-teo-bottle-01-edremit-cografi-isaretli-zeytinyagi.jpg",
         "images/markalar/by-teo/by-teo-bottle-02-bottle-detail-02.jpg"
@@ -2240,6 +3259,11 @@
       "name": "Çakırhan",
       "slug": "cakirhan",
       "logo": "images/markalar/cakirhan/cakirhan-logo.png",
+      "logoSource": {
+        "source": "images/markalar/cakirhan/cakirhan-logo.png",
+        "finalUrl": "images/markalar/cakirhan/cakirhan-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/cakirhan/cakirhan-bottle-01-1-min.png",
         "images/markalar/cakirhan/cakirhan-bottle-02-bottle-detail-02.jpg"
@@ -2250,6 +3274,11 @@
       "name": "Cömert",
       "slug": "comert",
       "logo": "images/markalar/comert/comert-logo.png",
+      "logoSource": {
+        "source": "images/markalar/comert/comert-logo.png",
+        "finalUrl": "images/markalar/comert/comert-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/comert/comert-bottle-01-1.webp",
         "images/markalar/comert/comert-bottle-02-bottle-detail-02.jpg"
@@ -2260,6 +3289,11 @@
       "name": "Dem Green",
       "slug": "dem-green",
       "logo": "images/markalar/dem-green/dem-green-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/dem-green/dem-green-logo.webp",
+        "finalUrl": "images/markalar/dem-green/dem-green-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/dem-green/dem-green-bottle-01-sizma-zeytinyagi-heading.webp",
         "images/markalar/dem-green/dem-green-bottle-02-bottle-detail-02.jpg"
@@ -2270,6 +3304,11 @@
       "name": "Drop",
       "slug": "drop",
       "logo": "images/markalar/drop/drop-logo.png",
+      "logoSource": {
+        "source": "images/markalar/drop/drop-logo.png",
+        "finalUrl": "images/markalar/drop/drop-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/drop/drop-bottle-01-sizma-250-c45e213.webp",
         "images/markalar/drop/drop-bottle-02-bottle-detail-02.jpg"
@@ -2280,6 +3319,11 @@
       "name": "Edremith",
       "slug": "edremith",
       "logo": "images/markalar/edremith/edremith-logo.png",
+      "logoSource": {
+        "source": "images/markalar/edremith/edremith-logo.png",
+        "finalUrl": "images/markalar/edremith/edremith-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/edremith/edremith-bottle-01-zeytinyagi-kategories-300x300.jpg",
         "images/markalar/edremith/edremith-bottle-02-bottle-detail-02.jpg"
@@ -2290,6 +3334,11 @@
       "name": "Edremit’in Zeytini",
       "slug": "edremitin-zeytini",
       "logo": "images/markalar/edremitin-zeytini/edremitin-zeytini-logo.png",
+      "logoSource": {
+        "source": "images/markalar/edremitin-zeytini/edremitin-zeytini-logo.png",
+        "finalUrl": "images/markalar/edremitin-zeytini/edremitin-zeytini-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/edremitin-zeytini/edremitin-zeytini-bottle-01-marka-tescil-belgesi-212x300.jpg",
         "images/markalar/edremitin-zeytini/edremitin-zeytini-bottle-02-bottle-detail-02.jpg"
@@ -2300,6 +3349,11 @@
       "name": "Ege Masalı",
       "slug": "ege-masali",
       "logo": "images/markalar/ege-masali/ege-masali-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ege-masali/ege-masali-logo.png",
+        "finalUrl": "images/markalar/ege-masali/ege-masali-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ege-masali/ege-masali-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/ege-masali/ege-masali-bottle-02-bottle-fallback-02.jpg"
@@ -2310,6 +3364,11 @@
       "name": "Erkan Aykan",
       "slug": "erkan-aykan",
       "logo": "images/markalar/erkan-aykan/erkan-aykan-logo.png",
+      "logoSource": {
+        "source": "images/markalar/erkan-aykan/erkan-aykan-logo.png",
+        "finalUrl": "images/markalar/erkan-aykan/erkan-aykan-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/erkan-aykan/erkan-aykan-bottle-01-ozeluretim-26-01-2022-d03f219.jpg",
         "images/markalar/erkan-aykan/erkan-aykan-bottle-02-bottle-detail-02.jpg"
@@ -2320,6 +3379,11 @@
       "name": "Ferhatoğlu",
       "slug": "ferhatoglu",
       "logo": "images/markalar/ferhatoglu/ferhatoglu-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/ferhatoglu/ferhatoglu-logo.webp",
+        "finalUrl": "images/markalar/ferhatoglu/ferhatoglu-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ferhatoglu/ferhatoglu-bottle-01-birinci-5l.webp",
         "images/markalar/ferhatoglu/ferhatoglu-bottle-02-bottle-detail-02.jpg"
@@ -2330,6 +3394,11 @@
       "name": "Gödence",
       "slug": "godence",
       "logo": "images/markalar/godence/godence-logo.png",
+      "logoSource": {
+        "source": "images/markalar/godence/godence-logo.png",
+        "finalUrl": "images/markalar/godence/godence-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/godence/godence-bottle-01-para.png",
         "images/markalar/godence/godence-bottle-02-bottle-detail-02.jpg"
@@ -2340,6 +3409,11 @@
       "name": "Hasada",
       "slug": "hasada",
       "logo": "images/markalar/hasada/hasada-logo.png",
+      "logoSource": {
+        "source": "images/markalar/hasada/hasada-logo.png",
+        "finalUrl": "images/markalar/hasada/hasada-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hasada/hasada-bottle-01-has-ada-page-0002.jpg",
         "images/markalar/hasada/hasada-bottle-02-bottle-detail-02.jpg"
@@ -2350,6 +3424,11 @@
       "name": "Herdan",
       "slug": "herdan",
       "logo": "images/markalar/herdan/herdan-logo.png",
+      "logoSource": {
+        "source": "images/markalar/herdan/herdan-logo.png",
+        "finalUrl": "images/markalar/herdan/herdan-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/herdan/herdan-bottle-01-tekli-dogal-zeytinyagi-sabunu-320x320.png",
         "images/markalar/herdan/herdan-bottle-02-bottle-detail-02.jpg"
@@ -2360,6 +3439,11 @@
       "name": "Kaleboğazı",
       "slug": "kalebogazi",
       "logo": "images/markalar/kalebogazi/kalebogazi-logo.avif",
+      "logoSource": {
+        "source": "images/markalar/kalebogazi/kalebogazi-logo.avif",
+        "finalUrl": "images/markalar/kalebogazi/kalebogazi-logo.avif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kalebogazi/kalebogazi-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/kalebogazi/kalebogazi-bottle-02-bottle-fallback-02.jpg"
@@ -2370,6 +3454,7 @@
       "name": "Karadağ Zeytincilik",
       "slug": "karadag-zeytincilik",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/karadag-zeytincilik/karadag-zeytincilik-bottle-01-etbis.png",
         "images/markalar/karadag-zeytincilik/karadag-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -2380,6 +3465,11 @@
       "name": "Köklü",
       "slug": "koklu",
       "logo": "images/markalar/koklu/koklu-logo.png",
+      "logoSource": {
+        "source": "images/markalar/koklu/koklu-logo.png",
+        "finalUrl": "images/markalar/koklu/koklu-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/koklu/koklu-bottle-01-kirma-yeni-mahsul-amblemsiz-min.jpg",
         "images/markalar/koklu/koklu-bottle-02-bottle-detail-02.jpg"
@@ -2390,6 +3480,11 @@
       "name": "Lovida",
       "slug": "lovida",
       "logo": "images/markalar/lovida/lovida-logo.png",
+      "logoSource": {
+        "source": "images/markalar/lovida/lovida-logo.png",
+        "finalUrl": "images/markalar/lovida/lovida-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/lovida/lovida-bottle-01-untitled-4-300x150.png",
         "images/markalar/lovida/lovida-bottle-02-bottle-detail-02.jpg"
@@ -2400,6 +3495,11 @@
       "name": "Miranda",
       "slug": "miranda",
       "logo": "images/markalar/miranda/miranda-logo.png",
+      "logoSource": {
+        "source": "images/markalar/miranda/miranda-logo.png",
+        "finalUrl": "images/markalar/miranda/miranda-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/miranda/miranda-bottle-01-217-750-ml-filitresiz-vaktinde-hasat-soguk-sikim-naturel-sizma-zeytinyag.jpg",
         "images/markalar/miranda/miranda-bottle-02-bottle-detail-02.jpg"
@@ -2410,6 +3510,11 @@
       "name": "Murat Zeytinyağı",
       "slug": "murat-zeytinyagi",
       "logo": "images/markalar/murat-zeytinyagi/murat-zeytinyagi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/murat-zeytinyagi/murat-zeytinyagi-logo.png",
+        "finalUrl": "images/markalar/murat-zeytinyagi/murat-zeytinyagi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/murat-zeytinyagi/murat-zeytinyagi-bottle-01-sl2back.jpg",
         "images/markalar/murat-zeytinyagi/murat-zeytinyagi-bottle-02-bottle-detail-02.jpg"
@@ -2420,6 +3525,11 @@
       "name": "Naturale",
       "slug": "naturale",
       "logo": "images/markalar/naturale/naturale-logo.png",
+      "logoSource": {
+        "source": "images/markalar/naturale/naturale-logo.png",
+        "finalUrl": "images/markalar/naturale/naturale-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/naturale/naturale-bottle-01-21559118.jpg",
         "images/markalar/naturale/naturale-bottle-02-bottle-detail-02.jpg"
@@ -2430,6 +3540,11 @@
       "name": "Nilbağ",
       "slug": "nilbag",
       "logo": "images/markalar/nilbag/nilbag-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/nilbag/nilbag-logo.webp",
+        "finalUrl": "images/markalar/nilbag/nilbag-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/nilbag/nilbag-bottle-01-erken-hasat-750.webp",
         "images/markalar/nilbag/nilbag-bottle-02-bottle-detail-02.jpg"
@@ -2440,6 +3555,11 @@
       "name": "Olea Aera",
       "slug": "olea-aera",
       "logo": "images/markalar/olea-aera/olea-aera-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olea-aera/olea-aera-logo.png",
+        "finalUrl": "images/markalar/olea-aera/olea-aera-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olea-aera/olea-aera-bottle-01-erken-hasat-4-400x600.jpg",
         "images/markalar/olea-aera/olea-aera-bottle-02-bottle-detail-02.jpg"
@@ -2450,6 +3570,11 @@
       "name": "Olivalley",
       "slug": "olivalley",
       "logo": "images/markalar/olivalley/olivalley-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/olivalley/olivalley-logo.webp",
+        "finalUrl": "images/markalar/olivalley/olivalley-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivalley/olivalley-bottle-01-9-800x400w-png.webp",
         "images/markalar/olivalley/olivalley-bottle-02-bottle-detail-02.jpg"
@@ -2460,6 +3585,11 @@
       "name": "Onursel Zeytincilik",
       "slug": "onursel-zeytincilik",
       "logo": "images/markalar/onursel-zeytincilik/onursel-zeytincilik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/onursel-zeytincilik/onursel-zeytincilik-logo.png",
+        "finalUrl": "images/markalar/onursel-zeytincilik/onursel-zeytincilik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/onursel-zeytincilik/onursel-zeytincilik-bottle-01-olive-oil-with-bread-spoon.jpg",
         "images/markalar/onursel-zeytincilik/onursel-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -2470,6 +3600,7 @@
       "name": "Orpir",
       "slug": "orpir",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/orpir/orpir-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/orpir/orpir-bottle-02-bottle-fallback-02.jpg"
@@ -2480,6 +3611,11 @@
       "name": "Pidasus",
       "slug": "pidasus",
       "logo": "images/markalar/pidasus/pidasus-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/pidasus/pidasus-logo.webp",
+        "finalUrl": "images/markalar/pidasus/pidasus-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/pidasus/pidasus-bottle-01-zeytinyagi.png",
         "images/markalar/pidasus/pidasus-bottle-02-bottle-detail-02.jpg"
@@ -2490,6 +3626,11 @@
       "name": "Sokol",
       "slug": "sokol",
       "logo": "images/markalar/sokol/sokol-logo.png",
+      "logoSource": {
+        "source": "images/markalar/sokol/sokol-logo.png",
+        "finalUrl": "images/markalar/sokol/sokol-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/sokol/sokol-bottle-01-olive-bowl-e1559846149260.png",
         "images/markalar/sokol/sokol-bottle-02-bottle-detail-02.jpg"
@@ -2500,6 +3641,11 @@
       "name": "Somak",
       "slug": "somak",
       "logo": "images/markalar/somak/somak-logo.png",
+      "logoSource": {
+        "source": "images/markalar/somak/somak-logo.png",
+        "finalUrl": "images/markalar/somak/somak-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/somak/somak-bottle-01-1.jpg",
         "images/markalar/somak/somak-bottle-02-bottle-detail-02.jpg"
@@ -2510,6 +3656,11 @@
       "name": "Taşaltı",
       "slug": "tasalti",
       "logo": "images/markalar/tasalti/tasalti-logo.png",
+      "logoSource": {
+        "source": "images/markalar/tasalti/tasalti-logo.png",
+        "finalUrl": "images/markalar/tasalti/tasalti-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/tasalti/tasalti-bottle-01-entry-content-image.webp",
         "images/markalar/tasalti/tasalti-bottle-02-bottle-detail-02.jpg"
@@ -2520,6 +3671,11 @@
       "name": "Terra Vigla",
       "slug": "terra-vigla",
       "logo": "images/markalar/terra-vigla/terra-vigla-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/terra-vigla/terra-vigla-logo.webp",
+        "finalUrl": "images/markalar/terra-vigla/terra-vigla-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/terra-vigla/terra-vigla-bottle-01-rs-h-500-cg-true-m.webp",
         "images/markalar/terra-vigla/terra-vigla-bottle-02-bottle-detail-02.jpg"
@@ -2530,6 +3686,11 @@
       "name": "Tuna Zeytincilik",
       "slug": "tuna-zeytincilik",
       "logo": "images/markalar/tuna-zeytincilik/tuna-zeytincilik-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/tuna-zeytincilik/tuna-zeytincilik-logo.webp",
+        "finalUrl": "images/markalar/tuna-zeytincilik/tuna-zeytincilik-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/tuna-zeytincilik/tuna-zeytincilik-bottle-01-whatsapp-image-2025-10-28-at-12-48-19-min.jpg",
         "images/markalar/tuna-zeytincilik/tuna-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -2540,6 +3701,11 @@
       "name": "Ustalı",
       "slug": "ustali",
       "logo": "images/markalar/ustali/ustali-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/ustali/ustali-logo.svg",
+        "finalUrl": "images/markalar/ustali/ustali-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ustali/ustali-bottle-01-about.webp",
         "images/markalar/ustali/ustali-bottle-02-bottle-detail-02.jpg"
@@ -2550,6 +3716,11 @@
       "name": "Varol",
       "slug": "varol",
       "logo": "images/markalar/varol/varol-logo.png",
+      "logoSource": {
+        "source": "images/markalar/varol/varol-logo.png",
+        "finalUrl": "images/markalar/varol/varol-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/varol/varol-bottle-01-hykxg6j7kupsw4qxwiyfuf31zemudcl99eusiv09.webp",
         "images/markalar/varol/varol-bottle-02-bottle-detail-02.jpg"
@@ -2560,6 +3731,11 @@
       "name": "Veysel Kaptan",
       "slug": "veysel-kaptan",
       "logo": "images/markalar/veysel-kaptan/veysel-kaptan-logo.png",
+      "logoSource": {
+        "source": "images/markalar/veysel-kaptan/veysel-kaptan-logo.png",
+        "finalUrl": "images/markalar/veysel-kaptan/veysel-kaptan-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/veysel-kaptan/veysel-kaptan-bottle-01-ramazan.jpg",
         "images/markalar/veysel-kaptan/veysel-kaptan-bottle-02-bottle-detail-02.jpg"
@@ -2570,6 +3746,11 @@
       "name": "Via Zeytinyağı",
       "slug": "via-zeytinyagi",
       "logo": "images/markalar/via-zeytinyagi/via-zeytinyagi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/via-zeytinyagi/via-zeytinyagi-logo.svg",
+        "finalUrl": "images/markalar/via-zeytinyagi/via-zeytinyagi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/via-zeytinyagi/via-zeytinyagi-bottle-01-about-history.webp",
         "images/markalar/via-zeytinyagi/via-zeytinyagi-bottle-02-bottle-detail-02.jpg"
@@ -2580,6 +3761,7 @@
       "name": "Zarbalı",
       "slug": "zarbali",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/zarbali/zarbali-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/zarbali/zarbali-bottle-02-bottle-fallback-02.jpg"
@@ -2590,6 +3772,11 @@
       "name": "Zest Ayvalık",
       "slug": "zest-ayvalik",
       "logo": "images/markalar/zest-ayvalik/zest-ayvalik-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/zest-ayvalik/zest-ayvalik-logo.webp",
+        "finalUrl": "images/markalar/zest-ayvalik/zest-ayvalik-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zest-ayvalik/zest-ayvalik-bottle-01-remove-small.png",
         "images/markalar/zest-ayvalik/zest-ayvalik-bottle-02-bottle-detail-02.jpg"
@@ -2600,6 +3787,11 @@
       "name": "Zeytunç Olive",
       "slug": "zeytunc-olive",
       "logo": "images/markalar/zeytunc-olive/zeytunc-olive-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/zeytunc-olive/zeytunc-olive-logo.webp",
+        "finalUrl": "images/markalar/zeytunc-olive/zeytunc-olive-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytunc-olive/zeytunc-olive-bottle-01-zeytinyagi-ayvalik-kategori-kucuk-1-150x150.webp",
         "images/markalar/zeytunc-olive/zeytunc-olive-bottle-02-bottle-detail-02.jpg"
@@ -2610,6 +3802,11 @@
       "name": "Evliyazade",
       "slug": "evliyazade",
       "logo": "images/markalar/evliyazade/evliyazade-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/evliyazade/evliyazade-logo.webp",
+        "finalUrl": "images/markalar/evliyazade/evliyazade-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/evliyazade/evliyazade-bottle-01-pictures-1.png",
         "images/markalar/evliyazade/evliyazade-bottle-02-bottle-detail-02.jpg"
@@ -2620,6 +3817,11 @@
       "name": "Tlos Olive",
       "slug": "tlos-olive",
       "logo": "images/markalar/tlos-olive/tlos-olive-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/tlos-olive/tlos-olive-logo.svg",
+        "finalUrl": "images/markalar/tlos-olive/tlos-olive-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/tlos-olive/tlos-olive-bottle-01-fenolive-600-750-ml-ultra-yuksek-polifenollu-zeytinyagi-1196-min.webp",
         "images/markalar/tlos-olive/tlos-olive-bottle-02-bottle-detail-02.jpg"
@@ -2630,6 +3832,11 @@
       "name": "The Mill",
       "slug": "the-mill",
       "logo": "images/markalar/the-mill/the-mill-logo.png",
+      "logoSource": {
+        "source": "images/markalar/the-mill/the-mill-logo.png",
+        "finalUrl": "images/markalar/the-mill/the-mill-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/the-mill/the-mill-bottle-01-extra-virgin-olive-oil-artistic.jpg",
         "images/markalar/the-mill/the-mill-bottle-02-bottle-detail-02.jpg"
@@ -2640,6 +3847,7 @@
       "name": "Dino Ayvalık",
       "slug": "dino-ayvalik",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/dino-ayvalik/dino-ayvalik-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/dino-ayvalik/dino-ayvalik-bottle-02-bottle-fallback-02.jpg"
@@ -2650,6 +3858,11 @@
       "name": "Hiç Urla",
       "slug": "hic-urla",
       "logo": "images/markalar/hic-urla/hic-urla-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/hic-urla/hic-urla-logo.svg",
+        "finalUrl": "images/markalar/hic-urla/hic-urla-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hic-urla/hic-urla-bottle-01-hic-mobil.png",
         "images/markalar/hic-urla/hic-urla-bottle-02-bottle-detail-02.jpg"
@@ -2660,6 +3873,11 @@
       "name": "Eşref Bey Zeytincilik",
       "slug": "esref-bey-zeytincilik",
       "logo": "images/markalar/esref-bey-zeytincilik/esref-bey-zeytincilik-logo.avif",
+      "logoSource": {
+        "source": "images/markalar/esref-bey-zeytincilik/esref-bey-zeytincilik-logo.avif",
+        "finalUrl": "images/markalar/esref-bey-zeytincilik/esref-bey-zeytincilik-logo.avif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/esref-bey-zeytincilik/esref-bey-zeytincilik-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/esref-bey-zeytincilik/esref-bey-zeytincilik-bottle-02-bottle-fallback-02.jpg"
@@ -2670,6 +3888,11 @@
       "name": "Hellenia",
       "slug": "hellenia",
       "logo": "images/markalar/hellenia/hellenia-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/hellenia/hellenia-logo.webp",
+        "finalUrl": "images/markalar/hellenia/hellenia-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/hellenia/hellenia-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/hellenia/hellenia-bottle-02-bottle-fallback-02.jpg"
@@ -2680,6 +3903,11 @@
       "name": "Olidya",
       "slug": "olidya",
       "logo": "images/markalar/olidya/olidya-logo.png",
+      "logoSource": {
+        "source": "images/markalar/olidya/olidya-logo.png",
+        "finalUrl": "images/markalar/olidya/olidya-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olidya/olidya-bottle-01-youngverde-zeytingyagi-04-600x700.jpg",
         "images/markalar/olidya/olidya-bottle-02-bottle-detail-02.jpg"
@@ -2690,6 +3918,11 @@
       "name": "Olive811",
       "slug": "olive811",
       "logo": "images/markalar/olive811/olive811-logo.avif",
+      "logoSource": {
+        "source": "images/markalar/olive811/olive811-logo.avif",
+        "finalUrl": "images/markalar/olive811/olive811-logo.avif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olive811/olive811-bottle-01-saglikli-zeytin-meyveleri.avif",
         "images/markalar/olive811/olive811-bottle-02-bottle-detail-02.jpg"
@@ -2700,6 +3933,11 @@
       "name": "Taha Kervan",
       "slug": "taha-kervan",
       "logo": "images/markalar/taha-kervan/taha-kervan-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/taha-kervan/taha-kervan-logo.svg",
+        "finalUrl": "images/markalar/taha-kervan/taha-kervan-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/taha-kervan/taha-kervan-bottle-01-leaves-bg.jpg",
         "images/markalar/taha-kervan/taha-kervan-bottle-02-bottle-detail-02.jpg"
@@ -2710,6 +3948,11 @@
       "name": "Kius",
       "slug": "kius",
       "logo": "images/markalar/kius/kius-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/kius/kius-logo.svg",
+        "finalUrl": "images/markalar/kius/kius-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kius/kius-bottle-01-erken-hasat-soguk-sikim-filtesiz-500ml.jpg",
         "images/markalar/kius/kius-bottle-02-bottle-detail-02.jpg"
@@ -2720,6 +3963,11 @@
       "name": "Zavendik",
       "slug": "zavendik",
       "logo": "images/markalar/zavendik/zavendik-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/zavendik/zavendik-logo.svg",
+        "finalUrl": "images/markalar/zavendik/zavendik-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zavendik/zavendik-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/zavendik/zavendik-bottle-02-bottle-fallback-02.jpg"
@@ -2730,6 +3978,11 @@
       "name": "Vievi",
       "slug": "vievi",
       "logo": "images/markalar/vievi/vievi-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/vievi/vievi-logo.svg",
+        "finalUrl": "images/markalar/vievi/vievi-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/vievi/vievi-bottle-01-erken-hasat-yesil-1250x610pxl-1.jpg",
         "images/markalar/vievi/vievi-bottle-02-bottle-detail-02.jpg"
@@ -2740,6 +3993,11 @@
       "name": "Kesebir",
       "slug": "kesebir",
       "logo": "images/markalar/kesebir/kesebir-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/kesebir/kesebir-logo.webp",
+        "finalUrl": "images/markalar/kesebir/kesebir-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kesebir/kesebir-bottle-01-mandira-sut-urunleri-yeni.png",
         "images/markalar/kesebir/kesebir-bottle-02-bottle-detail-02.jpg"
@@ -2750,6 +4008,11 @@
       "name": "Kue Olive Oil",
       "slug": "kue-olive-oil",
       "logo": "images/markalar/kue-olive-oil/kue-olive-oil-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kue-olive-oil/kue-olive-oil-logo.png",
+        "finalUrl": "images/markalar/kue-olive-oil/kue-olive-oil-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kue-olive-oil/kue-olive-oil-bottle-01-kue-premium-seri-erken-hasat-soguk-sik-7ba-4e.webp",
         "images/markalar/kue-olive-oil/kue-olive-oil-bottle-02-bottle-detail-02.jpg"
@@ -2760,6 +4023,11 @@
       "name": "Giz Olive Oil",
       "slug": "giz-olive-oil",
       "logo": "images/markalar/giz-olive-oil/giz-olive-oil-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/giz-olive-oil/giz-olive-oil-logo.webp",
+        "finalUrl": "images/markalar/giz-olive-oil/giz-olive-oil-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/giz-olive-oil/giz-olive-oil-bottle-01-giz5000-min.jpg",
         "images/markalar/giz-olive-oil/giz-olive-oil-bottle-02-bottle-detail-02.jpg"
@@ -2770,6 +4038,11 @@
       "name": "Sakallı Zeytincilik",
       "slug": "sakalli-zeytincilik",
       "logo": "images/markalar/sakalli-zeytincilik/sakalli-zeytincilik-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/sakalli-zeytincilik/sakalli-zeytincilik-logo.webp",
+        "finalUrl": "images/markalar/sakalli-zeytincilik/sakalli-zeytincilik-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/sakalli-zeytincilik/sakalli-zeytincilik-bottle-01-sakalli24-min.webp",
         "images/markalar/sakalli-zeytincilik/sakalli-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -2780,6 +4053,11 @@
       "name": "Kavalan Zeytinyağları",
       "slug": "kavalan-zeytinyaglari",
       "logo": "images/markalar/kavalan-zeytinyaglari/kavalan-zeytinyaglari-logo.png",
+      "logoSource": {
+        "source": "images/markalar/kavalan-zeytinyaglari/kavalan-zeytinyaglari-logo.png",
+        "finalUrl": "images/markalar/kavalan-zeytinyaglari/kavalan-zeytinyaglari-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kavalan-zeytinyaglari/kavalan-zeytinyaglari-bottle-01-zeytin-sutu-100-min.webp",
         "images/markalar/kavalan-zeytinyaglari/kavalan-zeytinyaglari-bottle-02-bottle-detail-02.jpg"
@@ -2790,6 +4068,11 @@
       "name": "Dizem Organik",
       "slug": "dizem-organik",
       "logo": "images/markalar/dizem-organik/dizem-organik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/dizem-organik/dizem-organik-logo.png",
+        "finalUrl": "images/markalar/dizem-organik/dizem-organik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/dizem-organik/dizem-organik-bottle-01-calisma-yuzeyi-1-2x-min.jpg",
         "images/markalar/dizem-organik/dizem-organik-bottle-02-bottle-detail-02.jpg"
@@ -2800,6 +4083,11 @@
       "name": "Riccolivo",
       "slug": "riccolivo",
       "logo": "images/markalar/riccolivo/riccolivo-logo.png",
+      "logoSource": {
+        "source": "images/markalar/riccolivo/riccolivo-logo.png",
+        "finalUrl": "images/markalar/riccolivo/riccolivo-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/riccolivo/riccolivo-bottle-01-cart.png",
         "images/markalar/riccolivo/riccolivo-bottle-02-bottle-detail-02.jpg"
@@ -2810,6 +4098,11 @@
       "name": "Orfion",
       "slug": "orfion",
       "logo": "images/markalar/orfion/orfion-logo.png",
+      "logoSource": {
+        "source": "images/markalar/orfion/orfion-logo.png",
+        "finalUrl": "images/markalar/orfion/orfion-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/orfion/orfion-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/orfion/orfion-bottle-02-bottle-fallback-02.jpg"
@@ -2820,6 +4113,7 @@
       "name": "Gülpınar",
       "slug": "gulpinar",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/gulpinar/gulpinar-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/gulpinar/gulpinar-bottle-02-bottle-fallback-02.jpg"
@@ -2830,6 +4124,11 @@
       "name": "İzorya",
       "slug": "izorya",
       "logo": "images/markalar/izorya/izorya-logo.png",
+      "logoSource": {
+        "source": "images/markalar/izorya/izorya-logo.png",
+        "finalUrl": "images/markalar/izorya/izorya-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/izorya/izorya-bottle-01-mansur-yavas-ile-birlikte-yilin-ilk-mut-zeytinyagi-uretimini-gerceklesti.jpg",
         "images/markalar/izorya/izorya-bottle-02-bottle-detail-02.jpg"
@@ -2840,6 +4139,11 @@
       "name": "Dardanos Fine Foods",
       "slug": "dardanos-fine-foods",
       "logo": "images/markalar/dardanos-fine-foods/dardanos-fine-foods-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/dardanos-fine-foods/dardanos-fine-foods-logo.webp",
+        "finalUrl": "images/markalar/dardanos-fine-foods/dardanos-fine-foods-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/dardanos-fine-foods/dardanos-fine-foods-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/dardanos-fine-foods/dardanos-fine-foods-bottle-02-bottle-fallback-02.jpg"
@@ -2850,6 +4154,11 @@
       "name": "Roda Farm",
       "slug": "roda-farm",
       "logo": "images/markalar/roda-farm/roda-farm-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/roda-farm/roda-farm-logo.webp",
+        "finalUrl": "images/markalar/roda-farm/roda-farm-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/roda-farm/roda-farm-bottle-01-ayvalik-sise-naturel-sizma-z-b04e-f.png",
         "images/markalar/roda-farm/roda-farm-bottle-02-bottle-detail-02.jpg"
@@ -2860,6 +4169,11 @@
       "name": "Nima Gurme",
       "slug": "nima-gurme",
       "logo": "images/markalar/nima-gurme/nima-gurme-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/nima-gurme/nima-gurme-logo.webp",
+        "finalUrl": "images/markalar/nima-gurme/nima-gurme-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/nima-gurme/nima-gurme-bottle-01-zeytin-650g-web1-imaj.webp",
         "images/markalar/nima-gurme/nima-gurme-bottle-02-bottle-detail-02.jpg"
@@ -2870,6 +4184,11 @@
       "name": "Ezra Olive Oil",
       "slug": "ezra-olive-oil",
       "logo": "images/markalar/ezra-olive-oil/ezra-olive-oil-logo.png",
+      "logoSource": {
+        "source": "images/markalar/ezra-olive-oil/ezra-olive-oil-logo.png",
+        "finalUrl": "images/markalar/ezra-olive-oil/ezra-olive-oil-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/ezra-olive-oil/ezra-olive-oil-bottle-01-popup.jpg",
         "images/markalar/ezra-olive-oil/ezra-olive-oil-bottle-02-bottle-detail-02.jpg"
@@ -2880,6 +4199,11 @@
       "name": "Mazınköy",
       "slug": "mazinkoy",
       "logo": "images/markalar/mazinkoy/mazinkoy-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/mazinkoy/mazinkoy-logo.jpg",
+        "finalUrl": "images/markalar/mazinkoy/mazinkoy-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mazinkoy/mazinkoy-bottle-01-zeytinyagi-sabun-247x296.jpg",
         "images/markalar/mazinkoy/mazinkoy-bottle-02-bottle-detail-02.jpg"
@@ -2890,6 +4214,11 @@
       "name": "Sarraf Olive Oil",
       "slug": "sarraf-olive-oil",
       "logo": "images/markalar/sarraf-olive-oil/sarraf-olive-oil-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/sarraf-olive-oil/sarraf-olive-oil-logo.webp",
+        "finalUrl": "images/markalar/sarraf-olive-oil/sarraf-olive-oil-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/sarraf-olive-oil/sarraf-olive-oil-bottle-01-unnamed.webp",
         "images/markalar/sarraf-olive-oil/sarraf-olive-oil-bottle-02-bottle-detail-02.jpg"
@@ -2900,6 +4229,11 @@
       "name": "Seroliva",
       "slug": "seroliva",
       "logo": "images/markalar/seroliva/seroliva-logo.avif",
+      "logoSource": {
+        "source": "images/markalar/seroliva/seroliva-logo.avif",
+        "finalUrl": "images/markalar/seroliva/seroliva-logo.avif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/seroliva/seroliva-bottle-01-zeytinyagi.avif",
         "images/markalar/seroliva/seroliva-bottle-02-bottle-detail-02.jpg"
@@ -2910,6 +4244,11 @@
       "name": "Akey Çatal Zeytin",
       "slug": "akey-catal-zeytin",
       "logo": "images/markalar/akey-catal-zeytin/akey-catal-zeytin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/akey-catal-zeytin/akey-catal-zeytin-logo.png",
+        "finalUrl": "images/markalar/akey-catal-zeytin/akey-catal-zeytin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/akey-catal-zeytin/akey-catal-zeytin-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/akey-catal-zeytin/akey-catal-zeytin-bottle-02-bottle-fallback-02.jpg"
@@ -2920,6 +4259,7 @@
       "name": "Alpoliva",
       "slug": "alpoliva",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/alpoliva/alpoliva-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/alpoliva/alpoliva-bottle-02-bottle-fallback-02.jpg"
@@ -2930,6 +4270,7 @@
       "name": "Anıt Yağ",
       "slug": "anit-yag",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/anit-yag/anit-yag-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/anit-yag/anit-yag-bottle-02-bottle-fallback-02.jpg"
@@ -2940,6 +4281,11 @@
       "name": "Armutlu Zeytincilik",
       "slug": "armutlu-zeytincilik",
       "logo": "images/markalar/armutlu-zeytincilik/armutlu-zeytincilik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/armutlu-zeytincilik/armutlu-zeytincilik-logo.png",
+        "finalUrl": "images/markalar/armutlu-zeytincilik/armutlu-zeytincilik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/armutlu-zeytincilik/armutlu-zeytincilik-bottle-01-a6-1140x550.jpg",
         "images/markalar/armutlu-zeytincilik/armutlu-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -2950,6 +4296,7 @@
       "name": "Aysan",
       "slug": "aysan",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/aysan/aysan-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/aysan/aysan-bottle-02-bottle-fallback-02.jpg"
@@ -2960,6 +4307,11 @@
       "name": "Çobanöz Zeytincilik",
       "slug": "cobanoz-zeytincilik",
       "logo": "images/markalar/cobanoz-zeytincilik/cobanoz-zeytincilik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/cobanoz-zeytincilik/cobanoz-zeytincilik-logo.png",
+        "finalUrl": "images/markalar/cobanoz-zeytincilik/cobanoz-zeytincilik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/cobanoz-zeytincilik/cobanoz-zeytincilik-bottle-01-cobanoz-hakkimizda-tabela-290x181.jpg",
         "images/markalar/cobanoz-zeytincilik/cobanoz-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -2970,6 +4322,11 @@
       "name": "Dervişoğlu Zeytin",
       "slug": "dervisoglu-zeytin",
       "logo": "images/markalar/dervisoglu-zeytin/dervisoglu-zeytin-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/dervisoglu-zeytin/dervisoglu-zeytin-logo.webp",
+        "finalUrl": "images/markalar/dervisoglu-zeytin/dervisoglu-zeytin-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/dervisoglu-zeytin/dervisoglu-zeytin-bottle-01-zeytinyagi-qd9pyz2c3v9ko7cvh8v2vzfj3dhpabjrarclalgvw4.webp",
         "images/markalar/dervisoglu-zeytin/dervisoglu-zeytin-bottle-02-bottle-detail-02.jpg"
@@ -2980,6 +4337,7 @@
       "name": "Durukaan",
       "slug": "durukaan",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/durukaan/durukaan-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/durukaan/durukaan-bottle-02-bottle-fallback-02.jpg"
@@ -2990,6 +4348,7 @@
       "name": "Egeo Norte",
       "slug": "egeo-norte",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/egeo-norte/egeo-norte-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/egeo-norte/egeo-norte-bottle-02-bottle-fallback-02.jpg"
@@ -3000,6 +4359,7 @@
       "name": "Femes",
       "slug": "femes",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/femes/femes-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/femes/femes-bottle-02-bottle-fallback-02.jpg"
@@ -3010,6 +4370,7 @@
       "name": "Galia Garden",
       "slug": "galia-garden",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/galia-garden/galia-garden-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/galia-garden/galia-garden-bottle-02-bottle-fallback-02.jpg"
@@ -3020,6 +4381,7 @@
       "name": "Garbi Garden",
       "slug": "garbi-garden",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/garbi-garden/garbi-garden-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/garbi-garden/garbi-garden-bottle-02-bottle-fallback-02.jpg"
@@ -3030,6 +4392,11 @@
       "name": "Güngör Zeytin",
       "slug": "gungor-zeytin",
       "logo": "images/markalar/gungor-zeytin/gungor-zeytin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/gungor-zeytin/gungor-zeytin-logo.png",
+        "finalUrl": "images/markalar/gungor-zeytin/gungor-zeytin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/gungor-zeytin/gungor-zeytin-bottle-01-zeytin1-qj0xb8kbtgshca0y5u61gfjqdaxit6a8ym043zzv2u.png",
         "images/markalar/gungor-zeytin/gungor-zeytin-bottle-02-bottle-detail-02.jpg"
@@ -3040,6 +4407,7 @@
       "name": "Hektor's",
       "slug": "hektors",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/hektors/hektors-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/hektors/hektors-bottle-02-bottle-fallback-02.jpg"
@@ -3050,6 +4418,7 @@
       "name": "Hemdem Via Ga",
       "slug": "hemdem-via-ga",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/hemdem-via-ga/hemdem-via-ga-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/hemdem-via-ga/hemdem-via-ga-bottle-02-bottle-fallback-02.jpg"
@@ -3060,6 +4429,7 @@
       "name": "Heraliv",
       "slug": "heraliv",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/heraliv/heraliv-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/heraliv/heraliv-bottle-02-bottle-fallback-02.jpg"
@@ -3070,6 +4440,11 @@
       "name": "İznik Zeytin Evi",
       "slug": "iznik-zeytin-evi",
       "logo": "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-logo.png",
+      "logoSource": {
+        "source": "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-logo.png",
+        "finalUrl": "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-bottle-01-elmasirkemizcikti.jpg",
         "images/markalar/iznik-zeytin-evi/iznik-zeytin-evi-bottle-02-bottle-detail-02.jpg"
@@ -3080,6 +4455,11 @@
       "name": "Karadane",
       "slug": "karadane",
       "logo": "images/markalar/karadane/karadane-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/karadane/karadane-logo.webp",
+        "finalUrl": "images/markalar/karadane/karadane-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/karadane/karadane-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/karadane/karadane-bottle-02-bottle-fallback-02.jpg"
@@ -3090,6 +4470,11 @@
       "name": "Kudret Zeytinyağları",
       "slug": "kudret-zeytinyaglari",
       "logo": "images/markalar/kudret-zeytinyaglari/kudret-zeytinyaglari-logo.gif",
+      "logoSource": {
+        "source": "images/markalar/kudret-zeytinyaglari/kudret-zeytinyaglari-logo.gif",
+        "finalUrl": "images/markalar/kudret-zeytinyaglari/kudret-zeytinyaglari-logo.gif",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/kudret-zeytinyaglari/kudret-zeytinyaglari-bottle-01-zeytinyagi-min.png",
         "images/markalar/kudret-zeytinyaglari/kudret-zeytinyaglari-bottle-02-bottle-detail-02.jpg"
@@ -3100,6 +4485,7 @@
       "name": "Külahlı Zeytinyağı",
       "slug": "kulahli-zeytinyagi",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/kulahli-zeytinyagi/kulahli-zeytinyagi-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/kulahli-zeytinyagi/kulahli-zeytinyagi-bottle-02-bottle-fallback-02.jpg"
@@ -3110,6 +4496,7 @@
       "name": "Levi Farm",
       "slug": "levi-farm",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/levi-farm/levi-farm-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/levi-farm/levi-farm-bottle-02-bottle-fallback-02.jpg"
@@ -3120,6 +4507,11 @@
       "name": "Malhun Hatun",
       "slug": "malhun-hatun",
       "logo": "images/markalar/malhun-hatun/malhun-hatun-logo.png",
+      "logoSource": {
+        "source": "images/markalar/malhun-hatun/malhun-hatun-logo.png",
+        "finalUrl": "images/markalar/malhun-hatun/malhun-hatun-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/malhun-hatun/malhun-hatun-bottle-01-product-6954e13a2aed72-84434114.webp",
         "images/markalar/malhun-hatun/malhun-hatun-bottle-02-bottle-detail-02.jpg"
@@ -3130,6 +4522,11 @@
       "name": "Mekece Işık",
       "slug": "mekece-isik",
       "logo": "images/markalar/mekece-isik/mekece-isik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/mekece-isik/mekece-isik-logo.png",
+        "finalUrl": "images/markalar/mekece-isik/mekece-isik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mekece-isik/mekece-isik-bottle-01-the-real-reasons-olive-oil-is-so-expensive-1637354361.jpg",
         "images/markalar/mekece-isik/mekece-isik-bottle-02-bottle-detail-02.jpg"
@@ -3140,6 +4537,11 @@
       "name": "Mete Zeytin",
       "slug": "mete-zeytin",
       "logo": "images/markalar/mete-zeytin/mete-zeytin-logo.png",
+      "logoSource": {
+        "source": "images/markalar/mete-zeytin/mete-zeytin-logo.png",
+        "finalUrl": "images/markalar/mete-zeytin/mete-zeytin-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/mete-zeytin/mete-zeytin-bottle-01-ilk-hasat-soguk-sikim-mete-zeytin-5.jpg",
         "images/markalar/mete-zeytin/mete-zeytin-bottle-02-bottle-detail-02.jpg"
@@ -3150,6 +4552,11 @@
       "name": "Miryağ",
       "slug": "miryag",
       "logo": "images/markalar/miryag/miryag-logo.svg",
+      "logoSource": {
+        "source": "images/markalar/miryag/miryag-logo.svg",
+        "finalUrl": "images/markalar/miryag/miryag-logo.svg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/miryag/miryag-bottle-01-sise.png",
         "images/markalar/miryag/miryag-bottle-02-bottle-detail-02.jpg"
@@ -3160,6 +4567,7 @@
       "name": "Naif Ege Zeytincilik",
       "slug": "naif-ege-zeytincilik",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/naif-ege-zeytincilik/naif-ege-zeytincilik-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/naif-ege-zeytincilik/naif-ege-zeytincilik-bottle-02-bottle-fallback-02.jpg"
@@ -3170,6 +4578,11 @@
       "name": "Namlı Zeytinleri",
       "slug": "namli-zeytinleri",
       "logo": "images/markalar/namli-zeytinleri/namli-zeytinleri-logo.png",
+      "logoSource": {
+        "source": "images/markalar/namli-zeytinleri/namli-zeytinleri-logo.png",
+        "finalUrl": "images/markalar/namli-zeytinleri/namli-zeytinleri-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/namli-zeytinleri/namli-zeytinleri-bottle-01-1-1024x683.jpg",
         "images/markalar/namli-zeytinleri/namli-zeytinleri-bottle-02-bottle-detail-02.jpg"
@@ -3180,6 +4593,7 @@
       "name": "Ninurta",
       "slug": "ninurta",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/ninurta/ninurta-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/ninurta/ninurta-bottle-02-bottle-fallback-02.jpg"
@@ -3190,6 +4604,7 @@
       "name": "Odesa",
       "slug": "odesa",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/odesa/odesa-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/odesa/odesa-bottle-02-bottle-fallback-02.jpg"
@@ -3200,6 +4615,11 @@
       "name": "OKAY Zeytinleri",
       "slug": "okay-zeytinleri",
       "logo": "images/markalar/okay-zeytinleri/okay-zeytinleri-logo.jpg",
+      "logoSource": {
+        "source": "images/markalar/okay-zeytinleri/okay-zeytinleri-logo.jpg",
+        "finalUrl": "images/markalar/okay-zeytinleri/okay-zeytinleri-logo.jpg",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/okay-zeytinleri/okay-zeytinleri-bottle-01-24198222332460731927.jpg",
         "images/markalar/okay-zeytinleri/okay-zeytinleri-bottle-02-bottle-detail-02.jpg"
@@ -3210,6 +4630,7 @@
       "name": "Oliova",
       "slug": "oliova",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/oliova/oliova-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/oliova/oliova-bottle-02-bottle-fallback-02.jpg"
@@ -3220,6 +4641,7 @@
       "name": "Oliva Troas",
       "slug": "oliva-troas",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/oliva-troas/oliva-troas-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/oliva-troas/oliva-troas-bottle-02-bottle-fallback-02.jpg"
@@ -3230,6 +4652,11 @@
       "name": "Olivogue",
       "slug": "olivogue",
       "logo": "images/markalar/olivogue/olivogue-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/olivogue/olivogue-logo.webp",
+        "finalUrl": "images/markalar/olivogue/olivogue-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/olivogue/olivogue-bottle-01-3-litre-erken-hasat-zeytinyagi-soguk-sikim-teneke.webp",
         "images/markalar/olivogue/olivogue-bottle-02-bottle-detail-02.jpg"
@@ -3240,6 +4667,11 @@
       "name": "Orhangazi Zeytincilik",
       "slug": "orhangazi-zeytincilik",
       "logo": "images/markalar/orhangazi-zeytincilik/orhangazi-zeytincilik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/orhangazi-zeytincilik/orhangazi-zeytincilik-logo.png",
+        "finalUrl": "images/markalar/orhangazi-zeytincilik/orhangazi-zeytincilik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/orhangazi-zeytincilik/orhangazi-zeytincilik-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/orhangazi-zeytincilik/orhangazi-zeytincilik-bottle-02-bottle-fallback-02.jpg"
@@ -3250,6 +4682,7 @@
       "name": "Özbey 17",
       "slug": "ozbey-17",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/ozbey-17/ozbey-17-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/ozbey-17/ozbey-17-bottle-02-bottle-fallback-02.jpg"
@@ -3260,6 +4693,11 @@
       "name": "Rumeli Zeytincilik",
       "slug": "rumeli-zeytincilik",
       "logo": "images/markalar/rumeli-zeytincilik/rumeli-zeytincilik-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/rumeli-zeytincilik/rumeli-zeytincilik-logo.webp",
+        "finalUrl": "images/markalar/rumeli-zeytincilik/rumeli-zeytincilik-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/rumeli-zeytincilik/rumeli-zeytincilik-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/rumeli-zeytincilik/rumeli-zeytincilik-bottle-02-bottle-fallback-02.jpg"
@@ -3270,6 +4708,11 @@
       "name": "Semiz Zeytin",
       "slug": "semiz-zeytin",
       "logo": "images/markalar/semiz-zeytin/semiz-zeytin-logo.webp",
+      "logoSource": {
+        "source": "images/markalar/semiz-zeytin/semiz-zeytin-logo.webp",
+        "finalUrl": "images/markalar/semiz-zeytin/semiz-zeytin-logo.webp",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/semiz-zeytin/semiz-zeytin-bottle-01-yesil-zeytin-kategori-resim.jpg",
         "images/markalar/semiz-zeytin/semiz-zeytin-bottle-02-bottle-detail-02.jpg"
@@ -3280,6 +4723,7 @@
       "name": "Tavoliva",
       "slug": "tavoliva",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/tavoliva/tavoliva-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/tavoliva/tavoliva-bottle-02-bottle-fallback-02.jpg"
@@ -3290,6 +4734,7 @@
       "name": "Tenedos",
       "slug": "tenedos",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/tenedos/tenedos-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/tenedos/tenedos-bottle-02-bottle-fallback-02.jpg"
@@ -3300,6 +4745,7 @@
       "name": "Troas",
       "slug": "troas",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/troas/troas-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/troas/troas-bottle-02-bottle-fallback-02.jpg"
@@ -3310,6 +4756,7 @@
       "name": "Uğurlu Zeytinyağları",
       "slug": "ugurlu-zeytinyaglari",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/ugurlu-zeytinyaglari/ugurlu-zeytinyaglari-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/ugurlu-zeytinyaglari/ugurlu-zeytinyaglari-bottle-02-bottle-fallback-02.jpg"
@@ -3320,6 +4767,7 @@
       "name": "Vega 1923",
       "slug": "vega-1923",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/vega-1923/vega-1923-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/vega-1923/vega-1923-bottle-02-bottle-fallback-02.jpg"
@@ -3330,6 +4778,7 @@
       "name": "Vivendi",
       "slug": "vivendi",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/vivendi/vivendi-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/vivendi/vivendi-bottle-02-bottle-fallback-02.jpg"
@@ -3340,6 +4789,11 @@
       "name": "Yeşil İris",
       "slug": "yesil-iris",
       "logo": "images/markalar/yesil-iris/yesil-iris-logo.png",
+      "logoSource": {
+        "source": "images/markalar/yesil-iris/yesil-iris-logo.png",
+        "finalUrl": "images/markalar/yesil-iris/yesil-iris-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yesil-iris/yesil-iris-bottle-01-organik-tarim-1.jpg",
         "images/markalar/yesil-iris/yesil-iris-bottle-02-bottle-detail-02.jpg"
@@ -3350,6 +4804,11 @@
       "name": "Yükseloğulları",
       "slug": "yukselogullari",
       "logo": "images/markalar/yukselogullari/yukselogullari-logo.png",
+      "logoSource": {
+        "source": "images/markalar/yukselogullari/yukselogullari-logo.png",
+        "finalUrl": "images/markalar/yukselogullari/yukselogullari-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/yukselogullari/yukselogullari-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/yukselogullari/yukselogullari-bottle-02-bottle-fallback-02.jpg"
@@ -3360,6 +4819,7 @@
       "name": "Zelena",
       "slug": "zelena",
       "logo": null,
+      "logoSource": null,
       "bottles": [
         "images/markalar/zelena/zelena-bottle-01-bottle-fallback-01.jpg",
         "images/markalar/zelena/zelena-bottle-02-bottle-fallback-02.jpg"
@@ -3370,6 +4830,11 @@
       "name": "Zeyer Zeytincilik",
       "slug": "zeyer-zeytincilik",
       "logo": "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-logo.png",
+        "finalUrl": "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-bottle-01-tirilye-zeytini.webp",
         "images/markalar/zeyer-zeytincilik/zeyer-zeytincilik-bottle-02-bottle-detail-02.jpg"
@@ -3380,6 +4845,11 @@
       "name": "ZeytinAna",
       "slug": "zeytinana",
       "logo": "images/markalar/zeytinana/zeytinana-logo.png",
+      "logoSource": {
+        "source": "images/markalar/zeytinana/zeytinana-logo.png",
+        "finalUrl": "images/markalar/zeytinana/zeytinana-logo.png",
+        "sourceType": "local-copy"
+      },
       "bottles": [
         "images/markalar/zeytinana/zeytinana-bottle-01-nasilbozmuyoruz-png-5604.png",
         "images/markalar/zeytinana/zeytinana-bottle-02-bottle-detail-02.jpg"

@@ -5,6 +5,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 node scripts/mirror-brand-assets.mjs
+node scripts/build-brand-logo-registry.mjs
+node scripts/validate-brand-logos.mjs --mode regression
 node scripts/build-brand-websites.mjs
 python3 scripts/filter-iframe-brand-websites.py
 node scripts/build-brand-locations.mjs
